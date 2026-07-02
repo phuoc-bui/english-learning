@@ -1,3 +1,95 @@
-export function render(el) {
-  el.innerHTML = '<div class="empty"><p>Đang xây dựng...</p></div>';
+import { speak, listenOnce, sttSupported } from '../speech.js';
+
+function latestAnswer(store, today, question) {
+  const entries = store.state.interviewLog.filter((e) => e.date === today && e.question === question);
+  return entries.length ? entries[entries.length - 1].transcript : null;
+}
+
+export function render(el, ctx) {
+  const { store, pack } = ctx;
+  if (!pack) {
+    el.innerHTML = '<p class="error">Chưa tải được bài học.</p>';
+    return;
+  }
+
+  const saveAnswer = (question, transcript) => {
+    store.state.interviewLog.push({ date: ctx.today, question, transcript });
+    store.save();
+    if (pack.interview.every((it) => latestAnswer(store, ctx.today, it.question))) {
+      store.markActivity(ctx.today, 'interview');
+    }
+  };
+
+  function draw() {
+    el.innerHTML = `
+      <header class="page-head"><h1>Phỏng vấn</h1></header>
+      ${pack.interview.map((it, i) => {
+        const ans = latestAnswer(store, ctx.today, it.question);
+        return `
+        <div class="iv">
+          <p class="q">${it.question} <button class="speak-btn small" data-say="${i}">🔊</button></p>
+          <details><summary>💡 Tips trả lời</summary><ul>${it.tips_vi.map((t) => `<li>${t}</li>`).join('')}</ul></details>
+          <div class="row">
+            ${sttSupported ? `<button class="mic" data-mic="${i}">🎤 Trả lời bằng giọng nói</button>` : ''}
+            <button data-type="${i}">⌨️ Gõ câu trả lời</button>
+          </div>
+          <div id="typebox-${i}" style="display:none">
+            <textarea id="ta-${i}" placeholder="Type your answer in English..."></textarea>
+            <button class="primary" data-submit="${i}">Lưu câu trả lời</button>
+          </div>
+          ${ans ? `<p class="transcript">Bạn: "${ans}"</p>` : ''}
+          <details><summary>📄 Câu trả lời mẫu (B1)</summary><p>${it.sample_answer}</p></details>
+          <button data-copy="${i}">📋 Copy để hỏi Claude</button>
+          <span id="copied-${i}" class="warn" style="display:none">Đã copy — dán vào app Claude nhé!</span>
+        </div>`;
+      }).join('')}
+    `;
+
+    el.querySelectorAll('[data-say]').forEach((b) => {
+      b.onclick = () => speak(pack.interview[+b.dataset.say].question);
+    });
+    el.querySelectorAll('[data-mic]').forEach((b) => {
+      b.onclick = () => {
+        const i = +b.dataset.mic;
+        b.textContent = '👂 Đang nghe... (nói xong sẽ tự dừng)';
+        b.disabled = true;
+        listenOnce({
+          onResult: (t) => saveAnswer(pack.interview[i].question, t),
+          onError: () => {},
+          onEnd: () => draw(),
+        });
+      };
+    });
+    el.querySelectorAll('[data-type]').forEach((b) => {
+      b.onclick = () => {
+        document.getElementById(`typebox-${b.dataset.type}`).style.display = 'block';
+      };
+    });
+    el.querySelectorAll('[data-submit]').forEach((b) => {
+      b.onclick = () => {
+        const i = +b.dataset.submit;
+        const text = document.getElementById(`ta-${i}`).value.trim();
+        if (text) {
+          saveAnswer(pack.interview[i].question, text);
+          draw();
+        }
+      };
+    });
+    el.querySelectorAll('[data-copy]').forEach((b) => {
+      b.onclick = async () => {
+        const i = +b.dataset.copy;
+        const it = pack.interview[i];
+        const ans = latestAnswer(store, ctx.today, it.question) || '(chưa trả lời)';
+        const prompt = [
+          'Tôi đang luyện phỏng vấn tiếng Anh (trình độ B1, ngành IT/phần mềm).',
+          `Câu hỏi phỏng vấn: "${it.question}"`,
+          `Câu trả lời của tôi: "${ans}"`,
+          'Hãy nhận xét giúp tôi: 1) lỗi ngữ pháp, 2) từ vựng nên thay để tự nhiên hơn, 3) cấu trúc câu trả lời (dùng STAR nếu phù hợp), 4) viết lại một bản cải thiện ở trình độ B1-B2.',
+        ].join('\n\n');
+        await navigator.clipboard.writeText(prompt);
+        document.getElementById(`copied-${i}`).style.display = 'inline';
+      };
+    });
+  }
+  draw();
 }
