@@ -32,24 +32,24 @@
     ]
   },
   "shadowing": [
-    "Let me give you a short summary of this week's work.",
-    "We reached an important milestone this week.",
-    "The report feature is a bit behind schedule.",
-    "We may need one more resource to catch up.",
-    "Please escalate to me directly if anything blocks you."
+    "Let me give you a short summary of this week's work first.",
+    "We reached an important milestone this week with the payment API.",
+    "The report feature is a bit behind schedule, about two days late.",
+    "We may need one more resource from another team to catch up.",
+    "Please escalate to me directly if anything blocks you this week."
   ],
   "interview": [
     {
       "question": "How do you report progress to your manager?",
       "type": "behavioral",
       "tips_vi": ["Nêu tần suất báo cáo (hàng ngày/hàng tuần) và kênh (họp, email, chat)", "Nhấn mạnh sự chủ động, không đợi sếp hỏi mới báo cáo", "Nêu cách bạn xử lý khi tiến độ chậm"],
-      "sample_answer": "I usually send a short weekly update to my manager, and I also join a quick meeting every Monday. In my update, I include what I finished, what I'm working on, and any risks. If something is behind schedule, I explain the reason and my plan to catch up. I don't wait until the deadline to report a problem — I like to inform my manager early, so we can find a solution together. I think clear and honest communication builds trust."
+      "sample_answer": "I usually send a short weekly update to my manager by email, and I also join a quick meeting every Monday morning to talk through the details. In my update, I include what I finished last week, what I'm working on now, and any risks I can already see coming. If something is behind schedule, I explain the reason clearly and share my plan to catch up, instead of just saying it will be late. I don't wait until the deadline to report a problem — I like to inform my manager early, so we can find a solution together while there is still time. I think clear and honest communication builds trust, and it also helps the whole team plan better."
     },
     {
       "question": "Describe a situation where a project fell behind schedule. What did you do?",
       "type": "behavioral",
       "tips_vi": ["Dùng STAR: tình huống cụ thể, hành động, kết quả", "Nêu rõ nguyên nhân chậm tiến độ và cách bạn giải quyết", "Tránh đổ lỗi hoàn toàn cho người khác"],
-      "sample_answer": "In my previous project, we were two weeks behind schedule because of an unexpected bug in the payment system. I informed my manager right away and explained the risk. Then I asked for one more resource from another team to help fix the bug faster. We also had a short daily check-in to track progress closely. In the end, we delivered the project only three days late, and the manager was happy with our honest communication and quick action."
+      "sample_answer": "In my previous project, we were two weeks behind schedule because of an unexpected and serious bug in the payment system that took a long time to find. As soon as I understood the size of the problem, I informed my manager right away and explained the risk clearly, instead of hiding it and hoping it would fix itself. Then I asked for one more resource from another team to help fix the bug faster, and my manager agreed the same day. We also set up a short daily check-in with the whole team to track progress closely and catch any new issues early. In the end, we delivered the project only three days late, and the manager was happy with our honest communication and quick action during a stressful time."
     }
   ]
 }

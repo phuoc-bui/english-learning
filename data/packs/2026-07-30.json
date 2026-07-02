@@ -31,24 +31,24 @@
     ]
   },
   "shadowing": [
-    "Let's align on today's plan quickly.",
-    "I don't have capacity for a new task today.",
-    "My current task will carry over to tomorrow.",
+    "Let's align on today's plan quickly before we start working.",
+    "I don't have capacity for a new task today, unfortunately.",
+    "My current task will carry over to tomorrow's standup meeting.",
     "Can we have a quick sync about the API changes?",
-    "We should confirm scope with the client first."
+    "We should confirm scope with the client before starting the ticket."
   ],
   "interview": [
     {
       "question": "How do you decide what to work on when you have too many tasks in your backlog?",
       "type": "common",
       "tips_vi": ["Nêu tiêu chí ưu tiên: mức độ khẩn cấp, giá trị, deadline", "Nhấn mạnh việc trao đổi với team lead khi capacity không đủ", "Có thể kể ví dụ thực tế"],
-      "sample_answer": "When my backlog has too many tasks, I first check which ones have the closest deadline or the highest priority for the business. I also talk to my team lead if I don't have capacity for everything, so we can align on what to focus on first. Sometimes a task can carry over to the next day if it's not urgent. I think honest communication about capacity is better than trying to do everything and delivering poor quality work."
+      "sample_answer": "When my backlog has too many tasks, I first check which ones have the closest deadline or the highest priority for the business, instead of just picking the easiest one. I also talk to my team lead early if I don't have capacity for everything, so we can align on what to focus on first before the sprint gets too far along. Sometimes a task can carry over to the next day if it's not urgent, and I make sure to update the ticket status so nothing is forgotten. I think honest communication about capacity is much better than trying to do everything and delivering poor quality work under pressure. In the end, this approach helps the whole team trust the estimates we give."
     },
     {
       "question": "How do you make sure your team stays aligned on daily priorities?",
       "type": "behavioral",
       "tips_vi": ["Nêu công cụ/thói quen cụ thể: standup, quick sync, backlog rõ ràng", "Nhấn mạnh giao tiếp thường xuyên, không chỉ dựa vào công cụ", "Có thể kể ví dụ một lần team bị lệch hướng và cách khắc phục"],
-      "sample_answer": "In my team, we use daily standups to align on priorities and check in on progress. If something urgent comes up, we don't wait for the next standup — we have a quick sync right away. I also make sure the backlog is updated, so everyone knows what's next. Once, our team started working on the wrong priority because of unclear scope, so now we always confirm scope together before starting a new ticket. This habit has helped us stay aligned much better."
+      "sample_answer": "In my team, we use daily standups to align on priorities and check in on progress, so everyone knows what everyone else is doing. If something urgent comes up during the day, we don't wait for the next standup — we have a quick sync right away to decide what to do. I also make sure the backlog is updated after every standup, so everyone knows what's next without asking around. Once, our team started working on the wrong priority because of unclear scope in the ticket description, which wasted almost two days of work. So now we always confirm scope together before starting a new ticket, even if it takes a few extra minutes. This habit has helped us stay aligned much better and avoid wasted effort."
     }
   ]
 }

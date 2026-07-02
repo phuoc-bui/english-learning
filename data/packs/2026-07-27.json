@@ -31,24 +31,24 @@
     ]
   },
   "shadowing": [
-    "This sprint was tough. Let's start our feedback session.",
+    "This sprint was tough, so let's start our feedback session right away.",
     "Team morale was a bit low after the busy release week.",
-    "We need a better balance between speed and quality.",
-    "Collaboration between design and dev was great this sprint.",
-    "Let's commit to planning capacity more carefully next sprint."
+    "We need a better balance between speed and quality on this project.",
+    "Collaboration between design and dev was great this sprint, honestly.",
+    "Let's commit to planning capacity more carefully next sprint, starting Monday."
   ],
   "interview": [
     {
       "question": "How do you help keep team morale high during a difficult project?",
       "type": "behavioral",
       "tips_vi": ["Nêu hành động cụ thể: ghi nhận nỗ lực, tạo không gian chia sẻ, cân bằng khối lượng công việc", "Nhấn mạnh việc lắng nghe cảm xúc của đồng nghiệp, không chỉ tập trung vào kết quả", "Có thể kể ví dụ thực tế"],
-      "sample_answer": "During a difficult sprint, I try to celebrate small wins, even if the overall project is stressful. I also check in with teammates individually, since some people don't share their stress openly in group meetings. If I notice the workload is too heavy, I raise the issue early with my manager instead of waiting until people feel burned out. I believe a good balance between pushing for results and caring about the team's wellbeing keeps morale healthy in the long run."
+      "sample_answer": "During a difficult sprint, I try to celebrate small wins, even if the overall project is stressful for everyone. I also check in with teammates individually, since some people don't share their stress openly in group meetings and prefer a quiet one-on-one chat. If I notice the workload is too heavy, I raise the issue early with my manager instead of waiting until people feel burned out and lose motivation. I try to recognize good collaboration too, not just finished tickets, because effort matters as much as output. I believe a good balance between pushing for results and caring about the team's wellbeing keeps morale healthy in the long run, and it also reduces the chance that good people leave the team."
     },
     {
       "question": "Tell me about a time you identified a root problem instead of just fixing a symptom.",
       "type": "behavioral",
       "tips_vi": ["Dùng STAR: nêu triệu chứng ban đầu và cách bạn đào sâu tìm nguyên nhân", "Nhấn mạnh tư duy phân tích, không chỉ vá lỗi tạm thời", "Kết thúc bằng kết quả lâu dài"],
-      "sample_answer": "During a retrospective, our team kept complaining about a heavy workload every sprint. Instead of just accepting fewer tasks temporarily, I asked why we kept overcommitting. We found the root problem — we weren't checking team capacity properly during sprint planning. I suggested we add a simple capacity check before committing to tasks. After we changed the process, our workload became more balanced, and team morale improved over the following sprints."
+      "sample_answer": "During a retrospective, our team kept complaining about a heavy workload every single sprint, and morale was getting worse over time. Instead of just accepting fewer tasks temporarily as a quick fix, I asked the team why we kept overcommitting in the first place. We found the root problem — we weren't checking team capacity properly during sprint planning, so we always took on more than we could finish. I suggested we add a simple capacity check before committing to any new tasks, using our average velocity from past sprints. After we changed the process, our workload became more balanced, deadlines became more realistic, and team morale clearly improved over the following sprints."
     }
   ]
 }

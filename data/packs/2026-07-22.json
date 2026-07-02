@@ -31,24 +31,24 @@
     ]
   },
   "shadowing": [
-    "Sorry to message you suddenly. This is an emergency.",
-    "I need to take a half day off now.",
-    "I already added it to the team calendar.",
-    "I'll try to be available on chat if it's urgent.",
-    "Hopefully I'll return tomorrow morning."
+    "Sorry to message you so suddenly, but this is an emergency.",
+    "My father is in the hospital, so I need to take a half day off now.",
+    "I already added the leave request to the team calendar.",
+    "I'll try to be available on chat if anything is really urgent.",
+    "Hopefully I'll return to work tomorrow morning, once things are stable."
   ],
   "interview": [
     {
       "question": "How do you handle an unexpected emergency that affects your work?",
       "type": "behavioral",
       "tips_vi": ["Nhấn mạnh việc thông báo nhanh cho quản lý/đồng nghiệp", "Thể hiện tinh thần trách nhiệm: bàn giao công việc dù gấp", "Có thể kể ví dụ ngắn gọn, chân thực"],
-      "sample_answer": "When an emergency happens, I try to inform my manager or team as quickly as possible, even with short notice. I explain the situation honestly and ask a colleague to cover my most urgent tasks if needed. I also update the team calendar, so everyone knows I'm away. Once the emergency is under control, I let my team know when I expect to return. I believe clear and quick communication helps reduce the impact on the team, even in a stressful situation."
+      "sample_answer": "When an emergency happens, I try to inform my manager or team as quickly as possible, even with very short notice, because I know silence causes more stress for everyone. I explain the situation honestly, without going into too much personal detail, and ask a colleague to cover my most urgent tasks if needed. I also update the team calendar right away, so everyone knows I'm away and can plan around it. For example, when my father was in the hospital, I sent a quick message to my manager and still checked chat briefly in case something critical came up. Once the emergency is under control, I let my team know when I expect to return, so they are not left guessing. I believe clear and quick communication helps reduce the impact on the team, even in a stressful and unexpected situation."
     },
     {
       "question": "How do you balance taking time off with your responsibilities at work?",
       "type": "common",
       "tips_vi": ["Nhấn mạnh việc lên kế hoạch trước, không để dồn công việc", "Nêu cách bàn giao rõ ràng khi vắng mặt", "Thể hiện bạn tôn trọng cả nghỉ ngơi lẫn trách nhiệm công việc"],
-      "sample_answer": "I usually plan my time off in advance, so I can finish urgent tasks before I leave or ask a colleague to cover them. I always update the team calendar and set an out of office message, so people know I'm away. For real emergencies, I try to stay briefly available on chat, just in case something critical happens. I think it's important to rest properly, but also to make sure my absence doesn't create problems for the team."
+      "sample_answer": "I usually plan my time off well in advance, so I can finish urgent tasks before I leave or ask a colleague to cover them properly. I always update the team calendar and set an out of office message, so people know I'm away and who to contact instead. Before a longer leave, like a public holiday, I also write a short handover note with the status of my current tasks. For real emergencies, when there is no time to plan, I try to stay briefly available on chat, just in case something critical happens, but I keep it to a minimum. I think it's important to rest properly and fully disconnect sometimes, but also to make sure my absence doesn't create problems or extra pressure for the rest of the team."
     }
   ]
 }

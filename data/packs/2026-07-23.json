@@ -32,24 +32,24 @@
     ]
   },
   "shadowing": [
-    "We have a bug report — it looks like high severity.",
-    "Can you reproduce it on your machine?",
+    "We have a bug report, and it looks like high severity.",
+    "Can you reproduce it on your machine, or only in production?",
     "I traced the problem back to a recent config change.",
-    "Let's prepare a hotfix right away.",
-    "The system should be stable once the hotfix is deployed."
+    "Let's prepare a hotfix right away and test it carefully.",
+    "The system should be stable again once the hotfix is deployed."
   ],
   "interview": [
     {
       "question": "How do you investigate a bug that you can't reproduce?",
       "type": "technical",
       "tips_vi": ["Nêu quy trình: kiểm tra log, so sánh môi trường, thu thập thêm thông tin", "Nhấn mạnh tính kiên nhẫn và có hệ thống khi debug", "Có thể kể một ví dụ cụ thể"],
-      "sample_answer": "When I can't reproduce a bug locally, I start by checking the server logs to understand the exact error and when it happened. I also compare the environment, like the browser, device, or configuration, between my machine and the affected users. Sometimes I ask the reporter for more details, like exact steps or screenshots. If needed, I add extra logging in that part of the code to catch more information the next time it happens. This step-by-step approach helps me trace the root cause even for tricky bugs."
+      "sample_answer": "When I can't reproduce a bug locally, I start by checking the server logs carefully to understand the exact error message and exactly when it happened. I also compare the environment, like the browser, device, or configuration, between my machine and the affected users, since many bugs only appear in specific setups. Sometimes I ask the reporter for more details, like the exact steps they followed or a screenshot of the error. If the severity is high, like an issue affecting five hundred users, I treat it as urgent and involve my team lead early. If I still cannot reproduce it, I add extra logging in that part of the code to catch more information the next time it happens. This step-by-step, patient approach helps me trace the root cause even for the trickiest bugs, without guessing at a fix."
     },
     {
       "question": "Tell me about a time you had to communicate a serious bug to a client.",
       "type": "behavioral",
       "tips_vi": ["Nhấn mạnh sự trung thực, không che giấu vấn đề", "Nêu cách bạn giải thích đơn giản, kèm hướng khắc phục", "Kết thúc bằng kết quả và bài học"],
-      "sample_answer": "Once we had a bug that affected the checkout page for some users. I helped write a short, honest message explaining the issue, how many users were affected, and our plan to fix it. We avoided technical words, since the client was not a developer. After we deployed the hotfix, we sent a follow-up message confirming the system was stable again. The client appreciated our quick and honest communication, and it actually made them trust our team more."
+      "sample_answer": "Once we had a bug that affected the checkout page for some users, which was a serious issue because it involved payments. I helped write a short, honest message explaining the issue, roughly how many users were affected, and our plan to fix it, including a rough timeline. We avoided technical words like config or log, since the client was not a developer and would not understand them. We also gave them a simple workaround they could suggest to any customers who contacted support in the meantime. After we deployed the hotfix, we sent a follow-up message confirming the system was stable again and thanked them for their patience. The client appreciated our quick and honest communication, and it actually made them trust our team more than before the incident."
     }
   ]
 }

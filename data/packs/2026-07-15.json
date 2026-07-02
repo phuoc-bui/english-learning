@@ -32,24 +32,24 @@
     ]
   },
   "shadowing": [
-    "Let's follow the agenda to save time.",
-    "Please mute yourself when you're not speaking.",
-    "Sorry to interrupt, but can everyone see my screen?",
-    "Remember our client is in a different time zone.",
-    "Let's wrap up the meeting in five minutes."
+    "Let's follow the agenda closely today, so we can save some time.",
+    "Please mute yourself when you're not speaking to avoid background noise.",
+    "Sorry to interrupt, but can everyone see my screen clearly right now?",
+    "Remember our client is in a different time zone, so let's be quick.",
+    "Let's wrap up the meeting in five minutes and send a short summary."
   ],
   "interview": [
     {
       "question": "What do you think makes a remote meeting effective?",
       "type": "common",
       "tips_vi": ["Nêu 2-3 yếu tố cụ thể: agenda rõ ràng, đúng giờ, hạn chế gián đoạn", "Có thể nhắc đến việc tôn trọng múi giờ của người tham gia", "Kết nối với kinh nghiệm thực tế nếu có"],
-      "sample_answer": "I think a good remote meeting starts with a clear agenda, so everyone knows what to expect and the meeting doesn't run too long. It also helps when people mute themselves when they're not speaking, to avoid background noise. I always try to check the time zone of everyone joining, especially when working with international clients. Finally, ending on time and sending a short summary afterward makes the meeting more useful for everyone."
+      "sample_answer": "I think a good remote meeting starts with a clear agenda, so everyone knows what to expect and the meeting doesn't run too long. It also helps when people mute themselves when they're not speaking, to avoid background noise, since a noisy connection can distract the whole team. I always try to check the time zone of everyone joining, especially when working with international clients, so no one has to join at a strange hour. During the call, I think it's important to give everyone a chance to speak and avoid interrupting, even if the connection is not perfect. Finally, ending on time and sending a short summary afterward makes the meeting more useful for everyone, because people can review the main points later instead of relying only on memory."
     },
     {
       "question": "How do you handle technical problems, like a bad connection, during an important online meeting?",
       "type": "behavioral",
       "tips_vi": ["Nêu cách xử lý thực tế: thông báo sớm, dùng chat, có phương án dự phòng", "Thể hiện thái độ bình tĩnh, chuyên nghiệp", "Có thể kể một ví dụ cụ thể"],
-      "sample_answer": "Once my internet connection became very unstable during a client meeting. I immediately let everyone know through the chat, so they understood what was happening. I turned off my camera to save bandwidth and focused on staying connected by audio. When the connection was too weak, I called in using my phone as a backup. After the meeting, I sent a follow-up email to make sure I didn't miss any important points. I think staying calm and communicating clearly is the key in these situations."
+      "sample_answer": "Once my internet connection became very unstable during an important client meeting, right when I was about to present my report. I immediately let everyone know through the chat, so they understood what was happening and didn't think I had simply left the call. I turned off my camera to save bandwidth and focused on staying connected by audio, which helped a lot. When the connection was still too weak after a few minutes, I called in using my phone as a backup, and a colleague kindly shared my screen for me. After the meeting, I sent a follow-up email with a summary and the slides, to make sure I didn't miss any important points that the client needed. I think staying calm and communicating clearly is the key in these situations, because panicking usually makes the problem feel worse than it really is."
     }
   ]
 }

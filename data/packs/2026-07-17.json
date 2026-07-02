@@ -32,24 +32,24 @@
     ]
   },
   "shadowing": [
-    "Please follow our naming convention for variables.",
-    "The test coverage for this module is too low.",
-    "Did you check the edge case when the list is empty?",
-    "I noticed some duplicate code I should clean up.",
-    "I'll resolve all your comments today."
+    "Please follow our naming convention for variables throughout the whole file.",
+    "The test coverage for this module is too low, so please add more tests.",
+    "Did you check the edge case when the list is completely empty?",
+    "I noticed some duplicate code that I should probably clean up soon.",
+    "I'll resolve all your comments today and update the pull request."
   ],
   "interview": [
     {
       "question": "What do you look for when reviewing someone else's code?",
       "type": "technical",
       "tips_vi": ["Liệt kê tiêu chí cụ thể: đúng logic, dễ đọc, có test, edge case", "Nhấn mạnh cách góp ý mang tính xây dựng, không chỉ trích", "Có thể nêu ví dụ một lần review phát hiện lỗi quan trọng"],
-      "sample_answer": "When I review code, I first check if the logic is correct and matches the requirement. Then I look at readability — good naming and clear structure. I also check test coverage, especially for edge cases like empty lists or invalid input. If I see duplicate code, I suggest a way to clean it up. I always try to write comments in a polite and helpful way, because I want the review to feel like teamwork, not criticism."
+      "sample_answer": "When I review code, I first check if the logic is correct and actually matches the requirement described in the ticket. Then I look at readability — good naming, clear structure, and whether the code follows our team's conventions. I also check test coverage carefully, especially for edge cases like empty lists, invalid input, or unexpected null values, since these are often forgotten. If I see duplicate code, I suggest a way to clean it up or reuse an existing function instead. I always try to write comments in a polite and helpful way, explaining why I'm suggesting a change, because I want the review to feel like teamwork, not criticism. Once I found a bug during review that would have caused data loss in production, and the author was actually grateful I caught it before merging."
     },
     {
       "question": "How do you make sure your code fits well into a large existing codebase?",
       "type": "technical",
       "tips_vi": ["Nhấn mạnh việc đọc code hiện có trước khi viết mới", "Nêu ví dụ tuân theo convention, tránh trùng lặp logic", "Có thể nhắc đến việc trao đổi với đồng nghiệp khi không chắc chắn"],
-      "sample_answer": "Before writing new code, I usually spend time reading the existing codebase to understand its structure and conventions. I try to reuse existing functions instead of creating duplicate code. I also follow the same naming style as the rest of the project, so my code looks consistent. If I'm not sure about a pattern, I ask a teammate or check the documentation. This approach makes my pull requests easier to review and merge."
+      "sample_answer": "Before writing new code, I usually spend time reading the existing codebase to understand its structure, naming convention, and the general coding style the team follows. I try to reuse existing functions instead of creating duplicate code, because that keeps the codebase smaller and easier to maintain over time. I also follow the same naming style as the rest of the project, so my code looks consistent and doesn't stand out as different. If I'm not sure about a pattern, I ask a teammate or check the internal documentation instead of guessing, since a wrong guess can create more work later. This approach makes my pull requests easier to review and merge, and it usually means I get fewer comments asking me to make changes."
     }
   ]
 }

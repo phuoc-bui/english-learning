@@ -30,24 +30,24 @@
     ]
   },
   "shadowing": [
-    "There was a misunderstanding about the meeting time.",
-    "Let's write a concise email to clarify this quickly.",
-    "We should keep a polite tone, even though it's awkward.",
-    "I'll write a draft now and send it to you first.",
-    "Please reply as soon as possible — it's urgent."
+    "There was a misunderstanding about the meeting time with the client.",
+    "Let's write a concise email to clarify this quickly before it's too late.",
+    "We should keep a polite tone, even though it's a bit awkward.",
+    "I'll write a draft now and send it to you first for review.",
+    "Please reply as soon as possible, because the meeting is in an hour."
   ],
   "interview": [
     {
       "question": "How do you make sure your written communication, like emails, is clear and professional?",
       "type": "common",
       "tips_vi": ["Nêu nguyên tắc cụ thể: ngắn gọn, đọc lại trước khi gửi, chú ý giọng điệu", "Có thể nhắc đến việc tránh viết khi đang tức giận", "Kết nối với ví dụ thực tế nếu có"],
-      "sample_answer": "I always try to keep my emails concise, with a clear subject line and short paragraphs, so the reader can understand quickly. Before sending, I read the email one more time to check the tone, especially when writing to a client or someone I don't know well. If the topic is sensitive, I try to stay polite and neutral, even if I'm frustrated. This habit has helped me avoid several misunderstandings in my past jobs."
+      "sample_answer": "I always try to keep my emails concise, with a clear subject line and short paragraphs, so the reader can understand quickly. Before sending, I read the email one more time to check the tone, especially when writing to a client or someone I don't know well. If the topic is sensitive, I try to stay polite and neutral, even if I'm frustrated inside. I also avoid writing long emails late at night, because I might sound careless or too direct without meaning to. When something is really important, I add a clear subject line so the reader knows it needs quick attention. This habit has helped me avoid several misunderstandings in my past jobs, and my manager once told me my emails are easy to follow, which I was proud of."
     },
     {
       "question": "Describe a time a misunderstanding happened over email. How did you resolve it?",
       "type": "behavioral",
       "tips_vi": ["Dùng STAR: nêu nguyên nhân hiểu lầm cụ thể", "Nhấn mạnh cách bạn làm rõ mà không đổ lỗi cho ai", "Kết thúc bằng kết quả và bài học"],
-      "sample_answer": "Once, a client misunderstood a meeting time because we didn't mention the time zone clearly. As soon as I noticed the confusion in the email thread, I wrote a short, polite email to clarify the correct time immediately. I also apologized for the confusion, even though it was a simple mistake. The client appreciated the quick response, and the meeting still happened without a big problem. Since then, I always include the time zone clearly in any scheduling email."
+      "sample_answer": "Once, a client misunderstood a meeting time because we didn't mention the time zone clearly in our first email. As soon as I noticed the confusion in the email thread, I wrote a short, polite email to clarify the correct time immediately, instead of waiting for someone else to fix it. I also apologized for the confusion, even though it was a simple mistake and nobody was really at fault. The client appreciated the quick response, and the meeting still happened on time without a big problem. Since then, I always include the time zone clearly in any scheduling email, and I even add it to our team's email template so this mistake doesn't happen again."
     }
   ]
 }

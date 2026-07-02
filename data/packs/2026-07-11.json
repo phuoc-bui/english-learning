@@ -31,24 +31,24 @@
     ]
   },
   "shadowing": [
-    "Welcome to the team! How are you feeling today?",
-    "Let's set up your laptop and email account first.",
-    "Minh will be your mentor for the first month.",
-    "He will introduce you to the rest of the team.",
-    "Please check our coding guidelines before your first task."
+    "Welcome to the team! How are you feeling on your first day?",
+    "Let's set up your laptop and email account first thing this morning.",
+    "Minh will be your mentor and guide you for the first month.",
+    "He will introduce you to the rest of the team this afternoon.",
+    "Please check our coding guidelines carefully before you start your first task."
   ],
   "interview": [
     {
       "question": "What do you expect from the onboarding process at a new company?",
       "type": "common",
       "tips_vi": ["Nêu 2-3 điều cụ thể: tài liệu rõ ràng, mentor hỗ trợ, lộ trình từng bước", "Thể hiện tinh thần chủ động học hỏi, không chỉ chờ được hướng dẫn", "Có thể liên hệ kinh nghiệm onboarding trước đây"],
-      "sample_answer": "I expect a clear onboarding process with good documentation, so I can learn about the product and the codebase step by step. Having a mentor is also very helpful, because I can ask questions directly instead of guessing. I also hope to meet the team early, so I understand who does what. At the same time, I try to be proactive myself — reading the guidelines carefully and taking notes, so I don't need to ask the same question twice."
+      "sample_answer": "I expect a clear onboarding process with good documentation, so I can learn about the product and the codebase step by step, without feeling lost in the first week. Having a mentor is also very helpful, because I can ask questions directly instead of guessing or searching for hours on my own. I also hope to meet the team early, maybe on the first or second day, so I understand who does what and who to contact for different topics. Access to the systems and tools should be set up quickly too, so I don't waste the first days waiting. At the same time, I try to be proactive myself — reading the guidelines carefully, taking notes, and writing down questions, so I don't need to ask the same question twice. I believe a good onboarding experience, combined with my own effort, helps me become productive much faster."
     },
     {
       "question": "Describe a time you helped a new team member get started.",
       "type": "behavioral",
       "tips_vi": ["Dùng STAR: bối cảnh, hành động cụ thể bạn làm với người mới", "Nhấn mạnh sự kiên nhẫn và cách bạn tổ chức thông tin cho họ", "Kết thúc bằng kết quả tích cực"],
-      "sample_answer": "When a new developer joined my team last year, I became her mentor for the first month. I introduced her to the team, walked her through our documentation, and set up her access to our systems. In the first week, we had a short daily check-in so she could ask questions easily. I noticed she learned faster when I explained things with real examples, not just guidelines. By the end of the month, she was confident enough to work on tasks independently."
+      "sample_answer": "When a new developer joined my team last year, I became her mentor for the first month, which was a new experience for me too. On her first day, I introduced her to the team, walked her through our documentation, and helped set up her access to our systems and tools. In the first week, we had a short daily check-in, usually about fifteen minutes, so she could ask questions easily without feeling shy. I noticed that she learned much faster when I explained things with real examples from our actual codebase, not just the written guidelines. I also gave her small, simple tasks first, before moving to more complex ones, so she could build confidence gradually. By the end of the month, she was confident enough to work on tasks independently, and she later told me the daily check-ins made the biggest difference for her."
     }
   ]
 }

@@ -31,24 +31,24 @@
     ]
   },
   "shadowing": [
-    "Let me show you our newest feature today.",
-    "Just click here to see the results instantly.",
-    "We made the design more user friendly this time.",
-    "This feature brings real value to our users.",
-    "We built a fast feedback loop with early users."
+    "Let me show you our newest feature today — smart notifications.",
+    "Just click here, and you can see the results instantly.",
+    "We made the whole design more user friendly this time.",
+    "I think this feature brings real value to our users.",
+    "We built a fast feedback loop with early users to improve it."
   ],
   "interview": [
     {
       "question": "How do you decide which features to prioritize on a product roadmap?",
       "type": "technical",
       "tips_vi": ["Nêu tiêu chí cụ thể: giá trị cho người dùng, độ khó, chiến lược công ty", "Nhấn mạnh việc lắng nghe phản hồi người dùng", "Có thể nêu ví dụ thực tế nếu có"],
-      "sample_answer": "When prioritizing features, I usually think about the value they bring to users compared to the effort needed to build them. I also consider feedback from a feedback loop with real users, since their opinions often reveal what really matters. Sometimes business goals also affect the roadmap, like a client request or a market trend. I try to balance quick wins, which are easy but valuable, with bigger features that take more time but bring long-term value."
+      "sample_answer": "When prioritizing features, I usually think about the value they bring to users compared to the effort needed to build them, since not every good idea is worth doing right away. I also consider feedback from a feedback loop with real users, since their opinions often reveal what really matters more than my own assumptions. Sometimes business goals also affect the roadmap, like a client request or a clear market trend we cannot ignore. I try to balance quick wins, which are easy but valuable, with bigger features that take more time but bring long-term value to the product. Before finalizing the roadmap, I usually discuss the list with the team to check if the technical effort matches what I expect, since engineers often see risks I might miss."
     },
     {
       "question": "Tell me about a feature you helped design that improved the user experience.",
       "type": "behavioral",
       "tips_vi": ["Dùng STAR: nêu vấn đề người dùng gặp phải trước khi có tính năng", "Nhấn mạnh quá trình thu thập phản hồi và cải tiến", "Kết thúc bằng kết quả đo lường được nếu có"],
-      "sample_answer": "In my last project, users often complained that our app felt slow and confusing. I worked with the team to redesign the notification feature, making the interface more user friendly and the animations smoother. We built a feedback loop with a small group of users before the full release. Based on their comments, we simplified a few steps even further. After we released the update, user satisfaction scores improved, and we received much more positive feedback overall."
+      "sample_answer": "In my last project, users often complained that our app felt slow and confusing, especially the notification system, which had too many unnecessary steps. I worked with the team to redesign that feature, making the interface more user friendly and the animations noticeably smoother. Before the full release, we built a feedback loop with a small group of early users and asked them to test it for about a week. Based on their comments, we simplified a few steps even further and fixed some confusing wording in the interface. We then released the update to everyone, following our usual roadmap for that quarter. After the release, user satisfaction scores improved by a good margin, and we received much more positive feedback overall than with previous updates."
     }
   ]
 }

@@ -30,24 +30,24 @@
     ]
   },
   "shadowing": [
-    "How was your weekend, Minh?",
-    "My commute is long, so I needed the break.",
-    "The traffic this morning was terrible.",
-    "Can you recommend a good coffee shop near the office?",
-    "Let's catch up on the weekend properly."
+    "Good morning, Minh. How was your weekend with your friends?",
+    "My commute is quite long, so I really needed the break this weekend.",
+    "The traffic this morning was terrible, so I arrived a bit late.",
+    "Can you recommend a good coffee shop somewhere near the office?",
+    "Let's grab a coffee and catch up on the weekend properly."
   ],
   "interview": [
     {
       "question": "How do you build good relationships with your coworkers?",
       "type": "behavioral",
       "tips_vi": ["Nêu hành động cụ thể: chào hỏi, hỏi thăm, giúp đỡ đồng nghiệp", "Nhấn mạnh tôn trọng sự khác biệt văn hoá nếu làm việc với người nước ngoài", "Kết nối với lợi ích cho công việc nhóm"],
-      "sample_answer": "I try to be friendly and open with my coworkers every day. I usually say good morning and ask how their day is going, especially during coffee breaks. I also like to listen when someone shares a problem, and I offer help if I can. I think small talk is important because it helps build trust before we discuss serious work topics. When people feel comfortable with each other, teamwork becomes much easier and more enjoyable."
+      "sample_answer": "I try to be friendly and open with my coworkers every day, even when I'm busy with my own tasks. I usually say good morning and ask how their day is going, especially during coffee breaks in the pantry. I also like to listen carefully when someone shares a problem, and I offer help if I can, even if it's not part of my job. I think small talk is important because it helps build trust before we discuss serious work topics, like deadlines or mistakes. I also try to remember small details, like a coworker's weekend trip, and ask about it later. When people feel comfortable with each other, teamwork becomes much easier, communication improves, and the whole office feels more enjoyable to work in."
     },
     {
       "question": "How do you handle a busy schedule and avoid feeling exhausted at work?",
       "type": "common",
       "tips_vi": ["Nêu cách quản lý thời gian: ưu tiên công việc, nghỉ giải lao ngắn", "Có thể nhắc đến cân bằng công việc – cuộc sống", "Tránh trả lời chung chung, nên có ví dụ cụ thể"],
-      "sample_answer": "I try to plan my day the night before, so I know my top priorities. During the day, I take short coffee breaks to rest my mind, especially after a long meeting. I also try not to check messages after work hours, so I can really relax at home. On weekends, I like to do outdoor activities like hiking. This helps me feel fresh and ready for the new week instead of feeling exhausted all the time."
+      "sample_answer": "I try to plan my day the night before, so I already know my top priorities when I sit down at my desk in the morning. During the day, I take short coffee breaks to rest my mind, especially after a long meeting or a difficult task. I also try not to check messages after work hours, so I can really relax at home and spend time with my family. On weekends, I like to do outdoor activities like hiking with friends, instead of staying home and thinking about work. This helps me feel fresh and ready for the new week, instead of feeling exhausted all the time, and I believe it also makes me more productive overall."
     }
   ]
 }

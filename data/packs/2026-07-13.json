@@ -31,24 +31,24 @@
     ]
   },
   "shadowing": [
-    "Let's start the retrospective. What went well this sprint?",
-    "Communication between teams was a bit slow this sprint.",
-    "We should share updates more often, maybe daily.",
-    "Let's write it down as an action item.",
-    "I also think our testing process needs work."
+    "Let's start the retrospective by talking about what went well this sprint.",
+    "Communication between teams was a bit slow this sprint, unfortunately.",
+    "We should share updates more often with each other, maybe every day.",
+    "Let's write it down as an action item before we finish today.",
+    "I also think our testing process needs some work before the next release."
   ],
   "interview": [
     {
       "question": "How does your team use retrospective meetings to improve?",
       "type": "common",
       "tips_vi": ["Giải thích cấu trúc buổi retro: điều tốt, điều cần cải thiện, action item", "Nhấn mạnh văn hoá trung thực, không đổ lỗi cá nhân", "Nêu ví dụ một action item cụ thể đã thực hiện"],
-      "sample_answer": "In my team, we have a retrospective at the end of every sprint. We talk about what went well and what we can improve, and everyone is encouraged to be honest, without blaming one person. After the discussion, we write down clear action items with an owner for each one. For example, once we noticed our testing process was slow, so we agreed to add automated tests. This process helps our team keep improving little by little every sprint."
+      "sample_answer": "In my team, we have a retrospective meeting at the end of every sprint, usually for about thirty minutes. We talk about what went well and what we can improve, and everyone is encouraged to be honest and open, without blaming any single person for a mistake. After the discussion, we write down clear action items with a specific owner and a rough deadline for each one, so nothing gets forgotten. For example, once we noticed our testing process was quite slow and caused delays before every release, so we agreed together to add more automated tests. In the next sprint, we checked whether that action item was actually completed, which I think is an important step many teams forget. This process helps our team keep improving little by little every sprint, instead of repeating the same mistakes again and again."
     },
     {
       "question": "Tell me about a process improvement you suggested at work.",
       "type": "behavioral",
       "tips_vi": ["Dùng STAR: nêu vấn đề cụ thể, đề xuất, kết quả", "Nhấn mạnh cách bạn thuyết phục team áp dụng thay đổi", "Kết thúc bằng số liệu hoặc kết quả cụ thể nếu có"],
-      "sample_answer": "During a retrospective, I noticed that communication between our team and the QA team was slow, which caused delays. I suggested having a short daily sync between the two teams instead of only weekly updates. At first, some people were not sure it would help, but we agreed to try it for two sprints. After that, our bug reports were handled much faster, and the whole team felt more connected. Now this daily sync is a normal part of our process."
+      "sample_answer": "During a retrospective meeting, I noticed that communication between our development team and the QA team was quite slow, which caused delays in fixing bugs before release. I suggested having a short daily sync, maybe just ten minutes, between the two teams instead of only sharing updates once a week. At first, some people were not sure it would really help, and one teammate worried it would waste time. Still, we agreed to try it as an experiment for two sprints and review the results afterward. After that trial period, our bug reports were handled much faster than before, and the whole team felt more connected and aware of each other's work. The QA lead even said the extra communication saved her team a lot of guessing. Now this daily sync is a normal part of our process, and we still use it today."
     }
   ]
 }

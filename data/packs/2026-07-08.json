@@ -30,24 +30,24 @@
     ]
   },
   "shadowing": [
-    "I would like to take a day off next Monday.",
-    "Thanks for telling me in advance.",
-    "I already sent the request for your approval.",
-    "Can someone cover your tasks while you're away?",
-    "Please set up an out of office reply."
+    "I would like to take a day off next Monday for a family event.",
+    "Thanks for telling me about your day off so far in advance.",
+    "I already sent the leave request to you for your approval.",
+    "Can someone cover your tasks while you are away from the office?",
+    "Please set up an out of office reply before you leave today."
   ],
   "interview": [
     {
       "question": "How do you handle your workload when you need to take time off?",
       "type": "behavioral",
       "tips_vi": ["Nêu quy trình: báo trước, bàn giao công việc, đặt out of office", "Thể hiện tinh thần trách nhiệm với team", "Có thể nêu ví dụ cụ thể một lần xin nghỉ"],
-      "sample_answer": "Whenever I need to take time off, I always inform my manager as early as possible, usually a few days in advance. Before I leave, I make sure to hand over any urgent tasks to a teammate and explain the current status clearly. I also set up an out of office email so people know who to contact. I think this planning shows respect for my team and helps the work continue smoothly, even when I am not there."
+      "sample_answer": "Whenever I need to take time off, I always inform my manager as early as possible, usually a few days in advance, so the team has time to prepare. Before I leave, I make sure to hand over any urgent tasks to a teammate and explain the current status clearly, so there is no confusion while I am away. I also set up an out of office email so people know who to contact if something urgent comes up. Last month, for example, I took two days off and asked a colleague to cover my tasks, and everything went smoothly because we planned it early. I think this kind of planning shows respect for my team and helps the work continue without any problems, even when I am not there. It also makes me feel less stressed during my time off, because I know the team is well prepared."
     },
     {
       "question": "Tell me about a time you had to reschedule something important at work.",
       "type": "behavioral",
       "tips_vi": ["Dùng STAR: nêu tình huống cụ thể cần dời lịch", "Giải thích cách bạn thông báo và xin lỗi nếu ảnh hưởng người khác", "Kết thúc bằng kết quả tích cực"],
-      "sample_answer": "Once I had a client meeting scheduled, but I suddenly got sick that morning. I called my manager right away and explained the situation honestly. We agreed to reschedule the meeting to the next day, and I sent a polite email to the client to apologize for the change. The client understood, and the meeting went well the next day. This taught me that clear and quick communication can solve most scheduling problems."
+      "sample_answer": "Once I had an important client meeting scheduled for nine in the morning, but I suddenly got a high fever that same morning. I called my manager right away, explained the situation honestly, and asked if we could move the meeting. We agreed to reschedule it to the next day, and I sent a polite email to the client to apologize for the sudden change and explain the reason. The client understood completely, and we even added a short agenda to make the new meeting more efficient. The meeting went well the next day, and the client did not seem upset at all. This experience taught me that clear and quick communication, even about small problems, can solve most scheduling issues before they become bigger ones. Since then, I always try to inform people as early as possible when plans change."
     }
   ]
 }

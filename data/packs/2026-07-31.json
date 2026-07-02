@@ -32,24 +32,24 @@
     ]
   },
   "shadowing": [
-    "Overall it looks solid, just a small nitpick.",
-    "This looks like a breaking change for other services.",
-    "I'll add a unit test to be safe.",
+    "Overall it looks solid, just a small nitpick about spacing.",
+    "This looks like a breaking change for other services in production.",
+    "I'll add a unit test to be safe before merging this.",
     "Keep the error messages consistent with the rest of the app.",
-    "Thanks for being open to constructive feedback."
+    "Thanks for being open to constructive feedback during the review."
   ],
   "interview": [
     {
       "question": "How do you give constructive feedback during a code review?",
       "type": "technical",
       "tips_vi": ["Nhấn mạnh cách tách góp ý nhỏ (nitpick) và vấn đề nghiêm trọng", "Nêu cách diễn đạt tích cực, tập trung vào code chứ không phải con người", "Có thể đưa ví dụ cụ thể"],
-      "sample_answer": "When I give feedback, I try to separate small style issues, like a nitpick, from serious problems like a breaking change. I explain why I'm suggesting a change, not just what to change, so the author understands the reasoning. I always focus on the code itself, not the person, and I try to be specific and polite. If most of the pull request looks good, I usually approve with comments, so the author isn't blocked while fixing small details."
+      "sample_answer": "When I give feedback, I try to separate small style issues, like a nitpick, from serious problems like a breaking change, so the author knows what really needs attention. I explain why I'm suggesting a change, not just what to change, so the author understands the reasoning and can apply it next time. I always focus on the code itself, not the person, and I try to be specific and polite, even when pointing out a real mistake. If most of the pull request looks good, I usually approve with comments, so the author isn't blocked while fixing small details before merging. I think this approach keeps reviews useful without making people afraid to submit code."
     },
     {
       "question": "Tell me about a time a code review helped you catch a serious problem before release.",
       "type": "technical",
       "tips_vi": ["Dùng STAR: nêu vấn đề tiềm ẩn được phát hiện trong review", "Nhấn mạnh giá trị của việc review kỹ, không vội merge", "Kết thúc bằng kết quả tích cực"],
-      "sample_answer": "Once, during a code review, I noticed that a change to a shared function would actually be a breaking change for another service. The author hadn't realized this, since it wasn't obvious from the ticket description. We added a unit test to confirm the issue, then updated the function to stay backward compatible. If we had merged it without review, it would have caused a production incident. This experience showed me how valuable a careful, constructive review process really is."
+      "sample_answer": "Once, during a code review, I noticed that a change to a shared function would actually be a breaking change for another service that depended on it. The author hadn't realized this, since it wasn't obvious from the ticket description, and the tests didn't cover that case either. We added a unit test to confirm the issue, then updated the function to stay backward compatible instead of forcing every service to update at once. If we had merged it without review, it would have caused a production incident during a busy period for the business. This experience showed me how valuable a careful, constructive review process really is, and I now pay closer attention to shared code in every review I do."
     }
   ]
 }

@@ -30,24 +30,24 @@
     ]
   },
   "shadowing": [
-    "Today we will give a demo of the new dashboard.",
-    "Let me start with the main highlight of this feature.",
-    "This is still a prototype, not the final version.",
-    "We focused on making the interface simple for the audience.",
-    "Let's open the question and answer session now."
+    "Today we will give a demo of the new dashboard to everyone.",
+    "Let me start with the main highlight, which is the search function.",
+    "This is still a prototype, so it is not the final version yet.",
+    "We focused on making the interface as simple as possible for the audience.",
+    "Let's open the question and answer session now for the next ten minutes."
   ],
   "interview": [
     {
       "question": "Tell me about a time you presented a project to a group of people.",
       "type": "behavioral",
       "tips_vi": ["Nêu bối cảnh: đối tượng nghe là ai, mục tiêu buổi trình bày", "Nhấn mạnh cách bạn chuẩn bị và xử lý câu hỏi khó", "Kết thúc bằng kết quả hoặc phản hồi nhận được"],
-      "sample_answer": "Last month, I presented a demo of our new dashboard to the whole company. I prepared by practicing my walkthrough several times and thinking about possible questions from the audience. During the presentation, I highlighted the new search function and explained it in simple language, since not everyone was technical. After the demo, there was a question and answer session, and I answered calmly even for difficult questions. The feedback was very positive, and my manager said it was clear and easy to follow."
+      "sample_answer": "Last month, I presented a demo of our new dashboard to the whole company, including some people from the sales and marketing teams. I prepared by practicing my walkthrough several times at home and thinking carefully about possible questions from the audience beforehand. During the presentation, I highlighted the new search function first, since it was the main improvement, and I explained it in simple language because not everyone was technical. I also showed a short prototype so people could imagine the final version more easily. After the demo, there was a question and answer session, and I answered calmly even when someone asked a difficult question about the timeline. The feedback afterward was very positive, and my manager said my explanation was clear and easy to follow. That experience gave me much more confidence for future presentations."
     },
     {
       "question": "How do you prepare for a technical presentation?",
       "type": "common",
       "tips_vi": ["Nêu các bước chuẩn bị: nội dung, luyện tập, dự đoán câu hỏi", "Nhấn mạnh việc điều chỉnh ngôn ngữ theo đối tượng nghe", "Có thể nhắc đến việc chuẩn bị bản demo dự phòng"],
-      "sample_answer": "First, I think about who my audience is, so I can choose the right level of detail. If they are not technical, I avoid difficult words and focus on the benefits instead. Then I prepare a simple structure: introduction, main highlights, a live walkthrough, and time for questions. I always practice at least once before the real presentation, and I prepare a backup plan in case the demo has a technical problem. This preparation makes me feel more confident."
+      "sample_answer": "First, I think carefully about who my audience is, so I can choose the right level of technical detail for them. If they are not technical, I avoid difficult words and jargon, and I focus on the benefits and the impressive results instead of the code. Then I prepare a simple structure for the talk: a short introduction, the main highlights, a live walkthrough of the product, and time for questions at the end. I always practice at least once or twice before the real presentation, usually out loud in front of a colleague, so I can get honest feedback. I also prepare a backup plan, such as screenshots or a recorded video, in case the live demo has a technical problem on the day. This kind of careful preparation makes me feel much more confident and relaxed when I am actually presenting."
     }
   ]
 }

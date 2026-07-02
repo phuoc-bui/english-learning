@@ -30,24 +30,24 @@
     ]
   },
   "shadowing": [
-    "Yesterday I finished the login page and fixed two small bugs.",
-    "Today I will start working on the user profile screen.",
-    "I have a blocker — I'm waiting for access to the staging database.",
-    "My estimate for this task is about two days.",
-    "Let's follow up on this after the meeting."
+    "Yesterday I finished the login page and fixed two small bugs before lunch.",
+    "Today I will start working on the user profile screen for the new release.",
+    "I have a blocker — I'm still waiting for access to the staging database.",
+    "My estimate for this task is about two days, maybe a bit longer.",
+    "Let's follow up on this together right after the standup meeting ends."
   ],
   "interview": [
     {
       "question": "Tell me about yourself.",
       "type": "common",
       "tips_vi": ["Nói 60–90 giây: hiện tại → kinh nghiệm nổi bật → vì sao phù hợp vị trí này", "Đừng kể lan man tiểu sử; tập trung kinh nghiệm liên quan công việc", "Kết thúc bằng lý do bạn hứng thú với vị trí đang ứng tuyển"],
-      "sample_answer": "I'm a software developer with five years of experience, mainly in web applications. In my current company, I work on a payment system used by more than ten thousand users. I enjoy solving problems and working with people from different teams. Recently I led a small project to improve our checkout page, and we reduced loading time by forty percent. Now I'm looking for a new challenge in an international environment, and I believe this position is a great fit for my skills."
+      "sample_answer": "I'm a software developer with five years of experience, mainly in web applications. In my current company, I work on a payment system used by more than ten thousand users every day. I enjoy solving problems and working closely with people from different teams, like design and QA. Recently I led a small project to improve our checkout page, and we reduced loading time by forty percent, which made customers much happier. I also mentor two junior developers on my team, and I really enjoy helping them grow their skills. Now I'm looking for a new challenge in an international environment where I can keep learning, and I believe this position is a great fit for my skills and my goals for the next few years."
     },
     {
       "question": "Why do you want to work for our company?",
       "type": "common",
       "tips_vi": ["Nêu 2–3 điểm cụ thể về công ty (sản phẩm, công nghệ, văn hoá) — tránh câu chung chung", "Nối điểm mạnh của bạn với nhu cầu của công ty", "Thể hiện bạn đã tìm hiểu trước về công ty"],
-      "sample_answer": "There are three main reasons. First, I really like your product — I have used it myself and I can see how it helps people work better. Second, your company uses modern technologies that I want to grow with, especially cloud services. And third, I read about your team culture, and I like that you focus on learning and sharing knowledge. I believe I can contribute my experience in web development, and at the same time grow as an engineer here."
+      "sample_answer": "There are three main reasons. First, I really like your product — I have used it myself for over a year, and I can see how it helps people work better every day. Second, your company uses modern technologies that I want to grow with, especially cloud services and automated testing, which I have only started learning recently. And third, I read several reviews about your team culture, and I like that you focus on continuous learning and sharing knowledge between teams instead of working alone. I believe I can contribute my experience in web development from my current job, and at the same time grow as an engineer here by learning from your senior team members and taking on new challenges."
     }
   ]
 }

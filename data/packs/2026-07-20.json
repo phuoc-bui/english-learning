@@ -31,24 +31,24 @@
     ]
   },
   "shadowing": [
-    "Let's review the timeline for this quarter.",
-    "We are satisfied with the progress so far.",
-    "Could you clarify what exactly worries them?",
-    "That would really help build trust with our team.",
-    "Let's agree on next steps before we finish today."
+    "Let's take a few minutes to review the timeline for this quarter.",
+    "We are satisfied with the progress so far, but we still have questions.",
+    "Could you clarify what exactly worries them about the new system?",
+    "That would really help build trust with our team going forward.",
+    "Let's agree on next steps before we finish the call today."
   ],
   "interview": [
     {
       "question": "How do you build trust with a client during a project?",
       "type": "behavioral",
       "tips_vi": ["Nêu hành động cụ thể: giao tiếp minh bạch, đúng hẹn, chủ động báo cáo", "Nhấn mạnh việc lắng nghe mối lo ngại của khách hàng", "Có thể kể một ví dụ ngắn"],
-      "sample_answer": "I believe trust comes from clear and honest communication. I always try to give clients regular updates on the timeline, even when there is a delay, so they never feel surprised. When a client raises a concern, I listen carefully and try to clarify the real issue before offering a solution. For example, once a client worried about data security, so I prepared a clear document explaining our process. This kind of transparency helps build long-term trust."
+      "sample_answer": "I believe trust comes from clear and honest communication. I always try to give clients regular updates on the timeline, even when there is a delay, so they never feel surprised later. When a client raises a concern, I listen carefully and try to clarify the real issue before offering a solution, instead of guessing what they mean. For example, once a client worried about data security, so I prepared a clear document explaining our process step by step, including where user data is stored and how it is protected. After reading it, the client felt much more confident about our system. I also make sure to follow up a few days later to check if they have any more questions. This kind of transparency and consistency helps build long-term trust with every stakeholder I work with."
     },
     {
       "question": "Describe a situation where you had to satisfy a difficult stakeholder.",
       "type": "behavioral",
       "tips_vi": ["Dùng STAR, nêu rõ mâu thuẫn về ưu tiên hoặc kỳ vọng", "Nhấn mạnh cách bạn tìm điểm chung, không né tránh vấn đề", "Kết thúc bằng kết quả tích cực"],
-      "sample_answer": "Once we worked with a stakeholder who wanted many features added to the priority list at the same time. I organized a call to clarify their real business goals, instead of just listing features. Then I proposed a priority list based on what would bring the most value first. It took some negotiation, but we agreed on a plan that satisfied their main needs. In the end, the stakeholder appreciated that we listened and explained our reasoning clearly."
+      "sample_answer": "Once we worked with a stakeholder who wanted many features added to the priority list at the same time, which was not realistic for our team size. I organized a call to clarify their real business goals, instead of just listing every feature they mentioned. During the call, I asked questions to understand what would bring the most value to their users first. Then I proposed a priority list based on that value, with a clear timeline for each item. It took some negotiation, and a few features had to wait until the next quarter. But we agreed on a plan that satisfied their main needs while staying realistic for our team. In the end, the stakeholder appreciated that we listened carefully and explained our reasoning clearly instead of just saying no."
     }
   ]
 }

@@ -30,24 +30,24 @@
     ]
   },
   "shadowing": [
-    "Thanks for being punctual, everyone.",
-    "Could everyone keep their camera on during the discussion?",
+    "Thanks for being punctual, everyone. Let's get started right away.",
+    "Could everyone keep their camera on during the discussion, please?",
     "Let's try to follow the agenda so we don't run late.",
     "Please raise your hand if you want to speak next.",
-    "I'll share the recording afterward."
+    "I'll share the recording afterward, so nobody misses anything important."
   ],
   "interview": [
     {
       "question": "What are some good habits for running an effective remote meeting?",
       "type": "common",
       "tips_vi": ["Nêu các thói quen cụ thể: gửi invite trước, đúng giờ, bám agenda, ghi biên bản", "Nhấn mạnh việc tôn trọng thời gian của người khác", "Có thể liên hệ kinh nghiệm cá nhân"],
-      "sample_answer": "I think a good remote meeting starts with sending a clear invite in advance, including the agenda. Being punctual is important, both for the host and the participants, to respect everyone's time. During the meeting, I try to follow the agenda closely and encourage people to raise their hand instead of interrupting each other. Taking minutes and sharing a recording afterward also helps people who couldn't attend stay updated. These small habits make meetings more productive overall."
+      "sample_answer": "I think a good remote meeting starts with sending a clear invite in advance, including the agenda and the goal of the discussion. Being punctual is important, both for the host and the participants, to respect everyone's time and avoid wasting the first few minutes. During the meeting, I try to follow the agenda closely and encourage people to raise their hand instead of interrupting each other, which keeps the discussion organized. I also ask someone to keep their camera on when possible, since it helps people stay engaged and focused. Taking minutes and sharing a recording afterward also helps people who couldn't attend stay updated without asking others to repeat everything. These small habits make meetings more productive overall, and the team finishes on time much more often now."
     },
     {
       "question": "How do you avoid distractions when working remotely?",
       "type": "common",
       "tips_vi": ["Nêu thói quen cụ thể: không gian làm việc riêng, tắt thông báo không cần thiết", "Nhấn mạnh kỷ luật cá nhân và quản lý thời gian", "Có thể kể ví dụ thực tế"],
-      "sample_answer": "When working remotely, I try to have a dedicated workspace at home, so I can focus better. During important meetings, I turn off notifications on my phone to avoid distractions. I also plan my day with clear blocks of time for deep work and meetings, so I don't switch tasks too often. If I notice I'm getting distracted, I take a short break and come back with a clearer mind instead of forcing myself to continue."
+      "sample_answer": "When working remotely, I try to have a dedicated workspace at home, so I can focus better and separate work time from personal time. During important meetings, I turn off notifications on my phone and close unrelated browser tabs to avoid distractions. I also plan my day with clear blocks of time for deep work and meetings, so I don't switch tasks too often and lose concentration. If I notice I'm getting distracted, I take a short break, maybe a short walk, and come back with a clearer mind instead of forcing myself to continue. This routine has really improved my focus, especially compared to when I first started working from home."
     }
   ]
 }

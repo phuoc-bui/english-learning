@@ -31,24 +31,24 @@
     ]
   },
   "shadowing": [
-    "Thank you for joining the call today.",
-    "We want to discuss a new requirement for the dashboard.",
-    "That is outside the scope of our current contract.",
-    "I will check with my team and confirm the budget.",
-    "We are happy to help with this new feature."
+    "Thank you so much for joining the call today, everyone.",
+    "We want to discuss a new requirement for the dashboard feature.",
+    "That is outside the scope of our current contract, unfortunately.",
+    "I will check with my team and confirm the budget by Friday.",
+    "We are happy to help with this new feature next quarter."
   ],
   "interview": [
     {
       "question": "How do you handle a client who keeps changing requirements?",
       "type": "behavioral",
       "tips_vi": ["Nêu cách bạn xác nhận yêu cầu bằng văn bản để tránh hiểu nhầm", "Thể hiện sự linh hoạt nhưng vẫn giữ ranh giới về phạm vi/ngân sách", "Nhấn mạnh giao tiếp rõ ràng và kịp thời"],
-      "sample_answer": "When a client changes requirements often, I first try to understand their real goal, not just the new request. I always confirm changes in writing, like email or a document, so both sides agree. If a change is outside our original scope, I explain this politely and offer a proposal with the new cost and timeline. I think it's important to stay flexible, but also protect the project's budget and deadline. Clear communication helps avoid confusion later."
+      "sample_answer": "When a client changes requirements often, I first try to understand their real goal, not just the new request they sent me, because sometimes the real need is different from what they first describe. I always confirm changes in writing, like email or a shared document, so both sides clearly agree on what will be delivered. If a change is outside our original scope, I explain this politely and offer a proposal with the new cost and updated timeline, instead of just saying no. I think it's important to stay flexible and helpful, but also protect the project's budget and deadline, because that protects the whole team too. Clear communication and written confirmation help avoid confusion later, especially when the project has many small changes over several months."
     },
     {
       "question": "Describe a time you had to explain a technical limitation to a non-technical client.",
       "type": "behavioral",
       "tips_vi": ["Dùng ví dụ cụ thể, tránh thuật ngữ kỹ thuật khi kể lại", "Nhấn mạnh cách bạn đơn giản hoá vấn đề cho khách hàng hiểu", "Kết thúc bằng kết quả tích cực"],
-      "sample_answer": "Once a client asked for a feature that would make our system very slow. I explained the problem using a simple example, without technical words. I said it would be like asking one person to do ten jobs at the same time. Then I suggested a different solution that could reach the same goal in a faster way. The client understood and agreed with my proposal. This experience taught me that simple language builds better trust with clients."
+      "sample_answer": "Once a client asked for a feature that would make our whole system very slow, because it required checking thousands of records every single time someone opened the page. I explained the problem using a simple example, without any technical words like database or server. I said it would be like asking one person to do ten jobs at exactly the same time, so everything would slow down for every user. Then I suggested a different solution that could reach the same goal in a much faster and cheaper way, by updating the data once a day instead. The client understood quickly and agreed with my proposal without any complaints. This experience taught me that simple language, not technical jargon, builds much better trust with clients who don't have a technical background."
     }
   ]
 }

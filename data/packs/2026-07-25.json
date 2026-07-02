@@ -32,24 +32,24 @@
     ]
   },
   "shadowing": [
-    "Today is your orientation day. Here is your checklist.",
-    "Let me show you around the workspace first.",
-    "You will have training sessions with different teams.",
-    "You will shadow Linh for a few days to learn the process.",
-    "We'll help you settle in during the probationary period."
+    "Welcome! Today is your orientation day, and here is your checklist.",
+    "Let me show you around the workspace before we start training.",
+    "You will have training sessions with different teams this week.",
+    "You will shadow Linh for a few days to learn the daily process.",
+    "We'll have weekly check-ins and help you settle in over time."
   ],
   "interview": [
     {
       "question": "How do you usually settle into a new company or team?",
       "type": "common",
       "tips_vi": ["Nêu hành động cụ thể: đọc tài liệu, hỏi mentor, tham gia training", "Thể hiện tinh thần chủ động học hỏi văn hóa công ty", "Có thể kể ví dụ từ công việc trước"],
-      "sample_answer": "When I join a new company, I try to be proactive from day one. I read through the onboarding checklist and documentation carefully, and I ask questions whenever something is unclear. I also like to shadow a colleague for a few days to understand the real daily process, not just the theory. Beyond the technical side, I try to learn about the company culture by observing how people communicate and work together. This usually helps me settle in within the first few weeks."
+      "sample_answer": "When I join a new company, I try to be proactive from day one instead of waiting for someone to tell me exactly what to do. I read through the onboarding checklist and documentation carefully, and I ask questions whenever something is unclear, even small ones. I also like to shadow a colleague for a few days to understand the real daily process, not just the theory from a document. Beyond the technical side, I try to learn about the company culture by observing how people communicate, run meetings, and give feedback to each other. During the probationary period, I use the weekly check-ins to ask honestly how I am doing and what I could improve. This combination of preparation and curiosity usually helps me settle in within the first few weeks, instead of taking months to feel comfortable."
     },
     {
       "question": "What would you do in your first week at a new job to make a good impression?",
       "type": "common",
       "tips_vi": ["Nêu hành động cụ thể trong tuần đầu: lắng nghe, quan sát, hỏi đúng câu hỏi", "Tránh nói chung chung, nên có ví dụ hành vi cụ thể", "Thể hiện thái độ khiêm tốn, sẵn sàng học hỏi"],
-      "sample_answer": "In my first week, I would focus on learning as much as possible instead of trying to prove myself too quickly. I would complete my onboarding checklist, attend all training sessions, and take notes on the company culture and processes. I would also introduce myself to my teammates and ask thoughtful questions when I need help. I believe showing genuine interest and being a good listener in the first week builds a strong foundation for the rest of my time there."
+      "sample_answer": "In my first week, I would focus on learning as much as possible instead of trying to prove myself too quickly or take on big tasks right away. I would complete my onboarding checklist step by step, attend all training sessions, and take careful notes on the company culture, tools, and processes. I would also introduce myself to my teammates individually, not just in a group chat, and ask thoughtful questions when I need help instead of guessing and making mistakes. If I get the chance to shadow someone like Linh, I would prepare specific questions in advance to make the most of that time. I believe showing genuine interest, being a good listener, and staying humble in the first week builds a strong foundation for the rest of my time there."
     }
   ]
 }

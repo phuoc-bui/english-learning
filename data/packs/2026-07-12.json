@@ -31,24 +31,24 @@
     ]
   },
   "shadowing": [
-    "Did the client respond to your email yet?",
-    "I sent it three days ago with the attachment.",
-    "I think you should send a reminder today.",
-    "Please cc Hoa so she knows about the follow-up.",
-    "I will forward the original email and add a note."
+    "Did the client respond to your email yet, or is it still pending?",
+    "I sent it three days ago with the proposal attachment included.",
+    "I think you should send a polite reminder to them today.",
+    "Please cc Hoa on the email so she knows about the follow-up.",
+    "I will forward the original email and add a short reminder note."
   ],
   "interview": [
     {
       "question": "How do you make sure important emails don't get missed or forgotten?",
       "type": "common",
       "tips_vi": ["Nêu công cụ/thói quen cụ thể: đặt nhắc nhở, gắn cờ email quan trọng", "Nhấn mạnh việc theo dõi (follow-up) chủ động", "Có thể nhắc đến việc viết tiêu đề rõ ràng để dễ tìm lại"],
-      "sample_answer": "I usually flag important emails and set a reminder for myself, so I don't forget to follow up. If I'm waiting for a reply, I check my inbox every morning and send a polite reminder after two or three days if there's no response. I also try to write a clear subject line, so I can search for the email easily later. This habit helps me stay organized, especially when I'm working with multiple clients at the same time."
+      "sample_answer": "I usually flag important emails as soon as they arrive and set a reminder for myself, so I don't forget to follow up on them later. If I'm waiting for a reply from someone, I check my inbox every morning and send a polite reminder after two or three days if there's still no response. I also try to write a clear and specific subject line for every email, so I can search for it easily later, even weeks afterward. On busy days, I keep a short list of pending emails, so nothing important gets lost among the less urgent messages. This habit helps me stay organized and reduces stress, especially when I'm working with multiple clients or projects at the same time. My manager has told me this habit makes our communication much more reliable."
     },
     {
       "question": "Describe a time when clear communication in an email prevented a misunderstanding.",
       "type": "behavioral",
       "tips_vi": ["Dùng STAR: nêu tình huống cụ thể có nguy cơ hiểu nhầm", "Nhấn mạnh cách bạn viết email rõ ràng, có cc người liên quan", "Kết thúc bằng kết quả tích cực"],
-      "sample_answer": "Once, a client and my team had different ideas about a deadline. I decided to write a clear email summarizing what we agreed on, with the deadline and each person's task. I also cc'd my manager, so everyone had the same information. Because everything was written down clearly, there was no confusion later, and the client thanked us for being organized. Since then, I always try to confirm important details in writing, not just in a phone call."
+      "sample_answer": "Once, a client and my team had different ideas about a deadline after a phone call, and it seemed like a misunderstanding was starting to happen between everyone involved. I decided to write a clear, detailed email summarizing exactly what we had agreed on, including the final deadline, each person's task, and the next steps for the project. I also cc'd my manager and the project coordinator, so everyone had exactly the same information at the same time, without depending on memory. Because everything was written down clearly and in one place, there was no confusion later, even though the project involved several people from different teams and locations. The client actually thanked us for being so organized and for putting everything in writing instead of leaving it verbal. Since then, I always try to confirm important details like deadlines and responsibilities in writing, not just in a phone call or a quick chat message, because it protects everyone from misunderstandings later on."
     }
   ]
 }

@@ -32,24 +32,24 @@
     ]
   },
   "shadowing": [
-    "I'm working on this ticket, it's still in progress.",
-    "I'm stuck on a strange bug today.",
-    "It doesn't happen on my machine, only on staging.",
-    "Can you pair up with me after standup?",
-    "Let's try to finish it up before end of day."
+    "I'm working on this ticket right now, and it's still in progress.",
+    "I'm stuck on a strange bug today that I can't quite figure out.",
+    "It doesn't happen on my machine, only on the staging server.",
+    "Can you pair up with me after standup to look at this bug?",
+    "Let's try to finish it up completely before the end of the day."
   ],
   "interview": [
     {
       "question": "How do you handle a task when you feel stuck?",
       "type": "behavioral",
       "tips_vi": ["Nêu các bước cụ thể: tự tìm hiểu trước, sau đó hỏi đồng nghiệp", "Thể hiện bạn không ngại nhờ giúp đỡ nhưng cũng chủ động", "Có thể nêu ví dụ cụ thể một lần bị stuck"],
-      "sample_answer": "When I feel stuck on a task, I first try to debug it myself for a reasonable time, maybe thirty minutes to an hour. I check the logs and search for similar problems online. If I still can't find the answer, I ask a teammate to pair up with me, since a second opinion often helps. I'm not afraid to ask for help, but I always try my best first, so I don't waste other people's time unnecessarily."
+      "sample_answer": "When I feel stuck on a task, I first try to debug it myself for a reasonable time, maybe thirty minutes to an hour, depending on how urgent the ticket is. I check the logs carefully and search for similar problems online, since someone else has often faced the same issue before. If I still can't find the answer, I ask a teammate to pair up with me, since a second opinion often helps me see something I missed. For example, once I was stuck on a bug that only happened on staging, and a colleague noticed it was related to a missing environment variable within a few minutes. I'm not afraid to ask for help, but I always try my best first, so I don't waste other people's time unnecessarily, and I make sure to explain clearly what I have already tried."
     },
     {
       "question": "How do you organize your daily tasks?",
       "type": "common",
       "tips_vi": ["Nêu công cụ cụ thể (Jira, to-do list) và cách sắp xếp ưu tiên", "Nhấn mạnh việc cập nhật trạng thái công việc thường xuyên", "Kết nối với standup meeting nếu phù hợp"],
-      "sample_answer": "Every morning, I check my ticket board and decide which tasks are most important for the day. I usually update the status, like in progress or done, so my team knows where things stand. During standup, I share my plan and mention if I'm stuck on anything. At the end of the day, I try to wrap up at least one task completely, instead of leaving many tasks half-finished. This helps me stay organized and reduces stress."
+      "sample_answer": "Every morning, I check my ticket board and decide which tasks are most important for the day, based on the deadline and how many other people are depending on them. I usually update the status, like in progress or done, so my team knows exactly where things stand without needing to ask me directly. During standup, I share my plan for the day and mention clearly if I'm stuck on anything, so someone can offer to pair up with me if needed. At the end of the day, I try to wrap up at least one task completely, instead of leaving many tasks half-finished, because that feels much more satisfying and keeps the board clean. This habit helps me stay organized, reduces stress, and makes it easier for my team lead to track our overall progress during the sprint."
     }
   ]
 }
