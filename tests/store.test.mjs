@@ -74,4 +74,14 @@ test('import rejects garbage', () => {
   const s = createStore(fakeStorage());
   assert.throws(() => s.importData('not json'));
   assert.throws(() => s.importData('{"nope": true}'));
+  assert.throws(() => s.importData('{"days": []}'), /File backup không hợp lệ/);
+});
+
+test('computeStreak stops at the first incomplete day, does not skip gaps', () => {
+  const s = createStore(fakeStorage());
+  completeDay(s, '2026-06-28');
+  completeDay(s, '2026-06-29');
+  // 2026-06-30 intentionally left incomplete (gap)
+  completeDay(s, '2026-07-01');
+  assert.equal(s.computeStreak('2026-07-02'), 1); // only 07-01 counts; 06-28/06-29 run is not reachable
 });

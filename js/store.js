@@ -70,7 +70,14 @@ export function createStore(storage) {
     exportData() { return JSON.stringify(state, null, 2); },
     importData(json) {
       const parsed = JSON.parse(json);
-      if (!parsed || typeof parsed !== 'object' || typeof parsed.days !== 'object' || !parsed.days) {
+      const isPlainObj = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
+      const valid = isPlainObj(parsed)
+        && isPlainObj(parsed.days)
+        && (parsed.srs === undefined || isPlainObj(parsed.srs))
+        && (parsed.wordMeta === undefined || isPlainObj(parsed.wordMeta))
+        && (parsed.bestScores === undefined || isPlainObj(parsed.bestScores))
+        && (parsed.interviewLog === undefined || Array.isArray(parsed.interviewLog));
+      if (!valid) {
         throw new Error('File backup không hợp lệ');
       }
       state = { ...emptyState(), ...parsed };
