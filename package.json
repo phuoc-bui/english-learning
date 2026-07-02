@@ -1,0 +1,9 @@
+{
+  "name": "office-english",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/",
+    "validate-data": "node scripts/validate-data.mjs"
+  }
+}
