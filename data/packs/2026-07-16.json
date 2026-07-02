@@ -1,0 +1,55 @@
+{
+  "date": "2026-07-16",
+  "theme": "Daily standup meeting",
+  "vocab": [
+    { "word": "task", "ipa": "/tɑːsk/", "meaning_vi": "công việc, nhiệm vụ", "example": "My next task is to write unit tests for the API.", "example_vi": "Nhiệm vụ tiếp theo của tôi là viết unit test cho API." },
+    { "word": "ticket", "ipa": "/ˈtɪkɪt/", "meaning_vi": "phiếu công việc (Jira)", "example": "I created a new ticket for this bug.", "example_vi": "Tôi đã tạo một ticket mới cho lỗi này." },
+    { "word": "assign", "ipa": "/əˈsaɪn/", "meaning_vi": "giao (việc)", "example": "Can you assign this ticket to me?", "example_vi": "Bạn giao ticket này cho tôi được không?" },
+    { "word": "in progress", "ipa": "/ɪn ˈprəʊɡres/", "meaning_vi": "đang thực hiện", "example": "This task is still in progress, about seventy percent done.", "example_vi": "Task này vẫn đang thực hiện, khoảng bảy mươi phần trăm." },
+    { "word": "stuck", "ipa": "/stʌk/", "meaning_vi": "bị kẹt, không tiến triển được", "example": "I'm stuck on this bug — it doesn't happen on my machine.", "example_vi": "Tôi đang bị kẹt với lỗi này — nó không xảy ra trên máy của tôi." },
+    { "word": "pair up", "ipa": "/peər ʌp/", "meaning_vi": "làm việc cùng nhau theo cặp", "example": "Let's pair up to solve this bug faster.", "example_vi": "Hãy làm việc cùng nhau để giải quyết lỗi này nhanh hơn." },
+    { "word": "finish up", "ipa": "/ˈfɪnɪʃ ʌp/", "meaning_vi": "hoàn tất, làm nốt", "example": "I should finish up this task by tomorrow.", "example_vi": "Tôi sẽ hoàn tất task này trước ngày mai." },
+    { "word": "next step", "ipa": "/nekst step/", "meaning_vi": "bước tiếp theo", "example": "The next step is to test it on staging.", "example_vi": "Bước tiếp theo là kiểm thử trên môi trường staging." }
+  ],
+  "listening": {
+    "title": "Standup with a stuck ticket",
+    "lines": [
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Morning everyone. Minh, what's your task for today?" },
+      { "speaker": "Minh", "voice": "male", "text": "I'm working on ticket 245, it's still in progress." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "How much is left?" },
+      { "speaker": "Minh", "voice": "male", "text": "About seventy percent, but I'm stuck on a strange bug." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "What kind of bug?" },
+      { "speaker": "Minh", "voice": "male", "text": "It doesn't happen on my machine, only on staging." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Linh, can you pair up with Minh after standup?" },
+      { "speaker": "Linh", "voice": "female", "text": "Sure, I can help. I saw something similar last month." },
+      { "speaker": "Minh", "voice": "male", "text": "Thanks. My next step is to check the staging logs first." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Good plan. Let's try to finish it up before end of day." }
+    ],
+    "questions": [
+      { "q": "What ticket is Minh working on?", "options": ["Ticket 245", "Ticket 100", "Ticket 30"], "answer": 0 },
+      { "q": "Where does the bug happen?", "options": ["Only on Minh's machine", "Only on staging", "On every machine"], "answer": 1 },
+      { "q": "Who will help Minh?", "options": ["Nam", "Linh", "No one"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "I'm working on this ticket, it's still in progress.",
+    "I'm stuck on a strange bug today.",
+    "It doesn't happen on my machine, only on staging.",
+    "Can you pair up with me after standup?",
+    "Let's try to finish it up before end of day."
+  ],
+  "interview": [
+    {
+      "question": "How do you handle a task when you feel stuck?",
+      "type": "behavioral",
+      "tips_vi": ["Nêu các bước cụ thể: tự tìm hiểu trước, sau đó hỏi đồng nghiệp", "Thể hiện bạn không ngại nhờ giúp đỡ nhưng cũng chủ động", "Có thể nêu ví dụ cụ thể một lần bị stuck"],
+      "sample_answer": "When I feel stuck on a task, I first try to debug it myself for a reasonable time, maybe thirty minutes to an hour. I check the logs and search for similar problems online. If I still can't find the answer, I ask a teammate to pair up with me, since a second opinion often helps. I'm not afraid to ask for help, but I always try my best first, so I don't waste other people's time unnecessarily."
+    },
+    {
+      "question": "How do you organize your daily tasks?",
+      "type": "common",
+      "tips_vi": ["Nêu công cụ cụ thể (Jira, to-do list) và cách sắp xếp ưu tiên", "Nhấn mạnh việc cập nhật trạng thái công việc thường xuyên", "Kết nối với standup meeting nếu phù hợp"],
+      "sample_answer": "Every morning, I check my ticket board and decide which tasks are most important for the day. I usually update the status, like in progress or done, so my team knows where things stand. During standup, I share my plan and mention if I'm stuck on anything. At the end of the day, I try to wrap up at least one task completely, instead of leaving many tasks half-finished. This helps me stay organized and reduces stress."
+    }
+  ]
+}

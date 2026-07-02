@@ -1,0 +1,55 @@
+{
+  "date": "2026-07-28",
+  "theme": "Phỏng vấn kỹ thuật (giới thiệu dự án, giải thích công nghệ)",
+  "vocab": [
+    { "word": "strength", "ipa": "/streŋθ/", "meaning_vi": "điểm mạnh", "example": "My biggest strength is problem-solving under pressure.", "example_vi": "Điểm mạnh lớn nhất của tôi là giải quyết vấn đề dưới áp lực." },
+    { "word": "weakness", "ipa": "/ˈwiːknəs/", "meaning_vi": "điểm yếu", "example": "One weakness I'm improving is public speaking.", "example_vi": "Một điểm yếu tôi đang cải thiện là nói trước đám đông." },
+    { "word": "trade-off", "ipa": "/ˈtreɪd ɒf/", "meaning_vi": "sự đánh đổi", "example": "There was a trade-off between speed and code quality.", "example_vi": "Có một sự đánh đổi giữa tốc độ và chất lượng code." },
+    { "word": "responsibility", "ipa": "/rɪˌspɒnsəˈbɪləti/", "meaning_vi": "trách nhiệm", "example": "My main responsibility was the backend API.", "example_vi": "Trách nhiệm chính của tôi là backend API." },
+    { "word": "team player", "ipa": "/tiːm ˈpleɪər/", "meaning_vi": "người làm việc tốt trong nhóm", "example": "I consider myself a strong team player.", "example_vi": "Tôi tự đánh giá mình là người làm việc nhóm tốt." },
+    { "word": "learn quickly", "ipa": "/lɜːn ˈkwɪkli/", "meaning_vi": "học nhanh", "example": "I can learn new technologies quickly when needed.", "example_vi": "Tôi có thể học công nghệ mới nhanh khi cần." },
+    { "word": "explain clearly", "ipa": "/ɪkˈspleɪn ˈklɪəli/", "meaning_vi": "giải thích rõ ràng", "example": "I try to explain clearly, even to non-technical people.", "example_vi": "Tôi cố gắng giải thích rõ ràng, kể cả với người không rành kỹ thuật." },
+    { "word": "career goal", "ipa": "/kəˈrɪər ɡəʊl/", "meaning_vi": "mục tiêu nghề nghiệp", "example": "My career goal is to become a technical lead.", "example_vi": "Mục tiêu nghề nghiệp của tôi là trở thành technical lead." }
+  ],
+  "listening": {
+    "title": "Practicing interview strengths and weaknesses",
+    "lines": [
+      { "speaker": "Interviewer", "voice": "female", "text": "What would you say is your biggest strength?" },
+      { "speaker": "Nam", "voice": "male", "text": "I think my biggest strength is problem-solving under pressure." },
+      { "speaker": "Interviewer", "voice": "female", "text": "Can you give an example?" },
+      { "speaker": "Nam", "voice": "male", "text": "Sure, during an outage I stayed calm and helped find the root cause quickly." },
+      { "speaker": "Interviewer", "voice": "female", "text": "Good. And what about a weakness?" },
+      { "speaker": "Nam", "voice": "male", "text": "One weakness I'm improving is public speaking, especially in large meetings." },
+      { "speaker": "Interviewer", "voice": "female", "text": "How are you working on that?" },
+      { "speaker": "Nam", "voice": "male", "text": "I've been practicing by leading small team demos to build confidence." },
+      { "speaker": "Interviewer", "voice": "female", "text": "That's great. What's your career goal for the next few years?" },
+      { "speaker": "Nam", "voice": "male", "text": "My career goal is to become a technical lead and mentor junior developers." }
+    ],
+    "questions": [
+      { "q": "What does Nam say is his strength?", "options": ["Public speaking", "Problem-solving under pressure", "Writing documentation"], "answer": 1 },
+      { "q": "What is Nam's weakness?", "options": ["Coding speed", "Public speaking", "Time management"], "answer": 1 },
+      { "q": "What is Nam's career goal?", "options": ["To change careers", "To become a technical lead", "To work fewer hours"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "I think my biggest strength is problem-solving under pressure.",
+    "One weakness I'm improving is public speaking.",
+    "I've been practicing by leading small team demos.",
+    "My career goal is to become a technical lead.",
+    "I try to explain clearly, even to non-technical people."
+  ],
+  "interview": [
+    {
+      "question": "What is your biggest weakness, and how are you improving it?",
+      "type": "common",
+      "tips_vi": ["Chọn điểm yếu thật nhưng không ảnh hưởng nghiêm trọng đến công việc", "Luôn kèm theo hành động cụ thể bạn đang làm để cải thiện", "Tránh câu trả lời sáo rỗng như 'tôi làm việc quá chăm chỉ'"],
+      "sample_answer": "One weakness I'm working on is public speaking, especially in front of a large group. In the past, I felt nervous during big presentations. To improve, I started volunteering to lead small team demos and asking for feedback afterward. I also joined a local group that practices presentation skills. It's still something I'm working on, but I've already noticed I feel more confident than I did a year ago."
+    },
+    {
+      "question": "What are your career goals for the next few years?",
+      "type": "common",
+      "tips_vi": ["Kết nối mục tiêu cá nhân với vị trí đang ứng tuyển", "Thể hiện sự nghiêm túc, có lộ trình rõ ràng", "Tránh nói mục tiêu không liên quan đến công ty"],
+      "sample_answer": "In the next few years, I want to grow from a software developer into a technical lead role. I'm currently focusing on improving my system design skills and learning how to mentor junior developers, since I enjoy explaining clearly and helping others learn. I believe this position offers a good environment for that growth, because of the size of the projects and the chance to work closely with senior engineers."
+    }
+  ]
+}

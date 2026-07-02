@@ -1,0 +1,54 @@
+{
+  "date": "2026-07-24",
+  "theme": "Thuyết trình demo sản phẩm",
+  "vocab": [
+    { "word": "feature", "ipa": "/ˈfiːtʃər/", "meaning_vi": "tính năng", "example": "Let me show you our newest feature today.", "example_vi": "Để tôi giới thiệu tính năng mới nhất của chúng ta hôm nay." },
+    { "word": "user friendly", "ipa": "/ˈjuːzər ˈfrendli/", "meaning_vi": "thân thiện với người dùng", "example": "We made the design more user friendly this time.", "example_vi": "Chúng tôi đã thiết kế thân thiện với người dùng hơn lần này." },
+    { "word": "click", "ipa": "/klɪk/", "meaning_vi": "nhấp chuột", "example": "Just click here to see the results instantly.", "example_vi": "Chỉ cần nhấp vào đây để xem kết quả ngay lập tức." },
+    { "word": "smooth", "ipa": "/smuːð/", "meaning_vi": "mượt mà, trơn tru", "example": "The animation looks very smooth now.", "example_vi": "Hiệu ứng chuyển động trông rất mượt mà bây giờ." },
+    { "word": "feedback loop", "ipa": "/ˈfiːdbæk luːp/", "meaning_vi": "vòng lặp phản hồi", "example": "We built a fast feedback loop with our early users.", "example_vi": "Chúng tôi đã xây dựng một vòng lặp phản hồi nhanh với người dùng sớm." },
+    { "word": "release", "ipa": "/rɪˈliːs/", "meaning_vi": "phát hành", "example": "We plan to release this feature next week.", "example_vi": "Chúng tôi dự định phát hành tính năng này vào tuần tới." },
+    { "word": "roadmap", "ipa": "/ˈrəʊdmæp/", "meaning_vi": "lộ trình phát triển sản phẩm", "example": "This feature is part of our roadmap for this quarter.", "example_vi": "Tính năng này nằm trong lộ trình quý này của chúng tôi." },
+    { "word": "value", "ipa": "/ˈvæljuː/", "meaning_vi": "giá trị", "example": "This feature brings real value to our users.", "example_vi": "Tính năng này mang lại giá trị thực sự cho người dùng." }
+  ],
+  "listening": {
+    "title": "Demoing the new notification feature",
+    "lines": [
+      { "speaker": "Linh", "voice": "female", "text": "Let me show you our newest feature today — smart notifications." },
+      { "speaker": "Hoa", "voice": "female", "text": "Sounds interesting. How does it work?" },
+      { "speaker": "Linh", "voice": "female", "text": "Just click here, and you can see the results instantly." },
+      { "speaker": "Hoa", "voice": "female", "text": "Wow, the animation looks very smooth now." },
+      { "speaker": "Linh", "voice": "female", "text": "Thanks, we made the whole design more user friendly this time." },
+      { "speaker": "Hoa", "voice": "female", "text": "I like it. What's next on your roadmap?" },
+      { "speaker": "Linh", "voice": "female", "text": "We plan to release this to all users next week." },
+      { "speaker": "Hoa", "voice": "female", "text": "Great. I think this feature brings real value to our users." },
+      { "speaker": "Linh", "voice": "female", "text": "I agree. We also built a fast feedback loop with early users to improve it." }
+    ],
+    "questions": [
+      { "q": "What is the new feature?", "options": ["A payment page", "Smart notifications", "A login screen"], "answer": 1 },
+      { "q": "What did the team improve about the design?", "options": ["Making it more colorful", "Making it more user friendly", "Making it faster to load"], "answer": 1 },
+      { "q": "When will the feature be released to all users?", "options": ["Next week", "Next month", "Next year"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Let me show you our newest feature today.",
+    "Just click here to see the results instantly.",
+    "We made the design more user friendly this time.",
+    "This feature brings real value to our users.",
+    "We built a fast feedback loop with early users."
+  ],
+  "interview": [
+    {
+      "question": "How do you decide which features to prioritize on a product roadmap?",
+      "type": "technical",
+      "tips_vi": ["Nêu tiêu chí cụ thể: giá trị cho người dùng, độ khó, chiến lược công ty", "Nhấn mạnh việc lắng nghe phản hồi người dùng", "Có thể nêu ví dụ thực tế nếu có"],
+      "sample_answer": "When prioritizing features, I usually think about the value they bring to users compared to the effort needed to build them. I also consider feedback from a feedback loop with real users, since their opinions often reveal what really matters. Sometimes business goals also affect the roadmap, like a client request or a market trend. I try to balance quick wins, which are easy but valuable, with bigger features that take more time but bring long-term value."
+    },
+    {
+      "question": "Tell me about a feature you helped design that improved the user experience.",
+      "type": "behavioral",
+      "tips_vi": ["Dùng STAR: nêu vấn đề người dùng gặp phải trước khi có tính năng", "Nhấn mạnh quá trình thu thập phản hồi và cải tiến", "Kết thúc bằng kết quả đo lường được nếu có"],
+      "sample_answer": "In my last project, users often complained that our app felt slow and confusing. I worked with the team to redesign the notification feature, making the interface more user friendly and the animations smoother. We built a feedback loop with a small group of users before the full release. Based on their comments, we simplified a few steps even further. After we released the update, user satisfaction scores improved, and we received much more positive feedback overall."
+    }
+  ]
+}

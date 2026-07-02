@@ -1,0 +1,55 @@
+{
+  "date": "2026-07-14",
+  "theme": "Phỏng vấn kỹ thuật (giới thiệu dự án, giải thích công nghệ)",
+  "vocab": [
+    { "word": "architecture", "ipa": "/ˈɑːkɪtektʃər/", "meaning_vi": "kiến trúc hệ thống", "example": "Can you describe the architecture of your last project?", "example_vi": "Bạn có thể mô tả kiến trúc của dự án gần nhất không?" },
+    { "word": "database", "ipa": "/ˈdeɪtəbeɪs/", "meaning_vi": "cơ sở dữ liệu", "example": "We used a relational database to store user data.", "example_vi": "Chúng tôi dùng cơ sở dữ liệu quan hệ để lưu dữ liệu người dùng." },
+    { "word": "scalable", "ipa": "/ˈskeɪləbl/", "meaning_vi": "có khả năng mở rộng", "example": "We designed the system to be scalable for future growth.", "example_vi": "Chúng tôi thiết kế hệ thống có khả năng mở rộng cho tương lai." },
+    { "word": "framework", "ipa": "/ˈfreɪmwɜːk/", "meaning_vi": "framework, khung phát triển", "example": "We built the backend using a popular framework.", "example_vi": "Chúng tôi xây dựng backend bằng một framework phổ biến." },
+    { "word": "challenge", "ipa": "/ˈtʃælɪndʒ/", "meaning_vi": "thử thách", "example": "The biggest challenge was handling high traffic.", "example_vi": "Thử thách lớn nhất là xử lý lượng truy cập lớn." },
+    { "word": "optimize", "ipa": "/ˈɒptɪmaɪz/", "meaning_vi": "tối ưu hóa", "example": "We optimized the query to make it run faster.", "example_vi": "Chúng tôi tối ưu hóa câu truy vấn để chạy nhanh hơn." },
+    { "word": "deploy", "ipa": "/dɪˈplɔɪ/", "meaning_vi": "triển khai (lên môi trường thật)", "example": "We deploy new code every Friday afternoon.", "example_vi": "Chúng tôi triển khai code mới vào mỗi chiều thứ Sáu." },
+    { "word": "contribute", "ipa": "/kənˈtrɪbjuːt/", "meaning_vi": "đóng góp", "example": "I contributed to the design of the API.", "example_vi": "Tôi đã đóng góp vào việc thiết kế API." }
+  ],
+  "listening": {
+    "title": "Practicing for a technical interview",
+    "lines": [
+      { "speaker": "Interviewer", "voice": "male", "text": "Can you describe the architecture of your last project?" },
+      { "speaker": "Linh", "voice": "female", "text": "Sure. We built a web application with a scalable backend using a popular framework." },
+      { "speaker": "Interviewer", "voice": "male", "text": "What database did you use?" },
+      { "speaker": "Linh", "voice": "female", "text": "We used a relational database to store user data and orders." },
+      { "speaker": "Interviewer", "voice": "male", "text": "What was the biggest challenge in that project?" },
+      { "speaker": "Linh", "voice": "female", "text": "The biggest challenge was handling high traffic during sales events." },
+      { "speaker": "Interviewer", "voice": "male", "text": "How did you solve it?" },
+      { "speaker": "Linh", "voice": "female", "text": "We optimized our database queries and added caching before we deployed the change." },
+      { "speaker": "Interviewer", "voice": "male", "text": "That's great. What did you personally contribute to the project?" },
+      { "speaker": "Linh", "voice": "female", "text": "I contributed to the design of the API and helped optimize the search feature." }
+    ],
+    "questions": [
+      { "q": "What did Linh's team use to store data?", "options": ["A text file", "A relational database", "A spreadsheet"], "answer": 1 },
+      { "q": "What was the biggest challenge in Linh's project?", "options": ["Handling high traffic during sales events", "Finding a good framework", "Writing documentation"], "answer": 0 },
+      { "q": "What did Linh personally contribute?", "options": ["The marketing plan", "The API design and search optimization", "The company logo"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Can you describe the architecture of your last project?",
+    "We built a scalable backend using a popular framework.",
+    "The biggest challenge was handling high traffic.",
+    "We optimized our database queries before we deployed the change.",
+    "I contributed to the design of the API."
+  ],
+  "interview": [
+    {
+      "question": "Can you walk me through a recent project you worked on?",
+      "type": "technical",
+      "tips_vi": ["Nêu theo cấu trúc: mục tiêu dự án, công nghệ dùng, vai trò của bạn, kết quả", "Chọn dự án liên quan nhất đến vị trí ứng tuyển", "Chuẩn bị sẵn để trả lời câu hỏi đào sâu (follow-up)"],
+      "sample_answer": "In my last project, we built a web application for online orders. I worked on the backend, using a scalable framework and a relational database to store user data. My main responsibility was designing the API and optimizing slow queries, especially during high traffic events like sales days. I also helped deploy the application and monitored it after release. The project taught me a lot about system architecture and how to work closely with the frontend team."
+    },
+    {
+      "question": "What is the most challenging technical problem you have solved?",
+      "type": "technical",
+      "tips_vi": ["Chọn một vấn đề kỹ thuật cụ thể, có số liệu nếu có thể", "Giải thích rõ cách bạn phân tích và giải quyết vấn đề", "Kết thúc bằng kết quả đo lường được"],
+      "sample_answer": "One challenging problem was when our system became slow during high traffic. I analyzed the database queries and found that some of them were not optimized. I rewrote the queries and added a caching layer to reduce the load on the database. After we deployed the fix, the response time improved by more than fifty percent. This experience taught me the importance of testing performance early, before a system becomes popular with many users."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-08",
+  "theme": "Xin nghỉ phép & thông báo vắng mặt",
+  "vocab": [
+    { "word": "day off", "ipa": "/deɪ ɒf/", "meaning_vi": "ngày nghỉ", "example": "I would like to take a day off next Monday.", "example_vi": "Tôi muốn xin nghỉ một ngày vào thứ Hai tới." },
+    { "word": "sick leave", "ipa": "/sɪk liːv/", "meaning_vi": "nghỉ ốm", "example": "I need to take sick leave today because of a fever.", "example_vi": "Hôm nay tôi cần xin nghỉ ốm vì bị sốt." },
+    { "word": "cover", "ipa": "/ˈkʌvər/", "meaning_vi": "hỗ trợ thay thế công việc", "example": "Can you cover my tasks while I'm on leave?", "example_vi": "Bạn hỗ trợ công việc của tôi trong lúc tôi nghỉ được không?" },
+    { "word": "approval", "ipa": "/əˈpruːvl/", "meaning_vi": "sự phê duyệt", "example": "I'm still waiting for approval from my manager.", "example_vi": "Tôi vẫn đang đợi sự phê duyệt từ quản lý." },
+    { "word": "in advance", "ipa": "/ɪn ədˈvɑːns/", "meaning_vi": "trước (thời gian)", "example": "Please request leave at least three days in advance.", "example_vi": "Vui lòng xin nghỉ trước ít nhất ba ngày." },
+    { "word": "reschedule", "ipa": "/riːˈʃedjuːl/", "meaning_vi": "dời lịch", "example": "Can we reschedule the meeting to Thursday?", "example_vi": "Chúng ta có thể dời cuộc họp sang thứ Năm không?" },
+    { "word": "urgent", "ipa": "/ˈɜːdʒənt/", "meaning_vi": "khẩn cấp", "example": "Please contact Linh if anything urgent comes up.", "example_vi": "Vui lòng liên hệ Linh nếu có việc gì khẩn cấp." },
+    { "word": "out of office", "ipa": "/aʊt əv ˈɒfɪs/", "meaning_vi": "vắng mặt tại văn phòng (email tự động)", "example": "I will set up an out of office reply before I leave.", "example_vi": "Tôi sẽ cài email tự động báo vắng mặt trước khi nghỉ." }
+  ],
+  "listening": {
+    "title": "Requesting a day off",
+    "lines": [
+      { "speaker": "Linh", "voice": "female", "text": "Hi Nam, I would like to take a day off next Monday." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Sure, thanks for telling me in advance. Is everything okay?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yes, it's a family event. I already sent the request for your approval." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Okay, I will approve it today. Can someone cover your tasks?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yes, Minh agreed to cover my tasks for that day." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Great. Please set up an out of office reply too." },
+      { "speaker": "Linh", "voice": "female", "text": "I will. If anything urgent comes up, they can contact Minh." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Sounds good. Enjoy your day off." }
+    ],
+    "questions": [
+      { "q": "Why does Linh want a day off?", "options": ["She is sick", "She has a family event", "She wants to travel"], "answer": 1 },
+      { "q": "Who will cover Linh's tasks?", "options": ["Nam", "Minh", "No one"], "answer": 1 },
+      { "q": "What does Nam remind Linh to set up?", "options": ["A new password", "An out of office reply", "A new meeting"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "I would like to take a day off next Monday.",
+    "Thanks for telling me in advance.",
+    "I already sent the request for your approval.",
+    "Can someone cover your tasks while you're away?",
+    "Please set up an out of office reply."
+  ],
+  "interview": [
+    {
+      "question": "How do you handle your workload when you need to take time off?",
+      "type": "behavioral",
+      "tips_vi": ["Nêu quy trình: báo trước, bàn giao công việc, đặt out of office", "Thể hiện tinh thần trách nhiệm với team", "Có thể nêu ví dụ cụ thể một lần xin nghỉ"],
+      "sample_answer": "Whenever I need to take time off, I always inform my manager as early as possible, usually a few days in advance. Before I leave, I make sure to hand over any urgent tasks to a teammate and explain the current status clearly. I also set up an out of office email so people know who to contact. I think this planning shows respect for my team and helps the work continue smoothly, even when I am not there."
+    },
+    {
+      "question": "Tell me about a time you had to reschedule something important at work.",
+      "type": "behavioral",
+      "tips_vi": ["Dùng STAR: nêu tình huống cụ thể cần dời lịch", "Giải thích cách bạn thông báo và xin lỗi nếu ảnh hưởng người khác", "Kết thúc bằng kết quả tích cực"],
+      "sample_answer": "Once I had a client meeting scheduled, but I suddenly got sick that morning. I called my manager right away and explained the situation honestly. We agreed to reschedule the meeting to the next day, and I sent a polite email to the client to apologize for the change. The client understood, and the meeting went well the next day. This taught me that clear and quick communication can solve most scheduling problems."
+    }
+  ]
+}
