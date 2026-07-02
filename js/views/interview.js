@@ -1,5 +1,12 @@
 import { speak, listenOnce, sttSupported } from '../speech.js';
 
+const ERROR_MSG = {
+  'not-allowed': 'Micro bị chặn — vào Cài đặt Chrome ▸ Quyền của trang để bật micro.',
+  'service-not-allowed': 'Micro bị chặn — vào Cài đặt Chrome ▸ Quyền của trang để bật micro.',
+  network: 'Cần kết nối mạng để nhận giọng nói.',
+  'no-speech': 'Không nghe thấy gì, thử nói lại nhé.',
+};
+
 function latestAnswer(store, today, question) {
   const entries = store.state.interviewLog.filter((e) => e.date === today && e.question === question);
   return entries.length ? entries[entries.length - 1].transcript : null;
@@ -55,7 +62,10 @@ export function render(el, ctx) {
         b.disabled = true;
         listenOnce({
           onResult: (t) => saveAnswer(pack.interview[i].question, t),
-          onError: () => {},
+          onError: (code) => {
+            document.getElementById(`copied-${i}`).textContent = ERROR_MSG[code] || 'Có lỗi, thử lại nhé.';
+            document.getElementById(`copied-${i}`).style.display = 'inline';
+          },
           onEnd: () => draw(),
         });
       };
@@ -86,8 +96,15 @@ export function render(el, ctx) {
           `Câu trả lời của tôi: "${ans}"`,
           'Hãy nhận xét giúp tôi: 1) lỗi ngữ pháp, 2) từ vựng nên thay để tự nhiên hơn, 3) cấu trúc câu trả lời (dùng STAR nếu phù hợp), 4) viết lại một bản cải thiện ở trình độ B1-B2.',
         ].join('\n\n');
-        await navigator.clipboard.writeText(prompt);
-        document.getElementById(`copied-${i}`).style.display = 'inline';
+        const el = document.getElementById(`copied-${i}`);
+        try {
+          await navigator.clipboard.writeText(prompt);
+          el.textContent = 'Đã copy — dán vào app Claude nhé!';
+          el.style.display = 'inline';
+        } catch {
+          el.textContent = 'Không copy được — hãy tự chọn và sao chép văn bản.';
+          el.style.display = 'inline';
+        }
       };
     });
   }
