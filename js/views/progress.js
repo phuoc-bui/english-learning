@@ -1,4 +1,5 @@
 import { addDays } from '../dates.js';
+import { icon } from '../icons.js';
 
 export function render(el, ctx) {
   const { store } = ctx;
@@ -9,7 +10,6 @@ export function render(el, ctx) {
   const speakMins = Math.round(
     Object.values(s.days).reduce((sum, d) => sum + (d.speakingSeconds || 0), 0) / 60,
   );
-  const answered = s.interviewLog.length;
 
   const cells = [];
   for (let i = 29; i >= 0; i--) {
@@ -18,19 +18,32 @@ export function render(el, ctx) {
     cells.push(`<div class="cell ${cls}" title="${d}"></div>`);
   }
 
+  const stat = (cls, ico, value, label) =>
+    `<div class="stat"><div class="ic ${cls}">${ico}</div><b>${value}</b><small>${label}</small></div>`;
+
   el.innerHTML = `
     <header class="page-head"><h1>Tiến độ</h1></header>
     <div class="stats">
-      <div class="stat"><b>🔥 ${streak}</b><small>streak hiện tại</small></div>
-      <div class="stat"><b>${longest}</b><small>streak dài nhất</small></div>
-      <div class="stat"><b>${totalWords}</b><small>từ đã học</small></div>
-      <div class="stat"><b>${speakMins}′</b><small>phút luyện nói</small></div>
-      <div class="stat"><b>${answered}</b><small>câu phỏng vấn đã trả lời</small></div>
+      ${stat('ic-amber', icon.flame(18), streak, 'ngày streak')}
+      ${stat('ic-accent', icon.layers(18), totalWords, 'từ đã học')}
+      ${stat('ic-green', icon.clock(18), speakMins, 'phút luyện nói')}
+      ${stat('ic-purple', icon.target(18), longest, 'streak dài nhất')}
     </div>
-    <h2>30 ngày gần nhất</h2>
-    <div class="grid30">${cells.join('')}</div>
-    <button class="primary" id="export">⬇️ Xuất backup</button>
-    <button class="primary" id="import" style="background:var(--card);border:1px solid var(--line)">⬆️ Nhập backup</button>
+
+    <div class="contrib">
+      <div class="head">
+        <b>30 ngày qua</b>
+      </div>
+      <div class="grid30">${cells.join('')}</div>
+      <div class="legend">
+        <span><i style="background:var(--accent)"></i>Hoàn thành</span>
+        <span><i style="background:rgba(245,166,35,0.55)"></i>Dở dang</span>
+        <span><i style="background:rgba(255,255,255,0.05);border:1px solid var(--line)"></i>Chưa học</span>
+      </div>
+    </div>
+
+    <button class="primary" id="export">${icon.download(16)} Xuất backup</button>
+    <button class="pill" id="import" style="width:100%;justify-content:center;margin-top:10px;padding:13px">${icon.upload(16)} Nhập backup</button>
     <input type="file" id="file" accept="application/json" style="display:none">
     <p id="msg" class="warn"></p>
   `;

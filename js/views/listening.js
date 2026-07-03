@@ -1,4 +1,5 @@
 import { speak, stopSpeaking } from '../speech.js';
+import { icon } from '../icons.js';
 
 export function render(el, ctx) {
   const { store, pack } = ctx;
@@ -13,25 +14,34 @@ export function render(el, ctx) {
   let playing = false;
   const answers = {};
 
+  // Gán màu speaker theo thứ tự xuất hiện (tối đa 2 giọng: a/b)
+  const speakers = [...new Set(L.lines.map((l) => l.speaker))];
+  const barClass = (spk) => (speakers.indexOf(spk) === 0 ? 'a' : 'b');
+
   function draw() {
     el.innerHTML = `
-      <header class="page-head"><h1>🎧 ${L.title}</h1></header>
+      <header class="page-head"><h1>${L.title}</h1></header>
       <div class="row">
-        <button class="primary" style="width:auto;margin:0" id="playAll">${playing ? '🔊 Đang phát...' : '▶ Nghe hội thoại'}</button>
-        <button id="stop">⏹ Dừng</button>
-        <button id="toggleScript">${showScript ? 'Ẩn script' : 'Hiện script'}</button>
+        <button class="primary" style="width:auto;margin:0" id="playAll">${playing ? `${icon.volume(15)} Đang phát…` : `${icon.play(15)} Nghe hội thoại`}</button>
+        <button class="pill" id="stop">${icon.stop(14)} Dừng</button>
+        <button class="pill" id="toggleScript">${showScript ? 'Ẩn script' : 'Hiện script'}</button>
       </div>
-      ${showScript ? `<div class="script">${L.lines.map((l) => `<p><b>${l.speaker}:</b> ${l.text}</p>`).join('')}</div>` : ''}
+      ${showScript ? `<div class="script">${L.lines.map((l) => `
+        <div class="line">
+          <div class="bar ${barClass(l.speaker)}"></div>
+          <div class="txt"><div class="spk">${l.speaker}</div>${l.text}</div>
+        </div>`).join('')}</div>` : ''}
       <h2>Câu hỏi</h2>
       ${L.questions.map((q, qi) => `
         <div class="question">
-          <p>${qi + 1}. ${q.q}</p>
+          <div class="q"><span class="n">${qi + 1}.</span>${q.q}</div>
           ${q.options.map((o, oi) => {
             const answered = answers[qi] != null;
             let cls = '';
             if (answered && oi === q.answer) cls = 'right';
             else if (answered && answers[qi] === oi) cls = 'wrong';
-            return `<button class="option ${cls}" data-q="${qi}" data-o="${oi}" ${answered ? 'disabled' : ''}>${o}</button>`;
+            const showMark = cls === 'right' ? icon.check(12) : '';
+            return `<button class="option ${cls}" data-q="${qi}" data-o="${oi}" ${answered ? 'disabled' : ''}><span class="mark">${showMark}</span><span>${o}</span></button>`;
           }).join('')}
         </div>`).join('')}
     `;

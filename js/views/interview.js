@@ -1,4 +1,5 @@
 import { speak, listenOnce, sttSupported } from '../speech.js';
+import { icon } from '../icons.js';
 
 const ERROR_MSG = {
   'not-allowed': 'Micro bị chặn — vào Cài đặt Chrome ▸ Quyền của trang để bật micro.',
@@ -6,6 +7,8 @@ const ERROR_MSG = {
   network: 'Cần kết nối mạng để nhận giọng nói.',
   'no-speech': 'Không nghe thấy gì, thử nói lại nhé.',
 };
+
+const KIND = { behavioral: 'Behavioral', technical: 'Technical', common: 'Thường gặp' };
 
 function latestAnswer(store, today, question) {
   const entries = store.state.interviewLog.filter((e) => e.date === today && e.question === question);
@@ -34,20 +37,29 @@ export function render(el, ctx) {
         const ans = latestAnswer(store, ctx.today, it.question);
         return `
         <div class="iv">
-          <p class="q">${it.question} <button class="speak-btn small" data-say="${i}">🔊</button></p>
-          <details><summary>💡 Tips trả lời</summary><ul>${it.tips_vi.map((t) => `<li>${t}</li>`).join('')}</ul></details>
+          <div class="iv-q">
+            <span class="kind">${KIND[it.type] || it.type}</span>
+            <div class="text">${it.question} <button class="speak-btn mini" data-say="${i}">${icon.volume(15)}</button></div>
+          </div>
+          <details class="acc">
+            <summary><span class="lead">${icon.help(18)}</span>Tips trả lời<span class="chev">${icon.chevronDown(18)}</span></summary>
+            <div class="acc-body"><ul>${it.tips_vi.map((t) => `<li>${t}</li>`).join('')}</ul></div>
+          </details>
           <div class="row">
-            ${sttSupported ? `<button class="mic" data-mic="${i}">🎤 Trả lời bằng giọng nói</button>` : ''}
-            <button data-type="${i}">⌨️ Gõ câu trả lời</button>
+            ${sttSupported ? `<button class="pill mic" data-mic="${i}">${icon.mic(14)} Trả lời bằng giọng nói</button>` : ''}
+            <button class="pill" data-type="${i}">${icon.keyboard(14)} Gõ câu trả lời</button>
           </div>
           <div id="typebox-${i}" style="display:none">
             <textarea id="ta-${i}" placeholder="Type your answer in English..."></textarea>
             <button class="primary" data-submit="${i}">Lưu câu trả lời</button>
           </div>
           ${ans ? `<p class="transcript">Bạn: "${ans}"</p>` : ''}
-          <details><summary>📄 Câu trả lời mẫu (B1)</summary><p>${it.sample_answer}</p></details>
-          <button data-copy="${i}">📋 Copy để hỏi Claude</button>
-          <span id="copied-${i}" class="warn" style="display:none">Đã copy — dán vào app Claude nhé!</span>
+          <details class="acc">
+            <summary><span class="lead">${icon.book(18)}</span>Câu trả lời mẫu (B1)<span class="chev">${icon.chevronDown(18)}</span></summary>
+            <div class="acc-body">${it.sample_answer}</div>
+          </details>
+          <button class="btn-copy" data-copy="${i}">${icon.copy(15)} Copy để hỏi Claude</button>
+          <span id="copied-${i}" class="copied" style="display:none"></span>
         </div>`;
       }).join('')}
     `;
@@ -58,13 +70,16 @@ export function render(el, ctx) {
     el.querySelectorAll('[data-mic]').forEach((b) => {
       b.onclick = () => {
         const i = +b.dataset.mic;
-        b.textContent = '👂 Đang nghe... (nói xong sẽ tự dừng)';
+        b.innerHTML = `${icon.mic(14)} Đang nghe… (nói xong sẽ tự dừng)`;
+        b.classList.add('listening', 'mic');
         b.disabled = true;
         listenOnce({
           onResult: (t) => saveAnswer(pack.interview[i].question, t),
           onError: (code) => {
-            document.getElementById(`copied-${i}`).textContent = ERROR_MSG[code] || 'Có lỗi, thử lại nhé.';
-            document.getElementById(`copied-${i}`).style.display = 'inline';
+            const c = document.getElementById(`copied-${i}`);
+            c.textContent = ERROR_MSG[code] || 'Có lỗi, thử lại nhé.';
+            c.style.color = 'var(--amber)';
+            c.style.display = 'inline';
           },
           onEnd: () => draw(),
         });
@@ -96,14 +111,16 @@ export function render(el, ctx) {
           `Câu trả lời của tôi: "${ans}"`,
           'Hãy nhận xét giúp tôi: 1) lỗi ngữ pháp, 2) từ vựng nên thay để tự nhiên hơn, 3) cấu trúc câu trả lời (dùng STAR nếu phù hợp), 4) viết lại một bản cải thiện ở trình độ B1-B2.',
         ].join('\n\n');
-        const el = document.getElementById(`copied-${i}`);
+        const c = document.getElementById(`copied-${i}`);
         try {
           await navigator.clipboard.writeText(prompt);
-          el.textContent = 'Đã copy — dán vào app Claude nhé!';
-          el.style.display = 'inline';
+          c.textContent = 'Đã copy — dán vào app Claude nhé!';
+          c.style.color = 'var(--green)';
+          c.style.display = 'inline';
         } catch {
-          el.textContent = 'Không copy được — hãy tự chọn và sao chép văn bản.';
-          el.style.display = 'inline';
+          c.textContent = 'Không copy được — hãy tự chọn và sao chép văn bản.';
+          c.style.color = 'var(--amber)';
+          c.style.display = 'inline';
         }
       };
     });
