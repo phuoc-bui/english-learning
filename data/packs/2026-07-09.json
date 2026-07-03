@@ -1,0 +1,55 @@
+{
+  "date": "2026-07-09",
+  "theme": "Giải thích bug & sự cố production",
+  "vocab": [
+    { "word": "outage", "ipa": "/ˈaʊtɪdʒ/", "meaning_vi": "sự cố ngừng hoạt động", "example": "We had a short outage on the payment server last night.", "example_vi": "Tối qua chúng tôi gặp sự cố ngừng hoạt động ngắn trên server thanh toán." },
+    { "word": "root cause", "ipa": "/ruːt kɔːz/", "meaning_vi": "nguyên nhân gốc rễ", "example": "We found the root cause — a wrong configuration value.", "example_vi": "Chúng tôi đã tìm ra nguyên nhân gốc rễ — một giá trị cấu hình sai." },
+    { "word": "crash", "ipa": "/kræʃ/", "meaning_vi": "sập, lỗi nghiêm trọng", "example": "The app crashed for some users this morning.", "example_vi": "Ứng dụng bị sập với một số người dùng sáng nay." },
+    { "word": "rollback", "ipa": "/ˈrəʊlbæk/", "meaning_vi": "khôi phục về phiên bản trước", "example": "We decided to rollback to the previous version.", "example_vi": "Chúng tôi quyết định khôi phục về phiên bản trước." },
+    { "word": "impact", "ipa": "/ˈɪmpækt/", "meaning_vi": "ảnh hưởng, tác động", "example": "The outage had a big impact on our users.", "example_vi": "Sự cố này gây ảnh hưởng lớn tới người dùng." },
+    { "word": "monitor", "ipa": "/ˈmɒnɪtər/", "meaning_vi": "theo dõi (hệ thống)", "example": "We are monitoring the server closely now.", "example_vi": "Chúng tôi đang theo dõi server chặt chẽ." },
+    { "word": "fix", "ipa": "/fɪks/", "meaning_vi": "sửa lỗi", "example": "I pushed a fix for the crash ten minutes ago.", "example_vi": "Tôi đã đẩy bản sửa lỗi cho vụ sập này mười phút trước." },
+    { "word": "postmortem", "ipa": "/ˌpəʊstˈmɔːtem/", "meaning_vi": "buổi họp phân tích sự cố sau khi xảy ra", "example": "Let's schedule a postmortem meeting tomorrow.", "example_vi": "Hãy lên lịch họp phân tích sự cố vào ngày mai." }
+  ],
+  "listening": {
+    "title": "Production incident call",
+    "lines": [
+      { "speaker": "Minh", "voice": "male", "text": "Hoa, we have an outage. The app crashed for some users." },
+      { "speaker": "Hoa", "voice": "female", "text": "Okay, how big is the impact? How many users are affected?" },
+      { "speaker": "Minh", "voice": "male", "text": "Around twenty percent of users, mostly on the payment page." },
+      { "speaker": "Hoa", "voice": "female", "text": "Let's check the logs and try to find the root cause." },
+      { "speaker": "Minh", "voice": "male", "text": "I found it — a wrong configuration value from this morning's deploy." },
+      { "speaker": "Hoa", "voice": "female", "text": "Good. Can we fix it quickly, or should we rollback?" },
+      { "speaker": "Minh", "voice": "male", "text": "A rollback is safer. I will do it now." },
+      { "speaker": "Hoa", "voice": "female", "text": "Okay, please monitor the server after the rollback." },
+      { "speaker": "Minh", "voice": "male", "text": "Will do. I pushed a proper fix too — we can deploy it tomorrow." },
+      { "speaker": "Hoa", "voice": "female", "text": "Great. Let's schedule a postmortem meeting tomorrow morning." }
+    ],
+    "questions": [
+      { "q": "What caused the outage?", "options": ["A wrong configuration value", "A power failure", "Too many users"], "answer": 0 },
+      { "q": "What does Minh decide to do first?", "options": ["Deploy a new feature", "Rollback to the previous version", "Ignore the issue"], "answer": 1 },
+      { "q": "What will happen tomorrow morning?", "options": ["A postmortem meeting", "A client meeting", "A new hire's first day"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "We have an outage — the app crashed for some users this morning.",
+    "Let's check the logs and try to find the root cause quickly.",
+    "A rollback is safer than a quick fix, so I will do it now.",
+    "Please monitor the server closely for a while after the rollback.",
+    "Let's schedule a postmortem meeting for tomorrow morning to review this."
+  ],
+  "interview": [
+    {
+      "question": "Tell me about a production incident you handled. What did you do?",
+      "type": "technical",
+      "tips_vi": ["Dùng STAR, nêu rõ mức độ ảnh hưởng và các bước xử lý", "Nhấn mạnh ưu tiên: giảm ảnh hưởng trước, tìm nguyên nhân sau", "Kết thúc bằng bài học hoặc cải tiến sau đó"],
+      "sample_answer": "Last year, our payment page crashed for about twenty percent of users right after a deploy on a Friday afternoon. I joined the incident call right away and helped check the server logs together with two other engineers. We found that a wrong configuration value, which was set during the deploy, caused the crash for those users. Because fixing it properly would take more time than we wanted, we decided to rollback to the previous version first to reduce the impact on customers. After the rollback, the error rate returned to normal within a few minutes, and we kept monitoring the system closely for the rest of the day. The next morning, we wrote a proper fix, tested it carefully, and deployed it again without any issues. We also had a postmortem meeting to discuss how to avoid this kind of problem in the future, and we added an extra check before every deploy."
+    },
+    {
+      "question": "How do you prioritize between fixing a bug quickly and finding the root cause?",
+      "type": "technical",
+      "tips_vi": ["Giải thích nguyên tắc: ổn định hệ thống trước, phân tích sâu sau", "Nêu ví dụ cụ thể về rollback hay hotfix", "Có thể nhắc đến việc ghi chú lại để điều tra kỹ hơn sau"],
+      "sample_answer": "When there is a production incident, I always focus on reducing the impact for users first, before trying to fully understand the problem. This usually means doing a quick rollback or applying a small hotfix to stop the issue as soon as possible. Finding the full root cause can take more time and careful investigation, so I don't want users to suffer while I am still checking logs and testing ideas. After the system is stable again and the impact is under control, I take time to monitor the logs closely and understand exactly what happened and why. Then I write a proper, well-tested fix instead of a temporary patch, and I share the findings with the whole team in a postmortem meeting. This way, everyone learns from the incident, and we can add checks to prevent the same problem from happening again."
+    }
+  ]
+}

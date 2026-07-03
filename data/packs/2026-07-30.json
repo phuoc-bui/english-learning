@@ -1,0 +1,54 @@
+{
+  "date": "2026-07-30",
+  "theme": "Daily standup meeting",
+  "vocab": [
+    { "word": "backlog", "ipa": "/ˈbæklɒɡ/", "meaning_vi": "danh sách công việc tồn đọng", "example": "This ticket is still in the backlog, not started yet.", "example_vi": "Ticket này vẫn nằm trong danh sách tồn đọng, chưa bắt đầu." },
+    { "word": "check in", "ipa": "/tʃek ɪn/", "meaning_vi": "trao đổi nhanh, cập nhật tình hình", "example": "Let's check in again after lunch.", "example_vi": "Hãy trao đổi lại sau bữa trưa nhé." },
+    { "word": "confirm scope", "ipa": "/kənˈfɜːm skəʊp/", "meaning_vi": "xác nhận phạm vi công việc", "example": "We need to confirm scope before starting this ticket.", "example_vi": "Chúng ta cần xác nhận phạm vi trước khi bắt đầu ticket này." },
+    { "word": "double-check", "ipa": "/ˈdʌbl tʃek/", "meaning_vi": "kiểm tra lại lần nữa", "example": "Please double-check the numbers before you submit the report.", "example_vi": "Vui lòng kiểm tra lại số liệu trước khi nộp báo cáo." },
+    { "word": "quick sync", "ipa": "/kwɪk sɪŋk/", "meaning_vi": "buổi trao đổi nhanh", "example": "Can we have a quick sync about the API changes?", "example_vi": "Chúng ta có thể trao đổi nhanh về thay đổi API không?" },
+    { "word": "carry over", "ipa": "/ˈkæri ˈəʊvər/", "meaning_vi": "chuyển sang (sprint/ngày tiếp theo)", "example": "This task will carry over to tomorrow.", "example_vi": "Công việc này sẽ chuyển sang ngày mai." },
+    { "word": "capacity", "ipa": "/kəˈpæsəti/", "meaning_vi": "khả năng đảm nhận công việc", "example": "I don't have capacity for a new task today.", "example_vi": "Hôm nay tôi không có khả năng nhận thêm task mới." },
+    { "word": "align", "ipa": "/əˈlaɪn/", "meaning_vi": "thống nhất, đồng thuận", "example": "Let's align on the plan before we start coding.", "example_vi": "Hãy thống nhất kế hoạch trước khi bắt đầu code." }
+  ],
+  "listening": {
+    "title": "Standup with a full backlog",
+    "lines": [
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Morning team. Let's align on today's plan quickly." },
+      { "speaker": "Hoa", "voice": "female", "text": "I finished my ticket yesterday, so I'll take the next one from the backlog." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Great. Minh, how about you?" },
+      { "speaker": "Minh", "voice": "male", "text": "I don't have capacity for a new task today. My current one will carry over." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "That's fine. Please double-check the estimate before tomorrow's standup." },
+      { "speaker": "Minh", "voice": "male", "text": "Will do. Can we have a quick sync about the API changes later?" },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Sure, let's check in after lunch." },
+      { "speaker": "Hoa", "voice": "female", "text": "Before I start the new ticket, we should confirm scope with the client." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Good point. I'll message them this morning." }
+    ],
+    "questions": [
+      { "q": "What will Hoa do next?", "options": ["Take a day off", "Take the next ticket from the backlog", "Review Minh's code"], "answer": 1 },
+      { "q": "What will happen to Minh's current task?", "options": ["It will be cancelled", "It will carry over to the next day", "Someone else will finish it"], "answer": 1 },
+      { "q": "What does Hoa want to confirm before starting?", "options": ["The salary", "The scope with the client", "The meeting room"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Let's align on today's plan quickly before we start working.",
+    "I don't have capacity for a new task today, unfortunately.",
+    "My current task will carry over to tomorrow's standup meeting.",
+    "Can we have a quick sync about the API changes?",
+    "We should confirm scope with the client before starting the ticket."
+  ],
+  "interview": [
+    {
+      "question": "How do you decide what to work on when you have too many tasks in your backlog?",
+      "type": "common",
+      "tips_vi": ["Nêu tiêu chí ưu tiên: mức độ khẩn cấp, giá trị, deadline", "Nhấn mạnh việc trao đổi với team lead khi capacity không đủ", "Có thể kể ví dụ thực tế"],
+      "sample_answer": "When my backlog has too many tasks, I first check which ones have the closest deadline or the highest priority for the business, instead of just picking the easiest one. I also talk to my team lead early if I don't have capacity for everything, so we can align on what to focus on first before the sprint gets too far along. Sometimes a task can carry over to the next day if it's not urgent, and I make sure to update the ticket status so nothing is forgotten. I think honest communication about capacity is much better than trying to do everything and delivering poor quality work under pressure. In the end, this approach helps the whole team trust the estimates we give."
+    },
+    {
+      "question": "How do you make sure your team stays aligned on daily priorities?",
+      "type": "behavioral",
+      "tips_vi": ["Nêu công cụ/thói quen cụ thể: standup, quick sync, backlog rõ ràng", "Nhấn mạnh giao tiếp thường xuyên, không chỉ dựa vào công cụ", "Có thể kể ví dụ một lần team bị lệch hướng và cách khắc phục"],
+      "sample_answer": "In my team, we use daily standups to align on priorities and check in on progress, so everyone knows what everyone else is doing. If something urgent comes up during the day, we don't wait for the next standup — we have a quick sync right away to decide what to do. I also make sure the backlog is updated after every standup, so everyone knows what's next without asking around. Once, our team started working on the wrong priority because of unclear scope in the ticket description, which wasted almost two days of work. So now we always confirm scope together before starting a new ticket, even if it takes a few extra minutes. This habit has helped us stay aligned much better and avoid wasted effort."
+    }
+  ]
+}

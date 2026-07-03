@@ -1,0 +1,54 @@
+{
+  "date": "2026-07-12",
+  "theme": "Nói về email & follow-up",
+  "vocab": [
+    { "word": "inbox", "ipa": "/ˈɪnbɒks/", "meaning_vi": "hộp thư đến", "example": "My inbox is full of unread messages this morning.", "example_vi": "Hộp thư đến của tôi đầy tin nhắn chưa đọc sáng nay." },
+    { "word": "attachment", "ipa": "/əˈtætʃmənt/", "meaning_vi": "tệp đính kèm", "example": "Please check the attachment for more details.", "example_vi": "Vui lòng xem tệp đính kèm để biết thêm chi tiết." },
+    { "word": "reply", "ipa": "/rɪˈplaɪ/", "meaning_vi": "trả lời (email)", "example": "I will reply to the client by the end of the day.", "example_vi": "Tôi sẽ trả lời khách hàng trước cuối ngày." },
+    { "word": "forward", "ipa": "/ˈfɔːwəd/", "meaning_vi": "chuyển tiếp", "example": "Can you forward this email to the design team?", "example_vi": "Bạn chuyển tiếp email này cho team thiết kế được không?" },
+    { "word": "cc", "ipa": "/ˌsiː ˈsiː/", "meaning_vi": "gửi bản sao (email)", "example": "Please cc me on the email so I can keep track.", "example_vi": "Vui lòng cc cho tôi trong email để tôi theo dõi." },
+    { "word": "reminder", "ipa": "/rɪˈmaɪndər/", "meaning_vi": "email/lời nhắc nhở", "example": "I will send a reminder before the deadline.", "example_vi": "Tôi sẽ gửi một email nhắc nhở trước hạn chót." },
+    { "word": "subject line", "ipa": "/ˈsʌbdʒɪkt laɪn/", "meaning_vi": "tiêu đề email", "example": "Please write a clear subject line for this email.", "example_vi": "Vui lòng viết tiêu đề email rõ ràng." },
+    { "word": "respond", "ipa": "/rɪˈspɒnd/", "meaning_vi": "phản hồi", "example": "The client hasn't responded to my email yet.", "example_vi": "Khách hàng vẫn chưa phản hồi email của tôi." }
+  ],
+  "listening": {
+    "title": "Talking about a pending email",
+    "lines": [
+      { "speaker": "Linh", "voice": "female", "text": "Minh, did the client respond to your email yet?" },
+      { "speaker": "Minh", "voice": "male", "text": "Not yet. I sent it three days ago with the proposal attachment." },
+      { "speaker": "Linh", "voice": "female", "text": "Maybe it went to their spam inbox. Did you use a clear subject line?" },
+      { "speaker": "Minh", "voice": "male", "text": "Yes, I wrote 'Proposal for New Dashboard Feature'." },
+      { "speaker": "Linh", "voice": "female", "text": "Okay, I think you should send a reminder today." },
+      { "speaker": "Minh", "voice": "male", "text": "Good idea. Should I cc our manager too?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yes, please cc Hoa so she knows about the follow-up." },
+      { "speaker": "Minh", "voice": "male", "text": "Okay, I will forward the original email and add a short reminder." },
+      { "speaker": "Linh", "voice": "female", "text": "Great. Hopefully they reply soon." }
+    ],
+    "questions": [
+      { "q": "How long ago did Minh send the email?", "options": ["One day ago", "Three days ago", "One week ago"], "answer": 1 },
+      { "q": "What does Linh suggest Minh do?", "options": ["Call the client", "Send a reminder", "Cancel the proposal"], "answer": 1 },
+      { "q": "Who should Minh cc on the reminder?", "options": ["The client's manager", "Hoa", "The whole company"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Did the client respond to your email yet, or is it still pending?",
+    "I sent it three days ago with the proposal attachment included.",
+    "I think you should send a polite reminder to them today.",
+    "Please cc Hoa on the email so she knows about the follow-up.",
+    "I will forward the original email and add a short reminder note."
+  ],
+  "interview": [
+    {
+      "question": "How do you make sure important emails don't get missed or forgotten?",
+      "type": "common",
+      "tips_vi": ["Nêu công cụ/thói quen cụ thể: đặt nhắc nhở, gắn cờ email quan trọng", "Nhấn mạnh việc theo dõi (follow-up) chủ động", "Có thể nhắc đến việc viết tiêu đề rõ ràng để dễ tìm lại"],
+      "sample_answer": "I usually flag important emails as soon as they arrive and set a reminder for myself, so I don't forget to follow up on them later. If I'm waiting for a reply from someone, I check my inbox every morning and send a polite reminder after two or three days if there's still no response. I also try to write a clear and specific subject line for every email, so I can search for it easily later, even weeks afterward. On busy days, I keep a short list of pending emails, so nothing important gets lost among the less urgent messages. This habit helps me stay organized and reduces stress, especially when I'm working with multiple clients or projects at the same time. My manager has told me this habit makes our communication much more reliable."
+    },
+    {
+      "question": "Describe a time when clear communication in an email prevented a misunderstanding.",
+      "type": "behavioral",
+      "tips_vi": ["Dùng STAR: nêu tình huống cụ thể có nguy cơ hiểu nhầm", "Nhấn mạnh cách bạn viết email rõ ràng, có cc người liên quan", "Kết thúc bằng kết quả tích cực"],
+      "sample_answer": "Once, a client and my team had different ideas about a deadline after a phone call, and it seemed like a misunderstanding was starting to happen between everyone involved. I decided to write a clear, detailed email summarizing exactly what we had agreed on, including the final deadline, each person's task, and the next steps for the project. I also cc'd my manager and the project coordinator, so everyone had exactly the same information at the same time, without depending on memory. Because everything was written down clearly and in one place, there was no confusion later, even though the project involved several people from different teams and locations. The client actually thanked us for being so organized and for putting everything in writing instead of leaving it verbal. Since then, I always try to confirm important details like deadlines and responsibilities in writing, not just in a phone call or a quick chat message, because it protects everyone from misunderstandings later on."
+    }
+  ]
+}

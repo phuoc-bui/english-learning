@@ -1,0 +1,55 @@
+{
+  "date": "2026-07-23",
+  "theme": "Giải thích bug & sự cố production",
+  "vocab": [
+    { "word": "severity", "ipa": "/sɪˈverəti/", "meaning_vi": "mức độ nghiêm trọng", "example": "This bug has high severity — it affects payments.", "example_vi": "Lỗi này có mức độ nghiêm trọng cao — nó ảnh hưởng đến thanh toán." },
+    { "word": "reproduce", "ipa": "/ˌriːprəˈdjuːs/", "meaning_vi": "tái hiện lại lỗi", "example": "I can't reproduce the bug on my local machine.", "example_vi": "Tôi không thể tái hiện lại lỗi này trên máy của mình." },
+    { "word": "log", "ipa": "/lɒɡ/", "meaning_vi": "nhật ký hệ thống", "example": "Let's check the server log for error messages.", "example_vi": "Hãy kiểm tra nhật ký server để tìm thông báo lỗi." },
+    { "word": "affected", "ipa": "/əˈfektɪd/", "meaning_vi": "bị ảnh hưởng", "example": "About five hundred users were affected by the bug.", "example_vi": "Khoảng năm trăm người dùng bị ảnh hưởng bởi lỗi này." },
+    { "word": "hotfix", "ipa": "/ˈhɒtfɪks/", "meaning_vi": "bản vá khẩn cấp", "example": "We released a hotfix within one hour.", "example_vi": "Chúng tôi đã phát hành bản vá khẩn cấp trong vòng một giờ." },
+    { "word": "notify", "ipa": "/ˈnəʊtɪfaɪ/", "meaning_vi": "thông báo", "example": "We need to notify the client about this incident.", "example_vi": "Chúng ta cần thông báo cho khách hàng về sự cố này." },
+    { "word": "stable", "ipa": "/ˈsteɪbl/", "meaning_vi": "ổn định", "example": "The system is stable again after the hotfix.", "example_vi": "Hệ thống đã ổn định trở lại sau bản vá khẩn cấp." },
+    { "word": "trace", "ipa": "/treɪs/", "meaning_vi": "truy vết (lỗi)", "example": "We traced the problem back to a recent config change.", "example_vi": "Chúng tôi đã truy vết được vấn đề bắt nguồn từ một thay đổi cấu hình gần đây." }
+  ],
+  "listening": {
+    "title": "Investigating a high severity bug",
+    "lines": [
+      { "speaker": "Linh", "voice": "female", "text": "Nam, we have a bug report. It looks like high severity." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Okay, how many users are affected?" },
+      { "speaker": "Linh", "voice": "female", "text": "About five hundred, based on the error log." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Can you reproduce it on your machine?" },
+      { "speaker": "Linh", "voice": "female", "text": "Not yet, but I traced the problem back to a recent config change." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Good work. Let's prepare a hotfix right away." },
+      { "speaker": "Linh", "voice": "female", "text": "I'm testing it now. Should we notify the client?" },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Yes, please send them a short message about the incident." },
+      { "speaker": "Linh", "voice": "female", "text": "Done. The system should be stable once the hotfix is deployed." },
+      { "speaker": "Nam (team lead)", "voice": "male", "text": "Great. Let's keep monitoring for the next hour." }
+    ],
+    "questions": [
+      { "q": "How many users were affected?", "options": ["Fifty", "About five hundred", "Five thousand"], "answer": 1 },
+      { "q": "What did Linh trace the problem to?", "options": ["A recent config change", "A new employee's mistake", "A power outage"], "answer": 0 },
+      { "q": "What should Linh do about the client?", "options": ["Ignore them", "Send a short message about the incident", "Cancel the contract"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "We have a bug report, and it looks like high severity.",
+    "Can you reproduce it on your machine, or only in production?",
+    "I traced the problem back to a recent config change.",
+    "Let's prepare a hotfix right away and test it carefully.",
+    "The system should be stable again once the hotfix is deployed."
+  ],
+  "interview": [
+    {
+      "question": "How do you investigate a bug that you can't reproduce?",
+      "type": "technical",
+      "tips_vi": ["Nêu quy trình: kiểm tra log, so sánh môi trường, thu thập thêm thông tin", "Nhấn mạnh tính kiên nhẫn và có hệ thống khi debug", "Có thể kể một ví dụ cụ thể"],
+      "sample_answer": "When I can't reproduce a bug locally, I start by checking the server logs carefully to understand the exact error message and exactly when it happened. I also compare the environment, like the browser, device, or configuration, between my machine and the affected users, since many bugs only appear in specific setups. Sometimes I ask the reporter for more details, like the exact steps they followed or a screenshot of the error. If the severity is high, like an issue affecting five hundred users, I treat it as urgent and involve my team lead early. If I still cannot reproduce it, I add extra logging in that part of the code to catch more information the next time it happens. This step-by-step, patient approach helps me trace the root cause even for the trickiest bugs, without guessing at a fix."
+    },
+    {
+      "question": "Tell me about a time you had to communicate a serious bug to a client.",
+      "type": "behavioral",
+      "tips_vi": ["Nhấn mạnh sự trung thực, không che giấu vấn đề", "Nêu cách bạn giải thích đơn giản, kèm hướng khắc phục", "Kết thúc bằng kết quả và bài học"],
+      "sample_answer": "Once we had a bug that affected the checkout page for some users, which was a serious issue because it involved payments. I helped write a short, honest message explaining the issue, roughly how many users were affected, and our plan to fix it, including a rough timeline. We avoided technical words like config or log, since the client was not a developer and would not understand them. We also gave them a simple workaround they could suggest to any customers who contacted support in the meantime. After we deployed the hotfix, we sent a follow-up message confirming the system was stable again and thanked them for their patience. The client appreciated our quick and honest communication, and it actually made them trust our team more than before the incident."
+    }
+  ]
+}

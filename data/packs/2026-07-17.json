@@ -1,0 +1,55 @@
+{
+  "date": "2026-07-17",
+  "theme": "Code review & pull requests",
+  "vocab": [
+    { "word": "convention", "ipa": "/kənˈvenʃn/", "meaning_vi": "quy ước (đặt tên, viết code)", "example": "Please follow our naming convention for variables.", "example_vi": "Vui lòng theo quy ước đặt tên biến của chúng ta." },
+    { "word": "test coverage", "ipa": "/test ˈkʌvərɪdʒ/", "meaning_vi": "độ bao phủ kiểm thử", "example": "The test coverage for this module is too low.", "example_vi": "Độ bao phủ kiểm thử của module này quá thấp." },
+    { "word": "edge case", "ipa": "/edʒ keɪs/", "meaning_vi": "trường hợp biên, hiếm gặp", "example": "Did you handle the edge case when the list is empty?", "example_vi": "Bạn đã xử lý trường hợp danh sách rỗng chưa?" },
+    { "word": "duplicate", "ipa": "/ˈdjuːplɪkeɪt/", "meaning_vi": "trùng lặp", "example": "This function is duplicate code — we already have one like it.", "example_vi": "Hàm này bị trùng lặp — chúng ta đã có một hàm tương tự rồi." },
+    { "word": "clean up", "ipa": "/kliːn ʌp/", "meaning_vi": "dọn dẹp (code)", "example": "Can you clean up the unused imports before merging?", "example_vi": "Bạn dọn dẹp các import không dùng trước khi merge được không?" },
+    { "word": "minor", "ipa": "/ˈmaɪnər/", "meaning_vi": "nhỏ, không quan trọng lắm", "example": "It's just a minor comment about formatting.", "example_vi": "Đây chỉ là một góp ý nhỏ về định dạng thôi." },
+    { "word": "resolve", "ipa": "/rɪˈzɒlv/", "meaning_vi": "giải quyết, đóng (comment)", "example": "I resolved all the comments from your review.", "example_vi": "Tôi đã giải quyết hết các góp ý từ review của bạn." },
+    { "word": "codebase", "ipa": "/ˈkəʊdbeɪs/", "meaning_vi": "toàn bộ mã nguồn dự án", "example": "This function is used in many places across the codebase.", "example_vi": "Hàm này được dùng ở nhiều nơi trong toàn bộ mã nguồn dự án." }
+  ],
+  "listening": {
+    "title": "A detailed code review",
+    "lines": [
+      { "speaker": "Hoa", "voice": "female", "text": "Minh, I finished reviewing your pull request." },
+      { "speaker": "Minh", "voice": "male", "text": "Thanks! Did you find any big issues?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Mostly minor comments. Please follow our naming convention for variables." },
+      { "speaker": "Minh", "voice": "male", "text": "Okay, I'll fix that. Anything else?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Yes, the test coverage for this module is too low. Can you add more tests?" },
+      { "speaker": "Minh", "voice": "male", "text": "Sure. Did you check the edge case when the list is empty?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Good question — I don't think you handled that case yet." },
+      { "speaker": "Minh", "voice": "male", "text": "You're right, I'll add it. I also noticed some duplicate code I should clean up." },
+      { "speaker": "Hoa", "voice": "female", "text": "Good catch. This function is used across the whole codebase, so let's be careful." },
+      { "speaker": "Minh", "voice": "male", "text": "Understood. I'll resolve all your comments today." }
+    ],
+    "questions": [
+      { "q": "What does Hoa ask Minh to follow?", "options": ["The naming convention", "The deadline", "The client's request"], "answer": 0 },
+      { "q": "What edge case did Minh forget?", "options": ["When the list is empty", "When the server is down", "When the user logs out"], "answer": 0 },
+      { "q": "What does Minh notice he should clean up?", "options": ["Old comments", "Duplicate code", "Test files"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Please follow our naming convention for variables throughout the whole file.",
+    "The test coverage for this module is too low, so please add more tests.",
+    "Did you check the edge case when the list is completely empty?",
+    "I noticed some duplicate code that I should probably clean up soon.",
+    "I'll resolve all your comments today and update the pull request."
+  ],
+  "interview": [
+    {
+      "question": "What do you look for when reviewing someone else's code?",
+      "type": "technical",
+      "tips_vi": ["Liệt kê tiêu chí cụ thể: đúng logic, dễ đọc, có test, edge case", "Nhấn mạnh cách góp ý mang tính xây dựng, không chỉ trích", "Có thể nêu ví dụ một lần review phát hiện lỗi quan trọng"],
+      "sample_answer": "When I review code, I first check if the logic is correct and actually matches the requirement described in the ticket. Then I look at readability — good naming, clear structure, and whether the code follows our team's conventions. I also check test coverage carefully, especially for edge cases like empty lists, invalid input, or unexpected null values, since these are often forgotten. If I see duplicate code, I suggest a way to clean it up or reuse an existing function instead. I always try to write comments in a polite and helpful way, explaining why I'm suggesting a change, because I want the review to feel like teamwork, not criticism. Once I found a bug during review that would have caused data loss in production, and the author was actually grateful I caught it before merging."
+    },
+    {
+      "question": "How do you make sure your code fits well into a large existing codebase?",
+      "type": "technical",
+      "tips_vi": ["Nhấn mạnh việc đọc code hiện có trước khi viết mới", "Nêu ví dụ tuân theo convention, tránh trùng lặp logic", "Có thể nhắc đến việc trao đổi với đồng nghiệp khi không chắc chắn"],
+      "sample_answer": "Before writing new code, I usually spend time reading the existing codebase to understand its structure, naming convention, and the general coding style the team follows. I try to reuse existing functions instead of creating duplicate code, because that keeps the codebase smaller and easier to maintain over time. I also follow the same naming style as the rest of the project, so my code looks consistent and doesn't stand out as different. If I'm not sure about a pattern, I ask a teammate or check the internal documentation instead of guessing, since a wrong guess can create more work later. This approach makes my pull requests easier to review and merge, and it usually means I get fewer comments asking me to make changes."
+    }
+  ]
+}

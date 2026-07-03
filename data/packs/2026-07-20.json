@@ -1,0 +1,54 @@
+{
+  "date": "2026-07-20",
+  "theme": "Họp với khách hàng",
+  "vocab": [
+    { "word": "stakeholder", "ipa": "/ˈsteɪkhəʊldər/", "meaning_vi": "bên liên quan", "example": "We need approval from all stakeholders before launch.", "example_vi": "Chúng ta cần sự chấp thuận từ tất cả các bên liên quan trước khi ra mắt." },
+    { "word": "timeline", "ipa": "/ˈtaɪmlaɪn/", "meaning_vi": "lịch trình dự án", "example": "Can you share the updated timeline with the client?", "example_vi": "Bạn chia sẻ lịch trình cập nhật với khách hàng được không?" },
+    { "word": "worry", "ipa": "/ˈwʌri/", "meaning_vi": "lo lắng, mối lo", "example": "The client's main worry is about data security.", "example_vi": "Mối lo chính của khách hàng là về bảo mật dữ liệu." },
+    { "word": "clarify", "ipa": "/ˈklærɪfaɪ/", "meaning_vi": "làm rõ", "example": "Could you clarify what you mean by 'real-time update'?", "example_vi": "Bạn có thể làm rõ ý 'cập nhật thời gian thực' là gì không?" },
+    { "word": "priority list", "ipa": "/praɪˈɒrəti lɪst/", "meaning_vi": "danh sách ưu tiên", "example": "Let's put this feature on the priority list for next month.", "example_vi": "Hãy đưa tính năng này vào danh sách ưu tiên tháng tới." },
+    { "word": "trust", "ipa": "/trʌst/", "meaning_vi": "sự tin tưởng", "example": "Good communication builds trust with our clients.", "example_vi": "Giao tiếp tốt xây dựng sự tin tưởng với khách hàng." },
+    { "word": "satisfied", "ipa": "/ˈsætɪsfaɪd/", "meaning_vi": "hài lòng", "example": "The client seems satisfied with our progress so far.", "example_vi": "Khách hàng có vẻ hài lòng với tiến độ của chúng ta hiện tại." },
+    { "word": "agree on", "ipa": "/əˈɡriː ɒn/", "meaning_vi": "đồng ý về (điều gì)", "example": "Let's agree on the next milestone before we end the call.", "example_vi": "Hãy thống nhất về mốc tiếp theo trước khi kết thúc cuộc gọi." }
+  ],
+  "listening": {
+    "title": "Quarterly review with the client",
+    "lines": [
+      { "speaker": "Hoa", "voice": "female", "text": "Thanks for joining. Let's review the timeline for this quarter." },
+      { "speaker": "David (client)", "voice": "male", "text": "Sure. We are satisfied with the progress so far." },
+      { "speaker": "Hoa", "voice": "female", "text": "That's great to hear. Do all stakeholders agree with the current plan?" },
+      { "speaker": "David (client)", "voice": "male", "text": "Mostly yes, but our security team has a concern about data storage." },
+      { "speaker": "Hoa", "voice": "female", "text": "Could you clarify what exactly worries them?" },
+      { "speaker": "David (client)", "voice": "male", "text": "They want to know where user data is stored and how it's protected." },
+      { "speaker": "Hoa", "voice": "female", "text": "Understood. I'll prepare a document about our security process." },
+      { "speaker": "David (client)", "voice": "male", "text": "Thank you, that would really help build trust with our team." },
+      { "speaker": "Hoa", "voice": "female", "text": "Of course. Let's agree on next steps before we finish today." }
+    ],
+    "questions": [
+      { "q": "How does the client feel about the progress?", "options": ["Unhappy", "Satisfied", "Confused"], "answer": 1 },
+      { "q": "What concern does the security team have?", "options": ["The budget", "Data storage and protection", "The team size"], "answer": 1 },
+      { "q": "What will Hoa prepare?", "options": ["A new contract", "A document about security process", "A marketing plan"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Let's take a few minutes to review the timeline for this quarter.",
+    "We are satisfied with the progress so far, but we still have questions.",
+    "Could you clarify what exactly worries them about the new system?",
+    "That would really help build trust with our team going forward.",
+    "Let's agree on next steps before we finish the call today."
+  ],
+  "interview": [
+    {
+      "question": "How do you build trust with a client during a project?",
+      "type": "behavioral",
+      "tips_vi": ["Nêu hành động cụ thể: giao tiếp minh bạch, đúng hẹn, chủ động báo cáo", "Nhấn mạnh việc lắng nghe mối lo ngại của khách hàng", "Có thể kể một ví dụ ngắn"],
+      "sample_answer": "I believe trust comes from clear and honest communication. I always try to give clients regular updates on the timeline, even when there is a delay, so they never feel surprised later. When a client raises a concern, I listen carefully and try to clarify the real issue before offering a solution, instead of guessing what they mean. For example, once a client worried about data security, so I prepared a clear document explaining our process step by step, including where user data is stored and how it is protected. After reading it, the client felt much more confident about our system. I also make sure to follow up a few days later to check if they have any more questions. This kind of transparency and consistency helps build long-term trust with every stakeholder I work with."
+    },
+    {
+      "question": "Describe a situation where you had to satisfy a difficult stakeholder.",
+      "type": "behavioral",
+      "tips_vi": ["Dùng STAR, nêu rõ mâu thuẫn về ưu tiên hoặc kỳ vọng", "Nhấn mạnh cách bạn tìm điểm chung, không né tránh vấn đề", "Kết thúc bằng kết quả tích cực"],
+      "sample_answer": "Once we worked with a stakeholder who wanted many features added to the priority list at the same time, which was not realistic for our team size. I organized a call to clarify their real business goals, instead of just listing every feature they mentioned. During the call, I asked questions to understand what would bring the most value to their users first. Then I proposed a priority list based on that value, with a clear timeline for each item. It took some negotiation, and a few features had to wait until the next quarter. But we agreed on a plan that satisfied their main needs while staying realistic for our team. In the end, the stakeholder appreciated that we listened carefully and explained our reasoning clearly instead of just saying no."
+    }
+  ]
+}

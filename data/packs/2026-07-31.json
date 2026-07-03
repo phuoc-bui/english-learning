@@ -1,0 +1,55 @@
+{
+  "date": "2026-07-31",
+  "theme": "Code review & pull requests",
+  "vocab": [
+    { "word": "style guide", "ipa": "/staɪl ɡaɪd/", "meaning_vi": "quy chuẩn viết code", "example": "Please follow the style guide when formatting your code.", "example_vi": "Vui lòng theo quy chuẩn viết code khi định dạng." },
+    { "word": "nitpick", "ipa": "/ˈnɪtpɪk/", "meaning_vi": "góp ý nhỏ nhặt", "example": "This is just a nitpick, not a blocking issue.", "example_vi": "Đây chỉ là góp ý nhỏ nhặt, không phải vấn đề chặn merge." },
+    { "word": "breaking change", "ipa": "/ˈbreɪkɪŋ tʃeɪndʒ/", "meaning_vi": "thay đổi gây ảnh hưởng ngược", "example": "This is a breaking change — other services need updating too.", "example_vi": "Đây là thay đổi gây ảnh hưởng ngược — các dịch vụ khác cũng cần cập nhật." },
+    { "word": "unit test", "ipa": "/ˈjuːnɪt test/", "meaning_vi": "kiểm thử đơn vị", "example": "Did you add a unit test for this new function?", "example_vi": "Bạn đã thêm unit test cho hàm mới này chưa?" },
+    { "word": "consistent", "ipa": "/kənˈsɪstənt/", "meaning_vi": "nhất quán", "example": "Please keep the error messages consistent across the app.", "example_vi": "Vui lòng giữ thông báo lỗi nhất quán trong toàn ứng dụng." },
+    { "word": "revert", "ipa": "/rɪˈvɜːt/", "meaning_vi": "hoàn tác thay đổi", "example": "We had to revert the last commit because it broke the build.", "example_vi": "Chúng tôi phải hoàn tác commit cuối vì nó làm hỏng bản build." },
+    { "word": "approve with comments", "ipa": "/əˈpruːv wɪð ˈkɒments/", "meaning_vi": "phê duyệt kèm góp ý", "example": "I'll approve with comments — please fix them before merging.", "example_vi": "Tôi sẽ phê duyệt kèm góp ý — hãy sửa trước khi merge." },
+    { "word": "constructive", "ipa": "/kənˈstrʌktɪv/", "meaning_vi": "mang tính xây dựng", "example": "Try to give constructive feedback, not just criticism.", "example_vi": "Hãy góp ý mang tính xây dựng, đừng chỉ chỉ trích." }
+  ],
+  "listening": {
+    "title": "A thorough final review",
+    "lines": [
+      { "speaker": "Hoa", "voice": "female", "text": "Minh, I reviewed your pull request. Overall it looks solid." },
+      { "speaker": "Minh", "voice": "male", "text": "Thanks! Any issues I should fix?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Just a nitpick — please follow the style guide for spacing." },
+      { "speaker": "Minh", "voice": "male", "text": "No problem, easy fix. Anything more serious?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Yes, this looks like a breaking change. Other services might be affected." },
+      { "speaker": "Minh", "voice": "male", "text": "Good catch, I didn't think about that. I'll add a unit test to be safe." },
+      { "speaker": "Hoa", "voice": "female", "text": "Great. Also, keep the error messages consistent with the rest of the app." },
+      { "speaker": "Minh", "voice": "male", "text": "Got it. I'll update everything today." },
+      { "speaker": "Hoa", "voice": "female", "text": "I'll approve with comments for now. Thanks for being open to constructive feedback." },
+      { "speaker": "Minh", "voice": "male", "text": "Of course, this review really helped me improve the code." }
+    ],
+    "questions": [
+      { "q": "What is Hoa's nitpick about?", "options": ["The logic", "The style guide for spacing", "The database"], "answer": 1 },
+      { "q": "What serious issue does Hoa point out?", "options": ["A missing feature", "A breaking change affecting other services", "A wrong deadline"], "answer": 1 },
+      { "q": "How does Hoa approve the pull request?", "options": ["She rejects it", "She approves with comments", "She ignores it"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Overall it looks solid, just a small nitpick about spacing.",
+    "This looks like a breaking change for other services in production.",
+    "I'll add a unit test to be safe before merging this.",
+    "Keep the error messages consistent with the rest of the app.",
+    "Thanks for being open to constructive feedback during the review."
+  ],
+  "interview": [
+    {
+      "question": "How do you give constructive feedback during a code review?",
+      "type": "technical",
+      "tips_vi": ["Nhấn mạnh cách tách góp ý nhỏ (nitpick) và vấn đề nghiêm trọng", "Nêu cách diễn đạt tích cực, tập trung vào code chứ không phải con người", "Có thể đưa ví dụ cụ thể"],
+      "sample_answer": "When I give feedback, I try to separate small style issues, like a nitpick, from serious problems like a breaking change, so the author knows what really needs attention. I explain why I'm suggesting a change, not just what to change, so the author understands the reasoning and can apply it next time. I always focus on the code itself, not the person, and I try to be specific and polite, even when pointing out a real mistake. If most of the pull request looks good, I usually approve with comments, so the author isn't blocked while fixing small details before merging. I think this approach keeps reviews useful without making people afraid to submit code."
+    },
+    {
+      "question": "Tell me about a time a code review helped you catch a serious problem before release.",
+      "type": "technical",
+      "tips_vi": ["Dùng STAR: nêu vấn đề tiềm ẩn được phát hiện trong review", "Nhấn mạnh giá trị của việc review kỹ, không vội merge", "Kết thúc bằng kết quả tích cực"],
+      "sample_answer": "Once, during a code review, I noticed that a change to a shared function would actually be a breaking change for another service that depended on it. The author hadn't realized this, since it wasn't obvious from the ticket description, and the tests didn't cover that case either. We added a unit test to confirm the issue, then updated the function to stay backward compatible instead of forcing every service to update at once. If we had merged it without review, it would have caused a production incident during a busy period for the business. This experience showed me how valuable a careful, constructive review process really is, and I now pay closer attention to shared code in every review I do."
+    }
+  ]
+}

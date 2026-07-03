@@ -1,0 +1,55 @@
+{
+  "date": "2026-07-25",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    { "word": "checklist", "ipa": "/ˈtʃeklɪst/", "meaning_vi": "danh sách công việc cần làm", "example": "Here is your onboarding checklist for the first week.", "example_vi": "Đây là danh sách công việc cần làm trong tuần đầu tiên của bạn." },
+    { "word": "training", "ipa": "/ˈtreɪnɪŋ/", "meaning_vi": "đào tạo", "example": "You will have training sessions with different teams this week.", "example_vi": "Bạn sẽ có các buổi đào tạo với các đội khác nhau trong tuần này." },
+    { "word": "workspace", "ipa": "/ˈwɜːkspeɪs/", "meaning_vi": "không gian làm việc", "example": "Let me show you around the workspace first.", "example_vi": "Để tôi dẫn bạn đi tham quan không gian làm việc trước." },
+    { "word": "shadow", "ipa": "/ˈʃædəʊ/", "meaning_vi": "quan sát/theo dõi việc người khác làm để học hỏi", "example": "You will shadow Linh for a few days to learn the process.", "example_vi": "Bạn sẽ quan sát Linh làm việc vài ngày để học quy trình." },
+    { "word": "culture", "ipa": "/ˈkʌltʃər/", "meaning_vi": "văn hóa (công ty)", "example": "Our company culture values open communication.", "example_vi": "Văn hóa công ty chúng tôi coi trọng giao tiếp cởi mở." },
+    { "word": "probationary period", "ipa": "/prəˈbeɪʃənəri ˈpɪəriəd/", "meaning_vi": "giai đoạn thử việc", "example": "During the probationary period, you will have weekly check-ins.", "example_vi": "Trong giai đoạn thử việc, bạn sẽ có các buổi trao đổi hàng tuần." },
+    { "word": "orientation", "ipa": "/ˌɔːriənˈteɪʃn/", "meaning_vi": "buổi định hướng nhân viên mới", "example": "The orientation covers company policies and tools.", "example_vi": "Buổi định hướng bao gồm chính sách và công cụ của công ty." },
+    { "word": "settle in", "ipa": "/ˈsetl ɪn/", "meaning_vi": "hòa nhập, ổn định trong môi trường mới", "example": "It usually takes a few weeks to settle in.", "example_vi": "Thường mất vài tuần để hòa nhập vào môi trường mới." }
+  ],
+  "listening": {
+    "title": "Orientation day",
+    "lines": [
+      { "speaker": "Hoa (HR)", "voice": "female", "text": "Welcome! Today is your orientation day. Here is your checklist." },
+      { "speaker": "Mai", "voice": "female", "text": "Thank you. What should I do first?" },
+      { "speaker": "Hoa (HR)", "voice": "female", "text": "Let me show you around the workspace first." },
+      { "speaker": "Mai", "voice": "female", "text": "Great, thank you. Will I have any training this week?" },
+      { "speaker": "Hoa (HR)", "voice": "female", "text": "Yes, you will have training sessions with different teams." },
+      { "speaker": "Mai", "voice": "female", "text": "That's helpful. How can I learn the daily process?" },
+      { "speaker": "Hoa (HR)", "voice": "female", "text": "You will shadow Linh for a few days to learn the process." },
+      { "speaker": "Mai", "voice": "female", "text": "Sounds good. What happens during the probationary period?" },
+      { "speaker": "Hoa (HR)", "voice": "female", "text": "You'll have weekly check-ins, and we'll help you settle in." },
+      { "speaker": "Mai", "voice": "female", "text": "Thank you, I already feel welcome here." }
+    ],
+    "questions": [
+      { "q": "What does Hoa give Mai first?", "options": ["A laptop", "A checklist", "A contract"], "answer": 1 },
+      { "q": "Who will Mai shadow to learn the process?", "options": ["Hoa", "Linh", "Minh"], "answer": 1 },
+      { "q": "What happens during the probationary period?", "options": ["No support at all", "Weekly check-ins", "Extra vacation days"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Welcome! Today is your orientation day, and here is your checklist.",
+    "Let me show you around the workspace before we start training.",
+    "You will have training sessions with different teams this week.",
+    "You will shadow Linh for a few days to learn the daily process.",
+    "We'll have weekly check-ins and help you settle in over time."
+  ],
+  "interview": [
+    {
+      "question": "How do you usually settle into a new company or team?",
+      "type": "common",
+      "tips_vi": ["Nêu hành động cụ thể: đọc tài liệu, hỏi mentor, tham gia training", "Thể hiện tinh thần chủ động học hỏi văn hóa công ty", "Có thể kể ví dụ từ công việc trước"],
+      "sample_answer": "When I join a new company, I try to be proactive from day one instead of waiting for someone to tell me exactly what to do. I read through the onboarding checklist and documentation carefully, and I ask questions whenever something is unclear, even small ones. I also like to shadow a colleague for a few days to understand the real daily process, not just the theory from a document. Beyond the technical side, I try to learn about the company culture by observing how people communicate, run meetings, and give feedback to each other. During the probationary period, I use the weekly check-ins to ask honestly how I am doing and what I could improve. This combination of preparation and curiosity usually helps me settle in within the first few weeks, instead of taking months to feel comfortable."
+    },
+    {
+      "question": "What would you do in your first week at a new job to make a good impression?",
+      "type": "common",
+      "tips_vi": ["Nêu hành động cụ thể trong tuần đầu: lắng nghe, quan sát, hỏi đúng câu hỏi", "Tránh nói chung chung, nên có ví dụ hành vi cụ thể", "Thể hiện thái độ khiêm tốn, sẵn sàng học hỏi"],
+      "sample_answer": "In my first week, I would focus on learning as much as possible instead of trying to prove myself too quickly or take on big tasks right away. I would complete my onboarding checklist step by step, attend all training sessions, and take careful notes on the company culture, tools, and processes. I would also introduce myself to my teammates individually, not just in a group chat, and ask thoughtful questions when I need help instead of guessing and making mistakes. If I get the chance to shadow someone like Linh, I would prepare specific questions in advance to make the most of that time. I believe showing genuine interest, being a good listener, and staying humble in the first week builds a strong foundation for the rest of my time there."
+    }
+  ]
+}
