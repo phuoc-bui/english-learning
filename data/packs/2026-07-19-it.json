@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-19",
+  "theme": "Small talk đầu giờ & pantry chat",
+  "vocab": [
+    {
+      "word": "vacation",
+      "ipa": "/vəˈkeɪʃn/",
+      "meaning_vi": "kỳ nghỉ",
+      "example": "Are you planning any vacation this summer?",
+      "example_vi": "Bạn có định đi nghỉ hè không?"
+    },
+    {
+      "word": "lunch break",
+      "ipa": "/lʌntʃ breɪk/",
+      "meaning_vi": "giờ nghỉ trưa",
+      "example": "Do you want to grab lunch break together today?",
+      "example_vi": "Bạn có muốn ăn trưa cùng nhau hôm nay không?"
+    },
+    {
+      "word": "hobby",
+      "ipa": "/ˈhɒbi/",
+      "meaning_vi": "sở thích",
+      "example": "What do you do as a hobby outside of work?",
+      "example_vi": "Ngoài công việc, sở thích của bạn là gì?"
+    },
+    {
+      "word": "neighborhood",
+      "ipa": "/ˈneɪbəhʊd/",
+      "meaning_vi": "khu phố, khu vực sống",
+      "example": "I just moved to a new neighborhood last month.",
+      "example_vi": "Tôi vừa chuyển đến khu phố mới tháng trước."
+    },
+    {
+      "word": "gym",
+      "ipa": "/dʒɪm/",
+      "meaning_vi": "phòng tập gym",
+      "example": "I go to the gym before work three times a week.",
+      "example_vi": "Tôi đi tập gym trước giờ làm ba lần một tuần."
+    },
+    {
+      "word": "weather",
+      "ipa": "/ˈweðər/",
+      "meaning_vi": "thời tiết",
+      "example": "The weather has been really hot this week.",
+      "example_vi": "Thời tiết tuần này thực sự rất nóng."
+    },
+    {
+      "word": "spare time",
+      "ipa": "/speər taɪm/",
+      "meaning_vi": "thời gian rảnh",
+      "example": "I like reading books in my spare time.",
+      "example_vi": "Tôi thích đọc sách trong thời gian rảnh."
+    },
+    {
+      "word": "colleague",
+      "ipa": "/ˈkɒliːɡ/",
+      "meaning_vi": "đồng nghiệp",
+      "example": "My colleague recommended a great restaurant nearby.",
+      "example_vi": "Đồng nghiệp của tôi gợi ý một nhà hàng ngon gần đây."
+    }
+  ],
+  "listening": {
+    "title": "Lunch break conversation",
+    "lines": [
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Hey Tuan, do you want to grab lunch break together today?"
+      },
+      {
+        "speaker": "Tuan",
+        "voice": "male",
+        "text": "Sure! Actually, my colleague recommended a new place nearby."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Nice, let's try it. By the way, what do you do in your spare time?"
+      },
+      {
+        "speaker": "Tuan",
+        "voice": "male",
+        "text": "I usually go to the gym, and reading is also a hobby of mine."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "That's great. I just moved to a new neighborhood, so I'm still exploring."
+      },
+      {
+        "speaker": "Tuan",
+        "voice": "male",
+        "text": "Oh nice, how do you like it so far?"
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "It's quiet, but the weather has been really hot this week."
+      },
+      {
+        "speaker": "Tuan",
+        "voice": "male",
+        "text": "I know, terrible. Are you planning any vacation this summer?"
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Yes, I'm thinking about visiting Da Nang for a few days."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Who recommended the new lunch place?",
+        "options": [
+          "Hoa",
+          "Tuan's colleague",
+          "The manager"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Tuan do in his spare time?",
+        "options": [
+          "Cooking and painting",
+          "Going to the gym and reading",
+          "Watching movies"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Where is Hoa planning to go for vacation?",
+        "options": [
+          "Da Nang",
+          "Hanoi",
+          "Overseas"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Do you want to grab lunch break together today with the team?",
+    "What do you usually do in your spare time after work?",
+    "I just moved to a new neighborhood, so I'm still exploring the area.",
+    "The weather has been really hot this week, hasn't it?",
+    "Are you planning any vacation this summer, maybe somewhere near the beach?"
+  ],
+  "track": "it"
+}

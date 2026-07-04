@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-27",
+  "theme": "Họp retrospective",
+  "vocab": [
+    {
+      "word": "feedback session",
+      "ipa": "/ˈfiːdbæk ˈseʃn/",
+      "meaning_vi": "buổi trao đổi phản hồi",
+      "example": "Let's have a short feedback session at the end of the sprint.",
+      "example_vi": "Hãy có một buổi trao đổi phản hồi ngắn vào cuối sprint."
+    },
+    {
+      "word": "team morale",
+      "ipa": "/tiːm məˈrɑːl/",
+      "meaning_vi": "tinh thần đội nhóm",
+      "example": "Team morale was low after the busy release week.",
+      "example_vi": "Tinh thần đội nhóm thấp sau tuần phát hành bận rộn."
+    },
+    {
+      "word": "workload",
+      "ipa": "/ˈwɜːkləʊd/",
+      "meaning_vi": "khối lượng công việc",
+      "example": "The workload this sprint was too heavy for the team.",
+      "example_vi": "Khối lượng công việc sprint này quá nặng với đội."
+    },
+    {
+      "word": "balance",
+      "ipa": "/ˈbæləns/",
+      "meaning_vi": "sự cân bằng",
+      "example": "We need a better balance between speed and quality.",
+      "example_vi": "Chúng ta cần cân bằng tốt hơn giữa tốc độ và chất lượng."
+    },
+    {
+      "word": "celebrate",
+      "ipa": "/ˈseləbreɪt/",
+      "meaning_vi": "ăn mừng, ghi nhận thành tích",
+      "example": "Let's celebrate finishing this difficult sprint.",
+      "example_vi": "Hãy ăn mừng vì đã hoàn thành sprint khó khăn này."
+    },
+    {
+      "word": "root problem",
+      "ipa": "/ruːt ˈprɒbləm/",
+      "meaning_vi": "vấn đề gốc rễ",
+      "example": "We should find the root problem, not just the symptom.",
+      "example_vi": "Chúng ta nên tìm vấn đề gốc rễ, không chỉ triệu chứng."
+    },
+    {
+      "word": "collaboration",
+      "ipa": "/kəˌlæbəˈreɪʃn/",
+      "meaning_vi": "sự hợp tác",
+      "example": "Collaboration between design and dev was great this sprint.",
+      "example_vi": "Sự hợp tác giữa thiết kế và lập trình rất tốt trong sprint này."
+    },
+    {
+      "word": "commit to",
+      "ipa": "/kəˈmɪt tuː/",
+      "meaning_vi": "cam kết thực hiện",
+      "example": "Let's commit to fixing this process next sprint.",
+      "example_vi": "Hãy cam kết sửa quy trình này trong sprint tới."
+    }
+  ],
+  "listening": {
+    "title": "Retrospective after a hard sprint",
+    "lines": [
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "This sprint was tough. Let's start our feedback session."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Agreed. Team morale was a bit low after the busy release week."
+      },
+      {
+        "speaker": "Minh",
+        "voice": "male",
+        "text": "I think the workload this sprint was too heavy for us."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "That's fair. We need a better balance between speed and quality."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "On the positive side, collaboration between design and dev was great."
+      },
+      {
+        "speaker": "Minh",
+        "voice": "male",
+        "text": "True. Let's celebrate that, even with the difficult sprint."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "Good point. Now, what's the root problem behind the heavy workload?"
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "I think we accepted too many tasks without checking capacity."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "Let's commit to planning capacity more carefully next sprint."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How was team morale this sprint?",
+        "options": [
+          "Very high",
+          "A bit low",
+          "Not mentioned"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What went well according to Hoa?",
+        "options": [
+          "The workload",
+          "Collaboration between design and dev",
+          "The deadline"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is the root problem the team identifies?",
+        "options": [
+          "Too many meetings",
+          "Accepting too many tasks without checking capacity",
+          "A bug in production"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "This sprint was tough, so let's start our feedback session right away.",
+    "Team morale was a bit low after the busy release week.",
+    "We need a better balance between speed and quality on this project.",
+    "Collaboration between design and dev was great this sprint, honestly.",
+    "Let's commit to planning capacity more carefully next sprint, starting Monday."
+  ],
+  "track": "it"
+}

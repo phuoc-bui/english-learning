@@ -1,0 +1,144 @@
+{
+  "date": "2026-07-02",
+  "theme": "Daily standup meeting",
+  "vocab": [
+    {
+      "word": "blocker",
+      "ipa": "/ˈblɒkər/",
+      "meaning_vi": "vấn đề cản trở công việc",
+      "example": "I have a blocker with the payment API — can someone help me after standup?",
+      "example_vi": "Tôi đang bị vướng ở API thanh toán — ai giúp tôi sau standup được không?"
+    },
+    {
+      "word": "on track",
+      "ipa": "/ɒn træk/",
+      "meaning_vi": "đúng tiến độ",
+      "example": "The login feature is on track for Friday's release.",
+      "example_vi": "Tính năng đăng nhập đang đúng tiến độ cho bản phát hành thứ Sáu."
+    },
+    {
+      "word": "follow up",
+      "ipa": "/ˈfɒləʊ ʌp/",
+      "meaning_vi": "theo dõi / trao đổi tiếp sau",
+      "example": "Let's follow up on this after the meeting.",
+      "example_vi": "Chúng ta trao đổi tiếp việc này sau cuộc họp nhé."
+    },
+    {
+      "word": "deadline",
+      "ipa": "/ˈdedlaɪn/",
+      "meaning_vi": "hạn chót",
+      "example": "The deadline for this sprint is next Wednesday.",
+      "example_vi": "Hạn chót của sprint này là thứ Tư tuần sau."
+    },
+    {
+      "word": "estimate",
+      "ipa": "/ˈestɪmeɪt/",
+      "meaning_vi": "ước lượng (thời gian/công sức)",
+      "example": "My estimate for this task is about two days.",
+      "example_vi": "Tôi ước lượng task này mất khoảng hai ngày."
+    },
+    {
+      "word": "hand over",
+      "ipa": "/hænd ˈəʊvər/",
+      "meaning_vi": "bàn giao",
+      "example": "I will hand over the ticket to the QA team today.",
+      "example_vi": "Hôm nay tôi sẽ bàn giao ticket cho team QA."
+    },
+    {
+      "word": "priority",
+      "ipa": "/praɪˈɒrəti/",
+      "meaning_vi": "mức độ ưu tiên",
+      "example": "Fixing the login bug is our top priority this week.",
+      "example_vi": "Sửa lỗi đăng nhập là ưu tiên hàng đầu của chúng ta tuần này."
+    },
+    {
+      "word": "update",
+      "ipa": "/ˈʌpdeɪt/",
+      "meaning_vi": "cập nhật (tình hình)",
+      "example": "Can you give us a quick update on the database migration?",
+      "example_vi": "Bạn cập nhật nhanh tình hình migration database được không?"
+    }
+  ],
+  "listening": {
+    "title": "Morning standup",
+    "lines": [
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "Good morning everyone. Let's start our standup. Linh, can you go first?"
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "Sure. Yesterday I finished the login page and fixed two small bugs."
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "Today I will start working on the user profile screen."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "Great. Any blockers?"
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "Yes, one. I need access to the staging database, but I'm still waiting for permission."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "Okay, I will follow up with the infra team after this meeting."
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "Thank you. That would really help."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "No problem. Let's keep the profile screen on track for Friday."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What did Linh finish yesterday?",
+        "options": [
+          "The user profile screen",
+          "The login page and two bug fixes",
+          "The staging database"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is Linh's blocker?",
+        "options": [
+          "She is waiting for database access",
+          "She has too many bugs",
+          "She missed the deadline"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What will Nam do after the meeting?",
+        "options": [
+          "Fix the login page",
+          "Start the profile screen",
+          "Follow up with the infra team"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Yesterday I finished the login page and fixed two small bugs before lunch.",
+    "Today I will start working on the user profile screen for the new release.",
+    "I have a blocker — I'm still waiting for access to the staging database.",
+    "My estimate for this task is about two days, maybe a bit longer.",
+    "Let's follow up on this together right after the standup meeting ends."
+  ],
+  "track": "it"
+}
