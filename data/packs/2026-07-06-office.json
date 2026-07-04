@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-06",
+  "track": "office",
+  "theme": "Asking for time off",
+  "vocab": [
+    { "word": "annual leave", "ipa": "/ˈænjuəl liːv/", "meaning_vi": "phép năm", "example": "I have five days of annual leave left this year.", "example_vi": "Năm nay tôi còn năm ngày phép năm." },
+    { "word": "sick leave", "ipa": "/sɪk liːv/", "meaning_vi": "nghỉ ốm", "example": "She's on sick leave today because of a bad cold.", "example_vi": "Hôm nay cô ấy nghỉ ốm vì bị cảm nặng." },
+    { "word": "cover for someone", "ipa": "/ˈkʌvər fɔːr ˈsʌmwʌn/", "meaning_vi": "làm thay cho ai đó", "example": "Can you cover for me while I'm away next week?", "example_vi": "Bạn có thể làm thay tôi khi tôi vắng mặt tuần sau không?" },
+    { "word": "hand over", "ipa": "/hænd ˈəʊvər/", "meaning_vi": "bàn giao công việc", "example": "I'll hand over my tasks to Linh before I leave.", "example_vi": "Tôi sẽ bàn giao việc cho Linh trước khi nghỉ." },
+    { "word": "approve", "ipa": "/əˈpruːv/", "meaning_vi": "phê duyệt", "example": "My manager still needs to approve my leave request.", "example_vi": "Quản lý của tôi vẫn cần phê duyệt đơn xin nghỉ." },
+    { "word": "day off", "ipa": "/deɪ ɒf/", "meaning_vi": "ngày nghỉ", "example": "I'd like to take a day off next Monday.", "example_vi": "Tôi muốn xin nghỉ một ngày vào thứ Hai tới." },
+    { "word": "in advance", "ipa": "/ɪn ədˈvɑːns/", "meaning_vi": "trước (thời hạn)", "example": "Please request leave at least three days in advance.", "example_vi": "Vui lòng xin nghỉ trước ít nhất ba ngày." },
+    { "word": "urgent matter", "ipa": "/ˈɜːdʒənt ˈmætər/", "meaning_vi": "việc gấp", "example": "I need tomorrow off for an urgent family matter.", "example_vi": "Tôi cần nghỉ ngày mai vì có việc gấp trong gia đình." }
+  ],
+  "listening": {
+    "title": "Asking the manager for a day off",
+    "lines": [
+      { "speaker": "Minh", "voice": "male", "text": "Excuse me, Ms. Hoa. Could I talk to you about my annual leave?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Of course, Minh. How many days do you want to take?" },
+      { "speaker": "Minh", "voice": "male", "text": "Just one day off next Monday. It's an urgent family matter." },
+      { "speaker": "Hoa", "voice": "female", "text": "I see. I'm sorry to hear that. Have you told your team already?" },
+      { "speaker": "Minh", "voice": "male", "text": "Not yet, but I'll hand over my tasks to Nam this afternoon." },
+      { "speaker": "Hoa", "voice": "female", "text": "Good. Can he cover for you on the client call as well?" },
+      { "speaker": "Minh", "voice": "male", "text": "Yes, he already agreed. I know it's short notice, not in advance like usual." },
+      { "speaker": "Hoa", "voice": "female", "text": "That's fine this time. I'll approve your request today." }
+    ],
+    "questions": [
+      { "q": "How many days off does Minh ask for?", "options": ["One day", "Three days", "A week"], "answer": 0 },
+      { "q": "Why does Minh need the day off?", "options": ["A holiday trip", "An urgent family matter", "A doctor's appointment"], "answer": 1 },
+      { "q": "Who will cover for Minh on the client call?", "options": ["Hoa", "Nam", "Linh"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Could I take a day off next Monday, please?",
+    "I'll hand over my tasks before I leave.",
+    "Can you cover for me while I'm on leave?",
+    "I'm sorry for the short notice, it's an urgent matter.",
+    "My manager still needs to approve my leave request."
+  ]
+}

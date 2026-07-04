@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-05",
+  "track": "interview",
+  "theme": "Strengths and weaknesses",
+  "vocab": [
+    { "word": "strength", "ipa": "/streŋθ/", "meaning_vi": "điểm mạnh", "example": "One of my biggest strengths is problem-solving.", "example_vi": "Một trong những điểm mạnh nhất của tôi là khả năng giải quyết vấn đề." },
+    { "word": "weakness", "ipa": "/ˈwiːknəs/", "meaning_vi": "điểm yếu", "example": "I'd say my main weakness is public speaking.", "example_vi": "Tôi nghĩ điểm yếu chính của mình là thuyết trình trước đám đông." },
+    { "word": "work on", "ipa": "/wɜːk ɒn/", "meaning_vi": "cải thiện, rèn luyện", "example": "I've been working on my presentation skills recently.", "example_vi": "Gần đây tôi đang cải thiện kỹ năng thuyết trình của mình." },
+    { "word": "attention to detail", "ipa": "/əˈtenʃn tə ˈdiːteɪl/", "meaning_vi": "sự chú ý đến chi tiết", "example": "My manager always praises my attention to detail.", "example_vi": "Quản lý của tôi luôn khen ngợi sự cẩn thận chi tiết của tôi." },
+    { "word": "under pressure", "ipa": "/ˈʌndə ˈpreʃər/", "meaning_vi": "dưới áp lực", "example": "I work well under pressure and tight deadlines.", "example_vi": "Tôi làm việc tốt dưới áp lực và deadline gấp." },
+    { "word": "perfectionist", "ipa": "/pəˈfekʃənɪst/", "meaning_vi": "người cầu toàn", "example": "Sometimes I'm too much of a perfectionist with small tasks.", "example_vi": "Đôi khi tôi quá cầu toàn với những việc nhỏ." },
+    { "word": "improve", "ipa": "/ɪmˈpruːv/", "meaning_vi": "cải thiện", "example": "I'm taking a course to improve my English skills.", "example_vi": "Tôi đang học một khóa để cải thiện kỹ năng tiếng Anh." },
+    { "word": "self-aware", "ipa": "/self əˈweər/", "meaning_vi": "hiểu rõ bản thân", "example": "Being self-aware helps me know what to improve.", "example_vi": "Hiểu rõ bản thân giúp tôi biết cần cải thiện điều gì." }
+  ],
+  "listening": {
+    "title": "What are your strengths and weaknesses?",
+    "lines": [
+      { "speaker": "Interviewer", "voice": "female", "text": "Nam, what would you say is your greatest strength?" },
+      { "speaker": "Nam", "voice": "male", "text": "I'd say my attention to detail. My manager often praises how carefully I check my work." },
+      { "speaker": "Interviewer", "voice": "female", "text": "That's useful. And how do you handle working under pressure?" },
+      { "speaker": "Nam", "voice": "male", "text": "I actually work quite well under pressure — tight deadlines help me focus." },
+      { "speaker": "Interviewer", "voice": "female", "text": "Good to know. Now, what would you say is a weakness of yours?" },
+      { "speaker": "Nam", "voice": "male", "text": "Honestly, I can be a perfectionist, so I sometimes spend too much time on small tasks." },
+      { "speaker": "Interviewer", "voice": "female", "text": "How are you working on that?" },
+      { "speaker": "Nam", "voice": "male", "text": "I'm learning to set clearer time limits for myself, which has really helped me improve." }
+    ],
+    "questions": [
+      { "q": "What does Nam say is his greatest strength?", "options": ["Public speaking", "Attention to detail", "Teamwork"], "answer": 1 },
+      { "q": "How does Nam say he handles pressure?", "options": ["He avoids it", "He works well under pressure", "He gets very stressed"], "answer": 1 },
+      { "q": "What weakness does Nam mention?", "options": ["Being a perfectionist", "Being always late", "Being disorganized"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "One of my biggest strengths is attention to detail.",
+    "I work well under pressure and tight deadlines.",
+    "I'd say my main weakness is being a perfectionist.",
+    "I'm working on setting clearer time limits for myself.",
+    "Being self-aware helps me know what to improve."
+  ]
+}

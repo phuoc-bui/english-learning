@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-04",
+  "track": "interview",
+  "theme": "Introducing yourself",
+  "vocab": [
+    { "word": "background", "ipa": "/ˈbækɡraʊnd/", "meaning_vi": "kinh nghiệm, quá trình học tập và làm việc", "example": "Could you tell me about your background?", "example_vi": "Bạn có thể chia sẻ về quá trình học tập và làm việc của mình không?" },
+    { "word": "current role", "ipa": "/ˈkʌrənt rəʊl/", "meaning_vi": "vị trí hiện tại", "example": "In my current role, I manage a small sales team.", "example_vi": "Ở vị trí hiện tại, tôi quản lý một đội bán hàng nhỏ." },
+    { "word": "responsible for", "ipa": "/rɪˈspɒnsəbl fɔːr/", "meaning_vi": "chịu trách nhiệm về", "example": "I'm responsible for handling customer complaints.", "example_vi": "Tôi chịu trách nhiệm xử lý khiếu nại của khách hàng." },
+    { "word": "achievement", "ipa": "/əˈtʃiːvmənt/", "meaning_vi": "thành tích", "example": "My biggest achievement was increasing sales by twenty percent.", "example_vi": "Thành tích lớn nhất của tôi là tăng doanh số hai mươi phần trăm." },
+    { "word": "career path", "ipa": "/kəˈrɪər pɑːθ/", "meaning_vi": "con đường sự nghiệp", "example": "This job fits well with my career path.", "example_vi": "Công việc này phù hợp với con đường sự nghiệp của tôi." },
+    { "word": "apply for", "ipa": "/əˈplaɪ fɔːr/", "meaning_vi": "ứng tuyển vào", "example": "I decided to apply for this position last month.", "example_vi": "Tháng trước tôi quyết định ứng tuyển vào vị trí này." },
+    { "word": "graduate", "ipa": "/ˈɡrædʒuət/", "meaning_vi": "người tốt nghiệp / tốt nghiệp", "example": "I graduated from Hanoi University with a business degree.", "example_vi": "Tôi tốt nghiệp Đại học Hà Nội với bằng cử nhân kinh doanh." },
+    { "word": "team player", "ipa": "/tiːm ˈpleɪər/", "meaning_vi": "người biết làm việc nhóm", "example": "My colleagues describe me as a strong team player.", "example_vi": "Đồng nghiệp mô tả tôi là người làm việc nhóm rất tốt." }
+  ],
+  "listening": {
+    "title": "Tell me about yourself",
+    "lines": [
+      { "speaker": "Interviewer", "voice": "male", "text": "Good morning, Linh. Thanks for coming in today. Could you tell me a bit about your background?" },
+      { "speaker": "Linh", "voice": "female", "text": "Good morning. Sure, I graduated from Hanoi University with a degree in marketing." },
+      { "speaker": "Interviewer", "voice": "male", "text": "Great. What's your current role, and what are you responsible for?" },
+      { "speaker": "Linh", "voice": "female", "text": "I'm a marketing executive at ABC Company, responsible for social media campaigns." },
+      { "speaker": "Interviewer", "voice": "male", "text": "Interesting. What would you say is your biggest achievement there?" },
+      { "speaker": "Linh", "voice": "female", "text": "My biggest achievement was growing our online followers by fifty percent last year." },
+      { "speaker": "Interviewer", "voice": "male", "text": "Impressive. Why did you decide to apply for this position?" },
+      { "speaker": "Linh", "voice": "female", "text": "This role fits my career path perfectly, and I've always wanted to work in a bigger team as a team player." }
+    ],
+    "questions": [
+      { "q": "What did Linh study at university?", "options": ["Marketing", "Finance", "Engineering"], "answer": 0 },
+      { "q": "What is Linh responsible for in her current role?", "options": ["Accounting", "Social media campaigns", "Product design"], "answer": 1 },
+      { "q": "What was Linh's biggest achievement?", "options": ["Growing online followers by fifty percent", "Winning an award", "Opening a new office"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I graduated with a degree in marketing three years ago.",
+    "In my current role, I'm responsible for social media campaigns.",
+    "My biggest achievement was growing our online followers by fifty percent.",
+    "This position fits perfectly with my career path.",
+    "I believe I'm a strong team player who works well under pressure."
+  ]
+}

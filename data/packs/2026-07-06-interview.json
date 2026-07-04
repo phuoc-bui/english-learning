@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-06",
+  "track": "interview",
+  "theme": "Talking about a memorable project",
+  "vocab": [
+    { "word": "challenge", "ipa": "/ˈtʃælɪndʒ/", "meaning_vi": "thử thách", "example": "The biggest challenge was finishing the project on time.", "example_vi": "Thử thách lớn nhất là hoàn thành dự án đúng hạn." },
+    { "word": "deadline", "ipa": "/ˈdedlaɪn/", "meaning_vi": "hạn chót", "example": "We had a very tight deadline for that project.", "example_vi": "Chúng tôi có hạn chót rất gấp cho dự án đó." },
+    { "word": "lead a project", "ipa": "/liːd ə ˈprɒdʒekt/", "meaning_vi": "dẫn dắt một dự án", "example": "I was chosen to lead a project with five members.", "example_vi": "Tôi được chọn dẫn dắt một dự án với năm thành viên." },
+    { "word": "solve a problem", "ipa": "/sɒlv ə ˈprɒbləm/", "meaning_vi": "giải quyết vấn đề", "example": "We had to solve a problem with a late supplier.", "example_vi": "Chúng tôi phải giải quyết vấn đề với nhà cung cấp giao trễ." },
+    { "word": "result", "ipa": "/rɪˈzʌlt/", "meaning_vi": "kết quả", "example": "The result was a twenty percent increase in sales.", "example_vi": "Kết quả là doanh số tăng hai mươi phần trăm." },
+    { "word": "collaborate", "ipa": "/kəˈlæbəreɪt/", "meaning_vi": "hợp tác, phối hợp", "example": "I collaborated closely with the design team.", "example_vi": "Tôi phối hợp chặt chẽ với đội thiết kế." },
+    { "word": "lesson learned", "ipa": "/ˈlesn ˈlɜːnd/", "meaning_vi": "bài học rút ra", "example": "The main lesson learned was to plan earlier.", "example_vi": "Bài học chính rút ra là nên lập kế hoạch sớm hơn." },
+    { "word": "proud of", "ipa": "/praʊd ɒv/", "meaning_vi": "tự hào về", "example": "I'm really proud of how the team handled it.", "example_vi": "Tôi thực sự tự hào về cách cả đội đã xử lý việc đó." }
+  ],
+  "listening": {
+    "title": "Describe a memorable project",
+    "lines": [
+      { "speaker": "Interviewer", "voice": "male", "text": "Hoa, can you describe a memorable project you led a project on?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Yes, last year I led a project to launch a new product within a tight deadline." },
+      { "speaker": "Interviewer", "voice": "male", "text": "What was the biggest challenge you faced?" },
+      { "speaker": "Hoa", "voice": "female", "text": "The biggest challenge was solving a problem with a late supplier two weeks before launch." },
+      { "speaker": "Interviewer", "voice": "male", "text": "How did you handle that?" },
+      { "speaker": "Hoa", "voice": "female", "text": "I collaborated with another supplier and we still met the deadline." },
+      { "speaker": "Interviewer", "voice": "male", "text": "What was the result, and what did you learn?" },
+      { "speaker": "Hoa", "voice": "female", "text": "The result was a successful launch, and the lesson learned was to always have a backup plan. I'm really proud of that project." }
+    ],
+    "questions": [
+      { "q": "What was the memorable project about?", "options": ["Launching a new product", "Closing an office", "Hiring new staff"], "answer": 0 },
+      { "q": "What challenge did Hoa face?", "options": ["A budget cut", "A late supplier", "A software bug"], "answer": 1 },
+      { "q": "What lesson did Hoa learn from the project?", "options": ["To work alone", "To always have a backup plan", "To avoid tight deadlines"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "I led a project to launch a new product last year.",
+    "The biggest challenge was solving a problem with a supplier.",
+    "I collaborated closely with another team to meet the deadline.",
+    "The result was a successful launch for the whole company.",
+    "The lesson learned was to always have a backup plan."
+  ]
+}

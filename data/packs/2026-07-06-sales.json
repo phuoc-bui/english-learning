@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-06",
+  "track": "sales",
+  "theme": "Handling a customer's objection",
+  "vocab": [
+    { "word": "objection", "ipa": "/əbˈdʒekʃn/", "meaning_vi": "sự phản đối, ý kiến từ chối", "example": "The most common objection is that our price is too high.", "example_vi": "Ý kiến từ chối thường gặp nhất là giá của chúng tôi quá cao." },
+    { "word": "too expensive", "ipa": "/tuː ɪkˈspensɪv/", "meaning_vi": "quá đắt", "example": "The customer said our plan was too expensive for them.", "example_vi": "Khách hàng nói gói của chúng tôi quá đắt với họ." },
+    { "word": "competitor", "ipa": "/kəmˈpetɪtər/", "meaning_vi": "đối thủ cạnh tranh", "example": "We're already using a competitor's product.", "example_vi": "Chúng tôi đang dùng sản phẩm của một đối thủ cạnh tranh rồi." },
+    { "word": "value for money", "ipa": "/ˈvæljuː fə ˈmʌni/", "meaning_vi": "đáng đồng tiền", "example": "I understand, but let me show you the value for money.", "example_vi": "Tôi hiểu, nhưng để tôi cho anh thấy nó đáng đồng tiền như thế nào." },
+    { "word": "think it over", "ipa": "/θɪŋk ɪt ˈəʊvər/", "meaning_vi": "suy nghĩ thêm", "example": "Take your time — feel free to think it over.", "example_vi": "Anh cứ từ từ — suy nghĩ thêm cũng được." },
+    { "word": "discount", "ipa": "/ˈdɪskaʊnt/", "meaning_vi": "giảm giá", "example": "We could offer a ten percent discount for a yearly plan.", "example_vi": "Chúng tôi có thể giảm giá mười phần trăm cho gói năm." },
+    { "word": "no obligation", "ipa": "/nəʊ ˌɒblɪˈɡeɪʃn/", "meaning_vi": "không ràng buộc", "example": "The trial is completely free, with no obligation to buy.", "example_vi": "Bản dùng thử hoàn toàn miễn phí, không ràng buộc phải mua." },
+    { "word": "concern", "ipa": "/kənˈsɜːn/", "meaning_vi": "mối lo ngại, băn khoăn", "example": "What's your main concern about switching providers?", "example_vi": "Mối băn khoăn chính của anh khi đổi nhà cung cấp là gì?" }
+  ],
+  "listening": {
+    "title": "The customer says no",
+    "lines": [
+      { "speaker": "Minh", "voice": "male", "text": "Thanks for the demo, but honestly, it's too expensive for us right now." },
+      { "speaker": "Linh", "voice": "female", "text": "I understand that's a common objection. Can I ask what your main concern is — price or something else?" },
+      { "speaker": "Minh", "voice": "male", "text": "Mostly price. We're already using a competitor's product that's cheaper." },
+      { "speaker": "Linh", "voice": "female", "text": "That's fair. Let me show you the value for money — our support team is available 24/7." },
+      { "speaker": "Minh", "voice": "male", "text": "That does sound useful. Still, I'd like to think it over first." },
+      { "speaker": "Linh", "voice": "female", "text": "Of course, no pressure. We could also offer a ten percent discount for the first year." },
+      { "speaker": "Minh", "voice": "male", "text": "That helps. Can I try it with no obligation before deciding?" },
+      { "speaker": "Linh", "voice": "female", "text": "Absolutely, the trial is free with no obligation to buy." }
+    ],
+    "questions": [
+      { "q": "What is Minh's main concern?", "options": ["The price", "The design", "The location"], "answer": 0 },
+      { "q": "What does Linh highlight as the extra value?", "options": ["Free gifts", "24/7 support", "A longer warranty"], "answer": 1 },
+      { "q": "What discount does Linh offer?", "options": ["Five percent", "Ten percent", "Twenty percent"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "I understand your concern, but let me explain the value.",
+    "That's a common objection, and I have an answer for it.",
+    "Take your time to think it over before deciding.",
+    "We could offer a discount for a longer contract.",
+    "The trial is free, with no obligation to buy."
+  ]
+}

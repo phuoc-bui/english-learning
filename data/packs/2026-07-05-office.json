@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-05",
+  "track": "office",
+  "theme": "Writing an email and following up",
+  "vocab": [
+    { "word": "attachment", "ipa": "/əˈtætʃmənt/", "meaning_vi": "tệp đính kèm", "example": "Please find the report in the attachment.", "example_vi": "Bạn xem báo cáo trong tệp đính kèm nhé." },
+    { "word": "follow up", "ipa": "/ˈfɒləʊ ʌp/", "meaning_vi": "theo dõi, nhắc lại (một việc chưa xong)", "example": "I'm just following up on my email from last week.", "example_vi": "Tôi chỉ muốn nhắc lại email tuần trước thôi." },
+    { "word": "cc", "ipa": "/siː siː/", "meaning_vi": "gửi bản sao (cho ai đó theo dõi email)", "example": "Could you cc me on that email to the client?", "example_vi": "Bạn gửi bản sao email đó cho khách hàng cho tôi với nhé." },
+    { "word": "draft", "ipa": "/drɑːft/", "meaning_vi": "bản nháp", "example": "I've written a draft — can you check it before I send it?", "example_vi": "Tôi viết bản nháp rồi — bạn xem giúp trước khi tôi gửi nhé." },
+    { "word": "as discussed", "ipa": "/æz dɪˈskʌst/", "meaning_vi": "như đã trao đổi", "example": "As discussed, I'm sending the updated file today.", "example_vi": "Như đã trao đổi, hôm nay tôi sẽ gửi file đã cập nhật." },
+    { "word": "at your earliest convenience", "ipa": "/æt jɔːr ˈɜːliɪst kənˈviːniəns/", "meaning_vi": "khi nào bạn tiện, càng sớm càng tốt", "example": "Could you reply at your earliest convenience?", "example_vi": "Bạn có thể trả lời sớm khi tiện được không?" },
+    { "word": "reminder", "ipa": "/rɪˈmaɪndər/", "meaning_vi": "lời nhắc", "example": "This is just a gentle reminder about tomorrow's deadline.", "example_vi": "Đây chỉ là lời nhắc nhẹ về deadline ngày mai thôi." },
+    { "word": "loop in", "ipa": "/luːp ɪn/", "meaning_vi": "thêm ai đó vào để cùng biết/theo dõi", "example": "Let's loop in the design team on this decision.", "example_vi": "Mình thêm đội thiết kế vào để họ nắm quyết định này nhé." }
+  ],
+  "listening": {
+    "title": "Chasing a reply",
+    "lines": [
+      { "speaker": "Hoa", "voice": "female", "text": "Nam, did the client reply to the draft I sent on Monday?" },
+      { "speaker": "Nam", "voice": "male", "text": "Not yet. Maybe you should send a follow up today." },
+      { "speaker": "Hoa", "voice": "female", "text": "Good idea. I'll write a short reminder and cc you on it." },
+      { "speaker": "Nam", "voice": "male", "text": "Sounds good. Can you also loop in Minh? He knows the pricing details." },
+      { "speaker": "Hoa", "voice": "female", "text": "Sure. I'll say 'as discussed' and attach the updated quote again." },
+      { "speaker": "Nam", "voice": "male", "text": "Perfect. Ask them to reply at your earliest convenience, since we need an answer by Friday." },
+      { "speaker": "Hoa", "voice": "female", "text": "Got it. I'll send the attachment now and check for a reply this afternoon." },
+      { "speaker": "Nam", "voice": "male", "text": "Great, thanks. Let me know if they still don't answer tomorrow." }
+    ],
+    "questions": [
+      { "q": "What is Hoa going to send today?", "options": ["A new contract", "A follow-up reminder", "A meeting invite"], "answer": 1 },
+      { "q": "Who does Nam ask Hoa to loop in?", "options": ["Minh", "The client", "Linh"], "answer": 0 },
+      { "q": "By when do they need an answer from the client?", "options": ["Monday", "Friday", "Next month"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "I'm just following up on the email I sent last week.",
+    "Please find the updated file in the attachment.",
+    "As discussed, I'll send the report by Friday.",
+    "Could you reply at your earliest convenience?",
+    "Let's loop in the finance team before we decide."
+  ]
+}

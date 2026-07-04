@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-05",
+  "track": "finance",
+  "theme": "Budget and cost-cutting",
+  "vocab": [
+    { "word": "budget cut", "ipa": "/ˈbʌdʒɪt kʌt/", "meaning_vi": "cắt giảm ngân sách", "example": "The company announced a budget cut for the next quarter.", "example_vi": "Công ty thông báo cắt giảm ngân sách cho quý tới." },
+    { "word": "overspend", "ipa": "/ˌəʊvəˈspend/", "meaning_vi": "chi tiêu quá mức", "example": "The marketing team overspent by ten million dong last month.", "example_vi": "Đội marketing đã chi tiêu vượt mười triệu đồng tháng trước." },
+    { "word": "allocate", "ipa": "/ˈæləkeɪt/", "meaning_vi": "phân bổ", "example": "We need to allocate more funds to training this year.", "example_vi": "Năm nay chúng ta cần phân bổ thêm ngân sách cho đào tạo." },
+    { "word": "cut back on", "ipa": "/kʌt bæk ɒn/", "meaning_vi": "cắt giảm, hạn chế", "example": "We should cut back on unnecessary travel expenses.", "example_vi": "Chúng ta nên cắt giảm chi phí đi lại không cần thiết." },
+    { "word": "spending plan", "ipa": "/ˈspendɪŋ plæn/", "meaning_vi": "kế hoạch chi tiêu", "example": "Please submit your spending plan for next quarter.", "example_vi": "Vui lòng nộp kế hoạch chi tiêu cho quý tới." },
+    { "word": "save costs", "ipa": "/seɪv kɒsts/", "meaning_vi": "tiết kiệm chi phí", "example": "Switching suppliers could help us save costs.", "example_vi": "Đổi nhà cung cấp có thể giúp chúng ta tiết kiệm chi phí." },
+    { "word": "justify", "ipa": "/ˈdʒʌstɪfaɪ/", "meaning_vi": "giải trình, biện minh (cho một khoản chi)", "example": "Can you justify this expense in the report?", "example_vi": "Bạn có thể giải trình khoản chi này trong báo cáo không?" },
+    { "word": "tight budget", "ipa": "/taɪt ˈbʌdʒɪt/", "meaning_vi": "ngân sách hạn hẹp", "example": "We're working with a tight budget this year.", "example_vi": "Năm nay chúng ta làm việc với ngân sách khá hạn hẹp." }
+  ],
+  "listening": {
+    "title": "Planning the new budget",
+    "lines": [
+      { "speaker": "Hoa", "voice": "female", "text": "Minh, head office wants us to cut back on spending this quarter." },
+      { "speaker": "Minh", "voice": "male", "text": "I saw the email. It looks like a real budget cut, not just a small request." },
+      { "speaker": "Hoa", "voice": "female", "text": "Right. Marketing overspent last month, so we need a new spending plan." },
+      { "speaker": "Minh", "voice": "male", "text": "Should we allocate less to advertising and more to customer support?" },
+      { "speaker": "Hoa", "voice": "female", "text": "That could work. We also need to justify every expense over five million dong now." },
+      { "speaker": "Minh", "voice": "male", "text": "Understood. We're working with a tight budget, so every choice matters." },
+      { "speaker": "Hoa", "voice": "female", "text": "Exactly. Maybe switching printing suppliers could help us save costs too." },
+      { "speaker": "Minh", "voice": "male", "text": "Good idea. I'll research a few options this week." }
+    ],
+    "questions": [
+      { "q": "Which team overspent last month?", "options": ["Marketing", "Finance", "Sales"], "answer": 0 },
+      { "q": "What must be justified now according to Hoa?", "options": ["Every new hire", "Every expense over five million dong", "Every business trip"], "answer": 1 },
+      { "q": "What does Minh suggest to help save costs?", "options": ["Switching printing suppliers", "Cutting all travel", "Reducing staff"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "We need to cut back on spending this quarter.",
+    "Please submit your spending plan by Friday.",
+    "Can you justify this expense in the report?",
+    "We're working with a tight budget this year.",
+    "Switching suppliers could help us save costs."
+  ]
+}
