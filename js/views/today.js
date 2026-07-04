@@ -1,12 +1,17 @@
 import { icon } from '../icons.js';
 import { addDays } from '../dates.js';
+import { requiredActivities } from '../plan.js';
+import { TRACK_LABEL } from '../profile-options.js';
 
-const CARDS = [
-  { id: 'vocab', ico: 'book', title: 'Từ vựng', desc: '8 từ · ~5 phút', tab: 'vocab' },
-  { id: 'listening', ico: 'headphones', title: 'Nghe hội thoại', desc: '1 hội thoại + câu hỏi', tab: 'listening' },
-  { id: 'speaking', ico: 'mic', title: 'Nói · Shadowing', desc: 'Luyện phát âm', tab: 'speaking' },
-  { id: 'interview', ico: 'briefcase', title: 'Phỏng vấn', desc: 'Câu hỏi thực chiến', tab: 'interview' },
-];
+// Thẻ hoạt động: 3 cốt lõi + AI theo kế hoạch ngày
+const CARD_META = {
+  vocab: { ico: 'book', title: 'Từ vựng', desc: '8 từ · ~5 phút', tab: 'vocab' },
+  listening: { ico: 'headphones', title: 'Nghe hội thoại', desc: '1 hội thoại + câu hỏi', tab: 'listening' },
+  speaking: { ico: 'mic', title: 'Nói · Shadowing', desc: 'Luyện phát âm', tab: 'practice' },
+  ai_conversation: { ico: 'message', title: 'Hội thoại với AI', desc: 'Nhập vai theo chủ đề hôm nay', tab: 'practice' },
+  ai_speaking: { ico: 'mic', title: 'Nói tự do với AI', desc: 'Trả lời đề nói với AI', tab: 'practice' },
+  ai_writing: { ico: 'pencil', title: 'Viết với AI', desc: 'Viết email/tin nhắn, AI chữa', tab: 'practice' },
+};
 
 const DOW = ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'];
 
@@ -33,13 +38,15 @@ function weekDots(store, today) {
 
 export function render(el, ctx) {
   const { store, pack } = ctx;
+  const profile = store.state.profile || {};
   const streak = store.computeStreak(ctx.today);
-  const done = (pack && store.state.days[ctx.today]) || {};
+  const done = store.state.days[ctx.today] || {};
   const stale = pack && pack.date !== ctx.today;
-  const doneCount = CARDS.filter((c) => done[c.id]).length;
   const week = weekDots(store, ctx.today);
 
-  const logo = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>`;
+  const activities = requiredActivities(ctx.today, profile.minutes ?? 15);
+  const isDone = (a) => (a.startsWith('ai_') ? store.isAiDone(ctx.today, a.slice(3)) : !!done[a]);
+  const doneCount = activities.filter(isDone).length;
 
   el.innerHTML = `
     <div class="greet">
@@ -47,7 +54,7 @@ export function render(el, ctx) {
         <div class="eyebrow">${greeting()}</div>
         <div class="hi">Học chút nhé 👋</div>
       </div>
-      <div class="avatar" style="color:var(--accent-light)">${logo}</div>
+      <button class="avatar" id="openSettings" style="color:var(--accent-light);border:none;background:none;cursor:pointer">${icon.gear(22)}</button>
     </div>
 
     ${!pack ? '' : `
@@ -73,22 +80,26 @@ export function render(el, ctx) {
     ${!pack
       ? '<p class="error">Không tải được bài học. Kiểm tra kết nối mạng rồi mở lại app nhé.</p>'
       : `
-      <p class="theme">Chủ đề hôm nay: <b>${pack.theme}</b>${stale ? ` <span class="stale">(bài của ngày ${pack.date})</span>` : ''}</p>
+      <p class="theme">Chủ đề hôm nay: <b>${pack.theme}</b> · ${TRACK_LABEL[pack.track || 'it']}${stale ? ` <span class="stale">(bài của ngày ${pack.date})</span>` : ''}</p>
       <div class="section-head">
         <b>Hôm nay cần làm</b>
-        <span class="meta">${doneCount}/${CARDS.length} xong</span>
+        <span class="meta">${doneCount}/${activities.length} xong</span>
       </div>
       <div class="cards">
-        ${CARDS.map((c) => `
-          <button class="card ${done[c.id] ? 'done' : ''}" data-tab="${c.tab}">
+        ${activities.map((a) => {
+          const c = CARD_META[a];
+          return `
+          <button class="card ${isDone(a) ? 'done' : ''}" data-tab="${c.tab}">
             <span class="tile">${icon[c.ico](19)}</span>
             <span class="body"><b>${c.title}</b><small>${c.desc}</small></span>
-            <span class="trail">${done[c.id] ? icon.checkCircle(22) : icon.chevron(20)}</span>
-          </button>`).join('')}
+            <span class="trail">${isDone(a) ? icon.checkCircle(22) : icon.chevron(20)}</span>
+          </button>`;
+        }).join('')}
       </div>`}
   `;
 
   el.querySelectorAll('.card').forEach((b) => {
     b.addEventListener('click', () => ctx.navigate(b.dataset.tab));
   });
+  el.querySelector('#openSettings').onclick = () => ctx.navigate('settings');
 }
