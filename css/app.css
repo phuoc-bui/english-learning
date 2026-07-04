@@ -337,3 +337,16 @@ details.acc .acc-body ul { padding-left: 18px; display: grid; gap: 6px; }
 .legend { display: flex; align-items: center; gap: 14px; margin-top: 13px; font-size: 11px; color: var(--dim); flex-wrap: wrap; }
 .legend span { display: flex; align-items: center; gap: 5px; }
 .legend i { width: 9px; height: 9px; border-radius: 3px; display: inline-block; }
+
+/* ============ V2: LUYỆN TẬP / AI CARDS / TOAST ============ */
+#view h2 { font-family: var(--font-display); font-size: 17px; margin: 22px 0 10px; }
+.ai-cards { display: flex; flex-direction: column; gap: 12px; }
+.ai-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; }
+.ai-card.done { border-color: rgba(51, 201, 138, 0.4); }
+.ai-card .head { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.ai-card .tile { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; background: var(--accent-soft); color: var(--accent-light); }
+.ai-card .badge { margin-left: auto; font-size: 11px; color: var(--amber); border: 1px solid rgba(245, 166, 35, 0.4); border-radius: 999px; padding: 2px 8px; }
+.ai-card .desc { color: var(--muted); font-size: 13.5px; margin-bottom: 10px; }
+.ai-card .mark-ai.on { color: var(--green); border-color: rgba(51, 201, 138, 0.4); }
+.prompt-fallback textarea { width: 100%; margin-top: 8px; background: var(--surface2); color: var(--text); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 10px; font-family: inherit; font-size: 12.5px; }
+.toast { position: fixed; left: 50%; bottom: calc(110px + env(safe-area-inset-bottom)); transform: translateX(-50%); background: var(--surface2); border: 1px solid var(--line-strong); color: var(--text); padding: 10px 16px; border-radius: 999px; font-size: 13px; z-index: 50; max-width: 90vw; animation: fadeUp .25s ease; }
