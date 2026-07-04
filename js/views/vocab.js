@@ -16,7 +16,7 @@ export function render(el, ctx) {
     for (const v of pack.vocab) {
       if (!srs[v.word]) {
         srs[v.word] = initialCard();
-        wordMeta[v.word] = { ipa: v.ipa, meaning_vi: v.meaning_vi, example: v.example, example_vi: v.example_vi };
+        wordMeta[v.word] = { ipa: v.ipa, meaning_vi: v.meaning_vi, example: v.example, example_vi: v.example_vi, track: pack.track || 'it' };
       }
     }
     store.save();

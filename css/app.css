@@ -350,3 +350,24 @@ details.acc .acc-body ul { padding-left: 18px; display: grid; gap: 6px; }
 .ai-card .mark-ai.on { color: var(--green); border-color: rgba(51, 201, 138, 0.4); }
 .prompt-fallback textarea { width: 100%; margin-top: 8px; background: var(--surface2); color: var(--text); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 10px; font-family: inherit; font-size: 12.5px; }
 .toast { position: fixed; left: 50%; bottom: calc(110px + env(safe-area-inset-bottom)); transform: translateX(-50%); background: var(--surface2); border: 1px solid var(--line-strong); color: var(--text); padding: 10px 16px; border-radius: 999px; font-size: 13px; z-index: 50; max-width: 90vw; animation: fadeUp .25s ease; }
+
+/* ============ V2: ÔN TẬP ============ */
+.seg { display: flex; background: var(--surface2); border-radius: 999px; padding: 4px; margin-bottom: 14px; }
+.seg button { flex: 1; border: none; background: none; color: var(--muted); padding: 9px; border-radius: 999px; font-family: inherit; font-size: 13.5px; cursor: pointer; }
+.seg button.on { background: var(--accent); color: #fff; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+.chip { border: 1px solid var(--line-strong); background: var(--card); color: var(--muted); border-radius: 999px; padding: 6px 12px; font-size: 12.5px; font-family: inherit; cursor: pointer; }
+.chip.on { border-color: var(--accent); color: var(--accent-light); background: var(--accent-soft); }
+.pack-row { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 13px 14px; margin-bottom: 8px; color: var(--text); font-family: inherit; cursor: pointer; }
+.pack-row small { color: var(--muted); }
+.pack-row .trail { margin-left: auto; color: var(--faint); }
+.pack-row.loading { opacity: .5; }
+.searchbar { display: flex; align-items: center; gap: 8px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 10px 12px; margin-bottom: 12px; color: var(--faint); }
+.searchbar input { flex: 1; background: none; border: none; color: var(--text); font-family: inherit; font-size: 14px; outline: none; }
+.word-row { display: flex; gap: 12px; align-items: flex-start; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 12px; margin-bottom: 8px; }
+.word-row small { color: var(--muted); }
+.sbadge { font-size: 10.5px; border-radius: 999px; padding: 2px 7px; margin-left: 6px; }
+.s-new { background: var(--accent-soft); color: var(--accent-light); }
+.s-learning { background: rgba(245, 166, 35, 0.15); color: var(--amber); }
+.s-known { background: rgba(51, 201, 138, 0.15); color: var(--green); }
+.word-detail p { font-size: 13px; margin-top: 4px; }
