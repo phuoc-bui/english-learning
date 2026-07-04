@@ -1,0 +1,144 @@
+{
+  "date": "2026-07-10",
+  "theme": "Thuyết trình demo sản phẩm",
+  "vocab": [
+    {
+      "word": "demo",
+      "ipa": "/ˈdeməʊ/",
+      "meaning_vi": "buổi trình diễn sản phẩm",
+      "example": "We will give a demo of the new feature this afternoon.",
+      "example_vi": "Chiều nay chúng tôi sẽ trình diễn tính năng mới."
+    },
+    {
+      "word": "audience",
+      "ipa": "/ˈɔːdiəns/",
+      "meaning_vi": "khán giả, người xem",
+      "example": "Please speak slowly so the audience can follow.",
+      "example_vi": "Vui lòng nói chậm để khán giả theo kịp."
+    },
+    {
+      "word": "highlight",
+      "ipa": "/ˈhaɪlaɪt/",
+      "meaning_vi": "điểm nổi bật",
+      "example": "The main highlight is the new search function.",
+      "example_vi": "Điểm nổi bật chính là chức năng tìm kiếm mới."
+    },
+    {
+      "word": "interface",
+      "ipa": "/ˈɪntəfeɪs/",
+      "meaning_vi": "giao diện",
+      "example": "We redesigned the interface to be simpler.",
+      "example_vi": "Chúng tôi đã thiết kế lại giao diện đơn giản hơn."
+    },
+    {
+      "word": "prototype",
+      "ipa": "/ˈprəʊtətaɪp/",
+      "meaning_vi": "bản mẫu thử nghiệm",
+      "example": "This is still a prototype, not the final version.",
+      "example_vi": "Đây vẫn là bản mẫu thử nghiệm, chưa phải phiên bản cuối."
+    },
+    {
+      "word": "walkthrough",
+      "ipa": "/ˈwɔːkθruː/",
+      "meaning_vi": "hướng dẫn từng bước",
+      "example": "Let me give you a quick walkthrough of the app.",
+      "example_vi": "Để tôi hướng dẫn nhanh từng bước sử dụng ứng dụng."
+    },
+    {
+      "word": "impressive",
+      "ipa": "/ɪmˈpresɪv/",
+      "meaning_vi": "ấn tượng",
+      "example": "The demo looked really impressive to the clients.",
+      "example_vi": "Buổi demo trông rất ấn tượng với khách hàng."
+    },
+    {
+      "word": "question and answer",
+      "ipa": "/ˈkwestʃən ənd ˈɑːnsər/",
+      "meaning_vi": "phần hỏi đáp",
+      "example": "We will have a question and answer session at the end.",
+      "example_vi": "Chúng ta sẽ có phần hỏi đáp vào cuối buổi."
+    }
+  ],
+  "listening": {
+    "title": "Demo day for the new dashboard",
+    "lines": [
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "Good afternoon everyone. Today we will give a demo of the new dashboard."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Sounds exciting. Who is presenting?"
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "Linh will do the walkthrough. She built most of the interface."
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "Thanks, Nam. Let me start with the main highlight — the new search function."
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "This is still a prototype, but you can already try the search bar here."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "This looks really impressive! How long did it take to build?"
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "About two weeks. We focused on making the interface simple for the audience."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "Great work. Let's open the question and answer session now."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Who does the walkthrough of the dashboard?",
+        "options": [
+          "Nam",
+          "Linh",
+          "Hoa"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is the main highlight of the demo?",
+        "options": [
+          "The login page",
+          "The new search function",
+          "The payment system"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How long did it take to build the prototype?",
+        "options": [
+          "Two days",
+          "Two weeks",
+          "Two months"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Today we will give a demo of the new dashboard to everyone.",
+    "Let me start with the main highlight, which is the search function.",
+    "This is still a prototype, so it is not the final version yet.",
+    "We focused on making the interface as simple as possible for the audience.",
+    "Let's open the question and answer session now for the next ten minutes."
+  ],
+  "track": "it"
+}

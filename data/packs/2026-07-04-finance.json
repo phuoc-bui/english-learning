@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-04",
+  "track": "finance",
+  "theme": "Presenting the monthly report",
+  "vocab": [
+    { "word": "revenue", "ipa": "/ˈrevənjuː/", "meaning_vi": "doanh thu", "example": "Our revenue grew by ten percent last month.", "example_vi": "Doanh thu tháng trước của chúng ta tăng mười phần trăm." },
+    { "word": "profit margin", "ipa": "/ˈprɒfɪt ˈmɑːdʒɪn/", "meaning_vi": "biên lợi nhuận", "example": "The profit margin is a bit lower than expected.", "example_vi": "Biên lợi nhuận thấp hơn dự kiến một chút." },
+    { "word": "expenses", "ipa": "/ɪkˈspensɪz/", "meaning_vi": "chi phí", "example": "Our expenses went up because of higher shipping costs.", "example_vi": "Chi phí của chúng ta tăng lên vì phí vận chuyển cao hơn." },
+    { "word": "quarter", "ipa": "/ˈkwɔːtər/", "meaning_vi": "quý (3 tháng)", "example": "This is the strongest quarter we've had this year.", "example_vi": "Đây là quý mạnh nhất của năm nay." },
+    { "word": "figures", "ipa": "/ˈfɪɡəz/", "meaning_vi": "số liệu, con số", "example": "Let's go through the figures on this slide.", "example_vi": "Chúng ta cùng xem qua các số liệu trên slide này nhé." },
+    { "word": "compared to", "ipa": "/kəmˈpeəd tuː/", "meaning_vi": "so với", "example": "Sales are up compared to the same month last year.", "example_vi": "Doanh số tăng so với cùng kỳ năm ngoái." },
+    { "word": "forecast", "ipa": "/ˈfɔːkɑːst/", "meaning_vi": "dự báo", "example": "Our forecast for next quarter looks positive.", "example_vi": "Dự báo cho quý tới trông khá tích cực." },
+    { "word": "highlight", "ipa": "/ˈhaɪlaɪt/", "meaning_vi": "nêu bật, làm nổi bật", "example": "I want to highlight one number on this slide.", "example_vi": "Tôi muốn nêu bật một con số trên slide này." }
+  ],
+  "listening": {
+    "title": "Presenting the numbers",
+    "lines": [
+      { "speaker": "Minh", "voice": "male", "text": "Good afternoon, everyone. Let's go through the figures for this quarter." },
+      { "speaker": "Hoa", "voice": "female", "text": "Sure, please start with revenue. How does it look compared to last quarter?" },
+      { "speaker": "Minh", "voice": "male", "text": "Revenue is up twelve percent compared to last quarter, which is great news." },
+      { "speaker": "Hoa", "voice": "female", "text": "That's good. What about the profit margin? I heard expenses were higher." },
+      { "speaker": "Minh", "voice": "male", "text": "You're right. Expenses rose because of shipping costs, so the profit margin dropped slightly." },
+      { "speaker": "Hoa", "voice": "female", "text": "I see. Can you highlight what's driving those extra expenses?" },
+      { "speaker": "Minh", "voice": "male", "text": "Mostly fuel prices. But our forecast for next quarter still looks positive overall." },
+      { "speaker": "Hoa", "voice": "female", "text": "Good to hear. Thanks for walking us through the figures, Minh." }
+    ],
+    "questions": [
+      { "q": "How did revenue change compared to last quarter?", "options": ["It dropped", "It stayed the same", "It rose by twelve percent"], "answer": 2 },
+      { "q": "Why did the profit margin drop slightly?", "options": ["Lower sales", "Higher expenses", "Fewer customers"], "answer": 1 },
+      { "q": "What does Minh say mainly caused the extra expenses?", "options": ["Fuel prices", "Office rent", "Staff salaries"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Let's go through the figures for this quarter before we move to the next slide.",
+    "Revenue is up compared to the same period last year.",
+    "Our profit margin dropped slightly because of higher expenses this quarter.",
+    "I want to highlight one important number on this slide.",
+    "Our forecast for next quarter still looks positive, even with rising costs."
+  ]
+}

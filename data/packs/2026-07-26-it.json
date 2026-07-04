@@ -1,0 +1,144 @@
+{
+  "date": "2026-07-26",
+  "theme": "Nói về email & follow-up",
+  "vocab": [
+    {
+      "word": "draft",
+      "ipa": "/drɑːft/",
+      "meaning_vi": "bản nháp",
+      "example": "I saved this email as a draft, I'll send it later.",
+      "example_vi": "Tôi đã lưu email này thành bản nháp, tôi sẽ gửi sau."
+    },
+    {
+      "word": "signature",
+      "ipa": "/ˈsɪɡnətʃər/",
+      "meaning_vi": "chữ ký email",
+      "example": "Please add your phone number to your email signature.",
+      "example_vi": "Vui lòng thêm số điện thoại vào chữ ký email của bạn."
+    },
+    {
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning_vi": "ngắn gọn, súc tích",
+      "example": "Try to keep your emails concise and clear.",
+      "example_vi": "Hãy cố gắng viết email ngắn gọn và rõ ràng."
+    },
+    {
+      "word": "tone",
+      "ipa": "/təʊn/",
+      "meaning_vi": "giọng điệu (trong văn bản)",
+      "example": "Be careful with your tone when writing to a client.",
+      "example_vi": "Hãy cẩn thận với giọng điệu khi viết cho khách hàng."
+    },
+    {
+      "word": "thread",
+      "ipa": "/θred/",
+      "meaning_vi": "chuỗi email (email thread)",
+      "example": "Can you check the whole email thread before replying?",
+      "example_vi": "Bạn kiểm tra toàn bộ chuỗi email trước khi trả lời được không?"
+    },
+    {
+      "word": "misunderstanding",
+      "ipa": "/ˌmɪsʌndəˈstændɪŋ/",
+      "meaning_vi": "sự hiểu lầm",
+      "example": "There was a misunderstanding about the meeting time.",
+      "example_vi": "Có một sự hiểu lầm về giờ họp."
+    },
+    {
+      "word": "polite",
+      "ipa": "/pəˈlaɪt/",
+      "meaning_vi": "lịch sự",
+      "example": "Always be polite, even when the client is upset.",
+      "example_vi": "Luôn lịch sự, ngay cả khi khách hàng đang khó chịu."
+    },
+    {
+      "word": "as soon as possible",
+      "ipa": "/æz suːn æz ˈpɒsəbl/",
+      "meaning_vi": "càng sớm càng tốt",
+      "example": "Please reply as soon as possible — it's urgent.",
+      "example_vi": "Vui lòng trả lời càng sớm càng tốt — việc này khẩn cấp."
+    }
+  ],
+  "listening": {
+    "title": "Fixing a misunderstanding by email",
+    "lines": [
+      {
+        "speaker": "Minh",
+        "voice": "male",
+        "text": "Linh, there was a misunderstanding about the meeting time."
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "Really? Let me check the whole email thread."
+      },
+      {
+        "speaker": "Minh",
+        "voice": "male",
+        "text": "The client thought the meeting was at three, but we meant three in their time zone."
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "I see. Let's write a concise email to clarify this quickly."
+      },
+      {
+        "speaker": "Minh",
+        "voice": "male",
+        "text": "Good idea. We should keep a polite tone, even though it's a bit awkward."
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "Agreed. I'll write a draft now and send it to you first."
+      },
+      {
+        "speaker": "Minh",
+        "voice": "male",
+        "text": "Thanks. Please reply as soon as possible — the meeting is in an hour."
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "On it. I'll also add my signature with my phone number, just in case."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What was the misunderstanding about?",
+        "options": [
+          "The meeting location",
+          "The meeting time",
+          "The meeting topic"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Linh suggest writing?",
+        "options": [
+          "A long report",
+          "A concise email to clarify",
+          "A phone script"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why does Minh want a fast reply?",
+        "options": [
+          "The meeting is in an hour",
+          "The client is angry",
+          "The email server is down"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "There was a misunderstanding about the meeting time with the client.",
+    "Let's write a concise email to clarify this quickly before it's too late.",
+    "We should keep a polite tone, even though it's a bit awkward.",
+    "I'll write a draft now and send it to you first for review.",
+    "Please reply as soon as possible, because the meeting is in an hour."
+  ],
+  "track": "it"
+}

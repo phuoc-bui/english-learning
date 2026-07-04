@@ -1,12 +1,14 @@
-const SHELL_CACHE = 'shell-v2';
-const DATA_CACHE = 'data-v1';
+const SHELL_CACHE = 'shell-v3';
+const DATA_CACHE = 'data-v2';
 const SHELL = [
   './', 'index.html', 'css/app.css', 'manifest.webmanifest',
   'icons/icon.svg', 'icons/icon-maskable.svg',
   'js/app.js', 'js/dates.js', 'js/srs.js', 'js/diff.js', 'js/pack.js',
   'js/store.js', 'js/data.js', 'js/speech.js', 'js/icons.js',
-  'js/views/today.js', 'js/views/vocab.js', 'js/views/speaking.js',
-  'js/views/interview.js', 'js/views/progress.js', 'js/views/listening.js',
+  'js/plan.js', 'js/prompt.js', 'js/quiz.js', 'js/profile-options.js',
+  'js/views/today.js', 'js/views/vocab.js', 'js/views/practice.js',
+  'js/views/review.js', 'js/views/progress.js', 'js/views/listening.js',
+  'js/views/settings.js', 'js/views/onboarding.js',
 ];
 
 self.addEventListener('install', (e) => {

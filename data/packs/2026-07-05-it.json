@@ -1,0 +1,144 @@
+{
+  "date": "2026-07-05",
+  "theme": "Small talk đầu giờ & pantry chat",
+  "vocab": [
+    {
+      "word": "weekend",
+      "ipa": "/ˌwiːkˈend/",
+      "meaning_vi": "cuối tuần",
+      "example": "How was your weekend, Linh?",
+      "example_vi": "Cuối tuần của bạn thế nào, Linh?"
+    },
+    {
+      "word": "commute",
+      "ipa": "/kəˈmjuːt/",
+      "meaning_vi": "đi lại (từ nhà đến công ty)",
+      "example": "My commute takes about thirty minutes by motorbike.",
+      "example_vi": "Tôi đi lại từ nhà đến công ty mất khoảng ba mươi phút bằng xe máy."
+    },
+    {
+      "word": "coffee break",
+      "ipa": "/ˈkɒfi breɪk/",
+      "meaning_vi": "giờ nghỉ giải lao uống cà phê",
+      "example": "Let's take a coffee break before the next meeting.",
+      "example_vi": "Chúng ta nghỉ giải lao uống cà phê trước cuộc họp tiếp theo nhé."
+    },
+    {
+      "word": "traffic",
+      "ipa": "/ˈtræfɪk/",
+      "meaning_vi": "giao thông, kẹt xe",
+      "example": "The traffic this morning was terrible.",
+      "example_vi": "Giao thông sáng nay tệ quá."
+    },
+    {
+      "word": "exhausted",
+      "ipa": "/ɪɡˈzɔːstɪd/",
+      "meaning_vi": "kiệt sức, rất mệt",
+      "example": "I'm exhausted after working late last night.",
+      "example_vi": "Tôi kiệt sức sau khi làm việc muộn tối qua."
+    },
+    {
+      "word": "chat",
+      "ipa": "/tʃæt/",
+      "meaning_vi": "trò chuyện",
+      "example": "Do you have time for a quick chat in the pantry?",
+      "example_vi": "Bạn có thời gian trò chuyện nhanh ở pantry không?"
+    },
+    {
+      "word": "recommend",
+      "ipa": "/ˌrekəˈmend/",
+      "meaning_vi": "gợi ý, giới thiệu",
+      "example": "Can you recommend a good coffee shop near the office?",
+      "example_vi": "Bạn gợi ý cho tôi một quán cà phê ngon gần công ty được không?"
+    },
+    {
+      "word": "catch up",
+      "ipa": "/kætʃ ʌp/",
+      "meaning_vi": "cập nhật/trò chuyện lại sau một thời gian",
+      "example": "Let's catch up over lunch sometime this week.",
+      "example_vi": "Chúng ta gặp nhau ăn trưa để nói chuyện tuần này nhé."
+    }
+  ],
+  "listening": {
+    "title": "Pantry chat on Monday morning",
+    "lines": [
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "Good morning, Minh. How was your weekend?"
+      },
+      {
+        "speaker": "Minh",
+        "voice": "male",
+        "text": "It was great, thanks. I went hiking with my friends. What about you?"
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "I just stayed home and rested. My commute is long, so I needed the break."
+      },
+      {
+        "speaker": "Minh",
+        "voice": "male",
+        "text": "I understand. The traffic this morning was terrible too."
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "Yeah, I feel exhausted already. Do you want a coffee break before the meeting?"
+      },
+      {
+        "speaker": "Minh",
+        "voice": "male",
+        "text": "Sure. Can you recommend a good coffee shop near the office?"
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "There's a new one downstairs. The coffee is really nice."
+      },
+      {
+        "speaker": "Minh",
+        "voice": "male",
+        "text": "Let's go there. We can catch up on the weekend properly."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What did Minh do over the weekend?",
+        "options": [
+          "He stayed home and rested",
+          "He went hiking with friends",
+          "He worked late"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why does Linh feel exhausted?",
+        "options": [
+          "She worked all weekend",
+          "Her commute is long and traffic was bad",
+          "She didn't drink coffee"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Where does Linh recommend for coffee?",
+        "options": [
+          "A new shop downstairs",
+          "A shop near her home",
+          "The office pantry"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Good morning, Minh. How was your weekend with your friends?",
+    "My commute is quite long, so I really needed the break this weekend.",
+    "The traffic this morning was terrible, so I arrived a bit late.",
+    "Can you recommend a good coffee shop somewhere near the office?",
+    "Let's grab a coffee and catch up on the weekend properly."
+  ],
+  "track": "it"
+}

@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-13",
+  "theme": "Họp retrospective",
+  "vocab": [
+    {
+      "word": "retrospective",
+      "ipa": "/ˌretrəˈspektɪv/",
+      "meaning_vi": "buổi họp nhìn lại sprint",
+      "example": "Let's start the retrospective with what went well.",
+      "example_vi": "Hãy bắt đầu buổi retrospective bằng những điều đã làm tốt."
+    },
+    {
+      "word": "went well",
+      "ipa": "/went wel/",
+      "meaning_vi": "diễn ra tốt đẹp",
+      "example": "The deployment went well this sprint.",
+      "example_vi": "Việc triển khai đã diễn ra tốt đẹp trong sprint này."
+    },
+    {
+      "word": "improve",
+      "ipa": "/ɪmˈpruːv/",
+      "meaning_vi": "cải thiện",
+      "example": "We need to improve our testing process.",
+      "example_vi": "Chúng ta cần cải thiện quy trình kiểm thử."
+    },
+    {
+      "word": "action item",
+      "ipa": "/ˈækʃn ˈaɪtəm/",
+      "meaning_vi": "việc cần làm sau họp",
+      "example": "Let's write down the action items before we finish.",
+      "example_vi": "Hãy ghi lại các việc cần làm trước khi kết thúc."
+    },
+    {
+      "word": "sprint",
+      "ipa": "/sprɪnt/",
+      "meaning_vi": "chu kỳ làm việc ngắn (Scrum)",
+      "example": "This sprint was busier than usual.",
+      "example_vi": "Sprint này bận hơn bình thường."
+    },
+    {
+      "word": "honest",
+      "ipa": "/ˈɒnɪst/",
+      "meaning_vi": "trung thực, thẳng thắn",
+      "example": "Please be honest about what didn't work well.",
+      "example_vi": "Hãy thẳng thắn về những điều chưa hiệu quả."
+    },
+    {
+      "word": "communication",
+      "ipa": "/kəˌmjuːnɪˈkeɪʃn/",
+      "meaning_vi": "sự giao tiếp",
+      "example": "Communication between teams was a bit slow this sprint.",
+      "example_vi": "Sự giao tiếp giữa các đội hơi chậm trong sprint này."
+    },
+    {
+      "word": "process",
+      "ipa": "/ˈprəʊses/",
+      "meaning_vi": "quy trình",
+      "example": "We should change our testing process next sprint.",
+      "example_vi": "Chúng ta nên thay đổi quy trình kiểm thử trong sprint tới."
+    }
+  ],
+  "listening": {
+    "title": "Sprint retrospective meeting",
+    "lines": [
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "Let's start the retrospective. What went well this sprint?"
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "I think the deployment went well — no bugs after release."
+      },
+      {
+        "speaker": "Minh",
+        "voice": "male",
+        "text": "I agree. Also, the new pull request process helped a lot."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "Good. Now, what can we improve?"
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "I think communication between teams was a bit slow this sprint."
+      },
+      {
+        "speaker": "Minh",
+        "voice": "male",
+        "text": "I agree. We should share updates more often, maybe daily."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "That's a good idea. Let's write it down as an action item."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Please be honest — I also think our testing process needs work."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "Noted. That's another action item for next sprint."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What went well this sprint according to Hoa?",
+        "options": [
+          "The retrospective meeting",
+          "The deployment, with no bugs",
+          "The testing process"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What problem does Hoa mention?",
+        "options": [
+          "Communication between teams was slow",
+          "The team missed the deadline",
+          "The client was unhappy"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What will the team do about testing?",
+        "options": [
+          "Ignore it",
+          "Make it an action item for next sprint",
+          "Stop testing completely"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Let's start the retrospective by talking about what went well this sprint.",
+    "Communication between teams was a bit slow this sprint, unfortunately.",
+    "We should share updates more often with each other, maybe every day.",
+    "Let's write it down as an action item before we finish today.",
+    "I also think our testing process needs some work before the next release."
+  ],
+  "track": "it"
+}

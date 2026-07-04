@@ -1,0 +1,154 @@
+{
+  "date": "2026-07-18",
+  "theme": "Báo cáo tiến độ với sếp",
+  "vocab": [
+    {
+      "word": "status",
+      "ipa": "/ˈsteɪtəs/",
+      "meaning_vi": "tình trạng, trạng thái",
+      "example": "What's the status of the payment integration?",
+      "example_vi": "Tình trạng của việc tích hợp thanh toán hiện giờ ra sao?"
+    },
+    {
+      "word": "complete",
+      "ipa": "/kəmˈpliːt/",
+      "meaning_vi": "hoàn thành",
+      "example": "The login feature is one hundred percent complete.",
+      "example_vi": "Tính năng đăng nhập đã hoàn thành một trăm phần trăm."
+    },
+    {
+      "word": "delay",
+      "ipa": "/dɪˈleɪ/",
+      "meaning_vi": "sự chậm trễ",
+      "example": "There is a small delay because of the API changes.",
+      "example_vi": "Có một sự chậm trễ nhỏ do thay đổi API."
+    },
+    {
+      "word": "dependency",
+      "ipa": "/dɪˈpendənsi/",
+      "meaning_vi": "sự phụ thuộc (vào việc/đội khác)",
+      "example": "This task has a dependency on the design team.",
+      "example_vi": "Task này phụ thuộc vào đội thiết kế."
+    },
+    {
+      "word": "adjust",
+      "ipa": "/əˈdʒʌst/",
+      "meaning_vi": "điều chỉnh",
+      "example": "We may need to adjust the timeline slightly.",
+      "example_vi": "Chúng ta có thể cần điều chỉnh lịch trình một chút."
+    },
+    {
+      "word": "on hold",
+      "ipa": "/ɒn həʊld/",
+      "meaning_vi": "tạm dừng",
+      "example": "This feature is on hold until the client confirms the design.",
+      "example_vi": "Tính năng này đang tạm dừng cho đến khi khách hàng xác nhận thiết kế."
+    },
+    {
+      "word": "achieve",
+      "ipa": "/əˈtʃiːv/",
+      "meaning_vi": "đạt được",
+      "example": "We achieved our sprint goal this week.",
+      "example_vi": "Chúng tôi đã đạt được mục tiêu sprint tuần này."
+    },
+    {
+      "word": "concern",
+      "ipa": "/kənˈsɜːn/",
+      "meaning_vi": "mối lo ngại",
+      "example": "My only concern is the testing time before release.",
+      "example_vi": "Mối lo ngại duy nhất của tôi là thời gian kiểm thử trước khi phát hành."
+    }
+  ],
+  "listening": {
+    "title": "Monthly report with the director",
+    "lines": [
+      {
+        "speaker": "Director",
+        "voice": "male",
+        "text": "Nam, what's the status of the payment integration project?"
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "We achieved our sprint goal — the core feature is complete."
+      },
+      {
+        "speaker": "Director",
+        "voice": "male",
+        "text": "Great. Any delay or concern I should know about?"
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "There is a small delay because of a dependency on the design team."
+      },
+      {
+        "speaker": "Director",
+        "voice": "male",
+        "text": "I see. Is the release date still safe?"
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "We may need to adjust the timeline by two or three days."
+      },
+      {
+        "speaker": "Director",
+        "voice": "male",
+        "text": "That's acceptable. What about the reporting feature?"
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "That one is on hold until the client confirms the design."
+      },
+      {
+        "speaker": "Director",
+        "voice": "male",
+        "text": "Okay, please follow up with them this week."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "Will do. I'll send an update by Friday."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What did the team achieve this sprint?",
+        "options": [
+          "The sprint goal",
+          "A new client",
+          "A bonus"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Why is there a delay?",
+        "options": [
+          "A bug in production",
+          "A dependency on the design team",
+          "Not enough staff"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is the status of the reporting feature?",
+        "options": [
+          "It's complete",
+          "It's on hold",
+          "It's cancelled"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "What's the current status of the payment integration project this week?",
+    "We achieved our sprint goal this week, and the core feature is complete.",
+    "There is a small delay because of a dependency on another team.",
+    "We may need to adjust the timeline slightly, by two or three days.",
+    "That feature is on hold until the client finally confirms the design."
+  ],
+  "track": "it"
+}

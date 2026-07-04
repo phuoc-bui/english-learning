@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-05",
+  "track": "sales",
+  "theme": "Giving a product demo to a customer",
+  "vocab": [
+    { "word": "walk through", "ipa": "/wɔːk θruː/", "meaning_vi": "hướng dẫn từng bước", "example": "Let me walk you through the main features first.", "example_vi": "Để tôi hướng dẫn bạn qua các tính năng chính trước." },
+    { "word": "dashboard", "ipa": "/ˈdæʃbɔːd/", "meaning_vi": "bảng điều khiển", "example": "You can see all your sales data on this dashboard.", "example_vi": "Bạn có thể xem toàn bộ dữ liệu bán hàng trên bảng điều khiển này." },
+    { "word": "trial version", "ipa": "/ˈtraɪəl ˈvɜːʃn/", "meaning_vi": "bản dùng thử", "example": "We can set you up with a free trial version.", "example_vi": "Chúng tôi có thể cho bạn dùng thử miễn phí." },
+    { "word": "feature", "ipa": "/ˈfiːtʃər/", "meaning_vi": "tính năng", "example": "This feature lets you export reports automatically.", "example_vi": "Tính năng này giúp bạn xuất báo cáo tự động." },
+    { "word": "user-friendly", "ipa": "/ˈjuːzə ˈfrendli/", "meaning_vi": "dễ sử dụng", "example": "Our customers say the app is very user-friendly.", "example_vi": "Khách hàng của chúng tôi nói ứng dụng rất dễ dùng." },
+    { "word": "integrate", "ipa": "/ˈɪntɪɡreɪt/", "meaning_vi": "tích hợp", "example": "It can integrate with the accounting system you already use.", "example_vi": "Nó có thể tích hợp với hệ thống kế toán bạn đang dùng." },
+    { "word": "customize", "ipa": "/ˈkʌstəmaɪz/", "meaning_vi": "tuỳ chỉnh", "example": "You can customize the dashboard for each department.", "example_vi": "Bạn có thể tuỳ chỉnh bảng điều khiển cho từng phòng ban." },
+    { "word": "step by step", "ipa": "/step baɪ step/", "meaning_vi": "từng bước một", "example": "Let's go through the setup step by step.", "example_vi": "Hãy cùng thực hiện cài đặt từng bước một." }
+  ],
+  "listening": {
+    "title": "Showing the product to a client",
+    "lines": [
+      { "speaker": "Hoa", "voice": "female", "text": "Thanks for joining today. I'll walk you through our software step by step." },
+      { "speaker": "Duc", "voice": "male", "text": "Sounds good. Can it integrate with our current accounting system?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Yes, it can. Here's the dashboard — you can see sales, stock, and reports in one place." },
+      { "speaker": "Duc", "voice": "male", "text": "This looks quite user-friendly. Can we customize it for our own team?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Absolutely, every feature on this dashboard can be customized later." },
+      { "speaker": "Duc", "voice": "male", "text": "Great. Is there a trial version we can test before we buy it?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Of course, we offer a two-week trial version with full features." },
+      { "speaker": "Duc", "voice": "male", "text": "Perfect, let's start with that trial then." }
+    ],
+    "questions": [
+      { "q": "What does Duc ask if the software can do with their accounting system?", "options": ["Replace it", "Integrate with it", "Delete it"], "answer": 1 },
+      { "q": "How does Duc describe the dashboard?", "options": ["Confusing", "User-friendly", "Too slow"], "answer": 1 },
+      { "q": "How long is the trial version Hoa offers?", "options": ["One week", "Two weeks", "One month"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Let me walk you through the main features first, and then you can ask questions.",
+    "You can customize the dashboard for your own team once you're set up.",
+    "Is there a free trial version we can test before we commit to buying?",
+    "This software can integrate with your current system without any extra setup.",
+    "Our customers say the app is very user-friendly, even for beginners."
+  ]
+}

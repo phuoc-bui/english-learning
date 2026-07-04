@@ -1,41 +1,49 @@
 import { readFileSync, readdirSync } from 'node:fs';
-import { validatePack } from '../js/pack.js';
+import { validatePack, TRACKS } from '../js/pack.js';
 
-const index = JSON.parse(readFileSync('data/index.json', 'utf8'));
-const files = readdirSync('data/packs').filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', ''));
+const raw = JSON.parse(readFileSync('data/index.json', 'utf8'));
 let failed = false;
-const seenWords = new Set();
+const fail = (msg) => { console.error(msg); failed = true; };
 
-for (const f of files) {
-  if (!index.includes(f)) {
-    console.error(`data/packs/${f}.json exists but is missing from index.json`);
-    failed = true;
+// entry string legacy = { date, tracks: ['it'] } tại đường dẫn cũ
+const entries = raw.map((e) => (typeof e === 'string' ? { date: e, tracks: ['it'], legacy: true } : e));
+const expected = new Set();
+const seenWords = Object.fromEntries(TRACKS.map((t) => [t, new Set()]));
+let packCount = 0;
+
+for (const e of entries) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(e.date)) fail(`index: bad date "${e.date}"`);
+  if (!Array.isArray(e.tracks) || e.tracks.length === 0) { fail(`index ${e.date}: tracks missing`); continue; }
+  for (const t of e.tracks) {
+    if (!TRACKS.includes(t)) { fail(`index ${e.date}: unknown track "${t}"`); continue; }
+    const file = e.legacy ? `${e.date}.json` : `${e.date}-${t}.json`;
+    expected.add(file);
+    let pack;
+    try {
+      pack = JSON.parse(readFileSync(`data/packs/${file}`, 'utf8'));
+    } catch {
+      fail(`index lists ${e.date} (${t}) but data/packs/${file} is missing/bad JSON`);
+      continue;
+    }
+    const errors = validatePack(pack, { requireTrack: !e.legacy });
+    if (pack.date !== e.date) errors.push(`date field "${pack.date}" != index "${e.date}"`);
+    if (!e.legacy && pack.track !== t) errors.push(`track field "${pack.track}" != filename track "${t}"`);
+    for (const v of pack.vocab || []) {
+      const w = v.word?.toLowerCase();
+      if (seenWords[t].has(w)) errors.push(`duplicate word in track ${t}: "${v.word}"`);
+      seenWords[t].add(w);
+    }
+    if (errors.length) {
+      fail(`${file}:`);
+      for (const er of errors) console.error(`  - ${er}`);
+    }
+    packCount++;
   }
 }
 
-for (const date of index) {
-  if (!files.includes(date)) {
-    console.error(`index.json lists ${date} but pack file is missing`);
-    failed = true;
-    continue;
-  }
-  const pack = JSON.parse(readFileSync(`data/packs/${date}.json`, 'utf8'));
-  const errors = validatePack(pack);
-  if (pack.date !== date) errors.push(`date field "${pack.date}" != filename "${date}"`);
-  for (const v of pack.vocab || []) {
-    const w = v.word?.toLowerCase();
-    if (seenWords.has(w)) errors.push(`duplicate word across packs: "${v.word}"`);
-    seenWords.add(w);
-  }
-  if (errors.length) {
-    console.error(`${date}:`);
-    for (const e of errors) console.error(`  - ${e}`);
-    failed = true;
-  }
+for (const f of readdirSync('data/packs').filter((f) => f.endsWith('.json'))) {
+  if (!expected.has(f)) fail(`data/packs/${f} exists but is missing from index.json`);
 }
 
-if (failed) {
-  console.error('FAILED');
-  process.exit(1);
-}
-console.log(`OK: ${index.length} packs, ${seenWords.size} unique words`);
+if (failed) { console.error('FAILED'); process.exit(1); }
+console.log(`OK: ${packCount} packs across ${entries.length} dates`);

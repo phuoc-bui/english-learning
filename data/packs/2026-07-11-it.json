@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-11",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    {
+      "word": "onboarding",
+      "ipa": "/ˈɒnbɔːdɪŋ/",
+      "meaning_vi": "quá trình hòa nhập nhân viên mới",
+      "example": "Your onboarding will take about one week.",
+      "example_vi": "Quá trình hòa nhập của bạn sẽ mất khoảng một tuần."
+    },
+    {
+      "word": "welcome",
+      "ipa": "/ˈwelkəm/",
+      "meaning_vi": "chào đón",
+      "example": "Welcome to the team! We're happy to have you here.",
+      "example_vi": "Chào mừng bạn đến với đội nhóm! Chúng tôi rất vui khi có bạn."
+    },
+    {
+      "word": "access",
+      "ipa": "/ˈækses/",
+      "meaning_vi": "quyền truy cập",
+      "example": "I will set up your access to the company system today.",
+      "example_vi": "Hôm nay tôi sẽ thiết lập quyền truy cập hệ thống công ty cho bạn."
+    },
+    {
+      "word": "mentor",
+      "ipa": "/ˈmentɔːr/",
+      "meaning_vi": "người hướng dẫn, cố vấn",
+      "example": "Minh will be your mentor for the first month.",
+      "example_vi": "Minh sẽ là người hướng dẫn bạn trong tháng đầu tiên."
+    },
+    {
+      "word": "documentation",
+      "ipa": "/ˌdɒkjumenˈteɪʃn/",
+      "meaning_vi": "tài liệu hướng dẫn",
+      "example": "Please read the documentation before your first task.",
+      "example_vi": "Vui lòng đọc tài liệu hướng dẫn trước khi làm task đầu tiên."
+    },
+    {
+      "word": "set up",
+      "ipa": "/set ʌp/",
+      "meaning_vi": "cài đặt, thiết lập",
+      "example": "Let's set up your laptop and email account first.",
+      "example_vi": "Hãy thiết lập laptop và tài khoản email cho bạn trước."
+    },
+    {
+      "word": "introduce",
+      "ipa": "/ˌɪntrəˈdjuːs/",
+      "meaning_vi": "giới thiệu",
+      "example": "Let me introduce you to the rest of the team.",
+      "example_vi": "Để tôi giới thiệu bạn với các thành viên còn lại trong đội."
+    },
+    {
+      "word": "guideline",
+      "ipa": "/ˈɡaɪdlaɪn/",
+      "meaning_vi": "hướng dẫn, quy tắc",
+      "example": "Our coding guidelines are in this document.",
+      "example_vi": "Quy tắc viết code của chúng tôi nằm trong tài liệu này."
+    }
+  ],
+  "listening": {
+    "title": "First day for the new employee",
+    "lines": [
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "Welcome to the team, Tuan! How are you feeling today?"
+      },
+      {
+        "speaker": "Tuan",
+        "voice": "male",
+        "text": "A little nervous, but excited too. Thank you for the welcome."
+      },
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "No problem. Let's set up your laptop and email account first."
+      },
+      {
+        "speaker": "Tuan",
+        "voice": "male",
+        "text": "Sounds good. When will I get access to the company system?"
+      },
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "I will set that up today. Minh will be your mentor for the first month."
+      },
+      {
+        "speaker": "Tuan",
+        "voice": "male",
+        "text": "Great, I look forward to working with him."
+      },
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "He will introduce you to the rest of the team this afternoon."
+      },
+      {
+        "speaker": "Tuan",
+        "voice": "male",
+        "text": "Perfect. Is there any documentation I should read first?"
+      },
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "Yes, please check our coding guidelines before your first task."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How does Tuan feel on his first day?",
+        "options": [
+          "Bored",
+          "A little nervous but excited",
+          "Angry"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Who will be Tuan's mentor?",
+        "options": [
+          "Hoa",
+          "Minh",
+          "Nam"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What should Tuan read before his first task?",
+        "options": [
+          "The company history",
+          "The coding guidelines",
+          "The client contract"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Welcome to the team! How are you feeling on your first day?",
+    "Let's set up your laptop and email account first thing this morning.",
+    "Minh will be your mentor and guide you for the first month.",
+    "He will introduce you to the rest of the team this afternoon.",
+    "Please check our coding guidelines carefully before you start your first task."
+  ],
+  "track": "it"
+}

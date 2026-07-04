@@ -1,0 +1,154 @@
+{
+  "date": "2026-07-04",
+  "theme": "Báo cáo tiến độ với sếp",
+  "vocab": [
+    {
+      "word": "progress",
+      "ipa": "/ˈprəʊɡres/",
+      "meaning_vi": "tiến độ",
+      "example": "Can you show me the progress of the payment module?",
+      "example_vi": "Bạn cho tôi xem tiến độ của module thanh toán được không?"
+    },
+    {
+      "word": "milestone",
+      "ipa": "/ˈmaɪlstəʊn/",
+      "meaning_vi": "cột mốc quan trọng",
+      "example": "We reached an important milestone yesterday — the API is finally live.",
+      "example_vi": "Hôm qua chúng tôi đạt một cột mốc quan trọng — API đã lên live."
+    },
+    {
+      "word": "behind schedule",
+      "ipa": "/bɪˈhaɪnd ˈʃedjuːl/",
+      "meaning_vi": "chậm tiến độ",
+      "example": "The report feature is a bit behind schedule.",
+      "example_vi": "Tính năng báo cáo đang hơi chậm tiến độ."
+    },
+    {
+      "word": "risk",
+      "ipa": "/rɪsk/",
+      "meaning_vi": "rủi ro",
+      "example": "There is a small risk that we miss the deadline.",
+      "example_vi": "Có một rủi ro nhỏ là chúng ta sẽ trễ hạn."
+    },
+    {
+      "word": "resource",
+      "ipa": "/rɪˈzɔːs/",
+      "meaning_vi": "nguồn lực",
+      "example": "We need one more resource to finish this on time.",
+      "example_vi": "Chúng tôi cần thêm một nguồn lực nữa để hoàn thành đúng hạn."
+    },
+    {
+      "word": "confident",
+      "ipa": "/ˈkɒnfɪdənt/",
+      "meaning_vi": "tự tin, chắc chắn",
+      "example": "I'm confident we can deliver this by Friday.",
+      "example_vi": "Tôi tự tin chúng ta có thể giao việc này trước thứ Sáu."
+    },
+    {
+      "word": "escalate",
+      "ipa": "/ˈeskəleɪt/",
+      "meaning_vi": "báo cáo cấp trên khi có vấn đề nghiêm trọng",
+      "example": "If the issue continues, I will escalate it to the manager.",
+      "example_vi": "Nếu vấn đề vẫn tiếp diễn, tôi sẽ báo cáo lên quản lý."
+    },
+    {
+      "word": "summary",
+      "ipa": "/ˈsʌməri/",
+      "meaning_vi": "bản tóm tắt",
+      "example": "Let me give you a short summary of this week's work.",
+      "example_vi": "Để tôi tóm tắt ngắn gọn công việc tuần này."
+    }
+  ],
+  "listening": {
+    "title": "Weekly report with the manager",
+    "lines": [
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Nam, do you have a minute? I want to hear about the project progress."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "Sure. Let me give you a short summary of this week's work."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "We reached an important milestone — the payment API is now live."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "That's great news. What about the report feature?"
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "It's a bit behind schedule. We are two days late."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "What is the risk if it stays behind schedule?"
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "The risk is small, but we may need one more resource to catch up."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Okay, I can ask another team to help for two days."
+      },
+      {
+        "speaker": "Nam (team lead)",
+        "voice": "male",
+        "text": "That would be great. I'm confident we can finish by next Monday then."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Good. Please escalate to me directly if anything blocks you."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What milestone did the team reach?",
+        "options": [
+          "The report feature launched",
+          "The payment API is now live",
+          "The manager approved the budget"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why is the report feature behind schedule?",
+        "options": [
+          "The team is two days late",
+          "There is a bug",
+          "The manager cancelled it"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Hoa offer to help with?",
+        "options": [
+          "Writing the code herself",
+          "Asking another team to help for two days",
+          "Extending the deadline by a week"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Let me give you a short summary of this week's work first.",
+    "We reached an important milestone this week with the payment API.",
+    "The report feature is a bit behind schedule, about two days late.",
+    "We may need one more resource from another team to catch up.",
+    "Please escalate to me directly if anything blocks you this week."
+  ],
+  "track": "it"
+}

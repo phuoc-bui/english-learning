@@ -1,0 +1,154 @@
+{
+  "date": "2026-07-07",
+  "theme": "Deal lương & phúc lợi",
+  "vocab": [
+    {
+      "word": "salary",
+      "ipa": "/ˈsæləri/",
+      "meaning_vi": "lương",
+      "example": "What is the salary range for this position?",
+      "example_vi": "Mức lương cho vị trí này là bao nhiêu?"
+    },
+    {
+      "word": "benefit",
+      "ipa": "/ˈbenɪfɪt/",
+      "meaning_vi": "phúc lợi",
+      "example": "Our company offers health insurance as a benefit.",
+      "example_vi": "Công ty chúng tôi có bảo hiểm sức khỏe như một phúc lợi."
+    },
+    {
+      "word": "negotiate",
+      "ipa": "/nɪˈɡəʊʃieɪt/",
+      "meaning_vi": "đàm phán",
+      "example": "Is it okay to negotiate the salary during the interview?",
+      "example_vi": "Có ổn không nếu tôi đàm phán lương trong buổi phỏng vấn?"
+    },
+    {
+      "word": "bonus",
+      "ipa": "/ˈbəʊnəs/",
+      "meaning_vi": "thưởng",
+      "example": "We pay a yearly bonus based on performance.",
+      "example_vi": "Chúng tôi trả thưởng hàng năm dựa trên hiệu suất làm việc."
+    },
+    {
+      "word": "offer letter",
+      "ipa": "/ˈɒfər ˈletər/",
+      "meaning_vi": "thư mời làm việc",
+      "example": "I received the offer letter this morning.",
+      "example_vi": "Tôi nhận được thư mời làm việc sáng nay."
+    },
+    {
+      "word": "probation",
+      "ipa": "/prəˈbeɪʃn/",
+      "meaning_vi": "thời gian thử việc",
+      "example": "The probation period is two months in our company.",
+      "example_vi": "Thời gian thử việc ở công ty chúng tôi là hai tháng."
+    },
+    {
+      "word": "insurance",
+      "ipa": "/ɪnˈʃʊərəns/",
+      "meaning_vi": "bảo hiểm",
+      "example": "Health insurance starts from your first day of work.",
+      "example_vi": "Bảo hiểm sức khỏe bắt đầu từ ngày đầu tiên đi làm."
+    },
+    {
+      "word": "expect",
+      "ipa": "/ɪkˈspekt/",
+      "meaning_vi": "kỳ vọng, mong đợi",
+      "example": "What salary do you expect for this role?",
+      "example_vi": "Bạn kỳ vọng mức lương bao nhiêu cho vị trí này?"
+    }
+  ],
+  "listening": {
+    "title": "Discussing the offer letter",
+    "lines": [
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "Hi Nam, congratulations! We would like to send you the offer letter."
+      },
+      {
+        "speaker": "Nam",
+        "voice": "male",
+        "text": "Thank you so much. Can you tell me about the salary and benefits first?"
+      },
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "Of course. The salary is fifteen million dong per month, plus a yearly bonus."
+      },
+      {
+        "speaker": "Nam",
+        "voice": "male",
+        "text": "I see. Is it possible to negotiate a little on the salary?"
+      },
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "What salary do you expect for this role?"
+      },
+      {
+        "speaker": "Nam",
+        "voice": "male",
+        "text": "Based on my experience, I was hoping for around seventeen million."
+      },
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "Let me check with the manager. We can also add health insurance from day one."
+      },
+      {
+        "speaker": "Nam",
+        "voice": "male",
+        "text": "That sounds good. What about the probation period?"
+      },
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "It is two months, with full salary during that time."
+      },
+      {
+        "speaker": "Nam",
+        "voice": "male",
+        "text": "Great, thank you for explaining everything so clearly."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Nam want to negotiate?",
+        "options": [
+          "The job title",
+          "The salary",
+          "The probation period"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What benefit does Hoa mention besides bonus?",
+        "options": [
+          "Free lunch",
+          "Health insurance from day one",
+          "A company car"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How long is the probation period?",
+        "options": [
+          "One month",
+          "Two months",
+          "Six months"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "We would like to send you the offer letter this afternoon.",
+    "Can you tell me about the salary and benefits for this role?",
+    "Is it possible to negotiate a little on the salary amount?",
+    "We can also add health insurance starting from your very first day.",
+    "The probation period is two months, with full salary during that time."
+  ],
+  "track": "it"
+}

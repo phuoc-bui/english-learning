@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-06",
+  "track": "finance",
+  "theme": "Invoices and payments",
+  "vocab": [
+    { "word": "invoice", "ipa": "/ˈɪnvɔɪs/", "meaning_vi": "hóa đơn", "example": "Could you send the invoice for last month's order?", "example_vi": "Bạn gửi giúp hóa đơn cho đơn hàng tháng trước nhé." },
+    { "word": "overdue", "ipa": "/ˌəʊvəˈdjuː/", "meaning_vi": "quá hạn", "example": "This payment is now two weeks overdue.", "example_vi": "Khoản thanh toán này hiện đã quá hạn hai tuần." },
+    { "word": "due date", "ipa": "/djuː deɪt/", "meaning_vi": "hạn thanh toán", "example": "The due date for this invoice is July tenth.", "example_vi": "Hạn thanh toán hóa đơn này là ngày mười tháng bảy." },
+    { "word": "bank transfer", "ipa": "/bæŋk ˈtrænsfɜː/", "meaning_vi": "chuyển khoản ngân hàng", "example": "We usually pay suppliers by bank transfer.", "example_vi": "Chúng tôi thường thanh toán cho nhà cung cấp bằng chuyển khoản." },
+    { "word": "outstanding balance", "ipa": "/aʊtˈstændɪŋ ˈbæləns/", "meaning_vi": "số dư chưa thanh toán", "example": "Please clear the outstanding balance by Friday.", "example_vi": "Vui lòng thanh toán hết số dư còn nợ trước thứ Sáu." },
+    { "word": "receipt", "ipa": "/rɪˈsiːt/", "meaning_vi": "biên nhận, hóa đơn đỏ", "example": "Don't forget to ask for a receipt after paying.", "example_vi": "Đừng quên xin biên nhận sau khi thanh toán nhé." },
+    { "word": "process a payment", "ipa": "/ˈprəʊses ə ˈpeɪmənt/", "meaning_vi": "xử lý một khoản thanh toán", "example": "It usually takes two days to process a payment.", "example_vi": "Thường mất hai ngày để xử lý một khoản thanh toán." },
+    { "word": "late fee", "ipa": "/leɪt fiː/", "meaning_vi": "phí trả chậm", "example": "A late fee will apply after the due date.", "example_vi": "Sẽ có phí trả chậm áp dụng sau hạn thanh toán." }
+  ],
+  "listening": {
+    "title": "Chasing an overdue invoice",
+    "lines": [
+      { "speaker": "Linh", "voice": "female", "text": "Hi Duc, I'm calling about invoice number 245. It's now overdue." },
+      { "speaker": "Duc", "voice": "male", "text": "Oh, I'm sorry. What was the due date again?" },
+      { "speaker": "Linh", "voice": "female", "text": "The due date was June thirtieth, so it's about five days late now." },
+      { "speaker": "Duc", "voice": "male", "text": "I see. Can I clear the outstanding balance by bank transfer today?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yes, that works. I'll process the payment as soon as it arrives." },
+      { "speaker": "Duc", "voice": "male", "text": "Will there be a late fee since it's overdue?" },
+      { "speaker": "Linh", "voice": "female", "text": "Just a small one this time. Please send a receipt after the transfer." },
+      { "speaker": "Duc", "voice": "male", "text": "Sure, I'll send the receipt right after I make the transfer." }
+    ],
+    "questions": [
+      { "q": "How is Duc going to pay the outstanding balance?", "options": ["By cash", "By bank transfer", "By credit card"], "answer": 1 },
+      { "q": "How many days late is the payment?", "options": ["About five days", "Two weeks", "One month"], "answer": 0 },
+      { "q": "What does Linh ask Duc to send after the transfer?", "options": ["A new invoice", "A receipt", "A contract"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "This invoice is now a few days overdue, so please check it soon.",
+    "Please clear the outstanding balance by Friday to avoid a late fee.",
+    "We usually pay suppliers by bank transfer instead of cash or cheque.",
+    "It takes about two days to process a payment after it arrives.",
+    "Don't forget to ask for a receipt after paying for the order."
+  ]
+}

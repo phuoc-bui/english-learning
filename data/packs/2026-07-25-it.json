@@ -1,0 +1,154 @@
+{
+  "date": "2026-07-25",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    {
+      "word": "checklist",
+      "ipa": "/ˈtʃeklɪst/",
+      "meaning_vi": "danh sách công việc cần làm",
+      "example": "Here is your onboarding checklist for the first week.",
+      "example_vi": "Đây là danh sách công việc cần làm trong tuần đầu tiên của bạn."
+    },
+    {
+      "word": "training",
+      "ipa": "/ˈtreɪnɪŋ/",
+      "meaning_vi": "đào tạo",
+      "example": "You will have training sessions with different teams this week.",
+      "example_vi": "Bạn sẽ có các buổi đào tạo với các đội khác nhau trong tuần này."
+    },
+    {
+      "word": "workspace",
+      "ipa": "/ˈwɜːkspeɪs/",
+      "meaning_vi": "không gian làm việc",
+      "example": "Let me show you around the workspace first.",
+      "example_vi": "Để tôi dẫn bạn đi tham quan không gian làm việc trước."
+    },
+    {
+      "word": "shadow",
+      "ipa": "/ˈʃædəʊ/",
+      "meaning_vi": "quan sát/theo dõi việc người khác làm để học hỏi",
+      "example": "You will shadow Linh for a few days to learn the process.",
+      "example_vi": "Bạn sẽ quan sát Linh làm việc vài ngày để học quy trình."
+    },
+    {
+      "word": "culture",
+      "ipa": "/ˈkʌltʃər/",
+      "meaning_vi": "văn hóa (công ty)",
+      "example": "Our company culture values open communication.",
+      "example_vi": "Văn hóa công ty chúng tôi coi trọng giao tiếp cởi mở."
+    },
+    {
+      "word": "probationary period",
+      "ipa": "/prəˈbeɪʃənəri ˈpɪəriəd/",
+      "meaning_vi": "giai đoạn thử việc",
+      "example": "During the probationary period, you will have weekly check-ins.",
+      "example_vi": "Trong giai đoạn thử việc, bạn sẽ có các buổi trao đổi hàng tuần."
+    },
+    {
+      "word": "orientation",
+      "ipa": "/ˌɔːriənˈteɪʃn/",
+      "meaning_vi": "buổi định hướng nhân viên mới",
+      "example": "The orientation covers company policies and tools.",
+      "example_vi": "Buổi định hướng bao gồm chính sách và công cụ của công ty."
+    },
+    {
+      "word": "settle in",
+      "ipa": "/ˈsetl ɪn/",
+      "meaning_vi": "hòa nhập, ổn định trong môi trường mới",
+      "example": "It usually takes a few weeks to settle in.",
+      "example_vi": "Thường mất vài tuần để hòa nhập vào môi trường mới."
+    }
+  ],
+  "listening": {
+    "title": "Orientation day",
+    "lines": [
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "Welcome! Today is your orientation day. Here is your checklist."
+      },
+      {
+        "speaker": "Mai",
+        "voice": "female",
+        "text": "Thank you. What should I do first?"
+      },
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "Let me show you around the workspace first."
+      },
+      {
+        "speaker": "Mai",
+        "voice": "female",
+        "text": "Great, thank you. Will I have any training this week?"
+      },
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "Yes, you will have training sessions with different teams."
+      },
+      {
+        "speaker": "Mai",
+        "voice": "female",
+        "text": "That's helpful. How can I learn the daily process?"
+      },
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "You will shadow Linh for a few days to learn the process."
+      },
+      {
+        "speaker": "Mai",
+        "voice": "female",
+        "text": "Sounds good. What happens during the probationary period?"
+      },
+      {
+        "speaker": "Hoa (HR)",
+        "voice": "female",
+        "text": "You'll have weekly check-ins, and we'll help you settle in."
+      },
+      {
+        "speaker": "Mai",
+        "voice": "female",
+        "text": "Thank you, I already feel welcome here."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Hoa give Mai first?",
+        "options": [
+          "A laptop",
+          "A checklist",
+          "A contract"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Who will Mai shadow to learn the process?",
+        "options": [
+          "Hoa",
+          "Linh",
+          "Minh"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What happens during the probationary period?",
+        "options": [
+          "No support at all",
+          "Weekly check-ins",
+          "Extra vacation days"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Welcome! Today is your orientation day, and here is your checklist.",
+    "Let me show you around the workspace before we start training.",
+    "You will have training sessions with different teams this week.",
+    "You will shadow Linh for a few days to learn the daily process.",
+    "We'll have weekly check-ins and help you settle in over time."
+  ],
+  "track": "it"
+}

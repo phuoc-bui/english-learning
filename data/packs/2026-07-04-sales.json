@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-04",
+  "track": "sales",
+  "theme": "Cold-calling a new customer",
+  "vocab": [
+    { "word": "cold call", "ipa": "/kəʊld kɔːl/", "meaning_vi": "gọi điện chào hàng cho khách chưa quen biết", "example": "I make about ten cold calls every morning.", "example_vi": "Mỗi sáng tôi gọi khoảng mười cuộc cold call." },
+    { "word": "decision-maker", "ipa": "/dɪˈsɪʒn ˈmeɪkər/", "meaning_vi": "người ra quyết định", "example": "Could I speak to the decision-maker for purchasing?", "example_vi": "Tôi có thể nói chuyện với người ra quyết định mua hàng không?" },
+    { "word": "pitch", "ipa": "/pɪtʃ/", "meaning_vi": "bài chào hàng, giới thiệu sản phẩm", "example": "Let me give you a quick pitch about our service.", "example_vi": "Để tôi giới thiệu nhanh về dịch vụ của chúng tôi." },
+    { "word": "budget", "ipa": "/ˈbʌdʒɪt/", "meaning_vi": "ngân sách", "example": "Do you have a budget in mind for this quarter?", "example_vi": "Anh chị có ngân sách dự tính cho quý này chưa?" },
+    { "word": "not interested", "ipa": "/nɒt ˈɪntrəstɪd/", "meaning_vi": "không quan tâm", "example": "The customer said she wasn't interested right now.", "example_vi": "Khách hàng nói hiện tại chị ấy không quan tâm." },
+    { "word": "follow-up call", "ipa": "/ˈfɒləʊ ʌp kɔːl/", "meaning_vi": "cuộc gọi tiếp theo", "example": "I'll schedule a follow-up call for next Tuesday.", "example_vi": "Tôi sẽ đặt lịch gọi lại vào thứ Ba tuần sau." },
+    { "word": "introduce", "ipa": "/ˌɪntrəˈdjuːs/", "meaning_vi": "giới thiệu", "example": "Let me introduce myself and my company first.", "example_vi": "Để tôi giới thiệu bản thân và công ty trước đã." },
+    { "word": "convenient time", "ipa": "/kənˈviːniənt taɪm/", "meaning_vi": "thời điểm thuận tiện", "example": "Is now a convenient time to talk for two minutes?", "example_vi": "Bây giờ có thuận tiện để anh chị nói chuyện hai phút không?" }
+  ],
+  "listening": {
+    "title": "A first cold call",
+    "lines": [
+      { "speaker": "Nam", "voice": "male", "text": "Good morning, this is Nam from Bright Solutions. Is now a convenient time to talk?" },
+      { "speaker": "Linh", "voice": "female", "text": "I have about two minutes. What is this about?" },
+      { "speaker": "Nam", "voice": "male", "text": "Thank you. Let me introduce our software quickly — it helps small shops manage inventory." },
+      { "speaker": "Linh", "voice": "female", "text": "I see. But I'm not the decision-maker. My manager, Mr. Duc, handles that." },
+      { "speaker": "Nam", "voice": "male", "text": "Understood. Could you give me his contact, or should I do a follow-up call later?" },
+      { "speaker": "Linh", "voice": "female", "text": "A follow-up call is better. He's usually free on Thursday afternoons." },
+      { "speaker": "Nam", "voice": "male", "text": "Great. Before I go, do you know if there's a budget for new software this quarter?" },
+      { "speaker": "Linh", "voice": "female", "text": "I'm not sure, but he did mention wanting to cut costs. I'll pass along your pitch." }
+    ],
+    "questions": [
+      { "q": "Who is the actual decision-maker at Linh's company?", "options": ["Linh herself", "Mr. Duc", "Nam"], "answer": 1 },
+      { "q": "When is Mr. Duc usually free?", "options": ["Monday mornings", "Thursday afternoons", "Friday evenings"], "answer": 1 },
+      { "q": "What does Linh say Mr. Duc wants to do?", "options": ["Hire more staff", "Cut costs", "Move offices"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Is now a convenient time to talk for two minutes, or should I call back later?",
+    "Let me introduce our product before you decide whether it's worth your time.",
+    "Could I speak to the decision-maker in your team about this proposal?",
+    "I'll schedule a follow-up call for next week so we can go over the details.",
+    "Do you have a budget in mind for this quarter?"
+  ]
+}

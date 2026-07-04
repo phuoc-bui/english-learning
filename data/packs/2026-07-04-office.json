@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-04",
+  "track": "office",
+  "theme": "Small talk before a meeting",
+  "vocab": [
+    { "word": "catch up", "ipa": "/kætʃ ʌp/", "meaning_vi": "hàn huyên, cập nhật tin tức với ai đó", "example": "Let's catch up over coffee before the meeting starts.", "example_vi": "Mình hàn huyên chút bên cà phê trước khi họp nhé." },
+    { "word": "commute", "ipa": "/kəˈmjuːt/", "meaning_vi": "quãng đường đi làm", "example": "How was your commute this morning? The traffic looked terrible.", "example_vi": "Sáng nay đi làm thế nào? Đường có vẻ tắc lắm." },
+    { "word": "long weekend", "ipa": "/lɒŋ ˈwiːkend/", "meaning_vi": "kỳ nghỉ cuối tuần dài (dính lễ)", "example": "Did you go anywhere for the long weekend?", "example_vi": "Cuối tuần dài vừa rồi bạn có đi đâu không?" },
+    { "word": "swamped", "ipa": "/swɒmpt/", "meaning_vi": "ngập việc, quá bận", "example": "I'm swamped this week — three deadlines on Friday.", "example_vi": "Tuần này tôi ngập việc — thứ Sáu có ba deadline." },
+    { "word": "grab", "ipa": "/ɡræb/", "meaning_vi": "lấy nhanh, tranh thủ (đồ ăn, đồ uống)", "example": "I'm going to grab a coffee. Do you want anything?", "example_vi": "Tôi đi lấy cà phê đây. Bạn có muốn gì không?" },
+    { "word": "settle in", "ipa": "/ˈsetl ɪn/", "meaning_vi": "quen dần với chỗ mới", "example": "Are you settling in well at the new office?", "example_vi": "Bạn quen với văn phòng mới chưa?" },
+    { "word": "run late", "ipa": "/rʌn leɪt/", "meaning_vi": "bị muộn giờ", "example": "Sorry, I'm running late — start without me.", "example_vi": "Xin lỗi, tôi đến muộn — mọi người cứ bắt đầu trước." },
+    { "word": "weekend plans", "ipa": "/ˈwiːkend plænz/", "meaning_vi": "kế hoạch cuối tuần", "example": "Any weekend plans, or just relaxing at home?", "example_vi": "Cuối tuần có kế hoạch gì không, hay ở nhà nghỉ ngơi?" }
+  ],
+  "listening": {
+    "title": "Chatting in the pantry",
+    "lines": [
+      { "speaker": "Linh", "voice": "female", "text": "Morning, Nam! I'm going to grab a coffee before the nine o'clock meeting. Want one?" },
+      { "speaker": "Nam", "voice": "male", "text": "Oh yes, please. How was your commute? The rain was crazy this morning." },
+      { "speaker": "Linh", "voice": "female", "text": "Terrible. It took me almost an hour. Anyway, how was your long weekend?" },
+      { "speaker": "Nam", "voice": "male", "text": "Really nice. We went to Da Lat with my family. And you?" },
+      { "speaker": "Linh", "voice": "female", "text": "I just stayed home. I was swamped with the quarterly report, to be honest." },
+      { "speaker": "Nam", "voice": "male", "text": "That report again? You should ask Minh to help you with the numbers." },
+      { "speaker": "Linh", "voice": "female", "text": "Good idea. Oh, it's almost nine — Hoa said she's running late, so we can settle in slowly." },
+      { "speaker": "Nam", "voice": "male", "text": "Perfect. Let's catch up more at lunch." }
+    ],
+    "questions": [
+      { "q": "Where did Nam go for the long weekend?", "options": ["Da Lat", "Home", "The office"], "answer": 0 },
+      { "q": "Why did Linh stay home at the weekend?", "options": ["She was sick", "She was swamped with a report", "She had guests"], "answer": 1 },
+      { "q": "Who is running late for the meeting?", "options": ["Linh", "Minh", "Hoa"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "How was your weekend? Did you do anything special, or just stay home?",
+    "Sorry I'm running late this morning — please start the meeting without me.",
+    "I'm a bit swamped this week, can we catch up on Friday instead?",
+    "I'm going to grab a coffee before the meeting starts, do you want anything?",
+    "It's been a busy morning, but things are settling down now."
+  ]
+}

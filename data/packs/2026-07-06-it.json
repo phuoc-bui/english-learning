@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-06",
+  "theme": "Họp với khách hàng",
+  "vocab": [
+    {
+      "word": "client",
+      "ipa": "/ˈklaɪənt/",
+      "meaning_vi": "khách hàng",
+      "example": "Our client wants a new feature added to the dashboard.",
+      "example_vi": "Khách hàng của chúng ta muốn thêm một tính năng mới vào dashboard."
+    },
+    {
+      "word": "requirement",
+      "ipa": "/rɪˈkwaɪəmənt/",
+      "meaning_vi": "yêu cầu (dự án)",
+      "example": "Can you clarify the requirement for this feature?",
+      "example_vi": "Bạn có thể làm rõ yêu cầu cho tính năng này không?"
+    },
+    {
+      "word": "scope",
+      "ipa": "/skəʊp/",
+      "meaning_vi": "phạm vi công việc",
+      "example": "This request is outside the scope of our current contract.",
+      "example_vi": "Yêu cầu này nằm ngoài phạm vi hợp đồng hiện tại của chúng ta."
+    },
+    {
+      "word": "feedback",
+      "ipa": "/ˈfiːdbæk/",
+      "meaning_vi": "phản hồi, góp ý",
+      "example": "We received positive feedback from the client yesterday.",
+      "example_vi": "Hôm qua chúng tôi nhận được phản hồi tích cực từ khách hàng."
+    },
+    {
+      "word": "proposal",
+      "ipa": "/prəˈpəʊzl/",
+      "meaning_vi": "đề xuất, bản đề nghị",
+      "example": "I will send you a proposal for the new timeline.",
+      "example_vi": "Tôi sẽ gửi bạn một đề xuất về lịch trình mới."
+    },
+    {
+      "word": "expectation",
+      "ipa": "/ˌekspekˈteɪʃn/",
+      "meaning_vi": "kỳ vọng",
+      "example": "Let's make sure we understand the client's expectations clearly.",
+      "example_vi": "Hãy chắc chắn chúng ta hiểu rõ kỳ vọng của khách hàng."
+    },
+    {
+      "word": "confirm",
+      "ipa": "/kənˈfɜːm/",
+      "meaning_vi": "xác nhận",
+      "example": "Can you confirm the meeting time for tomorrow?",
+      "example_vi": "Bạn xác nhận giờ họp cho ngày mai được không?"
+    },
+    {
+      "word": "budget",
+      "ipa": "/ˈbʌdʒɪt/",
+      "meaning_vi": "ngân sách",
+      "example": "This new feature might increase the budget a little.",
+      "example_vi": "Tính năng mới này có thể làm tăng ngân sách một chút."
+    }
+  ],
+  "listening": {
+    "title": "Client meeting about new requirements",
+    "lines": [
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Good morning. Thank you for joining the call today."
+      },
+      {
+        "speaker": "David (client)",
+        "voice": "male",
+        "text": "Good morning, Hoa. We want to discuss a new requirement for the dashboard."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Sure, please tell me more about your expectations."
+      },
+      {
+        "speaker": "David (client)",
+        "voice": "male",
+        "text": "We want to add a chart that shows sales by region."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "I see. That is outside the scope of our current contract."
+      },
+      {
+        "speaker": "David (client)",
+        "voice": "male",
+        "text": "I understand. Can you send us a proposal with the extra cost?"
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Of course. I will check with my team and confirm the budget by Friday."
+      },
+      {
+        "speaker": "David (client)",
+        "voice": "male",
+        "text": "That sounds good. We really appreciate your quick feedback."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "No problem. We are happy to help with this new feature."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does the client want to add?",
+        "options": [
+          "A login page",
+          "A chart showing sales by region",
+          "A new payment system"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why can't Hoa add the feature immediately?",
+        "options": [
+          "It is outside the scope of the contract",
+          "The client didn't explain clearly",
+          "The team is on holiday"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What will Hoa send to the client?",
+        "options": [
+          "A bug report",
+          "A proposal with the extra cost",
+          "A new contract template"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Thank you so much for joining the call today, everyone.",
+    "We want to discuss a new requirement for the dashboard feature.",
+    "That is outside the scope of our current contract, unfortunately.",
+    "I will check with my team and confirm the budget by Friday.",
+    "We are happy to help with this new feature next quarter."
+  ],
+  "track": "it"
+}
