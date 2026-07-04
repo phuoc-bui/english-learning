@@ -1,6 +1,7 @@
-export function makePack(date) {
+export function makePack(date, track = 'it') {
   return {
     date,
+    track,
     theme: 'Daily standup meeting',
     vocab: [{
       word: `blocker-${date}`,
@@ -22,11 +23,5 @@ export function makePack(date) {
       ],
     },
     shadowing: ['Yesterday I worked on the login page.'],
-    interview: [{
-      question: 'Tell me about yourself.',
-      type: 'common',
-      tips_vi: ['Nói 60-90 giây', 'Nêu kinh nghiệm liên quan nhất'],
-      sample_answer: 'I am a software developer with five years of experience...',
-    }],
   };
 }

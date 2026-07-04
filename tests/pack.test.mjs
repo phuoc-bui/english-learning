@@ -42,8 +42,22 @@ test('empty shadowing is rejected', () => {
   assert.ok(validatePack(p).some((e) => e.includes('shadowing')));
 });
 
-test('interview with bad type is rejected', () => {
+test('pack không có track vẫn hợp lệ (legacy), track lạ bị từ chối', () => {
   const p = makePack('2026-07-02');
-  p.interview[0].type = 'weird';
-  assert.ok(validatePack(p).some((e) => e.includes('type')));
+  delete p.track;
+  assert.deepEqual(validatePack(p), []);
+  p.track = 'cooking';
+  assert.ok(validatePack(p).some((e) => e.includes('track')));
+});
+
+test('requireTrack: thiếu track bị từ chối', () => {
+  const p = makePack('2026-07-02');
+  delete p.track;
+  assert.ok(validatePack(p, { requireTrack: true }).some((e) => e.includes('track')));
+});
+
+test('trường interview cũ được bỏ qua, không lỗi', () => {
+  const p = makePack('2026-07-02');
+  p.interview = [{ question: 'x', type: 'weird' }];
+  assert.deepEqual(validatePack(p), []);
 });
