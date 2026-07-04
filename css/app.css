@@ -371,3 +371,19 @@ details.acc .acc-body ul { padding-left: 18px; display: grid; gap: 6px; }
 .s-learning { background: rgba(245, 166, 35, 0.15); color: var(--amber); }
 .s-known { background: rgba(51, 201, 138, 0.15); color: var(--green); }
 .word-detail p { font-size: 13px; margin-top: 4px; }
+
+/* ============ V2: ONBOARDING + CÀI ĐẶT ============ */
+.onboard { padding-top: 24px; }
+.onboard h1 { font-family: var(--font-display); font-size: 22px; margin-bottom: 6px; }
+.ob-dots { display: flex; gap: 6px; margin-bottom: 26px; }
+.ob-dots i { height: 4px; flex: 1; border-radius: 2px; background: var(--surface2); }
+.ob-dots i.on { background: var(--accent); }
+.ob-options { display: flex; flex-direction: column; gap: 10px; margin: 18px 0 24px; }
+.ob-opt { display: flex; align-items: center; gap: 10px; text-align: left; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; color: var(--text); font-family: inherit; cursor: pointer; }
+.ob-opt.on { border-color: var(--accent); background: var(--accent-soft); }
+.ob-opt small { display: block; color: var(--muted); margin-top: 2px; }
+.ob-opt .trail { margin-left: auto; color: var(--accent-light); }
+.ob-nav { display: flex; justify-content: space-between; align-items: center; }
+.set-group { margin-bottom: 18px; }
+.set-group > b { display: block; margin-bottom: 8px; }
+.pill.wide { width: 100%; justify-content: center; margin-top: 10px; padding: 13px; }
