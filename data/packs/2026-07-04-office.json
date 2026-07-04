@@ -31,10 +31,10 @@
     ]
   },
   "shadowing": [
-    "How was your weekend? Did you do anything special?",
-    "Sorry I'm running late — please start without me.",
-    "I'm a bit swamped this week, can we catch up on Friday?",
-    "I'm going to grab a coffee, do you want anything?",
+    "How was your weekend? Did you do anything special, or just stay home?",
+    "Sorry I'm running late this morning — please start the meeting without me.",
+    "I'm a bit swamped this week, can we catch up on Friday instead?",
+    "I'm going to grab a coffee before the meeting starts, do you want anything?",
     "It's been a busy morning, but things are settling down now."
   ]
 }

@@ -31,10 +31,10 @@
     ]
   },
   "shadowing": [
-    "Could I take a day off next Monday, please?",
-    "I'll hand over my tasks before I leave.",
-    "Can you cover for me while I'm on leave?",
+    "Could I take a day off next Monday, please? It's an urgent matter.",
+    "I'll hand over my tasks to a colleague before I leave the office.",
+    "Can you cover for me while I'm on leave next week?",
     "I'm sorry for the short notice, it's an urgent matter.",
-    "My manager still needs to approve my leave request."
+    "My manager still needs to approve my leave request before I confirm anything."
   ]
 }

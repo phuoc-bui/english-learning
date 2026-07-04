@@ -31,10 +31,10 @@
     ]
   },
   "shadowing": [
-    "This invoice is now a few days overdue.",
-    "Please clear the outstanding balance by Friday.",
-    "We usually pay suppliers by bank transfer.",
-    "It takes about two days to process a payment.",
-    "Don't forget to ask for a receipt after paying."
+    "This invoice is now a few days overdue, so please check it soon.",
+    "Please clear the outstanding balance by Friday to avoid a late fee.",
+    "We usually pay suppliers by bank transfer instead of cash or cheque.",
+    "It takes about two days to process a payment after it arrives.",
+    "Don't forget to ask for a receipt after paying for the order."
   ]
 }

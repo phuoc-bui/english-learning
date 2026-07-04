@@ -31,10 +31,10 @@
     ]
   },
   "shadowing": [
-    "Is now a convenient time to talk for two minutes?",
-    "Let me introduce our product before you decide.",
-    "Could I speak to the decision-maker in your team?",
-    "I'll schedule a follow-up call for next week.",
+    "Is now a convenient time to talk for two minutes, or should I call back later?",
+    "Let me introduce our product before you decide whether it's worth your time.",
+    "Could I speak to the decision-maker in your team about this proposal?",
+    "I'll schedule a follow-up call for next week so we can go over the details.",
     "Do you have a budget in mind for this quarter?"
   ]
 }
