@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-07",
+  "track": "sales",
+  "theme": "Negotiating price and terms",
+  "vocab": [
+    {
+      "word": "negotiate",
+      "ipa": "/nɪˈɡəʊʃieɪt/",
+      "meaning_vi": "đàm phán",
+      "example": "We need to negotiate the price before signing.",
+      "example_vi": "Chúng ta cần đàm phán giá trước khi ký."
+    },
+    {
+      "word": "final price",
+      "ipa": "/ˈfaɪnl praɪs/",
+      "meaning_vi": "giá cuối cùng",
+      "example": "What is the final price for this package?",
+      "example_vi": "Giá cuối cùng cho gói này là bao nhiêu?"
+    },
+    {
+      "word": "terms and conditions",
+      "ipa": "/tɜːmz ənd kənˈdɪʃnz/",
+      "meaning_vi": "điều khoản và điều kiện",
+      "example": "Please review the terms and conditions carefully.",
+      "example_vi": "Vui lòng xem kỹ các điều khoản và điều kiện."
+    },
+    {
+      "word": "bulk discount",
+      "ipa": "/bʌlk ˈdɪskaʊnt/",
+      "meaning_vi": "giảm giá số lượng lớn",
+      "example": "We offer a bulk discount for large orders.",
+      "example_vi": "Chúng tôi có giảm giá cho đơn hàng số lượng lớn."
+    },
+    {
+      "word": "payment term",
+      "ipa": "/ˈpeɪmənt tɜːm/",
+      "meaning_vi": "điều khoản thanh toán",
+      "example": "Our standard payment term is thirty days.",
+      "example_vi": "Điều khoản thanh toán tiêu chuẩn của chúng tôi là ba mươi ngày."
+    },
+    {
+      "word": "meet halfway",
+      "ipa": "/miːt ˈhɑːfweɪ/",
+      "meaning_vi": "gặp nhau ở điểm trung gian",
+      "example": "Let's meet halfway on the price.",
+      "example_vi": "Hãy gặp nhau ở mức trung gian về giá."
+    },
+    {
+      "word": "contract",
+      "ipa": "/ˈkɒntrækt/",
+      "meaning_vi": "hợp đồng",
+      "example": "We can sign the contract next week.",
+      "example_vi": "Chúng tôi có thể ký hợp đồng vào tuần tới."
+    },
+    {
+      "word": "flexible",
+      "ipa": "/ˈfleksəbl/",
+      "meaning_vi": "linh hoạt",
+      "example": "We can be flexible on the delivery date.",
+      "example_vi": "Chúng tôi có thể linh hoạt về ngày giao hàng."
+    }
+  ],
+  "listening": {
+    "title": "Negotiating price and terms with a customer",
+    "lines": [
+      { "speaker": "Nam", "voice": "male", "text": "Thank you for meeting today. Are you ready to negotiate the price?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Yes. Your final price is a bit higher than our budget." },
+      { "speaker": "Nam", "voice": "male", "text": "I understand. Can I ask what budget you had in mind?" },
+      { "speaker": "Hoa", "voice": "female", "text": "We were hoping for a ten percent bulk discount." },
+      { "speaker": "Nam", "voice": "male", "text": "That's a lot, but let's meet halfway with a five percent discount." },
+      { "speaker": "Hoa", "voice": "female", "text": "That could work. What about the payment term?" },
+      { "speaker": "Nam", "voice": "male", "text": "Our standard payment term is thirty days, but we can be flexible for a long-term partner." },
+      { "speaker": "Hoa", "voice": "female", "text": "Good. Can you also update the terms and conditions about delivery?" },
+      { "speaker": "Nam", "voice": "male", "text": "Of course. I'll send the updated contract by tomorrow." },
+      { "speaker": "Hoa", "voice": "female", "text": "Perfect. We'll review it and sign this week." }
+    ],
+    "questions": [
+      {
+        "q": "What discount does Hoa ask for first?",
+        "options": ["Ten percent", "Fifty percent", "Five percent"],
+        "answer": 0
+      },
+      {
+        "q": "What discount do they finally agree on?",
+        "options": ["Five percent", "Ten percent", "Twenty percent"],
+        "answer": 0
+      },
+      {
+        "q": "What is Nam's standard payment term?",
+        "options": ["Thirty days", "Sixty days", "Cash only"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Are you ready to negotiate the price for this order?",
+    "Our final price includes installation and one year of support.",
+    "We can offer a bulk discount for orders over one hundred units.",
+    "Let's meet halfway and agree on a fair price today.",
+    "Please review the terms and conditions before signing the contract."
+  ]
+}

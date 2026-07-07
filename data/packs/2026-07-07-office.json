@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-07",
+  "track": "office",
+  "theme": "Reporting to your boss",
+  "vocab": [
+    {
+      "word": "update",
+      "ipa": "/ˈʌpdeɪt/",
+      "meaning_vi": "thông tin cập nhật",
+      "example": "Let me give you a quick update on the project.",
+      "example_vi": "Để tôi cập nhật nhanh cho sếp về dự án."
+    },
+    {
+      "word": "on track",
+      "ipa": "/ɒn træk/",
+      "meaning_vi": "đúng tiến độ",
+      "example": "The project is on track to finish this week.",
+      "example_vi": "Dự án đang đúng tiến độ để hoàn thành trong tuần này."
+    },
+    {
+      "word": "behind schedule",
+      "ipa": "/bɪˈhaɪnd ˈskedʒuːl/",
+      "meaning_vi": "chậm tiến độ",
+      "example": "One task is a bit behind schedule this week.",
+      "example_vi": "Một công việc đang hơi chậm tiến độ tuần này."
+    },
+    {
+      "word": "milestone",
+      "ipa": "/ˈmaɪlstəʊn/",
+      "meaning_vi": "mốc quan trọng",
+      "example": "We reached the testing milestone yesterday.",
+      "example_vi": "Chúng tôi đã đạt mốc kiểm thử vào hôm qua."
+    },
+    {
+      "word": "summarize",
+      "ipa": "/ˈsʌməraɪz/",
+      "meaning_vi": "tóm tắt",
+      "example": "Can you summarize the key points for me?",
+      "example_vi": "Bạn có thể tóm tắt các điểm chính cho tôi không?"
+    },
+    {
+      "word": "escalate",
+      "ipa": "/ˈeskəleɪt/",
+      "meaning_vi": "báo cáo lên cấp cao hơn",
+      "example": "We may need to escalate this issue to management.",
+      "example_vi": "Chúng ta có thể cần báo cáo vấn đề này lên cấp trên."
+    },
+    {
+      "word": "key point",
+      "ipa": "/kiː pɔɪnt/",
+      "meaning_vi": "điểm chính",
+      "example": "The key point is we need one more day for testing.",
+      "example_vi": "Điểm chính là chúng tôi cần thêm một ngày để kiểm thử."
+    },
+    {
+      "word": "next step",
+      "ipa": "/nekst step/",
+      "meaning_vi": "bước tiếp theo",
+      "example": "The next step is to follow up with that team.",
+      "example_vi": "Bước tiếp theo là theo dõi với đội đó."
+    }
+  ],
+  "listening": {
+    "title": "Reporting progress to your boss",
+    "lines": [
+      { "speaker": "Duc (manager)", "voice": "male", "text": "Linh, can you give me a quick update on the project?" },
+      { "speaker": "Linh", "voice": "female", "text": "Sure. Overall, the project is on track to finish by Friday." },
+      { "speaker": "Duc (manager)", "voice": "male", "text": "Great. Any parts that are behind schedule?" },
+      { "speaker": "Linh", "voice": "female", "text": "One task is behind schedule because of a delayed API from another team." },
+      { "speaker": "Duc (manager)", "voice": "male", "text": "Okay. Did we reach any milestones this week?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yes, we reached the testing milestone yesterday." },
+      { "speaker": "Duc (manager)", "voice": "male", "text": "Good. Can you summarize the key points for me?" },
+      { "speaker": "Linh", "voice": "female", "text": "The key point is we need one more day for testing before release." },
+      { "speaker": "Duc (manager)", "voice": "male", "text": "Should we escalate the API delay?" },
+      { "speaker": "Linh", "voice": "female", "text": "I think so, if it's not fixed by tomorrow." },
+      { "speaker": "Duc (manager)", "voice": "male", "text": "Alright. What's the next step then?" },
+      { "speaker": "Linh", "voice": "female", "text": "The next step is to follow up with that team this afternoon." }
+    ],
+    "questions": [
+      {
+        "q": "What did Linh say about the overall project status?",
+        "options": ["It is on track to finish by Friday", "It is already finished", "It is cancelled"],
+        "answer": 0
+      },
+      {
+        "q": "Why is one task behind schedule?",
+        "options": ["Because of a delayed API from another team", "Because of a broken laptop", "Because of a public holiday"],
+        "answer": 0
+      },
+      {
+        "q": "What is the next step Linh mentions?",
+        "options": ["Follow up with the other team this afternoon", "Take a day off", "Escalate to the CEO immediately"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Let me give you a quick update on the current project status.",
+    "Overall, the project is on track to finish by the end of this week.",
+    "One task is a bit behind schedule because of a delayed API.",
+    "We finally reached an important milestone in testing yesterday afternoon.",
+    "We should escalate this issue to management before it gets worse."
+  ]
+}

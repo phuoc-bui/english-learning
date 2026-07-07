@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-07",
+  "track": "interview",
+  "theme": "Handling conflict in a team",
+  "vocab": [
+    {
+      "word": "conflict",
+      "ipa": "/ˈkɒnflɪkt/",
+      "meaning_vi": "xung đột",
+      "example": "I once had a conflict with a teammate about the plan.",
+      "example_vi": "Tôi từng có xung đột với một đồng nghiệp về kế hoạch."
+    },
+    {
+      "word": "disagreement",
+      "ipa": "/ˌdɪsəˈɡriːmənt/",
+      "meaning_vi": "bất đồng",
+      "example": "We had a disagreement about the project deadline.",
+      "example_vi": "Chúng tôi bất đồng về hạn chót của dự án."
+    },
+    {
+      "word": "point of view",
+      "ipa": "/pɔɪnt əv vjuː/",
+      "meaning_vi": "quan điểm",
+      "example": "I tried to understand his point of view first.",
+      "example_vi": "Tôi đã cố hiểu quan điểm của anh ấy trước."
+    },
+    {
+      "word": "compromise",
+      "ipa": "/ˈkɒmprəmaɪz/",
+      "meaning_vi": "sự thoả hiệp",
+      "example": "We reached a compromise that worked for both of us.",
+      "example_vi": "Chúng tôi đạt được một thoả hiệp phù hợp cho cả hai."
+    },
+    {
+      "word": "calm down",
+      "ipa": "/kɑːm daʊn/",
+      "meaning_vi": "bình tĩnh lại",
+      "example": "I asked everyone to calm down before we continued.",
+      "example_vi": "Tôi đã yêu cầu mọi người bình tĩnh lại trước khi tiếp tục."
+    },
+    {
+      "word": "resolve",
+      "ipa": "/rɪˈzɒlv/",
+      "meaning_vi": "giải quyết",
+      "example": "We resolved the conflict within one meeting.",
+      "example_vi": "Chúng tôi đã giải quyết xung đột chỉ trong một buổi họp."
+    },
+    {
+      "word": "active listening",
+      "ipa": "/ˈæktɪv ˈlɪsnɪŋ/",
+      "meaning_vi": "lắng nghe chủ động",
+      "example": "Active listening helped me understand the real issue.",
+      "example_vi": "Lắng nghe chủ động giúp tôi hiểu được vấn đề thực sự."
+    },
+    {
+      "word": "mutual respect",
+      "ipa": "/ˈmjuːtʃuəl rɪˈspekt/",
+      "meaning_vi": "sự tôn trọng lẫn nhau",
+      "example": "We solved it with mutual respect and open communication.",
+      "example_vi": "Chúng tôi giải quyết bằng sự tôn trọng lẫn nhau và giao tiếp cởi mở."
+    }
+  ],
+  "listening": {
+    "title": "Interview: handling conflict in a team",
+    "lines": [
+      { "speaker": "Interviewer", "voice": "male", "text": "Linh, can you tell me about a time you had a conflict with a colleague?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yes, last year I had a disagreement with a teammate about how to design a feature." },
+      { "speaker": "Interviewer", "voice": "male", "text": "What was the disagreement about?" },
+      { "speaker": "Linh", "voice": "female", "text": "We had different points of view on the user interface, and it caused some tension." },
+      { "speaker": "Interviewer", "voice": "male", "text": "How did you resolve it?" },
+      { "speaker": "Linh", "voice": "female", "text": "I asked him to calm down, and we used active listening to understand each other." },
+      { "speaker": "Interviewer", "voice": "male", "text": "Did you reach an agreement?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yes, we found a compromise that combined both of our ideas." },
+      { "speaker": "Interviewer", "voice": "male", "text": "What did you learn from that experience?" },
+      { "speaker": "Linh", "voice": "female", "text": "I learned that conflicts can be solved quickly with mutual respect and open communication." }
+    ],
+    "questions": [
+      {
+        "q": "What was Linh's disagreement about?",
+        "options": ["The user interface design", "The salary", "The office location"],
+        "answer": 0
+      },
+      {
+        "q": "What did Linh do to resolve the conflict?",
+        "options": ["Used active listening and stayed calm", "Ignored the teammate", "Complained to the manager immediately"],
+        "answer": 0
+      },
+      {
+        "q": "What did Linh learn from the experience?",
+        "options": ["Conflicts can be solved with mutual respect", "Conflicts should always be avoided", "Teamwork is not important"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I once had a disagreement with a teammate about the design.",
+    "We had different points of view on the user interface.",
+    "I asked everyone to calm down and listen carefully to each other.",
+    "We found a compromise that combined both of our ideas.",
+    "I learned that conflicts can be solved with mutual respect."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-07",
+  "track": "finance",
+  "theme": "Working with auditors",
+  "vocab": [
+    {
+      "word": "auditor",
+      "ipa": "/ˈɔːdɪtə/",
+      "meaning_vi": "kiểm toán viên",
+      "example": "The auditor will visit our office next Monday.",
+      "example_vi": "Kiểm toán viên sẽ đến văn phòng chúng tôi vào thứ Hai tới."
+    },
+    {
+      "word": "financial statement",
+      "ipa": "/faɪˈnænʃl ˈsteɪtmənt/",
+      "meaning_vi": "báo cáo tài chính",
+      "example": "Please prepare the financial statements for review.",
+      "example_vi": "Vui lòng chuẩn bị báo cáo tài chính để xem xét."
+    },
+    {
+      "word": "supporting document",
+      "ipa": "/səˈpɔːtɪŋ ˈdɒkjumənt/",
+      "meaning_vi": "chứng từ hỗ trợ",
+      "example": "We need supporting documents for every transaction.",
+      "example_vi": "Chúng tôi cần chứng từ hỗ trợ cho mỗi giao dịch."
+    },
+    {
+      "word": "discrepancy",
+      "ipa": "/dɪˈskrepənsi/",
+      "meaning_vi": "sự chênh lệch",
+      "example": "The auditor found a discrepancy in the accounts.",
+      "example_vi": "Kiểm toán viên phát hiện sự chênh lệch trong sổ sách."
+    },
+    {
+      "word": "compliance",
+      "ipa": "/kəmˈplaɪəns/",
+      "meaning_vi": "sự tuân thủ",
+      "example": "Compliance with tax regulations is very important.",
+      "example_vi": "Tuân thủ quy định thuế là rất quan trọng."
+    },
+    {
+      "word": "sample",
+      "ipa": "/ˈsɑːmpl/",
+      "meaning_vi": "lấy mẫu kiểm tra",
+      "example": "The auditor will sample a few invoices.",
+      "example_vi": "Kiểm toán viên sẽ lấy mẫu một vài hóa đơn."
+    },
+    {
+      "word": "audit trail",
+      "ipa": "/ˈɔːdɪt treɪl/",
+      "meaning_vi": "dấu vết kiểm toán",
+      "example": "We keep a clear audit trail for every payment.",
+      "example_vi": "Chúng tôi lưu dấu vết kiểm toán rõ ràng cho mỗi khoản thanh toán."
+    },
+    {
+      "word": "sign off",
+      "ipa": "/saɪn ɒf/",
+      "meaning_vi": "ký duyệt cuối cùng",
+      "example": "The auditor will sign off once everything matches.",
+      "example_vi": "Kiểm toán viên sẽ ký duyệt khi mọi thứ khớp nhau."
+    }
+  ],
+  "listening": {
+    "title": "Working with an auditor",
+    "lines": [
+      { "speaker": "Linh (auditor)", "voice": "female", "text": "Good morning, Minh. I'm the auditor for this year's review." },
+      { "speaker": "Minh", "voice": "male", "text": "Good morning. I've prepared the financial statements you requested." },
+      { "speaker": "Linh (auditor)", "voice": "female", "text": "Thank you. Do you also have the supporting documents for these invoices?" },
+      { "speaker": "Minh", "voice": "male", "text": "Yes, they're all in this folder, organized by month." },
+      { "speaker": "Linh (auditor)", "voice": "female", "text": "I noticed a small discrepancy between the invoice and the bank record." },
+      { "speaker": "Minh", "voice": "male", "text": "Let me check. That might be a timing difference from last month." },
+      { "speaker": "Linh (auditor)", "voice": "female", "text": "Okay, please send me proof once you confirm it." },
+      { "speaker": "Minh", "voice": "male", "text": "Sure. We take compliance very seriously, so I'll check today." },
+      { "speaker": "Linh (auditor)", "voice": "female", "text": "I'll also sample a few more transactions from last quarter." },
+      { "speaker": "Minh", "voice": "male", "text": "No problem. I'll make sure the audit trail is clear for you." }
+    ],
+    "questions": [
+      {
+        "q": "What did Linh find?",
+        "options": ["A discrepancy between the invoice and the bank record", "A missing signature", "A wrong company name"],
+        "answer": 0
+      },
+      {
+        "q": "What will Minh do about the discrepancy?",
+        "options": ["Check it and send proof", "Ignore it", "Delete the invoice"],
+        "answer": 0
+      },
+      {
+        "q": "What will Linh do next?",
+        "options": ["Sample a few more transactions", "Sign off immediately", "Leave the office"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "The auditor will visit our office to review the accounts.",
+    "Please prepare all the financial statements before the audit begins next week.",
+    "We need supporting documents for every transaction we made this quarter.",
+    "The auditor found a small discrepancy in last month's report.",
+    "We keep a clear audit trail for every payment we process."
+  ]
+}
