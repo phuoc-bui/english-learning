@@ -1,0 +1,164 @@
+{
+  "date": "2026-07-08",
+  "track": "sales",
+  "theme": "Follow-up email after meeting a client",
+  "vocab": [
+    {
+      "word": "recap",
+      "ipa": "/ˈriːkæp/",
+      "meaning_vi": "tóm tắt lại",
+      "example": "Let me recap what we agreed on in the meeting.",
+      "example_vi": "Để tôi tóm tắt lại những gì chúng ta đã thống nhất trong cuộc họp."
+    },
+    {
+      "word": "attach",
+      "ipa": "/əˈtætʃ/",
+      "meaning_vi": "đính kèm",
+      "example": "I've attached the proposal document to this email.",
+      "example_vi": "Tôi đã đính kèm bản đề xuất vào email này."
+    },
+    {
+      "word": "proposal",
+      "ipa": "/prəˈpoʊzl/",
+      "meaning_vi": "bản đề xuất",
+      "example": "Please take a look at the proposal I sent yesterday.",
+      "example_vi": "Vui lòng xem qua bản đề xuất tôi gửi hôm qua."
+    },
+    {
+      "word": "next steps",
+      "ipa": "/nekst steps/",
+      "meaning_vi": "các bước tiếp theo",
+      "example": "Here are the next steps we discussed today.",
+      "example_vi": "Đây là các bước tiếp theo chúng ta đã bàn hôm nay."
+    },
+    {
+      "word": "touch base",
+      "ipa": "/tʌtʃ beɪs/",
+      "meaning_vi": "liên hệ lại",
+      "example": "I'll touch base with you again next week.",
+      "example_vi": "Tôi sẽ liên hệ lại với bạn vào tuần tới."
+    },
+    {
+      "word": "respond",
+      "ipa": "/rɪˈspɑːnd/",
+      "meaning_vi": "phản hồi",
+      "example": "Please respond to my email by Friday.",
+      "example_vi": "Vui lòng phản hồi email của tôi trước thứ Sáu."
+    },
+    {
+      "word": "clarify",
+      "ipa": "/ˈklærəfaɪ/",
+      "meaning_vi": "làm rõ",
+      "example": "Could you clarify one point from our last call?",
+      "example_vi": "Bạn có thể làm rõ giúp tôi một điểm trong cuộc gọi trước không?"
+    },
+    {
+      "word": "timeline",
+      "ipa": "/ˈtaɪmlaɪn/",
+      "meaning_vi": "mốc thời gian",
+      "example": "Can we confirm the delivery timeline this week?",
+      "example_vi": "Chúng ta có thể xác nhận mốc thời gian giao hàng trong tuần này không?"
+    }
+  ],
+  "listening": {
+    "title": "Following up after a client meeting",
+    "lines": [
+      {
+        "speaker": "Nam (sales rep)",
+        "voice": "male",
+        "text": "Hi Ms. Lan, thanks again for meeting with us yesterday."
+      },
+      {
+        "speaker": "Lan (client)",
+        "voice": "female",
+        "text": "Of course, Nam. It was a great meeting."
+      },
+      {
+        "speaker": "Nam (sales rep)",
+        "voice": "male",
+        "text": "I want to recap what we discussed in our meeting."
+      },
+      {
+        "speaker": "Lan (client)",
+        "voice": "female",
+        "text": "Sure, please go ahead."
+      },
+      {
+        "speaker": "Nam (sales rep)",
+        "voice": "male",
+        "text": "I've attached the proposal to the email I just sent."
+      },
+      {
+        "speaker": "Lan (client)",
+        "voice": "female",
+        "text": "Great, I'll review the proposal this afternoon."
+      },
+      {
+        "speaker": "Nam (sales rep)",
+        "voice": "male",
+        "text": "The email also includes the next steps we agreed on."
+      },
+      {
+        "speaker": "Lan (client)",
+        "voice": "female",
+        "text": "Can you clarify one detail about the delivery timeline?"
+      },
+      {
+        "speaker": "Nam (sales rep)",
+        "voice": "male",
+        "text": "Of course, let me clarify that part right now."
+      },
+      {
+        "speaker": "Lan (client)",
+        "voice": "female",
+        "text": "Thanks, that helps. Please respond if anything changes."
+      },
+      {
+        "speaker": "Nam (sales rep)",
+        "voice": "male",
+        "text": "I will. I'll touch base with you again next week."
+      },
+      {
+        "speaker": "Lan (client)",
+        "voice": "female",
+        "text": "Perfect, talk to you then."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What did Nam send along with the email?",
+        "options": [
+          "A proposal",
+          "An invoice",
+          "A contract"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Lan ask Nam to clarify?",
+        "options": [
+          "The delivery timeline",
+          "The price",
+          "The company name"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "When will Nam touch base with Lan again?",
+        "options": [
+          "Next week",
+          "Tomorrow",
+          "Next month"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Let me recap what we discussed in yesterday's meeting together.",
+    "I've attached the full proposal to the email I sent.",
+    "Here are the next steps that we both agreed on.",
+    "I'll touch base with you again sometime early next week.",
+    "Please respond by the end of this week if possible."
+  ]
+}

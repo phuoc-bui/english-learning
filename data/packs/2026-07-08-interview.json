@@ -1,0 +1,164 @@
+{
+  "date": "2026-07-08",
+  "track": "interview",
+  "theme": "Reasons for leaving a job",
+  "vocab": [
+    {
+      "word": "resign",
+      "ipa": "/rɪˈzaɪn/",
+      "meaning_vi": "xin nghỉ việc",
+      "example": "I decided to resign after three good years there.",
+      "example_vi": "Tôi quyết định xin nghỉ việc sau ba năm gắn bó ở đó."
+    },
+    {
+      "word": "growth opportunity",
+      "ipa": "/ɡroʊθ ˌɑːpərˈtuːnəti/",
+      "meaning_vi": "cơ hội phát triển",
+      "example": "I'm looking for a role with more growth opportunities.",
+      "example_vi": "Tôi đang tìm một vị trí có nhiều cơ hội phát triển hơn."
+    },
+    {
+      "word": "career change",
+      "ipa": "/kəˈrɪr tʃeɪndʒ/",
+      "meaning_vi": "chuyển hướng nghề nghiệp",
+      "example": "This move felt like the right career change for me.",
+      "example_vi": "Bước chuyển này giống như một sự thay đổi nghề nghiệp đúng đắn với tôi."
+    },
+    {
+      "word": "burnout",
+      "ipa": "/ˈbɜːrnaʊt/",
+      "meaning_vi": "kiệt sức vì công việc",
+      "example": "I left my last job because of burnout.",
+      "example_vi": "Tôi nghỉ công việc trước vì kiệt sức."
+    },
+    {
+      "word": "stagnant",
+      "ipa": "/ˈstæɡnənt/",
+      "meaning_vi": "trì trệ, không phát triển",
+      "example": "I felt my career was becoming stagnant there.",
+      "example_vi": "Tôi cảm thấy sự nghiệp của mình đang trì trệ ở đó."
+    },
+    {
+      "word": "relocate",
+      "ipa": "/ˈriːloʊkeɪt/",
+      "meaning_vi": "chuyển chỗ ở, nơi làm việc",
+      "example": "I'm willing to relocate for the right opportunity.",
+      "example_vi": "Tôi sẵn sàng chuyển nơi làm việc nếu có cơ hội phù hợp."
+    },
+    {
+      "word": "amicable",
+      "ipa": "/ˈæmɪkəbl/",
+      "meaning_vi": "êm đẹp, thân thiện",
+      "example": "We parted on amicable terms with my manager.",
+      "example_vi": "Tôi và quản lý chia tay trong sự êm đẹp."
+    },
+    {
+      "word": "notice period",
+      "ipa": "/ˈnoʊtɪs ˈpɪriəd/",
+      "meaning_vi": "thời gian báo trước nghỉ việc",
+      "example": "My notice period is one month at my current job.",
+      "example_vi": "Thời gian báo trước nghỉ việc của tôi là một tháng ở công ty hiện tại."
+    }
+  ],
+  "listening": {
+    "title": "Interview: reasons for leaving your job",
+    "lines": [
+      {
+        "speaker": "Interviewer",
+        "voice": "male",
+        "text": "Linh, why do you want to resign from your current job?"
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "I've decided to resign because I want more growth opportunities."
+      },
+      {
+        "speaker": "Interviewer",
+        "voice": "male",
+        "text": "Is this also related to a career change?"
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "Yes, I also felt some burnout in my last role."
+      },
+      {
+        "speaker": "Interviewer",
+        "voice": "male",
+        "text": "Did you feel your skills were stagnant there?"
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "Yes, the role never changed, so I felt quite stagnant."
+      },
+      {
+        "speaker": "Interviewer",
+        "voice": "male",
+        "text": "Would you need to relocate for this new position?"
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "No, I wouldn't need to relocate since it's nearby."
+      },
+      {
+        "speaker": "Interviewer",
+        "voice": "male",
+        "text": "Did you leave your last company on good terms?"
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "Yes, it was an amicable departure with my manager."
+      },
+      {
+        "speaker": "Interviewer",
+        "voice": "male",
+        "text": "What is your notice period at your current job?"
+      },
+      {
+        "speaker": "Linh",
+        "voice": "female",
+        "text": "My notice period is one month, so I can start soon."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why does Linh want to resign?",
+        "options": [
+          "She wants more growth opportunities",
+          "She wants a higher salary only",
+          "She was asked to leave"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Would Linh need to relocate for the new position?",
+        "options": [
+          "No, it's nearby",
+          "Yes, to another country",
+          "Yes, to another city"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What is Linh's notice period?",
+        "options": [
+          "One month",
+          "One week",
+          "Three months"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I decided to resign because I wanted more growth opportunities.",
+    "This felt like the right career change for my future.",
+    "I left my last job mainly because of constant burnout.",
+    "I felt my skills were becoming stagnant in that role.",
+    "We left on amicable terms after my notice period ended."
+  ]
+}

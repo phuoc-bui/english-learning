@@ -1,0 +1,164 @@
+{
+  "date": "2026-07-08",
+  "track": "finance",
+  "theme": "Expense claims and reimbursement",
+  "vocab": [
+    {
+      "word": "expense claim",
+      "ipa": "/ɪkˈspens kleɪm/",
+      "meaning_vi": "đề nghị hoàn ứng chi phí",
+      "example": "Please submit your expense claim before the end of the month.",
+      "example_vi": "Vui lòng nộp đề nghị hoàn ứng chi phí trước cuối tháng."
+    },
+    {
+      "word": "proof of purchase",
+      "ipa": "/pruːf əv ˈpɜːrtʃəs/",
+      "meaning_vi": "bằng chứng mua hàng",
+      "example": "You need proof of purchase to get reimbursed.",
+      "example_vi": "Bạn cần bằng chứng mua hàng để được hoàn tiền."
+    },
+    {
+      "word": "petty cash",
+      "ipa": "/ˈpeti kæʃ/",
+      "meaning_vi": "quỹ tiền mặt nhỏ",
+      "example": "We use petty cash for small office expenses.",
+      "example_vi": "Chúng tôi dùng quỹ tiền mặt nhỏ cho các chi phí văn phòng nhỏ."
+    },
+    {
+      "word": "out-of-pocket",
+      "ipa": "/aʊt əv ˈpɑːkɪt/",
+      "meaning_vi": "tự chi trả trước",
+      "example": "I paid for the client dinner out-of-pocket.",
+      "example_vi": "Tôi đã tự chi trả trước bữa tối với khách hàng."
+    },
+    {
+      "word": "submit",
+      "ipa": "/səbˈmɪt/",
+      "meaning_vi": "nộp (đơn, hồ sơ)",
+      "example": "Please submit your form through the finance portal.",
+      "example_vi": "Vui lòng nộp biểu mẫu qua cổng thông tin tài chính."
+    },
+    {
+      "word": "mileage",
+      "ipa": "/ˈmaɪlɪdʒ/",
+      "meaning_vi": "chi phí đi lại theo km",
+      "example": "You can claim mileage if you use your own car.",
+      "example_vi": "Bạn có thể yêu cầu hoàn chi phí đi lại nếu dùng xe riêng."
+    },
+    {
+      "word": "reimbursement policy",
+      "ipa": "/ˌriːɪmˈbɜːrsmənt ˈpɑːləsi/",
+      "meaning_vi": "chính sách hoàn ứng",
+      "example": "Check the reimbursement policy before your business trip.",
+      "example_vi": "Kiểm tra chính sách hoàn ứng trước chuyến công tác của bạn."
+    },
+    {
+      "word": "reimburse",
+      "ipa": "/ˌriːɪmˈbɜːrs/",
+      "meaning_vi": "hoàn tiền lại",
+      "example": "The company will reimburse all approved travel expenses.",
+      "example_vi": "Công ty sẽ hoàn lại tất cả chi phí đi lại đã được duyệt."
+    }
+  ],
+  "listening": {
+    "title": "Submitting an expense claim",
+    "lines": [
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Hi Duc, I need to submit an expense claim for my trip."
+      },
+      {
+        "speaker": "Duc (finance)",
+        "voice": "male",
+        "text": "Sure, do you have proof of purchase for everything?"
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Yes, I kept every proof of purchase safely."
+      },
+      {
+        "speaker": "Duc (finance)",
+        "voice": "male",
+        "text": "Good. Did you use petty cash or your own money?"
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "I paid out-of-pocket for the taxi and hotel."
+      },
+      {
+        "speaker": "Duc (finance)",
+        "voice": "male",
+        "text": "Okay, please submit the form through the finance portal."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Should I include mileage for using my own car?"
+      },
+      {
+        "speaker": "Duc (finance)",
+        "voice": "male",
+        "text": "Yes, please include mileage if you drove for work."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "How long does the reimbursement usually take?"
+      },
+      {
+        "speaker": "Duc (finance)",
+        "voice": "male",
+        "text": "Check the reimbursement policy, it usually takes one week."
+      },
+      {
+        "speaker": "Hoa",
+        "voice": "female",
+        "text": "Great, I'll submit my expense claim today then."
+      },
+      {
+        "speaker": "Duc (finance)",
+        "voice": "male",
+        "text": "Perfect, we'll reimburse you as soon as it's approved."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What did Hoa pay for out-of-pocket?",
+        "options": [
+          "The taxi and hotel",
+          "The flight ticket",
+          "The office supplies"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Where should Hoa submit the expense form?",
+        "options": [
+          "Through the finance portal",
+          "By email to her manager",
+          "In a paper form"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How long does reimbursement usually take?",
+        "options": [
+          "About one week",
+          "One day",
+          "One month"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I need to submit an expense claim for my business trip.",
+    "Please keep proof of purchase for everything that you buy.",
+    "Last week I paid out-of-pocket for the taxi and hotel.",
+    "Don't forget to claim mileage if you drove your own car.",
+    "Please check the reimbursement policy before you submit your claim."
+  ]
+}

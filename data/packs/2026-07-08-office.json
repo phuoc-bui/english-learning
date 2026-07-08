@@ -1,0 +1,164 @@
+{
+  "date": "2026-07-08",
+  "track": "office",
+  "theme": "Department meeting",
+  "vocab": [
+    {
+      "word": "agenda",
+      "ipa": "/əˈdʒendə/",
+      "meaning_vi": "chương trình họp",
+      "example": "Let's go through today's agenda before the meeting starts.",
+      "example_vi": "Hãy cùng xem qua chương trình họp trước khi bắt đầu."
+    },
+    {
+      "word": "minutes",
+      "ipa": "/ˈmɪnɪts/",
+      "meaning_vi": "biên bản họp",
+      "example": "Can you take the minutes for today's meeting?",
+      "example_vi": "Bạn có thể ghi biên bản cho cuộc họp hôm nay không?"
+    },
+    {
+      "word": "action item",
+      "ipa": "/ˈækʃn ˈaɪtəm/",
+      "meaning_vi": "việc cần làm sau họp",
+      "example": "Every action item needs a clear owner and deadline.",
+      "example_vi": "Mỗi việc cần làm sau họp cần có người phụ trách và hạn rõ ràng."
+    },
+    {
+      "word": "raise a point",
+      "ipa": "/reɪz ə pɔɪnt/",
+      "meaning_vi": "nêu ý kiến",
+      "example": "I'd like to raise a point about the new schedule.",
+      "example_vi": "Tôi muốn nêu ý kiến về lịch trình mới."
+    },
+    {
+      "word": "department",
+      "ipa": "/dɪˈpɑːrtmənt/",
+      "meaning_vi": "phòng ban",
+      "example": "Our department meets every Monday morning.",
+      "example_vi": "Phòng ban của chúng tôi họp vào mỗi sáng thứ Hai."
+    },
+    {
+      "word": "headcount",
+      "ipa": "/ˈhedkaʊnt/",
+      "meaning_vi": "số lượng nhân sự",
+      "example": "We need more headcount to finish this project on time.",
+      "example_vi": "Chúng tôi cần thêm nhân sự để hoàn thành dự án đúng hạn."
+    },
+    {
+      "word": "priorities",
+      "ipa": "/praɪˈɒrətiz/",
+      "meaning_vi": "các ưu tiên",
+      "example": "Let's set our priorities for this quarter first.",
+      "example_vi": "Hãy xác định các ưu tiên cho quý này trước đã."
+    },
+    {
+      "word": "wrap up",
+      "ipa": "/ræp ʌp/",
+      "meaning_vi": "kết thúc, tổng kết",
+      "example": "Let's wrap up the meeting in the next five minutes.",
+      "example_vi": "Hãy kết thúc cuộc họp trong năm phút tới."
+    }
+  ],
+  "listening": {
+    "title": "A weekly department meeting",
+    "lines": [
+      {
+        "speaker": "Minh (team lead)",
+        "voice": "male",
+        "text": "Good morning everyone. Let's go through today's agenda first."
+      },
+      {
+        "speaker": "Trang",
+        "voice": "female",
+        "text": "Sure, I have a few items I'd like to raise a point about."
+      },
+      {
+        "speaker": "Minh (team lead)",
+        "voice": "male",
+        "text": "Great, go ahead whenever you're ready."
+      },
+      {
+        "speaker": "Trang",
+        "voice": "female",
+        "text": "First, our department needs more headcount for the new project."
+      },
+      {
+        "speaker": "Minh (team lead)",
+        "voice": "male",
+        "text": "I'll check with HR about the headcount request this week."
+      },
+      {
+        "speaker": "Trang",
+        "voice": "female",
+        "text": "Thanks. Second, can we set clearer priorities for this quarter?"
+      },
+      {
+        "speaker": "Minh (team lead)",
+        "voice": "male",
+        "text": "Good point. Let's rank our top three priorities together now."
+      },
+      {
+        "speaker": "Trang",
+        "voice": "female",
+        "text": "Can someone take the minutes for this meeting today?"
+      },
+      {
+        "speaker": "Minh (team lead)",
+        "voice": "male",
+        "text": "I'll do it, and I'll list every action item clearly."
+      },
+      {
+        "speaker": "Trang",
+        "voice": "female",
+        "text": "Perfect. Each action item should have a clear owner."
+      },
+      {
+        "speaker": "Minh (team lead)",
+        "voice": "male",
+        "text": "Agreed. Let's wrap up the meeting in five more minutes."
+      },
+      {
+        "speaker": "Trang",
+        "voice": "female",
+        "text": "Sounds good, thanks everyone for a productive meeting."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is the first item Trang raises?",
+        "options": [
+          "The department needs more headcount",
+          "The office needs new chairs",
+          "The meeting should end early"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Who will take the minutes for the meeting?",
+        "options": [
+          "Minh",
+          "Trang",
+          "HR"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What do they do in the last five minutes?",
+        "options": [
+          "Wrap up the meeting",
+          "Start a new project",
+          "Take a break"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Let's go through today's agenda before we start the meeting.",
+    "Can you please take the minutes for this whole meeting today?",
+    "Each action item from this meeting needs a clear owner.",
+    "I'd like to raise a point about our current project timeline.",
+    "Let's set our top priorities and wrap up the meeting soon."
+  ]
+}
