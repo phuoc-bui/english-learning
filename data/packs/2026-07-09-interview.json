@@ -1,0 +1,154 @@
+{
+  "date": "2026-07-09",
+  "track": "interview",
+  "theme": "Career goals for the next 3-5 years",
+  "vocab": [
+    {
+      "word": "long-term goal",
+      "ipa": "/lɔːŋ tɜːrm ɡoʊl/",
+      "meaning_vi": "mục tiêu dài hạn",
+      "example": "My long-term goal is to become a technical lead.",
+      "example_vi": "Mục tiêu dài hạn của tôi là trở thành một technical lead."
+    },
+    {
+      "word": "career goal",
+      "ipa": "/kəˈrɪr ɡoʊl/",
+      "meaning_vi": "mục tiêu nghề nghiệp",
+      "example": "My main career goal is to grow into management.",
+      "example_vi": "Mục tiêu nghề nghiệp chính của tôi là phát triển lên vai trò quản lý."
+    },
+    {
+      "word": "leadership role",
+      "ipa": "/ˈliːdərʃɪp roʊl/",
+      "meaning_vi": "vai trò lãnh đạo",
+      "example": "In five years, I hope to take on a leadership role.",
+      "example_vi": "Trong năm năm tới, tôi hy vọng sẽ đảm nhận một vai trò lãnh đạo."
+    },
+    {
+      "word": "skill set",
+      "ipa": "/skɪl set/",
+      "meaning_vi": "bộ kỹ năng",
+      "example": "I want to broaden my skill set in project management.",
+      "example_vi": "Tôi muốn mở rộng bộ kỹ năng của mình trong quản lý dự án."
+    },
+    {
+      "word": "professional development",
+      "ipa": "/prəˈfeʃənl dɪˈveləpmənt/",
+      "meaning_vi": "phát triển chuyên môn",
+      "example": "This company offers great professional development opportunities.",
+      "example_vi": "Công ty này mang lại nhiều cơ hội phát triển chuyên môn tốt."
+    },
+    {
+      "word": "five-year plan",
+      "ipa": "/faɪv jɪr plæn/",
+      "meaning_vi": "kế hoạch năm năm",
+      "example": "My five-year plan includes getting a project management certificate.",
+      "example_vi": "Kế hoạch năm năm của tôi bao gồm việc lấy chứng chỉ quản lý dự án."
+    },
+    {
+      "word": "aspire to",
+      "ipa": "/əˈspaɪər tuː/",
+      "meaning_vi": "khao khát, mong muốn đạt được",
+      "example": "I aspire to lead a whole engineering team someday.",
+      "example_vi": "Tôi khao khát được dẫn dắt cả một đội kỹ thuật vào một ngày nào đó."
+    },
+    {
+      "word": "take on more responsibility",
+      "ipa": "/teɪk ɒn mɔːr rɪˌspɒnsəˈbɪləti/",
+      "meaning_vi": "đảm nhận thêm trách nhiệm",
+      "example": "I'd like to take on more responsibility over time.",
+      "example_vi": "Tôi muốn đảm nhận thêm trách nhiệm theo thời gian."
+    }
+  ],
+  "listening": {
+    "title": "Interview: career goals for the next five years",
+    "lines": [
+      {
+        "speaker": "Interviewer",
+        "voice": "male",
+        "text": "Mai, where do you see yourself in five years?"
+      },
+      {
+        "speaker": "Mai",
+        "voice": "female",
+        "text": "My long-term goal is to grow into a leadership role."
+      },
+      {
+        "speaker": "Interviewer",
+        "voice": "male",
+        "text": "That's great. What is your main career goal here?"
+      },
+      {
+        "speaker": "Mai",
+        "voice": "female",
+        "text": "My career goal is to lead a small engineering team."
+      },
+      {
+        "speaker": "Interviewer",
+        "voice": "male",
+        "text": "How do you plan to build your skill set?"
+      },
+      {
+        "speaker": "Mai",
+        "voice": "female",
+        "text": "I plan to join professional development courses every year."
+      },
+      {
+        "speaker": "Interviewer",
+        "voice": "male",
+        "text": "Do you have a clear five-year plan in mind?"
+      },
+      {
+        "speaker": "Mai",
+        "voice": "female",
+        "text": "Yes, my five-year plan includes a project management certificate."
+      },
+      {
+        "speaker": "Interviewer",
+        "voice": "male",
+        "text": "What do you aspire to achieve after that?"
+      },
+      {
+        "speaker": "Mai",
+        "voice": "female",
+        "text": "I aspire to take on more responsibility as I grow."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is Mai's long-term goal?",
+        "options": [
+          "To grow into a leadership role",
+          "To change careers completely",
+          "To work part-time"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How does Mai plan to build her skill set?",
+        "options": [
+          "By joining professional development courses",
+          "By changing companies often",
+          "By working overtime"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Mai's five-year plan include?",
+        "options": [
+          "A project management certificate",
+          "A new job title only",
+          "Moving abroad"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "My long-term goal is to grow into a leadership role.",
+    "My main career goal is to lead a small team.",
+    "I want to broaden my skill set in project management.",
+    "My five-year plan includes getting a useful certificate this year.",
+    "I aspire to take on more responsibility as I grow."
+  ]
+}

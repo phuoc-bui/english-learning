@@ -1,0 +1,154 @@
+{
+  "date": "2026-07-09",
+  "track": "finance",
+  "theme": "Cash flow forecast",
+  "vocab": [
+    {
+      "word": "cash flow",
+      "ipa": "/kæʃ floʊ/",
+      "meaning_vi": "dòng tiền",
+      "example": "We need to monitor our cash flow more closely this month.",
+      "example_vi": "Chúng ta cần theo dõi dòng tiền chặt chẽ hơn trong tháng này."
+    },
+    {
+      "word": "inflow",
+      "ipa": "/ˈɪnfloʊ/",
+      "meaning_vi": "dòng tiền vào",
+      "example": "Our cash inflow increased after we signed the new contract.",
+      "example_vi": "Dòng tiền vào của chúng tôi tăng sau khi ký hợp đồng mới."
+    },
+    {
+      "word": "outflow",
+      "ipa": "/ˈaʊtfloʊ/",
+      "meaning_vi": "dòng tiền ra",
+      "example": "Our biggest outflow this quarter is the office renovation.",
+      "example_vi": "Khoản chi ra lớn nhất quý này là việc cải tạo văn phòng."
+    },
+    {
+      "word": "projection",
+      "ipa": "/prəˈdʒekʃn/",
+      "meaning_vi": "dự đoán, dự phóng",
+      "example": "This projection shows we'll run low on cash by June.",
+      "example_vi": "Dự phóng này cho thấy chúng ta sẽ cạn tiền vào tháng Sáu."
+    },
+    {
+      "word": "shortfall",
+      "ipa": "/ˈʃɔːrtfɔːl/",
+      "meaning_vi": "thiếu hụt",
+      "example": "We're expecting a cash shortfall next month, so let's plan ahead.",
+      "example_vi": "Chúng ta đang dự kiến thiếu hụt tiền mặt tháng tới, nên hãy lên kế hoạch trước."
+    },
+    {
+      "word": "surplus",
+      "ipa": "/ˈsɜːrpləs/",
+      "meaning_vi": "thặng dư",
+      "example": "We had a small surplus at the end of last quarter.",
+      "example_vi": "Chúng ta có một khoản thặng dư nhỏ vào cuối quý trước."
+    },
+    {
+      "word": "liquidity",
+      "ipa": "/lɪˈkwɪdəti/",
+      "meaning_vi": "tính thanh khoản",
+      "example": "We must keep enough liquidity to cover monthly expenses.",
+      "example_vi": "Chúng ta phải giữ đủ tính thanh khoản để trang trải chi phí hàng tháng."
+    },
+    {
+      "word": "break-even point",
+      "ipa": "/breɪk ˈiːvən pɔɪnt/",
+      "meaning_vi": "điểm hòa vốn",
+      "example": "We expect to reach the break-even point by August.",
+      "example_vi": "Chúng tôi dự kiến đạt điểm hòa vốn vào tháng Tám."
+    }
+  ],
+  "listening": {
+    "title": "Discussing the cash flow forecast",
+    "lines": [
+      {
+        "speaker": "Quang (director)",
+        "voice": "male",
+        "text": "Thảo, can you walk me through the cash flow forecast?"
+      },
+      {
+        "speaker": "Thảo (finance manager)",
+        "voice": "female",
+        "text": "Sure. Our cash inflow should grow after the new contract."
+      },
+      {
+        "speaker": "Quang (director)",
+        "voice": "male",
+        "text": "What about our outflow for this quarter?"
+      },
+      {
+        "speaker": "Thảo (finance manager)",
+        "voice": "female",
+        "text": "Our biggest outflow is still the office renovation project."
+      },
+      {
+        "speaker": "Quang (director)",
+        "voice": "male",
+        "text": "Does this projection show any risk for us?"
+      },
+      {
+        "speaker": "Thảo (finance manager)",
+        "voice": "female",
+        "text": "Yes, we might see a small shortfall next month."
+      },
+      {
+        "speaker": "Quang (director)",
+        "voice": "male",
+        "text": "Will we still have a surplus by year end?"
+      },
+      {
+        "speaker": "Thảo (finance manager)",
+        "voice": "female",
+        "text": "I believe so, if we manage liquidity carefully."
+      },
+      {
+        "speaker": "Quang (director)",
+        "voice": "male",
+        "text": "When do we expect to hit the break-even point?"
+      },
+      {
+        "speaker": "Thảo (finance manager)",
+        "voice": "female",
+        "text": "Around August, based on our current projection."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Thảo say will happen after the new contract?",
+        "options": [
+          "Cash inflow will grow",
+          "Cash inflow will drop",
+          "Nothing will change"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What is the company's biggest outflow this quarter?",
+        "options": [
+          "Office renovation",
+          "Staff salaries",
+          "Marketing costs"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "When does Thảo expect to reach the break-even point?",
+        "options": [
+          "Around August",
+          "Around January",
+          "Next week"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "We need to monitor our cash flow more closely this month.",
+    "Our cash inflow increased a lot after the new contract.",
+    "Our biggest outflow this quarter is the office renovation project.",
+    "We're expecting a small cash shortfall sometime early next month.",
+    "We expect to reach the break-even point by next August."
+  ]
+}

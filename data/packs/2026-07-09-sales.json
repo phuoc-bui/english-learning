@@ -1,0 +1,154 @@
+{
+  "date": "2026-07-09",
+  "track": "sales",
+  "theme": "Meeting a client for the first time",
+  "vocab": [
+    {
+      "word": "first impression",
+      "ipa": "/fɜːrst ɪmˈpreʃn/",
+      "meaning_vi": "ấn tượng đầu tiên",
+      "example": "You only get one chance to make a first impression.",
+      "example_vi": "Bạn chỉ có một cơ hội để tạo ấn tượng đầu tiên."
+    },
+    {
+      "word": "small talk",
+      "ipa": "/smɔːl tɔːk/",
+      "meaning_vi": "chuyện phiếm, trò chuyện xã giao",
+      "example": "We made some small talk before the meeting started.",
+      "example_vi": "Chúng tôi trò chuyện xã giao một chút trước khi cuộc họp bắt đầu."
+    },
+    {
+      "word": "business card",
+      "ipa": "/ˈbɪznəs kɑːrd/",
+      "meaning_vi": "danh thiếp",
+      "example": "Let me give you my business card before we start.",
+      "example_vi": "Để tôi đưa bạn danh thiếp trước khi chúng ta bắt đầu."
+    },
+    {
+      "word": "build rapport",
+      "ipa": "/bɪld ræˈpɔːr/",
+      "meaning_vi": "xây dựng thiện cảm",
+      "example": "It's important to build rapport with a new client early.",
+      "example_vi": "Việc xây dựng thiện cảm với khách hàng mới ngay từ đầu rất quan trọng."
+    },
+    {
+      "word": "handshake",
+      "ipa": "/ˈhændʃeɪk/",
+      "meaning_vi": "cái bắt tay",
+      "example": "He greeted me with a firm, friendly handshake.",
+      "example_vi": "Anh ấy chào tôi bằng một cái bắt tay chắc chắn, thân thiện."
+    },
+    {
+      "word": "point of contact",
+      "ipa": "/pɔɪnt əv ˈkɒntækt/",
+      "meaning_vi": "đầu mối liên hệ",
+      "example": "I'll be your main point of contact going forward.",
+      "example_vi": "Tôi sẽ là đầu mối liên hệ chính của bạn từ giờ trở đi."
+    },
+    {
+      "word": "company background",
+      "ipa": "/ˈkʌmpəni ˈbækɡraʊnd/",
+      "meaning_vi": "thông tin nền công ty",
+      "example": "Let me share a bit of our company background first.",
+      "example_vi": "Để tôi chia sẻ một chút thông tin nền về công ty chúng tôi trước."
+    },
+    {
+      "word": "warm welcome",
+      "ipa": "/wɔːrm ˈwelkəm/",
+      "meaning_vi": "sự chào đón nồng nhiệt",
+      "example": "Thank you for the warm welcome to your office.",
+      "example_vi": "Cảm ơn vì sự chào đón nồng nhiệt tại văn phòng của bạn."
+    }
+  ],
+  "listening": {
+    "title": "Meeting a new client for the first time",
+    "lines": [
+      {
+        "speaker": "Nam (sales rep)",
+        "voice": "male",
+        "text": "Hi, I'm Nam from Tech Solutions. Nice to finally meet you."
+      },
+      {
+        "speaker": "Hương (client)",
+        "voice": "female",
+        "text": "Nice to meet you too, Nam. Thanks for the warm welcome."
+      },
+      {
+        "speaker": "Nam (sales rep)",
+        "voice": "male",
+        "text": "Let me give you my business card before we start."
+      },
+      {
+        "speaker": "Hương (client)",
+        "voice": "female",
+        "text": "Thank you. Here's mine too, in case you need to call."
+      },
+      {
+        "speaker": "Nam (sales rep)",
+        "voice": "male",
+        "text": "Before we begin, let me share our company background briefly."
+      },
+      {
+        "speaker": "Hương (client)",
+        "voice": "female",
+        "text": "Sure, I'd love to hear a bit about your company."
+      },
+      {
+        "speaker": "Nam (sales rep)",
+        "voice": "male",
+        "text": "Great. I always try to build rapport with new clients."
+      },
+      {
+        "speaker": "Hương (client)",
+        "voice": "female",
+        "text": "I appreciate that, it makes this meeting feel more comfortable."
+      },
+      {
+        "speaker": "Nam (sales rep)",
+        "voice": "male",
+        "text": "I'll be your main point of contact going forward."
+      },
+      {
+        "speaker": "Hương (client)",
+        "voice": "female",
+        "text": "Perfect, that first impression really puts me at ease."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why does Nam give Hương his business card?",
+        "options": [
+          "So she can contact him later",
+          "To exchange gifts",
+          "To end the meeting"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Nam try to build with new clients?",
+        "options": [
+          "Rapport",
+          "A contract",
+          "A discount"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What role will Nam have going forward?",
+        "options": [
+          "Hương's main point of contact",
+          "The company's new manager",
+          "A translator"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "You only get one chance to make a good first impression.",
+    "We made some small talk together before the meeting started.",
+    "Let me give you my business card before we begin.",
+    "It's important to build rapport with every new client early.",
+    "I'll be your main point of contact from now on."
+  ]
+}

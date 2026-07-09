@@ -1,0 +1,154 @@
+{
+  "date": "2026-07-09",
+  "track": "office",
+  "theme": "Giving feedback to a colleague",
+  "vocab": [
+    {
+      "word": "constructive feedback",
+      "ipa": "/kənˈstrʌktɪv ˈfiːdbæk/",
+      "meaning_vi": "phản hồi mang tính xây dựng",
+      "example": "I want to give you some constructive feedback on your report.",
+      "example_vi": "Tôi muốn đưa cho bạn một số phản hồi mang tính xây dựng về báo cáo."
+    },
+    {
+      "word": "strength",
+      "ipa": "/streŋθ/",
+      "meaning_vi": "điểm mạnh",
+      "example": "Your biggest strength is how clearly you explain ideas.",
+      "example_vi": "Điểm mạnh lớn nhất của bạn là cách bạn giải thích ý tưởng rất rõ ràng."
+    },
+    {
+      "word": "area for improvement",
+      "ipa": "/ˈeəriə fɔːr ɪmˈpruːvmənt/",
+      "meaning_vi": "điểm cần cải thiện",
+      "example": "Time management is an area for improvement for you.",
+      "example_vi": "Quản lý thời gian là một điểm bạn cần cải thiện."
+    },
+    {
+      "word": "point out",
+      "ipa": "/pɔɪnt aʊt/",
+      "meaning_vi": "chỉ ra, nêu ra",
+      "example": "Let me point out a few things in your draft.",
+      "example_vi": "Để tôi chỉ ra vài điều trong bản nháp của bạn."
+    },
+    {
+      "word": "praise",
+      "ipa": "/preɪz/",
+      "meaning_vi": "lời khen, khen ngợi",
+      "example": "The manager gave the team praise for their hard work.",
+      "example_vi": "Quản lý đã khen ngợi cả nhóm vì đã làm việc chăm chỉ."
+    },
+    {
+      "word": "take on board",
+      "ipa": "/teɪk ɒn bɔːrd/",
+      "meaning_vi": "tiếp thu, ghi nhận",
+      "example": "Thanks, I'll take your feedback on board next time.",
+      "example_vi": "Cảm ơn, lần sau tôi sẽ tiếp thu góp ý của bạn."
+    },
+    {
+      "word": "specific example",
+      "ipa": "/spəˈsɪfɪk ɪɡˈzæmpl/",
+      "meaning_vi": "ví dụ cụ thể",
+      "example": "Can you give me a specific example of that issue?",
+      "example_vi": "Bạn có thể cho tôi một ví dụ cụ thể về vấn đề đó không?"
+    },
+    {
+      "word": "tone",
+      "ipa": "/toʊn/",
+      "meaning_vi": "giọng điệu, cách nói",
+      "example": "Try to keep a friendly tone when giving feedback.",
+      "example_vi": "Hãy cố giữ giọng điệu thân thiện khi đưa ra phản hồi."
+    }
+  ],
+  "listening": {
+    "title": "Giving feedback after a project",
+    "lines": [
+      {
+        "speaker": "Hoa (team lead)",
+        "voice": "female",
+        "text": "Đức, do you have a few minutes for some quick feedback?"
+      },
+      {
+        "speaker": "Đức",
+        "voice": "male",
+        "text": "Sure, Hoa. I'd love to hear your constructive feedback."
+      },
+      {
+        "speaker": "Hoa (team lead)",
+        "voice": "female",
+        "text": "Your biggest strength is how clearly you explain your code."
+      },
+      {
+        "speaker": "Đức",
+        "voice": "male",
+        "text": "Thanks! Is there an area for improvement I should know?"
+      },
+      {
+        "speaker": "Hoa (team lead)",
+        "voice": "female",
+        "text": "Yes, I want to point out your reports are often late."
+      },
+      {
+        "speaker": "Đức",
+        "voice": "male",
+        "text": "I understand. Can you give me a specific example?"
+      },
+      {
+        "speaker": "Hoa (team lead)",
+        "voice": "female",
+        "text": "Last week's status report came in two days late."
+      },
+      {
+        "speaker": "Đức",
+        "voice": "male",
+        "text": "Got it, I'll take that feedback on board right away."
+      },
+      {
+        "speaker": "Hoa (team lead)",
+        "voice": "female",
+        "text": "Also, the whole team gave you praise for the demo."
+      },
+      {
+        "speaker": "Đức",
+        "voice": "male",
+        "text": "That's great to hear! I really appreciate your honest tone."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is Đức's biggest strength according to Hoa?",
+        "options": [
+          "Explaining his code clearly",
+          "Writing long reports",
+          "Being always on time"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What area for improvement does Hoa point out?",
+        "options": [
+          "Late reports",
+          "Poor coding skills",
+          "Being late to meetings"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What did the team give Đức praise for?",
+        "options": [
+          "The demo",
+          "The report",
+          "The meeting"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I want to give you some constructive feedback on your report.",
+    "Your biggest strength is how clearly you explain your ideas.",
+    "Time management is definitely an area for improvement for you.",
+    "Let me point out a few things in your latest draft.",
+    "Thanks for the honest feedback, I'll take it on board."
+  ]
+}
