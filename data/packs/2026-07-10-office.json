@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-10",
+  "track": "office",
+  "theme": "Dealing with deadlines",
+  "vocab": [
+    {
+      "word": "deadline",
+      "ipa": "/ˈdedlaɪn/",
+      "meaning_vi": "hạn chót",
+      "example": "We need to finish this feature before the deadline.",
+      "example_vi": "Chúng ta cần hoàn thành tính năng này trước hạn chót."
+    },
+    {
+      "word": "extend",
+      "ipa": "/ɪkˈstend/",
+      "meaning_vi": "gia hạn",
+      "example": "Can we extend the deadline by two more days?",
+      "example_vi": "Chúng ta có thể gia hạn thêm hai ngày không?"
+    },
+    {
+      "word": "fall behind",
+      "ipa": "/fɔːl bɪˈhaɪnd/",
+      "meaning_vi": "bị chậm tiến độ",
+      "example": "The team fell behind because of a new requirement.",
+      "example_vi": "Cả nhóm bị chậm tiến độ vì có yêu cầu mới."
+    },
+    {
+      "word": "prioritize",
+      "ipa": "/praɪˈɒrɪtaɪz/",
+      "meaning_vi": "ưu tiên",
+      "example": "Let's prioritize the most urgent tasks first.",
+      "example_vi": "Hãy ưu tiên những công việc gấp nhất trước."
+    },
+    {
+      "word": "workload",
+      "ipa": "/ˈwɜːrkloʊd/",
+      "meaning_vi": "khối lượng công việc",
+      "example": "My workload has been really heavy this week.",
+      "example_vi": "Khối lượng công việc của tôi tuần này rất nặng."
+    },
+    {
+      "word": "realistic",
+      "ipa": "/ˌriːəˈlɪstɪk/",
+      "meaning_vi": "thực tế, khả thi",
+      "example": "Is this deadline realistic given our current resources?",
+      "example_vi": "Hạn chót này có khả thi với nguồn lực hiện tại không?"
+    },
+    {
+      "word": "overtime",
+      "ipa": "/ˈoʊvərtaɪm/",
+      "meaning_vi": "làm thêm giờ",
+      "example": "We might need to work overtime to finish on time.",
+      "example_vi": "Chúng ta có thể phải làm thêm giờ để xong đúng hạn."
+    },
+    {
+      "word": "squeeze in",
+      "ipa": "/skwiːz ɪn/",
+      "meaning_vi": "chen vào, xếp thêm vào",
+      "example": "Can you squeeze in one more task before Friday?",
+      "example_vi": "Bạn có thể xếp thêm một việc nữa trước thứ Sáu không?"
+    }
+  ],
+  "listening": {
+    "title": "Talking about a tight deadline",
+    "lines": [
+      { "speaker": "Linh (PM)", "voice": "female", "text": "Nam, I need to talk to you about the project deadline." },
+      { "speaker": "Nam (dev lead)", "voice": "male", "text": "Sure, Linh. Is there a problem with the deadline?" },
+      { "speaker": "Linh (PM)", "voice": "female", "text": "Yes, I think the team might fall behind this week." },
+      { "speaker": "Nam (dev lead)", "voice": "male", "text": "I agree, our workload has been really heavy lately." },
+      { "speaker": "Linh (PM)", "voice": "female", "text": "Can we prioritize the most important features first?" },
+      { "speaker": "Nam (dev lead)", "voice": "male", "text": "Good idea. Let's prioritize the login and payment modules." },
+      { "speaker": "Linh (PM)", "voice": "female", "text": "Do you think the current deadline is still realistic?" },
+      { "speaker": "Nam (dev lead)", "voice": "male", "text": "Honestly, no. We may need some overtime this weekend." },
+      { "speaker": "Linh (PM)", "voice": "female", "text": "Okay, I'll ask management to extend the deadline a bit." },
+      { "speaker": "Nam (dev lead)", "voice": "male", "text": "Thanks, that would really help us finish everything properly." }
+    ],
+    "questions": [
+      {
+        "q": "What does Linh want to talk to Nam about?",
+        "options": ["The project deadline", "A new employee", "The office budget"],
+        "answer": 0
+      },
+      {
+        "q": "What does Nam say the team may need to do?",
+        "options": ["Work overtime this weekend", "Cancel the project", "Hire more staff"],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh agree to do in the end?",
+        "options": ["Ask management to extend the deadline", "Fire the dev team", "Reduce the workload permanently"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "We need to finish this feature before the deadline this Friday.",
+    "Can we extend the deadline by a few more days please?",
+    "I think the team might fall behind schedule this week.",
+    "Let's prioritize the most urgent tasks on our list first.",
+    "We may need to work overtime to finish everything on time."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-10",
+  "track": "sales",
+  "theme": "After-sales customer care",
+  "vocab": [
+    {
+      "word": "check in",
+      "ipa": "/tʃek ɪn/",
+      "meaning_vi": "hỏi thăm, kiểm tra tình hình",
+      "example": "I'm just calling to check in on how the product is working.",
+      "example_vi": "Tôi gọi để hỏi thăm xem sản phẩm đang hoạt động thế nào."
+    },
+    {
+      "word": "satisfaction",
+      "ipa": "/ˌsætɪsˈfækʃn/",
+      "meaning_vi": "sự hài lòng",
+      "example": "Customer satisfaction is our top priority after the sale.",
+      "example_vi": "Sự hài lòng của khách hàng là ưu tiên hàng đầu sau khi bán."
+    },
+    {
+      "word": "loyal customer",
+      "ipa": "/ˈlɔɪəl ˈkʌstəmər/",
+      "meaning_vi": "khách hàng trung thành",
+      "example": "We want to turn every buyer into a loyal customer.",
+      "example_vi": "Chúng tôi muốn biến mỗi người mua thành khách hàng trung thành."
+    },
+    {
+      "word": "renew",
+      "ipa": "/rɪˈnjuː/",
+      "meaning_vi": "gia hạn",
+      "example": "Would you like to renew your subscription next month?",
+      "example_vi": "Anh có muốn gia hạn gói đăng ký vào tháng sau không?"
+    },
+    {
+      "word": "resolve an issue",
+      "ipa": "/rɪˈzɒlv ən ˈɪʃuː/",
+      "meaning_vi": "giải quyết vấn đề",
+      "example": "Our support team resolved the issue within a day.",
+      "example_vi": "Đội hỗ trợ của chúng tôi đã giải quyết vấn đề trong một ngày."
+    },
+    {
+      "word": "feedback form",
+      "ipa": "/ˈfiːdbæk fɔːrm/",
+      "meaning_vi": "biểu mẫu phản hồi",
+      "example": "Please fill out this feedback form after using the service.",
+      "example_vi": "Vui lòng điền biểu mẫu phản hồi này sau khi dùng dịch vụ."
+    },
+    {
+      "word": "ongoing support",
+      "ipa": "/ˈɒnɡoʊɪŋ səˈpɔːrt/",
+      "meaning_vi": "hỗ trợ liên tục",
+      "example": "We offer ongoing support even after the contract ends.",
+      "example_vi": "Chúng tôi cung cấp hỗ trợ liên tục kể cả sau khi hết hợp đồng."
+    },
+    {
+      "word": "retention",
+      "ipa": "/rɪˈtenʃn/",
+      "meaning_vi": "giữ chân khách hàng",
+      "example": "Good after-sales care really improves customer retention.",
+      "example_vi": "Chăm sóc sau bán tốt thực sự giúp giữ chân khách hàng."
+    }
+  ],
+  "listening": {
+    "title": "A check-in call with a client",
+    "lines": [
+      { "speaker": "Hoa (customer success)", "voice": "female", "text": "Hi Mr. Dũng, I'm just calling to check in on your experience." },
+      { "speaker": "Dũng (client)", "voice": "male", "text": "Hi Hoa, thanks for calling. Everything is working well so far." },
+      { "speaker": "Hoa (customer success)", "voice": "female", "text": "That's great to hear! Is there anything we can help with?" },
+      { "speaker": "Dũng (client)", "voice": "male", "text": "Actually, we had one issue with the login page last week." },
+      { "speaker": "Hoa (customer success)", "voice": "female", "text": "I'm sorry about that. Did our support team resolve the issue?" },
+      { "speaker": "Dũng (client)", "voice": "male", "text": "Yes, they resolved it quickly. I really appreciate the ongoing support." },
+      { "speaker": "Hoa (customer success)", "voice": "female", "text": "Wonderful. We always try to make every client a loyal customer." },
+      { "speaker": "Dũng (client)", "voice": "male", "text": "I'm happy with the service. When does our subscription end?" },
+      { "speaker": "Hoa (customer success)", "voice": "female", "text": "It ends next month. Would you like to renew your subscription now?" },
+      { "speaker": "Dũng (client)", "voice": "male", "text": "Yes, please. Could you also send me a feedback form?" }
+    ],
+    "questions": [
+      {
+        "q": "Why does Hoa call Dũng?",
+        "options": ["To check in on his experience", "To sell a new product", "To cancel his account"],
+        "answer": 0
+      },
+      {
+        "q": "What problem did Dũng's company have last week?",
+        "options": ["An issue with the login page", "A late payment", "A broken printer"],
+        "answer": 0
+      },
+      {
+        "q": "What does Dũng want to do with his subscription?",
+        "options": ["Renew it", "Cancel it", "Downgrade it"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I'm just calling to check in on your experience with us.",
+    "Did our support team resolve the issue you had last week?",
+    "We always try to make every customer a loyal customer here.",
+    "Would you like to renew your subscription for another year now?",
+    "Could you please fill out this short feedback form for us?"
+  ]
+}

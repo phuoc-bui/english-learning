@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-10",
+  "track": "finance",
+  "theme": "Talking with the tax accountant",
+  "vocab": [
+    {
+      "word": "tax accountant",
+      "ipa": "/tæks əˈkaʊntənt/",
+      "meaning_vi": "kế toán thuế",
+      "example": "Our tax accountant reviews all invoices before the deadline.",
+      "example_vi": "Kế toán thuế của chúng tôi kiểm tra hết hóa đơn trước hạn chót."
+    },
+    {
+      "word": "tax return",
+      "ipa": "/tæks rɪˈtɜːrn/",
+      "meaning_vi": "tờ khai thuế",
+      "example": "We need to file the tax return by the end of the month.",
+      "example_vi": "Chúng ta cần nộp tờ khai thuế trước cuối tháng."
+    },
+    {
+      "word": "deductible",
+      "ipa": "/dɪˈdʌktəbl/",
+      "meaning_vi": "có thể khấu trừ",
+      "example": "Is this business trip deductible from our taxes?",
+      "example_vi": "Chuyến công tác này có được khấu trừ thuế không?"
+    },
+    {
+      "word": "VAT",
+      "ipa": "/ˌviː eɪ ˈtiː/",
+      "meaning_vi": "thuế giá trị gia tăng",
+      "example": "Don't forget to add VAT to the invoice.",
+      "example_vi": "Đừng quên cộng thuế giá trị gia tăng vào hóa đơn."
+    },
+    {
+      "word": "fiscal year",
+      "ipa": "/ˈfɪskl jɪr/",
+      "meaning_vi": "năm tài chính",
+      "example": "Our fiscal year ends in December.",
+      "example_vi": "Năm tài chính của chúng tôi kết thúc vào tháng Mười Hai."
+    },
+    {
+      "word": "tax code",
+      "ipa": "/tæks koʊd/",
+      "meaning_vi": "mã số thuế",
+      "example": "Please provide your company's tax code for the report.",
+      "example_vi": "Vui lòng cung cấp mã số thuế công ty bạn cho báo cáo."
+    },
+    {
+      "word": "penalty",
+      "ipa": "/ˈpenəlti/",
+      "meaning_vi": "khoản phạt",
+      "example": "Late filing may result in a penalty from the tax office.",
+      "example_vi": "Nộp trễ có thể bị cơ quan thuế phạt."
+    },
+    {
+      "word": "exemption",
+      "ipa": "/ɪɡˈzempʃn/",
+      "meaning_vi": "miễn trừ",
+      "example": "This item qualifies for a tax exemption this year.",
+      "example_vi": "Mục này đủ điều kiện được miễn thuế năm nay."
+    }
+  ],
+  "listening": {
+    "title": "Preparing the tax return together",
+    "lines": [
+      { "speaker": "Minh (finance staff)", "voice": "male", "text": "Hằng, can we go over our tax return before the deadline?" },
+      { "speaker": "Hằng (tax accountant)", "voice": "female", "text": "Sure, Minh. Let's check if everything is ready to file." },
+      { "speaker": "Minh (finance staff)", "voice": "male", "text": "Are the travel expenses from last quarter deductible?" },
+      { "speaker": "Hằng (tax accountant)", "voice": "female", "text": "Most of them are deductible, but we need proper receipts." },
+      { "speaker": "Minh (finance staff)", "voice": "male", "text": "Okay, I'll collect the receipts. What about the VAT on this invoice?" },
+      { "speaker": "Hằng (tax accountant)", "voice": "female", "text": "The VAT looks correct, but double-check the supplier's tax code." },
+      { "speaker": "Minh (finance staff)", "voice": "male", "text": "Got it. When exactly does our fiscal year end?" },
+      { "speaker": "Hằng (tax accountant)", "voice": "female", "text": "It ends in December, so we still have some time." },
+      { "speaker": "Minh (finance staff)", "voice": "male", "text": "Good. I really don't want to pay another penalty this year." },
+      { "speaker": "Hằng (tax accountant)", "voice": "female", "text": "Don't worry, I'll also check if we qualify for any exemption." }
+    ],
+    "questions": [
+      {
+        "q": "What are Minh and Hằng preparing together?",
+        "options": ["The tax return", "A sales contract", "A job interview"],
+        "answer": 0
+      },
+      {
+        "q": "What does Hằng say the deductible expenses need?",
+        "options": ["Proper receipts", "Old emails", "Meeting notes"],
+        "answer": 0
+      },
+      {
+        "q": "What does Minh want to avoid this year?",
+        "options": ["Paying another penalty", "Losing a client", "Missing a meeting"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Can we go over our tax return before the deadline please?",
+    "Most of these travel expenses are deductible with proper receipts.",
+    "Please double-check the supplier's tax code on this new invoice.",
+    "Our fiscal year ends in December, so we have some time.",
+    "I really don't want to pay another penalty this year."
+  ]
+}

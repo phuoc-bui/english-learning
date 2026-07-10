@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-10",
+  "track": "interview",
+  "theme": "Negotiating salary in an interview",
+  "vocab": [
+    {
+      "word": "salary expectation",
+      "ipa": "/ˈsæləri ˌekspekˈteɪʃn/",
+      "meaning_vi": "mức lương mong muốn",
+      "example": "What is your salary expectation for this position?",
+      "example_vi": "Mức lương mong muốn của bạn cho vị trí này là bao nhiêu?"
+    },
+    {
+      "word": "negotiable",
+      "ipa": "/nɪˈɡoʊʃəbl/",
+      "meaning_vi": "có thể thương lượng",
+      "example": "The base salary is negotiable depending on experience.",
+      "example_vi": "Lương cơ bản có thể thương lượng tùy theo kinh nghiệm."
+    },
+    {
+      "word": "benefits package",
+      "ipa": "/ˈbenɪfɪts ˈpækɪdʒ/",
+      "meaning_vi": "gói phúc lợi",
+      "example": "Can you tell me more about the benefits package?",
+      "example_vi": "Bạn có thể cho tôi biết thêm về gói phúc lợi không?"
+    },
+    {
+      "word": "probation period",
+      "ipa": "/proʊˈbeɪʃn ˈpɪriəd/",
+      "meaning_vi": "thời gian thử việc",
+      "example": "The probation period usually lasts two months here.",
+      "example_vi": "Thời gian thử việc ở đây thường kéo dài hai tháng."
+    },
+    {
+      "word": "signing bonus",
+      "ipa": "/ˈsaɪnɪŋ ˈboʊnəs/",
+      "meaning_vi": "thưởng khi ký hợp đồng",
+      "example": "Does the company offer a signing bonus for new hires?",
+      "example_vi": "Công ty có thưởng khi ký hợp đồng cho nhân viên mới không?"
+    },
+    {
+      "word": "market rate",
+      "ipa": "/ˈmɑːrkɪt reɪt/",
+      "meaning_vi": "mức lương thị trường",
+      "example": "I based my number on the current market rate.",
+      "example_vi": "Tôi đưa ra con số dựa trên mức lương thị trường hiện tại."
+    },
+    {
+      "word": "flexible working hours",
+      "ipa": "/ˈfleksəbl ˈwɜːrkɪŋ ˈaʊərz/",
+      "meaning_vi": "giờ làm việc linh hoạt",
+      "example": "Flexible working hours are important to me.",
+      "example_vi": "Giờ làm việc linh hoạt rất quan trọng với tôi."
+    },
+    {
+      "word": "counteroffer",
+      "ipa": "/ˈkaʊntərˌɔːfər/",
+      "meaning_vi": "đề nghị phản hồi",
+      "example": "The company came back with a counteroffer the next day.",
+      "example_vi": "Công ty đã đưa ra đề nghị phản hồi vào ngày hôm sau."
+    }
+  ],
+  "listening": {
+    "title": "Discussing salary in an interview",
+    "lines": [
+      { "speaker": "Phương (HR interviewer)", "voice": "female", "text": "Khoa, what is your salary expectation for this role?" },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "Based on the market rate, I'm expecting around 25 million VND." },
+      { "speaker": "Phương (HR interviewer)", "voice": "female", "text": "That's a bit higher than our budget, but the number is negotiable." },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "I understand. Could you also tell me about the benefits package?" },
+      { "speaker": "Phương (HR interviewer)", "voice": "female", "text": "Sure, we offer health insurance and a small signing bonus." },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "That sounds good. How long is the probation period here?" },
+      { "speaker": "Phương (HR interviewer)", "voice": "female", "text": "It's two months, at eighty-five percent of the full salary." },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "Got it. Are flexible working hours possible for this position?" },
+      { "speaker": "Phương (HR interviewer)", "voice": "female", "text": "Yes, and I'll also discuss your number with management soon." },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "Thank you, I really appreciate you considering my expectations." }
+    ],
+    "questions": [
+      {
+        "q": "What is Khoa's salary expectation based on?",
+        "options": ["The market rate", "His previous salary", "A friend's advice"],
+        "answer": 0
+      },
+      {
+        "q": "What benefits does Phương mention?",
+        "options": ["Health insurance and a signing bonus", "A company car and free lunch", "Stock options and a gym membership"],
+        "answer": 0
+      },
+      {
+        "q": "How long is the probation period?",
+        "options": ["Two months", "One week", "Six months"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "So, what exactly is your salary expectation for this position?",
+    "The base salary is negotiable depending on your experience level.",
+    "Can you tell me more about the company's benefits package?",
+    "The probation period here usually lasts about two full months.",
+    "Are flexible working hours possible for this position at all?"
+  ]
+}
