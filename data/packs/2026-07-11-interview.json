@@ -1,0 +1,91 @@
+{
+  "date": "2026-07-11",
+  "track": "interview",
+  "theme": "Questions to ask the interviewer",
+  "vocab": [
+    {
+      "word": "company culture",
+      "ipa": "/ˈkʌmpəni ˈkʌltʃər/",
+      "meaning_vi": "văn hoá công ty",
+      "example": "How would you describe the company culture here?",
+      "example_vi": "Bạn sẽ mô tả văn hoá công ty ở đây như thế nào?"
+    },
+    {
+      "word": "onboarding process",
+      "ipa": "/ˈɒnbɔːdɪŋ ˈprəʊses/",
+      "meaning_vi": "quy trình hoà nhập nhân viên mới",
+      "example": "Is there an onboarding process for new employees?",
+      "example_vi": "Có quy trình hoà nhập cho nhân viên mới không?"
+    },
+    {
+      "word": "performance review",
+      "ipa": "/pəˈfɔːməns rɪˈvjuː/",
+      "meaning_vi": "đánh giá hiệu suất làm việc",
+      "example": "We do a performance review every six months.",
+      "example_vi": "Chúng tôi đánh giá hiệu suất làm việc mỗi sáu tháng."
+    },
+    {
+      "word": "team structure",
+      "ipa": "/tiːm ˈstrʌktʃər/",
+      "meaning_vi": "cơ cấu đội nhóm",
+      "example": "Could you tell me about the team structure?",
+      "example_vi": "Bạn có thể cho tôi biết về cơ cấu đội nhóm không?"
+    },
+    {
+      "word": "next steps",
+      "ipa": "/nekst steps/",
+      "meaning_vi": "bước tiếp theo",
+      "example": "What are the next steps after this interview?",
+      "example_vi": "Bước tiếp theo sau buổi phỏng vấn này là gì?"
+    },
+    {
+      "word": "typical day",
+      "ipa": "/ˈtɪpɪkl deɪ/",
+      "meaning_vi": "một ngày điển hình",
+      "example": "What does a typical day look like in this role?",
+      "example_vi": "Một ngày điển hình trong công việc này diễn ra như thế nào?"
+    },
+    {
+      "word": "opportunity for growth",
+      "ipa": "/ˌɒpəˈtjuːnəti fɔːr ɡrəʊθ/",
+      "meaning_vi": "cơ hội phát triển",
+      "example": "Is there an opportunity for growth in this position?",
+      "example_vi": "Vị trí này có cơ hội phát triển không?"
+    },
+    {
+      "word": "follow up",
+      "ipa": "/ˈfɒləʊ ʌp/",
+      "meaning_vi": "liên lạc lại sau đó",
+      "example": "We'll follow up with you by email within a week.",
+      "example_vi": "Chúng tôi sẽ liên lạc lại với bạn qua email trong vòng một tuần."
+    }
+  ],
+  "listening": {
+    "title": "Asking the interviewer questions at the end",
+    "lines": [
+      { "speaker": "Tuan (interviewer)", "voice": "male", "text": "That's all my questions. Do you have any questions for me?" },
+      { "speaker": "Linh (candidate)", "voice": "female", "text": "Yes, I do. Could you tell me about the team structure I'd be joining?" },
+      { "speaker": "Tuan (interviewer)", "voice": "male", "text": "Sure, you'd work in a team of five developers and one team lead." },
+      { "speaker": "Linh (candidate)", "voice": "female", "text": "Thanks. What does a typical day look like in this role?" },
+      { "speaker": "Tuan (interviewer)", "voice": "male", "text": "You'd start with a stand-up, then focus on your tasks for the day." },
+      { "speaker": "Linh (candidate)", "voice": "female", "text": "I see. How would you describe the company culture, and is there an onboarding process?" },
+      { "speaker": "Tuan (interviewer)", "voice": "male", "text": "We're quite relaxed and value mutual respect. Onboarding takes about two weeks with a mentor." },
+      { "speaker": "Linh (candidate)", "voice": "female", "text": "Good to know. Is there an opportunity for growth in this position?" },
+      { "speaker": "Tuan (interviewer)", "voice": "male", "text": "Definitely, we do a performance review every six months for promotions." },
+      { "speaker": "Linh (candidate)", "voice": "female", "text": "Perfect. One last thing — what are the next steps after this interview?" },
+      { "speaker": "Tuan (interviewer)", "voice": "male", "text": "We'll follow up with you by email within a week." }
+    ],
+    "questions": [
+      { "q": "What does Linh ask about first?", "options": ["Salary", "The team structure", "The office address"], "answer": 1 },
+      { "q": "How long does the onboarding process take?", "options": ["One week", "Two weeks", "One month"], "answer": 1 },
+      { "q": "How often does the company do performance reviews?", "options": ["Every month", "Every six months", "Every year"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Could you tell me more about the team structure I would be joining?",
+    "What does a typical day look like for someone in this role?",
+    "How would you describe the company culture here compared to other places?",
+    "Is there a clear onboarding process to help new employees settle in?",
+    "What are the next steps in the hiring process after today's interview?"
+  ]
+}

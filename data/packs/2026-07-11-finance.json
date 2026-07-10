@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-11",
+  "track": "finance",
+  "theme": "Salary and benefits",
+  "vocab": [
+    {
+      "word": "payroll",
+      "ipa": "/ˈpeɪrəʊl/",
+      "meaning_vi": "bảng lương",
+      "example": "Your bonus will be included in next month's payroll.",
+      "example_vi": "Tiền thưởng của bạn sẽ được tính vào bảng lương tháng sau."
+    },
+    {
+      "word": "gross salary",
+      "ipa": "/ɡrəʊs ˈsæləri/",
+      "meaning_vi": "lương gộp, lương trước thuế",
+      "example": "Your gross salary is 20 million dong per month.",
+      "example_vi": "Lương gộp của bạn là 20 triệu đồng mỗi tháng."
+    },
+    {
+      "word": "net salary",
+      "ipa": "/net ˈsæləri/",
+      "meaning_vi": "lương thực nhận",
+      "example": "Your net salary looks lower after all deductions.",
+      "example_vi": "Lương thực nhận của bạn thấp hơn sau khi trừ các khoản."
+    },
+    {
+      "word": "deduction",
+      "ipa": "/dɪˈdʌkʃn/",
+      "meaning_vi": "khoản khấu trừ",
+      "example": "Can you explain the deduction on my payslip?",
+      "example_vi": "Bạn có thể giải thích khoản khấu trừ trên phiếu lương của tôi không?"
+    },
+    {
+      "word": "bonus",
+      "ipa": "/ˈbəʊnəs/",
+      "meaning_vi": "tiền thưởng",
+      "example": "What about the bonus from last quarter?",
+      "example_vi": "Còn tiền thưởng của quý trước thì sao?"
+    },
+    {
+      "word": "insurance contribution",
+      "ipa": "/ɪnˈʃʊərəns ˌkɒntrɪˈbjuːʃn/",
+      "meaning_vi": "khoản đóng bảo hiểm",
+      "example": "Your salary is reduced by tax and insurance contribution.",
+      "example_vi": "Lương của bạn bị trừ bớt vì thuế và khoản đóng bảo hiểm."
+    },
+    {
+      "word": "payslip",
+      "ipa": "/ˈpeɪslɪp/",
+      "meaning_vi": "phiếu lương",
+      "example": "You can download your payslip on the HR portal.",
+      "example_vi": "Bạn có thể tải phiếu lương trên cổng thông tin nhân sự."
+    },
+    {
+      "word": "allowance",
+      "ipa": "/əˈlaʊəns/",
+      "meaning_vi": "phụ cấp",
+      "example": "The company added a lunch allowance this year.",
+      "example_vi": "Công ty đã thêm phụ cấp ăn trưa trong năm nay."
+    }
+  ],
+  "listening": {
+    "title": "Explaining a payslip",
+    "lines": [
+      { "speaker": "Hai (employee)", "voice": "male", "text": "Hi Chi, I have a question about my payslip this month." },
+      { "speaker": "Chi (accountant)", "voice": "female", "text": "Sure, Hai. What would you like to know?" },
+      { "speaker": "Hai (employee)", "voice": "male", "text": "My net salary looks lower than I expected. Can you explain the deduction?" },
+      { "speaker": "Chi (accountant)", "voice": "female", "text": "Of course. Your gross salary is 20 million, minus insurance contribution and tax." },
+      { "speaker": "Hai (employee)", "voice": "male", "text": "I see. What about the bonus from last quarter?" },
+      { "speaker": "Chi (accountant)", "voice": "female", "text": "That will be added to your payroll next month, not this one." },
+      { "speaker": "Hai (employee)", "voice": "male", "text": "Got it. Also, do I get a lunch allowance this year?" },
+      { "speaker": "Chi (accountant)", "voice": "female", "text": "Yes, the company added a lunch allowance to everyone's payslip in June." },
+      { "speaker": "Hai (employee)", "voice": "male", "text": "Great, thank you. Where can I download my payslip online?" },
+      { "speaker": "Chi (accountant)", "voice": "female", "text": "You can check it on the HR portal under the payroll section." },
+      { "speaker": "Hai (employee)", "voice": "male", "text": "Perfect, that's very clear. Thanks for explaining, Chi." },
+      { "speaker": "Chi (accountant)", "voice": "female", "text": "No problem, let me know if you have more questions about your salary." }
+    ],
+    "questions": [
+      { "q": "Why is Hai's net salary lower than expected?", "options": ["Because of insurance contribution and tax deductions", "Because he was late", "Because he took a day off"], "answer": 0 },
+      { "q": "When will Hai's bonus be added?", "options": ["This month", "Next month", "Next year"], "answer": 1 },
+      { "q": "Where can Hai download his payslip?", "options": ["The HR portal", "His email", "The bank app"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Can you explain the deduction on my payslip this month?",
+    "Your gross salary is higher than your net salary after tax.",
+    "The company added a new lunch allowance to everyone's payslip this year.",
+    "Your bonus will be included in next month's payroll, not this one.",
+    "You can check your payslip anytime on the company's HR portal."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-11",
+  "track": "sales",
+  "theme": "Elevator pitch",
+  "vocab": [
+    {
+      "word": "unique selling point",
+      "ipa": "/ˈjuːniːk ˈselɪŋ pɔɪnt/",
+      "meaning_vi": "điểm bán hàng độc đáo",
+      "example": "What's your unique selling point compared to other tools?",
+      "example_vi": "Điểm bán hàng độc đáo của bạn so với các công cụ khác là gì?"
+    },
+    {
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning_vi": "ngắn gọn, súc tích",
+      "example": "I like that you kept your pitch concise.",
+      "example_vi": "Tôi thích cách bạn giữ bài pitch ngắn gọn."
+    },
+    {
+      "word": "grab attention",
+      "ipa": "/ɡræb əˈtenʃn/",
+      "meaning_vi": "thu hút sự chú ý",
+      "example": "Can I grab your attention for thirty seconds?",
+      "example_vi": "Tôi có thể thu hút sự chú ý của bạn trong ba mươi giây không?"
+    },
+    {
+      "word": "target audience",
+      "ipa": "/ˈtɑːɡɪt ˈɔːdiəns/",
+      "meaning_vi": "đối tượng khách hàng mục tiêu",
+      "example": "Our product is built for your target audience.",
+      "example_vi": "Sản phẩm của chúng tôi được xây dựng cho đối tượng khách hàng mục tiêu của bạn."
+    },
+    {
+      "word": "in a nutshell",
+      "ipa": "/ɪn ə ˈnʌtʃel/",
+      "meaning_vi": "nói ngắn gọn thì",
+      "example": "In a nutshell, we help companies save time.",
+      "example_vi": "Nói ngắn gọn thì, chúng tôi giúp các công ty tiết kiệm thời gian."
+    },
+    {
+      "word": "stand out",
+      "ipa": "/stænd aʊt/",
+      "meaning_vi": "nổi bật",
+      "example": "How do you stand out from your competitors?",
+      "example_vi": "Bạn nổi bật thế nào so với đối thủ cạnh tranh?"
+    },
+    {
+      "word": "solve a pain point",
+      "ipa": "/sɒlv ə peɪn pɔɪnt/",
+      "meaning_vi": "giải quyết một vấn đề khó khăn",
+      "example": "Our app solves a pain point: manual tracking.",
+      "example_vi": "Ứng dụng của chúng tôi giải quyết một vấn đề khó khăn: theo dõi thủ công."
+    },
+    {
+      "word": "call to action",
+      "ipa": "/kɔːl tuː ˈækʃn/",
+      "meaning_vi": "lời kêu gọi hành động",
+      "example": "My call to action is simple: book a demo.",
+      "example_vi": "Lời kêu gọi hành động của tôi rất đơn giản: đặt lịch demo."
+    }
+  ],
+  "listening": {
+    "title": "An elevator pitch at a networking event",
+    "lines": [
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "Hi, I don't think we've met yet. I'm Hoa from CloudTech Solutions." },
+      { "speaker": "Duc (client)", "voice": "male", "text": "Nice to meet you, Hoa. I'm Duc, I work in operations at VinaLogistics." },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "Can I grab your attention for thirty seconds to explain what we do?" },
+      { "speaker": "Duc (client)", "voice": "male", "text": "Sure, go ahead. I have a few minutes before my next meeting." },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "In a nutshell, we help logistics companies solve a pain point: manual tracking." },
+      { "speaker": "Duc (client)", "voice": "male", "text": "That sounds interesting. What's your unique selling point compared to other tools?" },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "Our dashboard is simple and fast, and it's built for your target audience." },
+      { "speaker": "Duc (client)", "voice": "male", "text": "I like that you kept it concise. How do you stand out from competitors?" },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "We focus only on logistics, so we understand your workflow better than anyone." },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "Here's my card. My call to action is simple: let's book a 15-minute demo." },
+      { "speaker": "Duc (client)", "voice": "male", "text": "That's a strong pitch. Let's set something up next week." },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "Great, I'll follow up by email tomorrow to find a convenient time." }
+    ],
+    "questions": [
+      { "q": "What does Hoa ask for at the start of her pitch?", "options": ["A discount", "Thirty seconds of attention", "A business loan"], "answer": 1 },
+      { "q": "What problem does CloudTech's product solve?", "options": ["Manual tracking that wastes time", "Late payments", "Hiring issues"], "answer": 0 },
+      { "q": "What is Hoa's call to action?", "options": ["Sign a contract today", "Book a 15-minute demo", "Give a discount"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Can I grab your attention for thirty seconds to explain what we do?",
+    "In a nutshell, we help companies solve their biggest daily pain points.",
+    "What makes your product stand out from all the competitors in this market?",
+    "Our pitch needs to be short, clear, and easy for the target audience to understand.",
+    "Let's end with a clear call to action so people know the next step."
+  ]
+}

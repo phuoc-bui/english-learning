@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-11",
+  "track": "office",
+  "theme": "Calling a business partner",
+  "vocab": [
+    {
+      "word": "put someone through",
+      "ipa": "/pʊt ˈsʌmwʌn θruː/",
+      "meaning_vi": "chuyển máy cho ai",
+      "example": "Could you put me through to Mr. Long, please?",
+      "example_vi": "Bạn có thể chuyển máy cho tôi tới anh Long không?"
+    },
+    {
+      "word": "hold the line",
+      "ipa": "/həʊld ðə laɪn/",
+      "meaning_vi": "giữ máy",
+      "example": "Please hold the line for a moment.",
+      "example_vi": "Vui lòng giữ máy trong giây lát."
+    },
+    {
+      "word": "get back to",
+      "ipa": "/ɡet bæk tuː/",
+      "meaning_vi": "liên hệ lại với ai",
+      "example": "I'll get back to you by tomorrow morning.",
+      "example_vi": "Tôi sẽ liên hệ lại với bạn trước sáng mai."
+    },
+    {
+      "word": "leave a message",
+      "ipa": "/liːv ə ˈmesɪdʒ/",
+      "meaning_vi": "để lại lời nhắn",
+      "example": "Can I leave a message for Mr. Long?",
+      "example_vi": "Tôi có thể để lại lời nhắn cho anh Long không?"
+    },
+    {
+      "word": "confirm",
+      "ipa": "/kənˈfɜːm/",
+      "meaning_vi": "xác nhận",
+      "example": "Let me confirm the meeting time with you.",
+      "example_vi": "Để tôi xác nhận giờ họp với bạn."
+    },
+    {
+      "word": "reschedule",
+      "ipa": "/ˌriːˈʃedjuːl/",
+      "meaning_vi": "dời lịch",
+      "example": "Could we reschedule the call to Friday?",
+      "example_vi": "Chúng ta có thể dời cuộc gọi sang thứ Sáu không?"
+    },
+    {
+      "word": "break up",
+      "ipa": "/breɪk ʌp/",
+      "meaning_vi": "(giọng nói) bị đứt quãng",
+      "example": "Sorry, your voice is breaking up a little.",
+      "example_vi": "Xin lỗi, giọng bạn bị đứt quãng một chút."
+    },
+    {
+      "word": "background noise",
+      "ipa": "/ˈbækɡraʊnd nɔɪz/",
+      "meaning_vi": "tiếng ồn xung quanh",
+      "example": "There's a lot of background noise on your end.",
+      "example_vi": "Có nhiều tiếng ồn xung quanh ở phía bạn."
+    }
+  ],
+  "listening": {
+    "title": "A phone call with a business partner",
+    "lines": [
+      { "speaker": "Linh (receptionist)", "voice": "female", "text": "Good morning, ABC Solutions, this is Linh speaking." },
+      { "speaker": "Nam (caller)", "voice": "male", "text": "Hi Linh, this is Nam from TechViet. Could you put me through to Mr. Long, please?" },
+      { "speaker": "Linh (receptionist)", "voice": "female", "text": "Sure, please hold the line for a moment." },
+      { "speaker": "Linh (receptionist)", "voice": "female", "text": "I'm sorry, Mr. Long is in a meeting right now." },
+      { "speaker": "Nam (caller)", "voice": "male", "text": "That's fine. Could I leave a message for him?" },
+      { "speaker": "Linh (receptionist)", "voice": "female", "text": "Of course. What would you like me to tell him?" },
+      { "speaker": "Nam (caller)", "voice": "male", "text": "Please ask him to get back to me about rescheduling our meeting." },
+      { "speaker": "Linh (receptionist)", "voice": "female", "text": "Sure, could you confirm what time works best for you?" },
+      { "speaker": "Nam (caller)", "voice": "male", "text": "Anytime on Friday afternoon. Sorry, can you repeat that? Your voice is breaking up." },
+      { "speaker": "Linh (receptionist)", "voice": "female", "text": "Sorry, there's a lot of background noise here. I said Friday afternoon works." },
+      { "speaker": "Nam (caller)", "voice": "male", "text": "Great, thank you very much, Linh." },
+      { "speaker": "Linh (receptionist)", "voice": "female", "text": "You're welcome. I'll pass your message to Mr. Long today." }
+    ],
+    "questions": [
+      { "q": "Why couldn't Nam speak to Mr. Long directly?", "options": ["He was on leave", "He was in a meeting", "He left the company"], "answer": 1 },
+      { "q": "What does Nam ask Linh to do?", "options": ["Leave a message for Mr. Long", "Cancel the meeting", "Send an invoice"], "answer": 0 },
+      { "q": "What day does Nam want to reschedule the meeting to?", "options": ["Monday", "Wednesday", "Friday afternoon"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Could you please put me through to Mr. Long in the sales department?",
+    "Please hold the line for a moment while I check his schedule.",
+    "Can you leave a message and I'll get back to you soon?",
+    "Sorry, could we reschedule our call to sometime next week?",
+    "Sorry, your voice is breaking up because of the background noise."
+  ]
+}
