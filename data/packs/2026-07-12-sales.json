@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-12",
+  "track": "sales",
+  "theme": "Understanding a customer's needs",
+  "vocab": [
+    {
+      "word": "requirements",
+      "ipa": "/rɪˈkwaɪəmənts/",
+      "meaning_vi": "yêu cầu (của khách hàng)",
+      "example": "Can you tell me more about your requirements?",
+      "example_vi": "Bạn có thể cho tôi biết thêm về yêu cầu của mình không?"
+    },
+    {
+      "word": "current setup",
+      "ipa": "/ˈkʌrənt ˈsetʌp/",
+      "meaning_vi": "hệ thống/giải pháp hiện tại",
+      "example": "What's your current setup for managing customer data?",
+      "example_vi": "Hệ thống hiện tại của bạn để quản lý dữ liệu khách hàng là gì?"
+    },
+    {
+      "word": "use case",
+      "ipa": "/juːs keɪs/",
+      "meaning_vi": "trường hợp sử dụng cụ thể",
+      "example": "Let's talk through your main use case first.",
+      "example_vi": "Hãy cùng nói qua trường hợp sử dụng chính của bạn trước."
+    },
+    {
+      "word": "priority",
+      "ipa": "/praɪˈɒrəti/",
+      "meaning_vi": "ưu tiên hàng đầu",
+      "example": "What's your top priority when choosing a supplier?",
+      "example_vi": "Ưu tiên hàng đầu của bạn khi chọn nhà cung cấp là gì?"
+    },
+    {
+      "word": "open-ended question",
+      "ipa": "/ˈəʊpən endɪd ˈkwestʃən/",
+      "meaning_vi": "câu hỏi mở",
+      "example": "I'll start with a few open-ended questions about your team.",
+      "example_vi": "Tôi sẽ bắt đầu với vài câu hỏi mở về đội của bạn."
+    },
+    {
+      "word": "gather information",
+      "ipa": "/ˈɡæðə ˌɪnfəˈmeɪʃn/",
+      "meaning_vi": "thu thập thông tin",
+      "example": "We need to gather information before suggesting a solution.",
+      "example_vi": "Chúng tôi cần thu thập thông tin trước khi đề xuất giải pháp."
+    },
+    {
+      "word": "tailor a solution",
+      "ipa": "/ˈteɪlə ə səˈluːʃn/",
+      "meaning_vi": "thiết kế giải pháp riêng phù hợp",
+      "example": "We can tailor a solution based on your budget.",
+      "example_vi": "Chúng tôi có thể thiết kế giải pháp riêng phù hợp với ngân sách của bạn."
+    },
+    {
+      "word": "pain area",
+      "ipa": "/peɪn ˈeəriə/",
+      "meaning_vi": "vấn đề khó khăn hiện tại",
+      "example": "What's the biggest pain area in your current process?",
+      "example_vi": "Vấn đề khó khăn lớn nhất trong quy trình hiện tại của bạn là gì?"
+    }
+  ],
+  "listening": {
+    "title": "A needs assessment call",
+    "lines": [
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "Thanks for your time today, Ms. Hoa. Can you tell me about your requirements?" },
+      { "speaker": "Hoa (customer)", "voice": "female", "text": "Sure. We need a system that can handle a growing sales team." },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "Got it. What's your current setup for managing customer data?" },
+      { "speaker": "Hoa (customer)", "voice": "female", "text": "We're still using spreadsheets, which is quite slow for us." },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "I see. Could you walk me through your main use case?" },
+      { "speaker": "Hoa (customer)", "voice": "female", "text": "We mostly need to track leads and follow-up calls." },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "Understood. What's your top priority when choosing a new tool?" },
+      { "speaker": "Hoa (customer)", "voice": "female", "text": "Ease of use is our biggest priority right now." },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "That's helpful. What's the biggest pain area in your current process?" },
+      { "speaker": "Hoa (customer)", "voice": "female", "text": "Losing track of leads is our main pain area." },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "Thanks for sharing that. We can tailor a solution to fix that." },
+      { "speaker": "Hoa (customer)", "voice": "female", "text": "That sounds great. I look forward to your proposal." }
+    ],
+    "questions": [
+      { "q": "What system is the customer currently using?", "options": ["A CRM tool", "Spreadsheets", "A mobile app"], "answer": 1 },
+      { "q": "What is the customer's top priority?", "options": ["Low price", "Ease of use", "Fast delivery"], "answer": 1 },
+      { "q": "What is the customer's biggest pain area?", "options": ["Losing track of leads", "Too many staff", "Slow internet"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Can you tell me more about your requirements before we continue?",
+    "What's your current setup for managing customer information right now?",
+    "Let's walk through your main use case in more detail.",
+    "What's the biggest pain area in your current process right now?",
+    "We can tailor a solution to fit your budget and needs."
+  ]
+}

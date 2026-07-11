@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-12",
+  "track": "finance",
+  "theme": "Proposing new equipment purchases",
+  "vocab": [
+    {
+      "word": "purchase request",
+      "ipa": "/ˈpɜːtʃəs rɪˈkwest/",
+      "meaning_vi": "đề nghị mua sắm",
+      "example": "I've submitted a purchase request for two new laptops.",
+      "example_vi": "Tôi đã gửi đề nghị mua sắm cho hai chiếc laptop mới."
+    },
+    {
+      "word": "quotation",
+      "ipa": "/kwəʊˈteɪʃn/",
+      "meaning_vi": "báo giá",
+      "example": "Can you get a quotation from at least two vendors?",
+      "example_vi": "Bạn có thể xin báo giá từ ít nhất hai nhà cung cấp không?"
+    },
+    {
+      "word": "depreciation",
+      "ipa": "/dɪˌpriːʃiˈeɪʃn/",
+      "meaning_vi": "khấu hao",
+      "example": "We calculate depreciation over three years for laptops.",
+      "example_vi": "Chúng tôi tính khấu hao trong ba năm đối với laptop."
+    },
+    {
+      "word": "return on investment",
+      "ipa": "/rɪˈtɜːn ɒn ɪnˈvestmənt/",
+      "meaning_vi": "lợi tức đầu tư",
+      "example": "What's the expected return on investment for this equipment?",
+      "example_vi": "Lợi tức đầu tư dự kiến của thiết bị này là bao nhiêu?"
+    },
+    {
+      "word": "vendor",
+      "ipa": "/ˈvendə(r)/",
+      "meaning_vi": "nhà cung cấp",
+      "example": "We usually compare prices from three different vendors.",
+      "example_vi": "Chúng tôi thường so sánh giá từ ba nhà cung cấp khác nhau."
+    },
+    {
+      "word": "capital expenditure",
+      "ipa": "/ˈkæpɪtl ɪkˈspendɪtʃə(r)/",
+      "meaning_vi": "chi phí đầu tư tài sản cố định",
+      "example": "This purchase counts as capital expenditure, not an expense.",
+      "example_vi": "Khoản mua này được tính là chi phí đầu tư tài sản cố định, không phải chi phí thường xuyên."
+    },
+    {
+      "word": "cost-benefit analysis",
+      "ipa": "/kɒst ˈbenɪfɪt əˈnæləsɪs/",
+      "meaning_vi": "phân tích chi phí - lợi ích",
+      "example": "Please attach a cost-benefit analysis to the proposal.",
+      "example_vi": "Vui lòng đính kèm bản phân tích chi phí - lợi ích vào đề xuất."
+    },
+    {
+      "word": "approval process",
+      "ipa": "/əˈpruːvl ˈprəʊses/",
+      "meaning_vi": "quy trình phê duyệt",
+      "example": "The approval process usually takes about a week.",
+      "example_vi": "Quy trình phê duyệt thường mất khoảng một tuần."
+    }
+  ],
+  "listening": {
+    "title": "Proposing new laptops for the design team",
+    "lines": [
+      { "speaker": "Duc (team lead)", "voice": "male", "text": "Hi Mai, I'd like to submit a purchase request for new laptops." },
+      { "speaker": "Mai (finance manager)", "voice": "female", "text": "Sure, how many laptops does your team need?" },
+      { "speaker": "Duc (team lead)", "voice": "male", "text": "Five laptops for the design team. I already have a quotation." },
+      { "speaker": "Mai (finance manager)", "voice": "female", "text": "Great. Which vendor did you get the quotation from?" },
+      { "speaker": "Duc (team lead)", "voice": "male", "text": "TechViet Supplies. Their price is lower than the other vendors." },
+      { "speaker": "Mai (finance manager)", "voice": "female", "text": "Good. Is this counted as capital expenditure or a regular expense?" },
+      { "speaker": "Duc (team lead)", "voice": "male", "text": "It's capital expenditure, since we'll use them for years." },
+      { "speaker": "Mai (finance manager)", "voice": "female", "text": "Understood. Can you include the depreciation schedule as well?" },
+      { "speaker": "Duc (team lead)", "voice": "male", "text": "Yes, and I've also added a cost-benefit analysis to the proposal." },
+      { "speaker": "Mai (finance manager)", "voice": "female", "text": "Perfect. What's the expected return on investment here?" },
+      { "speaker": "Duc (team lead)", "voice": "male", "text": "Faster rendering should save the team several hours a week." },
+      { "speaker": "Mai (finance manager)", "voice": "female", "text": "Sounds reasonable. I'll start the approval process today." }
+    ],
+    "questions": [
+      { "q": "How many laptops does Duc want to buy?", "options": ["Three", "Five", "Ten"], "answer": 1 },
+      { "q": "How is this purchase classified?", "options": ["Capital expenditure", "Petty cash", "A late fee"], "answer": 0 },
+      { "q": "What will Mai start after the discussion?", "options": ["The approval process", "A new audit", "A pay cut"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I'd like to submit a purchase request for five new laptops.",
+    "Can you get a quotation from at least two different vendors?",
+    "This purchase counts as capital expenditure, not a regular expense.",
+    "Please attach a cost-benefit analysis before you submit the proposal.",
+    "What's the expected return on investment for this new equipment?"
+  ]
+}

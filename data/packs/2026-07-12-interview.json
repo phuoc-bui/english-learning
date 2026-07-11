@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-12",
+  "track": "interview",
+  "theme": "Interviewing over a video call",
+  "vocab": [
+    {
+      "word": "technical issue",
+      "ipa": "/ˈteknɪkl ˈɪʃuː/",
+      "meaning_vi": "sự cố kỹ thuật",
+      "example": "Sorry for the technical issue at the start of the call.",
+      "example_vi": "Xin lỗi vì sự cố kỹ thuật lúc đầu cuộc gọi."
+    },
+    {
+      "word": "stable connection",
+      "ipa": "/ˈsteɪbl kəˈnekʃn/",
+      "meaning_vi": "kết nối ổn định",
+      "example": "I have a stable connection now, so we can continue.",
+      "example_vi": "Bây giờ tôi đã có kết nối ổn định, chúng ta có thể tiếp tục."
+    },
+    {
+      "word": "screen share",
+      "ipa": "/skriːn ʃeə(r)/",
+      "meaning_vi": "chia sẻ màn hình",
+      "example": "Would you like me to screen share my portfolio?",
+      "example_vi": "Bạn có muốn tôi chia sẻ màn hình danh mục dự án của mình không?"
+    },
+    {
+      "word": "eye contact",
+      "ipa": "/aɪ ˈkɒntækt/",
+      "meaning_vi": "giao tiếp bằng mắt",
+      "example": "Try to keep eye contact with the camera during video interviews.",
+      "example_vi": "Hãy cố gắng giao tiếp bằng mắt với camera trong buổi phỏng vấn qua video."
+    },
+    {
+      "word": "professional background",
+      "ipa": "/prəˈfeʃənl ˈbækɡraʊnd/",
+      "meaning_vi": "bối cảnh (không gian) chuyên nghiệp phía sau",
+      "example": "Make sure you have a quiet, professional background for the call.",
+      "example_vi": "Hãy đảm bảo bạn có một không gian phía sau yên tĩnh, chuyên nghiệp cho cuộc gọi."
+    },
+    {
+      "word": "mute",
+      "ipa": "/mjuːt/",
+      "meaning_vi": "tắt tiếng",
+      "example": "Please mute your microphone when you're not speaking.",
+      "example_vi": "Vui lòng tắt tiếng micro khi bạn không nói."
+    },
+    {
+      "word": "join the call",
+      "ipa": "/dʒɔɪn ðə kɔːl/",
+      "meaning_vi": "tham gia cuộc gọi",
+      "example": "I'll send you a link to join the call.",
+      "example_vi": "Tôi sẽ gửi bạn đường link để tham gia cuộc gọi."
+    },
+    {
+      "word": "wrap up the interview",
+      "ipa": "/ræp ʌp ði ˈɪntəvjuː/",
+      "meaning_vi": "kết thúc buổi phỏng vấn",
+      "example": "Let's wrap up the interview with any questions you have.",
+      "example_vi": "Hãy kết thúc buổi phỏng vấn với các câu hỏi bạn có."
+    }
+  ],
+  "listening": {
+    "title": "A video call interview",
+    "lines": [
+      { "speaker": "Trang (interviewer)", "voice": "female", "text": "Hi Tuan, thanks for joining the call. Can you hear me clearly?" },
+      { "speaker": "Tuan (candidate)", "voice": "male", "text": "Yes, I can hear you well. Sorry for the technical issue earlier." },
+      { "speaker": "Trang (interviewer)", "voice": "female", "text": "No problem, we have a stable connection now, so let's start." },
+      { "speaker": "Tuan (candidate)", "voice": "male", "text": "Great, I'm ready whenever you are." },
+      { "speaker": "Trang (interviewer)", "voice": "female", "text": "Could you tell me a bit about your professional background?" },
+      { "speaker": "Tuan (candidate)", "voice": "male", "text": "Sure, I've worked as a developer for four years now." },
+      { "speaker": "Trang (interviewer)", "voice": "female", "text": "Would you like to screen share your portfolio for us?" },
+      { "speaker": "Tuan (candidate)", "voice": "male", "text": "Yes, one moment, let me share my screen now." },
+      { "speaker": "Trang (interviewer)", "voice": "female", "text": "Thank you. Please try to keep eye contact with the camera too." },
+      { "speaker": "Tuan (candidate)", "voice": "male", "text": "Of course, I'll do my best to stay focused on the camera." },
+      { "speaker": "Trang (interviewer)", "voice": "female", "text": "Great, let's wrap up the interview with one last question." },
+      { "speaker": "Tuan (candidate)", "voice": "male", "text": "Sure, I'm happy to answer anything else you need." }
+    ],
+    "questions": [
+      { "q": "What problem happened at the start of the call?", "options": ["A technical issue", "A power cut", "A wrong link"], "answer": 0 },
+      { "q": "What does Trang ask Tuan to share?", "options": ["His resume", "His portfolio via screen share", "His salary slip"], "answer": 1 },
+      { "q": "What does Trang remind Tuan to do during the call?", "options": ["Keep eye contact with the camera", "Turn off his camera", "Speak louder"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Sorry for the technical issue, but I have a stable connection now.",
+    "I've worked as a software developer for four years at my company.",
+    "I'll share my screen so you can see my recent project.",
+    "I always try to keep eye contact with the camera during interviews.",
+    "Thank you for your time, I'm happy to answer any more questions."
+  ]
+}

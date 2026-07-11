@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-12",
+  "track": "office",
+  "theme": "Taking meeting notes and minutes",
+  "vocab": [
+    {
+      "word": "take notes",
+      "ipa": "/teɪk nəʊts/",
+      "meaning_vi": "ghi chú",
+      "example": "Can you take notes during today's meeting?",
+      "example_vi": "Bạn có thể ghi chú trong buổi họp hôm nay không?"
+    },
+    {
+      "word": "attendee",
+      "ipa": "/əˈtendiː/",
+      "meaning_vi": "người tham dự",
+      "example": "We have eight attendees for the planning meeting.",
+      "example_vi": "Chúng ta có tám người tham dự buổi họp lên kế hoạch."
+    },
+    {
+      "word": "apologies",
+      "ipa": "/əˈpɒlədʒiz/",
+      "meaning_vi": "lời xin vắng mặt (trong biên bản họp)",
+      "example": "Please note apologies from Lan, who is on leave today.",
+      "example_vi": "Vui lòng ghi nhận lời xin vắng mặt từ chị Lan, người đang nghỉ phép hôm nay."
+    },
+    {
+      "word": "circulate",
+      "ipa": "/ˈsɜːkjəleɪt/",
+      "meaning_vi": "gửi (tài liệu) cho mọi người",
+      "example": "I'll circulate the minutes by email this afternoon.",
+      "example_vi": "Tôi sẽ gửi biên bản họp qua email vào chiều nay."
+    },
+    {
+      "word": "for the record",
+      "ipa": "/fɔː(r) ðə ˈrekɔːd/",
+      "meaning_vi": "để ghi vào biên bản (chính thức)",
+      "example": "For the record, the team agreed to launch next month.",
+      "example_vi": "Để ghi vào biên bản, đội đã đồng ý ra mắt vào tháng sau."
+    },
+    {
+      "word": "sign off on",
+      "ipa": "/saɪn ɒf ɒn/",
+      "meaning_vi": "phê duyệt, thông qua",
+      "example": "The manager needs to sign off on the minutes first.",
+      "example_vi": "Quản lý cần phê duyệt biên bản họp trước."
+    },
+    {
+      "word": "draft minutes",
+      "ipa": "/drɑːft ˈmɪnɪts/",
+      "meaning_vi": "bản dự thảo biên bản họp",
+      "example": "I've written the draft minutes for you to check.",
+      "example_vi": "Tôi đã viết bản dự thảo biên bản họp để bạn kiểm tra."
+    },
+    {
+      "word": "recap",
+      "ipa": "/ˈriːkæp/",
+      "meaning_vi": "tóm tắt lại",
+      "example": "Let's recap the main decisions before we finish.",
+      "example_vi": "Hãy tóm tắt lại các quyết định chính trước khi kết thúc."
+    }
+  ],
+  "listening": {
+    "title": "Preparing the meeting minutes",
+    "lines": [
+      { "speaker": "Minh (team lead)", "voice": "male", "text": "Hoa, could you take notes during today's meeting?" },
+      { "speaker": "Hoa (note-taker)", "voice": "female", "text": "Sure. Let me check the list of attendees first." },
+      { "speaker": "Minh (team lead)", "voice": "male", "text": "We have eight attendees. Please note apologies from Lan, who is on leave today." },
+      { "speaker": "Hoa (note-taker)", "voice": "female", "text": "Got it. I'll add that at the top of the minutes." },
+      { "speaker": "Minh (team lead)", "voice": "male", "text": "Great. For the record, we agreed to move the launch to next month." },
+      { "speaker": "Hoa (note-taker)", "voice": "female", "text": "Understood. I'll write that down as an official decision." },
+      { "speaker": "Minh (team lead)", "voice": "male", "text": "Can you send me the draft minutes by tomorrow morning?" },
+      { "speaker": "Hoa (note-taker)", "voice": "female", "text": "Of course. I'll circulate them to the whole team too." },
+      { "speaker": "Minh (team lead)", "voice": "male", "text": "Perfect. I need to sign off on them before they go out." },
+      { "speaker": "Hoa (note-taker)", "voice": "female", "text": "No problem. Let's recap the main decisions before I finish writing." },
+      { "speaker": "Minh (team lead)", "voice": "male", "text": "Sounds good. Thanks for handling this so carefully, Hoa." },
+      { "speaker": "Hoa (note-taker)", "voice": "female", "text": "You're welcome. I'll have everything ready by noon tomorrow." }
+    ],
+    "questions": [
+      { "q": "What does Minh ask Hoa to do during the meeting?", "options": ["Take notes", "Give a presentation", "Lead the meeting"], "answer": 0 },
+      { "q": "Why is Lan absent from the meeting?", "options": ["She resigned", "She is on leave", "She is in another meeting"], "answer": 1 },
+      { "q": "What does Minh need to do before the minutes go out?", "options": ["Translate them", "Sign off on them", "Delete them"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Could you take notes during today's meeting and list all the attendees?",
+    "Please note apologies from anyone who couldn't attend the meeting today.",
+    "For the record, the team agreed to move the launch date.",
+    "I'll circulate the draft minutes to the whole team this afternoon.",
+    "The manager needs to sign off on the minutes before we send them."
+  ]
+}
