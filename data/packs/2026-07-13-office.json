@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-13",
+  "track": "office",
+  "theme": "Organizing an internal company event",
+  "vocab": [
+    {
+      "word": "organize",
+      "ipa": "/ˈɔːɡənaɪz/",
+      "meaning_vi": "tổ chức",
+      "example": "We need to organize a team-building event next month.",
+      "example_vi": "Chúng ta cần tổ chức một sự kiện team-building vào tháng sau."
+    },
+    {
+      "word": "venue",
+      "ipa": "/ˈvenjuː/",
+      "meaning_vi": "địa điểm (tổ chức sự kiện)",
+      "example": "Have you booked a venue for the year-end party?",
+      "example_vi": "Bạn đã đặt địa điểm cho tiệc cuối năm chưa?"
+    },
+    {
+      "word": "RSVP",
+      "ipa": "/ˌɑːr es viː ˈpiː/",
+      "meaning_vi": "xác nhận tham dự",
+      "example": "Please RSVP by Friday so we can plan the catering.",
+      "example_vi": "Vui lòng xác nhận tham dự trước thứ Sáu để chúng tôi chuẩn bị đồ ăn."
+    },
+    {
+      "word": "cater",
+      "ipa": "/ˈkeɪtər/",
+      "meaning_vi": "phục vụ đồ ăn (cho sự kiện)",
+      "example": "We hired a company to cater the lunch for the event.",
+      "example_vi": "Chúng tôi thuê một công ty phục vụ đồ ăn trưa cho sự kiện."
+    },
+    {
+      "word": "decorate",
+      "ipa": "/ˈdekəreɪt/",
+      "meaning_vi": "trang trí",
+      "example": "Can you help decorate the office for the party?",
+      "example_vi": "Bạn có thể giúp trang trí văn phòng cho buổi tiệc không?"
+    },
+    {
+      "word": "sign-up sheet",
+      "ipa": "/saɪn ʌp ʃiːt/",
+      "meaning_vi": "danh sách đăng ký",
+      "example": "I've put a sign-up sheet on the board for volunteers.",
+      "example_vi": "Tôi đã dán danh sách đăng ký lên bảng cho tình nguyện viên."
+    },
+    {
+      "word": "logistics",
+      "ipa": "/ləˈdʒɪstɪks/",
+      "meaning_vi": "công tác hậu cần",
+      "example": "Who's handling the logistics, like the tables and chairs?",
+      "example_vi": "Ai sẽ lo công tác hậu cần, như bàn ghế?"
+    },
+    {
+      "word": "turnout",
+      "ipa": "/ˈtɜːnaʊt/",
+      "meaning_vi": "số lượng người tham dự",
+      "example": "We expect a good turnout for this year's event.",
+      "example_vi": "Chúng tôi mong sẽ có nhiều người tham dự sự kiện năm nay."
+    }
+  ],
+  "listening": {
+    "title": "Planning the year-end party",
+    "lines": [
+      { "speaker": "Nam (event lead)", "voice": "male", "text": "Linh, can you help me organize the year-end party this year?" },
+      { "speaker": "Linh (colleague)", "voice": "female", "text": "Sure! Have we booked a venue yet?" },
+      { "speaker": "Nam (event lead)", "voice": "male", "text": "Not yet, but I found a nice place near the office." },
+      { "speaker": "Linh (colleague)", "voice": "female", "text": "Great. Should we send out an RSVP form to everyone?" },
+      { "speaker": "Nam (event lead)", "voice": "male", "text": "Yes, please ask everyone to RSVP by next Friday." },
+      { "speaker": "Linh (colleague)", "voice": "female", "text": "I'll also check which company can cater the lunch." },
+      { "speaker": "Nam (event lead)", "voice": "male", "text": "Good idea. We should decorate the venue too." },
+      { "speaker": "Linh (colleague)", "voice": "female", "text": "I'll put a sign-up sheet for volunteers to help decorate." },
+      { "speaker": "Nam (event lead)", "voice": "male", "text": "Thanks. Can you also handle the logistics, like tables and chairs?" },
+      { "speaker": "Linh (colleague)", "voice": "female", "text": "Sure. I really hope we get a good turnout this year." },
+      { "speaker": "Nam (event lead)", "voice": "male", "text": "Me too. Let's send the invitation email out today." },
+      { "speaker": "Linh (colleague)", "voice": "female", "text": "Sounds good, I'll draft the invitation right now." }
+    ],
+    "questions": [
+      { "q": "What does Nam ask Linh to help with?", "options": ["Organize the year-end party", "Write a sales report", "Fix a software bug"], "answer": 0 },
+      { "q": "What does Nam ask everyone to do by Friday?", "options": ["Pay a fee", "RSVP", "Submit a report"], "answer": 1 },
+      { "q": "What does Linh put up for volunteers?", "options": ["A sign-up sheet", "A price list", "A meeting schedule"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Can you help me organize the year-end party this year?",
+    "Please RSVP by Friday so we can plan the catering.",
+    "We hired a company to cater the lunch for the whole team.",
+    "I've put a sign-up sheet on the board for volunteers.",
+    "Who's handling the logistics, like the tables and the chairs?"
+  ]
+}

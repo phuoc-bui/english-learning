@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-13",
+  "track": "finance",
+  "theme": "Reconciling figures",
+  "vocab": [
+    {
+      "word": "reconcile",
+      "ipa": "/ˈrekənsaɪl/",
+      "meaning_vi": "đối chiếu (số liệu)",
+      "example": "We need to reconcile the bank statement with our records.",
+      "example_vi": "Chúng ta cần đối chiếu sao kê ngân hàng với sổ sách của mình."
+    },
+    {
+      "word": "ledger",
+      "ipa": "/ˈledʒər/",
+      "meaning_vi": "sổ cái",
+      "example": "This transaction isn't showing up in the ledger yet.",
+      "example_vi": "Giao dịch này chưa xuất hiện trong sổ cái."
+    },
+    {
+      "word": "mismatch",
+      "ipa": "/ˈmɪsmætʃ/",
+      "meaning_vi": "sự chênh lệch, không khớp",
+      "example": "There's a mismatch between the invoice and the payment amount.",
+      "example_vi": "Có sự chênh lệch giữa hóa đơn và số tiền đã thanh toán."
+    },
+    {
+      "word": "variance",
+      "ipa": "/ˈveəriəns/",
+      "meaning_vi": "sự chênh lệch (số liệu)",
+      "example": "Can you explain the variance between the two reports?",
+      "example_vi": "Bạn có thể giải thích sự chênh lệch giữa hai báo cáo không?"
+    },
+    {
+      "word": "cross-check",
+      "ipa": "/ˈkrɒs tʃek/",
+      "meaning_vi": "kiểm tra chéo",
+      "example": "I always cross-check the numbers before closing the books.",
+      "example_vi": "Tôi luôn kiểm tra chéo số liệu trước khi chốt sổ."
+    },
+    {
+      "word": "adjust an entry",
+      "ipa": "/əˈdʒʌst ən ˈentri/",
+      "meaning_vi": "điều chỉnh một bút toán",
+      "example": "We had to adjust an entry after finding the error.",
+      "example_vi": "Chúng tôi phải điều chỉnh một bút toán sau khi phát hiện lỗi."
+    },
+    {
+      "word": "closing balance",
+      "ipa": "/ˈkləʊzɪŋ ˈbæləns/",
+      "meaning_vi": "số dư cuối kỳ",
+      "example": "The closing balance should match the bank statement exactly.",
+      "example_vi": "Số dư cuối kỳ phải khớp chính xác với sao kê ngân hàng."
+    },
+    {
+      "word": "opening balance",
+      "ipa": "/ˈəʊpənɪŋ ˈbæləns/",
+      "meaning_vi": "số dư đầu kỳ",
+      "example": "Please confirm the opening balance for this quarter.",
+      "example_vi": "Vui lòng xác nhận số dư đầu kỳ cho quý này."
+    }
+  ],
+  "listening": {
+    "title": "Reconciling the monthly accounts",
+    "lines": [
+      { "speaker": "Hoa (accountant)", "voice": "female", "text": "Duc, can you help me reconcile the accounts this morning?" },
+      { "speaker": "Duc (finance staff)", "voice": "male", "text": "Sure, are the numbers not matching the ledger?" },
+      { "speaker": "Hoa (accountant)", "voice": "female", "text": "Right, there's a mismatch between the invoice and the payment." },
+      { "speaker": "Duc (finance staff)", "voice": "male", "text": "Let me check the variance between the two reports." },
+      { "speaker": "Hoa (accountant)", "voice": "female", "text": "Please cross-check the figures with last month's statement too." },
+      { "speaker": "Duc (finance staff)", "voice": "male", "text": "Okay, I found it. We forgot to adjust an entry last week." },
+      { "speaker": "Hoa (accountant)", "voice": "female", "text": "Good catch. Can you fix it before we confirm the closing balance?" },
+      { "speaker": "Duc (finance staff)", "voice": "male", "text": "Yes, I'll update it now and recalculate everything." },
+      { "speaker": "Hoa (accountant)", "voice": "female", "text": "Great, and please confirm the opening balance for next month." },
+      { "speaker": "Duc (finance staff)", "voice": "male", "text": "Sure, I'll send both figures to you by lunchtime." },
+      { "speaker": "Hoa (accountant)", "voice": "female", "text": "Thanks, Duc. This report needs to be accurate for the audit." },
+      { "speaker": "Duc (finance staff)", "voice": "male", "text": "Understood, I'll double-check everything before I send it." }
+    ],
+    "questions": [
+      { "q": "What problem does Hoa find first?", "options": ["A missing invoice", "A mismatch between invoice and payment", "A late payment"], "answer": 1 },
+      { "q": "What did Duc forget to do last week?", "options": ["Adjust an entry", "Send an invoice", "Pay the tax"], "answer": 0 },
+      { "q": "What does Hoa ask Duc to confirm for next month?", "options": ["The tax rate", "The opening balance", "The salary budget"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Can you help me reconcile the accounts before lunch this morning?",
+    "There's a mismatch between the invoice and the actual payment amount.",
+    "Let me check the variance between these two monthly reports carefully.",
+    "We forgot to adjust an entry in the ledger last week.",
+    "Please confirm the opening balance for next month before Friday."
+  ]
+}

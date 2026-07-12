@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-13",
+  "track": "sales",
+  "theme": "Sending and explaining a quotation",
+  "vocab": [
+    {
+      "word": "quotation",
+      "ipa": "/kwəʊˈteɪʃn/",
+      "meaning_vi": "báo giá",
+      "example": "I'll send you the quotation for the new order today.",
+      "example_vi": "Tôi sẽ gửi bạn báo giá cho đơn hàng mới hôm nay."
+    },
+    {
+      "word": "itemize",
+      "ipa": "/ˈaɪtəmaɪz/",
+      "meaning_vi": "liệt kê chi tiết (từng khoản)",
+      "example": "We itemize every cost so you can see what you're paying for.",
+      "example_vi": "Chúng tôi liệt kê chi tiết từng khoản để bạn thấy rõ mình trả cho gì."
+    },
+    {
+      "word": "valid until",
+      "ipa": "/ˈvælɪd ənˈtɪl/",
+      "meaning_vi": "có hiệu lực đến",
+      "example": "This quotation is valid until the end of the month.",
+      "example_vi": "Báo giá này có hiệu lực đến cuối tháng."
+    },
+    {
+      "word": "unit price",
+      "ipa": "/ˈjuːnɪt praɪs/",
+      "meaning_vi": "đơn giá",
+      "example": "The unit price drops if you order more than fifty units.",
+      "example_vi": "Đơn giá sẽ giảm nếu bạn đặt hơn năm mươi đơn vị."
+    },
+    {
+      "word": "breakdown",
+      "ipa": "/ˈbreɪkdaʊn/",
+      "meaning_vi": "bảng phân tích chi tiết",
+      "example": "Let me walk you through the cost breakdown on page two.",
+      "example_vi": "Để tôi giải thích bảng phân tích chi phí ở trang hai."
+    },
+    {
+      "word": "revise",
+      "ipa": "/rɪˈvaɪz/",
+      "meaning_vi": "chỉnh sửa, sửa lại",
+      "example": "Can you revise the quotation to include installation fees?",
+      "example_vi": "Bạn có thể chỉnh sửa báo giá để thêm phí lắp đặt không?"
+    },
+    {
+      "word": "line item",
+      "ipa": "/laɪn ˈaɪtəm/",
+      "meaning_vi": "khoản mục (trong báo giá)",
+      "example": "Each line item shows the product name and its price.",
+      "example_vi": "Mỗi khoản mục hiển thị tên sản phẩm và giá của nó."
+    },
+    {
+      "word": "total cost",
+      "ipa": "/ˈtəʊtl kɒst/",
+      "meaning_vi": "tổng chi phí",
+      "example": "The total cost includes tax and shipping.",
+      "example_vi": "Tổng chi phí đã bao gồm thuế và phí vận chuyển."
+    }
+  ],
+  "listening": {
+    "title": "Explaining a quotation to a client",
+    "lines": [
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "Hi Khang, I've just sent you the quotation for your order." },
+      { "speaker": "Khang (client)", "voice": "male", "text": "Thanks, Hoa. Can you explain how the price is calculated?" },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "Sure, we itemize every product so you can see each line item." },
+      { "speaker": "Khang (client)", "voice": "male", "text": "I see. What's the unit price for the standard package?" },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "It's two hundred dollars, but the price drops for bulk orders." },
+      { "speaker": "Khang (client)", "voice": "male", "text": "Could you show me the full cost breakdown?" },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "Of course, it's on page two, right above the total cost." },
+      { "speaker": "Khang (client)", "voice": "male", "text": "Got it. Also, can you revise it to include installation fees?" },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "No problem, I'll send a revised quotation this afternoon." },
+      { "speaker": "Khang (client)", "voice": "male", "text": "Great, how long is this quotation valid until?" },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "It's valid until the end of this month." },
+      { "speaker": "Khang (client)", "voice": "male", "text": "Perfect, I'll review it with my manager and get back to you." }
+    ],
+    "questions": [
+      { "q": "What does Hoa send to Khang at the start?", "options": ["A contract", "A quotation", "An invoice"], "answer": 1 },
+      { "q": "What does Khang ask Hoa to add to the quotation?", "options": ["A discount", "Installation fees", "A free trial"], "answer": 1 },
+      { "q": "How long is the quotation valid?", "options": ["One week", "Until the end of the month", "Until next year"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "I've just sent you the quotation for your order today.",
+    "We itemize every product so you can see each line item.",
+    "Could you please show me the full cost breakdown on page two?",
+    "Can you revise it to include the installation fees too?",
+    "This quotation is valid until the end of the month."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-13",
+  "track": "interview",
+  "theme": "Telling a story using the STAR method",
+  "vocab": [
+    {
+      "word": "situation",
+      "ipa": "/ˌsɪtʃuˈeɪʃn/",
+      "meaning_vi": "tình huống",
+      "example": "Start by describing the situation you were dealing with.",
+      "example_vi": "Hãy bắt đầu bằng cách mô tả tình huống bạn đã gặp phải."
+    },
+    {
+      "word": "task",
+      "ipa": "/tɑːsk/",
+      "meaning_vi": "nhiệm vụ",
+      "example": "My task was to deliver the project within two weeks.",
+      "example_vi": "Nhiệm vụ của tôi là hoàn thành dự án trong hai tuần."
+    },
+    {
+      "word": "take action",
+      "ipa": "/teɪk ˈækʃn/",
+      "meaning_vi": "hành động, thực hiện",
+      "example": "I took action right away to fix the problem.",
+      "example_vi": "Tôi đã hành động ngay để khắc phục vấn đề."
+    },
+    {
+      "word": "outcome",
+      "ipa": "/ˈaʊtkʌm/",
+      "meaning_vi": "kết quả",
+      "example": "The outcome was that we finished two days early.",
+      "example_vi": "Kết quả là chúng tôi hoàn thành sớm hai ngày."
+    },
+    {
+      "word": "structure your answer",
+      "ipa": "/ˈstrʌktʃər jɔːr ˈɑːnsər/",
+      "meaning_vi": "sắp xếp câu trả lời có cấu trúc",
+      "example": "Try to structure your answer clearly using the STAR method.",
+      "example_vi": "Hãy cố gắng sắp xếp câu trả lời rõ ràng theo phương pháp STAR."
+    },
+    {
+      "word": "concrete example",
+      "ipa": "/ˈkɒŋkriːt ɪɡˈzɑːmpl/",
+      "meaning_vi": "ví dụ cụ thể",
+      "example": "Can you give a concrete example from your last job?",
+      "example_vi": "Bạn có thể cho một ví dụ cụ thể từ công việc trước không?"
+    },
+    {
+      "word": "quantify",
+      "ipa": "/ˈkwɒntɪfaɪ/",
+      "meaning_vi": "định lượng (bằng số liệu)",
+      "example": "Try to quantify the result, like a percentage or a number.",
+      "example_vi": "Hãy cố gắng định lượng kết quả, ví dụ bằng phần trăm hoặc con số."
+    },
+    {
+      "word": "walk me through",
+      "ipa": "/wɔːk miː θruː/",
+      "meaning_vi": "kể/giải thích chi tiết cho tôi nghe",
+      "example": "Could you walk me through how you handled that project?",
+      "example_vi": "Bạn có thể kể chi tiết cho tôi nghe cách bạn xử lý dự án đó không?"
+    }
+  ],
+  "listening": {
+    "title": "Practicing a STAR answer",
+    "lines": [
+      { "speaker": "Trang (interviewer)", "voice": "female", "text": "Could you walk me through a challenge you faced at work?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "Sure, let me structure my answer using the STAR method." },
+      { "speaker": "Trang (interviewer)", "voice": "female", "text": "Great, please start with the situation." },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "Our team faced a tight deadline for a client's release." },
+      { "speaker": "Trang (interviewer)", "voice": "female", "text": "I see. What was your task in that situation?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "My task was to fix the critical bugs before launch." },
+      { "speaker": "Trang (interviewer)", "voice": "female", "text": "What action did you take next?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "I took action by working with two teammates overnight." },
+      { "speaker": "Trang (interviewer)", "voice": "female", "text": "Can you quantify the outcome for me?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "The outcome was zero bugs, and we launched on time." },
+      { "speaker": "Trang (interviewer)", "voice": "female", "text": "That's a great concrete example, thank you." },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "Thank you, I'm glad the story was clear." }
+    ],
+    "questions": [
+      { "q": "What method does Minh use to structure his answer?", "options": ["The STAR method", "The SWOT method", "A free-form story"], "answer": 0 },
+      { "q": "What was Minh's task?", "options": ["Hire new staff", "Fix critical bugs before launch", "Write a report"], "answer": 1 },
+      { "q": "What was the outcome Minh describes?", "options": ["The project was cancelled", "Zero bugs and an on-time launch", "The deadline was extended"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Could you walk me through a challenge you faced at work?",
+    "Let me structure my answer clearly using the STAR method.",
+    "My task was to fix the critical bugs before launch.",
+    "I took action right away by working with two teammates overnight.",
+    "The outcome was zero bugs, and we launched on time."
+  ]
+}
