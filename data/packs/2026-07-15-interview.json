@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-15",
+  "track": "interview",
+  "theme": "Tìm hiểu văn hoá công ty",
+  "vocab": [
+    {
+      "word": "core values",
+      "ipa": "/kɔːr ˈvæljuːz/",
+      "meaning_vi": "giá trị cốt lõi",
+      "example": "I read that your core values include honesty and teamwork.",
+      "example_vi": "Tôi đọc được rằng giá trị cốt lõi của công ty là trung thực và làm việc nhóm."
+    },
+    {
+      "word": "work environment",
+      "ipa": "/wɜːrk ɪnˈvaɪrənmənt/",
+      "meaning_vi": "môi trường làm việc",
+      "example": "I'm curious about the work environment on your team.",
+      "example_vi": "Tôi tò mò về môi trường làm việc trong đội của anh/chị."
+    },
+    {
+      "word": "work-life balance",
+      "ipa": "/wɜːrk laɪf ˈbæləns/",
+      "meaning_vi": "cân bằng công việc - cuộc sống",
+      "example": "How would you describe work-life balance here?",
+      "example_vi": "Anh/chị có thể mô tả sự cân bằng công việc - cuộc sống ở đây không?"
+    },
+    {
+      "word": "collaborative",
+      "ipa": "/kəˈlæbərətɪv/",
+      "meaning_vi": "có tính hợp tác",
+      "example": "I read that the team is very collaborative.",
+      "example_vi": "Tôi đọc được rằng đội này rất có tính hợp tác."
+    },
+    {
+      "word": "fit in",
+      "ipa": "/fɪt ɪn/",
+      "meaning_vi": "hòa nhập, phù hợp",
+      "example": "I want to make sure I would fit in well here.",
+      "example_vi": "Tôi muốn chắc chắn rằng mình sẽ hòa nhập tốt ở đây."
+    },
+    {
+      "word": "mission statement",
+      "ipa": "/ˈmɪʃn ˈsteɪtmənt/",
+      "meaning_vi": "tuyên ngôn sứ mệnh",
+      "example": "I really connected with your company's mission statement.",
+      "example_vi": "Tôi thực sự đồng cảm với tuyên ngôn sứ mệnh của công ty."
+    },
+    {
+      "word": "management style",
+      "ipa": "/ˈmænɪdʒmənt staɪl/",
+      "meaning_vi": "phong cách quản lý",
+      "example": "Could you tell me about the manager's management style?",
+      "example_vi": "Anh/chị có thể cho tôi biết về phong cách quản lý của quản lý trực tiếp không?"
+    },
+    {
+      "word": "diverse team",
+      "ipa": "/daɪˈvɜːrs tiːm/",
+      "meaning_vi": "đội ngũ đa dạng",
+      "example": "I noticed the team is quite diverse.",
+      "example_vi": "Tôi nhận thấy đội ngũ khá đa dạng."
+    }
+  ],
+  "listening": {
+    "title": "Asking about company culture",
+    "lines": [
+      { "speaker": "Lan (interviewer)", "voice": "female", "text": "Do you have any questions about our company before we finish?" },
+      { "speaker": "Duc (candidate)", "voice": "male", "text": "Yes, could you tell me about the team's core values?" },
+      { "speaker": "Lan (interviewer)", "voice": "female", "text": "Of course. We value honesty, teamwork, and continuous learning." },
+      { "speaker": "Duc (candidate)", "voice": "male", "text": "That's great. What's the work environment like day to day?" },
+      { "speaker": "Lan (interviewer)", "voice": "female", "text": "It's quite relaxed, but people work hard to meet deadlines." },
+      { "speaker": "Duc (candidate)", "voice": "male", "text": "I see. How would you describe work-life balance here?" },
+      { "speaker": "Lan (interviewer)", "voice": "female", "text": "We try to keep it balanced with flexible working hours." },
+      { "speaker": "Duc (candidate)", "voice": "male", "text": "Good to know. Is the team collaborative when solving problems?" },
+      { "speaker": "Lan (interviewer)", "voice": "female", "text": "Yes, very collaborative. We also have quite a diverse team." },
+      { "speaker": "Duc (candidate)", "voice": "male", "text": "That's reassuring. I really connected with your mission statement online." },
+      { "speaker": "Lan (interviewer)", "voice": "female", "text": "Glad to hear that. Anything about our management style you'd like to know?" },
+      { "speaker": "Duc (candidate)", "voice": "male", "text": "I'm hoping to fit in well and grow with the team." }
+    ],
+    "questions": [
+      { "q": "What does Duc first ask about?", "options": ["The team's core values", "The salary range", "The office location"], "answer": 0 },
+      { "q": "How does Lan describe the team?", "options": ["Very competitive", "Very collaborative and diverse", "Very strict"], "answer": 1 },
+      { "q": "What does Duc say he read about the company?", "options": ["Its mission statement", "Its stock price", "Its office rules"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Could you tell me about the team's core values and daily habits?",
+    "What's the work environment like for people on this team?",
+    "How would you describe work-life balance for someone in this role?",
+    "I noticed the team seems collaborative and quite diverse online.",
+    "I really connected with your company's mission statement and values."
+  ]
+}

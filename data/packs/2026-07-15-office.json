@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-15",
+  "track": "office",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    {
+      "word": "onboarding",
+      "ipa": "/ˈɒnbɔːdɪŋ/",
+      "meaning_vi": "quá trình hội nhập nhân viên mới",
+      "example": "The onboarding process usually takes about two weeks.",
+      "example_vi": "Quá trình hội nhập thường kéo dài khoảng hai tuần."
+    },
+    {
+      "word": "orientation",
+      "ipa": "/ˌɔːrienˈteɪʃn/",
+      "meaning_vi": "buổi định hướng",
+      "example": "We'll start with an orientation session on your first day.",
+      "example_vi": "Chúng ta sẽ bắt đầu bằng buổi định hướng vào ngày đầu tiên của bạn."
+    },
+    {
+      "word": "mentor",
+      "ipa": "/ˈmentɔːr/",
+      "meaning_vi": "người cố vấn, người hướng dẫn",
+      "example": "I'll be your mentor for the first month.",
+      "example_vi": "Tôi sẽ là người hướng dẫn bạn trong tháng đầu tiên."
+    },
+    {
+      "word": "shadow",
+      "ipa": "/ˈʃædoʊ/",
+      "meaning_vi": "đi theo học việc, quan sát",
+      "example": "You can shadow me during client calls this week.",
+      "example_vi": "Tuần này bạn có thể đi theo quan sát tôi trong các cuộc gọi với khách hàng."
+    },
+    {
+      "word": "paperwork",
+      "ipa": "/ˈpeɪpərwɜːrk/",
+      "meaning_vi": "giấy tờ, thủ tục hành chính",
+      "example": "Please complete the paperwork before your start date.",
+      "example_vi": "Vui lòng hoàn tất giấy tờ trước ngày bắt đầu làm việc."
+    },
+    {
+      "word": "IT setup",
+      "ipa": "/aɪ tiː ˈsetʌp/",
+      "meaning_vi": "thiết lập thiết bị/CNTT",
+      "example": "IT setup for your laptop will be ready on day one.",
+      "example_vi": "Việc thiết lập laptop cho bạn sẽ sẵn sàng vào ngày đầu tiên."
+    },
+    {
+      "word": "probation period",
+      "ipa": "/prəˈbeɪʃn ˈpɪriəd/",
+      "meaning_vi": "thời gian thử việc",
+      "example": "Your probation period will last three months.",
+      "example_vi": "Thời gian thử việc của bạn sẽ kéo dài ba tháng."
+    },
+    {
+      "word": "ramp up",
+      "ipa": "/ræmp ʌp/",
+      "meaning_vi": "tăng tốc, bắt nhịp (công việc)",
+      "example": "It usually takes a few weeks to ramp up in a new role.",
+      "example_vi": "Thường mất vài tuần để bắt nhịp được với một vai trò mới."
+    }
+  ],
+  "listening": {
+    "title": "Welcoming a new employee",
+    "lines": [
+      { "speaker": "Hoa (HR)", "voice": "female", "text": "Welcome to the company, Tuan! Let's start your onboarding today." },
+      { "speaker": "Tuan (new employee)", "voice": "male", "text": "Thank you, I'm really excited to get started." },
+      { "speaker": "Hoa (HR)", "voice": "female", "text": "We'll begin with an orientation session about our culture." },
+      { "speaker": "Tuan (new employee)", "voice": "male", "text": "Sounds great. Will I have someone to guide me?" },
+      { "speaker": "Hoa (HR)", "voice": "female", "text": "Yes, Nam will be your mentor and you can shadow him this week." },
+      { "speaker": "Tuan (new employee)", "voice": "male", "text": "That's really helpful. Is there any paperwork I need to complete?" },
+      { "speaker": "Hoa (HR)", "voice": "female", "text": "Yes, please finish the paperwork today, and your IT setup will be ready tomorrow." },
+      { "speaker": "Tuan (new employee)", "voice": "male", "text": "Perfect. How long is my probation period here?" },
+      { "speaker": "Hoa (HR)", "voice": "female", "text": "It's three months. It usually takes a few weeks to ramp up in a new role." },
+      { "speaker": "Tuan (new employee)", "voice": "male", "text": "Thanks, Hoa. I'll do my best to ramp up quickly." }
+    ],
+    "questions": [
+      { "q": "What will Tuan have during his first days?", "options": ["An orientation session", "A sales pitch", "A performance review"], "answer": 0 },
+      { "q": "Who will be Tuan's mentor?", "options": ["Hoa", "Nam", "Linh"], "answer": 1 },
+      { "q": "How long is Tuan's probation period?", "options": ["One month", "Three months", "Six months"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "We'll begin with a short orientation session about our company culture.",
+    "Nam will be your mentor, so you can shadow him this week.",
+    "Please finish all the paperwork before the end of today.",
+    "Your IT setup will be ready first thing tomorrow morning.",
+    "It usually takes a few weeks to ramp up in a new role."
+  ]
+}

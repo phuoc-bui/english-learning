@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-15",
+  "track": "finance",
+  "theme": "Trình bày số liệu với sếp",
+  "vocab": [
+    {
+      "word": "slide deck",
+      "ipa": "/slaɪd dek/",
+      "meaning_vi": "bộ slide trình bày",
+      "example": "I've prepared a slide deck to present the numbers.",
+      "example_vi": "Tôi đã chuẩn bị một bộ slide để trình bày số liệu."
+    },
+    {
+      "word": "year-on-year",
+      "ipa": "/jɪər ɒn jɪər/",
+      "meaning_vi": "so với cùng kỳ năm trước",
+      "example": "Revenue grew 12% year-on-year.",
+      "example_vi": "Doanh thu tăng 12% so với cùng kỳ năm trước."
+    },
+    {
+      "word": "trend",
+      "ipa": "/trend/",
+      "meaning_vi": "xu hướng",
+      "example": "This chart shows a clear upward trend.",
+      "example_vi": "Biểu đồ này cho thấy một xu hướng tăng rõ rệt."
+    },
+    {
+      "word": "key takeaway",
+      "ipa": "/kiː ˈteɪkəweɪ/",
+      "meaning_vi": "điểm chính rút ra",
+      "example": "The key takeaway is that costs are under control.",
+      "example_vi": "Điểm chính rút ra là chi phí đang được kiểm soát tốt."
+    },
+    {
+      "word": "drill down",
+      "ipa": "/drɪl daʊn/",
+      "meaning_vi": "đi sâu vào chi tiết số liệu",
+      "example": "Let's drill down into the marketing expenses.",
+      "example_vi": "Hãy cùng đi sâu vào chi phí marketing."
+    },
+    {
+      "word": "flag a concern",
+      "ipa": "/flæg ə kənˈsɜːrn/",
+      "meaning_vi": "nêu lên mối lo ngại",
+      "example": "I want to flag a concern about next quarter.",
+      "example_vi": "Tôi muốn nêu lên một mối lo ngại về quý tới."
+    },
+    {
+      "word": "at a glance",
+      "ipa": "/æt ə ɡlɑːns/",
+      "meaning_vi": "nhìn thoáng qua là hiểu",
+      "example": "This summary table shows the numbers at a glance.",
+      "example_vi": "Bảng tóm tắt này cho thấy số liệu chỉ với một cái nhìn thoáng qua."
+    },
+    {
+      "word": "benchmark",
+      "ipa": "/ˈbentʃmɑːrk/",
+      "meaning_vi": "mốc so sánh, chuẩn đối chiếu",
+      "example": "We use last year's numbers as a benchmark.",
+      "example_vi": "Chúng tôi dùng số liệu năm ngoái làm mốc so sánh."
+    }
+  ],
+  "listening": {
+    "title": "Presenting the quarterly numbers",
+    "lines": [
+      { "speaker": "Minh (financial analyst)", "voice": "male", "text": "I've prepared a slide deck to present this quarter's numbers." },
+      { "speaker": "Huong (manager)", "voice": "female", "text": "Great, let's start. How did revenue perform year-on-year?" },
+      { "speaker": "Minh (financial analyst)", "voice": "male", "text": "Revenue grew twelve percent year-on-year, so the trend looks positive." },
+      { "speaker": "Huong (manager)", "voice": "female", "text": "That's good news. What's the key takeaway for this quarter?" },
+      { "speaker": "Minh (financial analyst)", "voice": "male", "text": "The key takeaway is that we controlled costs while growing sales." },
+      { "speaker": "Huong (manager)", "voice": "female", "text": "Can we drill down into the marketing expenses a bit more?" },
+      { "speaker": "Minh (financial analyst)", "voice": "male", "text": "Sure, I'll drill down into that on the next slide." },
+      { "speaker": "Huong (manager)", "voice": "female", "text": "I want to flag a concern about the rising delivery costs." },
+      { "speaker": "Minh (financial analyst)", "voice": "male", "text": "Understood, I'll add a benchmark comparison for delivery costs too." },
+      { "speaker": "Huong (manager)", "voice": "female", "text": "Perfect. This summary table shows everything at a glance." }
+    ],
+    "questions": [
+      { "q": "What did Minh prepare for the meeting?", "options": ["A slide deck", "A sales contract", "A recruitment plan"], "answer": 0 },
+      { "q": "How much did revenue grow year-on-year?", "options": ["5%", "12%", "20%"], "answer": 1 },
+      { "q": "What does Huong want to flag a concern about?", "options": ["Rising delivery costs", "Low attendance", "A tax audit"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I've prepared a slide deck to present this quarter's numbers.",
+    "Revenue grew twelve percent year-on-year, so the trend looks positive.",
+    "Can we drill down into the marketing expenses a bit more?",
+    "I want to flag a concern about the rising delivery costs.",
+    "This summary table shows all the numbers clearly at a glance."
+  ]
+}

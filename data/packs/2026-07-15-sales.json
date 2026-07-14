@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-15",
+  "track": "sales",
+  "theme": "Networking tại hội chợ/sự kiện",
+  "vocab": [
+    {
+      "word": "booth",
+      "ipa": "/buːð/",
+      "meaning_vi": "gian hàng (triển lãm)",
+      "example": "Our booth is located near the main entrance this year.",
+      "example_vi": "Gian hàng của chúng tôi nằm gần cổng chính năm nay."
+    },
+    {
+      "word": "exhibitor",
+      "ipa": "/ɪɡˈzɪbɪtər/",
+      "meaning_vi": "đơn vị/nhà trưng bày",
+      "example": "Every exhibitor gets a badge and a table at the event.",
+      "example_vi": "Mỗi nhà trưng bày được cấp một thẻ đeo và một bàn tại sự kiện."
+    },
+    {
+      "word": "badge",
+      "ipa": "/bædʒ/",
+      "meaning_vi": "thẻ đeo (sự kiện)",
+      "example": "Don't forget to wear your badge at the trade show.",
+      "example_vi": "Đừng quên đeo thẻ tại hội chợ thương mại."
+    },
+    {
+      "word": "mingle",
+      "ipa": "/ˈmɪŋɡl/",
+      "meaning_vi": "giao lưu, hòa nhập (với đám đông)",
+      "example": "Let's mingle with other guests before the talks start.",
+      "example_vi": "Hãy giao lưu với các khách mời khác trước khi các buổi nói chuyện bắt đầu."
+    },
+    {
+      "word": "lead",
+      "ipa": "/liːd/",
+      "meaning_vi": "khách hàng tiềm năng (thu thập được)",
+      "example": "We collected over fifty leads at the trade show.",
+      "example_vi": "Chúng tôi đã thu thập được hơn năm mươi khách hàng tiềm năng tại hội chợ."
+    },
+    {
+      "word": "qualify a lead",
+      "ipa": "/ˈkwɒlɪfaɪ ə liːd/",
+      "meaning_vi": "sàng lọc, đánh giá khách hàng tiềm năng",
+      "example": "We need to qualify each lead before following up.",
+      "example_vi": "Chúng ta cần sàng lọc từng khách hàng tiềm năng trước khi liên hệ lại."
+    },
+    {
+      "word": "catch someone's eye",
+      "ipa": "/kætʃ ˈsʌmwʌnz aɪ/",
+      "meaning_vi": "thu hút sự chú ý",
+      "example": "This banner really catches people's eye at the booth.",
+      "example_vi": "Tấm banner này thực sự thu hút sự chú ý tại gian hàng."
+    },
+    {
+      "word": "wrap up a conversation",
+      "ipa": "/ræp ʌp ə ˌkɒnvərˈseɪʃn/",
+      "meaning_vi": "kết thúc cuộc trò chuyện (khéo léo)",
+      "example": "I always try to wrap up a conversation politely.",
+      "example_vi": "Tôi luôn cố gắng kết thúc cuộc trò chuyện một cách khéo léo."
+    }
+  ],
+  "listening": {
+    "title": "Working the trade show floor",
+    "lines": [
+      { "speaker": "Linh (sales rep)", "voice": "female", "text": "Our booth looks great! I hope we catch people's eye today." },
+      { "speaker": "Duc (colleague)", "voice": "male", "text": "It really does. Did you bring enough badges for the team?" },
+      { "speaker": "Linh (sales rep)", "voice": "female", "text": "Yes, every exhibitor gets five badges this year." },
+      { "speaker": "Duc (colleague)", "voice": "male", "text": "Nice. Should we mingle with the crowd before it gets busy?" },
+      { "speaker": "Linh (sales rep)", "voice": "female", "text": "Good idea. Let's try to collect as many leads as possible." },
+      { "speaker": "Duc (colleague)", "voice": "male", "text": "Sure. I'll write down notes so we can qualify each lead later." },
+      { "speaker": "Linh (sales rep)", "voice": "female", "text": "Great. Remember to wrap up each conversation politely so we can move on." },
+      { "speaker": "Duc (colleague)", "voice": "male", "text": "Got it. I already talked to three exhibitors from other companies." },
+      { "speaker": "Linh (sales rep)", "voice": "female", "text": "That's a great start. Let's meet back at the booth in an hour." },
+      { "speaker": "Duc (colleague)", "voice": "male", "text": "Sounds good. I'll bring you a list of new leads by then." }
+    ],
+    "questions": [
+      { "q": "What does Linh hope the booth will do?", "options": ["Catch people's eye", "Sell nothing", "Stay empty"], "answer": 0 },
+      { "q": "How many badges does each exhibitor get?", "options": ["Three", "Five", "Ten"], "answer": 1 },
+      { "q": "What should Duc and Linh do with each lead?", "options": ["Ignore it", "Qualify it", "Delete it"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Our booth looks great, so let's catch people's eye today.",
+    "Every exhibitor gets five badges to wear at the event.",
+    "Let's mingle with the crowd before the booth gets busy.",
+    "We collected over fifty leads at the trade show today.",
+    "I always try to wrap up each conversation politely and quickly."
+  ]
+}
