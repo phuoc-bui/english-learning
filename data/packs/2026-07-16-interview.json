@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-16",
+  "track": "interview",
+  "theme": "Thất bại & bài học",
+  "vocab": [
+    {
+      "word": "setback",
+      "ipa": "/ˈsetbæk/",
+      "meaning_vi": "trở ngại, thất bại tạm thời",
+      "example": "I faced a setback early in the project.",
+      "example_vi": "Tôi gặp phải trở ngại ngay từ đầu dự án."
+    },
+    {
+      "word": "miss a deadline",
+      "ipa": "/mɪs ə ˈdedlaɪn/",
+      "meaning_vi": "trễ hạn chót",
+      "example": "I once missed a deadline on an important project.",
+      "example_vi": "Tôi từng trễ deadline của một dự án quan trọng."
+    },
+    {
+      "word": "take responsibility",
+      "ipa": "/teɪk rɪˌspɒnsəˈbɪləti/",
+      "meaning_vi": "nhận trách nhiệm",
+      "example": "I took responsibility for the delay right away.",
+      "example_vi": "Tôi nhận trách nhiệm về sự chậm trễ ngay lập tức."
+    },
+    {
+      "word": "root cause",
+      "ipa": "/ruːt kɔːz/",
+      "meaning_vi": "nguyên nhân gốc rễ",
+      "example": "We found that the root cause was poor time estimation.",
+      "example_vi": "Chúng tôi phát hiện nguyên nhân gốc rễ là ước lượng thời gian kém."
+    },
+    {
+      "word": "bounce back",
+      "ipa": "/baʊns bæk/",
+      "meaning_vi": "hồi phục, đứng dậy sau thất bại",
+      "example": "It took time, but I managed to bounce back.",
+      "example_vi": "Phải mất thời gian, nhưng tôi đã hồi phục được."
+    },
+    {
+      "word": "takeaway",
+      "ipa": "/ˈteɪkəweɪ/",
+      "meaning_vi": "bài học rút ra",
+      "example": "My biggest takeaway was to communicate earlier.",
+      "example_vi": "Bài học lớn nhất của tôi là giao tiếp sớm hơn."
+    },
+    {
+      "word": "reflect on",
+      "ipa": "/rɪˈflekt ɒn/",
+      "meaning_vi": "nhìn lại, suy ngẫm về",
+      "example": "I like to reflect on what went wrong.",
+      "example_vi": "Tôi thích nhìn lại những gì đã sai."
+    },
+    {
+      "word": "constructive criticism",
+      "ipa": "/kənˈstrʌktɪv ˈkrɪtɪsɪzəm/",
+      "meaning_vi": "phê bình mang tính xây dựng",
+      "example": "I welcomed the constructive criticism from my manager.",
+      "example_vi": "Tôi đón nhận lời phê bình mang tính xây dựng từ quản lý của mình."
+    }
+  ],
+  "listening": {
+    "title": "Talking about a failure",
+    "lines": [
+      { "speaker": "Thao (interviewer)", "voice": "female", "text": "Can you tell me about a time you faced a setback at work?" },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "Yes, I once missed a deadline on an important project." },
+      { "speaker": "Thao (interviewer)", "voice": "female", "text": "What happened after that?" },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "I took responsibility for the delay right away and informed my manager." },
+      { "speaker": "Thao (interviewer)", "voice": "female", "text": "Did you look into why it happened?" },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "Yes, we found that the root cause was poor time estimation." },
+      { "speaker": "Thao (interviewer)", "voice": "female", "text": "How did you bounce back from that experience?" },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "I created a more realistic schedule for future projects." },
+      { "speaker": "Thao (interviewer)", "voice": "female", "text": "What was your biggest takeaway from that experience?" },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "My biggest takeaway was to communicate problems earlier." },
+      { "speaker": "Thao (interviewer)", "voice": "female", "text": "That's a great example of learning from a mistake." },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "Thank you. I also try to reflect on feedback, even constructive criticism." }
+    ],
+    "questions": [
+      { "q": "What did Khoa face at work?", "options": ["He missed a deadline", "He lost a client", "He was late every day"], "answer": 0 },
+      { "q": "What was the root cause of the problem?", "options": ["Poor time estimation", "Lack of budget", "A software bug"], "answer": 0 },
+      { "q": "What was Khoa's biggest takeaway?", "options": ["To communicate problems earlier", "To work longer hours", "To change jobs"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I once missed a deadline on an important project at work.",
+    "I took responsibility for the delay and informed my manager immediately.",
+    "We found that the root cause was poor time estimation.",
+    "It took time, but I managed to bounce back quickly.",
+    "My biggest takeaway was to communicate problems much earlier next time."
+  ]
+}

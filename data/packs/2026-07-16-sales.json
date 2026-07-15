@@ -1,0 +1,91 @@
+{
+  "date": "2026-07-16",
+  "track": "sales",
+  "theme": "Upsell & cross-sell",
+  "vocab": [
+    {
+      "word": "upsell",
+      "ipa": "/ˈʌpsel/",
+      "meaning_vi": "bán thêm gói cao hơn",
+      "example": "We could upsell you to a plan with unlimited storage.",
+      "example_vi": "Chúng tôi có thể bán thêm cho anh/chị gói lưu trữ không giới hạn."
+    },
+    {
+      "word": "cross-sell",
+      "ipa": "/krɒs sel/",
+      "meaning_vi": "bán chéo sản phẩm/dịch vụ khác",
+      "example": "We could also cross-sell our training package along with it.",
+      "example_vi": "Chúng tôi cũng có thể bán chéo gói đào tạo kèm theo."
+    },
+    {
+      "word": "bundle",
+      "ipa": "/ˈbʌndl/",
+      "meaning_vi": "gói combo sản phẩm/dịch vụ",
+      "example": "Let me prepare a bundle with an add-on for extra users.",
+      "example_vi": "Để tôi chuẩn bị một gói combo kèm thêm tùy chọn cho người dùng bổ sung."
+    },
+    {
+      "word": "premium plan",
+      "ipa": "/ˈpriːmiəm plæn/",
+      "meaning_vi": "gói cao cấp",
+      "example": "I think you might benefit from our premium plan.",
+      "example_vi": "Tôi nghĩ anh/chị sẽ được lợi khi dùng gói cao cấp của chúng tôi."
+    },
+    {
+      "word": "add-on",
+      "ipa": "/ˈæd ɒn/",
+      "meaning_vi": "dịch vụ/tính năng bổ sung",
+      "example": "Would you like to add on the analytics module?",
+      "example_vi": "Anh/chị có muốn thêm mô-đun phân tích không?"
+    },
+    {
+      "word": "existing customer",
+      "ipa": "/ɪɡˈzɪstɪŋ ˈkʌstəmər/",
+      "meaning_vi": "khách hàng hiện tại",
+      "example": "Since you're an existing customer, I can offer you a discount.",
+      "example_vi": "Vì anh/chị là khách hàng hiện tại, tôi có thể tặng một khoản giảm giá."
+    },
+    {
+      "word": "usage pattern",
+      "ipa": "/ˈjuːsɪdʒ ˈpætərn/",
+      "meaning_vi": "thói quen sử dụng",
+      "example": "Based on your usage pattern, you might need more storage.",
+      "example_vi": "Dựa trên thói quen sử dụng, anh/chị có thể cần thêm dung lượng lưu trữ."
+    },
+    {
+      "word": "tailored offer",
+      "ipa": "/ˈteɪlərd ˈɒfər/",
+      "meaning_vi": "ưu đãi phù hợp riêng",
+      "example": "Let me put together a tailored offer just for you.",
+      "example_vi": "Để tôi chuẩn bị một ưu đãi phù hợp riêng cho anh/chị."
+    }
+  ],
+  "listening": {
+    "title": "Offering more to a current customer",
+    "lines": [
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "Hi Ms. Huong, I noticed you've been using our basic plan for six months now." },
+      { "speaker": "Huong (customer)", "voice": "female", "text": "Yes, it's been working well for our team." },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "That's great to hear. Based on your usage pattern, you might benefit from our premium plan." },
+      { "speaker": "Huong (customer)", "voice": "female", "text": "What extra features does it include?" },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "It includes priority support, and we could also upsell you to unlimited storage." },
+      { "speaker": "Huong (customer)", "voice": "female", "text": "That sounds useful. Is there anything else you'd recommend?" },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "Yes, we could cross-sell our training package along with it." },
+      { "speaker": "Huong (customer)", "voice": "female", "text": "Interesting. Can you bundle everything into one offer?" },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "Of course, I'll prepare a bundle with an add-on for extra users too." },
+      { "speaker": "Huong (customer)", "voice": "female", "text": "Perfect. Since we're an existing customer, is there any discount?" },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "Absolutely, let me put together a tailored offer just for you." }
+    ],
+    "questions": [
+      { "q": "What does Nam recommend based on Huong's usage pattern?", "options": ["The premium plan", "A cheaper plan", "Cancelling the service"], "answer": 0 },
+      { "q": "What does Nam offer to cross-sell?", "options": ["A training package", "A new laptop", "Office furniture"], "answer": 0 },
+      { "q": "What will Nam prepare for Huong?", "options": ["A tailored offer", "A refund", "A complaint form"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Based on your usage pattern, you might benefit from our premium plan.",
+    "We could upsell you to a plan with unlimited storage.",
+    "We could also cross-sell our training package along with it.",
+    "Let me prepare a bundle with an add-on for extra users.",
+    "Since you're an existing customer, I can offer you a tailored deal."
+  ]
+}

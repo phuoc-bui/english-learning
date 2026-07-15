@@ -1,0 +1,91 @@
+{
+  "date": "2026-07-16",
+  "track": "office",
+  "theme": "Out-of-office & bàn giao việc",
+  "vocab": [
+    {
+      "word": "out of office (OOO)",
+      "ipa": "/aʊt əv ˈɒfɪs/",
+      "meaning_vi": "vắng mặt ở văn phòng, nghỉ phép",
+      "example": "I'll be out of office next week for a family trip.",
+      "example_vi": "Tôi sẽ vắng mặt ở văn phòng vào tuần tới vì có chuyến đi gia đình."
+    },
+    {
+      "word": "auto-reply",
+      "ipa": "/ˈɔːtoʊ rɪˈplaɪ/",
+      "meaning_vi": "email trả lời tự động",
+      "example": "Please set up an auto-reply before you leave.",
+      "example_vi": "Vui lòng thiết lập trả lời tự động trước khi bạn nghỉ."
+    },
+    {
+      "word": "delegate",
+      "ipa": "/ˈdelɪɡeɪt/",
+      "meaning_vi": "giao phó, ủy quyền công việc",
+      "example": "I need to delegate a few tasks to you before I leave.",
+      "example_vi": "Tôi cần giao phó vài công việc cho bạn trước khi tôi nghỉ."
+    },
+    {
+      "word": "point of contact",
+      "ipa": "/pɔɪnt əv ˈkɒntækt/",
+      "meaning_vi": "đầu mối liên hệ",
+      "example": "I'll make you the point of contact while I'm away.",
+      "example_vi": "Tôi sẽ để bạn làm đầu mối liên hệ trong lúc tôi vắng mặt."
+    },
+    {
+      "word": "urgent request",
+      "ipa": "/ˈɜːrdʒənt rɪˈkwest/",
+      "meaning_vi": "yêu cầu khẩn cấp",
+      "example": "Please forward any urgent request straight to my manager.",
+      "example_vi": "Vui lòng chuyển ngay mọi yêu cầu khẩn cấp đến quản lý của tôi."
+    },
+    {
+      "word": "tie up loose ends",
+      "ipa": "/taɪ ʌp luːs endz/",
+      "meaning_vi": "giải quyết nốt việc còn dang dở",
+      "example": "Let's tie up any loose ends before the trip.",
+      "example_vi": "Hãy giải quyết nốt những việc còn dang dở trước chuyến đi."
+    },
+    {
+      "word": "backlog",
+      "ipa": "/ˈbæklɒɡ/",
+      "meaning_vi": "công việc tồn đọng",
+      "example": "There's just a small backlog of emails left.",
+      "example_vi": "Chỉ còn một ít email tồn đọng thôi."
+    },
+    {
+      "word": "return date",
+      "ipa": "/rɪˈtɜːrn deɪt/",
+      "meaning_vi": "ngày quay lại làm việc",
+      "example": "I'll confirm my exact return date before I go.",
+      "example_vi": "Tôi sẽ xác nhận chính xác ngày quay lại trước khi đi."
+    }
+  ],
+  "listening": {
+    "title": "Handing over before a trip",
+    "lines": [
+      { "speaker": "Mai", "voice": "female", "text": "I'll be out of office next week for a family trip." },
+      { "speaker": "Duc", "voice": "male", "text": "No problem, Mai. Have you set up your auto-reply yet?" },
+      { "speaker": "Mai", "voice": "female", "text": "Yes, I just finished it. I also need to delegate a few tasks to you." },
+      { "speaker": "Duc", "voice": "male", "text": "Sure, what should I focus on while you're away?" },
+      { "speaker": "Mai", "voice": "female", "text": "Please handle the client emails, and I'll make you the point of contact." },
+      { "speaker": "Duc", "voice": "male", "text": "Got it. What about an urgent request from the finance team?" },
+      { "speaker": "Mai", "voice": "female", "text": "Forward any urgent request straight to my manager, Linh." },
+      { "speaker": "Duc", "voice": "male", "text": "Understood. Do you want to tie up any loose ends before you go?" },
+      { "speaker": "Mai", "voice": "female", "text": "Just a small backlog of emails, but it can wait until I'm back." },
+      { "speaker": "Duc", "voice": "male", "text": "No worries. When's your return date exactly?" },
+      { "speaker": "Mai", "voice": "female", "text": "I'll be back next Monday, the 20th." }
+    ],
+    "questions": [
+      { "q": "Why will Mai be out of office?", "options": ["For a family trip", "For a business trip", "For a medical checkup"], "answer": 0 },
+      { "q": "Who will be the point of contact while Mai is away?", "options": ["Duc", "Linh", "Nam"], "answer": 0 },
+      { "q": "What should Duc do with urgent requests from finance?", "options": ["Forward them to Mai's manager", "Handle them himself", "Ignore them"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I'll be out of office next week for a family trip.",
+    "Could you set up an auto-reply before you go on leave?",
+    "I need to delegate a few tasks before I leave.",
+    "Please make sure to tie up any loose ends today.",
+    "I'll confirm my exact return date before the end of the week."
+  ]
+}

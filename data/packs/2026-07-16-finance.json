@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-16",
+  "track": "finance",
+  "theme": "Deadline quyết toán",
+  "vocab": [
+    {
+      "word": "year-end closing",
+      "ipa": "/jɪr end ˈkloʊzɪŋ/",
+      "meaning_vi": "quyết toán cuối năm",
+      "example": "We need to finish year-end closing by the end of this week.",
+      "example_vi": "Chúng ta cần hoàn tất quyết toán cuối năm trước cuối tuần này."
+    },
+    {
+      "word": "finalize",
+      "ipa": "/ˈfaɪnəlaɪz/",
+      "meaning_vi": "hoàn tất, chốt lại",
+      "example": "I'm still finalizing a few accounts before the deadline.",
+      "example_vi": "Tôi vẫn đang hoàn tất vài tài khoản trước hạn chót."
+    },
+    {
+      "word": "cut-off date",
+      "ipa": "/kʌt ɒf deɪt/",
+      "meaning_vi": "ngày chốt sổ",
+      "example": "What's our cut-off date for this quarter?",
+      "example_vi": "Ngày chốt sổ của quý này là khi nào?"
+    },
+    {
+      "word": "accrual",
+      "ipa": "/əˈkruːəl/",
+      "meaning_vi": "khoản dồn tích (kế toán)",
+      "example": "A few accruals still need to be recorded.",
+      "example_vi": "Vẫn còn vài khoản dồn tích cần được ghi nhận."
+    },
+    {
+      "word": "pending item",
+      "ipa": "/ˈpendɪŋ ˈaɪtəm/",
+      "meaning_vi": "mục còn treo, chưa xử lý",
+      "example": "Are there any pending items left on the checklist?",
+      "example_vi": "Còn mục nào chưa xử lý trong danh sách kiểm tra không?"
+    },
+    {
+      "word": "double-check",
+      "ipa": "/ˈdʌbl tʃek/",
+      "meaning_vi": "kiểm tra lại",
+      "example": "Please double-check all the numbers before you submit.",
+      "example_vi": "Vui lòng kiểm tra lại tất cả số liệu trước khi nộp."
+    },
+    {
+      "word": "under time pressure",
+      "ipa": "/ˈʌndər taɪm ˈpreʃər/",
+      "meaning_vi": "chịu áp lực về thời gian",
+      "example": "The whole team is under time pressure this week.",
+      "example_vi": "Cả đội đang chịu áp lực thời gian trong tuần này."
+    },
+    {
+      "word": "wrap up the books",
+      "ipa": "/ræp ʌp ðə bʊks/",
+      "meaning_vi": "chốt sổ sách",
+      "example": "We really need to wrap up the books on time.",
+      "example_vi": "Chúng ta thực sự cần chốt sổ sách đúng hạn."
+    }
+  ],
+  "listening": {
+    "title": "Racing to close the books",
+    "lines": [
+      { "speaker": "Lan (finance manager)", "voice": "female", "text": "We need to finish year-end closing by Friday, Phong." },
+      { "speaker": "Phong (accountant)", "voice": "male", "text": "I understand. I'm still finalizing a few accounts." },
+      { "speaker": "Lan (finance manager)", "voice": "female", "text": "What's our cut-off date for this quarter again?" },
+      { "speaker": "Phong (accountant)", "voice": "male", "text": "It's July 20th. After that, we can't add new entries." },
+      { "speaker": "Lan (finance manager)", "voice": "female", "text": "Do we still have any pending items on the checklist?" },
+      { "speaker": "Phong (accountant)", "voice": "male", "text": "Yes, a few accruals need to be recorded first." },
+      { "speaker": "Lan (finance manager)", "voice": "female", "text": "Please double-check all the numbers before you submit them." },
+      { "speaker": "Phong (accountant)", "voice": "male", "text": "Sure. The whole team is under time pressure this week." },
+      { "speaker": "Lan (finance manager)", "voice": "female", "text": "I know, but we really need to wrap up the books on time." },
+      { "speaker": "Phong (accountant)", "voice": "male", "text": "Don't worry, I'll finalize everything by tomorrow morning." }
+    ],
+    "questions": [
+      { "q": "When is the cut-off date for this quarter?", "options": ["July 20th", "July 31st", "June 30th"], "answer": 0 },
+      { "q": "What does Phong still need to record?", "options": ["A few accruals", "New employees", "Client complaints"], "answer": 0 },
+      { "q": "What does Lan ask Phong to do before submitting?", "options": ["Double-check the numbers", "Delete the report", "Send it to HR"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "We need to finish year-end closing by the end of this week.",
+    "I'm still finalizing a few accounts before the final deadline tomorrow.",
+    "Do we still have any pending items left on the checklist?",
+    "Please double-check all the numbers carefully before you submit them.",
+    "The whole team is under time pressure to wrap up the books."
+  ]
+}
