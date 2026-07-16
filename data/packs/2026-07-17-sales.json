@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-17",
+  "track": "sales",
+  "theme": "Xử lý phàn nàn của khách",
+  "vocab": [
+    {
+      "word": "complaint",
+      "ipa": "/kəmˈpleɪnt/",
+      "meaning_vi": "lời phàn nàn",
+      "example": "The customer filed a complaint about the late delivery.",
+      "example_vi": "Khách hàng đã gửi lời phàn nàn về việc giao hàng trễ."
+    },
+    {
+      "word": "apologize",
+      "ipa": "/əˈpɒlədʒaɪz/",
+      "meaning_vi": "xin lỗi",
+      "example": "I want to apologize for the mistake on our side.",
+      "example_vi": "Tôi muốn xin lỗi về sai sót từ phía chúng tôi."
+    },
+    {
+      "word": "inconvenience",
+      "ipa": "/ˌɪnkənˈviːniəns/",
+      "meaning_vi": "sự bất tiện",
+      "example": "We're sorry for any inconvenience this has caused you.",
+      "example_vi": "Chúng tôi xin lỗi vì sự bất tiện đã gây ra cho bạn."
+    },
+    {
+      "word": "investigate",
+      "ipa": "/ɪnˈvestɪɡeɪt/",
+      "meaning_vi": "điều tra, tìm hiểu",
+      "example": "Let me investigate the issue and update you today.",
+      "example_vi": "Để tôi điều tra vấn đề này và cập nhật cho bạn hôm nay."
+    },
+    {
+      "word": "compensation",
+      "ipa": "/ˌkɒmpenˈseɪʃn/",
+      "meaning_vi": "sự bồi thường",
+      "example": "We offered compensation for the shipping delay.",
+      "example_vi": "Chúng tôi đã đề nghị bồi thường cho việc giao hàng trễ."
+    },
+    {
+      "word": "refund",
+      "ipa": "/ˈriːfʌnd/",
+      "meaning_vi": "hoàn tiền",
+      "example": "The customer asked for a full refund.",
+      "example_vi": "Khách hàng yêu cầu hoàn tiền toàn bộ."
+    },
+    {
+      "word": "reassure",
+      "ipa": "/ˌriːəˈʃʊr/",
+      "meaning_vi": "trấn an, đảm bảo",
+      "example": "I reassured the client that we would fix it fast.",
+      "example_vi": "Tôi đã trấn an khách hàng rằng chúng tôi sẽ khắc phục nhanh."
+    },
+    {
+      "word": "make it right",
+      "ipa": "/meɪk ɪt raɪt/",
+      "meaning_vi": "khắc phục thỏa đáng",
+      "example": "We promised to make it right for the customer.",
+      "example_vi": "Chúng tôi đã hứa sẽ khắc phục thỏa đáng cho khách hàng."
+    }
+  ],
+  "listening": {
+    "title": "Handling a customer complaint",
+    "lines": [
+      { "speaker": "Hoa (khách hàng)", "voice": "female", "text": "Hi Nam, I need to file a complaint about the delay in our software delivery." },
+      { "speaker": "Nam", "voice": "male", "text": "I'm really sorry to hear that, Hoa. Let me apologize for the inconvenience this has caused." },
+      { "speaker": "Hoa (khách hàng)", "voice": "female", "text": "It's been almost two weeks past the deadline, and it's affecting our own clients." },
+      { "speaker": "Nam", "voice": "male", "text": "I understand. Let me investigate what happened on our end right away." },
+      { "speaker": "Hoa (khách hàng)", "voice": "female", "text": "I'd also like to know if there will be any compensation for the delay." },
+      { "speaker": "Nam", "voice": "male", "text": "Of course, we can offer a partial refund or extend your support package for free." },
+      { "speaker": "Hoa (khách hàng)", "voice": "female", "text": "That would help, but I want to make sure this doesn't happen again." },
+      { "speaker": "Nam", "voice": "male", "text": "I want to reassure you that we're fixing our internal process." },
+      { "speaker": "Hoa (khách hàng)", "voice": "female", "text": "Thank you, I appreciate you taking this seriously." },
+      { "speaker": "Nam", "voice": "male", "text": "We'll make it right, Hoa. I'll send you an update by tomorrow." }
+    ],
+    "questions": [
+      { "q": "Why did Hoa contact Nam?", "options": ["To complain about a delayed delivery", "To place a new order", "To ask for a product demo"], "answer": 0 },
+      { "q": "What does Nam offer to make up for the delay?", "options": ["A partial refund or free extended support", "A full refund only", "Nothing, just an apology"], "answer": 0 },
+      { "q": "What does Nam promise to do next?", "options": ["Send an update by tomorrow", "Cancel the contract", "Ignore the issue"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I need to file a complaint about the delay in delivery.",
+    "Let me apologize for the inconvenience this has caused you.",
+    "I'll investigate what happened and get back to you soon.",
+    "We can offer a partial refund or extended support for free.",
+    "I want to reassure you that we're fixing this process."
+  ]
+}

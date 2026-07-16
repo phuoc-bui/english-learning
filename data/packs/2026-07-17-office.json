@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-17",
+  "track": "office",
+  "theme": "Văn hoá công sở đa quốc gia",
+  "vocab": [
+    {
+      "word": "cultural difference",
+      "ipa": "/ˈkʌltʃərəl ˈdɪfrəns/",
+      "meaning_vi": "sự khác biệt văn hóa",
+      "example": "We need to understand the cultural difference within our team.",
+      "example_vi": "Chúng ta cần hiểu sự khác biệt văn hóa trong nhóm."
+    },
+    {
+      "word": "adapt to",
+      "ipa": "/əˈdæpt tuː/",
+      "meaning_vi": "thích nghi với",
+      "example": "It takes time to adapt to a new company culture.",
+      "example_vi": "Cần thời gian để thích nghi với văn hóa công ty mới."
+    },
+    {
+      "word": "workplace norm",
+      "ipa": "/ˈwɜːrkpleɪs nɔːrm/",
+      "meaning_vi": "quy chuẩn nơi làm việc",
+      "example": "Every country has a different workplace norm.",
+      "example_vi": "Mỗi quốc gia có một quy chuẩn nơi làm việc khác nhau."
+    },
+    {
+      "word": "body language",
+      "ipa": "/ˈbɒdi ˈlæŋɡwɪdʒ/",
+      "meaning_vi": "ngôn ngữ cơ thể",
+      "example": "Pay attention to body language during video calls.",
+      "example_vi": "Hãy chú ý đến ngôn ngữ cơ thể trong các cuộc gọi video."
+    },
+    {
+      "word": "inclusive",
+      "ipa": "/ɪnˈkluːsɪv/",
+      "meaning_vi": "hòa nhập, bao gồm mọi người",
+      "example": "We try to keep our meetings inclusive for everyone.",
+      "example_vi": "Chúng tôi cố gắng giữ các cuộc họp mang tính hòa nhập cho mọi người."
+    },
+    {
+      "word": "accommodate",
+      "ipa": "/əˈkɒmədeɪt/",
+      "meaning_vi": "sắp xếp linh hoạt, đáp ứng",
+      "example": "We accommodate different time zones when scheduling calls.",
+      "example_vi": "Chúng tôi sắp xếp linh hoạt các múi giờ khi lên lịch gọi."
+    },
+    {
+      "word": "assumption",
+      "ipa": "/əˈsʌmpʃn/",
+      "meaning_vi": "giả định",
+      "example": "Don't make an assumption about how a colleague will react.",
+      "example_vi": "Đừng vội giả định về cách đồng nghiệp sẽ phản ứng."
+    },
+    {
+      "word": "time zone difference",
+      "ipa": "/taɪm zoʊn ˈdɪfrəns/",
+      "meaning_vi": "chênh lệch múi giờ",
+      "example": "The time zone difference makes scheduling meetings tricky.",
+      "example_vi": "Chênh lệch múi giờ khiến việc lên lịch họp trở nên khó khăn."
+    }
+  ],
+  "listening": {
+    "title": "Working with a multicultural team",
+    "lines": [
+      { "speaker": "Linh", "voice": "female", "text": "Our new project team includes people from Japan, India, and Vietnam, so we need to be mindful of the cultural difference between us." },
+      { "speaker": "Duy", "voice": "male", "text": "Yes, I noticed the Japanese team is more formal, so we should adapt to their workplace norm during meetings." },
+      { "speaker": "Linh", "voice": "female", "text": "Right. In our video calls, watch their body language and tone, not just their words." },
+      { "speaker": "Duy", "voice": "male", "text": "Good point. We should also be inclusive and give everyone a chance to speak, even the quieter members." },
+      { "speaker": "Linh", "voice": "female", "text": "I always try to accommodate different working hours because of the time zone difference." },
+      { "speaker": "Duy", "voice": "male", "text": "Same here. I schedule calls in the morning so it works for both Tokyo and Hanoi." },
+      { "speaker": "Linh", "voice": "female", "text": "One thing I've learned is not to make an assumption about how someone will react." },
+      { "speaker": "Duy", "voice": "male", "text": "Exactly. It's better to ask directly than to guess." },
+      { "speaker": "Linh", "voice": "female", "text": "Overall, I think our team handles the cultural difference really well." },
+      { "speaker": "Duy", "voice": "male", "text": "Agreed. It just takes patience and an open mind." }
+    ],
+    "questions": [
+      { "q": "What did Linh and Duy discuss about their new project team?", "options": ["The cultural differences in their team", "The salary differences in their team", "The software differences in their team"], "answer": 0 },
+      { "q": "Why does Duy schedule calls in the morning?", "options": ["To fit both Tokyo and Hanoi time zones", "Because he wakes up early", "Because the office opens early"], "answer": 0 },
+      { "q": "What lesson did Linh learn about assumptions?", "options": ["Not to assume how someone will react", "To always assume the worst", "To assume everyone thinks the same"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "We need to be mindful of the cultural difference between team members.",
+    "Let's adapt to their workplace norm during our video calls.",
+    "Watch their body language and tone, not just their words.",
+    "I try to accommodate different working hours across time zones.",
+    "It's better to ask directly than to make an assumption."
+  ]
+}

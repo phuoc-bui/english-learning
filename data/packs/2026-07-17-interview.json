@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-17",
+  "track": "interview",
+  "theme": "Làm việc nhóm & teamwork",
+  "vocab": [
+    {
+      "word": "contribute",
+      "ipa": "/kənˈtrɪbjuːt/",
+      "meaning_vi": "đóng góp",
+      "example": "I always try to contribute new ideas in team meetings.",
+      "example_vi": "Tôi luôn cố gắng đóng góp ý tưởng mới trong các cuộc họp nhóm."
+    },
+    {
+      "word": "support each other",
+      "ipa": "/səˈpɔːrt iːtʃ ˈʌðər/",
+      "meaning_vi": "hỗ trợ lẫn nhau",
+      "example": "Our team members support each other during busy weeks.",
+      "example_vi": "Các thành viên trong nhóm hỗ trợ lẫn nhau trong những tuần bận rộn."
+    },
+    {
+      "word": "divide tasks",
+      "ipa": "/dɪˈvaɪd tæsks/",
+      "meaning_vi": "phân chia công việc",
+      "example": "We divide tasks based on each person's strengths.",
+      "example_vi": "Chúng tôi phân chia công việc dựa trên thế mạnh của từng người."
+    },
+    {
+      "word": "rely on",
+      "ipa": "/rɪˈlaɪ ɒn/",
+      "meaning_vi": "dựa vào, tin tưởng",
+      "example": "I can always rely on my teammates for help.",
+      "example_vi": "Tôi luôn có thể dựa vào đồng đội để được giúp đỡ."
+    },
+    {
+      "word": "team spirit",
+      "ipa": "/tiːm ˈspɪrɪt/",
+      "meaning_vi": "tinh thần đồng đội",
+      "example": "Our team spirit helped us finish the project on time.",
+      "example_vi": "Tinh thần đồng đội đã giúp chúng tôi hoàn thành dự án đúng hạn."
+    },
+    {
+      "word": "pull together",
+      "ipa": "/pʊl təˈɡeðər/",
+      "meaning_vi": "đoàn kết, cùng nỗ lực",
+      "example": "The whole team pulled together to meet the deadline.",
+      "example_vi": "Cả nhóm đã cùng nỗ lực để kịp deadline."
+    },
+    {
+      "word": "accountability",
+      "ipa": "/əˌkaʊntəˈbɪləti/",
+      "meaning_vi": "trách nhiệm giải trình",
+      "example": "I take accountability for my part of the project.",
+      "example_vi": "Tôi chịu trách nhiệm cho phần việc của mình trong dự án."
+    },
+    {
+      "word": "complement each other",
+      "ipa": "/ˈkɒmplɪment iːtʃ ˈʌðər/",
+      "meaning_vi": "bổ trợ lẫn nhau",
+      "example": "Our skills complement each other really well in this team.",
+      "example_vi": "Kỹ năng của chúng tôi bổ trợ cho nhau rất tốt trong nhóm này."
+    }
+  ],
+  "listening": {
+    "title": "Talking about teamwork in an interview",
+    "lines": [
+      { "speaker": "Phuong (interviewer)", "voice": "female", "text": "Can you tell me about a time you worked well in a team?" },
+      { "speaker": "Hung (candidate)", "voice": "male", "text": "Sure. In my last project, our team had to launch a new feature in two weeks." },
+      { "speaker": "Phuong (interviewer)", "voice": "female", "text": "What was your role in the team?" },
+      { "speaker": "Hung (candidate)", "voice": "male", "text": "I helped divide tasks based on each person's strengths so we could work faster." },
+      { "speaker": "Phuong (interviewer)", "voice": "female", "text": "How did the team support each other during that time?" },
+      { "speaker": "Hung (candidate)", "voice": "male", "text": "We checked in daily and always tried to support each other when someone was stuck." },
+      { "speaker": "Phuong (interviewer)", "voice": "female", "text": "Did you rely on anyone in particular?" },
+      { "speaker": "Hung (candidate)", "voice": "male", "text": "Yes, I relied on our senior developer whenever I had a technical question." },
+      { "speaker": "Phuong (interviewer)", "voice": "female", "text": "What made the team successful, in your view?" },
+      { "speaker": "Hung (candidate)", "voice": "male", "text": "I think our team spirit really helped us pull together under pressure." },
+      { "speaker": "Phuong (interviewer)", "voice": "female", "text": "That's great. How do you usually contribute in a team?" },
+      { "speaker": "Hung (candidate)", "voice": "male", "text": "I try to contribute by making sure our skills complement each other, and I always take accountability for my part." }
+    ],
+    "questions": [
+      { "q": "What was Hung's role in the project?", "options": ["He helped divide tasks based on strengths", "He worked alone on the whole feature", "He only reviewed the code"], "answer": 0 },
+      { "q": "Who did Hung rely on for technical questions?", "options": ["The senior developer", "The project manager", "The client"], "answer": 0 },
+      { "q": "What does Hung say helped the team pull together?", "options": ["Their team spirit", "A higher salary", "A shorter deadline"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Our team had to launch a new feature in two weeks.",
+    "I helped divide the tasks based on each person's strengths.",
+    "We always tried to support each other when someone was stuck.",
+    "I always relied on our senior developer for technical questions.",
+    "Our team spirit really helped us pull together under pressure."
+  ]
+}

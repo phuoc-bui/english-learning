@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-17",
+  "track": "finance",
+  "theme": "Phần mềm kế toán & công cụ",
+  "vocab": [
+    {
+      "word": "spreadsheet",
+      "ipa": "/ˈspredʃiːt/",
+      "meaning_vi": "bảng tính",
+      "example": "I keep track of expenses in a spreadsheet.",
+      "example_vi": "Tôi theo dõi chi phí trong một bảng tính."
+    },
+    {
+      "word": "automate",
+      "ipa": "/ˈɔːtəmeɪt/",
+      "meaning_vi": "tự động hóa",
+      "example": "We automated the monthly invoice process.",
+      "example_vi": "Chúng tôi đã tự động hóa quy trình lập hóa đơn hàng tháng."
+    },
+    {
+      "word": "sync data",
+      "ipa": "/sɪŋk ˈdeɪtə/",
+      "meaning_vi": "đồng bộ dữ liệu",
+      "example": "The app didn't sync data with the server last night.",
+      "example_vi": "Ứng dụng đã không đồng bộ dữ liệu với máy chủ tối qua."
+    },
+    {
+      "word": "template",
+      "ipa": "/ˈtemplət/",
+      "meaning_vi": "mẫu có sẵn",
+      "example": "I use a template to prepare the report faster.",
+      "example_vi": "Tôi dùng mẫu có sẵn để chuẩn bị báo cáo nhanh hơn."
+    },
+    {
+      "word": "export a report",
+      "ipa": "/ɪkˈspɔːrt ə rɪˈpɔːrt/",
+      "meaning_vi": "xuất báo cáo",
+      "example": "Can you export a report for the finance meeting?",
+      "example_vi": "Bạn có thể xuất báo cáo cho cuộc họp tài chính không?"
+    },
+    {
+      "word": "glitch",
+      "ipa": "/ɡlɪtʃ/",
+      "meaning_vi": "lỗi nhỏ, trục trặc",
+      "example": "There's a small glitch when I try to save the file.",
+      "example_vi": "Có một lỗi nhỏ khi tôi cố lưu tệp."
+    },
+    {
+      "word": "user access",
+      "ipa": "/ˈjuːzər ˈækses/",
+      "meaning_vi": "quyền truy cập người dùng",
+      "example": "Please set up my user access to the new system.",
+      "example_vi": "Vui lòng cấp quyền truy cập hệ thống mới cho tôi."
+    },
+    {
+      "word": "backup",
+      "ipa": "/ˈbækʌp/",
+      "meaning_vi": "sao lưu",
+      "example": "We run a backup of the accounting data every night.",
+      "example_vi": "Chúng tôi sao lưu dữ liệu kế toán mỗi đêm."
+    }
+  ],
+  "listening": {
+    "title": "Fixing an issue with the accounting software",
+    "lines": [
+      { "speaker": "Hoa", "voice": "female", "text": "Duc, can you help me? The accounting software keeps showing a glitch when I export a report." },
+      { "speaker": "Duc", "voice": "male", "text": "Let me take a look. Are you trying to export a report to Excel?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Yes, I usually use a spreadsheet template for the monthly summary." },
+      { "speaker": "Duc", "voice": "male", "text": "I see the issue. The system didn't sync data properly with the server last night." },
+      { "speaker": "Hoa", "voice": "female", "text": "Is there a way to automate that so it doesn't happen again?" },
+      { "speaker": "Duc", "voice": "male", "text": "Yes, we can automate the daily sync so it runs automatically every morning." },
+      { "speaker": "Hoa", "voice": "female", "text": "That would save me a lot of time. Can you also check my user access?" },
+      { "speaker": "Duc", "voice": "male", "text": "Sure, I'll make sure your user access includes the reporting module." },
+      { "speaker": "Hoa", "voice": "female", "text": "Great. Also, do we have a backup of last month's data just in case?" },
+      { "speaker": "Duc", "voice": "male", "text": "Yes, the backup runs every night, so your data is safe." }
+    ],
+    "questions": [
+      { "q": "What problem does Hoa have with the software?", "options": ["It shows a glitch when exporting a report", "It won't let her log in", "It's too slow to open"], "answer": 0 },
+      { "q": "What caused the issue, according to Duc?", "options": ["The system didn't sync data properly", "Hoa used the wrong password", "The server was turned off"], "answer": 0 },
+      { "q": "How often does the backup run?", "options": ["Every night", "Once a week", "Only on request"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Could you help me export a report from the software?",
+    "I usually use a spreadsheet template for the monthly summary.",
+    "We should automate the daily sync so it runs every morning.",
+    "Can you check that my user access includes the reporting module?",
+    "Make sure we have a backup of last month's data."
+  ]
+}
