@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-18",
+  "track": "sales",
+  "theme": "Chốt hợp đồng",
+  "vocab": [
+    { "word": "close the deal", "ipa": "/kləʊz ðə diːl/", "meaning_vi": "chốt được thương vụ/hợp đồng", "example": "After weeks of talks, we finally closed the deal with the client.", "example_vi": "Sau nhiều tuần đàm phán, cuối cùng bọn mình đã chốt được thương vụ với khách hàng." },
+    { "word": "verbal agreement", "ipa": "/ˈvɜːbəl əˈɡriːmənt/", "meaning_vi": "thoả thuận miệng", "example": "We had a verbal agreement, but I still needed the signed paperwork.", "example_vi": "Bọn mình đã có thoả thuận miệng, nhưng mình vẫn cần giấy tờ đã ký." },
+    { "word": "finalize", "ipa": "/ˈfaɪnəlaɪz/", "meaning_vi": "hoàn tất, chốt (điều gì)", "example": "Let's finalize the details before we send the paperwork for signature.", "example_vi": "Hãy hoàn tất chi tiết trước khi gửi giấy tờ để ký." },
+    { "word": "purchase order", "ipa": "/ˈpɜːtʃəs ˈɔːdər/", "meaning_vi": "đơn đặt hàng", "example": "Once you send the purchase order, we can start processing your request.", "example_vi": "Khi bạn gửi đơn đặt hàng, bọn mình có thể bắt đầu xử lý yêu cầu của bạn." },
+    { "word": "commitment", "ipa": "/kəˈmɪtmənt/", "meaning_vi": "sự cam kết", "example": "Thank you for your commitment to working with us long-term.", "example_vi": "Cảm ơn sự cam kết hợp tác lâu dài của anh/chị với bên em." },
+    { "word": "seal the deal", "ipa": "/siːl ðə diːl/", "meaning_vi": "chốt hạ thương vụ (thành ngữ)", "example": "A small extra discount helped seal the deal with the customer.", "example_vi": "Một khoản giảm giá nhỏ thêm vào đã giúp chốt hạ thương vụ với khách hàng." },
+    { "word": "on the same page", "ipa": "/ɒn ðə seɪm peɪdʒ/", "meaning_vi": "cùng thống nhất quan điểm", "example": "Before signing, let's make sure both sides are on the same page.", "example_vi": "Trước khi ký, hãy đảm bảo cả hai bên đều thống nhất quan điểm." },
+    { "word": "official signature", "ipa": "/əˈfɪʃl ˈsɪɡnətʃər/", "meaning_vi": "chữ ký chính thức", "example": "We just need your official signature to move forward with the order.", "example_vi": "Bọn mình chỉ cần chữ ký chính thức của anh/chị để tiến hành đơn hàng." }
+  ],
+  "listening": {
+    "title": "Closing the Deal",
+    "lines": [
+      { "speaker": "Hoa", "voice": "female", "text": "Hi Minh, thanks for taking the time to meet again today." },
+      { "speaker": "Minh", "voice": "male", "text": "Of course, Hoa. We've reviewed your proposal and we're impressed." },
+      { "speaker": "Hoa", "voice": "female", "text": "That's great to hear! Are we ready to close the deal today?" },
+      { "speaker": "Minh", "voice": "male", "text": "Almost. We just want to confirm the delivery timeline first." },
+      { "speaker": "Hoa", "voice": "female", "text": "Sure, delivery will take three weeks after we receive your purchase order." },
+      { "speaker": "Minh", "voice": "male", "text": "Perfect. I think we're on the same page on everything else." },
+      { "speaker": "Hoa", "voice": "female", "text": "Wonderful. Can I get your commitment to move forward this week?" },
+      { "speaker": "Minh", "voice": "male", "text": "Yes, we're ready. Let's finalize the paperwork and get it signed." },
+      { "speaker": "Hoa", "voice": "female", "text": "I'll send the final documents today. We just need your official signature." },
+      { "speaker": "Minh", "voice": "male", "text": "I'll review it with my manager and send it back tomorrow." },
+      { "speaker": "Hoa", "voice": "female", "text": "Sounds good. It's been a pleasure working with you on this." },
+      { "speaker": "Minh", "voice": "male", "text": "Likewise, Hoa. Looking forward to a long partnership." }
+    ],
+    "questions": [
+      { "q": "What does Minh want to confirm before closing the deal?", "options": ["The delivery timeline", "The company address", "The office hours"], "answer": 0 },
+      { "q": "What does Hoa need from Minh to move forward?", "options": ["A verbal agreement only", "His official signature", "A new proposal"], "answer": 1 },
+      { "q": "When will Minh send the signed documents back?", "options": ["Today", "Tomorrow", "Next month"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "We finally closed the deal after weeks of back-and-forth negotiation.",
+    "Let's finalize the details before we send the paperwork for signature.",
+    "I just need your official signature to move forward with this order.",
+    "A small discount at the end really helped seal the deal.",
+    "Make sure both sides are on the same page before signing."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-18",
+  "track": "finance",
+  "theme": "Chính sách tài chính công ty",
+  "vocab": [
+    { "word": "policy", "ipa": "/ˈpɒləsi/", "meaning_vi": "chính sách", "example": "Every employee must follow the company's financial policy on spending.", "example_vi": "Mọi nhân viên phải tuân theo chính sách tài chính của công ty về chi tiêu." },
+    { "word": "authorization limit", "ipa": "/ˌɔːθəraɪˈzeɪʃn ˈlɪmɪt/", "meaning_vi": "hạn mức được phê duyệt", "example": "Any expense above the authorization limit needs the director's approval.", "example_vi": "Bất kỳ khoản chi nào vượt hạn mức được phê duyệt đều cần giám đốc phê duyệt." },
+    { "word": "internal control", "ipa": "/ɪnˈtɜːnl kənˈtrəʊl/", "meaning_vi": "kiểm soát nội bộ", "example": "Strong internal controls help prevent financial mistakes and fraud.", "example_vi": "Kiểm soát nội bộ chặt chẽ giúp ngăn ngừa sai sót và gian lận tài chính." },
+    { "word": "spending guideline", "ipa": "/ˈspendɪŋ ˈɡaɪdlaɪn/", "meaning_vi": "hướng dẫn chi tiêu", "example": "Please read the spending guidelines before booking your business trip.", "example_vi": "Vui lòng đọc hướng dẫn chi tiêu trước khi đặt chuyến công tác." },
+    { "word": "procurement rule", "ipa": "/prəˈkjʊəmənt ruːl/", "meaning_vi": "quy định mua sắm", "example": "Our procurement rules require three quotes for any large purchase.", "example_vi": "Quy định mua sắm của công ty yêu cầu ba báo giá cho bất kỳ khoản mua lớn nào." },
+    { "word": "conflict of interest", "ipa": "/ˈkɒnflɪkt əv ˈɪntrəst/", "meaning_vi": "xung đột lợi ích", "example": "Employees must declare any conflict of interest in financial decisions.", "example_vi": "Nhân viên phải khai báo mọi xung đột lợi ích trong các quyết định tài chính." },
+    { "word": "enforce", "ipa": "/ɪnˈfɔːs/", "meaning_vi": "thực thi, áp dụng nghiêm", "example": "Finance is here to enforce the new policy across all departments.", "example_vi": "Phòng tài chính có trách nhiệm thực thi chính sách mới trên toàn bộ các phòng ban." },
+    { "word": "violation", "ipa": "/ˌvaɪəˈleɪʃn/", "meaning_vi": "sự vi phạm", "example": "Any violation of the spending policy must be reported immediately.", "example_vi": "Bất kỳ vi phạm nào đối với chính sách chi tiêu đều phải được báo cáo ngay." }
+  ],
+  "listening": {
+    "title": "Understanding the New Financial Policy",
+    "lines": [
+      { "speaker": "Hà", "voice": "female", "text": "Tuấn, do you have a few minutes to go over the new financial policy?" },
+      { "speaker": "Tuấn", "voice": "male", "text": "Sure, Hà. I saw the email but haven't read it in detail yet." },
+      { "speaker": "Hà", "voice": "female", "text": "No problem. The main change is the new authorization limit for expenses." },
+      { "speaker": "Tuấn", "voice": "male", "text": "Okay, so what happens if a cost goes above that limit?" },
+      { "speaker": "Hà", "voice": "female", "text": "Then it needs approval from the director before you can proceed." },
+      { "speaker": "Tuấn", "voice": "male", "text": "Got it. Are there also new procurement rules for vendors?" },
+      { "speaker": "Hà", "voice": "female", "text": "Yes, you'll need at least three quotes for any large purchase now." },
+      { "speaker": "Tuấn", "voice": "male", "text": "That makes sense. It should improve our internal control overall." },
+      { "speaker": "Hà", "voice": "female", "text": "Exactly. We're also asking everyone to declare any conflict of interest." },
+      { "speaker": "Tuấn", "voice": "male", "text": "Understood. What happens if someone doesn't follow the spending guidelines?" },
+      { "speaker": "Hà", "voice": "female", "text": "Finance will have to enforce the policy, and repeated violations get reported to HR." },
+      { "speaker": "Tuấn", "voice": "male", "text": "Thanks for explaining, Hà. I'll share this with my whole team." }
+    ],
+    "questions": [
+      { "q": "What is the main change Hà mentions first?", "options": ["A new tax code", "A new authorization limit", "A new payroll system"], "answer": 1 },
+      { "q": "How many quotes are now required for a large purchase?", "options": ["One", "Two", "Three"], "answer": 2 },
+      { "q": "What must employees declare under the new policy?", "options": ["Their salary", "Any conflict of interest", "Their annual leave"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Any expense above the limit now needs the director's approval.",
+    "We need three quotes before making any large purchase decision.",
+    "Please make sure to declare any conflict of interest right away.",
+    "Strong internal controls really do help prevent costly financial mistakes.",
+    "Repeated violations of the spending policy will be reported to HR."
+  ]
+}

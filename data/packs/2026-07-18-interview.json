@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-18",
+  "track": "interview",
+  "theme": "Câu hỏi tình huống (situational)",
+  "vocab": [
+    { "word": "hypothetical scenario", "ipa": "/ˌhaɪpəˈθetɪkl sɪˈnɑːrioʊ/", "meaning_vi": "tình huống giả định", "example": "Interviewers often ask about a hypothetical scenario to test your judgment.", "example_vi": "Nhà tuyển dụng thường hỏi về một tình huống giả định để kiểm tra khả năng phán đoán của bạn." },
+    { "word": "prioritize tasks", "ipa": "/praɪˈɒrətaɪz tɑːsks/", "meaning_vi": "sắp xếp thứ tự ưu tiên công việc", "example": "Tell me how you would prioritize tasks if two deadlines fell on the same day.", "example_vi": "Hãy cho biết bạn sẽ sắp xếp ưu tiên công việc thế nào nếu hai deadline trùng ngày." },
+    { "word": "make a judgment call", "ipa": "/meɪk ə ˈdʒʌdʒmənt kɔːl/", "meaning_vi": "đưa ra quyết định dựa trên phán đoán cá nhân", "example": "Sometimes you have to make a judgment call without all the information.", "example_vi": "Đôi khi bạn phải đưa ra quyết định dựa trên phán đoán dù chưa có đủ thông tin." },
+    { "word": "difficult client", "ipa": "/ˈdɪfɪkəlt ˈklaɪənt/", "meaning_vi": "khách hàng khó tính", "example": "How would you handle a difficult client who is unhappy with the result?", "example_vi": "Bạn sẽ xử lý thế nào với một khách hàng khó tính không hài lòng với kết quả?" },
+    { "word": "weigh the options", "ipa": "/weɪ ðiː ˈɒpʃənz/", "meaning_vi": "cân nhắc các lựa chọn", "example": "I like to weigh the options carefully before making a big decision.", "example_vi": "Tôi thích cân nhắc kỹ các lựa chọn trước khi đưa ra quyết định lớn." },
+    { "word": "worst-case scenario", "ipa": "/ˌwɜːst keɪs sɪˈnɑːrioʊ/", "meaning_vi": "tình huống xấu nhất", "example": "It's good to plan for the worst-case scenario before a big launch.", "example_vi": "Nên chuẩn bị cho tình huống xấu nhất trước một đợt ra mắt lớn." },
+    { "word": "on the spot", "ipa": "/ɒn ðə spɒt/", "meaning_vi": "ngay tại chỗ, không chuẩn bị trước", "example": "I stayed calm even when I had to answer a question on the spot.", "example_vi": "Tôi vẫn giữ bình tĩnh dù phải trả lời câu hỏi ngay tại chỗ." },
+    { "word": "think on your feet", "ipa": "/θɪŋk ɒn jɔːr fiːt/", "meaning_vi": "phản ứng nhanh nhạy, linh hoạt ứng biến", "example": "This role requires someone who can think on their feet under pressure.", "example_vi": "Vị trí này cần người có thể ứng biến nhanh nhạy khi chịu áp lực." }
+  ],
+  "listening": {
+    "title": "A Situational Interview Question",
+    "lines": [
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "Let's move to a situational question. How do you handle a difficult client?" },
+      { "speaker": "Đức (candidate)", "voice": "male", "text": "Sure. Could you give me a hypothetical scenario to work with?" },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "Imagine a client is upset because a project was delivered late." },
+      { "speaker": "Đức (candidate)", "voice": "male", "text": "In that case, I would first listen carefully to understand their concern." },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "What would you do next, especially under time pressure?" },
+      { "speaker": "Đức (candidate)", "voice": "male", "text": "I'd weigh the options and decide the fastest way to fix the issue." },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "And if you had to make a decision on the spot?" },
+      { "speaker": "Đức (candidate)", "voice": "male", "text": "I try to think on my feet, but I still make a judgment call based on facts." },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "Good. How do you usually prioritize tasks in a tight situation like that?" },
+      { "speaker": "Đức (candidate)", "voice": "male", "text": "I focus on the client's biggest concern first, then handle smaller details after." },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "That's a solid approach. Do you ever plan for the worst-case scenario?" },
+      { "speaker": "Đức (candidate)", "voice": "male", "text": "Yes, I always think ahead so I'm not caught off guard." }
+    ],
+    "questions": [
+      { "q": "What does Mai ask Đức about first?", "options": ["Handling a difficult client", "His career goals", "His salary expectation"], "answer": 0 },
+      { "q": "What does Đức do first when a client is upset?", "options": ["He apologizes immediately", "He listens carefully to their concern", "He calls his manager"], "answer": 1 },
+      { "q": "What does Đức say about planning for problems?", "options": ["He never thinks about problems in advance", "He always plans for the worst-case scenario", "He asks someone else to plan"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "I stayed calm and listened carefully before responding to the client.",
+    "I weighed the options quickly and chose the most practical solution.",
+    "I had to think on my feet and make a fast decision.",
+    "I always try to plan ahead for the worst-case scenario.",
+    "I stayed focused and prioritized the client's biggest concern first."
+  ]
+}

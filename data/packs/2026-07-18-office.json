@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-18",
+  "track": "office",
+  "theme": "Pantry chat & networking nội bộ",
+  "vocab": [
+    { "word": "break room", "ipa": "/breɪk ruːm/", "meaning_vi": "phòng giải lao (pantry)", "example": "A few of us usually chat in the break room before lunch.", "example_vi": "Vài người trong bọn mình thường trò chuyện ở phòng giải lao trước giờ ăn trưa." },
+    { "word": "water cooler chat", "ipa": "/ˈwɔːtər ˈkuːlər tʃæt/", "meaning_vi": "chuyện phiếm bên cây nước uống", "example": "Water cooler chat is a great way to hear what's happening across teams.", "example_vi": "Chuyện phiếm bên cây nước là cách hay để nghe được chuyện đang diễn ra ở các phòng ban khác." },
+    { "word": "make small talk", "ipa": "/meɪk smɔːl tɔːk/", "meaning_vi": "nói chuyện phiếm, bắt chuyện xã giao", "example": "I always make small talk with new hires to help them feel welcome.", "example_vi": "Mình luôn bắt chuyện xã giao với nhân viên mới để họ thấy được chào đón." },
+    { "word": "exchange contacts", "ipa": "/ɪksˈtʃeɪndʒ ˈkɒntækts/", "meaning_vi": "trao đổi thông tin liên hệ", "example": "We exchanged contacts so we could follow up on the project later.", "example_vi": "Bọn mình trao đổi thông tin liên hệ để sau này có thể trao đổi tiếp về dự án." },
+    { "word": "cross-team", "ipa": "/krɒs tiːm/", "meaning_vi": "liên phòng ban, xuyên nhóm", "example": "The pantry is a good place for cross-team networking.", "example_vi": "Khu pantry là chỗ tốt để kết nối liên phòng ban." },
+    { "word": "get to know", "ipa": "/ɡet tuː nəʊ/", "meaning_vi": "làm quen, tìm hiểu ai đó", "example": "Take some time to get to know people outside your own team.", "example_vi": "Hãy dành thời gian làm quen với những người ngoài nhóm của bạn." },
+    { "word": "icebreaker", "ipa": "/ˈaɪsˌbreɪkər/", "meaning_vi": "câu hỏi/hoạt động phá vỡ sự ngại ngùng ban đầu", "example": "She used a fun icebreaker to start the conversation at the pantry.", "example_vi": "Cô ấy dùng một câu hỏi phá băng vui vẻ để bắt đầu cuộc trò chuyện ở pantry." },
+    { "word": "casual conversation", "ipa": "/ˈkæʒuəl ˌkɒnvəˈseɪʃn/", "meaning_vi": "cuộc trò chuyện thoải mái, không trang trọng", "example": "A casual conversation over coffee can build a strong working relationship.", "example_vi": "Một cuộc trò chuyện thoải mái bên tách cà phê có thể xây dựng mối quan hệ công việc bền chặt." }
+  ],
+  "listening": {
+    "title": "Pantry Chat",
+    "lines": [
+      { "speaker": "Nam", "voice": "male", "text": "Hey Linh, are you getting coffee too?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yeah, I need a break. Mind if I join you in the break room?" },
+      { "speaker": "Nam", "voice": "male", "text": "Not at all! Have you met the new intern from the design team yet?" },
+      { "speaker": "Linh", "voice": "female", "text": "Not yet. I've only seen her at the water cooler chat this morning." },
+      { "speaker": "Nam", "voice": "male", "text": "She seems friendly. Let's introduce ourselves and make small talk with her." },
+      { "speaker": "Linh", "voice": "female", "text": "Good idea. I always like getting to know people outside my own team." },
+      { "speaker": "Nam", "voice": "male", "text": "By the way, did you hear about the cross-team project starting next month?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yes! I want to exchange contacts with a few people before it kicks off." },
+      { "speaker": "Nam", "voice": "male", "text": "We could use an icebreaker at the kickoff meeting to loosen things up." },
+      { "speaker": "Linh", "voice": "female", "text": "That's a great idea. A casual conversation always helps people open up." },
+      { "speaker": "Nam", "voice": "male", "text": "Alright, let's head back. Thanks for the chat!" },
+      { "speaker": "Linh", "voice": "female", "text": "Anytime! See you at the kickoff." }
+    ],
+    "questions": [
+      { "q": "Where do Nam and Linh have their conversation?", "options": ["In a meeting room", "In the break room", "At the reception desk"], "answer": 1 },
+      { "q": "What is starting next month, according to Nam?", "options": ["A company trip", "A cross-team project", "A training course"], "answer": 1 },
+      { "q": "What does Nam suggest for the kickoff meeting?", "options": ["A quiz", "A formal presentation", "An icebreaker"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Do you mind if I join you for a coffee in the break room?",
+    "I'd love to get to know more people outside my own team.",
+    "Let's exchange contacts so we can stay in touch after the project.",
+    "A quick icebreaker can really help people feel comfortable at a new event.",
+    "I always enjoy a casual conversation with colleagues from other departments."
+  ]
+}
