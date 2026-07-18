@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-19",
+  "track": "finance",
+  "theme": "Trình bày báo cáo tháng",
+  "vocab": [
+    { "word": "month-over-month", "ipa": "/mʌnθ ˈoʊvər mʌnθ/", "meaning_vi": "so với tháng trước", "example": "Revenue is up eight percent month-over-month, which is a great result.", "example_vi": "Doanh thu tăng 8% so với tháng trước, đây là một kết quả tốt." },
+    { "word": "bar chart", "ipa": "/bɑːr tʃɑːrt/", "meaning_vi": "biểu đồ cột", "example": "I've put the year-to-date results on this bar chart here.", "example_vi": "Mình đã đưa kết quả lũy kế từ đầu năm vào biểu đồ cột này." },
+    { "word": "walk through the numbers", "ipa": "/wɔːk θruː ðə ˈnʌmbərz/", "meaning_vi": "trình bày lần lượt các con số", "example": "Let's walk through the numbers before we move to the next slide.", "example_vi": "Hãy cùng trình bày lần lượt các con số trước khi sang slide tiếp theo." },
+    { "word": "bottom line", "ipa": "/ˈbɒtəm laɪn/", "meaning_vi": "kết quả cuối cùng, lợi nhuận ròng", "example": "The bottom line looks positive despite a few extra costs this month.", "example_vi": "Kết quả cuối cùng vẫn khả quan dù có thêm vài chi phí tháng này." },
+    { "word": "year-to-date", "ipa": "/jɪər tuː deɪt/", "meaning_vi": "lũy kế từ đầu năm đến nay", "example": "Year-to-date, we're tracking slightly above the target we set in January.", "example_vi": "Lũy kế từ đầu năm, chúng ta đang nhỉnh hơn mục tiêu đề ra hồi tháng Một." },
+    { "word": "headline number", "ipa": "/ˈhedlaɪn ˈnʌmbər/", "meaning_vi": "con số chính, số liệu nổi bật nhất", "example": "Can you start with the headline number for revenue this month?", "example_vi": "Bạn có thể bắt đầu bằng con số doanh thu nổi bật nhất tháng này không?" },
+    { "word": "pie chart", "ipa": "/paɪ tʃɑːrt/", "meaning_vi": "biểu đồ tròn", "example": "This pie chart breaks down expenses by department quite clearly.", "example_vi": "Biểu đồ tròn này thể hiện rõ chi phí theo từng phòng ban." },
+    { "word": "Q&A session", "ipa": "/kjuː ænd eɪ ˈseʃn/", "meaning_vi": "phiên hỏi đáp", "example": "I'll open the floor for a short Q&A session now.", "example_vi": "Mình sẽ mở phiên hỏi đáp ngắn ngay bây giờ." }
+  ],
+  "listening": {
+    "title": "Presenting the Monthly Report",
+    "lines": [
+      { "speaker": "Hoa", "voice": "female", "text": "Good morning everyone, let's walk through the numbers for this month." },
+      { "speaker": "Minh", "voice": "male", "text": "Sounds good. Can you start with the headline number for revenue?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Sure. Revenue this month is up 8% month-over-month, which is a solid result." },
+      { "speaker": "Minh", "voice": "male", "text": "Great. How does that compare on a year-to-date basis?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Year-to-date, we're tracking slightly above target. I've put it on this bar chart here." },
+      { "speaker": "Minh", "voice": "male", "text": "Nice visual. What's the bottom line for profit this month?" },
+      { "speaker": "Hoa", "voice": "female", "text": "The bottom line is positive, though smaller than last month due to extra costs." },
+      { "speaker": "Minh", "voice": "male", "text": "That makes sense. This pie chart breaks down expenses well, by the way." },
+      { "speaker": "Hoa", "voice": "female", "text": "Thanks. I'll open the floor for a short Q&A session now." },
+      { "speaker": "Minh", "voice": "male", "text": "Perfect, let's take a few questions before we wrap up." }
+    ],
+    "questions": [
+      { "q": "How much did revenue increase this month, according to Hoa?", "options": ["3%", "8%", "15%"], "answer": 1 },
+      { "q": "What chart does Hoa use to show year-to-date results?", "options": ["A bar chart", "A pie chart", "A line graph"], "answer": 0 },
+      { "q": "What does Minh suggest doing before wrapping up?", "options": ["Taking a break", "Taking a few questions", "Ending the meeting immediately"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Let's walk through the numbers before we move to the next slide.",
+    "Revenue is up eight percent month-over-month, which is a great result.",
+    "Year-to-date, we're tracking slightly above the target we set in January.",
+    "The bottom line looks positive despite a few extra costs this month.",
+    "I'll open the floor for a short Q&A session right now."
+  ]
+}

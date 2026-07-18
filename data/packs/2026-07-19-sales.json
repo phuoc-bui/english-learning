@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-19",
+  "track": "sales",
+  "theme": "Cold call khách mới",
+  "vocab": [
+    { "word": "gatekeeper", "ipa": "/ˈɡeɪtkiːpər/", "meaning_vi": "người chặn cuộc gọi (lễ tân, trợ lý)", "example": "I got past the gatekeeper and reached the decision-maker directly.", "example_vi": "Mình đã qua được người chặn cuộc gọi và liên hệ thẳng người ra quyết định." },
+    { "word": "voicemail", "ipa": "/ˈvɔɪsmeɪl/", "meaning_vi": "hộp thư thoại", "example": "If I don't answer, please just leave me a quick voicemail.", "example_vi": "Nếu mình không nghe máy, bạn cứ để lại tin nhắn thoại ngắn nhé." },
+    { "word": "prospect", "ipa": "/ˈprɒspekt/", "meaning_vi": "khách hàng tiềm năng", "example": "You sound like a great prospect for what we offer.", "example_vi": "Anh có vẻ là một khách hàng tiềm năng phù hợp với sản phẩm bên em." },
+    { "word": "cold outreach", "ipa": "/koʊld ˈaʊtriːtʃ/", "meaning_vi": "tiếp cận khách hàng lần đầu (chưa từng liên hệ)", "example": "We're doing some cold outreach to companies expanding their IT teams.", "example_vi": "Bên em đang tiếp cận các công ty đang mở rộng đội IT." },
+    { "word": "script", "ipa": "/skrɪpt/", "meaning_vi": "kịch bản, bài nói mẫu", "example": "Please don't just read from a script when you call me.", "example_vi": "Đừng chỉ đọc theo kịch bản khi gọi cho tôi nhé." },
+    { "word": "hang up", "ipa": "/hæŋ ʌp/", "meaning_vi": "cúp máy", "example": "I won't hang up until we agree on the next step.", "example_vi": "Tôi sẽ không cúp máy cho đến khi chúng ta thống nhất bước tiếp theo." },
+    { "word": "spare a minute", "ipa": "/speər ə ˈmɪnɪt/", "meaning_vi": "dành ra một phút", "example": "Could you spare a minute? I promise this will be quick.", "example_vi": "Anh có thể dành ra một phút không? Em hứa sẽ nhanh thôi." },
+    { "word": "screen calls", "ipa": "/skriːn kɔːlz/", "meaning_vi": "sàng lọc cuộc gọi trước khi trả lời", "example": "I usually screen calls like this before deciding to answer.", "example_vi": "Tôi thường sàng lọc những cuộc gọi như thế này trước khi quyết định trả lời." }
+  ],
+  "listening": {
+    "title": "A Cold Call to a New Prospect",
+    "lines": [
+      { "speaker": "Đạt", "voice": "male", "text": "Hi, this is Đạt from BrightTech Solutions. I got past your gatekeeper — is this a good time to talk?" },
+      { "speaker": "Yến", "voice": "female", "text": "Actually, I usually screen calls like this, but go ahead, you have one minute." },
+      { "speaker": "Đạt", "voice": "male", "text": "Thanks for sparing a minute. I'm doing some cold outreach to companies growing their IT teams." },
+      { "speaker": "Yến", "voice": "female", "text": "I see. I get a lot of these calls, so please don't just read from a script." },
+      { "speaker": "Đạt", "voice": "male", "text": "No script today, I promise. Can I ask what tools you're using now?" },
+      { "speaker": "Yến", "voice": "female", "text": "We're using a basic spreadsheet, honestly. It's not working well anymore." },
+      { "speaker": "Đạt", "voice": "male", "text": "Got it. You sound like a great prospect for what we offer. Should I send more details?" },
+      { "speaker": "Yến", "voice": "female", "text": "Sure, but I might not answer if you call again — just leave a voicemail." },
+      { "speaker": "Đạt", "voice": "male", "text": "Understood. I won't hang up without agreeing on next steps first." },
+      { "speaker": "Yến", "voice": "female", "text": "Fair enough. Send the details and call back next week." }
+    ],
+    "questions": [
+      { "q": "What does Yến say she usually does with calls like this?", "options": ["Answers every call immediately", "Screens calls before answering", "Never picks up"], "answer": 1 },
+      { "q": "What is Yến currently using instead of a proper tool?", "options": ["A spreadsheet", "A competitor's software", "Nothing at all"], "answer": 0 },
+      { "q": "What does Yến ask Đạt to do if she doesn't answer next time?", "options": ["Send an email only", "Leave a voicemail", "Stop calling"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Could you spare a minute? I promise I won't read from a script.",
+    "I know you screen calls, but this will only take a moment.",
+    "If I don't answer, please just leave me a quick voicemail.",
+    "We're doing some cold outreach to companies expanding their IT teams.",
+    "I won't hang up until we agree on the next step together."
+  ]
+}

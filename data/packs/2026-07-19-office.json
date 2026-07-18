@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-19",
+  "track": "office",
+  "theme": "Small talk trước giờ họp",
+  "vocab": [
+    { "word": "kick off", "ipa": "/kɪk ɒf/", "meaning_vi": "bắt đầu (cuộc họp, sự kiện)", "example": "The meeting will kick off as soon as the manager joins.", "example_vi": "Cuộc họp sẽ bắt đầu ngay khi sếp tham gia." },
+    { "word": "join the call", "ipa": "/dʒɔɪn ðə kɔːl/", "meaning_vi": "tham gia cuộc gọi/họp online", "example": "Let's join the call a few minutes early today.", "example_vi": "Hôm nay mình vào cuộc họp sớm vài phút nhé." },
+    { "word": "chit-chat", "ipa": "/ˈtʃɪt tʃæt/", "meaning_vi": "chuyện phiếm, nói chuyện tán gẫu", "example": "A little chit-chat before the meeting helps people relax.", "example_vi": "Tán gẫu một chút trước cuộc họp giúp mọi người thoải mái hơn." },
+    { "word": "how's it going", "ipa": "/haʊz ɪt ˈɡoʊɪŋ/", "meaning_vi": "dạo này thế nào (câu hỏi thăm hỏi)", "example": "Hey, how's it going with the new apartment?", "example_vi": "Này, căn hộ mới của bạn dạo này thế nào rồi?" },
+    { "word": "traffic jam", "ipa": "/ˈtræfɪk dʒæm/", "meaning_vi": "kẹt xe", "example": "There was a bad traffic jam on my way to the office.", "example_vi": "Đường đến công ty của mình sáng nay kẹt xe kinh khủng." },
+    { "word": "warm up", "ipa": "/wɔːrm ʌp/", "meaning_vi": "khởi động, làm nóng không khí", "example": "Let's warm up the room with a quick question before we start.", "example_vi": "Hãy làm nóng không khí bằng một câu hỏi nhanh trước khi bắt đầu." },
+    { "word": "early bird", "ipa": "/ˈɜːrli bɜːrd/", "meaning_vi": "người đến sớm", "example": "I'm always an early bird, so I'm usually the first one here.", "example_vi": "Mình luôn là người đến sớm nên thường có mặt đầu tiên." },
+    { "word": "any updates", "ipa": "/ˈeni ˈʌpdeɪts/", "meaning_vi": "có cập nhật gì mới không", "example": "Does anyone have any updates before we officially begin?", "example_vi": "Có ai có cập nhật gì mới trước khi chúng ta chính thức bắt đầu không?" }
+  ],
+  "listening": {
+    "title": "Before the Meeting Starts",
+    "lines": [
+      { "speaker": "Hùng", "voice": "male", "text": "Hey Trang, we're a bit early. Should we join the call now or wait for others?" },
+      { "speaker": "Trang", "voice": "female", "text": "Let's join the call now. A few people usually kick off with some chit-chat anyway." },
+      { "speaker": "Hùng", "voice": "male", "text": "Good idea. So, how's it going with the new apartment you moved into?" },
+      { "speaker": "Trang", "voice": "female", "text": "Pretty good, thanks! The traffic jam on the way here was terrible though." },
+      { "speaker": "Hùng", "voice": "male", "text": "Tell me about it. I left home early like an early bird just to avoid it." },
+      { "speaker": "Trang", "voice": "female", "text": "Smart move. Oh look, more people are joining the call now." },
+      { "speaker": "Hùng", "voice": "male", "text": "Great, let's warm up the room a bit before the manager starts." },
+      { "speaker": "Trang", "voice": "female", "text": "Sure. Does anyone have any updates before we officially begin?" },
+      { "speaker": "Hùng", "voice": "male", "text": "Not yet, I think we're still waiting on the sales team." },
+      { "speaker": "Trang", "voice": "female", "text": "Alright, let's just keep chatting until they arrive." }
+    ],
+    "questions": [
+      { "q": "What does Trang suggest doing while they wait for the meeting?", "options": ["Read email", "Chit-chat with Hùng", "Leave the call"], "answer": 1 },
+      { "q": "Why was Hùng at the office early today?", "options": ["To meet the manager", "To avoid the traffic jam", "To review the agenda"], "answer": 1 },
+      { "q": "Who are Hùng and Trang still waiting for?", "options": ["The sales team", "The IT team", "The finance team"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Let's join the call a few minutes early and chat before it starts.",
+    "How's it going with the new project you're working on this week?",
+    "The traffic jam this morning made me almost late for the meeting.",
+    "I always try to be an early bird so I'm never rushed.",
+    "Does anyone have any updates before we officially kick off the meeting?"
+  ]
+}

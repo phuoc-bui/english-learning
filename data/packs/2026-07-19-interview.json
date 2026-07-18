@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-19",
+  "track": "interview",
+  "theme": "Giới thiệu bản thân",
+  "vocab": [
+    { "word": "brief overview", "ipa": "/briːf ˈoʊvərvjuː/", "meaning_vi": "tóm tắt ngắn gọn", "example": "Can you give me a brief overview of your background?", "example_vi": "Bạn có thể tóm tắt ngắn gọn về quá trình làm việc của mình không?" },
+    { "word": "elevator introduction", "ipa": "/ˈeləveɪtər ˌɪntrəˈdʌkʃn/", "meaning_vi": "phần giới thiệu bản thân ngắn gọn kiểu thang máy", "example": "Let me give you a quick elevator introduction of my career so far.", "example_vi": "Để tôi giới thiệu ngắn gọn về sự nghiệp của mình cho đến nay." },
+    { "word": "years of experience", "ipa": "/jɪərz əv ɪkˈspɪəriəns/", "meaning_vi": "số năm kinh nghiệm", "example": "I have four years of experience as a software developer.", "example_vi": "Tôi có bốn năm kinh nghiệm làm lập trình viên." },
+    { "word": "job title", "ipa": "/dʒɒb ˈtaɪtl/", "meaning_vi": "chức danh công việc", "example": "My current job title is Backend Developer at a fintech startup.", "example_vi": "Chức danh hiện tại của tôi là Lập trình viên Backend tại một công ty fintech." },
+    { "word": "current employer", "ipa": "/ˈkʌrənt ɪmˈplɔɪər/", "meaning_vi": "nhà tuyển dụng hiện tại, công ty đang làm", "example": "My current employer is a company called PaySmart, based here in Hanoi.", "example_vi": "Công ty tôi đang làm là PaySmart, có trụ sở tại Hà Nội." },
+    { "word": "areas of expertise", "ipa": "/ˈeəriəz əv ˌekspɜːrˈtiːz/", "meaning_vi": "các lĩnh vực chuyên môn", "example": "My areas of expertise are API design and database performance.", "example_vi": "Lĩnh vực chuyên môn của tôi là thiết kế API và tối ưu cơ sở dữ liệu." },
+    { "word": "hands-on experience", "ipa": "/hændz ɒn ɪkˈspɪəriəns/", "meaning_vi": "kinh nghiệm thực tế, trực tiếp làm", "example": "I have hands-on experience mentoring two junior developers.", "example_vi": "Tôi có kinh nghiệm thực tế trong việc kèm cặp hai lập trình viên mới." },
+    { "word": "in short", "ipa": "/ɪn ʃɔːrt/", "meaning_vi": "tóm lại, nói ngắn gọn", "example": "In short, I enjoy both coding and mentoring others.", "example_vi": "Tóm lại, tôi thích cả việc lập trình lẫn kèm cặp người khác." }
+  ],
+  "listening": {
+    "title": "Introducing Yourself in an Interview",
+    "lines": [
+      { "speaker": "Hương (interviewer)", "voice": "female", "text": "Let's start with a quick introduction. Can you give me a brief overview of your background?" },
+      { "speaker": "Tuấn (candidate)", "voice": "male", "text": "Sure, I'll keep it like an elevator introduction. I'm a software developer with four years of experience." },
+      { "speaker": "Hương (interviewer)", "voice": "female", "text": "Great. What is your current job title?" },
+      { "speaker": "Tuấn (candidate)", "voice": "male", "text": "My current job title is Backend Developer at a fintech startup." },
+      { "speaker": "Hương (interviewer)", "voice": "female", "text": "And who is your current employer?" },
+      { "speaker": "Tuấn (candidate)", "voice": "male", "text": "My current employer is a company called PaySmart, based here in Hanoi." },
+      { "speaker": "Hương (interviewer)", "voice": "female", "text": "What would you say are your areas of expertise?" },
+      { "speaker": "Tuấn (candidate)", "voice": "male", "text": "My areas of expertise are API design and database performance." },
+      { "speaker": "Hương (interviewer)", "voice": "female", "text": "Do you have any hands-on experience leading a team?" },
+      { "speaker": "Tuấn (candidate)", "voice": "male", "text": "Yes, I have hands-on experience mentoring two junior developers. In short, I enjoy both coding and mentoring." }
+    ],
+    "questions": [
+      { "q": "What is Tuấn's current job title?", "options": ["Backend Developer", "Project Manager", "QA Engineer"], "answer": 0 },
+      { "q": "How many years of experience does Tuấn mention?", "options": ["Two years", "Four years", "Ten years"], "answer": 1 },
+      { "q": "What does Tuấn say he has hands-on experience with?", "options": ["Sales presentations", "Mentoring junior developers", "Financial reporting"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "I'll keep this brief overview short and focus on my main experience.",
+    "I have four years of hands-on experience building backend systems.",
+    "My current employer is a fintech startup based here in Hanoi.",
+    "In short, my areas of expertise are API design and databases.",
+    "Let me give you a quick elevator introduction of my career so far."
+  ]
+}
