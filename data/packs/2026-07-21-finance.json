@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-21",
+  "theme": "Ngân sách & cắt giảm chi phí",
+  "vocab": [
+    {
+      "word": "freeze spending",
+      "ipa": "/friːz ˈspendɪŋ/",
+      "meaning_vi": "đóng băng chi tiêu",
+      "example": "The company decided to freeze spending until next quarter.",
+      "example_vi": "Công ty quyết định đóng băng chi tiêu cho đến quý sau."
+    },
+    {
+      "word": "cost center",
+      "ipa": "/kɒst ˈsentər/",
+      "meaning_vi": "trung tâm chi phí",
+      "example": "Marketing is one of our biggest cost centers.",
+      "example_vi": "Marketing là một trong những trung tâm chi phí lớn nhất của chúng tôi."
+    },
+    {
+      "word": "non-essential",
+      "ipa": "/nɒn ɪˈsenʃl/",
+      "meaning_vi": "không thiết yếu",
+      "example": "We are cutting all non-essential expenses this month.",
+      "example_vi": "Chúng tôi đang cắt giảm mọi chi phí không thiết yếu trong tháng này."
+    },
+    {
+      "word": "budget proposal",
+      "ipa": "/ˈbʌdʒɪt prəˈpəʊzl/",
+      "meaning_vi": "đề xuất ngân sách",
+      "example": "Please send me the updated budget proposal.",
+      "example_vi": "Vui lòng gửi cho tôi đề xuất ngân sách đã cập nhật."
+    },
+    {
+      "word": "discretionary spending",
+      "ipa": "/dɪˈskreʃənəri ˈspendɪŋ/",
+      "meaning_vi": "chi tiêu tùy ý",
+      "example": "We need to review discretionary spending in every department.",
+      "example_vi": "Chúng tôi cần rà soát chi tiêu tùy ý ở mọi phòng ban."
+    },
+    {
+      "word": "underspend",
+      "ipa": "/ˌʌndərˈspend/",
+      "meaning_vi": "chi tiêu dưới mức ngân sách",
+      "example": "The training team underspent their budget this quarter.",
+      "example_vi": "Đội đào tạo đã chi tiêu dưới mức ngân sách của họ trong quý này."
+    },
+    {
+      "word": "cost efficiency",
+      "ipa": "/kɒst ɪˈfɪʃnsi/",
+      "meaning_vi": "hiệu quả chi phí",
+      "example": "This change will improve our cost efficiency.",
+      "example_vi": "Thay đổi này sẽ cải thiện hiệu quả chi phí của chúng ta."
+    },
+    {
+      "word": "spending cap",
+      "ipa": "/ˈspendɪŋ kæp/",
+      "meaning_vi": "mức trần chi tiêu",
+      "example": "We set a spending cap for each department.",
+      "example_vi": "Chúng tôi đặt mức trần chi tiêu cho mỗi phòng ban."
+    }
+  ],
+  "listening": {
+    "title": "Cutting the budget this quarter",
+    "lines": [
+      { "speaker": "Tuan", "voice": "male", "text": "Huong, we need to freeze spending for the rest of this quarter." },
+      { "speaker": "Huong", "voice": "female", "text": "I understand. Which cost center should we focus on first?" },
+      { "speaker": "Tuan", "voice": "male", "text": "Let's start with non-essential expenses like team events." },
+      { "speaker": "Huong", "voice": "female", "text": "Okay, I'll cut those from the budget proposal." },
+      { "speaker": "Tuan", "voice": "male", "text": "Good. We also need to review discretionary spending in each department." },
+      { "speaker": "Huong", "voice": "female", "text": "I already underspent on training this month, so that helps." },
+      { "speaker": "Tuan", "voice": "male", "text": "Great, that improves our cost efficiency overall." },
+      { "speaker": "Huong", "voice": "female", "text": "Should I set a spending cap for the marketing team too?" },
+      { "speaker": "Tuan", "voice": "male", "text": "Yes, please. A clear spending cap will help us stay on track." },
+      { "speaker": "Huong", "voice": "female", "text": "I'll update the budget proposal and send it to you today." }
+    ],
+    "questions": [
+      {
+        "q": "What does Tuan ask Huong to do for the rest of the quarter?",
+        "options": ["Freeze spending", "Increase salaries", "Hire more staff"],
+        "answer": 0
+      },
+      {
+        "q": "What expenses does Tuan want to cut first?",
+        "options": ["Non-essential expenses like team events", "Office rent", "Software licenses"],
+        "answer": 0
+      },
+      {
+        "q": "What will Huong do after the call?",
+        "options": ["Update the budget proposal and send it", "Quit her job", "Ignore the request"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "We need to freeze spending for the rest of this quarter.",
+    "Let's start by cutting all the non-essential expenses like team events.",
+    "I already underspent on training this month, which really helps us.",
+    "A clear spending cap will help the marketing team stay on track.",
+    "I'll update the budget proposal and send it to you today."
+  ],
+  "track": "finance"
+}

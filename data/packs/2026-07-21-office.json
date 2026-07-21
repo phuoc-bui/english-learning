@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-21",
+  "theme": "Viết email & follow-up",
+  "vocab": [
+    {
+      "word": "subject line",
+      "ipa": "/ˈsʌbdʒɪkt laɪn/",
+      "meaning_vi": "dòng tiêu đề email",
+      "example": "Please write a clear subject line so the client understands the email quickly.",
+      "example_vi": "Hãy viết dòng tiêu đề rõ ràng để khách hàng hiểu nhanh nội dung email."
+    },
+    {
+      "word": "forward",
+      "ipa": "/ˈfɔːwəd/",
+      "meaning_vi": "chuyển tiếp (email)",
+      "example": "Can you forward this email to the whole team?",
+      "example_vi": "Bạn có thể chuyển tiếp email này cho cả nhóm không?"
+    },
+    {
+      "word": "bcc",
+      "ipa": "/ˌbiː siː ˈsiː/",
+      "meaning_vi": "bí mật đồng gửi",
+      "example": "Please bcc our manager on this email.",
+      "example_vi": "Vui lòng bí mật đồng gửi email này cho quản lý của chúng ta."
+    },
+    {
+      "word": "chase up",
+      "ipa": "/tʃeɪs ʌp/",
+      "meaning_vi": "thúc giục, đôn đốc",
+      "example": "I need to chase up the client for a reply.",
+      "example_vi": "Tôi cần đôn đốc khách hàng để có câu trả lời."
+    },
+    {
+      "word": "proofread",
+      "ipa": "/ˈpruːfriːd/",
+      "meaning_vi": "đọc soát lỗi",
+      "example": "Always proofread your email before you hit send.",
+      "example_vi": "Luôn đọc soát lỗi email trước khi bạn nhấn gửi."
+    },
+    {
+      "word": "email thread",
+      "ipa": "/ˈiːmeɪl θred/",
+      "meaning_vi": "chuỗi email",
+      "example": "Please keep replying in the same email thread.",
+      "example_vi": "Vui lòng tiếp tục trả lời trong cùng một chuỗi email."
+    },
+    {
+      "word": "bullet point",
+      "ipa": "/ˈbʊlɪt pɔɪnt/",
+      "meaning_vi": "gạch đầu dòng",
+      "example": "List the main updates as bullet points.",
+      "example_vi": "Liệt kê các cập nhật chính dưới dạng gạch đầu dòng."
+    },
+    {
+      "word": "recipient",
+      "ipa": "/rɪˈsɪpiənt/",
+      "meaning_vi": "người nhận",
+      "example": "Make sure the recipient's email address is correct.",
+      "example_vi": "Hãy chắc chắn địa chỉ email của người nhận là chính xác."
+    }
+  ],
+  "listening": {
+    "title": "Getting the follow-up email right",
+    "lines": [
+      { "speaker": "Linh", "voice": "female", "text": "Nam, did you send the report to the client yet?" },
+      { "speaker": "Nam", "voice": "male", "text": "Not yet. I'm still working on the subject line." },
+      { "speaker": "Linh", "voice": "female", "text": "Make it clear, like 'Weekly Progress Report - Project Alpha'." },
+      { "speaker": "Nam", "voice": "male", "text": "Good idea. Should I forward the previous email too?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yes, forward it so they have the full email thread." },
+      { "speaker": "Nam", "voice": "male", "text": "Do I need to bcc our manager on this one?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yes, please. And don't forget to proofread before sending." },
+      { "speaker": "Nam", "voice": "male", "text": "I'll write the main points as bullet points to keep it short." },
+      { "speaker": "Linh", "voice": "female", "text": "Perfect. Who is the main recipient again?" },
+      { "speaker": "Nam", "voice": "male", "text": "Mr. Tran from the client side. I'll chase up if he doesn't reply by Friday." }
+    ],
+    "questions": [
+      {
+        "q": "What does Linh suggest for the subject line?",
+        "options": ["A clear title like the project name", "A random word", "Nothing, leave it empty"],
+        "answer": 0
+      },
+      {
+        "q": "Why does Nam forward the previous email?",
+        "options": ["To delete it", "So the client has the full email thread", "To confuse the client"],
+        "answer": 1
+      },
+      {
+        "q": "What will Nam do if Mr. Tran doesn't reply by Friday?",
+        "options": ["Ignore it", "Chase up", "Cancel the project"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Did you send the report to the client yet, or are you still working on it?",
+    "Please forward the email and make sure to bcc our manager.",
+    "I always proofread my emails before sending them to a client.",
+    "Could you write the main points as short bullet points for me?",
+    "I'll chase up the recipient if there's no reply by Friday."
+  ],
+  "track": "office"
+}

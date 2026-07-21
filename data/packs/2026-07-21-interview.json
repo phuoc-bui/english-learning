@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-21",
+  "theme": "Điểm mạnh điểm yếu",
+  "vocab": [
+    {
+      "word": "strong suit",
+      "ipa": "/strɒŋ sjuːt/",
+      "meaning_vi": "điểm mạnh, sở trường",
+      "example": "Problem-solving is my strong suit.",
+      "example_vi": "Giải quyết vấn đề là sở trường của tôi."
+    },
+    {
+      "word": "shortcoming",
+      "ipa": "/ˈʃɔːtkʌmɪŋ/",
+      "meaning_vi": "điểm yếu, thiếu sót",
+      "example": "My biggest shortcoming used to be public speaking.",
+      "example_vi": "Điểm yếu lớn nhất của tôi trước đây là nói trước đám đông."
+    },
+    {
+      "word": "self-improvement",
+      "ipa": "/self ɪmˈpruːvmənt/",
+      "meaning_vi": "tự hoàn thiện bản thân",
+      "example": "I read books on self-improvement every month.",
+      "example_vi": "Tôi đọc sách về tự hoàn thiện bản thân mỗi tháng."
+    },
+    {
+      "word": "honest assessment",
+      "ipa": "/ˈɒnɪst əˈsesmənt/",
+      "meaning_vi": "đánh giá trung thực",
+      "example": "I try to give an honest assessment of my skills.",
+      "example_vi": "Tôi cố gắng đưa ra đánh giá trung thực về kỹ năng của mình."
+    },
+    {
+      "word": "comfort zone",
+      "ipa": "/ˈkʌmfət zəʊn/",
+      "meaning_vi": "vùng an toàn",
+      "example": "This job pushed me outside my comfort zone.",
+      "example_vi": "Công việc này đã đẩy tôi ra khỏi vùng an toàn của mình."
+    },
+    {
+      "word": "detail-oriented",
+      "ipa": "/ˈdiːteɪl ˈɔːriəntɪd/",
+      "meaning_vi": "tỉ mỉ, chú trọng chi tiết",
+      "example": "I am very detail-oriented when I check my work.",
+      "example_vi": "Tôi rất tỉ mỉ khi kiểm tra công việc của mình."
+    },
+    {
+      "word": "time management",
+      "ipa": "/taɪm ˈmænɪdʒmənt/",
+      "meaning_vi": "quản lý thời gian",
+      "example": "I improved my time management by using a planner.",
+      "example_vi": "Tôi đã cải thiện khả năng quản lý thời gian bằng cách dùng sổ kế hoạch."
+    },
+    {
+      "word": "overcome",
+      "ipa": "/ˌəʊvəˈkʌm/",
+      "meaning_vi": "vượt qua, khắc phục",
+      "example": "I worked hard to overcome that weakness.",
+      "example_vi": "Tôi đã nỗ lực để vượt qua điểm yếu đó."
+    }
+  ],
+  "listening": {
+    "title": "Strengths and weaknesses interview",
+    "lines": [
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "Bao, can you tell me about your strong suit at work?" },
+      { "speaker": "Bao (Candidate)", "voice": "male", "text": "Sure. I think my strong suit is being detail-oriented." },
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "Can you give an example of that?" },
+      { "speaker": "Bao (Candidate)", "voice": "male", "text": "I always double-check my code before submitting it for review." },
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "That's great. Now, what would you say is your shortcoming?" },
+      { "speaker": "Bao (Candidate)", "voice": "male", "text": "Honestly, time management used to be a shortcoming for me." },
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "How did you overcome that?" },
+      { "speaker": "Bao (Candidate)", "voice": "male", "text": "I started using a planner, and it really helped my self-improvement." },
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "Do you think you are outside your comfort zone in this role?" },
+      { "speaker": "Bao (Candidate)", "voice": "male", "text": "A little, but I see it as a chance to grow. I try to give an honest assessment of myself." }
+    ],
+    "questions": [
+      {
+        "q": "What does Bao say is his strong suit?",
+        "options": ["Being detail-oriented", "Being lazy", "Being late"],
+        "answer": 0
+      },
+      {
+        "q": "What was Bao's shortcoming?",
+        "options": ["Time management", "Coding skills", "Communication"],
+        "answer": 0
+      },
+      {
+        "q": "How did Bao improve his weakness?",
+        "options": ["He started using a planner", "He quit his job", "He ignored the problem"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "My strong suit is being detail-oriented, especially when I review code.",
+    "Time management used to be a shortcoming, but I have improved a lot.",
+    "I started using a planner to work on my self-improvement.",
+    "I always try to give an honest assessment of my own skills.",
+    "Stepping outside my comfort zone helps me grow both personally and professionally."
+  ],
+  "track": "interview"
+}

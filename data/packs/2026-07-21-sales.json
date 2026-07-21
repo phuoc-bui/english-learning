@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-21",
+  "theme": "Demo sản phẩm cho khách",
+  "vocab": [
+    {
+      "word": "live demo",
+      "ipa": "/laɪv ˈdeməʊ/",
+      "meaning_vi": "demo (bản trình diễn) trực tiếp",
+      "example": "We scheduled a live demo with the client for Monday.",
+      "example_vi": "Chúng tôi đã lên lịch demo trực tiếp với khách hàng vào thứ Hai."
+    },
+    {
+      "word": "screen share",
+      "ipa": "/skriːn ʃeər/",
+      "meaning_vi": "chia sẻ màn hình",
+      "example": "Let me screen share so you can see the product.",
+      "example_vi": "Để tôi chia sẻ màn hình để bạn xem sản phẩm."
+    },
+    {
+      "word": "interface",
+      "ipa": "/ˈɪntəfeɪs/",
+      "meaning_vi": "giao diện",
+      "example": "Our new interface is much easier to use.",
+      "example_vi": "Giao diện mới của chúng tôi dễ sử dụng hơn nhiều."
+    },
+    {
+      "word": "navigate",
+      "ipa": "/ˈnævɪɡeɪt/",
+      "meaning_vi": "điều hướng, di chuyển qua lại",
+      "example": "You can navigate between features with one click.",
+      "example_vi": "Bạn có thể điều hướng giữa các tính năng chỉ bằng một cú nhấp chuột."
+    },
+    {
+      "word": "showcase",
+      "ipa": "/ˈʃəʊkeɪs/",
+      "meaning_vi": "trình diễn, giới thiệu nổi bật",
+      "example": "Let me showcase our reporting feature.",
+      "example_vi": "Để tôi trình diễn tính năng báo cáo của chúng tôi."
+    },
+    {
+      "word": "highlight",
+      "ipa": "/ˈhaɪlaɪt/",
+      "meaning_vi": "làm nổi bật, nhấn mạnh",
+      "example": "I want to highlight the automation feature.",
+      "example_vi": "Tôi muốn nhấn mạnh tính năng tự động hóa."
+    },
+    {
+      "word": "real-time",
+      "ipa": "/rɪəl taɪm/",
+      "meaning_vi": "thời gian thực",
+      "example": "The dashboard updates in real-time.",
+      "example_vi": "Bảng điều khiển cập nhật theo thời gian thực."
+    },
+    {
+      "word": "hands-on",
+      "ipa": "/hændz ɒn/",
+      "meaning_vi": "trải nghiệm thực tế, thực hành",
+      "example": "We offer a hands-on trial so you can try it yourself.",
+      "example_vi": "Chúng tôi cung cấp bản dùng thử thực tế để bạn tự trải nghiệm."
+    }
+  ],
+  "listening": {
+    "title": "Walking a client through a live demo",
+    "lines": [
+      { "speaker": "Duc", "voice": "male", "text": "Thanks for joining, Ms. Phuong. I'll start the live demo now." },
+      { "speaker": "Phuong", "voice": "female", "text": "Great, I'm ready. Can you share your screen?" },
+      { "speaker": "Duc", "voice": "male", "text": "Sure, let me screen share the dashboard first." },
+      { "speaker": "Phuong", "voice": "female", "text": "The interface looks clean. Is it easy to navigate?" },
+      { "speaker": "Duc", "voice": "male", "text": "Yes, you can navigate between modules with just one click." },
+      { "speaker": "Phuong", "voice": "female", "text": "Can you showcase the reporting feature?" },
+      { "speaker": "Duc", "voice": "male", "text": "Of course, I'll highlight the reporting feature right now." },
+      { "speaker": "Phuong", "voice": "female", "text": "Does it update in real-time?" },
+      { "speaker": "Duc", "voice": "male", "text": "Yes, all data updates in real-time automatically." },
+      { "speaker": "Phuong", "voice": "female", "text": "This looks very hands-on and simple. I like it." }
+    ],
+    "questions": [
+      {
+        "q": "What does Duc do first in the call?",
+        "options": ["Share his screen for a live demo", "Ask for payment", "End the call"],
+        "answer": 0
+      },
+      {
+        "q": "What does Phuong ask Duc to showcase?",
+        "options": ["The pricing page", "The reporting feature", "The login page"],
+        "answer": 1
+      },
+      {
+        "q": "How often does the data update?",
+        "options": ["Once a day", "Real-time", "Never"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Thanks for joining today, I'll start the live demo right now.",
+    "Let me screen share the dashboard so you can see it.",
+    "Can you navigate between the modules with just one click?",
+    "I'll highlight the reporting feature so you can see the benefits.",
+    "All the data updates in real-time, so it's always accurate."
+  ],
+  "track": "sales"
+}
