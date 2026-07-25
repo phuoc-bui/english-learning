@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-26",
+  "theme": "Xin nghỉ phép & bàn giao",
+  "vocab": [
+    {
+      "word": "leave request",
+      "ipa": "/liːv rɪˈkwest/",
+      "meaning_vi": "đơn xin nghỉ phép",
+      "example": "I sent my leave request to the manager this morning.",
+      "example_vi": "Tôi đã gửi đơn xin nghỉ phép cho quản lý sáng nay."
+    },
+    {
+      "word": "handover note",
+      "ipa": "/ˈhændəʊvə nəʊt/",
+      "meaning_vi": "ghi chú bàn giao",
+      "example": "Please write a handover note before you go on leave.",
+      "example_vi": "Vui lòng viết ghi chú bàn giao trước khi bạn nghỉ phép."
+    },
+    {
+      "word": "take over",
+      "ipa": "/teɪk ˈəʊvə/",
+      "meaning_vi": "tiếp quản, đảm nhận thay",
+      "example": "Hoa will take over my tasks while I'm away.",
+      "example_vi": "Hoa sẽ tiếp quản công việc của tôi khi tôi vắng mặt."
+    },
+    {
+      "word": "pending task",
+      "ipa": "/ˈpendɪŋ tɑːsk/",
+      "meaning_vi": "công việc còn dang dở",
+      "example": "List every pending task before your last working day.",
+      "example_vi": "Liệt kê mọi công việc còn dang dở trước ngày làm việc cuối."
+    },
+    {
+      "word": "emergency leave",
+      "ipa": "/ɪˈmɜːdʒənsi liːv/",
+      "meaning_vi": "nghỉ phép khẩn cấp",
+      "example": "He took emergency leave because his father was sick.",
+      "example_vi": "Anh ấy xin nghỉ phép khẩn cấp vì bố bị ốm."
+    },
+    {
+      "word": "fill in for",
+      "ipa": "/fɪl ɪn fɔː/",
+      "meaning_vi": "làm thay cho ai đó",
+      "example": "Can you fill in for me during the client call tomorrow?",
+      "example_vi": "Bạn có thể làm thay tôi trong cuộc gọi với khách ngày mai không?"
+    },
+    {
+      "word": "leave balance",
+      "ipa": "/liːv ˈbæləns/",
+      "meaning_vi": "số ngày phép còn lại",
+      "example": "Check your leave balance before booking a trip.",
+      "example_vi": "Hãy kiểm tra số ngày phép còn lại trước khi đặt chuyến đi."
+    },
+    {
+      "word": "reassign",
+      "ipa": "/ˌriːəˈsaɪn/",
+      "meaning_vi": "phân công lại",
+      "example": "We need to reassign the client call to someone else.",
+      "example_vi": "Chúng ta cần phân công lại cuộc gọi với khách cho người khác."
+    }
+  ],
+  "listening": {
+    "title": "Handing over work before taking leave",
+    "lines": [
+      { "speaker": "Nam", "voice": "male", "text": "Linh, I need to submit a leave request for next week." },
+      { "speaker": "Linh", "voice": "female", "text": "Sure, is it urgent, or can you plan the handover note first?" },
+      { "speaker": "Nam", "voice": "male", "text": "It's an emergency leave, actually. My father is not feeling well." },
+      { "speaker": "Linh", "voice": "female", "text": "I'm sorry to hear that. Who can fill in for you while you're away?" },
+      { "speaker": "Nam", "voice": "male", "text": "I think Hoa can take over my tasks. She knows the project well." },
+      { "speaker": "Linh", "voice": "female", "text": "Good idea. Can you list any pending task before you go?" },
+      { "speaker": "Nam", "voice": "male", "text": "Yes, I'll write everything in a handover note today." },
+      { "speaker": "Linh", "voice": "female", "text": "Perfect. I'll reassign the client call to Hoa as well." },
+      { "speaker": "Nam", "voice": "male", "text": "Thank you. I still have some leave balance, so this should be fine." },
+      { "speaker": "Linh", "voice": "female", "text": "Don't worry about work. Just take care of your family first." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Nam need emergency leave?",
+        "options": ["His father is not feeling well", "He wants a vacation", "He is moving house"],
+        "answer": 0
+      },
+      {
+        "q": "Who will take over Nam's tasks?",
+        "options": ["Linh", "Hoa", "The manager"],
+        "answer": 1
+      },
+      {
+        "q": "What does Linh ask Nam to do before leaving?",
+        "options": ["Write a handover note", "Cancel all meetings", "Resign"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I need to submit an emergency leave request for next week.",
+    "Could you fill in for me while I'm away from the office?",
+    "I'll write a detailed handover note before I take my leave.",
+    "Please make sure all pending tasks are reassigned to someone else.",
+    "I still have enough leave balance to take a few more days."
+  ],
+  "track": "office"
+}

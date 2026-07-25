@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-26",
+  "theme": "Kể về dự án đáng nhớ",
+  "vocab": [
+    {
+      "word": "milestone",
+      "ipa": "/ˈmaɪlstəʊn/",
+      "meaning_vi": "cột mốc quan trọng",
+      "example": "We set a milestone at the end of every sprint.",
+      "example_vi": "Chúng tôi đặt một cột mốc quan trọng vào cuối mỗi sprint."
+    },
+    {
+      "word": "cross-functional team",
+      "ipa": "/krɒs ˈfʌŋkʃənl tiːm/",
+      "meaning_vi": "nhóm liên phòng ban",
+      "example": "I led a cross-functional team of developers and testers.",
+      "example_vi": "Tôi đã dẫn dắt một nhóm liên phòng ban gồm lập trình viên và tester."
+    },
+    {
+      "word": "scope of work",
+      "ipa": "/skəʊp əv wɜːk/",
+      "meaning_vi": "phạm vi công việc",
+      "example": "We defined the scope of work with the stakeholders first.",
+      "example_vi": "Chúng tôi xác định phạm vi công việc với các bên liên quan trước."
+    },
+    {
+      "word": "stakeholder",
+      "ipa": "/ˈsteɪkhəʊldə/",
+      "meaning_vi": "bên liên quan",
+      "example": "Every stakeholder agreed on the project plan.",
+      "example_vi": "Mọi bên liên quan đều đồng ý với kế hoạch dự án."
+    },
+    {
+      "word": "tight timeline",
+      "ipa": "/taɪt ˈtaɪmlaɪn/",
+      "meaning_vi": "thời hạn gấp rút",
+      "example": "The project had a very tight timeline to launch.",
+      "example_vi": "Dự án có thời hạn rất gấp rút để ra mắt."
+    },
+    {
+      "word": "key contribution",
+      "ipa": "/kiː ˌkɒntrɪˈbjuːʃn/",
+      "meaning_vi": "đóng góp then chốt",
+      "example": "My key contribution was designing the migration plan.",
+      "example_vi": "Đóng góp then chốt của tôi là thiết kế kế hoạch di chuyển dữ liệu."
+    },
+    {
+      "word": "measurable impact",
+      "ipa": "/ˈmeʒərəbl ˈɪmpækt/",
+      "meaning_vi": "tác động đo lường được",
+      "example": "The change had a measurable impact on performance.",
+      "example_vi": "Sự thay đổi đó có tác động đo lường được đến hiệu suất."
+    },
+    {
+      "word": "deliverable",
+      "ipa": "/dɪˈlɪvərəbl/",
+      "meaning_vi": "sản phẩm bàn giao",
+      "example": "The final deliverable was ready two days early.",
+      "example_vi": "Sản phẩm bàn giao cuối cùng đã sẵn sàng sớm hai ngày."
+    }
+  ],
+  "listening": {
+    "title": "Describing a memorable project",
+    "lines": [
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "Duy, can you tell me about a memorable project from your last job?" },
+      { "speaker": "Duy (Candidate)", "voice": "male", "text": "Sure. I worked on a project to migrate our system, and it had a very tight timeline." },
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "What was your role in that project?" },
+      { "speaker": "Duy (Candidate)", "voice": "male", "text": "I led a cross-functional team of developers and testers." },
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "How did you handle the scope of work?" },
+      { "speaker": "Duy (Candidate)", "voice": "male", "text": "We first defined the scope of work clearly with all the stakeholders." },
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "Were there any important milestones along the way?" },
+      { "speaker": "Duy (Candidate)", "voice": "male", "text": "Yes, we set weekly milestones to track our progress." },
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "What was your key contribution to the project?" },
+      { "speaker": "Duy (Candidate)", "voice": "male", "text": "My key contribution was designing the data migration plan, which had a measurable impact on performance." },
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "What was the final deliverable?" },
+      { "speaker": "Duy (Candidate)", "voice": "male", "text": "The final deliverable was a fully migrated system, delivered two days early." }
+    ],
+    "questions": [
+      {
+        "q": "What was Duy's role in the project?",
+        "options": ["He led a cross-functional team", "He was a client", "He only observed"],
+        "answer": 0
+      },
+      {
+        "q": "What did the team define first?",
+        "options": ["The scope of work", "The office budget", "The holiday schedule"],
+        "answer": 0
+      },
+      {
+        "q": "What was the final deliverable?",
+        "options": ["A fully migrated system delivered early", "A cancelled project", "A new hiring plan"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I worked on a project with a very tight timeline last year.",
+    "I led a cross-functional team of developers and testers on it.",
+    "We defined the scope of work clearly with all the stakeholders.",
+    "We set weekly milestones to track our progress on the project.",
+    "My key contribution had a measurable impact on the final deliverable."
+  ],
+  "track": "interview"
+}

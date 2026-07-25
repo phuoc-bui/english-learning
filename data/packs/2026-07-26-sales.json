@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-26",
+  "theme": "Xử lý khi khách từ chối",
+  "vocab": [
+    {
+      "word": "raise an objection",
+      "ipa": "/reɪz ən əbˈdʒekʃn/",
+      "meaning_vi": "đưa ra ý kiến phản đối",
+      "example": "The client raised an objection about the contract length.",
+      "example_vi": "Khách hàng đưa ra ý kiến phản đối về thời hạn hợp đồng."
+    },
+    {
+      "word": "overcome an objection",
+      "ipa": "/ˌəʊvəˈkʌm ən əbˈdʒekʃn/",
+      "meaning_vi": "vượt qua sự phản đối",
+      "example": "Listening carefully helps you overcome an objection.",
+      "example_vi": "Lắng nghe kỹ giúp bạn vượt qua sự phản đối của khách."
+    },
+    {
+      "word": "hesitation",
+      "ipa": "/ˌhezɪˈteɪʃn/",
+      "meaning_vi": "sự do dự",
+      "example": "I could sense some hesitation in his voice.",
+      "example_vi": "Tôi có thể cảm nhận sự do dự trong giọng nói của anh ấy."
+    },
+    {
+      "word": "peace of mind",
+      "ipa": "/piːs əv maɪnd/",
+      "meaning_vi": "sự an tâm",
+      "example": "Our support plan gives customers real peace of mind.",
+      "example_vi": "Gói hỗ trợ của chúng tôi mang lại sự an tâm thực sự cho khách hàng."
+    },
+    {
+      "word": "price sensitivity",
+      "ipa": "/praɪs ˌsensəˈtɪvəti/",
+      "meaning_vi": "độ nhạy cảm về giá",
+      "example": "Small companies often show high price sensitivity.",
+      "example_vi": "Các công ty nhỏ thường có độ nhạy cảm về giá cao."
+    },
+    {
+      "word": "buying signal",
+      "ipa": "/ˈbaɪɪŋ ˈsɪɡnəl/",
+      "meaning_vi": "tín hiệu mua hàng",
+      "example": "Asking about payment is a strong buying signal.",
+      "example_vi": "Hỏi về thanh toán là một tín hiệu mua hàng mạnh mẽ."
+    },
+    {
+      "word": "common misconception",
+      "ipa": "/ˈkɒmən ˌmɪskənˈsepʃn/",
+      "meaning_vi": "hiểu lầm phổ biến",
+      "example": "That's a common misconception about our pricing.",
+      "example_vi": "Đó là một hiểu lầm phổ biến về giá cả của chúng tôi."
+    },
+    {
+      "word": "trust-building",
+      "ipa": "/trʌst ˈbɪldɪŋ/",
+      "meaning_vi": "xây dựng lòng tin",
+      "example": "Trust-building matters more than a quick sale.",
+      "example_vi": "Xây dựng lòng tin quan trọng hơn việc bán hàng nhanh chóng."
+    }
+  ],
+  "listening": {
+    "title": "Turning a client's objection around",
+    "lines": [
+      { "speaker": "Khoa", "voice": "male", "text": "Honestly, I have to raise an objection about the contract length." },
+      { "speaker": "Trang", "voice": "female", "text": "I understand. What's causing your hesitation exactly?" },
+      { "speaker": "Khoa", "voice": "male", "text": "We're worried about being locked in for two years." },
+      { "speaker": "Trang", "voice": "female", "text": "That's a common misconception. You can actually cancel anytime after six months." },
+      { "speaker": "Khoa", "voice": "male", "text": "Oh, that gives me some peace of mind." },
+      { "speaker": "Trang", "voice": "female", "text": "Great, I can see that's a buying signal. Should we prepare the paperwork?" },
+      { "speaker": "Khoa", "voice": "male", "text": "Not so fast. I still have concerns about price sensitivity in our budget." },
+      { "speaker": "Trang", "voice": "female", "text": "I understand price sensitivity is a real concern. Let's look at a flexible payment plan." },
+      { "speaker": "Khoa", "voice": "male", "text": "That could work. How do you usually overcome an objection like this?" },
+      { "speaker": "Trang", "voice": "female", "text": "By listening carefully and focusing on trust-building before pushing for a decision." }
+    ],
+    "questions": [
+      {
+        "q": "What is Khoa's first objection about?",
+        "options": ["The contract length", "The product color", "The office location"],
+        "answer": 0
+      },
+      {
+        "q": "What does Trang say is a common misconception?",
+        "options": ["Being locked in for two years", "The price is fixed", "The trial is not free"],
+        "answer": 0
+      },
+      {
+        "q": "What does Trang focus on to overcome objections?",
+        "options": ["Trust-building", "Ignoring the client", "Rushing the decision"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I have to raise an objection about the length of this contract.",
+    "That's actually a common misconception many clients have about our terms.",
+    "Knowing the details gives me a lot of peace of mind.",
+    "We understand your price sensitivity, so let's find a flexible plan.",
+    "Trust-building is the best way to overcome a customer's objection."
+  ],
+  "track": "sales"
+}

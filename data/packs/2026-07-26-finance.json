@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-26",
+  "theme": "Hoá đơn và thanh toán",
+  "vocab": [
+    {
+      "word": "issue an invoice",
+      "ipa": "/ˈɪʃuː ən ˈɪnvɔɪs/",
+      "meaning_vi": "phát hành hóa đơn",
+      "example": "We issue an invoice as soon as the order ships.",
+      "example_vi": "Chúng tôi phát hành hóa đơn ngay khi đơn hàng được giao."
+    },
+    {
+      "word": "payment term",
+      "ipa": "/ˈpeɪmənt tɜːm/",
+      "meaning_vi": "điều khoản thanh toán",
+      "example": "The payment term on this invoice is thirty days.",
+      "example_vi": "Điều khoản thanh toán của hóa đơn này là ba mươi ngày."
+    },
+    {
+      "word": "installment",
+      "ipa": "/ɪnˈstɔːlmənt/",
+      "meaning_vi": "trả góp",
+      "example": "The client asked to pay in three installments.",
+      "example_vi": "Khách hàng yêu cầu trả góp thành ba đợt."
+    },
+    {
+      "word": "credit note",
+      "ipa": "/ˈkredɪt nəʊt/",
+      "meaning_vi": "giấy báo có, phiếu ghi có",
+      "example": "We'll send a credit note for the returned item.",
+      "example_vi": "Chúng tôi sẽ gửi giấy báo có cho mặt hàng đã trả lại."
+    },
+    {
+      "word": "remittance",
+      "ipa": "/rɪˈmɪtəns/",
+      "meaning_vi": "khoản tiền chuyển",
+      "example": "The remittance from the client arrived this morning.",
+      "example_vi": "Khoản tiền chuyển từ khách hàng đã đến sáng nay."
+    },
+    {
+      "word": "settle an invoice",
+      "ipa": "/ˈsetl ən ˈɪnvɔɪs/",
+      "meaning_vi": "thanh toán một hóa đơn",
+      "example": "Please settle an invoice before the due date.",
+      "example_vi": "Vui lòng thanh toán hóa đơn trước hạn."
+    },
+    {
+      "word": "payment gateway",
+      "ipa": "/ˈpeɪmənt ˈɡeɪtweɪ/",
+      "meaning_vi": "cổng thanh toán",
+      "example": "The payment gateway confirmed the transfer instantly.",
+      "example_vi": "Cổng thanh toán đã xác nhận giao dịch chuyển tiền ngay lập tức."
+    },
+    {
+      "word": "duplicate payment",
+      "ipa": "/ˈdjuːplɪkeɪt ˈpeɪmənt/",
+      "meaning_vi": "thanh toán trùng",
+      "example": "We must avoid any duplicate payment in the system.",
+      "example_vi": "Chúng ta phải tránh mọi trường hợp thanh toán trùng trong hệ thống."
+    }
+  ],
+  "listening": {
+    "title": "Checking an invoice and payment",
+    "lines": [
+      { "speaker": "Minh", "voice": "male", "text": "Hoa, did we issue an invoice to the client for last month's service?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Yes, I sent it yesterday. The payment term is 30 days." },
+      { "speaker": "Minh", "voice": "male", "text": "Good. Can they pay in installment, or does it have to be one payment?" },
+      { "speaker": "Hoa", "voice": "female", "text": "The contract says one payment, but we can discuss if they ask." },
+      { "speaker": "Minh", "voice": "male", "text": "Okay. Did we also send the credit note for the returned item?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Not yet. I'll prepare the credit note this afternoon." },
+      { "speaker": "Minh", "voice": "male", "text": "Thanks. Also, check if the remittance from last week has arrived." },
+      { "speaker": "Hoa", "voice": "female", "text": "I checked already. It came through the payment gateway this morning." },
+      { "speaker": "Minh", "voice": "male", "text": "Great. Please make sure there's no duplicate payment in the system." },
+      { "speaker": "Hoa", "voice": "female", "text": "I'll settle an invoice check right now to confirm everything is correct." }
+    ],
+    "questions": [
+      {
+        "q": "What is the payment term for the invoice?",
+        "options": ["30 days", "60 days", "90 days"],
+        "answer": 0
+      },
+      {
+        "q": "Why does Hoa need to prepare a credit note?",
+        "options": ["For the returned item", "For a new order", "For a discount"],
+        "answer": 0
+      },
+      {
+        "q": "What does Minh want Hoa to check?",
+        "options": ["That there's no duplicate payment", "That the invoice is deleted", "That the client is angry"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Did we issue an invoice to the client for last month's service?",
+    "The payment term for this invoice is thirty days from today.",
+    "Please prepare a credit note for the item they returned.",
+    "I need to confirm the remittance came through the payment gateway.",
+    "Make sure there is no duplicate payment in our accounting system."
+  ],
+  "track": "finance"
+}
