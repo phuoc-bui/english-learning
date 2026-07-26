@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-27",
+  "theme": "Làm việc với kiểm toán",
+  "vocab": [
+    {
+      "word": "audit finding",
+      "ipa": "/ˈɔːdɪt ˈfaɪndɪŋ/",
+      "meaning_vi": "phát hiện của kiểm toán",
+      "example": "The auditors listed three findings in their report.",
+      "example_vi": "Kiểm toán viên liệt kê ba phát hiện trong báo cáo của họ."
+    },
+    {
+      "word": "spot check",
+      "ipa": "/spɒt tʃek/",
+      "meaning_vi": "kiểm tra ngẫu nhiên",
+      "example": "The auditor did a spot check on last month's invoices.",
+      "example_vi": "Kiểm toán viên đã kiểm tra ngẫu nhiên hóa đơn tháng trước."
+    },
+    {
+      "word": "documentation gap",
+      "ipa": "/ˌdɒkjʊmenˈteɪʃn ɡæp/",
+      "meaning_vi": "thiếu sót về hồ sơ, chứng từ",
+      "example": "We found a documentation gap in the March expense reports.",
+      "example_vi": "Chúng tôi phát hiện thiếu sót hồ sơ trong báo cáo chi phí tháng Ba."
+    },
+    {
+      "word": "corrective action",
+      "ipa": "/kəˈrektɪv ˈækʃn/",
+      "meaning_vi": "hành động khắc phục",
+      "example": "We need to take corrective action before the next audit.",
+      "example_vi": "Chúng tôi cần thực hiện hành động khắc phục trước đợt kiểm toán tiếp theo."
+    },
+    {
+      "word": "materiality",
+      "ipa": "/məˌtɪəriˈæləti/",
+      "meaning_vi": "tính trọng yếu",
+      "example": "Anything below this amount doesn't meet the materiality threshold.",
+      "example_vi": "Bất kỳ khoản nào dưới mức này đều không đạt ngưỡng trọng yếu."
+    },
+    {
+      "word": "raise a red flag",
+      "ipa": "/reɪz ə red flæɡ/",
+      "meaning_vi": "cảnh báo về một vấn đề",
+      "example": "The auditor raised a red flag about our vendor payments.",
+      "example_vi": "Kiểm toán viên đã cảnh báo về các khoản thanh toán cho nhà cung cấp của chúng tôi."
+    },
+    {
+      "word": "remediate",
+      "ipa": "/rɪˈmiːdieɪt/",
+      "meaning_vi": "khắc phục, xử lý vấn đề",
+      "example": "We have 30 days to remediate the issues found.",
+      "example_vi": "Chúng tôi có 30 ngày để khắc phục các vấn đề được phát hiện."
+    },
+    {
+      "word": "audit committee",
+      "ipa": "/ˈɔːdɪt kəˈmɪti/",
+      "meaning_vi": "ủy ban kiểm toán",
+      "example": "The findings will be presented to the audit committee next week.",
+      "example_vi": "Các phát hiện sẽ được trình lên ủy ban kiểm toán vào tuần tới."
+    }
+  ],
+  "listening": {
+    "title": "Meeting with the External Auditors",
+    "lines": [
+      { "speaker": "Phong", "voice": "male", "text": "Good morning, Hoa. We'd like to go through a few audit findings from this quarter." },
+      { "speaker": "Hoa", "voice": "female", "text": "Good morning. Sure, please go ahead." },
+      { "speaker": "Phong", "voice": "male", "text": "We ran a spot check on your March invoices and found a documentation gap for two of them." },
+      { "speaker": "Hoa", "voice": "female", "text": "I see. Those might be the vendor invoices we processed manually during the system outage." },
+      { "speaker": "Phong", "voice": "male", "text": "That's possible. Can you send the supporting paperwork by Friday?" },
+      { "speaker": "Hoa", "voice": "female", "text": "Yes, I'll ask the team to send it over today." },
+      { "speaker": "Phong", "voice": "male", "text": "We also noticed a control weakness in how expense approvals are tracked." },
+      { "speaker": "Hoa", "voice": "female", "text": "Understood. What corrective action would you recommend?" },
+      { "speaker": "Phong", "voice": "male", "text": "Adding a second approver above a certain materiality threshold would help." },
+      { "speaker": "Hoa", "voice": "female", "text": "That makes sense. We'll remediate that within the next two weeks." },
+      { "speaker": "Phong", "voice": "male", "text": "Good. I'll raise a red flag on it in my notes, but it's an easy fix." },
+      { "speaker": "Hoa", "voice": "female", "text": "Thanks — will this go to the audit committee, or just stay in your working notes?" }
+    ],
+    "questions": [
+      {
+        "q": "What issue did the auditors find in the March invoices?",
+        "options": ["A documentation gap for two invoices", "Duplicate payments", "Wrong tax code"],
+        "answer": 0
+      },
+      {
+        "q": "What corrective action does Phong suggest?",
+        "options": ["Hiring a new accountant", "Adding a second approver above a materiality threshold", "Switching accounting software"],
+        "answer": 1
+      },
+      {
+        "q": "What does Hoa ask about at the end?",
+        "options": ["Whether the findings will go to the audit committee", "Whether she can extend the deadline", "Whether the audit is cancelled"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "We'd like to go through a few audit findings from this quarter.",
+    "We ran a spot check and found a small documentation gap.",
+    "Could you send the supporting paperwork to us by Friday?",
+    "We noticed a control weakness in how approvals are tracked.",
+    "We'll remediate that issue within the next two weeks, no problem."
+  ],
+  "track": "finance"
+}

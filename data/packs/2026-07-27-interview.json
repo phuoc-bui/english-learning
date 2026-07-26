@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-27",
+  "theme": "Xử lý xung đột trong nhóm",
+  "vocab": [
+    {
+      "word": "clash",
+      "ipa": "/klæʃ/",
+      "meaning_vi": "xung đột, bất đồng",
+      "example": "We had a clash over how to prioritize the backlog.",
+      "example_vi": "Chúng tôi đã bất đồng về cách ưu tiên công việc trong backlog."
+    },
+    {
+      "word": "see eye to eye",
+      "ipa": "/siː aɪ tuː aɪ/",
+      "meaning_vi": "đồng quan điểm",
+      "example": "We didn't see eye to eye at first, but we found a solution.",
+      "example_vi": "Ban đầu chúng tôi không cùng quan điểm, nhưng sau đó đã tìm ra giải pháp."
+    },
+    {
+      "word": "get to the bottom of",
+      "ipa": "/ɡet tuː ðə ˈbɒtəm əv/",
+      "meaning_vi": "tìm ra nguyên nhân gốc rễ",
+      "example": "I wanted to get to the bottom of why the miscommunication happened.",
+      "example_vi": "Tôi muốn tìm ra nguyên nhân gốc rễ của sự hiểu lầm."
+    },
+    {
+      "word": "defuse a situation",
+      "ipa": "/diːˈfjuːz ə ˌsɪtʃuˈeɪʃn/",
+      "meaning_vi": "làm dịu tình huống căng thẳng",
+      "example": "I stepped in early to defuse the situation before it escalated.",
+      "example_vi": "Tôi can thiệp sớm để làm dịu tình huống trước khi nó trở nên nghiêm trọng."
+    },
+    {
+      "word": "common ground",
+      "ipa": "/ˈkɒmən ɡraʊnd/",
+      "meaning_vi": "điểm chung",
+      "example": "We found common ground once we focused on the shared goal.",
+      "example_vi": "Chúng tôi tìm được điểm chung khi tập trung vào mục tiêu chung."
+    },
+    {
+      "word": "air grievances",
+      "ipa": "/eə ˈɡriːvənsɪz/",
+      "meaning_vi": "bày tỏ bất bình",
+      "example": "I gave both sides a chance to air their grievances.",
+      "example_vi": "Tôi cho cả hai bên cơ hội bày tỏ bất bình của mình."
+    },
+    {
+      "word": "mediate",
+      "ipa": "/ˈmiːdieɪt/",
+      "meaning_vi": "làm trung gian hòa giải",
+      "example": "My manager asked me to mediate between the two developers.",
+      "example_vi": "Quản lý của tôi nhờ tôi làm trung gian hòa giải giữa hai lập trình viên."
+    },
+    {
+      "word": "hold a grudge",
+      "ipa": "/həʊld ə ɡrʌdʒ/",
+      "meaning_vi": "để bụng, giữ oán giận",
+      "example": "Neither of us held a grudge after the disagreement.",
+      "example_vi": "Không ai trong hai chúng tôi để bụng sau bất đồng đó."
+    }
+  ],
+  "listening": {
+    "title": "Interview Question: Handling Conflict in a Team",
+    "lines": [
+      { "speaker": "Lan (Interviewer)", "voice": "female", "text": "Can you tell me about a time you had a conflict with a teammate?" },
+      { "speaker": "Đức (Candidate)", "voice": "male", "text": "Sure. Last year, a colleague and I had a clash over how to prioritize a sprint." },
+      { "speaker": "Lan (Interviewer)", "voice": "female", "text": "What was the situation exactly?" },
+      { "speaker": "Đức (Candidate)", "voice": "male", "text": "We didn't see eye to eye — he wanted to focus on new features, and I wanted to fix bugs first." },
+      { "speaker": "Lan (Interviewer)", "voice": "female", "text": "How did you handle it?" },
+      { "speaker": "Đức (Candidate)", "voice": "male", "text": "I asked for a quick chat to get to the bottom of why we disagreed." },
+      { "speaker": "Lan (Interviewer)", "voice": "female", "text": "Did that help defuse the situation?" },
+      { "speaker": "Đức (Candidate)", "voice": "male", "text": "Yes. Once we talked, we found common ground — fixing critical bugs first, then new features." },
+      { "speaker": "Lan (Interviewer)", "voice": "female", "text": "Did you let him air his grievances during that talk?" },
+      { "speaker": "Đức (Candidate)", "voice": "male", "text": "Definitely. I think that's why neither of us held a grudge afterward." },
+      { "speaker": "Lan (Interviewer)", "voice": "female", "text": "Did anyone need to mediate, like your manager?" },
+      { "speaker": "Đức (Candidate)", "voice": "male", "text": "No, we managed to sort it out between the two of us." }
+    ],
+    "questions": [
+      {
+        "q": "What did Đức and his colleague disagree about?",
+        "options": ["Who should attend a meeting", "How to prioritize a sprint", "Which tool to use"],
+        "answer": 1
+      },
+      {
+        "q": "What did Đức do first to resolve the conflict?",
+        "options": ["Reported it to HR", "Asked for a quick chat to understand the disagreement", "Ignored the issue"],
+        "answer": 1
+      },
+      {
+        "q": "Did a manager need to mediate the conflict?",
+        "options": ["Yes, immediately", "No, they resolved it themselves", "Yes, after a week"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "We had a clash over how to prioritize the sprint.",
+    "We didn't see eye to eye with each other at first.",
+    "I wanted to get to the bottom of the issue.",
+    "I stepped in early to defuse the situation before it escalated.",
+    "We eventually found common ground and moved forward together as a team."
+  ],
+  "track": "interview"
+}

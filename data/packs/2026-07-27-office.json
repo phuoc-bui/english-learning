@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-27",
+  "theme": "Báo cáo với sếp",
+  "vocab": [
+    {
+      "word": "status update",
+      "ipa": "/ˈsteɪtəs ˈʌpdeɪt/",
+      "meaning_vi": "cập nhật tình hình",
+      "example": "Let me give you a quick status update on the project.",
+      "example_vi": "Để tôi cập nhật nhanh tình hình dự án cho anh."
+    },
+    {
+      "word": "roadblock",
+      "ipa": "/ˈrəʊdblɒk/",
+      "meaning_vi": "trở ngại, vướng mắc",
+      "example": "We hit a roadblock with the vendor's approval process.",
+      "example_vi": "Chúng tôi gặp trở ngại với quy trình phê duyệt của nhà cung cấp."
+    },
+    {
+      "word": "give a heads-up",
+      "ipa": "/ɡɪv ə ˈhedzʌp/",
+      "meaning_vi": "báo trước cho ai đó",
+      "example": "I wanted to give you a heads-up before the client calls.",
+      "example_vi": "Tôi muốn báo trước cho anh trước khi khách hàng gọi."
+    },
+    {
+      "word": "in the loop",
+      "ipa": "/ɪn ðə luːp/",
+      "meaning_vi": "được cập nhật thông tin",
+      "example": "Please keep me in the loop on any changes.",
+      "example_vi": "Hãy cập nhật cho tôi mọi thay đổi nhé."
+    },
+    {
+      "word": "bandwidth",
+      "ipa": "/ˈbændwɪdθ/",
+      "meaning_vi": "quỹ thời gian, nguồn lực",
+      "example": "I don't have the bandwidth to take on another task this week.",
+      "example_vi": "Tuần này tôi không còn quỹ thời gian để nhận thêm việc."
+    },
+    {
+      "word": "bottleneck",
+      "ipa": "/ˈbɒtəlnek/",
+      "meaning_vi": "điểm nghẽn, nút thắt",
+      "example": "The approval step is currently our biggest bottleneck.",
+      "example_vi": "Bước phê duyệt hiện là nút thắt lớn nhất của chúng tôi."
+    },
+    {
+      "word": "rundown",
+      "ipa": "/ˈrʌndaʊn/",
+      "meaning_vi": "bản tóm tắt nhanh",
+      "example": "Can you give me a quick rundown of what happened?",
+      "example_vi": "Anh có thể tóm tắt nhanh chuyện gì đã xảy ra không?"
+    },
+    {
+      "word": "course-correct",
+      "ipa": "/kɔːs kəˈrekt/",
+      "meaning_vi": "điều chỉnh lại hướng đi",
+      "example": "We need to course-correct before the deadline slips further.",
+      "example_vi": "Chúng ta cần điều chỉnh lại hướng đi trước khi trễ deadline thêm nữa."
+    }
+  ],
+  "listening": {
+    "title": "Weekly Status Update",
+    "lines": [
+      { "speaker": "Tuấn", "voice": "male", "text": "Linh, do you have a few minutes for a quick status update on the campaign?" },
+      { "speaker": "Linh", "voice": "female", "text": "Sure! Overall we're on track, but we hit a small roadblock with the design agency." },
+      { "speaker": "Tuấn", "voice": "male", "text": "What kind of roadblock?" },
+      { "speaker": "Linh", "voice": "female", "text": "They're behind on the banner designs, so I wanted to give you a heads-up in case it delays the launch." },
+      { "speaker": "Tuấn", "voice": "male", "text": "Thanks for the heads-up. How much delay are we talking about?" },
+      { "speaker": "Linh", "voice": "female", "text": "Maybe two or three days, if we don't course-correct soon." },
+      { "speaker": "Tuấn", "voice": "male", "text": "Okay. What's the biggest bottleneck right now?" },
+      { "speaker": "Linh", "voice": "female", "text": "Honestly, it's their approval process — everything has to go through three people." },
+      { "speaker": "Tuấn", "voice": "male", "text": "Got it. Do you have the bandwidth to follow up with them directly today?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yes, I'll call them this afternoon and keep you in the loop." },
+      { "speaker": "Tuấn", "voice": "male", "text": "Perfect. Can you send me a quick rundown by email after the call?" },
+      { "speaker": "Linh", "voice": "female", "text": "Of course, I'll send it before I leave." }
+    ],
+    "questions": [
+      {
+        "q": "What problem does Linh report to her boss?",
+        "options": ["The budget was cut", "The design agency is behind schedule", "The client cancelled the campaign"],
+        "answer": 1
+      },
+      {
+        "q": "What does Linh promise to do this afternoon?",
+        "options": ["Redesign the banners herself", "Call the agency to follow up", "Cancel the launch"],
+        "answer": 1
+      },
+      {
+        "q": "What does Tuấn ask Linh to send after the call?",
+        "options": ["A revised budget", "A quick rundown by email", "A new contract"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Let me give you a quick status update on where we are.",
+    "We hit a small roadblock, but it's nothing we can't handle.",
+    "I just wanted to give you a heads-up before the meeting.",
+    "Please keep me in the loop if anything changes today.",
+    "Can you send me a quick rundown after you're done?"
+  ],
+  "track": "office"
+}

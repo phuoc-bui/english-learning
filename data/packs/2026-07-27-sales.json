@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-27",
+  "theme": "Đàm phán giá & điều khoản",
+  "vocab": [
+    {
+      "word": "sweeten the deal",
+      "ipa": "/ˈswiːtn ðə diːl/",
+      "meaning_vi": "làm cho thỏa thuận hấp dẫn hơn",
+      "example": "We can sweeten the deal by including free onboarding.",
+      "example_vi": "Chúng tôi có thể làm thỏa thuận hấp dẫn hơn bằng cách tặng kèm đào tạo miễn phí."
+    },
+    {
+      "word": "walk away",
+      "ipa": "/wɔːk əˈweɪ/",
+      "meaning_vi": "từ bỏ, rút lui khỏi thương vụ",
+      "example": "If the price doesn't work, the client might walk away.",
+      "example_vi": "Nếu mức giá không phù hợp, khách hàng có thể sẽ từ bỏ thương vụ."
+    },
+    {
+      "word": "lock in a price",
+      "ipa": "/lɒk ɪn ə praɪs/",
+      "meaning_vi": "chốt cố định mức giá",
+      "example": "Let's lock in this price for the next 12 months.",
+      "example_vi": "Hãy chốt cố định mức giá này trong 12 tháng tới."
+    },
+    {
+      "word": "payment schedule",
+      "ipa": "/ˈpeɪmənt ˈʃedjuːl/",
+      "meaning_vi": "lịch thanh toán",
+      "example": "Can we agree on a payment schedule that works for both sides?",
+      "example_vi": "Chúng ta có thể thống nhất một lịch thanh toán phù hợp cho cả hai bên không?"
+    },
+    {
+      "word": "discount tier",
+      "ipa": "/ˈdɪskaʊnt tɪə/",
+      "meaning_vi": "mức chiết khấu theo bậc",
+      "example": "The discount tier increases if you commit to a two-year contract.",
+      "example_vi": "Mức chiết khấu sẽ tăng nếu bạn cam kết hợp đồng hai năm."
+    },
+    {
+      "word": "counter-proposal",
+      "ipa": "/ˈkaʊntə prəˈpəʊzl/",
+      "meaning_vi": "đề xuất phản hồi lại",
+      "example": "They came back with a counter-proposal at a lower price.",
+      "example_vi": "Họ phản hồi lại bằng một đề xuất với mức giá thấp hơn."
+    },
+    {
+      "word": "non-negotiable",
+      "ipa": "/nɒn nɪˈɡəʊʃəbl/",
+      "meaning_vi": "không thể thương lượng",
+      "example": "Our minimum order quantity is non-negotiable.",
+      "example_vi": "Số lượng đặt hàng tối thiểu của chúng tôi là không thể thương lượng."
+    },
+    {
+      "word": "hammer out",
+      "ipa": "/ˈhæmə aʊt/",
+      "meaning_vi": "bàn bạc để đi đến thống nhất",
+      "example": "We spent an hour hammering out the final terms.",
+      "example_vi": "Chúng tôi mất một tiếng để bàn bạc thống nhất các điều khoản cuối cùng."
+    }
+  ],
+  "listening": {
+    "title": "Negotiating the Contract Terms",
+    "lines": [
+      { "speaker": "Minh", "voice": "male", "text": "Thanks for meeting again, Trang. I know price is the main sticking point." },
+      { "speaker": "Trang", "voice": "female", "text": "Yes, your quote is a bit higher than we budgeted for." },
+      { "speaker": "Minh", "voice": "male", "text": "I understand. What if we sweeten the deal with free training for your team?" },
+      { "speaker": "Trang", "voice": "female", "text": "That helps, but we'd still like a lower unit price." },
+      { "speaker": "Minh", "voice": "male", "text": "We could offer a better discount tier if you sign a two-year contract instead of one." },
+      { "speaker": "Trang", "voice": "female", "text": "Let me think. Could we also agree on a more flexible payment schedule?" },
+      { "speaker": "Minh", "voice": "male", "text": "Sure, we can split it into quarterly payments instead of one lump sum." },
+      { "speaker": "Trang", "voice": "female", "text": "Okay, but the delivery date is non-negotiable for us — we need it by September." },
+      { "speaker": "Minh", "voice": "male", "text": "Understood. Let's lock in a price today so we can move forward." },
+      { "speaker": "Trang", "voice": "female", "text": "Agreed. I'll send a counter-proposal in writing this afternoon." },
+      { "speaker": "Minh", "voice": "male", "text": "Great, let's hammer out the last details on a call tomorrow." },
+      { "speaker": "Trang", "voice": "female", "text": "Sounds good. Talk to you then." }
+    ],
+    "questions": [
+      {
+        "q": "Why is Trang hesitant about the price?",
+        "options": ["It's higher than her budget", "The product is outdated", "The delivery is too fast"],
+        "answer": 0
+      },
+      {
+        "q": "What does Minh offer to make the deal more attractive?",
+        "options": ["A refund", "Free training and a better discount tier for a longer contract", "A free product"],
+        "answer": 1
+      },
+      {
+        "q": "What is non-negotiable for Trang?",
+        "options": ["The price", "The delivery date", "The payment method"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "I know price is the main sticking point for you.",
+    "We can sweeten the deal with a few extra perks.",
+    "Could we agree on a more flexible payment schedule instead?",
+    "The delivery date is non-negotiable, so please keep that in mind.",
+    "Let's hammer out the last details on a call tomorrow."
+  ],
+  "track": "sales"
+}
