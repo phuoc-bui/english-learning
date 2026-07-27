@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-28",
+  "theme": "Email follow-up sau gặp khách",
+  "vocab": [
+    {
+      "word": "circle back",
+      "ipa": "/ˈsɜːkl bæk/",
+      "meaning_vi": "quay lại trao đổi tiếp về vấn đề gì đó",
+      "example": "I wanted to circle back on the proposal we discussed last week.",
+      "example_vi": "Tôi muốn quay lại trao đổi về đề xuất chúng ta đã bàn tuần trước."
+    },
+    {
+      "word": "put in writing",
+      "ipa": "/pʊt ɪn ˈraɪtɪŋ/",
+      "meaning_vi": "viết ra thành văn bản để xác nhận",
+      "example": "Could you put the agreement in writing so we have it on record?",
+      "example_vi": "Anh có thể viết thỏa thuận thành văn bản để chúng ta có bằng chứng không?"
+    },
+    {
+      "word": "keep someone posted",
+      "ipa": "/kiːp ˈsʌmwʌn ˈpəʊstɪd/",
+      "meaning_vi": "cập nhật tình hình cho ai đó",
+      "example": "I'll keep you posted once I hear back from my manager.",
+      "example_vi": "Tôi sẽ cập nhật cho anh ngay khi nhận được phản hồi từ quản lý."
+    },
+    {
+      "word": "as discussed",
+      "ipa": "/æz dɪˈskʌst/",
+      "meaning_vi": "như đã trao đổi",
+      "example": "As discussed in our meeting, I'm attaching the updated pricing.",
+      "example_vi": "Như đã trao đổi trong cuộc họp, tôi đính kèm bảng giá cập nhật."
+    },
+    {
+      "word": "reach out",
+      "ipa": "/riːtʃ aʊt/",
+      "meaning_vi": "chủ động liên hệ",
+      "example": "Feel free to reach out if you have any more questions.",
+      "example_vi": "Đừng ngại liên hệ nếu anh có thêm câu hỏi nào."
+    },
+    {
+      "word": "loop in",
+      "ipa": "/luːp ɪn/",
+      "meaning_vi": "thêm ai đó vào để cùng theo dõi trao đổi",
+      "example": "I'll loop in our technical team to answer your question.",
+      "example_vi": "Tôi sẽ thêm đội kỹ thuật vào để trả lời câu hỏi của anh."
+    },
+    {
+      "word": "gentle reminder",
+      "ipa": "/ˈdʒentl rɪˈmaɪndər/",
+      "meaning_vi": "lời nhắc nhở nhẹ nhàng",
+      "example": "Just a gentle reminder that the proposal is waiting for your approval.",
+      "example_vi": "Đây là lời nhắc nhẹ nhàng rằng đề xuất đang chờ anh phê duyệt."
+    },
+    {
+      "word": "drop a line",
+      "ipa": "/drɒp ə laɪn/",
+      "meaning_vi": "gửi vài dòng, gửi email ngắn",
+      "example": "Just dropping a line to thank you for your time yesterday.",
+      "example_vi": "Tôi gửi vài dòng để cảm ơn anh đã dành thời gian hôm qua."
+    }
+  ],
+  "listening": {
+    "title": "Following Up After the Meeting",
+    "lines": [
+      { "speaker": "Long", "voice": "male", "text": "Hi Ha, thanks for making time to meet with us yesterday." },
+      { "speaker": "Ha", "voice": "female", "text": "Of course, it was great to learn more about your platform." },
+      { "speaker": "Long", "voice": "male", "text": "I wanted to circle back on the proposal we discussed." },
+      { "speaker": "Ha", "voice": "female", "text": "Yes, my team is still reviewing the pricing details." },
+      { "speaker": "Long", "voice": "male", "text": "No problem. As discussed, I'm sending the updated quotation today." },
+      { "speaker": "Ha", "voice": "female", "text": "Great, please put the delivery timeline in writing as well." },
+      { "speaker": "Long", "voice": "male", "text": "Sure, I'll loop in our project manager for the technical details." },
+      { "speaker": "Ha", "voice": "female", "text": "That would help. Can you keep me posted on the next steps?" },
+      { "speaker": "Long", "voice": "male", "text": "Absolutely, I'll reach out again by Friday with an update." },
+      { "speaker": "Ha", "voice": "female", "text": "Sounds good. I'll drop you a line if anything changes on our end." },
+      { "speaker": "Long", "voice": "male", "text": "Perfect. Just a gentle reminder to check your inbox for the email." },
+      { "speaker": "Ha", "voice": "female", "text": "Will do. Thanks again, Long." }
+    ],
+    "questions": [
+      {
+        "q": "What is Long following up about?",
+        "options": ["The proposal they discussed", "A new job opening", "A complaint"],
+        "answer": 0
+      },
+      {
+        "q": "What does Ha ask Long to do?",
+        "options": ["Put the delivery timeline in writing", "Cancel the meeting", "Lower the price immediately"],
+        "answer": 0
+      },
+      {
+        "q": "When will Long reach out again?",
+        "options": ["By Friday", "Next month", "Tomorrow morning"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I wanted to circle back on the proposal we discussed.",
+    "Could you put the agreement in writing for our records?",
+    "I'll keep you posted once I hear back from my manager.",
+    "Feel free to reach out if you have more questions.",
+    "Just a gentle reminder that the proposal needs your approval."
+  ],
+  "track": "sales"
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-28",
+  "theme": "Họp phòng ban",
+  "vocab": [
+    {
+      "word": "open the floor",
+      "ipa": "/ˈəʊpən ðə flɔː/",
+      "meaning_vi": "mở lời cho mọi người phát biểu",
+      "example": "Let's open the floor for any questions before we wrap up.",
+      "example_vi": "Hãy mở lời để mọi người đặt câu hỏi trước khi kết thúc."
+    },
+    {
+      "word": "table an issue",
+      "ipa": "/ˈteɪbl ən ˈɪʃuː/",
+      "meaning_vi": "tạm gác lại một vấn đề để bàn sau",
+      "example": "We don't have time today, so let's table this issue until next week.",
+      "example_vi": "Hôm nay không đủ thời gian, hãy tạm gác vấn đề này đến tuần sau."
+    },
+    {
+      "word": "follow-up meeting",
+      "ipa": "/ˈfɒləʊ ʌp ˈmiːtɪŋ/",
+      "meaning_vi": "cuộc họp theo dõi tiếp theo",
+      "example": "We'll schedule a follow-up meeting to review the action items.",
+      "example_vi": "Chúng ta sẽ lên lịch một cuộc họp theo dõi để rà soát các việc cần làm."
+    },
+    {
+      "word": "consensus",
+      "ipa": "/kənˈsensəs/",
+      "meaning_vi": "sự đồng thuận",
+      "example": "The team reached a consensus on the new process.",
+      "example_vi": "Cả nhóm đã đạt được sự đồng thuận về quy trình mới."
+    },
+    {
+      "word": "brief the team",
+      "ipa": "/briːf ðə tiːm/",
+      "meaning_vi": "phổ biến ngắn gọn cho nhóm",
+      "example": "I'll brief the team on the client's feedback tomorrow morning.",
+      "example_vi": "Tôi sẽ phổ biến ngắn gọn cho nhóm về phản hồi của khách hàng vào sáng mai."
+    },
+    {
+      "word": "key metric",
+      "ipa": "/kiː ˈmetrɪk/",
+      "meaning_vi": "chỉ số quan trọng",
+      "example": "Our key metric this quarter is customer retention.",
+      "example_vi": "Chỉ số quan trọng của quý này là tỷ lệ giữ chân khách hàng."
+    },
+    {
+      "word": "align on",
+      "ipa": "/əˈlaɪn ɒn/",
+      "meaning_vi": "thống nhất quan điểm về việc gì đó",
+      "example": "We need to align on the launch date before the meeting ends.",
+      "example_vi": "Chúng ta cần thống nhất về ngày ra mắt trước khi cuộc họp kết thúc."
+    },
+    {
+      "word": "go around the table",
+      "ipa": "/ɡəʊ əˈraʊnd ðə ˈteɪbl/",
+      "meaning_vi": "lần lượt để từng người phát biểu",
+      "example": "Let's go around the table so everyone can share an update.",
+      "example_vi": "Hãy để lần lượt từng người chia sẻ cập nhật của mình."
+    }
+  ],
+  "listening": {
+    "title": "Weekly Department Meeting",
+    "lines": [
+      { "speaker": "Hoa", "voice": "female", "text": "Good morning everyone. Let's open the floor with an update from each of you." },
+      { "speaker": "Nam", "voice": "male", "text": "Sure, I'll go first. Our key metric this month is on track, we're at 92% of target." },
+      { "speaker": "Hoa", "voice": "female", "text": "That's great news. Linh, can you brief the team on the client project?" },
+      { "speaker": "Linh", "voice": "female", "text": "Of course. The client asked for two more features, so the timeline may shift." },
+      { "speaker": "Nam", "voice": "male", "text": "We should align on priorities before we commit to a new deadline." },
+      { "speaker": "Hoa", "voice": "female", "text": "Agreed. Let's table this issue and discuss it after we hear from Duc." },
+      { "speaker": "Duc", "voice": "male", "text": "Thanks. From my side, everything with the client project is under control." },
+      { "speaker": "Hoa", "voice": "female", "text": "Good to hear. Let's go around the table for any blockers next." },
+      { "speaker": "Linh", "voice": "female", "text": "No major blockers from my side this week." },
+      { "speaker": "Nam", "voice": "male", "text": "Same here, everything is under control." },
+      { "speaker": "Hoa", "voice": "female", "text": "Great. Let's schedule a follow-up meeting on Friday to check progress again." },
+      { "speaker": "Duc", "voice": "male", "text": "Sounds good. I think we've reached a consensus on next steps." }
+    ],
+    "questions": [
+      {
+        "q": "What is the team's key metric performance this month?",
+        "options": ["92% of target", "Below target", "Not measured"],
+        "answer": 0
+      },
+      {
+        "q": "Why might the project timeline shift?",
+        "options": ["The client asked for two more features", "The team lost a member", "Budget was cut"],
+        "answer": 0
+      },
+      {
+        "q": "What will the team do on Friday?",
+        "options": ["Hold a follow-up meeting", "Close the project", "Interview a candidate"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Let's open the floor for any questions before we wrap up.",
+    "We need to align on priorities before we commit to a deadline.",
+    "I'll brief the team on the client's feedback tomorrow morning.",
+    "Let's table this issue and discuss it again next week.",
+    "We'll schedule a follow-up meeting to review the action items."
+  ],
+  "track": "office"
+}

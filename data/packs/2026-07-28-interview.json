@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-28",
+  "theme": "Lý do nghỉ việc & chuyển việc",
+  "vocab": [
+    {
+      "word": "seek new challenges",
+      "ipa": "/siːk njuː ˈtʃælɪndʒɪz/",
+      "meaning_vi": "tìm kiếm những thử thách mới",
+      "example": "I'm leaving to seek new challenges that match my skills.",
+      "example_vi": "Tôi nghỉ việc để tìm kiếm những thử thách mới phù hợp với năng lực của mình."
+    },
+    {
+      "word": "career plateau",
+      "ipa": "/kəˈrɪər ˈplætəʊ/",
+      "meaning_vi": "giai đoạn sự nghiệp chững lại, không phát triển thêm",
+      "example": "I felt like I'd hit a career plateau in my last role.",
+      "example_vi": "Tôi cảm thấy sự nghiệp của mình đã chững lại ở công việc trước."
+    },
+    {
+      "word": "better fit",
+      "ipa": "/ˈbetər fɪt/",
+      "meaning_vi": "sự phù hợp hơn",
+      "example": "This new position feels like a better fit for my long-term goals.",
+      "example_vi": "Vị trí mới này phù hợp hơn với mục tiêu dài hạn của tôi."
+    },
+    {
+      "word": "move on",
+      "ipa": "/muːv ɒn/",
+      "meaning_vi": "chuyển sang một giai đoạn hoặc công việc mới",
+      "example": "After three years, I decided it was time to move on.",
+      "example_vi": "Sau ba năm, tôi quyết định đã đến lúc chuyển sang giai đoạn mới."
+    },
+    {
+      "word": "work commute",
+      "ipa": "/wɜːk kəˈmjuːt/",
+      "meaning_vi": "việc di chuyển đi làm",
+      "example": "The long work commute was one reason I started job hunting.",
+      "example_vi": "Việc di chuyển đi làm quá xa là một lý do khiến tôi tìm việc mới."
+    },
+    {
+      "word": "job security",
+      "ipa": "/dʒɒb sɪˈkjʊərəti/",
+      "meaning_vi": "sự ổn định trong công việc",
+      "example": "I wanted more job security, so I looked for a stable company.",
+      "example_vi": "Tôi muốn có sự ổn định công việc hơn nên đã tìm một công ty vững vàng."
+    },
+    {
+      "word": "handover period",
+      "ipa": "/ˈhændəʊvə ˈpɪəriəd/",
+      "meaning_vi": "giai đoạn bàn giao công việc",
+      "example": "I agreed to a two-week handover period before I officially left.",
+      "example_vi": "Tôi đồng ý có hai tuần bàn giao công việc trước khi chính thức nghỉ."
+    },
+    {
+      "word": "parting on good terms",
+      "ipa": "/ˈpɑːtɪŋ ɒn ɡʊd tɜːmz/",
+      "meaning_vi": "chia tay trong hòa khí, không có mâu thuẫn",
+      "example": "I left my last company parting on good terms with my manager.",
+      "example_vi": "Tôi rời công ty cũ trong hòa khí với quản lý của mình."
+    }
+  ],
+  "listening": {
+    "title": "Why Are You Leaving Your Current Job?",
+    "lines": [
+      { "speaker": "Ms. Lan (interviewer)", "voice": "female", "text": "Thanks for coming in today, Tuan. Can you tell me why you're leaving your current job?" },
+      { "speaker": "Tuan (candidate)", "voice": "male", "text": "Sure. Honestly, I feel like I've hit a career plateau in my current role, and I want more job security too." },
+      { "speaker": "Ms. Lan (interviewer)", "voice": "female", "text": "I see. What do you mean by career plateau exactly?" },
+      { "speaker": "Tuan (candidate)", "voice": "male", "text": "I've learned a lot, but I'm ready to seek new challenges that push my skills further." },
+      { "speaker": "Ms. Lan (interviewer)", "voice": "female", "text": "That makes sense. Is there anything else influencing your decision?" },
+      { "speaker": "Tuan (candidate)", "voice": "male", "text": "Yes, the long work commute has also been difficult for my daily schedule." },
+      { "speaker": "Ms. Lan (interviewer)", "voice": "female", "text": "Understandable. How do you think this role compares to your current one?" },
+      { "speaker": "Tuan (candidate)", "voice": "male", "text": "I believe it's a better fit for my long-term goals and interests." },
+      { "speaker": "Ms. Lan (interviewer)", "voice": "female", "text": "Good to hear. Have you already decided to move on from your current company?" },
+      { "speaker": "Tuan (candidate)", "voice": "male", "text": "Yes, I've discussed a handover period with my manager already." },
+      { "speaker": "Ms. Lan (interviewer)", "voice": "female", "text": "That's responsible of you. How did your manager react?" },
+      { "speaker": "Tuan (candidate)", "voice": "male", "text": "We're parting on good terms — she's been very supportive of my decision." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Tuan feel he's hit a career plateau?",
+        "options": ["He wants to seek new challenges and grow further", "He hates his manager", "He was fired"],
+        "answer": 0
+      },
+      {
+        "q": "What personal factor makes Tuan's commute difficult?",
+        "options": ["The long work commute", "Low salary", "Bad weather"],
+        "answer": 0
+      },
+      {
+        "q": "How are Tuan and his manager parting?",
+        "options": ["On good terms", "In conflict", "She refuses to let him go"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I feel like I've hit a career plateau in my current role.",
+    "I'm ready to seek new challenges that match my skills.",
+    "The long work commute has been difficult for my schedule.",
+    "This role feels like a better fit for my goals.",
+    "I'm leaving my company parting on good terms with everyone."
+  ],
+  "track": "interview"
+}

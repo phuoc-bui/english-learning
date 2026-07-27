@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-28",
+  "theme": "Expense claim & hoàn ứng",
+  "vocab": [
+    {
+      "word": "original bill",
+      "ipa": "/əˈrɪdʒɪnl bɪl/",
+      "meaning_vi": "hóa đơn gốc",
+      "example": "Please attach the original bill when you submit your expenses.",
+      "example_vi": "Vui lòng đính kèm hóa đơn gốc khi bạn nộp chi phí."
+    },
+    {
+      "word": "expense report",
+      "ipa": "/ɪkˈspens rɪˈpɔːt/",
+      "meaning_vi": "báo cáo chi phí",
+      "example": "I need to finish my expense report before the end of the month.",
+      "example_vi": "Tôi cần hoàn thành báo cáo chi phí trước cuối tháng."
+    },
+    {
+      "word": "per diem",
+      "ipa": "/pɜː ˈdiːəm/",
+      "meaning_vi": "phụ cấp công tác theo ngày",
+      "example": "The company gives a per diem of 500,000 VND for business trips.",
+      "example_vi": "Công ty cấp phụ cấp 500.000 đồng mỗi ngày cho chuyến công tác."
+    },
+    {
+      "word": "business trip",
+      "ipa": "/ˈbɪznɪs trɪp/",
+      "meaning_vi": "chuyến công tác",
+      "example": "I have receipts from my business trip to Da Nang last week.",
+      "example_vi": "Tôi có hóa đơn từ chuyến công tác Đà Nẵng tuần trước."
+    },
+    {
+      "word": "advance payment",
+      "ipa": "/ədˈvɑːns ˈpeɪmənt/",
+      "meaning_vi": "khoản tạm ứng",
+      "example": "Can I get an advance payment before I travel next week?",
+      "example_vi": "Tôi có thể xin tạm ứng trước khi đi công tác tuần tới không?"
+    },
+    {
+      "word": "paper trail",
+      "ipa": "/ˈpeɪpə treɪl/",
+      "meaning_vi": "hồ sơ chứng từ đầy đủ để đối chiếu",
+      "example": "Make sure every claim has a clear paper trail attached.",
+      "example_vi": "Hãy đảm bảo mỗi yêu cầu đều có đầy đủ chứng từ đi kèm để đối chiếu."
+    },
+    {
+      "word": "processing time",
+      "ipa": "/ˈprəʊsesɪŋ taɪm/",
+      "meaning_vi": "thời gian xử lý",
+      "example": "The processing time for reimbursements is usually five working days.",
+      "example_vi": "Thời gian xử lý hoàn ứng thường là năm ngày làm việc."
+    },
+    {
+      "word": "claim period",
+      "ipa": "/kleɪm ˈpɪəriəd/",
+      "meaning_vi": "thời hạn nộp yêu cầu",
+      "example": "You must submit within the claim period, or it won't be approved.",
+      "example_vi": "Bạn phải nộp trong thời hạn quy định, nếu không sẽ không được duyệt."
+    }
+  ],
+  "listening": {
+    "title": "Submitting the Expense Report",
+    "lines": [
+      { "speaker": "Mai", "voice": "female", "text": "Hi Duc, I need help finishing my expense report for last month." },
+      { "speaker": "Duc", "voice": "male", "text": "Sure, do you have the original bills for your business trip?" },
+      { "speaker": "Mai", "voice": "female", "text": "Yes, but I lost one bill from the taxi." },
+      { "speaker": "Duc", "voice": "male", "text": "That's okay, just attach a bank statement to keep a clear paper trail instead." },
+      { "speaker": "Mai", "voice": "female", "text": "Got it. Do I also need to add the per diem?" },
+      { "speaker": "Duc", "voice": "male", "text": "Yes, please include that along with your other expenses." },
+      { "speaker": "Mai", "voice": "female", "text": "I also requested an advance payment before the trip. Should I mention that?" },
+      { "speaker": "Duc", "voice": "male", "text": "Yes, list it so we can deduct it from the final amount." },
+      { "speaker": "Mai", "voice": "female", "text": "What's the processing time once I submit everything?" },
+      { "speaker": "Duc", "voice": "male", "text": "Usually about five working days, as long as it's within the claim period." },
+      { "speaker": "Mai", "voice": "female", "text": "Great, I'll submit it today then." },
+      { "speaker": "Duc", "voice": "male", "text": "Perfect. Let me know if you need help with anything else." }
+    ],
+    "questions": [
+      {
+        "q": "What did Mai lose?",
+        "options": ["A bill from the taxi", "Her laptop", "The expense report"],
+        "answer": 0
+      },
+      {
+        "q": "What can Mai use instead of the lost bill?",
+        "options": ["A bank statement to keep a clear paper trail", "Nothing, she must pay herself", "A verbal confirmation"],
+        "answer": 0
+      },
+      {
+        "q": "How long is the processing time for reimbursements?",
+        "options": ["About five working days", "One day", "One month"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I need to finish my expense report before the end of the month.",
+    "Please keep a clear paper trail with the original bill.",
+    "The company gives a per diem for every business trip.",
+    "Can I get an advance payment before I travel next week?",
+    "You must submit within the claim period to get approved."
+  ],
+  "track": "finance"
+}
