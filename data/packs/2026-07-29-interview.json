@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-29",
+  "theme": "Mục tiêu nghề nghiệp 3-5 năm",
+  "vocab": [
+    {
+      "word": "career trajectory",
+      "ipa": "/kəˈrɪə trəˈdʒektəri/",
+      "meaning_vi": "quỹ đạo, hướng phát triển sự nghiệp",
+      "example": "I want my career trajectory to move toward a technical lead role.",
+      "example_vi": "Tôi muốn hướng phát triển sự nghiệp của mình tiến tới vai trò technical lead."
+    },
+    {
+      "word": "upskill",
+      "ipa": "/ˈʌpskɪl/",
+      "meaning_vi": "nâng cao kỹ năng",
+      "example": "I'm planning to upskill in cloud technologies over the next year.",
+      "example_vi": "Tôi đang lên kế hoạch nâng cao kỹ năng về công nghệ đám mây trong năm tới."
+    },
+    {
+      "word": "step up to a role",
+      "ipa": "/step ʌp tuː ə rəʊl/",
+      "meaning_vi": "đảm nhận một vai trò cao hơn",
+      "example": "In five years, I hope to step up to a team lead role.",
+      "example_vi": "Trong năm năm nữa, tôi hy vọng sẽ đảm nhận vai trò trưởng nhóm."
+    },
+    {
+      "word": "career ladder",
+      "ipa": "/kəˈrɪə ˈlædə/",
+      "meaning_vi": "nấc thang sự nghiệp",
+      "example": "I want to keep moving up the career ladder in this field.",
+      "example_vi": "Tôi muốn tiếp tục thăng tiến trên nấc thang sự nghiệp trong lĩnh vực này."
+    },
+    {
+      "word": "specialize in",
+      "ipa": "/ˈspeʃəlaɪz ɪn/",
+      "meaning_vi": "chuyên sâu về",
+      "example": "In the next few years, I want to specialize in system architecture.",
+      "example_vi": "Trong vài năm tới, tôi muốn chuyên sâu về kiến trúc hệ thống."
+    },
+    {
+      "word": "career aspiration",
+      "ipa": "/kəˈrɪə ˌæspəˈreɪʃn/",
+      "meaning_vi": "khát vọng, mong muốn về sự nghiệp",
+      "example": "My career aspiration is to lead a product team someday.",
+      "example_vi": "Khát vọng sự nghiệp của tôi là dẫn dắt một đội sản phẩm trong tương lai."
+    },
+    {
+      "word": "expand my expertise",
+      "ipa": "/ɪkˈspænd maɪ ˌekspɜːˈtiːz/",
+      "meaning_vi": "mở rộng chuyên môn",
+      "example": "I plan to expand my expertise beyond just backend development.",
+      "example_vi": "Tôi dự định mở rộng chuyên môn của mình ra ngoài mảng backend."
+    },
+    {
+      "word": "next chapter",
+      "ipa": "/nekst ˈtʃæptə/",
+      "meaning_vi": "chương mới (trong sự nghiệp)",
+      "example": "This role feels like the right next chapter for my career.",
+      "example_vi": "Vai trò này giống như một chương mới phù hợp cho sự nghiệp của tôi."
+    }
+  ],
+  "listening": {
+    "title": "Talking About Career Goals",
+    "lines": [
+      { "speaker": "Hoa (interviewer)", "voice": "female", "text": "So, where do you see your career trajectory heading in the next 3 to 5 years?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "I'd like to move from a developer role into a technical lead position." },
+      { "speaker": "Hoa (interviewer)", "voice": "female", "text": "That's a clear goal. How are you preparing to step up to a role like that?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "I'm trying to upskill in system design and mentoring junior developers." },
+      { "speaker": "Hoa (interviewer)", "voice": "female", "text": "Good. Do you see yourself climbing the career ladder here at our company?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "Yes, I really do. I'd like to specialize in cloud architecture eventually." },
+      { "speaker": "Hoa (interviewer)", "voice": "female", "text": "What's your biggest career aspiration beyond the next role?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "Long term, I want to expand my expertise and maybe lead a whole engineering team." },
+      { "speaker": "Hoa (interviewer)", "voice": "female", "text": "That's ambitious. Why do you think this job is the right move for you?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "It feels like the next chapter I need to reach my goals." },
+      { "speaker": "Hoa (interviewer)", "voice": "female", "text": "I appreciate your honesty. Is there anything holding you back right now?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "Not really, I just need the right opportunity, and I believe this is it." }
+    ],
+    "questions": [
+      {
+        "q": "What role does Minh want to move into?",
+        "options": ["A technical lead position", "A sales manager position", "A finance role"],
+        "answer": 0
+      },
+      {
+        "q": "How is Minh preparing for the next step?",
+        "options": ["Upskilling in system design and mentoring juniors", "Taking a long vacation", "Switching industries"],
+        "answer": 0
+      },
+      {
+        "q": "What does Minh call this job opportunity?",
+        "options": ["The next chapter for his career", "A temporary job", "A step backward"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "In five years, I want to step up to a leadership role.",
+    "I'm planning to upskill in cloud technologies over the next year.",
+    "My career aspiration is to lead a product team someday.",
+    "I plan to expand my expertise beyond just backend development.",
+    "This role feels like the right next chapter for my career."
+  ],
+  "track": "interview"
+}

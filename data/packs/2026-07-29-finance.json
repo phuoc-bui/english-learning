@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-29",
+  "theme": "Dự báo dòng tiền",
+  "vocab": [
+    {
+      "word": "burn rate",
+      "ipa": "/bɜːn reɪt/",
+      "meaning_vi": "tốc độ tiêu tiền",
+      "example": "Our burn rate has increased because of new hires this quarter.",
+      "example_vi": "Tốc độ tiêu tiền của chúng ta đã tăng do tuyển thêm người trong quý này."
+    },
+    {
+      "word": "runway",
+      "ipa": "/ˈrʌnweɪ/",
+      "meaning_vi": "khoảng thời gian công ty còn đủ tiền hoạt động",
+      "example": "At this burn rate, we only have six months of runway left.",
+      "example_vi": "Với tốc độ tiêu tiền này, chúng ta chỉ còn đủ tiền hoạt động trong sáu tháng."
+    },
+    {
+      "word": "working capital",
+      "ipa": "/ˈwɜːkɪŋ ˈkæpɪtl/",
+      "meaning_vi": "vốn lưu động",
+      "example": "We need enough working capital to cover daily operations.",
+      "example_vi": "Chúng ta cần đủ vốn lưu động để trang trải hoạt động hàng ngày."
+    },
+    {
+      "word": "receivables",
+      "ipa": "/rɪˈsiːvəblz/",
+      "meaning_vi": "các khoản phải thu",
+      "example": "Our receivables are piling up because clients are paying late.",
+      "example_vi": "Các khoản phải thu của chúng ta đang tồn đọng vì khách hàng thanh toán trễ."
+    },
+    {
+      "word": "payables",
+      "ipa": "/ˈpeɪəblz/",
+      "meaning_vi": "các khoản phải trả",
+      "example": "We should forecast our payables for the next quarter too.",
+      "example_vi": "Chúng ta cũng nên dự báo các khoản phải trả cho quý tới."
+    },
+    {
+      "word": "rolling forecast",
+      "ipa": "/ˈrəʊlɪŋ ˈfɔːkɑːst/",
+      "meaning_vi": "dự báo cuốn chiếu, cập nhật liên tục",
+      "example": "We update our rolling forecast every month based on actual numbers.",
+      "example_vi": "Chúng ta cập nhật dự báo cuốn chiếu mỗi tháng dựa trên số liệu thực tế."
+    },
+    {
+      "word": "scenario planning",
+      "ipa": "/səˈnɑːriəʊ ˈplænɪŋ/",
+      "meaning_vi": "lập kế hoạch theo kịch bản",
+      "example": "Let's do some scenario planning in case revenue drops next month.",
+      "example_vi": "Hãy lập kế hoạch theo kịch bản phòng khi doanh thu giảm vào tháng tới."
+    },
+    {
+      "word": "cash reserve",
+      "ipa": "/kæʃ rɪˈzɜːv/",
+      "meaning_vi": "quỹ tiền mặt dự phòng",
+      "example": "We keep a cash reserve for emergencies like this.",
+      "example_vi": "Chúng ta giữ một quỹ tiền mặt dự phòng cho những trường hợp khẩn cấp như thế này."
+    }
+  ],
+  "listening": {
+    "title": "Planning the Cash Flow Forecast",
+    "lines": [
+      { "speaker": "Duc", "voice": "male", "text": "Linh, can we go through the cash flow forecast for next quarter?" },
+      { "speaker": "Linh", "voice": "female", "text": "Sure. Our burn rate has gone up a bit because of the new hires." },
+      { "speaker": "Duc", "voice": "male", "text": "How much runway do we have left at this rate?" },
+      { "speaker": "Linh", "voice": "female", "text": "About eight months, if nothing changes." },
+      { "speaker": "Duc", "voice": "male", "text": "We should make sure we have enough working capital for daily operations." },
+      { "speaker": "Linh", "voice": "female", "text": "Agreed. Our receivables are also piling up since some clients are paying late." },
+      { "speaker": "Duc", "voice": "male", "text": "What about our payables for next month?" },
+      { "speaker": "Linh", "voice": "female", "text": "They're manageable, but I'll include them in the rolling forecast." },
+      { "speaker": "Duc", "voice": "male", "text": "Good. Let's also do some scenario planning in case revenue drops." },
+      { "speaker": "Linh", "voice": "female", "text": "I already prepared two scenarios, best case and worst case." },
+      { "speaker": "Duc", "voice": "male", "text": "Perfect. And how large is our cash reserve right now?" },
+      { "speaker": "Linh", "voice": "female", "text": "Enough to cover three months of expenses, so we're in a safe position." }
+    ],
+    "questions": [
+      {
+        "q": "Why has the burn rate gone up?",
+        "options": ["Because of new hires", "Because of a tax audit", "Because of an office move"],
+        "answer": 0
+      },
+      {
+        "q": "How much runway does the company have left?",
+        "options": ["About eight months", "About two years", "About one month"],
+        "answer": 0
+      },
+      {
+        "q": "What did Linh already prepare for scenario planning?",
+        "options": ["Best case and worst case scenarios", "A new hiring plan", "A tax report"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Our burn rate has gone up because of new hires this quarter.",
+    "At this rate, we only have a few months of runway left.",
+    "We need enough working capital to cover daily operations smoothly.",
+    "Let's do some scenario planning in case revenue drops next month.",
+    "We keep a cash reserve for emergencies just like this one."
+  ],
+  "track": "finance"
+}

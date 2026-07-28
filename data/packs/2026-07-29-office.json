@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-29",
+  "theme": "Feedback cho đồng nghiệp",
+  "vocab": [
+    {
+      "word": "receptive",
+      "ipa": "/rɪˈseptɪv/",
+      "meaning_vi": "cởi mở, sẵn sàng tiếp nhận ý kiến",
+      "example": "She was very receptive when I brought up the issue with her report.",
+      "example_vi": "Cô ấy rất cởi mở khi tôi nêu vấn đề về báo cáo của cô ấy."
+    },
+    {
+      "word": "tactful",
+      "ipa": "/ˈtæktfʊl/",
+      "meaning_vi": "khéo léo, tế nhị",
+      "example": "Try to be tactful when you point out someone's mistake.",
+      "example_vi": "Hãy cố gắng khéo léo khi chỉ ra lỗi của ai đó."
+    },
+    {
+      "word": "nitpick",
+      "ipa": "/ˈnɪtpɪk/",
+      "meaning_vi": "bới lông tìm vết, soi lỗi vặt",
+      "example": "Don't nitpick every small detail, focus on the big picture.",
+      "example_vi": "Đừng soi từng lỗi nhỏ, hãy tập trung vào bức tranh tổng thể."
+    },
+    {
+      "word": "call out",
+      "ipa": "/kɔːl aʊt/",
+      "meaning_vi": "nêu ra, chỉ ra (điều gì đó) trực tiếp",
+      "example": "I want to call out the great work you did on the deployment.",
+      "example_vi": "Tôi muốn nêu ra công việc tuyệt vời bạn đã làm khi triển khai."
+    },
+    {
+      "word": "blind spot",
+      "ipa": "/blaɪnd spɒt/",
+      "meaning_vi": "điểm mù, điều bản thân không nhận ra",
+      "example": "Feedback helps us see our own blind spots.",
+      "example_vi": "Phản hồi giúp chúng ta nhận ra những điểm mù của bản thân."
+    },
+    {
+      "word": "sugarcoat",
+      "ipa": "/ˈʃʊɡəkəʊt/",
+      "meaning_vi": "nói giảm nói tránh, tô hồng sự thật",
+      "example": "Don't sugarcoat it, just tell me what went wrong.",
+      "example_vi": "Đừng nói giảm nói tránh, cứ nói thẳng điều gì đã sai."
+    },
+    {
+      "word": "acknowledge",
+      "ipa": "/əkˈnɒlɪdʒ/",
+      "meaning_vi": "ghi nhận, thừa nhận",
+      "example": "First, acknowledge what they did well before giving feedback.",
+      "example_vi": "Trước tiên, hãy ghi nhận những gì họ làm tốt trước khi đưa ra phản hồi."
+    },
+    {
+      "word": "actionable feedback",
+      "ipa": "/ˈækʃənəbl ˈfiːdbæk/",
+      "meaning_vi": "phản hồi có thể áp dụng được ngay",
+      "example": "Try to give actionable feedback instead of vague comments.",
+      "example_vi": "Hãy cố gắng đưa ra phản hồi có thể áp dụng được thay vì nhận xét mơ hồ."
+    }
+  ],
+  "listening": {
+    "title": "Giving Feedback on a Report",
+    "lines": [
+      { "speaker": "Linh", "voice": "female", "text": "Hi Nam, do you have a few minutes? I'd like to give you some feedback on last week's report." },
+      { "speaker": "Nam", "voice": "male", "text": "Sure, go ahead. I'm receptive to hearing it." },
+      { "speaker": "Linh", "voice": "female", "text": "Great. First, I want to acknowledge how clear the summary section was, it made the report easy to read." },
+      { "speaker": "Nam", "voice": "male", "text": "Thanks, I worked hard on that part." },
+      { "speaker": "Linh", "voice": "female", "text": "One thing though, some of the numbers in the chart didn't match the data sheet." },
+      { "speaker": "Nam", "voice": "male", "text": "Oh no, that's a blind spot I didn't catch. Can you call out exactly which numbers?" },
+      { "speaker": "Linh", "voice": "female", "text": "Sure, I'll send the details, but I don't want to sugarcoat it, this needs fixing before Friday." },
+      { "speaker": "Nam", "voice": "male", "text": "Understood. I appreciate you being tactful about it." },
+      { "speaker": "Linh", "voice": "female", "text": "No problem. Try not to nitpick your own work too much, just double-check the key figures." },
+      { "speaker": "Nam", "voice": "male", "text": "Got it. Can you give me some actionable feedback on how to present it better next time?" },
+      { "speaker": "Linh", "voice": "female", "text": "Sure, use fewer bullet points and highlight the key metric at the top." },
+      { "speaker": "Nam", "voice": "male", "text": "That's really helpful, thanks for the feedback." }
+    ],
+    "questions": [
+      {
+        "q": "What did Linh acknowledge first about Nam's report?",
+        "options": ["The summary section was clear", "The numbers were correct", "Nam finished early"],
+        "answer": 0
+      },
+      {
+        "q": "What was the problem with the report?",
+        "options": ["Some numbers didn't match the data sheet", "The report was too short", "It was submitted late"],
+        "answer": 0
+      },
+      {
+        "q": "What did Linh suggest for presenting the report better next time?",
+        "options": ["Use fewer bullet points and highlight the key metric", "Add more colors", "Make the report longer"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "First, acknowledge what they did well before giving any feedback.",
+    "Try to be tactful when you point out someone's mistake at work.",
+    "Don't sugarcoat it, just tell me honestly what went wrong today.",
+    "Feedback like this helps us notice our own blind spots quickly.",
+    "Could you give me actionable feedback instead of vague comments next time?"
+  ],
+  "track": "office"
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-29",
+  "theme": "Gặp khách lần đầu",
+  "vocab": [
+    {
+      "word": "punctual",
+      "ipa": "/ˈpʌŋktʃuəl/",
+      "meaning_vi": "đúng giờ",
+      "example": "Being punctual for the first meeting shows respect for the client's time.",
+      "example_vi": "Đến đúng giờ cho buổi gặp đầu tiên thể hiện sự tôn trọng thời gian của khách hàng."
+    },
+    {
+      "word": "exchange pleasantries",
+      "ipa": "/ɪksˈtʃeɪndʒ ˈplezntriz/",
+      "meaning_vi": "trao đổi những câu xã giao",
+      "example": "We exchanged pleasantries before getting into the business details.",
+      "example_vi": "Chúng tôi trao đổi vài câu xã giao trước khi đi vào nội dung công việc."
+    },
+    {
+      "word": "build trust",
+      "ipa": "/bɪld trʌst/",
+      "meaning_vi": "xây dựng lòng tin",
+      "example": "It takes time to build trust with a new client.",
+      "example_vi": "Cần thời gian để xây dựng lòng tin với một khách hàng mới."
+    },
+    {
+      "word": "read the room",
+      "ipa": "/riːd ðə ruːm/",
+      "meaning_vi": "nắm bắt không khí, tâm lý chung",
+      "example": "A good salesperson knows how to read the room during a first meeting.",
+      "example_vi": "Một nhân viên bán hàng giỏi biết cách nắm bắt không khí trong buổi gặp đầu tiên."
+    },
+    {
+      "word": "professional attire",
+      "ipa": "/prəˈfeʃənl əˈtaɪə/",
+      "meaning_vi": "trang phục chuyên nghiệp",
+      "example": "Wearing professional attire helps you make a good impression.",
+      "example_vi": "Mặc trang phục chuyên nghiệp giúp bạn tạo ấn tượng tốt."
+    },
+    {
+      "word": "courtesy call",
+      "ipa": "/ˈkɜːtəsi kɔːl/",
+      "meaning_vi": "cuộc gọi xã giao, thăm hỏi",
+      "example": "I'll make a courtesy call before our meeting to confirm the details.",
+      "example_vi": "Tôi sẽ gọi điện xã giao trước cuộc họp để xác nhận thông tin."
+    },
+    {
+      "word": "corporate culture",
+      "ipa": "/ˈkɔːpərət ˈkʌltʃə/",
+      "meaning_vi": "văn hoá doanh nghiệp",
+      "example": "Understanding the client's corporate culture helps you communicate better.",
+      "example_vi": "Hiểu văn hoá doanh nghiệp của khách hàng giúp bạn giao tiếp tốt hơn."
+    },
+    {
+      "word": "warm-up question",
+      "ipa": "/wɔːm ʌp ˈkwestʃən/",
+      "meaning_vi": "câu hỏi mở đầu nhẹ nhàng",
+      "example": "Start with a warm-up question before diving into business topics.",
+      "example_vi": "Hãy bắt đầu bằng một câu hỏi mở đầu nhẹ nhàng trước khi đi vào nội dung kinh doanh."
+    }
+  ],
+  "listening": {
+    "title": "Meeting a New Client",
+    "lines": [
+      { "speaker": "Minh", "voice": "male", "text": "Good morning, Ms. Hoa. Thank you for meeting with me today." },
+      { "speaker": "Hoa", "voice": "female", "text": "Good morning, Minh. Please, come in and have a seat." },
+      { "speaker": "Minh", "voice": "male", "text": "I really appreciate you being so punctual, it makes things easier for both of us." },
+      { "speaker": "Hoa", "voice": "female", "text": "Of course. So, tell me a bit about your company before we start." },
+      { "speaker": "Minh", "voice": "male", "text": "Let me start with a warm-up question, how was your trip to the office today?" },
+      { "speaker": "Hoa", "voice": "female", "text": "It was fine, thank you for asking." },
+      { "speaker": "Minh", "voice": "male", "text": "Great, we always like to exchange pleasantries before talking business." },
+      { "speaker": "Hoa", "voice": "female", "text": "I appreciate that, it helps to build trust early on." },
+      { "speaker": "Minh", "voice": "male", "text": "Exactly. I also try to read the room and keep things relaxed for a first meeting." },
+      { "speaker": "Hoa", "voice": "female", "text": "I noticed, and I like your professional attire too, it shows you take this seriously." },
+      { "speaker": "Minh", "voice": "male", "text": "Thank you. I even made a courtesy call yesterday to confirm today's schedule." },
+      { "speaker": "Hoa", "voice": "female", "text": "I saw that, it really helped me understand your corporate culture." }
+    ],
+    "questions": [
+      {
+        "q": "Why did Minh appreciate Hoa being punctual?",
+        "options": ["It makes things easier for both of them", "It saved money", "It impressed the boss"],
+        "answer": 0
+      },
+      {
+        "q": "What did Minh do before the meeting to confirm the schedule?",
+        "options": ["Made a courtesy call", "Sent a gift", "Cancelled the meeting"],
+        "answer": 0
+      },
+      {
+        "q": "What did Hoa say helped her understand Minh's corporate culture?",
+        "options": ["The courtesy call he made", "The contract terms", "The product price"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Thank you for being so punctual, it makes things much easier.",
+    "We always like to exchange pleasantries before getting into the business details.",
+    "It takes time and patience to build trust with a new client.",
+    "A good salesperson always knows how to read the room.",
+    "Wearing professional attire helps you make a strong first impression."
+  ],
+  "track": "sales"
+}
