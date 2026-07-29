@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-30",
+  "track": "sales",
+  "theme": "Chăm sóc khách sau bán",
+  "vocab": [
+    {
+      "word": "customer success",
+      "ipa": "/ˈkʌstəmər səkˈses/",
+      "meaning_vi": "thành công của khách hàng (bộ phận chăm sóc)",
+      "example": "Our customer success team checks in every quarter.",
+      "example_vi": "Đội ngũ thành công khách hàng của chúng tôi trao đổi mỗi quý."
+    },
+    {
+      "word": "proactive outreach",
+      "ipa": "/proʊˈæktɪv ˈaʊtriːtʃ/",
+      "meaning_vi": "chủ động liên hệ trước",
+      "example": "We do proactive outreach before the contract expires.",
+      "example_vi": "Chúng tôi chủ động liên hệ trước khi hợp đồng hết hạn."
+    },
+    {
+      "word": "service ticket",
+      "ipa": "/ˈsɜːrvɪs ˈtɪkɪt/",
+      "meaning_vi": "phiếu yêu cầu hỗ trợ",
+      "example": "The client opened a service ticket about the login issue.",
+      "example_vi": "Khách hàng đã mở một phiếu yêu cầu hỗ trợ về vấn đề đăng nhập."
+    },
+    {
+      "word": "renewal reminder",
+      "ipa": "/rɪˈnjuːəl rɪˈmaɪndər/",
+      "meaning_vi": "nhắc gia hạn hợp đồng",
+      "example": "I sent a renewal reminder two months before the deadline.",
+      "example_vi": "Tôi đã gửi nhắc gia hạn hai tháng trước hạn chót."
+    },
+    {
+      "word": "loyalty program",
+      "ipa": "/ˈlɔɪəlti ˈproʊɡræm/",
+      "meaning_vi": "chương trình khách hàng thân thiết",
+      "example": "We invited them to join our loyalty program.",
+      "example_vi": "Chúng tôi đã mời họ tham gia chương trình khách hàng thân thiết."
+    },
+    {
+      "word": "goodwill gesture",
+      "ipa": "/ˈɡʊdwɪl ˈdʒɛstʃər/",
+      "meaning_vi": "cử chỉ thiện chí",
+      "example": "We offered a small discount as a goodwill gesture.",
+      "example_vi": "Chúng tôi đề nghị giảm giá nhỏ như một cử chỉ thiện chí."
+    },
+    {
+      "word": "long-term relationship",
+      "ipa": "/lɔːŋ tɜːrm rɪˈleɪʃənʃɪp/",
+      "meaning_vi": "mối quan hệ lâu dài",
+      "example": "We want to build a long-term relationship with this client.",
+      "example_vi": "Chúng tôi muốn xây dựng mối quan hệ lâu dài với khách hàng này."
+    },
+    {
+      "word": "value-added service",
+      "ipa": "/ˈvæljuː ˈædɪd ˈsɜːrvɪs/",
+      "meaning_vi": "dịch vụ giá trị gia tăng",
+      "example": "We offer free training as a value-added service.",
+      "example_vi": "Chúng tôi cung cấp đào tạo miễn phí như một dịch vụ giá trị gia tăng."
+    }
+  ],
+  "listening": {
+    "title": "Keeping a customer happy after the sale",
+    "lines": [
+      { "speaker": "Mai (account manager)", "voice": "female", "text": "Hi Mr. Khoa, this is Mai from TechViet. I'm calling for our quarterly check-in." },
+      { "speaker": "Khoa (customer)", "voice": "male", "text": "Hi Mai, good timing. We've had a small issue with the reporting feature." },
+      { "speaker": "Mai (account manager)", "voice": "female", "text": "I'm sorry to hear that. Did you open a service ticket for it?" },
+      { "speaker": "Khoa (customer)", "voice": "male", "text": "Yes, this morning. I hope it gets fixed soon." },
+      { "speaker": "Mai (account manager)", "voice": "female", "text": "Our customer success team will prioritize it today. I'll follow up personally." },
+      { "speaker": "Khoa (customer)", "voice": "male", "text": "Thank you, I appreciate that." },
+      { "speaker": "Mai (account manager)", "voice": "female", "text": "Also, I noticed your contract renews next month, so this is a renewal reminder." },
+      { "speaker": "Khoa (customer)", "voice": "male", "text": "Right, we're happy with the service so far." },
+      { "speaker": "Mai (account manager)", "voice": "female", "text": "Great to hear. We'd also like to offer a value-added service: free advanced training." },
+      { "speaker": "Khoa (customer)", "voice": "male", "text": "That sounds useful. We're building a long-term relationship with your company." },
+      { "speaker": "Mai (account manager)", "voice": "female", "text": "We appreciate that. As a goodwill gesture, I'll also add you to our loyalty program." },
+      { "speaker": "Khoa (customer)", "voice": "male", "text": "Perfect. We do proactive outreach on our end too when we need something." }
+    ],
+    "questions": [
+      {
+        "q": "Why is Mai calling Mr. Khoa?",
+        "options": ["To sell a new product", "For a quarterly check-in", "To cancel the contract"],
+        "answer": 1
+      },
+      {
+        "q": "What does Mai offer as a value-added service?",
+        "options": ["A discount", "Free advanced training", "A new laptop"],
+        "answer": 1
+      },
+      {
+        "q": "What does Mai add Mr. Khoa to as a goodwill gesture?",
+        "options": ["The loyalty program", "The waiting list", "The complaint list"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I'm calling for our quarterly check-in with your account today.",
+    "Did you open a service ticket for that issue yet?",
+    "Our customer success team will prioritize your request without delay.",
+    "We'd like to offer you a value-added service this month.",
+    "We're building a long-term relationship with your company this year."
+  ]
+}

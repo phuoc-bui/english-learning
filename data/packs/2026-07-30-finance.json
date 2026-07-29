@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-30",
+  "track": "finance",
+  "theme": "Trao đổi với kế toán thuế",
+  "vocab": [
+    {
+      "word": "taxable income",
+      "ipa": "/ˈtæksəbl ˈɪnkʌm/",
+      "meaning_vi": "thu nhập chịu thuế",
+      "example": "We need to calculate the taxable income for this quarter.",
+      "example_vi": "Chúng ta cần tính thu nhập chịu thuế cho quý này."
+    },
+    {
+      "word": "tax bracket",
+      "ipa": "/tæks ˈbrækɪt/",
+      "meaning_vi": "bậc thuế",
+      "example": "Which tax bracket does this employee fall into?",
+      "example_vi": "Nhân viên này thuộc bậc thuế nào?"
+    },
+    {
+      "word": "withholding tax",
+      "ipa": "/wɪðˈhoʊldɪŋ tæks/",
+      "meaning_vi": "thuế khấu trừ tại nguồn",
+      "example": "We must deduct withholding tax before transferring the payment.",
+      "example_vi": "Chúng ta phải khấu trừ thuế tại nguồn trước khi chuyển khoản."
+    },
+    {
+      "word": "tax filing",
+      "ipa": "/tæks ˈfaɪlɪŋ/",
+      "meaning_vi": "việc kê khai thuế",
+      "example": "Our tax filing is due by the 20th of next month.",
+      "example_vi": "Việc kê khai thuế của chúng ta phải hoàn tất trước ngày 20 tháng sau."
+    },
+    {
+      "word": "double taxation",
+      "ipa": "/ˈdʌbl tækˈseɪʃn/",
+      "meaning_vi": "đánh thuế hai lần",
+      "example": "The treaty helps us avoid double taxation on overseas income.",
+      "example_vi": "Hiệp định này giúp tránh đánh thuế hai lần với thu nhập ở nước ngoài."
+    },
+    {
+      "word": "tax advisor",
+      "ipa": "/tæks ədˈvaɪzər/",
+      "meaning_vi": "chuyên viên tư vấn thuế",
+      "example": "I booked a meeting with our tax advisor this afternoon.",
+      "example_vi": "Tôi đã đặt lịch gặp chuyên viên tư vấn thuế chiều nay."
+    },
+    {
+      "word": "provisional tax",
+      "ipa": "/prəˈvɪʒənl tæks/",
+      "meaning_vi": "thuế tạm nộp",
+      "example": "We paid provisional tax based on last year's estimate.",
+      "example_vi": "Chúng ta đã nộp thuế tạm tính dựa trên ước tính năm ngoái."
+    },
+    {
+      "word": "tax loophole",
+      "ipa": "/tæks ˈluːphoʊl/",
+      "meaning_vi": "kẽ hở thuế",
+      "example": "This isn't a tax loophole, it's a legal deduction.",
+      "example_vi": "Đây không phải kẽ hở thuế, mà là khoản khấu trừ hợp pháp."
+    }
+  ],
+  "listening": {
+    "title": "A call with the tax advisor",
+    "lines": [
+      { "speaker": "Huong (accountant)", "voice": "female", "text": "Hi Binh, thanks for joining. We need help with our taxable income calculation this quarter." },
+      { "speaker": "Binh (tax advisor)", "voice": "male", "text": "Sure. Can you tell me which tax bracket most of your employees are in?" },
+      { "speaker": "Huong (accountant)", "voice": "female", "text": "Most are in the middle bracket, but a few might have changed." },
+      { "speaker": "Binh (tax advisor)", "voice": "male", "text": "Okay. Also, don't forget to apply withholding tax before paying our overseas contractors." },
+      { "speaker": "Huong (accountant)", "voice": "female", "text": "Got it. When is our tax filing due this time?" },
+      { "speaker": "Binh (tax advisor)", "voice": "male", "text": "It's due by the 20th of next month, no extension this year." },
+      { "speaker": "Huong (accountant)", "voice": "female", "text": "Understood. What about our staff working abroad? Any double taxation risk?" },
+      { "speaker": "Binh (tax advisor)", "voice": "male", "text": "The treaty should cover that, but I'll double-check the details." },
+      { "speaker": "Huong (accountant)", "voice": "female", "text": "Thank you. Should we also review our provisional tax payment?" },
+      { "speaker": "Binh (tax advisor)", "voice": "male", "text": "Yes, let's compare it with last year's estimate." },
+      { "speaker": "Huong (accountant)", "voice": "female", "text": "One more thing, is this deduction a tax loophole or is it legal?" },
+      { "speaker": "Binh (tax advisor)", "voice": "male", "text": "It's completely legal, don't worry. As your tax advisor, I'll confirm everything in writing." }
+    ],
+    "questions": [
+      {
+        "q": "What does Binh ask about regarding employees?",
+        "options": ["Their salary", "Their tax bracket", "Their job title"],
+        "answer": 1
+      },
+      {
+        "q": "When is the tax filing due?",
+        "options": ["End of this month", "The 20th of next month", "Next quarter"],
+        "answer": 1
+      },
+      {
+        "q": "Is the deduction they discuss a tax loophole?",
+        "options": ["Yes, and it's risky", "No, it's completely legal", "They are not sure"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "We need help with our taxable income calculation this quarter.",
+    "Don't forget to apply withholding tax before paying our contractors.",
+    "When exactly is our tax filing due this time around?",
+    "Is there any double taxation risk for our overseas staff?",
+    "Let's compare the provisional tax with last year's estimate carefully."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-30",
+  "track": "interview",
+  "theme": "Deal lương khi phỏng vấn",
+  "vocab": [
+    {
+      "word": "base salary",
+      "ipa": "/beɪs ˈsæləri/",
+      "meaning_vi": "lương cơ bản",
+      "example": "The base salary is competitive, but let's also discuss bonuses.",
+      "example_vi": "Lương cơ bản khá cạnh tranh, nhưng hãy cùng bàn thêm về thưởng."
+    },
+    {
+      "word": "total compensation",
+      "ipa": "/ˈtoʊtl ˌkɒmpənˈseɪʃn/",
+      "meaning_vi": "tổng đãi ngộ",
+      "example": "I'd like to understand the total compensation, not just the salary.",
+      "example_vi": "Tôi muốn hiểu rõ tổng đãi ngộ, không chỉ riêng lương."
+    },
+    {
+      "word": "flexible on",
+      "ipa": "/ˈflɛksəbl ɒn/",
+      "meaning_vi": "có thể linh hoạt về",
+      "example": "I'm flexible on the start date if the offer is right.",
+      "example_vi": "Tôi có thể linh hoạt về ngày bắt đầu nếu đề nghị hợp lý."
+    },
+    {
+      "word": "industry standard",
+      "ipa": "/ˈɪndəstri ˈstændərd/",
+      "meaning_vi": "tiêu chuẩn ngành",
+      "example": "This number is a bit below the industry standard.",
+      "example_vi": "Con số này hơi thấp hơn tiêu chuẩn ngành."
+    },
+    {
+      "word": "walk away from",
+      "ipa": "/wɔːk əˈweɪ frəm/",
+      "meaning_vi": "từ bỏ, không nhận (đề nghị)",
+      "example": "I'd rather walk away from this offer than accept a low salary.",
+      "example_vi": "Tôi thà từ bỏ đề nghị này còn hơn nhận mức lương thấp."
+    },
+    {
+      "word": "annual raise",
+      "ipa": "/ˈænjuəl reɪz/",
+      "meaning_vi": "tăng lương hàng năm",
+      "example": "What does the annual raise usually look like here?",
+      "example_vi": "Mức tăng lương hàng năm ở đây thường như thế nào?"
+    },
+    {
+      "word": "room to negotiate",
+      "ipa": "/ruːm tuː nɪˈɡoʊʃieɪt/",
+      "meaning_vi": "dư địa để thương lượng",
+      "example": "Is there any room to negotiate on the bonus structure?",
+      "example_vi": "Có dư địa nào để thương lượng về cơ cấu thưởng không?"
+    },
+    {
+      "word": "meet in the middle",
+      "ipa": "/miːt ɪn ðə ˈmɪdl/",
+      "meaning_vi": "gặp nhau ở điểm giữa",
+      "example": "Let's try to meet in the middle on the number.",
+      "example_vi": "Hãy cùng thử gặp nhau ở điểm giữa về con số này."
+    }
+  ],
+  "listening": {
+    "title": "Negotiating the offer",
+    "lines": [
+      { "speaker": "Ha (interviewer)", "voice": "female", "text": "So, Kien, let's talk about the offer. What are your thoughts on the base salary?" },
+      { "speaker": "Kien (candidate)", "voice": "male", "text": "I appreciate the offer, but I was hoping for something closer to the industry standard." },
+      { "speaker": "Ha (interviewer)", "voice": "female", "text": "I understand. Can you share what number you have in mind?" },
+      { "speaker": "Kien (candidate)", "voice": "male", "text": "I'd like to discuss the total compensation, including bonuses and benefits, not just the base." },
+      { "speaker": "Ha (interviewer)", "voice": "female", "text": "That's fair. Is there any room to negotiate from your side, like on the start date?" },
+      { "speaker": "Kien (candidate)", "voice": "male", "text": "Yes, I'm flexible on the start date if we can agree on the salary." },
+      { "speaker": "Ha (interviewer)", "voice": "female", "text": "Good. What about the annual raise? We usually review it after twelve months." },
+      { "speaker": "Kien (candidate)", "voice": "male", "text": "That sounds reasonable. I'd rather not walk away from this offer if we can find a fair number." },
+      { "speaker": "Ha (interviewer)", "voice": "female", "text": "I appreciate your honesty. Let's try to meet in the middle on the base salary." },
+      { "speaker": "Kien (candidate)", "voice": "male", "text": "That works for me. Thank you for being open to discussing this." }
+    ],
+    "questions": [
+      {
+        "q": "What does Kien want to discuss besides the base salary?",
+        "options": ["The office location", "The total compensation, including bonuses and benefits", "The dress code"],
+        "answer": 1
+      },
+      {
+        "q": "What is Kien flexible on?",
+        "options": ["The job title", "The start date", "The team he works with"],
+        "answer": 1
+      },
+      {
+        "q": "What do Ha and Kien agree to do about the base salary?",
+        "options": ["Cancel the offer", "Meet in the middle", "Ignore the issue"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "I was hoping for something closer to the industry standard.",
+    "I'd like to discuss the total compensation, not just the base.",
+    "Is there any room to negotiate on the start date?",
+    "I'm flexible on the start date if the offer is right.",
+    "Let's try to meet in the middle on the base salary."
+  ]
+}

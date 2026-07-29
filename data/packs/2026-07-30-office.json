@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-30",
+  "track": "office",
+  "theme": "Deal deadline",
+  "vocab": [
+    {
+      "word": "tight deadline",
+      "ipa": "/taɪt ˈdɛdlaɪn/",
+      "meaning_vi": "hạn chót gấp gáp",
+      "example": "We have a tight deadline, so let's split the tasks now.",
+      "example_vi": "Chúng ta có hạn chót rất gấp, nên hãy chia việc ngay bây giờ."
+    },
+    {
+      "word": "push back",
+      "ipa": "/pʊʃ bæk/",
+      "meaning_vi": "lùi lại, dời hạn",
+      "example": "Can we push back the deadline by one day?",
+      "example_vi": "Chúng ta có thể dời hạn chót thêm một ngày không?"
+    },
+    {
+      "word": "eleventh hour",
+      "ipa": "/ɪˌlɛvənθ ˈaʊər/",
+      "meaning_vi": "phút chót",
+      "example": "The client changed the requirements at the eleventh hour.",
+      "example_vi": "Khách hàng đã thay đổi yêu cầu vào phút chót."
+    },
+    {
+      "word": "crunch time",
+      "ipa": "/krʌntʃ taɪm/",
+      "meaning_vi": "giai đoạn nước rút, áp lực cao",
+      "example": "It's crunch time now, everyone needs to focus.",
+      "example_vi": "Đây là giai đoạn nước rút, mọi người cần tập trung."
+    },
+    {
+      "word": "ahead of schedule",
+      "ipa": "/əˈhɛd əv ˈʃɛdjuːl/",
+      "meaning_vi": "vượt tiến độ",
+      "example": "We're actually ahead of schedule this week.",
+      "example_vi": "Thực ra tuần này chúng ta đang vượt tiến độ."
+    },
+    {
+      "word": "slip",
+      "ipa": "/slɪp/",
+      "meaning_vi": "trễ hạn, tuột hạn",
+      "example": "We can't let this deadline slip again.",
+      "example_vi": "Chúng ta không thể để hạn chót này trễ thêm lần nữa."
+    },
+    {
+      "word": "pull an all-nighter",
+      "ipa": "/pʊl ən ɔːl ˈnaɪtər/",
+      "meaning_vi": "thức trắng đêm làm việc",
+      "example": "I had to pull an all-nighter to finish the report.",
+      "example_vi": "Tôi đã phải thức trắng đêm để hoàn thành báo cáo."
+    },
+    {
+      "word": "hard stop",
+      "ipa": "/hɑːrd stɒp/",
+      "meaning_vi": "giới hạn thời gian tuyệt đối",
+      "example": "I have a hard stop at 5pm today for a client call.",
+      "example_vi": "Tôi có giới hạn cứng lúc 5 giờ chiều nay vì có cuộc gọi khách hàng."
+    }
+  ],
+  "listening": {
+    "title": "Racing against a tight deadline",
+    "lines": [
+      { "speaker": "Trang (project lead)", "voice": "female", "text": "Hung, how's the release going? We have a really tight deadline this time." },
+      { "speaker": "Hung", "voice": "male", "text": "I know. Actually, we're ahead of schedule so far, which is a relief." },
+      { "speaker": "Trang (project lead)", "voice": "female", "text": "That's great news. But it's crunch time now, so let's stay focused." },
+      { "speaker": "Hung", "voice": "male", "text": "Agreed. I had to pull an all-nighter yesterday to fix the last bug." },
+      { "speaker": "Trang (project lead)", "voice": "female", "text": "Thank you for that. Can we push back the testing session by an hour?" },
+      { "speaker": "Hung", "voice": "male", "text": "Sure, but I have a hard stop at 5pm for a client call." },
+      { "speaker": "Trang (project lead)", "voice": "female", "text": "No problem, we'll finish before then. We can't let this deadline slip again." },
+      { "speaker": "Hung", "voice": "male", "text": "Right. Let's just hope the client doesn't change anything at the eleventh hour." },
+      { "speaker": "Trang (project lead)", "voice": "female", "text": "Fingers crossed. I'll update the team on our progress now." },
+      { "speaker": "Hung", "voice": "male", "text": "Sounds good. I'll send you the final build in ten minutes." }
+    ],
+    "questions": [
+      {
+        "q": "How is the project doing compared to the schedule?",
+        "options": ["Behind schedule", "Ahead of schedule", "Cancelled"],
+        "answer": 1
+      },
+      {
+        "q": "What did Hung do yesterday to fix the last bug?",
+        "options": ["He asked a colleague for help", "He pulled an all-nighter", "He postponed it to next week"],
+        "answer": 1
+      },
+      {
+        "q": "Why does Hung have a hard stop at 5pm?",
+        "options": ["He has a client call", "He is going home early", "He has a doctor's appointment"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "We have a really tight deadline this time, so let's stay focused.",
+    "We're actually ahead of schedule so far, which is a relief.",
+    "I had to pull an all-nighter to finish the report.",
+    "Can we push back the testing session by one hour?",
+    "Let's hope the client doesn't change anything at the eleventh hour."
+  ]
+}
