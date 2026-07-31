@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-31",
+  "track": "finance",
+  "theme": "Lương thưởng & phúc lợi",
+  "vocab": [
+    { "word": "salary review", "ipa": "/ˈsæləri rɪˈvjuː/", "meaning_vi": "buổi xét/đánh giá lại lương", "example": "My manager scheduled a salary review for the end of the quarter.", "example_vi": "Quản lý của tôi đã lên lịch xét lại lương vào cuối quý." },
+    { "word": "take-home pay", "ipa": "/ˌteɪk həʊm ˈpeɪ/", "meaning_vi": "lương thực nhận sau khi trừ các khoản", "example": "After tax, my take-home pay is about eighty percent of my gross salary.", "example_vi": "Sau thuế, lương thực nhận của tôi chỉ khoảng tám mươi phần trăm lương gộp." },
+    { "word": "health insurance plan", "ipa": "/helθ ɪnˈʃʊərəns plæn/", "meaning_vi": "gói bảo hiểm y tế", "example": "The company's health insurance plan covers both employees and their children.", "example_vi": "Gói bảo hiểm y tế của công ty áp dụng cho cả nhân viên và con cái họ." },
+    { "word": "annual bonus", "ipa": "/ˈænjuəl ˈbəʊnəs/", "meaning_vi": "thưởng hàng năm", "example": "The annual bonus depends on both company results and personal performance.", "example_vi": "Thưởng hàng năm phụ thuộc vào cả kết quả công ty và hiệu suất cá nhân." },
+    { "word": "13th-month salary", "ipa": "/θɜːˈtiːnθ mʌnθ ˈsæləri/", "meaning_vi": "lương tháng thứ 13", "example": "Most companies in Vietnam pay a 13th-month salary before the Tet holiday.", "example_vi": "Hầu hết công ty ở Việt Nam trả lương tháng thứ 13 trước dịp Tết." },
+    { "word": "perks", "ipa": "/pɜːks/", "meaning_vi": "quyền lợi/đãi ngộ thêm ngoài lương", "example": "Free lunch and a gym membership are two perks at our office.", "example_vi": "Ăn trưa miễn phí và thẻ tập gym là hai đãi ngộ thêm ở văn phòng chúng tôi." },
+    { "word": "pay grade", "ipa": "/peɪ ɡreɪd/", "meaning_vi": "bậc lương", "example": "Employees in the same pay grade usually get similar benefits.", "example_vi": "Nhân viên cùng một bậc lương thường nhận được đãi ngộ tương tự nhau." },
+    { "word": "retirement fund", "ipa": "/rɪˈtaɪəmənt fʌnd/", "meaning_vi": "quỹ hưu trí", "example": "The company contributes to a retirement fund for every full-time staff member.", "example_vi": "Công ty đóng góp vào quỹ hưu trí cho mọi nhân viên chính thức." }
+  ],
+  "listening": {
+    "title": "Explaining Salary and Benefits",
+    "lines": [
+      { "speaker": "Mai (HR staff)", "voice": "female", "text": "Welcome aboard, Huy. Let's go through your salary and benefits package today." },
+      { "speaker": "Huy (new employee)", "voice": "male", "text": "Thanks, Mai. I have a few questions about the pay grade system here." },
+      { "speaker": "Mai (HR staff)", "voice": "female", "text": "Sure. Your pay grade determines your base salary and future salary review dates." },
+      { "speaker": "Huy (new employee)", "voice": "male", "text": "Got it. What's the difference between gross salary and take-home pay?" },
+      { "speaker": "Mai (HR staff)", "voice": "female", "text": "Take-home pay is what's left after tax and your retirement fund contribution." },
+      { "speaker": "Huy (new employee)", "voice": "male", "text": "That makes sense. Does the company offer a health insurance plan too?" },
+      { "speaker": "Mai (HR staff)", "voice": "female", "text": "Yes, every full-time employee gets a health insurance plan from day one." },
+      { "speaker": "Huy (new employee)", "voice": "male", "text": "Great. I also heard about an annual bonus, is that true?" },
+      { "speaker": "Mai (HR staff)", "voice": "female", "text": "Correct, plus a 13th-month salary paid before Tet every year." },
+      { "speaker": "Huy (new employee)", "voice": "male", "text": "That's really helpful. Are there any other perks I should know about?" },
+      { "speaker": "Mai (HR staff)", "voice": "female", "text": "Yes, free lunch, gym membership, and an annual company trip are some perks." }
+    ],
+    "questions": [
+      { "q": "What determines Huy's base salary?", "options": ["His pay grade", "His age", "His university degree"], "answer": 0 },
+      { "q": "What is take-home pay?", "options": ["Money left after tax and retirement fund contribution", "The total salary before tax", "A one-time bonus"], "answer": 0 },
+      { "q": "When is the 13th-month salary paid?", "options": ["Before Tet every year", "On the employee's birthday", "At the end of probation"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Let's go through your salary and benefits package together today.",
+    "Your pay grade determines your base salary and future reviews.",
+    "Take-home pay is what's left after tax and other deductions.",
+    "Every full-time employee gets a health insurance plan from day one.",
+    "We also offer an annual bonus and a 13th-month salary."
+  ]
+}

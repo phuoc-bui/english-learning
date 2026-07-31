@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-31",
+  "track": "office",
+  "theme": "Gọi điện với đối tác",
+  "vocab": [
+    { "word": "dial in", "ipa": "/ˈdaɪəl ɪn/", "meaning_vi": "quay số để tham gia cuộc gọi", "example": "Please dial in five minutes early so the meeting can start on time.", "example_vi": "Vui lòng quay số vào sớm năm phút để cuộc họp có thể bắt đầu đúng giờ." },
+    { "word": "put on hold", "ipa": "/pʊt ɒn həʊld/", "meaning_vi": "giữ máy, tạm dừng cuộc gọi", "example": "Can I put you on hold while I check the latest contract?", "example_vi": "Tôi có thể giữ máy trong lúc kiểm tra hợp đồng mới nhất không?" },
+    { "word": "bad connection", "ipa": "/bæd kəˈnekʃn/", "meaning_vi": "kết nối kém, đường truyền yếu", "example": "We had a bad connection, so half of the call was hard to hear.", "example_vi": "Chúng tôi bị kết nối kém nên nửa cuộc gọi rất khó nghe." },
+    { "word": "cut off", "ipa": "/kʌt ɒf/", "meaning_vi": "bị ngắt giữa chừng (cuộc gọi)", "example": "The call got cut off right before we agreed on the deadline.", "example_vi": "Cuộc gọi bị ngắt ngay trước khi chúng tôi thống nhất được hạn chót." },
+    { "word": "conference bridge", "ipa": "/ˈkɒnfərəns brɪdʒ/", "meaning_vi": "đường dây/số cầu nối hội nghị", "example": "Please share the conference bridge number with the partner team before nine.", "example_vi": "Vui lòng gửi số cầu nối hội nghị cho đội đối tác trước chín giờ." },
+    { "word": "static on the line", "ipa": "/ˈstætɪk ɒn ðə laɪn/", "meaning_vi": "tiếng nhiễu/ồn trên đường dây", "example": "There was so much static on the line that I missed the last point.", "example_vi": "Đường dây bị nhiễu nhiều đến mức tôi bỏ lỡ ý cuối cùng." },
+    { "word": "touch base", "ipa": "/tʌtʃ beɪs/", "meaning_vi": "liên hệ trao đổi ngắn", "example": "Let's touch base with our partner before we finalize the proposal.", "example_vi": "Hãy liên hệ trao đổi ngắn với đối tác trước khi chốt đề xuất." },
+    { "word": "voicemail", "ipa": "/ˈvɔɪsmeɪl/", "meaning_vi": "hộp thư thoại", "example": "I called twice but only reached his voicemail both times.", "example_vi": "Tôi gọi hai lần nhưng chỉ gặp hộp thư thoại của anh ấy cả hai lần." }
+  ],
+  "listening": {
+    "title": "Setting Up a Call With Our Partner",
+    "lines": [
+      { "speaker": "Linh (coordinator)", "voice": "female", "text": "Hi Minh, thanks for joining. Did you manage to dial in to the conference bridge okay?" },
+      { "speaker": "Minh (partner company)", "voice": "male", "text": "Yes, I dialed in five minutes early, but there's some static on the line." },
+      { "speaker": "Linh (coordinator)", "voice": "female", "text": "I can hear it too. Let's mute our other tabs and see if that helps." },
+      { "speaker": "Minh (partner company)", "voice": "male", "text": "Better now. Sorry, I tried to touch base with you yesterday but got your voicemail." },
+      { "speaker": "Linh (coordinator)", "voice": "female", "text": "I was in a bad connection area, actually. Can you send me the conference bridge number again?" },
+      { "speaker": "Minh (partner company)", "voice": "male", "text": "Sure, I'll email it right after this call so it doesn't happen again." },
+      { "speaker": "Linh (coordinator)", "voice": "female", "text": "Great. Can I put you on hold for one minute while I pull up the contract?" },
+      { "speaker": "Minh (partner company)", "voice": "male", "text": "No problem, take your time." },
+      { "speaker": "Linh (coordinator)", "voice": "female", "text": "Thanks for waiting. Sorry about that, the call almost got cut off on my end." },
+      { "speaker": "Minh (partner company)", "voice": "male", "text": "No worries. Let's go through the timeline before we lose the connection again." }
+    ],
+    "questions": [
+      { "q": "Why did Minh get Linh's voicemail yesterday?", "options": ["She was in a bad connection area", "She was on vacation", "Her phone was off"], "answer": 0 },
+      { "q": "What does Linh ask Minh to send again?", "options": ["The contract", "The conference bridge number", "The invoice"], "answer": 1 },
+      { "q": "Why does Linh put Minh on hold?", "options": ["To pull up the contract", "To get coffee", "To answer another call"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Did you manage to dial in to the call on time today?",
+    "Sorry, there's a bit of static on the line right now.",
+    "I tried to touch base with you but got your voicemail.",
+    "Can I put you on hold for just one minute?",
+    "The call almost got cut off, can you hear me now?"
+  ]
+}

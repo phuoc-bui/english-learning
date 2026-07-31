@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-31",
+  "track": "interview",
+  "theme": "Câu hỏi ngược cho nhà tuyển dụng",
+  "vocab": [
+    { "word": "follow-up question", "ipa": "/ˈfɒləʊ ʌp ˈkwestʃən/", "meaning_vi": "câu hỏi tiếp theo/bổ sung", "example": "I have one follow-up question about the team structure.", "example_vi": "Tôi có một câu hỏi bổ sung về cơ cấu đội nhóm." },
+    { "word": "day-to-day responsibilities", "ipa": "/deɪ tə deɪ rɪˌspɒnsəˈbɪlətiz/", "meaning_vi": "trách nhiệm hàng ngày", "example": "Could you describe the day-to-day responsibilities of this position?", "example_vi": "Anh/chị có thể mô tả trách nhiệm hàng ngày của vị trí này không?" },
+    { "word": "hiring timeline", "ipa": "/ˈhaɪərɪŋ ˈtaɪmlaɪn/", "meaning_vi": "mốc thời gian tuyển dụng", "example": "What's the hiring timeline for this role?", "example_vi": "Mốc thời gian tuyển dụng cho vị trí này là khi nào?" },
+    { "word": "reporting line", "ipa": "/rɪˈpɔːtɪŋ laɪn/", "meaning_vi": "tuyến báo cáo/cấp quản lý trực tiếp", "example": "Who would be my reporting line if I got this job?", "example_vi": "Ai sẽ là người tôi báo cáo trực tiếp nếu tôi nhận công việc này?" },
+    { "word": "show genuine interest", "ipa": "/ʃəʊ ˈdʒenjuɪn ˈɪntrəst/", "meaning_vi": "thể hiện sự quan tâm chân thành", "example": "Asking thoughtful questions helps you show genuine interest in the role.", "example_vi": "Đặt câu hỏi chu đáo giúp bạn thể hiện sự quan tâm chân thành đến vị trí này." },
+    { "word": "company priorities", "ipa": "/ˈkʌmpəni praɪˈɒrətiz/", "meaning_vi": "ưu tiên của công ty", "example": "Understanding the company priorities helps you prepare better answers.", "example_vi": "Hiểu rõ ưu tiên của công ty giúp bạn chuẩn bị câu trả lời tốt hơn." },
+    { "word": "performance metrics", "ipa": "/pəˈfɔːməns ˈmetrɪks/", "meaning_vi": "chỉ số đánh giá hiệu suất", "example": "What performance metrics does the team use to measure success?", "example_vi": "Đội nhóm dùng chỉ số nào để đánh giá hiệu suất thành công?" },
+    { "word": "lasting impression", "ipa": "/ˈlɑːstɪŋ ɪmˈpreʃn/", "meaning_vi": "ấn tượng lâu dài", "example": "A good closing question can leave a lasting impression on the interviewer.", "example_vi": "Một câu hỏi kết thúc hay có thể để lại ấn tượng lâu dài với nhà tuyển dụng." }
+  ],
+  "listening": {
+    "title": "Asking Questions at the End of the Interview",
+    "lines": [
+      { "speaker": "Mr. Phuong (interviewer)", "voice": "male", "text": "That's all my questions. Do you have any questions for me?" },
+      { "speaker": "Trang (candidate)", "voice": "female", "text": "Yes, I do. Could you tell me more about the day-to-day responsibilities of this role?" },
+      { "speaker": "Mr. Phuong (interviewer)", "voice": "male", "text": "Sure, you'd mainly support the backend team and join daily standups." },
+      { "speaker": "Trang (candidate)", "voice": "female", "text": "Thank you. I also wanted to ask about the reporting line for this position." },
+      { "speaker": "Mr. Phuong (interviewer)", "voice": "male", "text": "You would report directly to the engineering manager, Mr. Tuan." },
+      { "speaker": "Trang (candidate)", "voice": "female", "text": "That's helpful. What performance metrics would be used to review my work?" },
+      { "speaker": "Mr. Phuong (interviewer)", "voice": "male", "text": "We usually look at code quality, delivery speed, and teamwork." },
+      { "speaker": "Trang (candidate)", "voice": "female", "text": "Great, one more follow-up question, what's the hiring timeline for this position?" },
+      { "speaker": "Mr. Phuong (interviewer)", "voice": "male", "text": "We plan to make a decision within two weeks." },
+      { "speaker": "Trang (candidate)", "voice": "female", "text": "Thank you, asking these questions really helps me understand the company priorities." },
+      { "speaker": "Mr. Phuong (interviewer)", "voice": "male", "text": "I'm glad you asked. It's clear you're showing genuine interest in this role." }
+    ],
+    "questions": [
+      { "q": "What does Trang ask about first?", "options": ["The day-to-day responsibilities of the role", "The company's revenue", "Her future salary"], "answer": 0 },
+      { "q": "Who would Trang report to if hired?", "options": ["The HR manager", "The engineering manager, Mr. Tuan", "The CEO directly"], "answer": 1 },
+      { "q": "What is the hiring timeline the interviewer mentions?", "options": ["A decision within two weeks", "A decision the next day", "A decision within three months"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Could you tell me more about the day-to-day responsibilities of this role?",
+    "I wanted to ask about the reporting line for this position.",
+    "What performance metrics would be used to review my work?",
+    "One more follow-up question, what's the hiring timeline for this role?",
+    "Asking questions really helps me understand the company priorities better."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-31",
+  "track": "sales",
+  "theme": "Pitch ngắn (elevator pitch)",
+  "vocab": [
+    { "word": "hook", "ipa": "/hʊk/", "meaning_vi": "câu mở đầu gây chú ý", "example": "Start with a strong hook so the client remembers you.", "example_vi": "Hãy bắt đầu bằng một câu mở đầu ấn tượng để khách hàng nhớ đến bạn." },
+    { "word": "value proposition", "ipa": "/ˈvæljuː ˌprɒpəˈzɪʃn/", "meaning_vi": "giá trị cốt lõi bạn mang lại", "example": "Explain your value proposition in one clear sentence.", "example_vi": "Hãy giải thích giá trị cốt lõi của bạn trong một câu rõ ràng." },
+    { "word": "get to the point", "ipa": "/ɡet tuː ðə pɔɪnt/", "meaning_vi": "đi thẳng vào vấn đề", "example": "In an elevator pitch, you need to get to the point fast.", "example_vi": "Trong một bài pitch ngắn, bạn cần đi thẳng vào vấn đề thật nhanh." },
+    { "word": "memorable", "ipa": "/ˈmemərəbl/", "meaning_vi": "dễ nhớ, ấn tượng", "example": "A memorable pitch uses simple words and a clear example.", "example_vi": "Một bài pitch dễ nhớ dùng từ ngữ đơn giản và ví dụ rõ ràng." },
+    { "word": "rehearse", "ipa": "/rɪˈhɜːs/", "meaning_vi": "luyện tập trước", "example": "I always rehearse my pitch in front of a mirror first.", "example_vi": "Tôi luôn luyện tập bài pitch của mình trước gương trước tiên." },
+    { "word": "confidence", "ipa": "/ˈkɒnfɪdəns/", "meaning_vi": "sự tự tin", "example": "Speak with confidence, even if you only have thirty seconds.", "example_vi": "Hãy nói với sự tự tin, kể cả khi bạn chỉ có ba mươi giây." },
+    { "word": "key benefit", "ipa": "/kiː ˈbenɪfɪt/", "meaning_vi": "lợi ích chính", "example": "Focus on one key benefit instead of listing every feature.", "example_vi": "Hãy tập trung vào một lợi ích chính thay vì liệt kê mọi tính năng." },
+    { "word": "tone of voice", "ipa": "/təʊn əv vɔɪs/", "meaning_vi": "ngữ điệu, cách lên xuống giọng", "example": "Your tone of voice matters as much as the words you choose.", "example_vi": "Ngữ điệu của bạn quan trọng không kém những từ bạn chọn dùng." }
+  ],
+  "listening": {
+    "title": "Practicing the Elevator Pitch",
+    "lines": [
+      { "speaker": "Tuan (sales manager)", "voice": "male", "text": "Hoa, before the trade show, let's rehearse your elevator pitch one more time." },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "Sure. I want a strong hook to grab attention in the first few seconds." },
+      { "speaker": "Tuan (sales manager)", "voice": "male", "text": "Good idea. What's your opening line going to be?" },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "I'll say we help IT teams cut deployment time by half, then explain the value proposition." },
+      { "speaker": "Tuan (sales manager)", "voice": "male", "text": "Nice. Try to get to the point faster, though, visitors only have thirty seconds." },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "Okay, let me cut the details and focus on one key benefit instead." },
+      { "speaker": "Tuan (sales manager)", "voice": "male", "text": "That's better. Also, watch your body language and tone of voice while you speak." },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "Got it. I'll speak with more confidence and smile a bit more." },
+      { "speaker": "Tuan (sales manager)", "voice": "male", "text": "Perfect. A memorable pitch is short, clear, and easy to remember." },
+      { "speaker": "Hoa (sales rep)", "voice": "female", "text": "I'll rehearse it a few more times before the doors open." }
+    ],
+    "questions": [
+      { "q": "Why does Hoa want a strong hook?", "options": ["To grab attention in the first few seconds", "To confuse the visitor", "To end the conversation quickly"], "answer": 0 },
+      { "q": "What does Tuan tell Hoa to focus on instead of details?", "options": ["The company history", "One key benefit", "The price list"], "answer": 1 },
+      { "q": "What two things does Tuan ask Hoa to watch while speaking?", "options": ["Body language and tone of voice", "Time and location", "Competitors and price"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Let's rehearse your elevator pitch one more time before the show.",
+    "I want a strong hook to grab their attention quickly.",
+    "Try to get to the point, visitors only have thirty seconds.",
+    "Watch your body language and tone of voice while you speak.",
+    "A memorable pitch is short, clear, and easy to remember."
+  ]
+}
