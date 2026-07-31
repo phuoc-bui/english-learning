@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-01",
+  "track": "office",
+  "theme": "Ghi chú & biên bản họp",
+  "vocab": [
+    { "word": "note-taker", "ipa": "/nəʊt ˈteɪkə/", "meaning_vi": "người ghi chú", "example": "Can you be the note-taker for today's meeting?", "example_vi": "Bạn có thể làm người ghi chú cho cuộc họp hôm nay không?" },
+    { "word": "transcribe", "ipa": "/trænˈskraɪb/", "meaning_vi": "ghi lại nội dung", "example": "I'll transcribe the main points as we go.", "example_vi": "Tôi sẽ ghi lại các ý chính khi chúng ta trao đổi." },
+    { "word": "key decision", "ipa": "/kiː dɪˈsɪʒn/", "meaning_vi": "quyết định quan trọng", "example": "Please make sure to record every key decision we make.", "example_vi": "Hãy chắc chắn ghi lại mọi quyết định quan trọng chúng ta đưa ra." },
+    { "word": "distribute", "ipa": "/dɪˈstrɪbjuːt/", "meaning_vi": "gửi/phân phát", "example": "Should I distribute the notes after the meeting?", "example_vi": "Tôi có nên gửi ghi chú sau cuộc họp không?" },
+    { "word": "outstanding item", "ipa": "/aʊtˈstændɪŋ ˈaɪtəm/", "meaning_vi": "việc còn tồn đọng", "example": "I'll list any outstanding item we didn't finish discussing.", "example_vi": "Tôi sẽ liệt kê những việc còn tồn đọng chưa bàn xong." },
+    { "word": "finalize", "ipa": "/ˈfaɪnəlaɪz/", "meaning_vi": "hoàn thiện", "example": "Once you finalize the notes, send them to me first.", "example_vi": "Khi bạn hoàn thiện ghi chú, hãy gửi cho tôi trước." },
+    { "word": "documented", "ipa": "/ˈdɒkjumentɪd/", "meaning_vi": "được ghi lại đầy đủ", "example": "I want to make sure everything is documented clearly.", "example_vi": "Tôi muốn đảm bảo mọi thứ được ghi lại rõ ràng." },
+    { "word": "share the notes", "ipa": "/ʃeə ðə nəʊts/", "meaning_vi": "chia sẻ ghi chú", "example": "I'll share the notes with everyone by end of day.", "example_vi": "Tôi sẽ chia sẻ ghi chú với mọi người trước cuối ngày." }
+  ],
+  "listening": {
+    "title": "Taking Notes in the Meeting",
+    "lines": [
+      { "speaker": "Duc (manager)", "voice": "male", "text": "Linh, can you be the note-taker for today's meeting?" },
+      { "speaker": "Linh", "voice": "female", "text": "Sure, I'll transcribe the main points as we go." },
+      { "speaker": "Duc (manager)", "voice": "male", "text": "Great. Please make sure to record every key decision we make." },
+      { "speaker": "Linh", "voice": "female", "text": "Will do. Should I distribute the notes after the meeting?" },
+      { "speaker": "Duc (manager)", "voice": "male", "text": "Yes, please send them to the whole team by tomorrow." },
+      { "speaker": "Linh", "voice": "female", "text": "Okay. I'll also list any outstanding item we didn't finish discussing." },
+      { "speaker": "Duc (manager)", "voice": "male", "text": "Good idea. Once you finalize the notes, send them to me first." },
+      { "speaker": "Linh", "voice": "female", "text": "No problem. I want to make sure everything is documented clearly." },
+      { "speaker": "Duc (manager)", "voice": "male", "text": "That's important, especially for the budget decision we made today." },
+      { "speaker": "Linh", "voice": "female", "text": "I'll share the notes with everyone by end of day." }
+    ],
+    "questions": [
+      { "q": "What is Linh's role in the meeting?", "options": ["The note-taker", "The presenter", "The client"], "answer": 0 },
+      { "q": "When should Linh distribute the notes?", "options": ["Right now", "By tomorrow", "Next month"], "answer": 1 },
+      { "q": "What does Duc say is especially important to document?", "options": ["The lunch order", "The budget decision", "The office layout"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Can you be the note-taker for today's meeting, please?",
+    "I'll transcribe the main points as we go along.",
+    "Please make sure to record every key decision we make.",
+    "I'll also list any outstanding item we didn't finish discussing.",
+    "I'll share the finalized notes with everyone by the end of day."
+  ]
+}

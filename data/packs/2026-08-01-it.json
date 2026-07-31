@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-01",
+  "track": "it",
+  "theme": "Báo cáo tiến độ với sếp",
+  "vocab": [
+    { "word": "recap", "ipa": "/ˈriːkæp/", "meaning_vi": "tóm tắt lại", "example": "Can you give me a quick recap of this week's progress?", "example_vi": "Anh có thể tóm tắt nhanh tiến độ tuần này không?" },
+    { "word": "on pace", "ipa": "/ɒn peɪs/", "meaning_vi": "đúng tiến độ", "example": "We're on pace to finish the login feature by Friday.", "example_vi": "Chúng tôi đang đúng tiến độ để hoàn thành tính năng đăng nhập vào thứ Sáu." },
+    { "word": "flag an issue", "ipa": "/flæɡ ən ˈɪʃuː/", "meaning_vi": "nêu ra một vấn đề", "example": "I need to flag an issue with the payment API.", "example_vi": "Tôi cần nêu ra một vấn đề với payment API." },
+    { "word": "buffer time", "ipa": "/ˈbʌfə taɪm/", "meaning_vi": "thời gian dự phòng", "example": "A little buffer time would help us finish safely.", "example_vi": "Một chút thời gian dự phòng sẽ giúp chúng tôi hoàn thành an toàn." },
+    { "word": "deliverable", "ipa": "/dɪˈlɪvərəbl/", "meaning_vi": "sản phẩm bàn giao", "example": "What's the next deliverable after the login feature?", "example_vi": "Sản phẩm bàn giao tiếp theo sau tính năng đăng nhập là gì?" },
+    { "word": "heads-up", "ipa": "/hedz ʌp/", "meaning_vi": "lời báo trước", "example": "Thanks for the heads-up, I'll look into it right away.", "example_vi": "Cảm ơn đã báo trước, tôi sẽ kiểm tra ngay." },
+    { "word": "bottleneck", "ipa": "/ˈbɒtlnek/", "meaning_vi": "điểm nghẽn", "example": "Is the testing team a bottleneck for your work?", "example_vi": "Đội kiểm thử có đang là điểm nghẽn cho công việc của bạn không?" },
+    { "word": "sign off", "ipa": "/saɪn ɒf/", "meaning_vi": "phê duyệt lần cuối", "example": "I'll sign off on the login feature today.", "example_vi": "Tôi sẽ phê duyệt lần cuối tính năng đăng nhập hôm nay." }
+  ],
+  "listening": {
+    "title": "Weekly Progress Report",
+    "lines": [
+      { "speaker": "Lan (manager)", "voice": "female", "text": "Nam, can you give me a quick recap of this week's progress?" },
+      { "speaker": "Nam", "voice": "male", "text": "Sure. We're on pace to finish the login feature by Friday." },
+      { "speaker": "Lan (manager)", "voice": "female", "text": "Great. Any blockers I should know about?" },
+      { "speaker": "Nam", "voice": "male", "text": "One thing — I need to flag an issue with the payment API. It's slower than expected." },
+      { "speaker": "Lan (manager)", "voice": "female", "text": "Thanks for the heads-up. Do you need more time?" },
+      { "speaker": "Nam", "voice": "male", "text": "A little buffer time would help, maybe two extra days." },
+      { "speaker": "Lan (manager)", "voice": "female", "text": "That's fine. Is the testing team a bottleneck for you?" },
+      { "speaker": "Nam", "voice": "male", "text": "Not really, they're keeping up so far." },
+      { "speaker": "Lan (manager)", "voice": "female", "text": "Good. What's the next deliverable after the login feature?" },
+      { "speaker": "Nam", "voice": "male", "text": "The password reset flow. I'll sign off on the login feature today." },
+      { "speaker": "Lan (manager)", "voice": "female", "text": "Perfect, send me the report by end of day." },
+      { "speaker": "Nam", "voice": "male", "text": "Will do, thanks!" }
+    ],
+    "questions": [
+      { "q": "What does Nam say about the login feature timeline?", "options": ["They are behind schedule", "They are on pace to finish by Friday", "It's already cancelled"], "answer": 1 },
+      { "q": "What issue does Nam flag?", "options": ["The payment API is slower than expected", "The database is down", "The design is wrong"], "answer": 0 },
+      { "q": "What does Nam ask Lan for?", "options": ["A pay raise", "A little buffer time", "A new laptop"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Can you give me a quick recap of this week's progress?",
+    "We're on pace to finish this feature by the end of the week.",
+    "I need to flag an issue with the payment API today.",
+    "Thanks for the heads-up, I'll look into it right away.",
+    "Is the testing team turning into a bottleneck for your work?"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-01",
+  "track": "sales",
+  "theme": "Khảo sát nhu cầu khách",
+  "vocab": [
+    { "word": "needs assessment", "ipa": "/niːdz əˈsesmənt/", "meaning_vi": "đánh giá nhu cầu", "example": "This is a quick needs assessment call, is that okay?", "example_vi": "Đây là một cuộc gọi đánh giá nhu cầu nhanh, được không ạ?" },
+    { "word": "current challenges", "ipa": "/ˈkʌrənt ˈtʃælɪndʒɪz/", "meaning_vi": "khó khăn hiện tại", "example": "Could you tell me about your current challenges with your system?", "example_vi": "Anh/chị có thể cho tôi biết về khó khăn hiện tại với hệ thống không?" },
+    { "word": "discovery call", "ipa": "/dɪˈskʌvəri kɔːl/", "meaning_vi": "cuộc gọi tìm hiểu", "example": "We usually start with a short discovery call.", "example_vi": "Chúng tôi thường bắt đầu bằng một cuộc gọi tìm hiểu ngắn." },
+    { "word": "decision criteria", "ipa": "/dɪˈsɪʒn kraɪˈtɪəriə/", "meaning_vi": "tiêu chí quyết định", "example": "What's your decision criteria when choosing a new tool?", "example_vi": "Tiêu chí quyết định của anh/chị khi chọn công cụ mới là gì?" },
+    { "word": "must-have feature", "ipa": "/mʌst hæv ˈfiːtʃə/", "meaning_vi": "tính năng bắt buộc phải có", "example": "Do you have a must-have feature we should focus on?", "example_vi": "Anh/chị có tính năng bắt buộc phải có nào chúng tôi nên tập trung không?" },
+    { "word": "budget range", "ipa": "/ˈbʌdʒɪt reɪndʒ/", "meaning_vi": "khoảng ngân sách", "example": "What's your budget range for this project?", "example_vi": "Khoảng ngân sách của anh/chị cho dự án này là bao nhiêu?" },
+    { "word": "buying timeline", "ipa": "/ˈbaɪɪŋ ˈtaɪmlaɪn/", "meaning_vi": "mốc thời gian mua hàng", "example": "What's your buying timeline for this solution?", "example_vi": "Mốc thời gian mua hàng của anh/chị cho giải pháp này là khi nào?" },
+    { "word": "urgent need", "ipa": "/ˈɜːdʒənt niːd/", "meaning_vi": "nhu cầu cấp thiết", "example": "Is this something we should treat as an urgent need?", "example_vi": "Đây có phải là điều chúng ta nên xem là nhu cầu cấp thiết không?" }
+  ],
+  "listening": {
+    "title": "Understanding the Customer's Needs",
+    "lines": [
+      { "speaker": "Mai (sales rep)", "voice": "female", "text": "Thanks for joining, Mr. Hung. This is a quick needs assessment call." },
+      { "speaker": "Hung (customer)", "voice": "male", "text": "Sure, happy to help. What do you want to know?" },
+      { "speaker": "Mai (sales rep)", "voice": "female", "text": "First, could you tell me about your current challenges with your system?" },
+      { "speaker": "Hung (customer)", "voice": "male", "text": "It's slow, and our team wastes a lot of time on manual reports." },
+      { "speaker": "Mai (sales rep)", "voice": "female", "text": "I see. Is this something we should treat as an urgent need?" },
+      { "speaker": "Hung (customer)", "voice": "male", "text": "Yes, actually. We're losing time every week because of it." },
+      { "speaker": "Mai (sales rep)", "voice": "female", "text": "Understood. What's your decision criteria when choosing a new tool?" },
+      { "speaker": "Hung (customer)", "voice": "male", "text": "Price, ease of use, and good customer support mainly." },
+      { "speaker": "Mai (sales rep)", "voice": "female", "text": "Got it. Do you have a must-have feature we should focus on?" },
+      { "speaker": "Hung (customer)", "voice": "male", "text": "Automated reporting is the most important one for us." },
+      { "speaker": "Mai (sales rep)", "voice": "female", "text": "Great, and what's your budget range and buying timeline?" },
+      { "speaker": "Hung (customer)", "voice": "male", "text": "Around five thousand dollars, and we'd like to decide within a month." }
+    ],
+    "questions": [
+      { "q": "What is the main challenge Hung mentions?", "options": ["Their system is slow and reports are manual", "They have too much budget", "They have no employees"], "answer": 0 },
+      { "q": "What must-have feature does Hung need?", "options": ["A new logo", "Automated reporting", "Free shipping"], "answer": 1 },
+      { "q": "What is Hung's buying timeline?", "options": ["Within a year", "Within a month", "They will never decide"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "This is a quick needs assessment call, is that okay?",
+    "Could you tell me about your current challenges with your system?",
+    "Is this something we should treat as an urgent need?",
+    "What's your decision criteria when choosing a new software tool?",
+    "Could you share your budget range and expected buying timeline?"
+  ]
+}

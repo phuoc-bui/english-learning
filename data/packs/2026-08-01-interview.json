@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-01",
+  "track": "interview",
+  "theme": "Phỏng vấn qua video call",
+  "vocab": [
+    { "word": "internet connection", "ipa": "/ˈɪntənet kəˈnekʃn/", "meaning_vi": "kết nối internet", "example": "I checked my internet connection before the call.", "example_vi": "Tôi đã kiểm tra kết nối internet trước cuộc gọi." },
+    { "word": "webcam", "ipa": "/ˈwebkæm/", "meaning_vi": "camera máy tính", "example": "Please make sure your webcam is working properly.", "example_vi": "Vui lòng đảm bảo camera của bạn hoạt động tốt." },
+    { "word": "virtual background", "ipa": "/ˈvɜːtʃuəl ˈbækɡraʊnd/", "meaning_vi": "phông nền ảo", "example": "I like your virtual background, very professional.", "example_vi": "Tôi thích phông nền ảo của bạn, rất chuyên nghiệp." },
+    { "word": "lighting", "ipa": "/ˈlaɪtɪŋ/", "meaning_vi": "ánh sáng", "example": "The lighting on your side looks clear now.", "example_vi": "Ánh sáng phía bạn giờ trông rõ ràng rồi." },
+    { "word": "dress professionally", "ipa": "/dres prəˈfeʃnəli/", "meaning_vi": "ăn mặc chuyên nghiệp", "example": "I wanted to dress professionally, even from home.", "example_vi": "Tôi muốn ăn mặc chuyên nghiệp, dù đang ở nhà." },
+    { "word": "test your equipment", "ipa": "/test jɔːr ɪˈkwɪpmənt/", "meaning_vi": "kiểm tra thiết bị", "example": "I always test my equipment before an interview.", "example_vi": "Tôi luôn kiểm tra thiết bị trước khi phỏng vấn." },
+    { "word": "buffering", "ipa": "/ˈbʌfərɪŋ/", "meaning_vi": "tình trạng giật/lag", "example": "Sorry, the video seems to be buffering a bit.", "example_vi": "Xin lỗi, video có vẻ đang bị giật một chút." },
+    { "word": "reschedule the interview", "ipa": "/riːˈʃedjuːl ði ˈɪntəvjuː/", "meaning_vi": "dời lịch phỏng vấn", "example": "Should we reschedule the interview or continue now?", "example_vi": "Chúng ta nên dời lịch phỏng vấn hay tiếp tục luôn?" }
+  ],
+  "listening": {
+    "title": "A Video Call Interview",
+    "lines": [
+      { "speaker": "Khoa (interviewer)", "voice": "male", "text": "Hi Yen, can you hear me clearly? Let's start the interview." },
+      { "speaker": "Yen (candidate)", "voice": "female", "text": "Yes, I can hear you well. Thanks for having me today." },
+      { "speaker": "Khoa (interviewer)", "voice": "male", "text": "Great. I noticed you tested your equipment before the call — smart move." },
+      { "speaker": "Yen (candidate)", "voice": "female", "text": "Yes, I checked my internet connection and webcam this morning." },
+      { "speaker": "Khoa (interviewer)", "voice": "male", "text": "Good preparation. I also like your virtual background, very professional." },
+      { "speaker": "Yen (candidate)", "voice": "female", "text": "Thank you! I wanted to dress professionally too, even from home." },
+      { "speaker": "Khoa (interviewer)", "voice": "male", "text": "That shows real effort. Sorry, the video seems to be buffering a bit." },
+      { "speaker": "Yen (candidate)", "voice": "female", "text": "No worries, should we reschedule the interview or continue now?" },
+      { "speaker": "Khoa (interviewer)", "voice": "male", "text": "Let's continue, the lighting on your side looks clear now." },
+      { "speaker": "Yen (candidate)", "voice": "female", "text": "Great, I'm ready to answer your questions whenever you are." }
+    ],
+    "questions": [
+      { "q": "What did Yen check before the interview?", "options": ["Her internet connection and webcam", "Her salary expectations", "Her resume formatting"], "answer": 0 },
+      { "q": "What does Khoa compliment Yen on?", "options": ["Her virtual background and professional look", "Her handwriting", "Her office chair"], "answer": 0 },
+      { "q": "What problem happens during the call?", "options": ["The power goes out", "The video starts buffering", "The interview ends early"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Can you hear me clearly? Let's start the interview now.",
+    "I checked my internet connection and webcam this morning before the call.",
+    "I wanted to dress professionally, even while working from home.",
+    "Sorry, the video seems to be buffering a little bit.",
+    "Should we reschedule the interview, or would you like to continue?"
+  ]
+}

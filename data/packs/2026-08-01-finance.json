@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-01",
+  "track": "finance",
+  "theme": "Đề xuất mua sắm thiết bị",
+  "vocab": [
+    { "word": "budget approval", "ipa": "/ˈbʌdʒɪt əˈpruːvl/", "meaning_vi": "phê duyệt ngân sách", "example": "I'd like to submit a request for budget approval.", "example_vi": "Tôi muốn gửi yêu cầu phê duyệt ngân sách." },
+    { "word": "asset", "ipa": "/ˈæset/", "meaning_vi": "tài sản", "example": "That's a big asset purchase for the company.", "example_vi": "Đó là một khoản mua tài sản lớn cho công ty." },
+    { "word": "useful life", "ipa": "/ˈjuːsfl laɪf/", "meaning_vi": "tuổi thọ sử dụng", "example": "What's the useful life of these laptops?", "example_vi": "Tuổi thọ sử dụng của những chiếc laptop này là bao lâu?" },
+    { "word": "total cost of ownership", "ipa": "/ˈtəʊtl kɒst əv ˈəʊnəʃɪp/", "meaning_vi": "tổng chi phí sở hữu", "example": "What's the total cost of ownership for this equipment?", "example_vi": "Tổng chi phí sở hữu cho thiết bị này là bao nhiêu?" },
+    { "word": "lease vs buy", "ipa": "/liːs vɜːsəs baɪ/", "meaning_vi": "thuê hay mua", "example": "Have you compared lease vs buy for this purchase?", "example_vi": "Anh/chị đã so sánh giữa thuê và mua cho khoản mua này chưa?" },
+    { "word": "procurement", "ipa": "/prəˈkjʊəmənt/", "meaning_vi": "bộ phận mua sắm", "example": "Please send this through procurement for a formal quote.", "example_vi": "Hãy gửi việc này qua bộ phận mua sắm để lấy báo giá chính thức." },
+    { "word": "cost justification", "ipa": "/kɒst ˌdʒʌstɪfɪˈkeɪʃn/", "meaning_vi": "giải trình chi phí", "example": "I'll also prepare a short cost justification document.", "example_vi": "Tôi cũng sẽ chuẩn bị một tài liệu giải trình chi phí ngắn gọn." },
+    { "word": "upgrade cycle", "ipa": "/ˈʌpɡreɪd ˈsaɪkl/", "meaning_vi": "chu kỳ nâng cấp", "example": "Is this part of your regular upgrade cycle?", "example_vi": "Đây có phải là một phần trong chu kỳ nâng cấp định kỳ không?" }
+  ],
+  "listening": {
+    "title": "Proposing New Laptops for the Team",
+    "lines": [
+      { "speaker": "Tuan (IT lead)", "voice": "male", "text": "Ms. Huong, I'd like to submit a request for budget approval to buy new laptops." },
+      { "speaker": "Huong (finance controller)", "voice": "female", "text": "Okay, tell me more. What's the total cost of ownership for these laptops?" },
+      { "speaker": "Tuan (IT lead)", "voice": "male", "text": "Around 300 million VND for 20 units, including support and maintenance." },
+      { "speaker": "Huong (finance controller)", "voice": "female", "text": "That's a big asset purchase. What's the useful life of these laptops?" },
+      { "speaker": "Tuan (IT lead)", "voice": "male", "text": "About four years, based on the vendor's warranty and our usage." },
+      { "speaker": "Huong (finance controller)", "voice": "female", "text": "Have you compared lease vs buy? Sometimes leasing is cheaper upfront." },
+      { "speaker": "Tuan (IT lead)", "voice": "male", "text": "Yes, but buying is more cost-effective for us long-term." },
+      { "speaker": "Huong (finance controller)", "voice": "female", "text": "Understood. Please send this through procurement for a formal quote." },
+      { "speaker": "Tuan (IT lead)", "voice": "male", "text": "Will do. I'll also prepare a short cost justification document." },
+      { "speaker": "Huong (finance controller)", "voice": "female", "text": "Good. What's driving this now — is it part of your upgrade cycle?" },
+      { "speaker": "Tuan (IT lead)", "voice": "male", "text": "Yes, the current laptops are five years old and slowing down." },
+      { "speaker": "Huong (finance controller)", "voice": "female", "text": "That makes sense. I'll review your request this week." }
+    ],
+    "questions": [
+      { "q": "What does Tuan want approval for?", "options": ["Buying new laptops", "Hiring new staff", "Renting an office"], "answer": 0 },
+      { "q": "What is the useful life of the laptops Tuan mentions?", "options": ["About one year", "About four years", "About ten years"], "answer": 1 },
+      { "q": "Why does Tuan want new laptops now?", "options": ["It's part of their upgrade cycle and old ones are slow", "The old laptops were stolen", "The company is closing"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I'd like to submit a request for budget approval, please.",
+    "What's the total cost of ownership for this new equipment?",
+    "Have you compared lease vs buy for this equipment purchase?",
+    "Please send this through procurement to get a formal quote.",
+    "This purchase is part of our regular equipment upgrade cycle."
+  ]
+}
