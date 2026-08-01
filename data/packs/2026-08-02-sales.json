@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-02",
+  "track": "sales",
+  "theme": "Gửi & giải thích báo giá",
+  "vocab": [
+    { "word": "cover note", "ipa": "/ˈkʌvər nəʊt/", "meaning_vi": "thư giới thiệu kèm theo", "example": "I've added a short cover note to explain the pricing.", "example_vi": "Tôi đã thêm một thư giới thiệu ngắn để giải thích về giá cả." },
+    { "word": "shipping cost", "ipa": "/ˈʃɪpɪŋ kɒst/", "meaning_vi": "chi phí vận chuyển", "example": "Does this price already include the shipping cost?", "example_vi": "Giá này đã bao gồm chi phí vận chuyển chưa?" },
+    { "word": "installment plan", "ipa": "/ɪnˈstɔːlmənt plæn/", "meaning_vi": "kế hoạch trả góp", "example": "We also offer an installment plan for large orders.", "example_vi": "Chúng tôi cũng có kế hoạch trả góp cho các đơn hàng lớn." },
+    { "word": "figures", "ipa": "/ˈfɪɡəz/", "meaning_vi": "các con số", "example": "Let's go over the figures together before you decide.", "example_vi": "Hãy cùng xem qua các con số trước khi anh/chị quyết định." },
+    { "word": "get back to you", "ipa": "/ɡet bæk tuː juː/", "meaning_vi": "phản hồi lại", "example": "I'll get back to you with the final numbers tomorrow.", "example_vi": "Tôi sẽ phản hồi lại anh/chị với con số cuối cùng vào ngày mai." },
+    { "word": "sample", "ipa": "/ˈsɑːmpl/", "meaning_vi": "hàng mẫu", "example": "We can send a sample before you place the order.", "example_vi": "Chúng tôi có thể gửi hàng mẫu trước khi anh/chị đặt hàng." },
+    { "word": "read through", "ipa": "/riːd θruː/", "meaning_vi": "đọc kỹ qua", "example": "Please read through the document before our next call.", "example_vi": "Vui lòng đọc kỹ qua tài liệu trước cuộc gọi tiếp theo của chúng ta." },
+    { "word": "confirm the order", "ipa": "/kənˈfɜːm ði ˈɔːdər/", "meaning_vi": "xác nhận đơn hàng", "example": "Let me know once you're ready to confirm the order.", "example_vi": "Hãy cho tôi biết khi anh/chị sẵn sàng xác nhận đơn hàng." }
+  ],
+  "listening": {
+    "title": "Following Up on the Quotation",
+    "lines": [
+      { "speaker": "Linh", "voice": "female", "text": "Hi Duy, I've added a short cover note to explain the pricing in the email." },
+      { "speaker": "Duy", "voice": "male", "text": "Thanks, I saw it. Does this price already include the shipping cost?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yes, the shipping cost is included for orders within the city." },
+      { "speaker": "Duy", "voice": "male", "text": "Good to know. Do you also offer an installment plan for large orders?" },
+      { "speaker": "Linh", "voice": "female", "text": "We do, actually. Let's go over the figures together so I can explain." },
+      { "speaker": "Duy", "voice": "male", "text": "Sounds good. Can you send a sample before we place the order?" },
+      { "speaker": "Linh", "voice": "female", "text": "Of course, we can send a sample this week." },
+      { "speaker": "Duy", "voice": "male", "text": "Great, I'll read through the document tonight and discuss it with my team." },
+      { "speaker": "Linh", "voice": "female", "text": "Take your time. I'll get back to you with the final numbers tomorrow." },
+      { "speaker": "Duy", "voice": "male", "text": "Perfect. I'll let you know once we're ready to confirm the order." }
+    ],
+    "questions": [
+      { "q": "Does the quoted price include shipping?", "options": ["No, shipping is separate", "Yes, for orders within the city", "Only for international orders"], "answer": 1 },
+      { "q": "What does Linh offer for large orders?", "options": ["A free upgrade", "An installment plan", "A lifetime warranty"], "answer": 1 },
+      { "q": "What will Duy do tonight?", "options": ["Read through the document", "Cancel the order", "Visit the office"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Does this price already include the shipping cost or not?",
+    "We also offer an installment plan for larger orders like yours.",
+    "Let's go over the figures together before you make a decision.",
+    "I'll get back to you with the final numbers tomorrow.",
+    "Let me know once you're ready to confirm the order."
+  ]
+}

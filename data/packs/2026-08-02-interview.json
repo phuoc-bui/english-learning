@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-02",
+  "track": "interview",
+  "theme": "Kể chuyện theo STAR",
+  "vocab": [
+    { "word": "specific detail", "ipa": "/spəˈsɪfɪk ˈdiːteɪl/", "meaning_vi": "chi tiết cụ thể", "example": "Try to add one specific detail to make your story clear.", "example_vi": "Hãy cố thêm một chi tiết cụ thể để câu chuyện của bạn rõ ràng hơn." },
+    { "word": "turning point", "ipa": "/ˈtɜːnɪŋ pɔɪnt/", "meaning_vi": "bước ngoặt", "example": "What was the turning point in that situation?", "example_vi": "Bước ngoặt trong tình huống đó là gì?" },
+    { "word": "clarify your role", "ipa": "/ˈklærɪfaɪ jɔːr rəʊl/", "meaning_vi": "làm rõ vai trò của bạn", "example": "Remember to clarify your role in the team project.", "example_vi": "Hãy nhớ làm rõ vai trò của bạn trong dự án nhóm." },
+    { "word": "stick to the facts", "ipa": "/stɪk tuː ðə fækts/", "meaning_vi": "bám sát vào sự thật", "example": "It's best to stick to the facts when telling your story.", "example_vi": "Tốt nhất là nên bám sát vào sự thật khi kể câu chuyện của bạn." },
+    { "word": "personal contribution", "ipa": "/ˈpɜːsənl ˌkɒntrɪˈbjuːʃn/", "meaning_vi": "đóng góp cá nhân", "example": "Interviewers want to hear about your personal contribution.", "example_vi": "Nhà tuyển dụng muốn nghe về đóng góp cá nhân của bạn." },
+    { "word": "avoid rambling", "ipa": "/əˈvɔɪd ˈræmblɪŋ/", "meaning_vi": "tránh nói lan man", "example": "Try to avoid rambling and stay focused on the point.", "example_vi": "Hãy cố tránh nói lan man và tập trung vào trọng tâm." },
+    { "word": "stay on track", "ipa": "/steɪ ɒn træk/", "meaning_vi": "giữ đúng trọng tâm", "example": "A good structure helps you stay on track during the answer.", "example_vi": "Một cấu trúc tốt sẽ giúp bạn giữ đúng trọng tâm khi trả lời." },
+    { "word": "practice out loud", "ipa": "/ˈpræktɪs aʊt laʊd/", "meaning_vi": "luyện nói thành tiếng", "example": "I always practice out loud before a big interview.", "example_vi": "Tôi luôn luyện nói thành tiếng trước một buổi phỏng vấn quan trọng." }
+  ],
+  "listening": {
+    "title": "Polishing a STAR Answer",
+    "lines": [
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "Son, your story is good, but try to add one specific detail to make it clearer." },
+      { "speaker": "Son (candidate)", "voice": "male", "text": "Okay, I'll mention the exact deadline we were facing." },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "Great. Also, what was the turning point in that situation?" },
+      { "speaker": "Son (candidate)", "voice": "male", "text": "I think it was when I decided to talk to the client directly." },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "Good. Remember to clarify your role in the team project too." },
+      { "speaker": "Son (candidate)", "voice": "male", "text": "Right, I led the technical side while my colleague handled communication." },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "Perfect. It's best to stick to the facts when telling your story." },
+      { "speaker": "Son (candidate)", "voice": "male", "text": "Understood, I'll avoid rambling and stay focused on the point." },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "Exactly. A good structure helps you stay on track during the answer." },
+      { "speaker": "Son (candidate)", "voice": "male", "text": "I'll practice out loud a few times before the real interview." },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "That's a great habit. Interviewers really want to hear about your personal contribution." }
+    ],
+    "questions": [
+      { "q": "What does Mai suggest Son add to his story?", "options": ["A specific detail", "A joke", "A longer introduction"], "answer": 0 },
+      { "q": "What was the turning point in Son's story?", "options": ["Deciding to talk to the client directly", "Quitting the project", "Asking for more staff"], "answer": 0 },
+      { "q": "What habit does Son plan to build before the real interview?", "options": ["Practicing out loud", "Memorizing a script word for word", "Skipping preparation"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Try to add one specific detail to make your story clear.",
+    "What was the turning point in that whole difficult situation?",
+    "Remember to clearly clarify your role in the team project.",
+    "Try to avoid rambling and stay focused on the point.",
+    "I always practice out loud before a big job interview."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-02",
+  "track": "it",
+  "theme": "Small talk đầu giờ & pantry chat",
+  "vocab": [
+    { "word": "small talk", "ipa": "/smɔːl tɔːk/", "meaning_vi": "chuyện phiếm, trò chuyện xã giao", "example": "We always make some small talk before the meeting starts.", "example_vi": "Chúng tôi luôn trò chuyện xã giao một chút trước khi cuộc họp bắt đầu." },
+    { "word": "fresh air", "ipa": "/freʃ eər/", "meaning_vi": "không khí trong lành", "example": "Let's step outside for some fresh air during the break.", "example_vi": "Hãy ra ngoài hít thở không khí trong lành trong giờ giải lao nhé." },
+    { "word": "vending machine", "ipa": "/ˈvendɪŋ məˈʃiːn/", "meaning_vi": "máy bán hàng tự động", "example": "The vending machine on this floor sells cold drinks.", "example_vi": "Máy bán hàng tự động ở tầng này bán đồ uống lạnh." },
+    { "word": "leftovers", "ipa": "/ˈleftəʊvəz/", "meaning_vi": "đồ ăn thừa (mang đi)", "example": "I brought some leftovers from dinner for lunch today.", "example_vi": "Tôi mang một ít đồ ăn thừa từ bữa tối để ăn trưa hôm nay." },
+    { "word": "fridge", "ipa": "/frɪdʒ/", "meaning_vi": "tủ lạnh", "example": "Is there any space left in the office fridge?", "example_vi": "Tủ lạnh văn phòng còn chỗ trống không?" },
+    { "word": "bump into", "ipa": "/bʌmp ˈɪntuː/", "meaning_vi": "tình cờ gặp", "example": "I bumped into Nam in the pantry this morning.", "example_vi": "Tôi tình cờ gặp Nam ở pantry sáng nay." },
+    { "word": "banter", "ipa": "/ˈbæntər/", "meaning_vi": "trò chuyện đùa vui", "example": "There's always some friendly banter in the pantry.", "example_vi": "Ở pantry lúc nào cũng có vài câu chuyện đùa vui thân thiện." },
+    { "word": "morning routine", "ipa": "/ˈmɔːnɪŋ ruːˈtiːn/", "meaning_vi": "thói quen buổi sáng", "example": "What's your morning routine before work?", "example_vi": "Thói quen buổi sáng của bạn trước khi đi làm là gì?" }
+  ],
+  "listening": {
+    "title": "Morning Small Talk in the Pantry",
+    "lines": [
+      { "speaker": "Minh", "voice": "male", "text": "Hey Huong, good morning! Do you want to make some small talk before the standup?" },
+      { "speaker": "Huong", "voice": "female", "text": "Sure, I could use a break. Let's step outside for some fresh air first." },
+      { "speaker": "Minh", "voice": "male", "text": "Good idea. Actually, I bumped into Nam here a few minutes ago." },
+      { "speaker": "Huong", "voice": "female", "text": "Oh really? He's always full of banter in the mornings." },
+      { "speaker": "Minh", "voice": "male", "text": "True. Hey, is there any space left in the office fridge?" },
+      { "speaker": "Huong", "voice": "female", "text": "I think so. I brought some leftovers from dinner for lunch today." },
+      { "speaker": "Minh", "voice": "male", "text": "Nice, smells good already. What's your morning routine before work?" },
+      { "speaker": "Huong", "voice": "female", "text": "I usually go for a short run, then grab breakfast at home." },
+      { "speaker": "Minh", "voice": "male", "text": "That's healthy. I just check the vending machine for a snack instead." },
+      { "speaker": "Huong", "voice": "female", "text": "Ha, that works too. Anyway, let's head to the standup now." }
+    ],
+    "questions": [
+      { "q": "Who did Minh bump into in the pantry?", "options": ["Huong", "Nam", "The manager"], "answer": 1 },
+      { "q": "What did Huong bring for lunch today?", "options": ["Leftovers from dinner", "A sandwich from a cafe", "Nothing, she'll order food"], "answer": 0 },
+      { "q": "What does Minh usually check for a snack?", "options": ["The vending machine", "The fridge only", "A nearby restaurant"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Let's step outside for some fresh air during the break.",
+    "I bumped into Nam in the pantry this morning before work.",
+    "I brought some leftovers from dinner for lunch today at work.",
+    "What's your morning routine like before you come to work?",
+    "I just check the vending machine for a quick snack."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-02",
+  "track": "finance",
+  "theme": "Đối chiếu số liệu",
+  "vocab": [
+    { "word": "verify", "ipa": "/ˈverɪfaɪ/", "meaning_vi": "xác minh", "example": "Can you verify this number against the bank record?", "example_vi": "Bạn có thể xác minh con số này với bản ghi ngân hàng không?" },
+    { "word": "reference number", "ipa": "/ˈrefrəns ˈnʌmbər/", "meaning_vi": "số tham chiếu", "example": "Every transaction should have a clear reference number.", "example_vi": "Mỗi giao dịch nên có một số tham chiếu rõ ràng." },
+    { "word": "unmatched transaction", "ipa": "/ʌnˈmætʃt trænˈzækʃn/", "meaning_vi": "giao dịch chưa khớp", "example": "We still have three unmatched transactions from last week.", "example_vi": "Chúng tôi vẫn còn ba giao dịch chưa khớp từ tuần trước." },
+    { "word": "manual entry", "ipa": "/ˈmænjuəl ˈentri/", "meaning_vi": "nhập liệu thủ công", "example": "This manual entry might be the source of the error.", "example_vi": "Việc nhập liệu thủ công này có thể là nguồn gốc của lỗi." },
+    { "word": "data entry error", "ipa": "/ˈdeɪtə ˈentri ˈerər/", "meaning_vi": "lỗi nhập liệu", "example": "It turned out to be a simple data entry error.", "example_vi": "Hoá ra đó chỉ là một lỗi nhập liệu đơn giản." },
+    { "word": "posting date", "ipa": "/ˈpəʊstɪŋ deɪt/", "meaning_vi": "ngày ghi sổ", "example": "Please check the posting date on that entry.", "example_vi": "Vui lòng kiểm tra ngày ghi sổ trên mục đó." },
+    { "word": "clearing account", "ipa": "/ˈklɪərɪŋ əˈkaʊnt/", "meaning_vi": "tài khoản trung gian", "example": "That amount is sitting in the clearing account for now.", "example_vi": "Số tiền đó đang nằm trong tài khoản trung gian hiện tại." },
+    { "word": "correct an error", "ipa": "/kəˈrekt ən ˈerər/", "meaning_vi": "sửa lỗi", "example": "We need to correct an error before submitting the report.", "example_vi": "Chúng tôi cần sửa lỗi trước khi nộp báo cáo." }
+  ],
+  "listening": {
+    "title": "Chasing Down the Unmatched Transactions",
+    "lines": [
+      { "speaker": "Van", "voice": "female", "text": "Phuc, can you verify this number against the bank record?" },
+      { "speaker": "Phuc", "voice": "male", "text": "Sure, give me a second... yes, it matches now." },
+      { "speaker": "Van", "voice": "female", "text": "Good. Every transaction should have a clear reference number, right?" },
+      { "speaker": "Phuc", "voice": "male", "text": "Right, but we still have three unmatched transactions from last week." },
+      { "speaker": "Van", "voice": "female", "text": "Let's look closer. Could it be a manual entry mistake?" },
+      { "speaker": "Phuc", "voice": "male", "text": "Maybe. This manual entry might be the source of the error." },
+      { "speaker": "Van", "voice": "female", "text": "Please check the posting date on that entry too." },
+      { "speaker": "Phuc", "voice": "male", "text": "Okay... it turned out to be a simple data entry error." },
+      { "speaker": "Van", "voice": "female", "text": "That happens. For now, put that amount in the clearing account." },
+      { "speaker": "Phuc", "voice": "male", "text": "Got it. I'll correct an error before submitting the final report." }
+    ],
+    "questions": [
+      { "q": "What does Van ask Phuc to verify?", "options": ["A number against the bank record", "A new hire's salary", "The company logo"], "answer": 0 },
+      { "q": "How many unmatched transactions are left from last week?", "options": ["One", "Three", "Ten"], "answer": 1 },
+      { "q": "What turned out to be the cause of the problem?", "options": ["A system crash", "A simple data entry error", "A bank holiday"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Can you please verify this number against the bank record?",
+    "Every single transaction should have a clear reference number attached.",
+    "We still have three unmatched transactions from last week's report.",
+    "It turned out to be a simple data entry error.",
+    "We need to correct an error before submitting the report."
+  ]
+}

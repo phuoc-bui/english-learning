@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-02",
+  "track": "office",
+  "theme": "Tổ chức sự kiện nội bộ",
+  "vocab": [
+    { "word": "emcee", "ipa": "/ˈemsiː/", "meaning_vi": "người dẫn chương trình (MC)", "example": "We need to find an emcee for the year-end party.", "example_vi": "Chúng tôi cần tìm một người dẫn chương trình cho tiệc cuối năm." },
+    { "word": "photo booth", "ipa": "/ˈfəʊtəʊ buːθ/", "meaning_vi": "góc chụp ảnh", "example": "Let's set up a photo booth near the entrance.", "example_vi": "Hãy dựng một góc chụp ảnh gần lối vào." },
+    { "word": "welcome banner", "ipa": "/ˈwelkəm ˈbænər/", "meaning_vi": "băng rôn chào mừng", "example": "The welcome banner should be ready by Thursday.", "example_vi": "Băng rôn chào mừng nên sẵn sàng trước thứ Năm." },
+    { "word": "guest list", "ipa": "/ɡest lɪst/", "meaning_vi": "danh sách khách mời", "example": "Can you finalize the guest list by tomorrow?", "example_vi": "Bạn có thể chốt danh sách khách mời trước ngày mai không?" },
+    { "word": "prize", "ipa": "/praɪz/", "meaning_vi": "giải thưởng", "example": "The top prize this year is a weekend trip.", "example_vi": "Giải thưởng lớn nhất năm nay là một chuyến đi cuối tuần." },
+    { "word": "backdrop", "ipa": "/ˈbækdrɒp/", "meaning_vi": "phông nền", "example": "We ordered a new backdrop for the photo area.", "example_vi": "Chúng tôi đã đặt một phông nền mới cho khu chụp ảnh." },
+    { "word": "confirm attendance", "ipa": "/kənˈfɜːm əˈtendəns/", "meaning_vi": "xác nhận tham dự", "example": "Please confirm attendance by replying to this email.", "example_vi": "Vui lòng xác nhận tham dự bằng cách trả lời email này." },
+    { "word": "swag", "ipa": "/swæɡ/", "meaning_vi": "quà tặng công ty", "example": "Every employee will get some company swag this year.", "example_vi": "Mỗi nhân viên sẽ nhận được một ít quà tặng công ty năm nay." }
+  ],
+  "listening": {
+    "title": "Final Touches for the Company Event",
+    "lines": [
+      { "speaker": "Lan", "voice": "female", "text": "Tuan, have we found an emcee for the year-end party yet?" },
+      { "speaker": "Tuan", "voice": "male", "text": "Not yet, but I have someone in mind from marketing." },
+      { "speaker": "Lan", "voice": "female", "text": "Great. Can you also finalize the guest list by tomorrow?" },
+      { "speaker": "Tuan", "voice": "male", "text": "Sure, I'll send a reminder for everyone to confirm attendance." },
+      { "speaker": "Lan", "voice": "female", "text": "Thanks. I ordered a new backdrop for the photo area." },
+      { "speaker": "Tuan", "voice": "male", "text": "Nice! Should we also set up a photo booth near the entrance?" },
+      { "speaker": "Lan", "voice": "female", "text": "Good idea, guests always love that. What about the welcome banner?" },
+      { "speaker": "Tuan", "voice": "male", "text": "It should be ready by Thursday, I already checked with the printer." },
+      { "speaker": "Lan", "voice": "female", "text": "Perfect. Oh, and every employee will get some company swag this year." },
+      { "speaker": "Tuan", "voice": "male", "text": "That's a nice touch. What's the top prize for the lucky draw?" },
+      { "speaker": "Lan", "voice": "female", "text": "A weekend trip, I think everyone will be excited." }
+    ],
+    "questions": [
+      { "q": "What does Tuan promise to send a reminder for?", "options": ["Confirming attendance", "Submitting expense reports", "Signing a new contract"], "answer": 0 },
+      { "q": "What did Lan order for the photo area?", "options": ["A new backdrop", "A new printer", "A new sound system"], "answer": 0 },
+      { "q": "What will every employee receive this year?", "options": ["A pay raise", "Company swag", "Extra vacation days"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Have we found an emcee for the year-end party yet?",
+    "Can you please finalize the guest list by tomorrow morning?",
+    "Please confirm attendance by replying to this email before Friday.",
+    "We ordered a new backdrop for the photo booth area.",
+    "Every employee will get some company swag again this year."
+  ]
+}
