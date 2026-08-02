@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-03",
+  "track": "it",
+  "theme": "Họp với khách hàng",
+  "vocab": [
+    { "word": "requirement gathering", "ipa": "/rɪˈkwaɪərmənt ˈɡæðərɪŋ/", "meaning_vi": "thu thập yêu cầu", "example": "We spent the first meeting on requirement gathering with the client.", "example_vi": "Chúng tôi dành buổi họp đầu tiên để thu thập yêu cầu từ khách hàng." },
+    { "word": "scope creep", "ipa": "/skəʊp kriːp/", "meaning_vi": "phát sinh phạm vi ngoài kế hoạch", "example": "The client keeps adding features, so we need to watch out for scope creep.", "example_vi": "Khách hàng liên tục thêm tính năng, nên chúng ta cần cẩn thận với việc phát sinh phạm vi ngoài kế hoạch." },
+    { "word": "follow-up task", "ipa": "/ˈfɒləʊ ʌp tɑːsk/", "meaning_vi": "việc cần theo dõi sau đó", "example": "Let's list the follow-up tasks before we end this call.", "example_vi": "Hãy liệt kê các việc cần theo dõi trước khi kết thúc cuộc gọi này." },
+    { "word": "point of contact", "ipa": "/pɔɪnt əv ˈkɒntækt/", "meaning_vi": "đầu mối liên hệ", "example": "I'll be your point of contact for any questions this week.", "example_vi": "Tôi sẽ là đầu mối liên hệ của bạn cho mọi thắc mắc trong tuần này." },
+    { "word": "detailed overview", "ipa": "/ˈdiːteɪld ˈəʊvəvjuː/", "meaning_vi": "phần trình bày chi tiết tổng quan", "example": "We'll give a detailed overview of the new dashboard next week.", "example_vi": "Chúng tôi sẽ trình bày chi tiết tổng quan bảng điều khiển mới vào tuần sau." },
+    { "word": "client-facing", "ipa": "/ˈklaɪənt ˈfeɪsɪŋ/", "meaning_vi": "trực tiếp làm việc với khách hàng", "example": "As the account lead, she handles all client-facing communication.", "example_vi": "Với vai trò trưởng nhóm phụ trách, cô ấy xử lý mọi trao đổi trực tiếp với khách hàng." },
+    { "word": "resolve a concern", "ipa": "/rɪˈzɒlv ə kənˈsɜːn/", "meaning_vi": "giải quyết một mối lo ngại", "example": "Let's resolve this concern before moving to the next topic.", "example_vi": "Hãy giải quyết mối lo ngại này trước khi chuyển sang chủ đề tiếp theo." },
+    { "word": "next steps", "ipa": "/nekst steps/", "meaning_vi": "các bước tiếp theo", "example": "We agreed on the next steps and set a follow-up date.", "example_vi": "Chúng tôi đã thống nhất các bước tiếp theo và đặt lịch theo dõi." }
+  ],
+  "listening": {
+    "title": "A Progress Review With the Client",
+    "lines": [
+      { "speaker": "Phong", "voice": "male", "text": "Good morning, Sarah. Thanks for joining our progress review today." },
+      { "speaker": "Sarah (client)", "voice": "female", "text": "Good morning, Phong. I'm looking forward to the detailed overview of the new module." },
+      { "speaker": "Phong", "voice": "male", "text": "Great, we'll start with a quick summary from our requirement gathering last month." },
+      { "speaker": "Sarah (client)", "voice": "female", "text": "Perfect. I do want to raise one thing about the checkout feature." },
+      { "speaker": "Phong", "voice": "male", "text": "Of course, please share your concern and I'll do my best to resolve it." },
+      { "speaker": "Sarah (client)", "voice": "female", "text": "We noticed a few extra requests came in, and I'm worried about scope creep." },
+      { "speaker": "Phong", "voice": "male", "text": "That's a fair point. I'll be your point of contact if anything changes this phase." },
+      { "speaker": "Sarah (client)", "voice": "female", "text": "Agreed. Can you send me a list of follow-up tasks after this call?" },
+      { "speaker": "Phong", "voice": "male", "text": "Definitely. I'll also loop in our client-facing coordinator for daily updates." },
+      { "speaker": "Sarah (client)", "voice": "female", "text": "Sounds good. Let's confirm the next steps before we wrap up." }
+    ],
+    "questions": [
+      { "q": "What does Sarah want to see first in the meeting?", "options": ["A detailed overview of the new module", "A new contract", "A price discount"], "answer": 0 },
+      { "q": "What is Sarah worried about?", "options": ["Scope creep from extra requests", "Late delivery", "Server downtime"], "answer": 0 },
+      { "q": "What does Phong promise to send after the call?", "options": ["A list of follow-up tasks", "An invoice", "A new timeline document"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "We'll give a detailed overview of the new dashboard next week.",
+    "I'm a little worried about scope creep on this project.",
+    "I'll be your point of contact for this project this month.",
+    "Could you send me the follow-up tasks after this call?",
+    "I'll loop in our client-facing coordinator for the daily updates."
+  ]
+}

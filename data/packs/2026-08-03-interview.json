@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-03",
+  "track": "interview",
+  "theme": "Tìm hiểu văn hoá công ty",
+  "vocab": [
+    { "word": "career advancement", "ipa": "/kəˈrɪər ədˈvɑːnsmənt/", "meaning_vi": "sự thăng tiến trong công việc", "example": "What about career advancement for someone in my role?", "example_vi": "Còn sự thăng tiến cho vị trí như tôi thì như thế nào?" },
+    { "word": "decision-making process", "ipa": "/dɪˈsɪʒn ˈmeɪkɪŋ ˈprəʊses/", "meaning_vi": "quy trình ra quyết định", "example": "I'm quite curious about the decision-making process for new projects.", "example_vi": "Tôi khá tò mò về quy trình ra quyết định cho các dự án mới." },
+    { "word": "feedback culture", "ipa": "/ˈfiːdbæk ˈkʌltʃər/", "meaning_vi": "văn hóa phản hồi", "example": "How would you describe the feedback culture here?", "example_vi": "Bạn mô tả văn hóa phản hồi ở đây như thế nào?" },
+    { "word": "team dynamics", "ipa": "/tiːm daɪˈnæmɪks/", "meaning_vi": "sự tương tác trong nhóm", "example": "I'd love to know more about the team dynamics here.", "example_vi": "Tôi rất muốn biết thêm về sự tương tác trong nhóm ở đây." },
+    { "word": "remote-friendly policy", "ipa": "/rɪˈməʊt ˈfrendli ˈpɒləsi/", "meaning_vi": "chính sách linh hoạt làm việc từ xa", "example": "I read that you have a remote-friendly policy. Could you tell me more?", "example_vi": "Tôi đọc được rằng công ty có chính sách linh hoạt làm việc từ xa. Bạn có thể chia sẻ thêm không?" },
+    { "word": "employee engagement", "ipa": "/ɪmˈplɔɪiː ɪnˈɡeɪdʒmənt/", "meaning_vi": "sự gắn kết của nhân viên", "example": "That really shows strong employee engagement here.", "example_vi": "Điều đó thực sự cho thấy sự gắn kết mạnh mẽ của nhân viên ở đây." },
+    { "word": "leadership approach", "ipa": "/ˈliːdəʃɪp əˈprəʊtʃ/", "meaning_vi": "phong cách lãnh đạo", "example": "That shows a strong leadership approach toward the team.", "example_vi": "Điều đó cho thấy một phong cách lãnh đạo mạnh mẽ đối với đội nhóm." },
+    { "word": "psychological safety", "ipa": "/ˌsaɪkəˈlɒdʒɪkl ˈseɪfti/", "meaning_vi": "sự an toàn tâm lý (thoải mái nêu ý kiến)", "example": "That sounds like a place with real psychological safety to speak up.", "example_vi": "Nghe có vẻ đây là nơi có sự an toàn tâm lý thực sự để mọi người nêu ý kiến." }
+  ],
+  "listening": {
+    "title": "Asking About Company Culture",
+    "lines": [
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "Before we finish, do you have any questions about our company culture?" },
+      { "speaker": "Hung (candidate)", "voice": "male", "text": "Yes, I'd love to know more about the team dynamics here." },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "We work closely together and value open communication across teams." },
+      { "speaker": "Hung (candidate)", "voice": "male", "text": "That's great. What about career advancement for someone in my role?" },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "We offer clear paths for promotion and internal training programs." },
+      { "speaker": "Hung (candidate)", "voice": "male", "text": "Good to hear. How would you describe the feedback culture here?" },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "We encourage regular one-on-ones and honest, constructive conversations." },
+      { "speaker": "Hung (candidate)", "voice": "male", "text": "I'm also quite curious about the decision-making process for new projects." },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "Team leads propose ideas, but the whole group discusses them together." },
+      { "speaker": "Hung (candidate)", "voice": "male", "text": "That sounds like a place with real psychological safety to speak up." },
+      { "speaker": "Mai (interviewer)", "voice": "female", "text": "Exactly, and we also have a remote-friendly policy for flexibility." },
+      { "speaker": "Hung (candidate)", "voice": "male", "text": "Perfect, that really shows strong employee engagement and leadership approach here." }
+    ],
+    "questions": [
+      { "q": "What does Hung ask about first?", "options": ["Team dynamics", "Salary range", "Office location"], "answer": 0 },
+      { "q": "How are new project ideas decided according to Mai?", "options": ["Team leads propose, then the whole group discusses", "The CEO decides alone", "Clients decide everything"], "answer": 0 },
+      { "q": "What flexible policy does the company offer?", "options": ["A remote-friendly policy", "Unlimited vacation", "Four-day work week"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I'd love to know more about the team dynamics here.",
+    "What career advancement is there for someone in my role?",
+    "How would you describe the feedback culture in this team?",
+    "I'm quite curious about the decision-making process for new projects.",
+    "That really shows strong employee engagement and good leadership approach."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-03",
+  "track": "office",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    { "word": "welcome kit", "ipa": "/ˈwelkəm kɪt/", "meaning_vi": "bộ quà chào mừng", "example": "Here's your welcome kit with a notebook and a company mug.", "example_vi": "Đây là bộ quà chào mừng của bạn gồm sổ tay và cốc công ty." },
+    { "word": "buddy system", "ipa": "/ˈbʌdi ˈsɪstəm/", "meaning_vi": "hệ thống hỗ trợ nhân viên mới", "example": "We have a buddy system so a colleague can help you settle in.", "example_vi": "Chúng tôi có hệ thống hỗ trợ nhân viên mới để đồng nghiệp giúp bạn hòa nhập." },
+    { "word": "access badge", "ipa": "/ˈækses bædʒ/", "meaning_vi": "thẻ ra vào", "example": "You'll need an access badge to enter the office building.", "example_vi": "Bạn sẽ cần thẻ ra vào để vào tòa nhà văn phòng." },
+    { "word": "company handbook", "ipa": "/ˈkʌmpəni ˈhændbʊk/", "meaning_vi": "sổ tay công ty", "example": "The company handbook covers our team structure and key policies.", "example_vi": "Sổ tay công ty bao gồm cơ cấu đội nhóm và các chính sách chính." },
+    { "word": "first impression", "ipa": "/fɜːst ɪmˈpreʃn/", "meaning_vi": "ấn tượng đầu tiên", "example": "I want to make a good first impression this week.", "example_vi": "Tôi muốn tạo ấn tượng đầu tiên tốt trong tuần này." },
+    { "word": "team structure", "ipa": "/tiːm ˈstrʌktʃər/", "meaning_vi": "cơ cấu đội nhóm", "example": "It helps to understand the team structure before your first project.", "example_vi": "Việc hiểu cơ cấu đội nhóm trước dự án đầu tiên sẽ rất hữu ích." },
+    { "word": "get up to speed", "ipa": "/ɡet ʌp tuː spiːd/", "meaning_vi": "bắt kịp tiến độ, nắm rõ công việc", "example": "Any tips on how to get up to speed quickly?", "example_vi": "Có mẹo nào để nhanh chóng bắt kịp công việc không?" },
+    { "word": "self-introduction", "ipa": "/self ˌɪntrəˈdʌkʃn/", "meaning_vi": "phần tự giới thiệu bản thân", "example": "I'll prepare a short self-introduction for tomorrow's meeting.", "example_vi": "Tôi sẽ chuẩn bị một phần tự giới thiệu ngắn cho buổi họp ngày mai." }
+  ],
+  "listening": {
+    "title": "Welcoming a New Teammate",
+    "lines": [
+      { "speaker": "Lan", "voice": "female", "text": "Welcome to the team, Duc! Here's your welcome kit with a notebook and a mug." },
+      { "speaker": "Duc", "voice": "male", "text": "Thank you so much, Lan. This company handbook looks really helpful too." },
+      { "speaker": "Lan", "voice": "female", "text": "It covers our team structure and who to contact for what." },
+      { "speaker": "Duc", "voice": "male", "text": "Great, I want to make a good first impression this week." },
+      { "speaker": "Lan", "voice": "female", "text": "You will! We also have a buddy system, so Mai will help you settle in." },
+      { "speaker": "Duc", "voice": "male", "text": "That's reassuring. Do I need an access badge to enter the building?" },
+      { "speaker": "Lan", "voice": "female", "text": "Yes, I'll set that up for you right after this chat." },
+      { "speaker": "Duc", "voice": "male", "text": "Perfect. Any tips on how to get up to speed quickly?" },
+      { "speaker": "Lan", "voice": "female", "text": "Just ask questions and join our weekly team lunch to meet everyone." },
+      { "speaker": "Duc", "voice": "male", "text": "Sounds good. I'll prepare a short self-introduction for tomorrow's meeting." }
+    ],
+    "questions": [
+      { "q": "What does Duc receive on his first day?", "options": ["A welcome kit", "A company car", "A laptop bag only"], "answer": 0 },
+      { "q": "Who will help Duc settle in through the buddy system?", "options": ["Mai", "Lan", "The manager"], "answer": 0 },
+      { "q": "What does Duc plan to prepare for tomorrow's meeting?", "options": ["A short self-introduction", "A budget report", "A sales pitch"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Here's your welcome kit with a notebook and a mug.",
+    "This company handbook covers our whole team structure very clearly.",
+    "I want to make a good first impression this week.",
+    "Mai will help me settle in through the buddy system.",
+    "Any tips on how to get up to speed quickly?"
+  ]
+}

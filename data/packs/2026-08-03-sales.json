@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-03",
+  "track": "sales",
+  "theme": "Networking tại hội chợ/sự kiện",
+  "vocab": [
+    { "word": "name tag", "ipa": "/neɪm tæɡ/", "meaning_vi": "bảng tên", "example": "I love your name tag design, are you from the marketing booth?", "example_vi": "Tôi thích thiết kế bảng tên của bạn, bạn ở gian hàng marketing à?" },
+    { "word": "keynote session", "ipa": "/ˈkiːnəʊt ˈseʃn/", "meaning_vi": "phiên diễn thuyết chính", "example": "I saw your keynote session earlier, it was really informative.", "example_vi": "Tôi đã xem phiên diễn thuyết chính của bạn lúc trước, rất bổ ích." },
+    { "word": "warm introduction", "ipa": "/wɔːm ˌɪntrəˈdʌkʃn/", "meaning_vi": "lời giới thiệu thân thiện, tự nhiên", "example": "Events like this are perfect for a warm introduction to new clients.", "example_vi": "Những sự kiện như thế này rất phù hợp để tạo lời giới thiệu thân thiện với khách hàng mới." },
+    { "word": "exchange information", "ipa": "/ɪksˈtʃeɪndʒ ˌɪnfərˈmeɪʃn/", "meaning_vi": "trao đổi thông tin liên hệ", "example": "Let's exchange information in case we want to follow up later.", "example_vi": "Hãy trao đổi thông tin liên hệ phòng khi chúng ta muốn theo dõi sau này." },
+    { "word": "conversation starter", "ipa": "/ˌkɒnvəˈseɪʃn ˈstɑːtər/", "meaning_vi": "câu mở đầu câu chuyện", "example": "Do you have a good conversation starter for new visitors?", "example_vi": "Bạn có câu mở đầu câu chuyện nào hay cho khách mới ghé không?" },
+    { "word": "small crowd", "ipa": "/smɔːl kraʊd/", "meaning_vi": "đám đông nhỏ", "example": "This small crowd makes it easier to actually talk to people.", "example_vi": "Đám đông nhỏ này giúp việc trò chuyện với mọi người dễ dàng hơn." },
+    { "word": "make a connection", "ipa": "/meɪk ə kəˈnekʃn/", "meaning_vi": "tạo mối kết nối", "example": "I prefer to make a connection slowly instead of rushing.", "example_vi": "Tôi thích tạo mối kết nối từ từ hơn là vội vàng." },
+    { "word": "collect a business card", "ipa": "/kəˈlekt ə ˈbɪznəs kɑːd/", "meaning_vi": "thu thập danh thiếp", "example": "I already managed to collect a business card from three potential clients.", "example_vi": "Tôi đã thu thập được danh thiếp từ ba khách hàng tiềm năng rồi." }
+  ],
+  "listening": {
+    "title": "Making Connections at the Trade Show",
+    "lines": [
+      { "speaker": "Khoa", "voice": "male", "text": "Hi, I love your name tag design, are you from the marketing booth?" },
+      { "speaker": "Yen", "voice": "female", "text": "Yes, thanks! I saw your keynote session earlier, it was really informative." },
+      { "speaker": "Khoa", "voice": "male", "text": "Thank you! Events like this are perfect for a warm introduction to new clients." },
+      { "speaker": "Yen", "voice": "female", "text": "Agreed. Let's exchange information in case we want to follow up later." },
+      { "speaker": "Khoa", "voice": "male", "text": "Sure, here's my card. Do you have a good conversation starter for new visitors?" },
+      { "speaker": "Yen", "voice": "female", "text": "I usually ask about their biggest challenge this year, it works well." },
+      { "speaker": "Khoa", "voice": "male", "text": "Smart. This small crowd makes it easier to actually talk to people." },
+      { "speaker": "Yen", "voice": "female", "text": "True, big events can feel overwhelming. I prefer to make a connection slowly." },
+      { "speaker": "Khoa", "voice": "male", "text": "Same here. I already managed to collect a business card from three potential clients." },
+      { "speaker": "Yen", "voice": "female", "text": "That's great progress! Let's grab coffee and compare notes after this session." }
+    ],
+    "questions": [
+      { "q": "What did Yen think of Khoa's keynote session?", "options": ["It was informative", "It was too long", "She missed it"], "answer": 0 },
+      { "q": "What does Yen usually ask as a conversation starter?", "options": ["About the visitor's biggest challenge", "About the weather", "About ticket prices"], "answer": 0 },
+      { "q": "How many business cards has Khoa collected from potential clients?", "options": ["Three", "Ten", "None yet"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I love your name tag design, where are you from?",
+    "I saw your keynote session earlier and found it informative.",
+    "Let's exchange information in case we want to follow up.",
+    "Do you have a good conversation starter for new visitors?",
+    "I managed to collect a business card from three clients."
+  ]
+}

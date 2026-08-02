@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-03",
+  "track": "finance",
+  "theme": "Trình bày số liệu với sếp",
+  "vocab": [
+    { "word": "executive summary", "ipa": "/ɪɡˈzekjətɪv ˈsʌməri/", "meaning_vi": "tóm tắt điều hành", "example": "I've already prepared the executive summary for this month's report.", "example_vi": "Tôi đã chuẩn bị sẵn phần tóm tắt điều hành cho báo cáo tháng này." },
+    { "word": "data visualization", "ipa": "/ˈdeɪtə ˌvɪʒuəlaɪˈzeɪʃn/", "meaning_vi": "trực quan hóa dữ liệu", "example": "Did you include a data visualization for this quarter's revenue?", "example_vi": "Bạn đã thêm phần trực quan hóa dữ liệu cho doanh thu quý này chưa?" },
+    { "word": "supporting data", "ipa": "/səˈpɔːtɪŋ ˈdeɪtə/", "meaning_vi": "dữ liệu hỗ trợ", "example": "There's some supporting data in the appendix slide for reference.", "example_vi": "Có một số dữ liệu hỗ trợ trong slide phụ lục để tham khảo." },
+    { "word": "sanity check", "ipa": "/ˈsænəti tʃek/", "meaning_vi": "kiểm tra sơ bộ cho chắc chắn", "example": "Let's do a quick sanity check on the total cost.", "example_vi": "Hãy kiểm tra sơ bộ nhanh về tổng chi phí cho chắc chắn." },
+    { "word": "appendix slide", "ipa": "/əˈpendɪks slaɪd/", "meaning_vi": "slide phụ lục", "example": "I put the extra charts in an appendix slide at the end.", "example_vi": "Tôi đã để các biểu đồ thêm vào slide phụ lục ở cuối." },
+    { "word": "narrative", "ipa": "/ˈnærətɪv/", "meaning_vi": "mạch câu chuyện, diễn giải số liệu", "example": "What's the narrative behind the drop in April?", "example_vi": "Mạch diễn giải đằng sau sự sụt giảm trong tháng Tư là gì?" },
+    { "word": "warning sign", "ipa": "/ˈwɔːnɪŋ saɪn/", "meaning_vi": "dấu hiệu cảnh báo", "example": "It was a delayed payment, not a real warning sign.", "example_vi": "Đó là do thanh toán bị trễ, không phải dấu hiệu cảnh báo thực sự." },
+    { "word": "one-pager", "ipa": "/wʌn ˈpeɪdʒər/", "meaning_vi": "báo cáo tóm gọn một trang", "example": "Keep this as a short one-pager for the leadership meeting.", "example_vi": "Hãy giữ nó ở dạng báo cáo tóm gọn một trang cho buổi họp ban lãnh đạo." }
+  ],
+  "listening": {
+    "title": "Presenting the Numbers to the Boss",
+    "lines": [
+      { "speaker": "Hai", "voice": "male", "text": "Thu, I've prepared the executive summary for this month's report." },
+      { "speaker": "Thu", "voice": "female", "text": "Good, let's take a look. Did you include a data visualization for revenue?" },
+      { "speaker": "Hai", "voice": "male", "text": "Yes, there's a chart on page two, plus supporting data in the appendix slide." },
+      { "speaker": "Thu", "voice": "female", "text": "I like that. Can we do a quick sanity check on the total cost?" },
+      { "speaker": "Hai", "voice": "male", "text": "Sure, I already reviewed it twice and the numbers match our ledger." },
+      { "speaker": "Thu", "voice": "female", "text": "Great. What's the narrative behind the drop in April?" },
+      { "speaker": "Hai", "voice": "male", "text": "It was mainly due to a delayed client payment, not a real warning sign." },
+      { "speaker": "Thu", "voice": "female", "text": "Good to know. Keep this as a one-pager for the leadership meeting." },
+      { "speaker": "Hai", "voice": "male", "text": "Understood, I'll trim it down to the key points only." },
+      { "speaker": "Thu", "voice": "female", "text": "Perfect, send it to me by tomorrow morning." }
+    ],
+    "questions": [
+      { "q": "What does Hai prepare for the boss?", "options": ["An executive summary", "A sales contract", "A new hiring plan"], "answer": 0 },
+      { "q": "What caused the drop in April?", "options": ["A delayed client payment", "A system error", "A pricing mistake"], "answer": 0 },
+      { "q": "What does Thu want Hai to prepare for the leadership meeting?", "options": ["A one-pager", "A full 50-page report", "A video presentation"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I've already prepared the executive summary for this month's report.",
+    "Did you include a data visualization for this quarter's revenue?",
+    "There's some supporting data in the appendix slide for reference.",
+    "Let's do a quick sanity check on the total cost.",
+    "Keep this as a short one-pager for the leadership meeting."
+  ]
+}
