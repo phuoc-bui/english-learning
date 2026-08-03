@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-04",
+  "track": "it",
+  "theme": "Deal lương & phúc lợi",
+  "vocab": [
+    { "word": "compensation package", "ipa": "/ˌkɒmpənˈseɪʃn ˈpækɪdʒ/", "meaning_vi": "gói đãi ngộ", "example": "Can we go over the full compensation package before I decide?", "example_vi": "Chúng ta có thể xem lại toàn bộ gói đãi ngộ trước khi tôi quyết định không?" },
+    { "word": "sign-on bonus", "ipa": "/saɪn ɒn ˈbəʊnəs/", "meaning_vi": "thưởng khi nhận việc", "example": "The offer includes a sign-on bonus for joining next month.", "example_vi": "Lời mời làm việc bao gồm khoản thưởng khi nhận việc nếu tôi vào làm tháng sau." },
+    { "word": "stock options", "ipa": "/stɒk ˈɒpʃnz/", "meaning_vi": "quyền chọn mua cổ phiếu", "example": "I'd like to understand how the stock options vest over time.", "example_vi": "Tôi muốn hiểu rõ quyền chọn mua cổ phiếu được trao dần như thế nào." },
+    { "word": "cost-of-living adjustment", "ipa": "/kɒst əv ˈlɪvɪŋ əˈdʒʌstmənt/", "meaning_vi": "điều chỉnh theo chi phí sinh hoạt", "example": "Does the salary include a cost-of-living adjustment every year?", "example_vi": "Mức lương có bao gồm điều chỉnh theo chi phí sinh hoạt hằng năm không?" },
+    { "word": "pay band", "ipa": "/peɪ bænd/", "meaning_vi": "khung lương", "example": "Your role falls within this pay band for the team.", "example_vi": "Vị trí của bạn nằm trong khung lương này của nhóm." },
+    { "word": "counteroffer", "ipa": "/ˈkaʊntərɒfə/", "meaning_vi": "đề nghị phản hồi lại khi thương lượng", "example": "I received another offer, so I'd like to discuss a counteroffer.", "example_vi": "Tôi nhận được một lời mời khác, nên tôi muốn trao đổi về một đề nghị phản hồi lại." },
+    { "word": "annual increment", "ipa": "/ˈænjuəl ˈɪŋkrɪmənt/", "meaning_vi": "mức tăng lương hằng năm", "example": "What's the average annual increment for engineers here?", "example_vi": "Mức tăng lương hằng năm trung bình cho kỹ sư ở đây là bao nhiêu?" },
+    { "word": "leverage", "ipa": "/ˈliːvərɪdʒ/", "meaning_vi": "lợi thế thương lượng", "example": "Having another offer gives you some leverage in the negotiation.", "example_vi": "Có một lời mời khác cho bạn một lợi thế thương lượng." }
+  ],
+  "listening": {
+    "title": "Negotiating a Better Offer",
+    "lines": [
+      { "speaker": "Duc", "voice": "male", "text": "Thanks for meeting with me, Ms. Trang. I'd like to discuss my offer." },
+      { "speaker": "Ms. Trang (manager)", "voice": "female", "text": "Of course, Duc. Let's go over the compensation package together." },
+      { "speaker": "Duc", "voice": "male", "text": "I noticed there's no sign-on bonus mentioned in the letter." },
+      { "speaker": "Ms. Trang (manager)", "voice": "female", "text": "We can add a small sign-on bonus if you join within two weeks." },
+      { "speaker": "Duc", "voice": "male", "text": "That helps. Could you also explain how the stock options work?" },
+      { "speaker": "Ms. Trang (manager)", "voice": "female", "text": "They vest over four years, with the first year as a cliff." },
+      { "speaker": "Duc", "voice": "male", "text": "Understood. Is there a cost-of-living adjustment built into future raises?" },
+      { "speaker": "Ms. Trang (manager)", "voice": "female", "text": "Yes, we review that every year along with your annual increment." },
+      { "speaker": "Duc", "voice": "male", "text": "I actually received another offer, so I'd like to discuss a counteroffer." },
+      { "speaker": "Ms. Trang (manager)", "voice": "female", "text": "I see you have some leverage here. Let me check your pay band." },
+      { "speaker": "Duc", "voice": "male", "text": "I appreciate that. When can we finalize the new terms?" },
+      { "speaker": "Ms. Trang (manager)", "voice": "female", "text": "Let's confirm everything by Friday and send an updated offer letter." }
+    ],
+    "questions": [
+      { "q": "What does Duc ask about first?", "options": ["The sign-on bonus", "The office location", "The team size"], "answer": 0 },
+      { "q": "How do the stock options vest?", "options": ["Over four years with a first-year cliff", "Immediately on day one", "After ten years"], "answer": 0 },
+      { "q": "Why does Duc mention a counteroffer?", "options": ["He received another job offer", "He wants to resign", "He is unhappy with his manager"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Could you explain how the stock options vest over time?",
+    "I'd like to discuss a counteroffer since I got another offer.",
+    "Does the new salary include a cost-of-living adjustment every single year?",
+    "Having another offer gives me some leverage in this negotiation.",
+    "What's the average annual increment for engineers on this team?"
+  ]
+}

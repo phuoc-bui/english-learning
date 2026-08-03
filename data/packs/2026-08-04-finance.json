@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-04",
+  "track": "finance",
+  "theme": "Deadline quyết toán",
+  "vocab": [
+    { "word": "closing checklist", "ipa": "/ˈkləʊzɪŋ ˈtʃeklɪst/", "meaning_vi": "danh sách việc cần làm khi quyết toán", "example": "Let's go through the closing checklist before the deadline.", "example_vi": "Hãy rà lại danh sách việc cần làm khi quyết toán trước hạn chót." },
+    { "word": "reconciliation deadline", "ipa": "/ˌrekənsɪliˈeɪʃn ˈdedlaɪn/", "meaning_vi": "hạn chót đối chiếu số liệu", "example": "The reconciliation deadline is this Friday, so let's prioritize it.", "example_vi": "Hạn chót đối chiếu số liệu là thứ Sáu này, nên hãy ưu tiên việc đó." },
+    { "word": "late adjustment", "ipa": "/leɪt əˈdʒʌstmənt/", "meaning_vi": "khoản điều chỉnh phát sinh muộn", "example": "We found a late adjustment that needs to go in before we close.", "example_vi": "Chúng tôi phát hiện một khoản điều chỉnh muộn cần đưa vào trước khi chốt sổ." },
+    { "word": "book closure", "ipa": "/bʊk ˈkləʊʒə/", "meaning_vi": "việc chốt sổ sách", "example": "Book closure usually takes us three extra days at month-end.", "example_vi": "Việc chốt sổ sách thường mất thêm ba ngày vào cuối tháng." },
+    { "word": "final review", "ipa": "/ˈfaɪnl rɪˈvjuː/", "meaning_vi": "rà soát lần cuối", "example": "Can you do a final review before we submit the report?", "example_vi": "Anh có thể rà soát lần cuối trước khi chúng ta nộp báo cáo không?" },
+    { "word": "crunch period", "ipa": "/krʌntʃ ˈpɪəriəd/", "meaning_vi": "giai đoạn cao điểm áp lực công việc", "example": "This is always a crunch period for the whole finance team.", "example_vi": "Đây luôn là giai đoạn cao điểm áp lực đối với cả phòng tài chính." },
+    { "word": "sign-off deadline", "ipa": "/saɪn ɒf ˈdedlaɪn/", "meaning_vi": "hạn chót ký duyệt", "example": "The sign-off deadline for the report is tomorrow at noon.", "example_vi": "Hạn chót ký duyệt báo cáo là trưa mai." },
+    { "word": "carry-forward balance", "ipa": "/ˈkæri ˈfɔːwəd ˈbæləns/", "meaning_vi": "số dư chuyển tiếp", "example": "Please double-check the carry-forward balance before you close the books.", "example_vi": "Vui lòng kiểm tra kỹ số dư chuyển tiếp trước khi chốt sổ." }
+  ],
+  "listening": {
+    "title": "Racing the Closing Deadline",
+    "lines": [
+      { "speaker": "Hoa", "voice": "female", "text": "Mr. Khoa, do you have a minute? We're getting close to the sign-off deadline." },
+      { "speaker": "Mr. Khoa (manager)", "voice": "male", "text": "Yes, let's go through the closing checklist together." },
+      { "speaker": "Hoa", "voice": "female", "text": "I found a late adjustment that needs to go in before we close." },
+      { "speaker": "Mr. Khoa (manager)", "voice": "male", "text": "Okay, add it now. What about the reconciliation deadline?" },
+      { "speaker": "Hoa", "voice": "female", "text": "That's this Friday. I've already started matching the accounts." },
+      { "speaker": "Mr. Khoa (manager)", "voice": "male", "text": "Good. Please double-check the carry-forward balance before you close the books." },
+      { "speaker": "Hoa", "voice": "female", "text": "Will do. This is always a crunch period for the whole team." },
+      { "speaker": "Mr. Khoa (manager)", "voice": "male", "text": "I know, everyone's under pressure right now." },
+      { "speaker": "Hoa", "voice": "female", "text": "Can you do a final review before we submit the report?" },
+      { "speaker": "Mr. Khoa (manager)", "voice": "male", "text": "Sure, send it over once book closure is done." },
+      { "speaker": "Hoa", "voice": "female", "text": "I'll have it ready by tomorrow morning." },
+      { "speaker": "Mr. Khoa (manager)", "voice": "male", "text": "Perfect, let's meet again before the sign-off deadline." }
+    ],
+    "questions": [
+      { "q": "What does Hoa find that needs fixing before closing?", "options": ["A late adjustment", "A missing invoice", "A wrong bank account"], "answer": 0 },
+      { "q": "When is the reconciliation deadline?", "options": ["This Friday", "Next month", "Tomorrow morning"], "answer": 0 },
+      { "q": "What does Mr. Khoa ask Hoa to check before closing the books?", "options": ["The carry-forward balance", "The tax filing", "The payroll numbers"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "We're getting close to the sign-off deadline for this report.",
+    "I found a late adjustment that needs to go in first.",
+    "Please double-check the carry-forward balance before you close the books.",
+    "This is always a crunch period for the whole finance team.",
+    "Can you do a final review before we submit the report?"
+  ]
+}

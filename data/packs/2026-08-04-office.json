@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-04",
+  "track": "office",
+  "theme": "Out-of-office & bàn giao việc",
+  "vocab": [
+    { "word": "leave coverage plan", "ipa": "/liːv ˈkʌvərɪdʒ plæn/", "meaning_vi": "kế hoạch người phụ trách khi vắng mặt", "example": "Let's set up a leave coverage plan before you go on holiday.", "example_vi": "Hãy lập kế hoạch người phụ trách khi vắng mặt trước khi bạn đi nghỉ." },
+    { "word": "temporary backup", "ipa": "/ˈtemprəri ˈbækʌp/", "meaning_vi": "người thay thế tạm thời", "example": "I'll be your temporary backup while you're away next week.", "example_vi": "Tôi sẽ là người thay thế tạm thời cho bạn khi bạn vắng mặt tuần sau." },
+    { "word": "escalation contact", "ipa": "/ˌeskəˈleɪʃn ˈkɒntækt/", "meaning_vi": "người liên hệ khi có vấn đề khẩn", "example": "Please list an escalation contact in your out-of-office message.", "example_vi": "Hãy ghi tên người liên hệ khi có vấn đề khẩn trong email tự động." },
+    { "word": "auto-forward", "ipa": "/ˈɔːtəʊ ˈfɔːwəd/", "meaning_vi": "tự động chuyển tiếp email", "example": "I've set my inbox to auto-forward urgent emails to Tuan.", "example_vi": "Tôi đã cài hộp thư tự động chuyển tiếp email khẩn cho Tuan." },
+    { "word": "handover checklist", "ipa": "/ˈhændəʊvə ˈtʃeklɪst/", "meaning_vi": "danh sách bàn giao công việc", "example": "I've prepared a handover checklist for all my open tasks.", "example_vi": "Tôi đã chuẩn bị danh sách bàn giao cho tất cả công việc còn dang dở." },
+    { "word": "reachable in an emergency", "ipa": "/ˈriːtʃəbl ɪn ən ɪˈmɜːdʒənsi/", "meaning_vi": "có thể liên lạc được khi khẩn cấp", "example": "I'll still be reachable in an emergency, just not for daily tasks.", "example_vi": "Tôi vẫn có thể liên lạc được khi khẩn cấp, chỉ là không xử lý việc hàng ngày." },
+    { "word": "sync before I'm off", "ipa": "/sɪŋk bɪˈfɔː aɪm ɒf/", "meaning_vi": "trao đổi trước khi tôi nghỉ", "example": "Can we sync before I'm off so nothing is missed?", "example_vi": "Chúng ta có thể trao đổi trước khi tôi nghỉ để không bỏ sót việc gì không?" },
+    { "word": "catch me up when I'm back", "ipa": "/kætʃ miː ʌp wen aɪm bæk/", "meaning_vi": "cập nhật lại tình hình khi tôi quay lại", "example": "Just catch me up when I'm back, no need to call me.", "example_vi": "Chỉ cần cập nhật lại tình hình khi tôi quay lại, không cần gọi tôi." }
+  ],
+  "listening": {
+    "title": "Handing Over Before My Leave",
+    "lines": [
+      { "speaker": "Linh", "voice": "female", "text": "Tuan, do you have a minute? I'm off next week and need to hand over a few things." },
+      { "speaker": "Tuan", "voice": "male", "text": "Sure, Linh. Let's set up a leave coverage plan together." },
+      { "speaker": "Linh", "voice": "female", "text": "Great. I've prepared a handover checklist for all my open tasks." },
+      { "speaker": "Tuan", "voice": "male", "text": "Perfect, I'll be your temporary backup for the client emails." },
+      { "speaker": "Linh", "voice": "female", "text": "Thanks. I've also set my inbox to auto-forward urgent emails to you." },
+      { "speaker": "Tuan", "voice": "male", "text": "Good idea. Who should be the escalation contact for major issues?" },
+      { "speaker": "Linh", "voice": "female", "text": "You can list our team lead as the escalation contact." },
+      { "speaker": "Tuan", "voice": "male", "text": "Got it. Are you reachable in an emergency, or fully offline?" },
+      { "speaker": "Linh", "voice": "female", "text": "I'll still be reachable in an emergency, just not for daily tasks." },
+      { "speaker": "Tuan", "voice": "male", "text": "Understood. Can we sync before you're off so nothing is missed?" },
+      { "speaker": "Linh", "voice": "female", "text": "Yes, let's do a quick call tomorrow morning." },
+      { "speaker": "Tuan", "voice": "male", "text": "Sounds good. Just catch me up when you're back next week." }
+    ],
+    "questions": [
+      { "q": "What does Linh prepare for her tasks before leaving?", "options": ["A handover checklist", "A new contract", "A performance review"], "answer": 0 },
+      { "q": "What will Tuan's role be while Linh is away?", "options": ["Temporary backup for client emails", "Team leader", "New hire"], "answer": 0 },
+      { "q": "Is Linh reachable during her leave?", "options": ["Yes, but only in an emergency", "No, completely offline", "Yes, for all daily tasks"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I've prepared a handover checklist for all my open tasks.",
+    "I'll be your temporary backup while you're away next week.",
+    "Please make sure to list an escalation contact in your message.",
+    "I'll still be reachable in an emergency, just not for daily tasks.",
+    "Can we sync before I'm off so nothing gets missed this week?"
+  ]
+}

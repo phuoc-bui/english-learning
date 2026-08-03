@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-04",
+  "track": "sales",
+  "theme": "Upsell & cross-sell",
+  "vocab": [
+    { "word": "tier upgrade", "ipa": "/tɪər ˈʌpɡreɪd/", "meaning_vi": "nâng cấp gói dịch vụ", "example": "Based on your usage, a tier upgrade could save you money.", "example_vi": "Dựa trên mức sử dụng của anh, việc nâng cấp gói dịch vụ có thể giúp tiết kiệm chi phí." },
+    { "word": "complementary product", "ipa": "/ˌkɒmplɪˈmentri ˈprɒdʌkt/", "meaning_vi": "sản phẩm bổ trợ", "example": "We also offer a complementary product that works well with this tool.", "example_vi": "Chúng tôi cũng có một sản phẩm bổ trợ hoạt động tốt cùng công cụ này." },
+    { "word": "expand the account", "ipa": "/ɪkˈspænd ði əˈkaʊnt/", "meaning_vi": "mở rộng quy mô hợp đồng khách hàng", "example": "We'd love to expand the account to cover your other departments.", "example_vi": "Chúng tôi rất muốn mở rộng hợp đồng để bao phủ cả các phòng ban khác của anh." },
+    { "word": "value stack", "ipa": "/ˈvæljuː stæk/", "meaning_vi": "tổng giá trị các lợi ích cộng dồn", "example": "Let me walk you through the full value stack of this package.", "example_vi": "Để tôi trình bày tổng giá trị các lợi ích của gói này." },
+    { "word": "accessory package", "ipa": "/əkˈsesəri ˈpækɪdʒ/", "meaning_vi": "gói phụ kiện đi kèm", "example": "This accessory package pairs nicely with your current plan.", "example_vi": "Gói phụ kiện này rất hợp với gói hiện tại của anh." },
+    { "word": "consumption trend", "ipa": "/kənˈsʌmpʃn trend/", "meaning_vi": "xu hướng sử dụng", "example": "Your consumption trend shows you'll need more storage soon.", "example_vi": "Xu hướng sử dụng của anh cho thấy sẽ cần thêm dung lượng lưu trữ sớm." },
+    { "word": "natural fit", "ipa": "/ˈnætʃrəl fɪt/", "meaning_vi": "sự phù hợp tự nhiên", "example": "This add-on feels like a natural fit for your team.", "example_vi": "Tính năng bổ sung này có vẻ rất phù hợp tự nhiên với nhóm của anh." },
+    { "word": "incremental revenue", "ipa": "/ˌɪŋkrɪˈmentl ˈrevənjuː/", "meaning_vi": "doanh thu tăng thêm", "example": "This upgrade could bring incremental revenue without much extra work.", "example_vi": "Việc nâng cấp này có thể mang lại doanh thu tăng thêm mà không tốn nhiều công sức." }
+  ],
+  "listening": {
+    "title": "Growing the Account",
+    "lines": [
+      { "speaker": "Minh", "voice": "male", "text": "Hi Ms. Hoa, thanks for your time. I wanted to check in on your usage." },
+      { "speaker": "Ms. Hoa (client)", "voice": "female", "text": "Sure, Minh. Things have been going well with the current plan." },
+      { "speaker": "Minh", "voice": "male", "text": "Great to hear. Your consumption trend shows you'll need more storage soon." },
+      { "speaker": "Ms. Hoa (client)", "voice": "female", "text": "That's true, we've grown a lot this quarter." },
+      { "speaker": "Minh", "voice": "male", "text": "In that case, a tier upgrade could actually save you money." },
+      { "speaker": "Ms. Hoa (client)", "voice": "female", "text": "Interesting. What else would come with that upgrade?" },
+      { "speaker": "Minh", "voice": "male", "text": "We also offer a complementary product that works well with this tool." },
+      { "speaker": "Ms. Hoa (client)", "voice": "female", "text": "And is there an accessory package too?" },
+      { "speaker": "Minh", "voice": "male", "text": "Yes, this accessory package pairs nicely with your current plan." },
+      { "speaker": "Ms. Hoa (client)", "voice": "female", "text": "It sounds like a natural fit for our team." },
+      { "speaker": "Minh", "voice": "male", "text": "Exactly. We'd love to expand the account to your other departments too." },
+      { "speaker": "Ms. Hoa (client)", "voice": "female", "text": "Let's set up a call next week to go through the details." }
+    ],
+    "questions": [
+      { "q": "What does Minh notice about Ms. Hoa's usage?", "options": ["Her consumption trend shows she needs more storage", "She wants to cancel the plan", "Her team is shrinking"], "answer": 0 },
+      { "q": "What does Minh suggest to save Ms. Hoa money?", "options": ["A tier upgrade", "A full refund", "A new contract with a competitor"], "answer": 0 },
+      { "q": "What does Ms. Hoa want to do next?", "options": ["Set up a call to go through the details", "End the contract", "Downgrade the plan"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Your consumption trend shows you'll need more storage very soon.",
+    "Based on your usage, a tier upgrade could save you money.",
+    "We also offer a complementary product that works well with this.",
+    "This accessory package pairs nicely with your current plan and setup.",
+    "We'd love to expand the account to cover your other departments."
+  ]
+}

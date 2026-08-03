@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-04",
+  "track": "interview",
+  "theme": "Thất bại & bài học",
+  "vocab": [
+    { "word": "learn from mistakes", "ipa": "/lɜːn frɒm mɪˈsteɪks/", "meaning_vi": "học hỏi từ sai lầm", "example": "I try to learn from mistakes instead of dwelling on them.", "example_vi": "Tôi cố gắng học hỏi từ sai lầm thay vì cứ dằn vặt mãi." },
+    { "word": "turn a mistake into a lesson", "ipa": "/tɜːn ə mɪˈsteɪk ˈɪntə ə ˈlesn/", "meaning_vi": "biến sai lầm thành bài học", "example": "I try to turn a mistake into a lesson for the whole team.", "example_vi": "Tôi cố gắng biến sai lầm thành bài học cho cả nhóm." },
+    { "word": "own the failure", "ipa": "/əʊn ðə ˈfeɪljə/", "meaning_vi": "nhận trách nhiệm về thất bại", "example": "It's important to own the failure instead of blaming others.", "example_vi": "Việc nhận trách nhiệm về thất bại thay vì đổ lỗi cho người khác là rất quan trọng." },
+    { "word": "course correction", "ipa": "/kɔːs kəˈrekʃn/", "meaning_vi": "sự điều chỉnh hướng đi", "example": "We made a quick course correction after realizing the plan wasn't working.", "example_vi": "Chúng tôi đã nhanh chóng điều chỉnh hướng đi sau khi nhận ra kế hoạch không hiệu quả." },
+    { "word": "growth mindset", "ipa": "/ɡrəʊθ ˈmaɪndset/", "meaning_vi": "tư duy cầu tiến", "example": "Failure taught me to keep a growth mindset at work.", "example_vi": "Thất bại đã dạy tôi luôn giữ tư duy cầu tiến trong công việc." },
+    { "word": "what I'd do differently", "ipa": "/wɒt aɪd duː ˈdɪfrəntli/", "meaning_vi": "điều tôi sẽ làm khác đi", "example": "Looking back, here's what I'd do differently next time.", "example_vi": "Nhìn lại, đây là điều tôi sẽ làm khác đi vào lần sau." },
+    { "word": "hard lesson", "ipa": "/hɑːd ˈlesn/", "meaning_vi": "bài học đắt giá", "example": "That project taught me a hard lesson about communication.", "example_vi": "Dự án đó đã dạy tôi một bài học đắt giá về giao tiếp." },
+    { "word": "move forward stronger", "ipa": "/muːv ˈfɔːwəd ˈstrɒŋə/", "meaning_vi": "tiến lên mạnh mẽ hơn", "example": "After that setback, I was able to move forward stronger.", "example_vi": "Sau thất bại đó, tôi đã có thể tiến lên mạnh mẽ hơn." }
+  ],
+  "listening": {
+    "title": "Talking About a Past Failure",
+    "lines": [
+      { "speaker": "Ms. Linh (interviewer)", "voice": "female", "text": "Can you tell me about a time you failed at something important?" },
+      { "speaker": "Nam (candidate)", "voice": "male", "text": "Sure. Early in my last job, I missed a major deadline on a client project." },
+      { "speaker": "Ms. Linh (interviewer)", "voice": "female", "text": "What happened after that?" },
+      { "speaker": "Nam (candidate)", "voice": "male", "text": "I had to own the failure and explain it honestly to my manager." },
+      { "speaker": "Ms. Linh (interviewer)", "voice": "female", "text": "How did you handle it from there?" },
+      { "speaker": "Nam (candidate)", "voice": "male", "text": "We made a quick course correction and reorganized the whole timeline." },
+      { "speaker": "Ms. Linh (interviewer)", "voice": "female", "text": "What did you take away from that experience?" },
+      { "speaker": "Nam (candidate)", "voice": "male", "text": "It taught me a hard lesson about setting realistic expectations early on." },
+      { "speaker": "Ms. Linh (interviewer)", "voice": "female", "text": "Would you say it changed how you work now?" },
+      { "speaker": "Nam (candidate)", "voice": "male", "text": "Yes, I try to turn a mistake into a lesson for the whole team." },
+      { "speaker": "Ms. Linh (interviewer)", "voice": "female", "text": "That's a great growth mindset to have." },
+      { "speaker": "Nam (candidate)", "voice": "male", "text": "Thank you. That experience helped me move forward stronger in my career." }
+    ],
+    "questions": [
+      { "q": "What happened to Nam at his last job?", "options": ["He missed a major deadline on a client project", "He lost a client permanently", "He was late for an interview"], "answer": 0 },
+      { "q": "What did Nam do after the failure?", "options": ["Owned the failure and made a course correction", "Ignored the problem", "Blamed his manager"], "answer": 0 },
+      { "q": "How does Nam describe the lesson he learned?", "options": ["A hard lesson about setting realistic expectations", "A lesson about coding standards", "A lesson about office politics"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I try to learn from mistakes instead of dwelling on them.",
+    "It's important to own the failure instead of blaming others.",
+    "We made a quick course correction after realizing the plan failed.",
+    "That project taught me a hard lesson about clear communication.",
+    "After that setback, I was able to move forward much stronger."
+  ]
+}
