@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-05",
+  "track": "office",
+  "theme": "Văn hoá công sở đa quốc gia",
+  "vocab": [
+    {
+      "word": "cultural sensitivity",
+      "ipa": "/ˈkʌltʃərəl senˈsɪtɪvəti/",
+      "meaning_vi": "sự nhạy cảm văn hoá",
+      "example": "We should show cultural sensitivity when working with the Japan team.",
+      "example_vi": "Chúng ta nên thể hiện sự nhạy cảm văn hoá khi làm việc với đội Nhật Bản."
+    },
+    {
+      "word": "cultural norm",
+      "ipa": "/ˈkʌltʃərəl nɔːm/",
+      "meaning_vi": "chuẩn mực văn hoá",
+      "example": "Punctuality is seen as an important cultural norm in many countries.",
+      "example_vi": "Đúng giờ được xem là một chuẩn mực văn hoá quan trọng ở nhiều nước."
+    },
+    {
+      "word": "hierarchy",
+      "ipa": "/ˈhaɪərɑːki/",
+      "meaning_vi": "hệ thống thứ bậc",
+      "example": "Some teams follow a strict hierarchy when making decisions.",
+      "example_vi": "Một số nhóm tuân theo hệ thống thứ bậc chặt chẽ khi ra quyết định."
+    },
+    {
+      "word": "greeting custom",
+      "ipa": "/ˈɡriːtɪŋ ˈkʌstəm/",
+      "meaning_vi": "phong tục chào hỏi",
+      "example": "Let's learn their greeting custom before the client visit.",
+      "example_vi": "Hãy tìm hiểu phong tục chào hỏi của họ trước chuyến thăm của khách hàng."
+    },
+    {
+      "word": "dress code",
+      "ipa": "/dres kəʊd/",
+      "meaning_vi": "quy định trang phục",
+      "example": "Check the dress code before attending the overseas office event.",
+      "example_vi": "Hãy kiểm tra quy định trang phục trước khi tham dự sự kiện ở văn phòng nước ngoài."
+    },
+    {
+      "word": "language barrier",
+      "ipa": "/ˈlæŋɡwɪdʒ ˈbæriə/",
+      "meaning_vi": "rào cản ngôn ngữ",
+      "example": "We used simple English to reduce the language barrier.",
+      "example_vi": "Chúng tôi dùng tiếng Anh đơn giản để giảm rào cản ngôn ngữ."
+    },
+    {
+      "word": "non-verbal cue",
+      "ipa": "/nɒn ˈvɜːbəl kjuː/",
+      "meaning_vi": "tín hiệu phi ngôn ngữ",
+      "example": "Pay attention to non-verbal cues during the video call.",
+      "example_vi": "Hãy chú ý đến các tín hiệu phi ngôn ngữ trong cuộc gọi video."
+    },
+    {
+      "word": "eye contact",
+      "ipa": "/aɪ ˈkɒntækt/",
+      "meaning_vi": "giao tiếp bằng mắt",
+      "example": "Eye contact expectations can differ across cultures.",
+      "example_vi": "Kỳ vọng về giao tiếp bằng mắt có thể khác nhau giữa các nền văn hoá."
+    }
+  ],
+  "listening": {
+    "title": "Preparing for a Visit from the Singapore Team",
+    "lines": [
+      { "speaker": "Hoa", "voice": "female", "text": "Duy, the Singapore team arrives next Monday. Are we ready?" },
+      { "speaker": "Duy", "voice": "male", "text": "Almost. I think we should show more cultural sensitivity during the meetings." },
+      { "speaker": "Hoa", "voice": "female", "text": "Good point. What cultural norm should we be careful about?" },
+      { "speaker": "Duy", "voice": "male", "text": "They value punctuality a lot, so let's start every meeting on time." },
+      { "speaker": "Hoa", "voice": "female", "text": "Noted. Does their office follow a strict hierarchy in decisions?" },
+      { "speaker": "Duy", "voice": "male", "text": "Yes, so it's polite to greet the senior manager first." },
+      { "speaker": "Hoa", "voice": "female", "text": "I'll look up their greeting custom before the welcome lunch." },
+      { "speaker": "Duy", "voice": "male", "text": "Also check the dress code, their office is more formal than ours." },
+      { "speaker": "Hoa", "voice": "female", "text": "Got it. Some of us might struggle with the language barrier." },
+      { "speaker": "Duy", "voice": "male", "text": "Let's speak slowly and watch their non-verbal cues during discussions." },
+      { "speaker": "Hoa", "voice": "female", "text": "Should we worry about eye contact during the presentation?" },
+      { "speaker": "Duy", "voice": "male", "text": "A little, some cultures expect less direct eye contact than we do." }
+    ],
+    "questions": [
+      {
+        "q": "When does the Singapore team arrive?",
+        "options": ["Next Monday", "Next Friday", "Next month"],
+        "answer": 0
+      },
+      {
+        "q": "What do Hoa and Duy say the Singapore team values?",
+        "options": ["Punctuality", "Loud music", "Long lunches"],
+        "answer": 0
+      },
+      {
+        "q": "What does Duy suggest doing during discussions?",
+        "options": ["Watching non-verbal cues", "Skipping the meeting", "Speaking very fast"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "We should show cultural sensitivity when working with international teams.",
+    "Punctuality is seen as an important cultural norm in many countries.",
+    "Let's learn their greeting custom before the client visit tomorrow.",
+    "Check the dress code before attending the overseas office event.",
+    "Pay close attention to non-verbal cues during the video call."
+  ]
+}

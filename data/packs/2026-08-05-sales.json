@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-05",
+  "track": "sales",
+  "theme": "Xử lý phàn nàn của khách",
+  "vocab": [
+    {
+      "word": "escalate a complaint",
+      "ipa": "/ˈeskəleɪt ə kəmˈpleɪnt/",
+      "meaning_vi": "chuyển khiếu nại lên cấp cao hơn",
+      "example": "If we can't resolve it, we'll escalate the complaint to the manager.",
+      "example_vi": "Nếu không giải quyết được, chúng tôi sẽ chuyển khiếu nại lên cấp quản lý."
+    },
+    {
+      "word": "root cause",
+      "ipa": "/ruːt kɔːz/",
+      "meaning_vi": "nguyên nhân gốc rễ",
+      "example": "Let's find the root cause before we respond to the client.",
+      "example_vi": "Hãy tìm nguyên nhân gốc rễ trước khi phản hồi khách hàng."
+    },
+    {
+      "word": "service recovery",
+      "ipa": "/ˈsɜːvɪs rɪˈkʌvəri/",
+      "meaning_vi": "khắc phục dịch vụ",
+      "example": "Good service recovery can turn an angry customer into a loyal one.",
+      "example_vi": "Khắc phục dịch vụ tốt có thể biến một khách hàng giận dữ thành khách hàng trung thành."
+    },
+    {
+      "word": "empathize",
+      "ipa": "/ˈempəθaɪz/",
+      "meaning_vi": "đồng cảm",
+      "example": "Always empathize with the customer before offering a solution.",
+      "example_vi": "Luôn đồng cảm với khách hàng trước khi đưa ra giải pháp."
+    },
+    {
+      "word": "de-escalate",
+      "ipa": "/diː ˈeskəleɪt/",
+      "meaning_vi": "hạ nhiệt tình huống",
+      "example": "Speaking calmly can help de-escalate an angry phone call.",
+      "example_vi": "Nói chuyện bình tĩnh có thể giúp hạ nhiệt một cuộc gọi giận dữ."
+    },
+    {
+      "word": "resolution time",
+      "ipa": "/ˌrezəˈluːʃn taɪm/",
+      "meaning_vi": "thời gian giải quyết",
+      "example": "Our target resolution time for complaints is 24 hours.",
+      "example_vi": "Thời gian giải quyết mục tiêu cho khiếu nại của chúng tôi là 24 giờ."
+    },
+    {
+      "word": "acknowledge the issue",
+      "ipa": "/əkˈnɒlɪdʒ ði ˈɪʃuː/",
+      "meaning_vi": "thừa nhận vấn đề",
+      "example": "Start by acknowledging the issue before explaining what went wrong.",
+      "example_vi": "Hãy bắt đầu bằng việc thừa nhận vấn đề trước khi giải thích lý do."
+    },
+    {
+      "word": "goodwill credit",
+      "ipa": "/ɡʊdˈwɪl ˈkredɪt/",
+      "meaning_vi": "khoản bù đắp thiện chí",
+      "example": "We offered a goodwill credit for the shipping delay.",
+      "example_vi": "Chúng tôi đã đề nghị một khoản bù đắp thiện chí cho việc giao hàng trễ."
+    }
+  ],
+  "listening": {
+    "title": "Handling an Angry Customer Call",
+    "lines": [
+      { "speaker": "Mr. Phong (customer)", "voice": "male", "text": "This is the second time my order arrived late. I'm not happy." },
+      { "speaker": "Linh (sales rep)", "voice": "female", "text": "I completely understand, Mr. Phong. Let me acknowledge the issue right away." },
+      { "speaker": "Mr. Phong (customer)", "voice": "male", "text": "I expect this to be fixed today, not next week." },
+      { "speaker": "Linh (sales rep)", "voice": "female", "text": "I hear you, and I truly empathize. Let's find the root cause of the delay together." },
+      { "speaker": "Mr. Phong (customer)", "voice": "male", "text": "Fine. But I've complained about this before and nothing changed." },
+      { "speaker": "Linh (sales rep)", "voice": "female", "text": "I'm sorry about that. I'll escalate the complaint to our logistics manager now." },
+      { "speaker": "Mr. Phong (customer)", "voice": "male", "text": "Okay, that sounds better. What's your resolution time for this?" },
+      { "speaker": "Linh (sales rep)", "voice": "female", "text": "We aim for a 24-hour resolution time, and I'll personally follow up." },
+      { "speaker": "Mr. Phong (customer)", "voice": "male", "text": "Alright, I appreciate you taking this seriously." },
+      { "speaker": "Linh (sales rep)", "voice": "female", "text": "We'd also like to offer a small goodwill credit for the trouble." },
+      { "speaker": "Mr. Phong (customer)", "voice": "male", "text": "That's kind of you. Thanks for helping to de-escalate this." },
+      { "speaker": "Linh (sales rep)", "voice": "female", "text": "Of course, good service recovery matters to us. I'll call you tomorrow." }
+    ],
+    "questions": [
+      {
+        "q": "Why is Mr. Phong upset?",
+        "options": ["His order arrived late again", "He got the wrong item", "He was overcharged"],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh do to help fix the problem?",
+        "options": ["She escalates the complaint to the logistics manager", "She ignores the call", "She hangs up"],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh offer Mr. Phong for the trouble?",
+        "options": ["A goodwill credit", "A full refund", "A free product"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Always empathize with the customer before offering any kind of solution.",
+    "Let's find the root cause before we respond to the client.",
+    "If we can't resolve it, we'll escalate the complaint today.",
+    "Speaking calmly on the phone can help de-escalate an angry customer.",
+    "We offered a small goodwill credit for the shipping delay."
+  ]
+}

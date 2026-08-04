@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-05",
+  "track": "interview",
+  "theme": "Làm việc nhóm & teamwork",
+  "vocab": [
+    {
+      "word": "pull your weight",
+      "ipa": "/pʊl jɔː weɪt/",
+      "meaning_vi": "làm tròn phần việc của mình",
+      "example": "Everyone on the team needs to pull their weight.",
+      "example_vi": "Mọi người trong nhóm đều cần làm tròn phần việc của mình."
+    },
+    {
+      "word": "shared goal",
+      "ipa": "/ʃeəd ɡəʊl/",
+      "meaning_vi": "mục tiêu chung",
+      "example": "We stayed focused on our shared goal until launch day.",
+      "example_vi": "Chúng tôi tập trung vào mục tiêu chung cho đến ngày ra mắt."
+    },
+    {
+      "word": "brainstorm together",
+      "ipa": "/ˈbreɪnstɔːm təˈɡeðə/",
+      "meaning_vi": "cùng nhau động não",
+      "example": "We like to brainstorm together before starting any new project.",
+      "example_vi": "Chúng tôi thích cùng nhau động não trước khi bắt đầu dự án mới."
+    },
+    {
+      "word": "trust the team",
+      "ipa": "/trʌst ðə tiːm/",
+      "meaning_vi": "tin tưởng đồng đội",
+      "example": "I learned to trust the team instead of doing everything myself.",
+      "example_vi": "Tôi đã học cách tin tưởng đồng đội thay vì tự làm mọi thứ."
+    },
+    {
+      "word": "build rapport",
+      "ipa": "/bɪld ræˈpɔː/",
+      "meaning_vi": "xây dựng mối quan hệ tốt",
+      "example": "I try to build rapport with new teammates early on.",
+      "example_vi": "Tôi cố gắng xây dựng mối quan hệ tốt với đồng nghiệp mới ngay từ đầu."
+    },
+    {
+      "word": "active listener",
+      "ipa": "/ˈæktɪv ˈlɪsnə/",
+      "meaning_vi": "người biết lắng nghe tích cực",
+      "example": "Being an active listener helped me understand my teammates better.",
+      "example_vi": "Việc là người biết lắng nghe tích cực giúp tôi hiểu đồng đội hơn."
+    },
+    {
+      "word": "team chemistry",
+      "ipa": "/tiːm ˈkemɪstri/",
+      "meaning_vi": "sự ăn ý trong nhóm",
+      "example": "Good team chemistry made the project much easier to finish.",
+      "example_vi": "Sự ăn ý tốt trong nhóm giúp dự án dễ hoàn thành hơn nhiều."
+    },
+    {
+      "word": "bring people together",
+      "ipa": "/brɪŋ ˈpiːpl təˈɡeðə/",
+      "meaning_vi": "kết nối mọi người lại",
+      "example": "I enjoy finding ways to bring people together on a team.",
+      "example_vi": "Tôi thích tìm cách kết nối mọi người lại trong một nhóm."
+    }
+  ],
+  "listening": {
+    "title": "Talking About Teamwork in an Interview",
+    "lines": [
+      { "speaker": "Ms. Huong (interviewer)", "voice": "female", "text": "Can you tell me how you usually work within a team?" },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "Sure. I always try to pull my weight on every project." },
+      { "speaker": "Ms. Huong (interviewer)", "voice": "female", "text": "That's good to hear. How do you keep everyone focused?" },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "We set a shared goal at the start, so everyone knows the direction." },
+      { "speaker": "Ms. Huong (interviewer)", "voice": "female", "text": "Do you usually brainstorm together before starting new tasks?" },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "Yes, we brainstorm together in our very first planning meeting." },
+      { "speaker": "Ms. Huong (interviewer)", "voice": "female", "text": "How do you handle disagreements within the group?" },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "I try to be an active listener and understand both sides first." },
+      { "speaker": "Ms. Huong (interviewer)", "voice": "female", "text": "What helps you build rapport with new teammates?" },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "I trust the team early on and take time to know each person." },
+      { "speaker": "Ms. Huong (interviewer)", "voice": "female", "text": "What made your last team especially successful?" },
+      { "speaker": "Khoa (candidate)", "voice": "male", "text": "We had strong team chemistry, and I always try to bring people together." }
+    ],
+    "questions": [
+      {
+        "q": "What does Khoa say he always tries to do on every project?",
+        "options": ["Pull his weight", "Work alone", "Avoid meetings"],
+        "answer": 0
+      },
+      {
+        "q": "What does Khoa's team set at the start of a project?",
+        "options": ["A shared goal", "A strict deadline", "A budget limit"],
+        "answer": 0
+      },
+      {
+        "q": "What does Khoa say made his last team successful?",
+        "options": ["Strong team chemistry", "A big budget", "Working remotely"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I always try to pull my weight on every team project.",
+    "We set a shared goal early so everyone knows the direction.",
+    "I try to be an active listener during team discussions.",
+    "I make an effort to build rapport with every new teammate.",
+    "Our strong team chemistry helped us bring people together quickly."
+  ]
+}

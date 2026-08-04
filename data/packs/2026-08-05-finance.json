@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-05",
+  "track": "finance",
+  "theme": "Phần mềm kế toán & công cụ",
+  "vocab": [
+    {
+      "word": "cloud-based system",
+      "ipa": "/klaʊd beɪst ˈsɪstəm/",
+      "meaning_vi": "hệ thống trên nền tảng đám mây",
+      "example": "We're moving to a cloud-based system next quarter.",
+      "example_vi": "Chúng tôi sẽ chuyển sang hệ thống trên nền tảng đám mây vào quý tới."
+    },
+    {
+      "word": "user permission",
+      "ipa": "/ˈjuːzə pəˈmɪʃn/",
+      "meaning_vi": "quyền truy cập người dùng",
+      "example": "Can you set my user permission to view invoices only?",
+      "example_vi": "Bạn có thể cấp quyền truy cập cho tôi chỉ để xem hoá đơn không?"
+    },
+    {
+      "word": "data migration",
+      "ipa": "/ˈdeɪtə maɪˈɡreɪʃn/",
+      "meaning_vi": "di chuyển dữ liệu",
+      "example": "Data migration to the new software starts this weekend.",
+      "example_vi": "Việc di chuyển dữ liệu sang phần mềm mới bắt đầu vào cuối tuần này."
+    },
+    {
+      "word": "integration",
+      "ipa": "/ˌɪntɪˈɡreɪʃn/",
+      "meaning_vi": "sự tích hợp",
+      "example": "The integration with our banking system saves us hours each week.",
+      "example_vi": "Sự tích hợp với hệ thống ngân hàng giúp chúng tôi tiết kiệm nhiều giờ mỗi tuần."
+    },
+    {
+      "word": "dashboard",
+      "ipa": "/ˈdæʃbɔːd/",
+      "meaning_vi": "bảng điều khiển",
+      "example": "The new dashboard shows all pending invoices in real time.",
+      "example_vi": "Bảng điều khiển mới hiển thị tất cả hoá đơn đang chờ theo thời gian thực."
+    },
+    {
+      "word": "invoice automation",
+      "ipa": "/ˈɪnvɔɪs ˌɔːtəˈmeɪʃn/",
+      "meaning_vi": "tự động hoá hoá đơn",
+      "example": "Invoice automation reduces manual data entry errors.",
+      "example_vi": "Tự động hoá hoá đơn giúp giảm lỗi nhập liệu thủ công."
+    },
+    {
+      "word": "system downtime",
+      "ipa": "/ˈsɪstəm ˈdaʊntaɪm/",
+      "meaning_vi": "thời gian hệ thống ngừng hoạt động",
+      "example": "We scheduled the update at night to avoid system downtime.",
+      "example_vi": "Chúng tôi lên lịch cập nhật vào ban đêm để tránh thời gian hệ thống ngừng hoạt động."
+    },
+    {
+      "word": "login credentials",
+      "ipa": "/ˈlɒɡɪn krɪˈdenʃlz/",
+      "meaning_vi": "thông tin đăng nhập",
+      "example": "I'll send your login credentials for the new platform today.",
+      "example_vi": "Tôi sẽ gửi thông tin đăng nhập cho nền tảng mới hôm nay."
+    }
+  ],
+  "listening": {
+    "title": "Rolling Out the New Accounting Software",
+    "lines": [
+      { "speaker": "An", "voice": "female", "text": "Mr. Tan, when do we switch to the new cloud-based system?" },
+      { "speaker": "Mr. Tan (IT support)", "voice": "male", "text": "We're planning the data migration this weekend, so expect some downtime." },
+      { "speaker": "An", "voice": "female", "text": "How long will the system downtime last exactly?" },
+      { "speaker": "Mr. Tan (IT support)", "voice": "male", "text": "Around four hours on Saturday night, starting at 10 PM." },
+      { "speaker": "An", "voice": "female", "text": "Got it. Will my user permission stay the same as before?" },
+      { "speaker": "Mr. Tan (IT support)", "voice": "male", "text": "Yes, but I'll confirm your access level once the setup is done." },
+      { "speaker": "An", "voice": "female", "text": "Great. I'm also excited about the integration with our banking system." },
+      { "speaker": "Mr. Tan (IT support)", "voice": "male", "text": "It should save your team a lot of manual work every month." },
+      { "speaker": "An", "voice": "female", "text": "Does the new dashboard show pending invoices automatically?" },
+      { "speaker": "Mr. Tan (IT support)", "voice": "male", "text": "Yes, and invoice automation will flag any duplicate entries too." },
+      { "speaker": "An", "voice": "female", "text": "That's really helpful. When will I get my login credentials?" },
+      { "speaker": "Mr. Tan (IT support)", "voice": "male", "text": "I'll send them to your email right after the migration finishes." }
+    ],
+    "questions": [
+      {
+        "q": "When is the data migration scheduled?",
+        "options": ["This weekend", "Next month", "Tomorrow morning"],
+        "answer": 0
+      },
+      {
+        "q": "How long will the system downtime last?",
+        "options": ["Around four hours", "All week", "Ten minutes"],
+        "answer": 0
+      },
+      {
+        "q": "What will invoice automation do?",
+        "options": ["Flag duplicate entries", "Delete old invoices", "Change tax rates"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "We're planning the data migration for this coming Saturday night.",
+    "The new dashboard shows all pending invoices in real time.",
+    "Invoice automation really helps reduce our manual data entry errors.",
+    "I'll send your login credentials for the new platform today.",
+    "We scheduled the update at night to avoid system downtime."
+  ]
+}

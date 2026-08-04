@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-05",
+  "track": "it",
+  "theme": "Xin nghỉ phép & thông báo vắng mặt",
+  "vocab": [
+    {
+      "word": "leave balance",
+      "ipa": "/liːv ˈbæləns/",
+      "meaning_vi": "số ngày phép còn lại",
+      "example": "Can you check my leave balance before I submit the request?",
+      "example_vi": "Bạn có thể kiểm tra số ngày phép còn lại của tôi trước khi tôi gửi yêu cầu không?"
+    },
+    {
+      "word": "approval workflow",
+      "ipa": "/əˈpruːvl ˈwɜːkfləʊ/",
+      "meaning_vi": "quy trình phê duyệt",
+      "example": "The approval workflow usually takes two business days.",
+      "example_vi": "Quy trình phê duyệt thường mất hai ngày làm việc."
+    },
+    {
+      "word": "auto-reply",
+      "ipa": "/ˈɔːtəʊ rɪˈplaɪ/",
+      "meaning_vi": "trả lời tự động",
+      "example": "I'll set up an auto-reply before I go on leave.",
+      "example_vi": "Tôi sẽ cài đặt trả lời tự động trước khi nghỉ phép."
+    },
+    {
+      "word": "backup contact",
+      "ipa": "/ˈbækʌp ˈkɒntækt/",
+      "meaning_vi": "người liên hệ dự phòng",
+      "example": "Please list a backup contact in case something urgent comes up.",
+      "example_vi": "Vui lòng ghi người liên hệ dự phòng trong trường hợp có việc gấp."
+    },
+    {
+      "word": "medical certificate",
+      "ipa": "/ˈmedɪkl səˈtɪfɪkət/",
+      "meaning_vi": "giấy chứng nhận y tế",
+      "example": "You'll need a medical certificate for sick leave over three days.",
+      "example_vi": "Bạn sẽ cần giấy chứng nhận y tế nếu nghỉ ốm quá ba ngày."
+    },
+    {
+      "word": "reporting manager",
+      "ipa": "/rɪˈpɔːtɪŋ ˈmænɪdʒə/",
+      "meaning_vi": "quản lý trực tiếp",
+      "example": "Make sure your reporting manager approves the leave first.",
+      "example_vi": "Hãy đảm bảo quản lý trực tiếp của bạn phê duyệt nghỉ phép trước."
+    },
+    {
+      "word": "delegate tasks",
+      "ipa": "/ˈdelɪɡeɪt tɑːsks/",
+      "meaning_vi": "bàn giao công việc",
+      "example": "I need to delegate my tasks before I'm out next week.",
+      "example_vi": "Tôi cần bàn giao công việc trước khi nghỉ vào tuần tới."
+    },
+    {
+      "word": "unplanned absence",
+      "ipa": "/ʌnˈplænd ˈæbsəns/",
+      "meaning_vi": "vắng mặt đột xuất",
+      "example": "Please notify the team early in case of an unplanned absence.",
+      "example_vi": "Vui lòng thông báo cho nhóm sớm nếu có trường hợp vắng mặt đột xuất."
+    }
+  ],
+  "listening": {
+    "title": "Requesting Leave and Handing Over Work",
+    "lines": [
+      { "speaker": "Hung", "voice": "male", "text": "Ms. Lan, do you have a minute to talk about my leave request?" },
+      { "speaker": "Ms. Lan (manager)", "voice": "female", "text": "Sure, Hung. Let me check your leave balance first." },
+      { "speaker": "Hung", "voice": "male", "text": "I'd like to take three days off next week for a family trip." },
+      { "speaker": "Ms. Lan (manager)", "voice": "female", "text": "That should be fine. Please submit it through the approval workflow today." },
+      { "speaker": "Hung", "voice": "male", "text": "Will do. I'll also set up an auto-reply before I go on leave." },
+      { "speaker": "Ms. Lan (manager)", "voice": "female", "text": "Good idea. Who will be your backup contact while you're away?" },
+      { "speaker": "Hung", "voice": "male", "text": "Minh can cover urgent issues. I'll delegate my tasks to him tomorrow." },
+      { "speaker": "Ms. Lan (manager)", "voice": "female", "text": "Perfect. Just make sure your reporting manager, that's me, signs off first." },
+      { "speaker": "Hung", "voice": "male", "text": "Understood. I'll send the request right after this meeting." },
+      { "speaker": "Ms. Lan (manager)", "voice": "female", "text": "One more thing, notify the team early about any unplanned absence too." },
+      { "speaker": "Hung", "voice": "male", "text": "Of course. I'll post an update in our team channel." },
+      { "speaker": "Ms. Lan (manager)", "voice": "female", "text": "Great, thanks for planning ahead, Hung." }
+    ],
+    "questions": [
+      {
+        "q": "What does Hung want to take next week?",
+        "options": ["Three days off for a family trip", "A promotion", "A new laptop"],
+        "answer": 0
+      },
+      {
+        "q": "What does Ms. Lan ask Hung to do first?",
+        "options": ["Submit the request through the approval workflow", "Cancel the trip", "Call HR directly"],
+        "answer": 0
+      },
+      {
+        "q": "Who will cover Hung's urgent issues while he's away?",
+        "options": ["Minh", "Ms. Lan", "A new hire"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Can you check my leave balance before I submit the request?",
+    "I'll set up an auto-reply before I go on leave.",
+    "Please list a backup contact in case something urgent comes up.",
+    "You'll need a medical certificate for sick leave over three days.",
+    "I need to delegate my tasks before I'm out next week."
+  ]
+}
