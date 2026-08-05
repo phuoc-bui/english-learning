@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-06",
+  "track": "sales",
+  "theme": "Chốt hợp đồng",
+  "vocab": [
+    { "word": "sign on the dotted line", "ipa": "/saɪn ɒn ðə ˈdɒtɪd laɪn/", "meaning_vi": "ký vào hợp đồng", "example": "The client is finally ready to sign on the dotted line.", "example_vi": "Khách hàng cuối cùng đã sẵn sàng ký vào hợp đồng." },
+    { "word": "binding agreement", "ipa": "/ˈbaɪndɪŋ əˈɡriːmənt/", "meaning_vi": "thỏa thuận ràng buộc pháp lý", "example": "Once both sides sign, it becomes a binding agreement.", "example_vi": "Khi cả hai bên ký, nó trở thành một thỏa thuận ràng buộc." },
+    { "word": "legal review", "ipa": "/ˈliːɡl rɪˈvjuː/", "meaning_vi": "rà soát pháp lý", "example": "The contract is still going through legal review.", "example_vi": "Hợp đồng vẫn đang được rà soát pháp lý." },
+    { "word": "ink the deal", "ipa": "/ɪŋk ðə diːl/", "meaning_vi": "chính thức ký kết", "example": "We finally inked the deal after three months of talks.", "example_vi": "Chúng tôi cuối cùng đã ký kết sau ba tháng đàm phán." },
+    { "word": "contract terms", "ipa": "/ˈkɒntrækt tɜːrmz/", "meaning_vi": "điều khoản hợp đồng", "example": "Please double-check the contract terms before sending it over.", "example_vi": "Hãy kiểm tra kỹ điều khoản hợp đồng trước khi gửi đi." },
+    { "word": "e-signature", "ipa": "/iː ˈsɪɡnətʃər/", "meaning_vi": "chữ ký điện tử", "example": "You can use an e-signature to close this faster.", "example_vi": "Bạn có thể dùng chữ ký điện tử để chốt nhanh hơn." },
+    { "word": "close ratio", "ipa": "/kloʊz ˈreɪʃioʊ/", "meaning_vi": "tỷ lệ chốt đơn thành công", "example": "Our close ratio improved after we shortened the sales cycle.", "example_vi": "Tỷ lệ chốt đơn của chúng tôi cải thiện sau khi rút ngắn chu kỳ bán hàng." },
+    { "word": "wrap up the negotiation", "ipa": "/ræp ʌp ðə nɪˌɡoʊʃiˈeɪʃn/", "meaning_vi": "kết thúc buổi đàm phán", "example": "Let's wrap up the negotiation today so we can move forward.", "example_vi": "Hãy kết thúc đàm phán hôm nay để chúng ta có thể tiến tới." }
+  ],
+  "listening": {
+    "title": "Chốt hợp đồng với khách hàng",
+    "lines": [
+      { "speaker": "Tuan (sales rep)", "voice": "male", "text": "Thanks for meeting again, Mai. Are we ready to wrap up the negotiation today?" },
+      { "speaker": "Mai (client)", "voice": "female", "text": "Yes, our legal review is complete. The contract terms look fine to us." },
+      { "speaker": "Tuan (sales rep)", "voice": "male", "text": "Great news. I'll send the final version with an e-signature link." },
+      { "speaker": "Mai (client)", "voice": "female", "text": "Perfect. Once I sign on the dotted line, when do we start onboarding?" },
+      { "speaker": "Tuan (sales rep)", "voice": "male", "text": "We can start within a week after it becomes a binding agreement." },
+      { "speaker": "Mai (client)", "voice": "female", "text": "Sounds good. My team is excited to finally ink the deal." },
+      { "speaker": "Tuan (sales rep)", "voice": "male", "text": "We appreciate your trust. This partnership means a lot to us." },
+      { "speaker": "Mai (client)", "voice": "female", "text": "Just to confirm, the pricing matches what we discussed last week?" },
+      { "speaker": "Tuan (sales rep)", "voice": "male", "text": "Yes, nothing has changed in the contract terms since then." },
+      { "speaker": "Mai (client)", "voice": "female", "text": "Great, I'm signing now through the e-signature link." },
+      { "speaker": "Tuan (sales rep)", "voice": "male", "text": "Wonderful! This will really help our close ratio this quarter." },
+      { "speaker": "Mai (client)", "voice": "female", "text": "Congratulations, and thank you for being so patient with us." }
+    ],
+    "questions": [
+      { "q": "What did Mai confirm was complete before signing?", "options": ["The legal review", "The product demo", "The invoice"], "answer": 0 },
+      { "q": "How will Mai sign the contract?", "options": ["By fax", "With an e-signature", "By mail"], "answer": 1 },
+      { "q": "What does Tuan say the deal will help with?", "options": ["His vacation", "Their close ratio this quarter", "A new hire"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Are we ready to wrap up the negotiation and sign today?",
+    "Please double-check the contract terms before you send it over.",
+    "Once you sign on the dotted line, we can start onboarding.",
+    "This partnership will really help improve our close ratio this quarter.",
+    "We're excited to finally ink the deal after months of talks."
+  ]
+}

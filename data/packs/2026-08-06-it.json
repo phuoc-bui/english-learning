@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-06",
+  "track": "it",
+  "theme": "Giải thích bug & sự cố production",
+  "vocab": [
+    { "word": "race condition", "ipa": "/reɪs kənˈdɪʃn/", "meaning_vi": "lỗi do thứ tự xử lý đồng thời", "example": "The bug only appears because of a race condition between two threads.", "example_vi": "Lỗi chỉ xuất hiện do một race condition giữa hai luồng xử lý." },
+    { "word": "silent failure", "ipa": "/ˈsaɪlənt ˈfeɪljər/", "meaning_vi": "lỗi âm thầm không báo hiệu", "example": "It was a silent failure, so no alert was triggered.", "example_vi": "Đó là một lỗi âm thầm nên không có cảnh báo nào được kích hoạt." },
+    { "word": "staging environment", "ipa": "/ˈsteɪdʒɪŋ ɪnˈvaɪrənmənt/", "meaning_vi": "môi trường thử nghiệm trước khi lên thật", "example": "We couldn't reproduce it because the staging environment data was different.", "example_vi": "Chúng tôi không tái hiện được lỗi vì dữ liệu ở môi trường staging khác." },
+    { "word": "blast radius", "ipa": "/blæst ˈreɪdiəs/", "meaning_vi": "phạm vi ảnh hưởng của sự cố", "example": "We need to know the blast radius before we panic.", "example_vi": "Chúng ta cần biết phạm vi ảnh hưởng trước khi hoảng loạn." },
+    { "word": "runbook", "ipa": "/ˈrʌnbʊk/", "meaning_vi": "tài liệu hướng dẫn xử lý sự cố", "example": "Just follow the runbook step by step.", "example_vi": "Cứ làm theo tài liệu hướng dẫn từng bước một." },
+    { "word": "alert fatigue", "ipa": "/əˈlɜːrt fəˈtiːɡ/", "meaning_vi": "mệt mỏi vì quá nhiều cảnh báo", "example": "With so many false alarms, the team suffers from alert fatigue.", "example_vi": "Với quá nhiều báo động giả, cả nhóm bị mệt mỏi vì cảnh báo." },
+    { "word": "circuit breaker", "ipa": "/ˈsɜːrkɪt ˈbreɪkər/", "meaning_vi": "cơ chế ngắt tự động khi lỗi", "example": "The circuit breaker stopped requests before things got worse.", "example_vi": "Cơ chế ngắt tự động đã chặn các yêu cầu trước khi mọi thứ tệ hơn." },
+    { "word": "deadlock", "ipa": "/ˈdedlɒk/", "meaning_vi": "tình trạng bế tắc do khóa lẫn nhau", "example": "Two processes were stuck in a deadlock, waiting on each other.", "example_vi": "Hai tiến trình bị bế tắc, chờ lẫn nhau." }
+  ],
+  "listening": {
+    "title": "Xử lý sự cố production",
+    "lines": [
+      { "speaker": "Hoa (team lead)", "voice": "female", "text": "Minh, the checkout service is throwing errors again. What's going on?" },
+      { "speaker": "Minh (dev)", "voice": "male", "text": "I think it's a race condition — two requests are updating the same order." },
+      { "speaker": "Hoa (team lead)", "voice": "female", "text": "Could this be a silent failure we missed earlier?" },
+      { "speaker": "Minh (dev)", "voice": "male", "text": "Possibly. Nothing alerted us until customers started complaining." },
+      { "speaker": "Hoa (team lead)", "voice": "female", "text": "Can you reproduce it in the staging environment first?" },
+      { "speaker": "Minh (dev)", "voice": "male", "text": "I'm trying, but the data there doesn't quite match production." },
+      { "speaker": "Hoa (team lead)", "voice": "female", "text": "Okay, what's the blast radius so far — how many users are affected?" },
+      { "speaker": "Minh (dev)", "voice": "male", "text": "Looks like only new orders placed in the last hour." },
+      { "speaker": "Hoa (team lead)", "voice": "female", "text": "Good. Follow the runbook and add a circuit breaker on that endpoint." },
+      { "speaker": "Minh (dev)", "voice": "male", "text": "Already added it. It stopped the errors from spreading further." },
+      { "speaker": "Hoa (team lead)", "voice": "female", "text": "Nice. By the way, I noticed the on-call team has alert fatigue lately." },
+      { "speaker": "Minh (dev)", "voice": "male", "text": "Yeah, we should reduce noisy alerts once this deadlock issue is fixed." }
+    ],
+    "questions": [
+      { "q": "What does Minh think is causing the checkout errors?", "options": ["A race condition", "A power outage", "A wrong password"], "answer": 0 },
+      { "q": "What does Hoa ask about the affected users?", "options": ["Their salary", "The blast radius", "Their phone numbers"], "answer": 1 },
+      { "q": "What did Minh add to stop the errors from spreading?", "options": ["A circuit breaker", "A new feature", "A holiday notice"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I think it's a race condition between two requests updating data.",
+    "Can you reproduce this bug in the staging environment first?",
+    "We need to know the blast radius before we panic.",
+    "Just follow the runbook and add a circuit breaker there.",
+    "The on-call team has been suffering from alert fatigue lately."
+  ]
+}

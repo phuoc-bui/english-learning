@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-06",
+  "track": "interview",
+  "theme": "Câu hỏi tình huống (situational)",
+  "vocab": [
+    { "word": "keep a level head", "ipa": "/kiːp ə ˈlevl hed/", "meaning_vi": "giữ bình tĩnh, sáng suốt", "example": "I try to keep a level head even when things go wrong.", "example_vi": "Tôi cố giữ bình tĩnh và sáng suốt ngay cả khi mọi việc trục trặc." },
+    { "word": "act decisively", "ipa": "/ækt dɪˈsaɪsɪvli/", "meaning_vi": "hành động dứt khoát", "example": "In an emergency, you need to act decisively.", "example_vi": "Trong tình huống khẩn cấp, bạn cần hành động dứt khoát." },
+    { "word": "improvise a solution", "ipa": "/ˈɪmprəvaɪz ə səˈluːʃn/", "meaning_vi": "ứng biến tìm giải pháp", "example": "Sometimes you have to improvise a solution on the spot.", "example_vi": "Đôi khi bạn phải ứng biến tìm giải pháp ngay tại chỗ." },
+    { "word": "troubleshoot the issue", "ipa": "/ˈtrʌblʃuːt ði ˈɪʃuː/", "meaning_vi": "khắc phục sự cố", "example": "My first step is always to troubleshoot the issue myself.", "example_vi": "Bước đầu tiên của tôi luôn là tự khắc phục sự cố." },
+    { "word": "buy some time", "ipa": "/baɪ sʌm taɪm/", "meaning_vi": "câu giờ, tạo thêm thời gian", "example": "I told the client I needed to buy some time to check.", "example_vi": "Tôi nói với khách hàng rằng tôi cần thêm thời gian để kiểm tra." },
+    { "word": "damage control", "ipa": "/ˈdæmɪdʒ kənˈtroʊl/", "meaning_vi": "kiểm soát thiệt hại", "example": "The first hour is all about damage control.", "example_vi": "Giờ đầu tiên là để kiểm soát thiệt hại." },
+    { "word": "manage the fallout", "ipa": "/ˈmænɪdʒ ðə ˈfɔːlaʊt/", "meaning_vi": "xử lý hậu quả", "example": "After the mistake, I focused on managing the fallout calmly.", "example_vi": "Sau sai sót đó, tôi tập trung xử lý hậu quả một cách bình tĩnh." },
+    { "word": "read between the lines", "ipa": "/riːd bɪˈtwiːn ðə laɪnz/", "meaning_vi": "hiểu ý ngoài lời nói", "example": "Sometimes you need to read between the lines to understand a client's real concern.", "example_vi": "Đôi khi bạn cần hiểu ý ngoài lời nói để nắm được lo ngại thật sự của khách hàng." }
+  ],
+  "listening": {
+    "title": "Phỏng vấn: câu hỏi tình huống",
+    "lines": [
+      { "speaker": "Lan (interviewer)", "voice": "female", "text": "Duc, imagine a client suddenly says the project deadline moved up by a week. What would you do?" },
+      { "speaker": "Duc (candidate)", "voice": "male", "text": "First, I would try to keep a level head instead of panicking." },
+      { "speaker": "Lan (interviewer)", "voice": "female", "text": "And your next step?" },
+      { "speaker": "Duc (candidate)", "voice": "male", "text": "I would act decisively and quickly re-check what's actually possible." },
+      { "speaker": "Lan (interviewer)", "voice": "female", "text": "What if the original plan simply won't work anymore?" },
+      { "speaker": "Duc (candidate)", "voice": "male", "text": "Then I'd improvise a solution, maybe by adjusting scope for now." },
+      { "speaker": "Lan (interviewer)", "voice": "female", "text": "Would you tell the client right away?" },
+      { "speaker": "Duc (candidate)", "voice": "male", "text": "I would ask for a short call to buy some time before deciding." },
+      { "speaker": "Lan (interviewer)", "voice": "female", "text": "How do you usually troubleshoot the issue when something breaks?" },
+      { "speaker": "Duc (candidate)", "voice": "male", "text": "I check logs first, then ask teammates if I can't find it alone." },
+      { "speaker": "Lan (interviewer)", "voice": "female", "text": "And after a mistake happens, what's your priority?" },
+      { "speaker": "Duc (candidate)", "voice": "male", "text": "Damage control first, then I focus on how to manage the fallout calmly." }
+    ],
+    "questions": [
+      { "q": "What does Duc try to do first in a stressful situation?", "options": ["Keep a level head", "Call his family", "Quit the project"], "answer": 0 },
+      { "q": "What does Duc ask for before deciding on a new plan?", "options": ["A short call to buy some time", "A pay raise", "A day off"], "answer": 0 },
+      { "q": "What is Duc's priority right after a mistake happens?", "options": ["Damage control", "Ignoring it", "Blaming someone else"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I try to keep a level head instead of panicking.",
+    "In a real emergency, you really need to act decisively fast.",
+    "Sometimes I have to improvise a solution right on the spot.",
+    "I always check logs first to troubleshoot the issue myself.",
+    "My first priority after a mistake is always damage control."
+  ]
+}

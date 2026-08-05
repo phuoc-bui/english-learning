@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-06",
+  "track": "office",
+  "theme": "Pantry chat & networking nội bộ",
+  "vocab": [
+    { "word": "exchange pleasantries", "ipa": "/ɪksˈtʃeɪndʒ ˈpleznˌtriz/", "meaning_vi": "trao đổi vài câu xã giao", "example": "We exchanged pleasantries before getting into work talk.", "example_vi": "Chúng tôi trao đổi vài câu xã giao trước khi vào chuyện công việc." },
+    { "word": "hit it off", "ipa": "/hɪt ɪt ɒf/", "meaning_vi": "hợp nhau ngay từ đầu", "example": "I hit it off with the new hire right away in the pantry.", "example_vi": "Tôi hợp ngay với nhân viên mới ở pantry." },
+    { "word": "common interest", "ipa": "/ˈkɒmən ˈɪntrəst/", "meaning_vi": "sở thích chung", "example": "We found a common interest in coffee and football.", "example_vi": "Chúng tôi tìm thấy sở thích chung là cà phê và bóng đá." },
+    { "word": "informal chat", "ipa": "/ɪnˈfɔːrml tʃæt/", "meaning_vi": "cuộc trò chuyện không trang trọng", "example": "An informal chat in the pantry can build real connections.", "example_vi": "Một cuộc trò chuyện không trang trọng ở pantry có thể tạo kết nối thật sự." },
+    { "word": "put a face to a name", "ipa": "/pʊt ə feɪs tu ə neɪm/", "meaning_vi": "biết mặt người mà mình chỉ biết tên", "example": "It's nice to finally put a face to a name.", "example_vi": "Thật vui khi cuối cùng cũng biết mặt người mình chỉ biết tên." },
+    { "word": "open invitation", "ipa": "/ˈoʊpən ˌɪnvɪˈteɪʃn/", "meaning_vi": "lời mời ngỏ, luôn chào đón", "example": "Consider this an open invitation to join us for coffee anytime.", "example_vi": "Cứ xem đây là lời mời ngỏ để tham gia uống cà phê cùng bất cứ lúc nào." },
+    { "word": "quick chat", "ipa": "/kwɪk tʃæt/", "meaning_vi": "cuộc trò chuyện ngắn", "example": "Can we have a quick chat in the pantry later?", "example_vi": "Chúng ta có thể trò chuyện ngắn ở pantry lát nữa không?" },
+    { "word": "warm smile", "ipa": "/wɔːrm smaɪl/", "meaning_vi": "nụ cười thân thiện", "example": "A warm smile makes new colleagues feel welcome.", "example_vi": "Một nụ cười thân thiện khiến đồng nghiệp mới cảm thấy được chào đón." }
+  ],
+  "listening": {
+    "title": "Trò chuyện ở pantry",
+    "lines": [
+      { "speaker": "Nam (engineering)", "voice": "male", "text": "Hi, I don't think we've met — I'm Nam from engineering." },
+      { "speaker": "Linh (marketing)", "voice": "female", "text": "Nice to meet you, Nam. I'm Linh from marketing." },
+      { "speaker": "Nam (engineering)", "voice": "male", "text": "Nice. Can we have a quick chat while I make some coffee?" },
+      { "speaker": "Linh (marketing)", "voice": "female", "text": "Sure! It's nice to finally put a face to a name — I've seen your emails." },
+      { "speaker": "Nam (engineering)", "voice": "male", "text": "Ha, good to know. So what do you do for fun outside work?" },
+      { "speaker": "Linh (marketing)", "voice": "female", "text": "I love running and reading. What about you?" },
+      { "speaker": "Nam (engineering)", "voice": "male", "text": "Running too, actually. Looks like we have a common interest." },
+      { "speaker": "Linh (marketing)", "voice": "female", "text": "Small world! I think we hit it off pretty fast." },
+      { "speaker": "Nam (engineering)", "voice": "male", "text": "Agreed. I really enjoy this kind of informal chat during the day." },
+      { "speaker": "Linh (marketing)", "voice": "female", "text": "Same here. Consider this an open invitation to join us for lunch sometime." },
+      { "speaker": "Nam (engineering)", "voice": "male", "text": "I'd love that, thanks for the warm smile and the welcome." },
+      { "speaker": "Linh (marketing)", "voice": "female", "text": "Anytime, Nam. See you around the pantry." }
+    ],
+    "questions": [
+      { "q": "What do Nam and Linh both enjoy doing outside work?", "options": ["Running", "Cooking", "Swimming"], "answer": 0 },
+      { "q": "What does Linh invite Nam to join?", "options": ["A meeting", "Lunch sometime", "A business trip"], "answer": 1 },
+      { "q": "How does Linh describe meeting Nam?", "options": ["Awkward and slow", "They hit it off pretty fast", "Boring"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Can we have a quick chat while I make some coffee?",
+    "It's nice to finally put a face to a name.",
+    "We have a common interest, so we hit it off fast.",
+    "I really enjoy this kind of informal chat during the day.",
+    "Consider this an open invitation to join us for lunch."
+  ]
+}

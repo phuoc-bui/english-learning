@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-06",
+  "track": "finance",
+  "theme": "Chính sách tài chính công ty",
+  "vocab": [
+    { "word": "zero-tolerance policy", "ipa": "/ˈzɪəroʊ ˈtɒlərəns ˈpɒləsi/", "meaning_vi": "chính sách không khoan nhượng", "example": "We have a zero-tolerance policy for expense fraud.", "example_vi": "Chúng tôi có chính sách không khoan nhượng với gian lận chi phí." },
+    { "word": "internal policy manual", "ipa": "/ɪnˈtɜːrnl ˈpɒləsi ˈmænjuəl/", "meaning_vi": "sổ tay chính sách nội bộ", "example": "Everything is explained in the internal policy manual.", "example_vi": "Mọi thứ được giải thích trong sổ tay chính sách nội bộ." },
+    { "word": "financial discipline", "ipa": "/faɪˈnænʃl ˈdɪsəplɪn/", "meaning_vi": "kỷ luật tài chính", "example": "Good financial discipline keeps the company stable.", "example_vi": "Kỷ luật tài chính tốt giúp công ty ổn định." },
+    { "word": "policy rollout", "ipa": "/ˈpɒləsi ˈroʊlaʊt/", "meaning_vi": "triển khai chính sách", "example": "The policy rollout starts next Monday for all departments.", "example_vi": "Việc triển khai chính sách bắt đầu vào thứ Hai tới cho tất cả phòng ban." },
+    { "word": "budget governance", "ipa": "/ˈbʌdʒɪt ˈɡʌvərnəns/", "meaning_vi": "quản trị ngân sách", "example": "Budget governance ensures every expense is properly reviewed.", "example_vi": "Quản trị ngân sách đảm bảo mọi khoản chi được xem xét đúng cách." },
+    { "word": "policy breach", "ipa": "/ˈpɒləsi briːtʃ/", "meaning_vi": "vi phạm chính sách", "example": "A policy breach must be reported to finance immediately.", "example_vi": "Vi phạm chính sách phải được báo cáo cho phòng tài chính ngay lập tức." },
+    { "word": "financial oversight", "ipa": "/faɪˈnænʃl ˈoʊvərsaɪt/", "meaning_vi": "giám sát tài chính", "example": "Financial oversight has increased since the new policy started.", "example_vi": "Giám sát tài chính đã tăng lên kể từ khi chính sách mới bắt đầu." },
+    { "word": "code of conduct", "ipa": "/koʊd əv ˈkɒndʌkt/", "meaning_vi": "quy tắc ứng xử", "example": "The code of conduct now includes clearer financial rules.", "example_vi": "Quy tắc ứng xử hiện đã bao gồm các quy định tài chính rõ ràng hơn." }
+  ],
+  "listening": {
+    "title": "Thông báo chính sách tài chính mới",
+    "lines": [
+      { "speaker": "Hung (finance manager)", "voice": "male", "text": "Trang, HR just announced the policy rollout for the new finance rules." },
+      { "speaker": "Trang (accountant)", "voice": "female", "text": "I saw that. It's all explained in the internal policy manual, right?" },
+      { "speaker": "Hung (finance manager)", "voice": "male", "text": "Yes, and it includes a zero-tolerance policy for any expense fraud." },
+      { "speaker": "Trang (accountant)", "voice": "female", "text": "That's strict. Does it affect how we approve purchases?" },
+      { "speaker": "Hung (finance manager)", "voice": "male", "text": "A bit. Budget governance will be stronger, with more checks per request." },
+      { "speaker": "Trang (accountant)", "voice": "female", "text": "Makes sense. What happens if someone causes a policy breach?" },
+      { "speaker": "Hung (finance manager)", "voice": "male", "text": "It gets reported immediately, and financial oversight steps in to review it." },
+      { "speaker": "Trang (accountant)", "voice": "female", "text": "Good to know. Is this part of the company's code of conduct now?" },
+      { "speaker": "Hung (finance manager)", "voice": "male", "text": "Exactly, they updated it to include clearer financial discipline rules." },
+      { "speaker": "Trang (accountant)", "voice": "female", "text": "I'll share the manual with my team so everyone understands the changes." },
+      { "speaker": "Hung (finance manager)", "voice": "male", "text": "Great. The rollout starts next Monday, so let's prepare everyone before then." },
+      { "speaker": "Trang (accountant)", "voice": "female", "text": "Sounds good, I'll set up a short training session this week." }
+    ],
+    "questions": [
+      { "q": "Where are the new finance rules explained?", "options": ["In the internal policy manual", "In a text message", "On a poster"], "answer": 0 },
+      { "q": "What happens after a policy breach?", "options": ["Nothing happens", "Financial oversight steps in to review it", "The employee gets a bonus"], "answer": 1 },
+      { "q": "When does the policy rollout start?", "options": ["Next Monday", "Next year", "Tomorrow morning"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Everything about the new rules is explained in the internal policy manual.",
+    "We have a zero-tolerance policy for any expense fraud here.",
+    "A policy breach must be reported to finance right away.",
+    "Budget governance means every single expense request gets checked properly.",
+    "The code of conduct now includes clearer financial discipline rules."
+  ]
+}
