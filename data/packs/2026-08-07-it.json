@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-07",
+  "track": "it",
+  "theme": "Thuyết trình demo sản phẩm",
+  "vocab": [
+    { "word": "step-by-step demo", "ipa": "/step baɪ step ˈdeməʊ/", "meaning_vi": "phần trình bày từng bước", "example": "I'll do a quick step-by-step demo of the new dashboard before we open questions.", "example_vi": "Tôi sẽ trình bày nhanh từng bước về dashboard mới trước khi chúng ta mở phần hỏi đáp." },
+    { "word": "engage the audience", "ipa": "/ɪnˈɡeɪdʒ ði ˈɔːdiəns/", "meaning_vi": "thu hút khán giả", "example": "Ask a question early to engage the audience during your demo.", "example_vi": "Hãy đặt câu hỏi sớm để thu hút khán giả trong lúc demo." },
+    { "word": "technical glitch", "ipa": "/ˈteknɪkəl ɡlɪtʃ/", "meaning_vi": "trục trặc kỹ thuật", "example": "We hit a technical glitch right when the demo started.", "example_vi": "Chúng tôi gặp trục trặc kỹ thuật ngay khi demo bắt đầu." },
+    { "word": "screen resolution", "ipa": "/skriːn ˌrezəˈluːʃn/", "meaning_vi": "độ phân giải màn hình", "example": "Check the screen resolution before you connect to the projector.", "example_vi": "Hãy kiểm tra độ phân giải màn hình trước khi kết nối với máy chiếu." },
+    { "word": "call to action", "ipa": "/kɔːl tuː ˈækʃn/", "meaning_vi": "lời kêu gọi hành động", "example": "End the presentation with a clear call to action for the client.", "example_vi": "Hãy kết thúc buổi thuyết trình bằng một lời kêu gọi hành động rõ ràng cho khách hàng." },
+    { "word": "key takeaway", "ipa": "/kiː ˈteɪkəweɪ/", "meaning_vi": "điểm chính cần nhớ", "example": "The key takeaway is that the new feature saves users a lot of time.", "example_vi": "Điểm chính cần nhớ là tính năng mới giúp người dùng tiết kiệm rất nhiều thời gian." },
+    { "word": "poll the audience", "ipa": "/pəʊl ði ˈɔːdiəns/", "meaning_vi": "khảo sát ý kiến khán giả", "example": "Let's poll the audience to see which feature they like best.", "example_vi": "Hãy khảo sát ý kiến khán giả để xem họ thích tính năng nào nhất." },
+    { "word": "closing remarks", "ipa": "/ˈkləʊzɪŋ rɪˈmɑːks/", "meaning_vi": "lời kết", "example": "Let's finish the demo with a few closing remarks.", "example_vi": "Hãy kết thúc demo bằng vài lời kết ngắn gọn." }
+  ],
+  "listening": {
+    "title": "Demo tính năng mới cho khách hàng",
+    "lines": [
+      { "speaker": "Minh (PM)", "voice": "male", "text": "Good morning everyone, thanks for joining. Today Linh will walk us through the new reporting feature." },
+      { "speaker": "Linh (dev)", "voice": "female", "text": "Thanks, Minh. Let me start with a quick step-by-step demo of the dashboard." },
+      { "speaker": "Minh (PM)", "voice": "male", "text": "Sounds great. Feel free to ask questions anytime." },
+      { "speaker": "Linh (dev)", "voice": "female", "text": "As you can see, users can now export reports in one click." },
+      { "speaker": "Minh (PM)", "voice": "male", "text": "Oh, we just hit a technical glitch. The screen froze for a second." },
+      { "speaker": "Linh (dev)", "voice": "female", "text": "No worries, let me refresh and check the screen resolution." },
+      { "speaker": "Minh (PM)", "voice": "male", "text": "Take your time. We can poll the audience while you fix it." },
+      { "speaker": "Linh (dev)", "voice": "female", "text": "Thanks. Okay, it's working now. Let's continue." },
+      { "speaker": "Minh (PM)", "voice": "male", "text": "Great. What's the key takeaway you want the client to remember?" },
+      { "speaker": "Linh (dev)", "voice": "female", "text": "That this feature saves them hours every week." },
+      { "speaker": "Minh (PM)", "voice": "male", "text": "Perfect. Let's end with a clear call to action." },
+      { "speaker": "Linh (dev)", "voice": "female", "text": "Sure, I'll give my closing remarks with next steps for onboarding." }
+    ],
+    "questions": [
+      { "q": "What feature does Linh demo?", "options": ["A reporting feature that exports in one click", "A new chat feature", "A billing feature"], "answer": 0 },
+      { "q": "What problem happens during the demo?", "options": ["The client leaves early", "A technical glitch freezes the screen", "The internet disconnects completely"], "answer": 1 },
+      { "q": "What does Linh do to end the demo?", "options": ["She cancels the meeting", "She gives closing remarks with next steps for onboarding", "She reschedules for tomorrow"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Let's do a quick step-by-step demo of the new dashboard first.",
+    "We hit a technical glitch right when the demo started this morning.",
+    "Please check the screen resolution before connecting to the projector.",
+    "The key takeaway is that this feature saves users a lot of time.",
+    "Let's finish the demo with a few short closing remarks."
+  ]
+}

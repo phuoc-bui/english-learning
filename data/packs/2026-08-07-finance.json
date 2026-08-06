@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-07",
+  "track": "finance",
+  "theme": "Trình bày báo cáo tháng",
+  "vocab": [
+    { "word": "quarter-over-quarter", "ipa": "/ˈkwɔːtər ˌəʊvər ˈkwɔːtər/", "meaning_vi": "so với quý trước", "example": "Revenue grew 8% quarter-over-quarter, which is above our target.", "example_vi": "Doanh thu tăng 8% so với quý trước, cao hơn mục tiêu của chúng ta." },
+    { "word": "key performance indicator", "ipa": "/kiː pəˈfɔːməns ˈɪndɪkeɪtər/", "meaning_vi": "chỉ số hiệu suất chính (KPI)", "example": "Let's review each key performance indicator before we move to next quarter.", "example_vi": "Hãy xem lại từng chỉ số hiệu suất chính trước khi chuyển sang quý tới." },
+    { "word": "trend line", "ipa": "/trend laɪn/", "meaning_vi": "đường xu hướng", "example": "The trend line shows costs rising steadily over the last six months.", "example_vi": "Đường xu hướng cho thấy chi phí tăng đều trong sáu tháng qua." },
+    { "word": "deviation", "ipa": "/ˌdiːviˈeɪʃən/", "meaning_vi": "độ chênh lệch", "example": "There's a small deviation between the forecast and the actual numbers.", "example_vi": "Có một độ chênh lệch nhỏ giữa dự báo và số liệu thực tế." },
+    { "word": "forecast accuracy", "ipa": "/ˈfɔːkɑːst ˈækjərəsi/", "meaning_vi": "độ chính xác của dự báo", "example": "Our forecast accuracy has improved a lot since we updated the model.", "example_vi": "Độ chính xác dự báo của chúng ta đã cải thiện nhiều từ khi cập nhật mô hình." },
+    { "word": "revenue growth", "ipa": "/ˈrevənjuː ɡrəʊθ/", "meaning_vi": "tăng trưởng doanh thu", "example": "The slide on revenue growth is the most important part of the report.", "example_vi": "Slide về tăng trưởng doanh thu là phần quan trọng nhất của báo cáo." },
+    { "word": "cost breakdown", "ipa": "/kɒst ˈbreɪkdaʊn/", "meaning_vi": "bảng phân tích chi phí", "example": "Can you show a cost breakdown by department on the next slide?", "example_vi": "Bạn có thể cho xem bảng phân tích chi phí theo phòng ban ở slide tiếp theo không?" },
+    { "word": "note a risk", "ipa": "/nəʊt ə rɪsk/", "meaning_vi": "ghi nhận một rủi ro", "example": "I want to note a risk about the marketing budget before we finish.", "example_vi": "Tôi muốn ghi nhận một rủi ro về ngân sách marketing trước khi kết thúc." }
+  ],
+  "listening": {
+    "title": "Trình bày báo cáo tài chính tháng",
+    "lines": [
+      { "speaker": "Linh (finance analyst)", "voice": "female", "text": "Good afternoon everyone. Today I'll present the monthly financial report." },
+      { "speaker": "Hùng (director)", "voice": "male", "text": "Thanks, Linh. Please start with the revenue growth for this month." },
+      { "speaker": "Linh (finance analyst)", "voice": "female", "text": "Sure. Revenue grew 8% quarter-over-quarter, which is above our target." },
+      { "speaker": "Hùng (director)", "voice": "male", "text": "That's good news. What about the key performance indicators?" },
+      { "speaker": "Linh (finance analyst)", "voice": "female", "text": "Most KPIs are on track, but marketing spend is higher than planned." },
+      { "speaker": "Hùng (director)", "voice": "male", "text": "Can you show the cost breakdown for marketing?" },
+      { "speaker": "Linh (finance analyst)", "voice": "female", "text": "Yes, here it is. You can see a small deviation between forecast and actual." },
+      { "speaker": "Hùng (director)", "voice": "male", "text": "I see. Do we know why the forecast accuracy dropped this month?" },
+      { "speaker": "Linh (finance analyst)", "voice": "female", "text": "We think it's due to a new campaign that wasn't planned in advance." },
+      { "speaker": "Hùng (director)", "voice": "male", "text": "Okay, noted. I want to note a risk about that for next month's budget." },
+      { "speaker": "Linh (finance analyst)", "voice": "female", "text": "Understood, I'll add it to the action items." }
+    ],
+    "questions": [
+      { "q": "How much did revenue grow quarter-over-quarter?", "options": ["8%", "18%", "80%"], "answer": 0 },
+      { "q": "What is higher than planned this month?", "options": ["Marketing spend", "Office rent", "Salary budget"], "answer": 0 },
+      { "q": "What does Hùng want to note a risk about?", "options": ["The new campaign for next month's budget", "The office relocation", "The hiring plan"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Revenue grew eight percent quarter-over-quarter, which is above our target.",
+    "Let's review each key performance indicator before the meeting ends.",
+    "Can you show a cost breakdown by department on this slide?",
+    "There's a small deviation between the forecast and the actual numbers.",
+    "I want to note a risk before we finish this meeting."
+  ]
+}

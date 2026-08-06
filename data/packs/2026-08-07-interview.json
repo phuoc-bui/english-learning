@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-07",
+  "track": "interview",
+  "theme": "Giới thiệu bản thân",
+  "vocab": [
+    { "word": "educational background", "ipa": "/ˌedʒʊˈkeɪʃənəl ˈbækɡraʊnd/", "meaning_vi": "trình độ học vấn", "example": "Let me start with my educational background before I talk about my work.", "example_vi": "Hãy để tôi bắt đầu với trình độ học vấn trước khi nói về công việc." },
+    { "word": "present position", "ipa": "/ˈprezənt pəˈzɪʃən/", "meaning_vi": "vị trí hiện tại", "example": "In my present position, I lead a small team of three developers.", "example_vi": "Trong vị trí hiện tại, tôi dẫn dắt một nhóm nhỏ ba lập trình viên." },
+    { "word": "professional journey", "ipa": "/prəˈfeʃənəl ˈdʒɜːni/", "meaning_vi": "hành trình sự nghiệp", "example": "My professional journey started as a tester before I moved into development.", "example_vi": "Hành trình sự nghiệp của tôi bắt đầu với vị trí tester trước khi chuyển sang phát triển." },
+    { "word": "core skill", "ipa": "/kɔːr skɪl/", "meaning_vi": "kỹ năng cốt lõi", "example": "One of my core skills is solving problems under pressure.", "example_vi": "Một trong những kỹ năng cốt lõi của tôi là giải quyết vấn đề dưới áp lực." },
+    { "word": "notable achievement", "ipa": "/ˈnəʊtəbəl əˈtʃiːvmənt/", "meaning_vi": "thành tích nổi bật", "example": "My most notable achievement was launching the app two weeks early.", "example_vi": "Thành tích nổi bật nhất của tôi là ra mắt ứng dụng sớm hai tuần." },
+    { "word": "career summary", "ipa": "/kəˈrɪər ˈsʌməri/", "meaning_vi": "tóm tắt sự nghiệp", "example": "I'll give you a short career summary before we go into detail.", "example_vi": "Tôi sẽ tóm tắt sự nghiệp ngắn gọn trước khi đi vào chi tiết." },
+    { "word": "relevant qualification", "ipa": "/ˈreləvənt ˌkwɒlɪfɪˈkeɪʃən/", "meaning_vi": "bằng cấp liên quan", "example": "I have a relevant qualification in software engineering from university.", "example_vi": "Tôi có bằng cấp liên quan đến kỹ thuật phần mềm từ trường đại học." },
+    { "word": "tailor your introduction", "ipa": "/ˈteɪlər jɔːr ˌɪntrəˈdʌkʃən/", "meaning_vi": "điều chỉnh phần giới thiệu cho phù hợp", "example": "It's smart to tailor your introduction to match the job you're applying for.", "example_vi": "Rất khôn ngoan khi điều chỉnh phần giới thiệu để phù hợp với công việc bạn đang ứng tuyển." }
+  ],
+  "listening": {
+    "title": "Phỏng vấn: Giới thiệu bản thân",
+    "lines": [
+      { "speaker": "Ngọc (interviewer)", "voice": "female", "text": "Good morning, Minh. Let's start—can you introduce yourself?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "Good morning. Sure. Let me start with my educational background." },
+      { "speaker": "Ngọc (interviewer)", "voice": "female", "text": "Please go ahead." },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "I graduated in Computer Science and have a relevant qualification in software testing too." },
+      { "speaker": "Ngọc (interviewer)", "voice": "female", "text": "Great. Can you tell me about your present position?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "In my present position, I lead a small team of three developers at a fintech company." },
+      { "speaker": "Ngọc (interviewer)", "voice": "female", "text": "Interesting. What would you say is your professional journey so far?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "My professional journey started as a tester before I moved into development." },
+      { "speaker": "Ngọc (interviewer)", "voice": "female", "text": "What's one core skill you bring to this position?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "One of my core skills is solving problems under pressure." },
+      { "speaker": "Ngọc (interviewer)", "voice": "female", "text": "And what's a notable achievement you're proud of?" },
+      { "speaker": "Minh (candidate)", "voice": "male", "text": "My most notable achievement was launching an app two weeks ahead of schedule." }
+    ],
+    "questions": [
+      { "q": "What did Minh study?", "options": ["Computer Science", "Marketing", "Finance"], "answer": 0 },
+      { "q": "What is Minh's present position?", "options": ["He leads a small team of three developers", "He works alone as a freelancer", "He is an intern"], "answer": 0 },
+      { "q": "What is Minh's notable achievement?", "options": ["Launching an app two weeks ahead of schedule", "Winning an award for sales", "Getting a promotion"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Let me start with my educational background before I talk about my role.",
+    "In my present position, I lead a small team of developers.",
+    "My professional journey started as a tester before I moved into development.",
+    "One of my core skills is solving problems under pressure.",
+    "My most notable achievement was launching an app two weeks early."
+  ]
+}

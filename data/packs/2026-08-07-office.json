@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-07",
+  "track": "office",
+  "theme": "Small talk trước giờ họp",
+  "vocab": [
+    { "word": "grab a coffee", "ipa": "/ɡræb ə ˈkɒfi/", "meaning_vi": "đi lấy một ly cà phê", "example": "Let's grab a coffee while we wait for the others to join.", "example_vi": "Chúng ta đi lấy cà phê trong lúc chờ mọi người vào nhé." },
+    { "word": "how was your weekend", "ipa": "/haʊ wɒz jɔːr ˈwiːkend/", "meaning_vi": "cuối tuần của bạn thế nào", "example": "Hi Linh, how was your weekend? Did you go anywhere fun?", "example_vi": "Chào Linh, cuối tuần của bạn thế nào? Bạn có đi đâu chơi không?" },
+    { "word": "break the ice", "ipa": "/breɪk ði aɪs/", "meaning_vi": "phá vỡ sự ngượng ngùng ban đầu", "example": "A simple joke can break the ice before a serious meeting.", "example_vi": "Một câu đùa đơn giản có thể phá vỡ sự ngượng ngùng trước một cuộc họp nghiêm túc." },
+    { "word": "have a quick word", "ipa": "/hæv ə kwɪk wɜːd/", "meaning_vi": "nói chuyện nhanh một chút", "example": "We haven't talked in weeks, let's have a quick word before the meeting starts.", "example_vi": "Chúng ta chưa nói chuyện mấy tuần rồi, hãy nói chuyện nhanh một chút trước khi họp bắt đầu." },
+    { "word": "keep it brief", "ipa": "/kiːp ɪt briːf/", "meaning_vi": "giữ cho ngắn gọn", "example": "Let's keep it brief since the meeting starts in five minutes.", "example_vi": "Hãy nói ngắn gọn thôi vì cuộc họp bắt đầu trong năm phút nữa." },
+    { "word": "take a seat", "ipa": "/teɪk ə siːt/", "meaning_vi": "ngồi xuống", "example": "Please take a seat, we'll start as soon as everyone arrives.", "example_vi": "Mời mọi người ngồi xuống, chúng ta sẽ bắt đầu ngay khi mọi người có mặt đầy đủ." },
+    { "word": "wait for others to join", "ipa": "/weɪt fɔːr ˈʌðərz tuː dʒɔɪn/", "meaning_vi": "chờ những người khác vào họp", "example": "Let's chat a bit while we wait for others to join the call.", "example_vi": "Hãy trò chuyện một chút trong lúc chờ những người khác vào cuộc gọi." },
+    { "word": "friendly chat", "ipa": "/ˈfrendli tʃæt/", "meaning_vi": "cuộc trò chuyện thân thiện", "example": "A friendly chat before the meeting helps everyone feel relaxed.", "example_vi": "Một cuộc trò chuyện thân thiện trước cuộc họp giúp mọi người cảm thấy thoải mái." }
+  ],
+  "listening": {
+    "title": "Vài phút trước cuộc họp",
+    "lines": [
+      { "speaker": "Hoa (employee)", "voice": "female", "text": "Hi Tuấn, how was your weekend? Did you go anywhere fun?" },
+      { "speaker": "Tuấn (colleague)", "voice": "male", "text": "It was great, thanks! I went hiking with my family. How about you?" },
+      { "speaker": "Hoa (employee)", "voice": "female", "text": "Nice! I just stayed home and relaxed. Let's grab a coffee before we start." },
+      { "speaker": "Tuấn (colleague)", "voice": "male", "text": "Good idea, we still have a few minutes to wait for others to join." },
+      { "speaker": "Hoa (employee)", "voice": "female", "text": "Sure. So, are you ready for the budget discussion today?" },
+      { "speaker": "Tuấn (colleague)", "voice": "male", "text": "Almost. I'll keep it brief since we don't have much time." },
+      { "speaker": "Hoa (employee)", "voice": "female", "text": "That's smart. A friendly chat helps break the ice before serious topics." },
+      { "speaker": "Tuấn (colleague)", "voice": "male", "text": "Exactly. Oh, looks like everyone is here now." },
+      { "speaker": "Hoa (employee)", "voice": "female", "text": "Great, let's take a seat and get started." },
+      { "speaker": "Tuấn (colleague)", "voice": "male", "text": "Sounds good. Thanks for the quick word, Hoa." }
+    ],
+    "questions": [
+      { "q": "What does Tuấn say he did over the weekend?", "options": ["He went hiking with his family", "He worked overtime", "He traveled abroad"], "answer": 0 },
+      { "q": "Why does Hoa suggest grabbing a coffee?", "options": ["Because the meeting is cancelled", "Because they still have time before others join", "Because Tuấn asked her to"], "answer": 1 },
+      { "q": "What does Hoa say helps break the ice?", "options": ["A friendly chat", "A funny video", "A team game"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Hi there, how was your weekend? Did you go anywhere fun?",
+    "Let's grab a coffee while we wait for others to join.",
+    "I'll keep it brief since we don't have much time today.",
+    "A friendly chat can really break the ice before a meeting.",
+    "Let's take a seat, everyone is here and ready to start."
+  ]
+}

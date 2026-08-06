@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-07",
+  "track": "sales",
+  "theme": "Cold call khách mới",
+  "vocab": [
+    { "word": "decision maker", "ipa": "/dɪˈsɪʒn ˌmeɪkər/", "meaning_vi": "người ra quyết định", "example": "Ask to speak with the decision maker before you explain the product.", "example_vi": "Hãy xin nói chuyện với người ra quyết định trước khi bạn giải thích sản phẩm." },
+    { "word": "warm lead", "ipa": "/wɔːm liːd/", "meaning_vi": "khách hàng tiềm năng đã quan tâm", "example": "This warm lead downloaded our brochure last week, so she already knows us.", "example_vi": "Khách hàng tiềm năng này đã tải tài liệu của chúng tôi tuần trước, nên cô ấy đã biết về chúng tôi." },
+    { "word": "cold email", "ipa": "/kəʊld ˈiːmeɪl/", "meaning_vi": "email gửi cho khách chưa từng liên hệ", "example": "I sent a short cold email before calling to introduce myself.", "example_vi": "Tôi đã gửi một email ngắn cho khách trước khi gọi để tự giới thiệu." },
+    { "word": "opening line", "ipa": "/ˈəʊpənɪŋ laɪn/", "meaning_vi": "câu mở đầu", "example": "A good opening line can make the customer want to keep listening.", "example_vi": "Một câu mở đầu hay có thể khiến khách hàng muốn tiếp tục lắng nghe." },
+    { "word": "gauge interest", "ipa": "/ɡeɪdʒ ˈɪntrəst/", "meaning_vi": "thăm dò mức độ quan tâm", "example": "We gauge interest by asking about their budget and timeline.", "example_vi": "Chúng tôi thăm dò mức độ quan tâm bằng cách hỏi về ngân sách và thời gian của họ." },
+    { "word": "target list", "ipa": "/ˈtɑːɡɪt lɪst/", "meaning_vi": "danh sách khách hàng mục tiêu", "example": "This company is on our target list for this quarter.", "example_vi": "Công ty này nằm trong danh sách khách hàng mục tiêu của chúng tôi quý này." },
+    { "word": "call volume", "ipa": "/kɔːl ˈvɒljuːm/", "meaning_vi": "số lượng cuộc gọi", "example": "Our call volume is higher in the morning than in the afternoon.", "example_vi": "Số lượng cuộc gọi của chúng tôi buổi sáng cao hơn buổi chiều." },
+    { "word": "warm transfer", "ipa": "/wɔːm ˈtrænsfɜːr/", "meaning_vi": "chuyển máy có giới thiệu trước", "example": "I'll do a warm transfer so the manager already knows your name.", "example_vi": "Tôi sẽ chuyển máy có giới thiệu trước để quản lý đã biết tên bạn." }
+  ],
+  "listening": {
+    "title": "Nam thực hiện cuộc gọi cold call",
+    "lines": [
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "Good morning, this is Nam calling from TechSoft. Am I speaking with the decision maker for IT purchases?" },
+      { "speaker": "Hương (customer)", "voice": "female", "text": "This is Hương, I handle that. But I'm quite busy right now." },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "I understand. I'll keep this short. I sent a short cold email yesterday about our new software." },
+      { "speaker": "Hương (customer)", "voice": "female", "text": "I remember seeing it. What's this about exactly?" },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "We help companies like yours reduce reporting time by 40%. Can I ask a few quick questions to gauge interest?" },
+      { "speaker": "Hương (customer)", "voice": "female", "text": "Sure, go ahead, but only two minutes." },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "Thanks. Is your company currently using any reporting tool?" },
+      { "speaker": "Hương (customer)", "voice": "female", "text": "Yes, but it's slow and outdated." },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "Got it. You're definitely on our target list this quarter. Can we schedule a short demo?" },
+      { "speaker": "Hương (customer)", "voice": "female", "text": "Okay, send me a calendar invite. I have to go now." },
+      { "speaker": "Nam (sales rep)", "voice": "male", "text": "Will do. Thank you for your time, Hương." }
+    ],
+    "questions": [
+      { "q": "Why does Nam call Hương?", "options": ["To sell new software to reduce reporting time", "To ask her to invest", "To fix a bug in her system"], "answer": 0 },
+      { "q": "What does Nam ask to gauge interest?", "options": ["Her phone number", "Whether her company uses a reporting tool", "Her job title"], "answer": 1 },
+      { "q": "What does Hương agree to at the end?", "options": ["Buying the software immediately", "Receiving a calendar invite for a demo", "Cancelling the call"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "I'll keep this short since I know you're quite busy today.",
+    "Can I ask a few quick questions to gauge your interest?",
+    "This company is definitely on our target list this quarter.",
+    "Can we schedule a short demo sometime later this week?",
+    "Thank you so much for your time, I really appreciate it."
+  ]
+}
