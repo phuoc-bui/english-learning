@@ -1,0 +1,90 @@
+{
+  "date": "2026-08-08",
+  "track": "finance",
+  "theme": "Ngân sách & cắt giảm chi phí",
+  "vocab": [
+    {
+      "word": "budget line",
+      "ipa": "/ˈbʌdʒɪt laɪn/",
+      "meaning_vi": "hạng mục ngân sách",
+      "example": "We need to review each budget line before approving next quarter.",
+      "example_vi": "Chúng ta cần rà soát từng hạng mục ngân sách trước khi duyệt quý tới."
+    },
+    {
+      "word": "go over budget",
+      "ipa": "/ɡəʊ ˈəʊvər ˈbʌdʒɪt/",
+      "meaning_vi": "chi vượt ngân sách",
+      "example": "The training team is likely to go over budget this month.",
+      "example_vi": "Đội đào tạo có khả năng sẽ chi vượt ngân sách tháng này."
+    },
+    {
+      "word": "scale back on",
+      "ipa": "/skeɪl bæk ɒn/",
+      "meaning_vi": "cắt giảm bớt",
+      "example": "We need to scale back on travel expenses this quarter.",
+      "example_vi": "Chúng ta cần cắt giảm bớt chi phí đi lại quý này."
+    },
+    {
+      "word": "fixed cost",
+      "ipa": "/fɪkst kɒst/",
+      "meaning_vi": "chi phí cố định",
+      "example": "Office rent is a fixed cost we can't easily reduce.",
+      "example_vi": "Tiền thuê văn phòng là chi phí cố định khó giảm."
+    },
+    {
+      "word": "variable cost",
+      "ipa": "/ˈveəriəbəl kɒst/",
+      "meaning_vi": "chi phí biến đổi",
+      "example": "Variable costs like overtime pay changed a lot last month.",
+      "example_vi": "Chi phí biến đổi như tiền tăng ca thay đổi nhiều tháng trước."
+    },
+    {
+      "word": "cost-saving measure",
+      "ipa": "/kɒst ˈseɪvɪŋ ˈmeʒər/",
+      "meaning_vi": "biện pháp tiết kiệm chi phí",
+      "example": "Switching to a cheaper vendor is one cost-saving measure.",
+      "example_vi": "Chuyển sang nhà cung cấp rẻ hơn là một biện pháp tiết kiệm chi phí."
+    },
+    {
+      "word": "spending reduction",
+      "ipa": "/ˈspendɪŋ rɪˈdʌkʃən/",
+      "meaning_vi": "sự cắt giảm chi tiêu",
+      "example": "Every department must accept a 10% spending reduction this year.",
+      "example_vi": "Mọi phòng ban phải chấp nhận cắt giảm chi tiêu 10% năm nay."
+    },
+    {
+      "word": "reallocate funds",
+      "ipa": "/riːˈæləkeɪt fʌndz/",
+      "meaning_vi": "phân bổ lại nguồn quỹ",
+      "example": "We plan to reallocate funds from travel to training instead.",
+      "example_vi": "Chúng tôi dự định phân bổ lại nguồn quỹ từ đi lại sang đào tạo."
+    }
+  ],
+  "listening": {
+    "title": "Họp bàn cắt giảm ngân sách",
+    "lines": [
+      { "speaker": "Thảo (finance manager)", "voice": "female", "text": "Let's review each budget line before Q3 starts." },
+      { "speaker": "Long (team lead)", "voice": "male", "text": "Sure. I think the training team might go over budget again." },
+      { "speaker": "Thảo (finance manager)", "voice": "female", "text": "We need to scale back on travel expenses to balance it out." },
+      { "speaker": "Long (team lead)", "voice": "male", "text": "That makes sense. Office rent is still a fixed cost, right?" },
+      { "speaker": "Thảo (finance manager)", "voice": "female", "text": "Yes, but variable costs like overtime pay went up a lot." },
+      { "speaker": "Long (team lead)", "voice": "male", "text": "Do you have any cost-saving measures in mind?" },
+      { "speaker": "Thảo (finance manager)", "voice": "female", "text": "Switching to a cheaper vendor is one cost-saving measure." },
+      { "speaker": "Long (team lead)", "voice": "male", "text": "Will every department face a spending reduction this year?" },
+      { "speaker": "Thảo (finance manager)", "voice": "female", "text": "Yes, around 10%. We also plan to reallocate funds to training." },
+      { "speaker": "Long (team lead)", "voice": "male", "text": "Understood, I'll share this with my team." }
+    ],
+    "questions": [
+      { "q": "What team might go over budget this month?", "options": ["The training team", "The finance team", "No one"], "answer": 0 },
+      { "q": "What is one cost-saving measure mentioned?", "options": ["Switching to a cheaper vendor", "Hiring more staff", "Buying new laptops"], "answer": 0 },
+      { "q": "What percentage spending reduction applies to every department?", "options": ["10%", "50%", "100%"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Let's review each budget line before next quarter.",
+    "We need to scale back on travel expenses this quarter.",
+    "Office rent is a fixed cost we can't easily reduce.",
+    "Switching to a cheaper vendor is one cost-saving measure.",
+    "We plan to reallocate funds from travel to training."
+  ]
+}

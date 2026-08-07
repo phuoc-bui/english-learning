@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-08",
+  "track": "interview",
+  "theme": "Điểm mạnh điểm yếu",
+  "vocab": [
+    {
+      "word": "greatest strength",
+      "ipa": "/ˈɡreɪtɪst streŋθ/",
+      "meaning_vi": "điểm mạnh lớn nhất",
+      "example": "My greatest strength is staying calm under pressure.",
+      "example_vi": "Điểm mạnh lớn nhất của tôi là giữ bình tĩnh dưới áp lực."
+    },
+    {
+      "word": "area for growth",
+      "ipa": "/ˈeəriə fɔːr ɡrəʊθ/",
+      "meaning_vi": "điểm cần cải thiện",
+      "example": "Public speaking is still an area for growth for me.",
+      "example_vi": "Nói trước đám đông vẫn là điểm cần cải thiện của tôi."
+    },
+    {
+      "word": "self-awareness",
+      "ipa": "/ˌself əˈweərnəs/",
+      "meaning_vi": "sự tự nhận thức bản thân",
+      "example": "Self-awareness helps me know when to ask for help.",
+      "example_vi": "Sự tự nhận thức bản thân giúp tôi biết khi nào cần nhờ hỗ trợ."
+    },
+    {
+      "word": "make progress on",
+      "ipa": "/meɪk ˈprəʊɡres ɒn/",
+      "meaning_vi": "đạt tiến bộ trong việc",
+      "example": "I've been making progress on delegating tasks more effectively.",
+      "example_vi": "Tôi đã và đang đạt tiến bộ trong việc phân công công việc hiệu quả hơn."
+    },
+    {
+      "word": "eye for detail",
+      "ipa": "/aɪ fɔːr ˈdiːteɪl/",
+      "meaning_vi": "khả năng chú ý đến chi tiết",
+      "example": "My eye for detail helps me catch bugs early.",
+      "example_vi": "Khả năng chú ý đến chi tiết giúp tôi phát hiện lỗi sớm."
+    },
+    {
+      "word": "perfectionist tendencies",
+      "ipa": "/pərˈfekʃənɪst ˈtendənsiz/",
+      "meaning_vi": "xu hướng cầu toàn",
+      "example": "I used to have perfectionist tendencies, which sometimes slowed me down.",
+      "example_vi": "Trước đây tôi có xu hướng cầu toàn, điều đó đôi khi làm tôi chậm lại."
+    },
+    {
+      "word": "actively improve",
+      "ipa": "/ˈæktɪvli ɪmˈpruːv/",
+      "meaning_vi": "chủ động cải thiện",
+      "example": "I'm actively improving my time management skills.",
+      "example_vi": "Tôi đang chủ động cải thiện kỹ năng quản lý thời gian."
+    },
+    {
+      "word": "open to feedback",
+      "ipa": "/ˈəʊpən tə ˈfiːdbæk/",
+      "meaning_vi": "sẵn sàng đón nhận góp ý",
+      "example": "I'm always open to feedback from my teammates.",
+      "example_vi": "Tôi luôn sẵn sàng đón nhận góp ý từ đồng nghiệp."
+    }
+  ],
+  "listening": {
+    "title": "Phỏng vấn: Điểm mạnh điểm yếu",
+    "lines": [
+      { "speaker": "Ánh (interviewer)", "voice": "female", "text": "What would you say is your greatest strength?" },
+      { "speaker": "Huy (candidate)", "voice": "male", "text": "My greatest strength is staying calm under pressure." },
+      { "speaker": "Ánh (interviewer)", "voice": "female", "text": "Can you give an example?" },
+      { "speaker": "Huy (candidate)", "voice": "male", "text": "Sure, my eye for detail helped me catch a bug before launch." },
+      { "speaker": "Ánh (interviewer)", "voice": "female", "text": "Good. Now, what's an area for growth for you?" },
+      { "speaker": "Huy (candidate)", "voice": "male", "text": "I used to have perfectionist tendencies, which sometimes slowed me down." },
+      { "speaker": "Ánh (interviewer)", "voice": "female", "text": "How do you handle that now?" },
+      { "speaker": "Huy (candidate)", "voice": "male", "text": "I'm actively improving my time management skills." },
+      { "speaker": "Ánh (interviewer)", "voice": "female", "text": "That's great to hear. Do you have strong self-awareness about your habits?" },
+      { "speaker": "Huy (candidate)", "voice": "male", "text": "Yes, and I'm always open to feedback from my teammates." },
+      { "speaker": "Ánh (interviewer)", "voice": "female", "text": "What are you making progress on right now?" },
+      { "speaker": "Huy (candidate)", "voice": "male", "text": "I'm making progress on delegating tasks more effectively." }
+    ],
+    "questions": [
+      { "q": "What is Huy's greatest strength?", "options": ["Staying calm under pressure", "Public speaking", "Sales skills"], "answer": 0 },
+      { "q": "What is Huy's area for growth?", "options": ["Having perfectionist tendencies that slowed him down", "Being too lazy", "Being late to meetings"], "answer": 0 },
+      { "q": "What is Huy making progress on?", "options": ["Delegating tasks more effectively", "Learning a new language", "Changing careers"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "My greatest strength is staying calm under pressure.",
+    "I used to have perfectionist tendencies, which slowed me down.",
+    "I'm actively improving my time management skills.",
+    "I'm always open to feedback from my teammates.",
+    "My eye for detail helps me catch bugs early."
+  ]
+}

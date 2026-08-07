@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-08",
+  "track": "it",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    {
+      "word": "new hire",
+      "ipa": "/njuː haɪər/",
+      "meaning_vi": "nhân viên mới",
+      "example": "Please set up a laptop for the new hire before Monday.",
+      "example_vi": "Hãy chuẩn bị laptop cho nhân viên mới trước thứ Hai."
+    },
+    {
+      "word": "access request",
+      "ipa": "/ˈækses rɪˈkwest/",
+      "meaning_vi": "yêu cầu cấp quyền truy cập",
+      "example": "I submitted an access request for the staging server this morning.",
+      "example_vi": "Tôi đã gửi yêu cầu cấp quyền truy cập server staging sáng nay."
+    },
+    {
+      "word": "codebase walkthrough",
+      "ipa": "/ˈkəʊdbeɪs ˈwɔːkθruː/",
+      "meaning_vi": "buổi giới thiệu tổng quan mã nguồn",
+      "example": "Let's schedule a codebase walkthrough for your first week.",
+      "example_vi": "Hãy lên lịch một buổi giới thiệu tổng quan mã nguồn cho tuần đầu của bạn."
+    },
+    {
+      "word": "onboarding buddy",
+      "ipa": "/ˈɒnbɔːrdɪŋ ˈbʌdi/",
+      "meaning_vi": "người đồng hành hỗ trợ nhân viên mới",
+      "example": "Your onboarding buddy will answer questions during your first two weeks.",
+      "example_vi": "Người đồng hành hỗ trợ của bạn sẽ trả lời câu hỏi trong hai tuần đầu."
+    },
+    {
+      "word": "dev environment",
+      "ipa": "/dev ɪnˈvaɪrənmənt/",
+      "meaning_vi": "môi trường phát triển",
+      "example": "It usually takes half a day to set up the dev environment.",
+      "example_vi": "Thường mất nửa ngày để cài đặt môi trường phát triển."
+    },
+    {
+      "word": "starter task",
+      "ipa": "/ˈstɑːrtər tɑːsk/",
+      "meaning_vi": "công việc khởi động (dễ, để làm quen)",
+      "example": "I'll assign you a starter task so you can get familiar with the repo.",
+      "example_vi": "Tôi sẽ giao bạn một công việc khởi động để làm quen với repo."
+    },
+    {
+      "word": "internal wiki",
+      "ipa": "/ɪnˈtɜːrnəl ˈwɪki/",
+      "meaning_vi": "wiki nội bộ",
+      "example": "All the setup guides are on the internal wiki.",
+      "example_vi": "Tất cả hướng dẫn cài đặt đều nằm trên wiki nội bộ."
+    },
+    {
+      "word": "check-in meeting",
+      "ipa": "/ˈtʃek ɪn ˈmiːtɪŋ/",
+      "meaning_vi": "buổi họp kiểm tra tiến độ",
+      "example": "We'll have a short check-in meeting every Friday during your onboarding.",
+      "example_vi": "Chúng ta sẽ có buổi họp kiểm tra tiến độ ngắn mỗi thứ Sáu trong thời gian onboarding."
+    }
+  ],
+  "listening": {
+    "title": "Ngày đầu tiên của nhân viên mới",
+    "lines": [
+      { "speaker": "Hoa (team lead)", "voice": "female", "text": "Welcome to the team, Duy! You're our new hire this month." },
+      { "speaker": "Duy (new hire)", "voice": "male", "text": "Thank you! I'm excited to get started." },
+      { "speaker": "Hoa (team lead)", "voice": "female", "text": "First, I submitted an access request for your accounts yesterday." },
+      { "speaker": "Duy (new hire)", "voice": "male", "text": "Great, so I should be able to log in today?" },
+      { "speaker": "Hoa (team lead)", "voice": "female", "text": "Yes. This afternoon we'll do a codebase walkthrough together." },
+      { "speaker": "Duy (new hire)", "voice": "male", "text": "Sounds good. Who will be my onboarding buddy?" },
+      { "speaker": "Hoa (team lead)", "voice": "female", "text": "Khang will be your onboarding buddy for the first month." },
+      { "speaker": "Duy (new hire)", "voice": "male", "text": "Nice, I met him earlier. What should I do first?" },
+      { "speaker": "Hoa (team lead)", "voice": "female", "text": "First, set up your dev environment using the guide on the internal wiki." },
+      { "speaker": "Duy (new hire)", "voice": "male", "text": "Okay, and after that?" },
+      { "speaker": "Hoa (team lead)", "voice": "female", "text": "After that, I'll assign you a starter task to fix a small bug." },
+      { "speaker": "Duy (new hire)", "voice": "male", "text": "Perfect, that helps me learn the code faster." },
+      { "speaker": "Hoa (team lead)", "voice": "female", "text": "We'll also have a short check-in meeting every Friday to see how you're doing." }
+    ],
+    "questions": [
+      { "q": "What did Hoa submit for Duy yesterday?", "options": ["An access request", "A vacation request", "A budget request"], "answer": 0 },
+      { "q": "Who will be Duy's onboarding buddy?", "options": ["Khang", "Hoa", "Duy himself"], "answer": 0 },
+      { "q": "What will Duy work on first?", "options": ["A starter task fixing a small bug", "A full new feature", "A client presentation"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "You're our new hire this month, welcome to the team.",
+    "I submitted an access request for your accounts yesterday.",
+    "This afternoon we'll do a codebase walkthrough together.",
+    "Set up your dev environment using the guide on the wiki.",
+    "I'll assign you a starter task to fix a small bug."
+  ]
+}

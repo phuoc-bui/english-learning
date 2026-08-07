@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-08",
+  "track": "sales",
+  "theme": "Demo sản phẩm cho khách",
+  "vocab": [
+    {
+      "word": "take you through",
+      "ipa": "/teɪk juː θruː/",
+      "meaning_vi": "hướng dẫn từng bước cho bạn",
+      "example": "Let me take you through the main features of our platform.",
+      "example_vi": "Để tôi hướng dẫn bạn từng bước qua các tính năng chính của nền tảng."
+    },
+    {
+      "word": "real-world example",
+      "ipa": "/ˈriːəl wɜːrld ɪɡˈzɑːmpəl/",
+      "meaning_vi": "ví dụ thực tế",
+      "example": "This real-world example shows how the tool saves your team time.",
+      "example_vi": "Ví dụ thực tế này cho thấy công cụ giúp đội bạn tiết kiệm thời gian."
+    },
+    {
+      "word": "pain point",
+      "ipa": "/peɪn pɔɪnt/",
+      "meaning_vi": "vấn đề, nỗi đau của khách hàng",
+      "example": "Our software solves the pain point of manual data entry.",
+      "example_vi": "Phần mềm của chúng tôi giải quyết vấn đề nhập liệu thủ công."
+    },
+    {
+      "word": "customization",
+      "ipa": "/ˌkʌstəmaɪˈzeɪʃən/",
+      "meaning_vi": "tùy chỉnh",
+      "example": "Customization is easy—you can change the dashboard layout anytime.",
+      "example_vi": "Việc tùy chỉnh rất dễ dàng—bạn có thể thay đổi giao diện dashboard bất cứ lúc nào."
+    },
+    {
+      "word": "onboarding process",
+      "ipa": "/ˈɒnbɔːrdɪŋ ˈprəʊses/",
+      "meaning_vi": "quy trình khởi tạo, làm quen với sản phẩm",
+      "example": "Our onboarding process usually takes less than a week.",
+      "example_vi": "Quy trình khởi tạo của chúng tôi thường mất chưa đến một tuần."
+    },
+    {
+      "word": "seamless integration",
+      "ipa": "/ˈsiːmləs ˌɪntɪˈɡreɪʃən/",
+      "meaning_vi": "tích hợp liền mạch",
+      "example": "We offer seamless integration with your existing tools.",
+      "example_vi": "Chúng tôi cung cấp khả năng tích hợp liền mạch với các công cụ hiện có của bạn."
+    },
+    {
+      "word": "follow along",
+      "ipa": "/ˈfɒləʊ əˈlɒŋ/",
+      "meaning_vi": "theo dõi cùng",
+      "example": "Feel free to follow along on your own screen.",
+      "example_vi": "Bạn cứ tự nhiên theo dõi cùng trên màn hình của mình."
+    },
+    {
+      "word": "action plan",
+      "ipa": "/ˈækʃən plæn/",
+      "meaning_vi": "kế hoạch hành động",
+      "example": "Let's talk about the action plan after the demo.",
+      "example_vi": "Hãy nói về kế hoạch hành động sau buổi demo."
+    }
+  ],
+  "listening": {
+    "title": "Demo sản phẩm cho khách hàng mới",
+    "lines": [
+      { "speaker": "Vy (sales rep)", "voice": "female", "text": "Thanks for joining, Mr. Tan. Let me take you through our platform." },
+      { "speaker": "Tan (client)", "voice": "male", "text": "Sure, please go ahead." },
+      { "speaker": "Vy (sales rep)", "voice": "female", "text": "Here's a real-world example that matches your industry: automated reporting." },
+      { "speaker": "Tan (client)", "voice": "male", "text": "That looks useful. Does it solve manual data entry?" },
+      { "speaker": "Vy (sales rep)", "voice": "female", "text": "Exactly, that's the main pain point our tool solves." },
+      { "speaker": "Tan (client)", "voice": "male", "text": "Can we customize the dashboard for our team?" },
+      { "speaker": "Vy (sales rep)", "voice": "female", "text": "Yes, customization is easy and takes just a few clicks." },
+      { "speaker": "Tan (client)", "voice": "male", "text": "Good. What about connecting it to our current systems?" },
+      { "speaker": "Vy (sales rep)", "voice": "female", "text": "We offer seamless integration with most CRM tools." },
+      { "speaker": "Tan (client)", "voice": "male", "text": "Great, feel free to continue, I'll follow along." },
+      { "speaker": "Vy (sales rep)", "voice": "female", "text": "Our onboarding process takes less than a week too." },
+      { "speaker": "Tan (client)", "voice": "male", "text": "That's fast. What's the action plan from here?" }
+    ],
+    "questions": [
+      { "q": "What pain point does the tool solve?", "options": ["Manual data entry", "Slow internet", "High shipping cost"], "answer": 0 },
+      { "q": "Can Tan customize the dashboard?", "options": ["Yes, easily in a few clicks", "No, it's fixed", "Only with extra payment"], "answer": 0 },
+      { "q": "How long does onboarding take?", "options": ["Less than a week", "Three months", "One day"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Let me take you through the main features of our platform.",
+    "This real-world example shows how the tool saves time.",
+    "Our software solves the pain point of manual data entry.",
+    "We offer seamless integration with your existing tools.",
+    "Let's talk about the action plan after the demo."
+  ]
+}

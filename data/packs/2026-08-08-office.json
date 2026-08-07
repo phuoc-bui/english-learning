@@ -1,0 +1,89 @@
+{
+  "date": "2026-08-08",
+  "track": "office",
+  "theme": "Viết email & follow-up",
+  "vocab": [
+    {
+      "word": "attached file",
+      "ipa": "/əˈtætʃt faɪl/",
+      "meaning_vi": "tệp đính kèm",
+      "example": "Please find the report in the attached file.",
+      "example_vi": "Vui lòng xem báo cáo trong tệp đính kèm."
+    },
+    {
+      "word": "kindly",
+      "ipa": "/ˈkaɪndli/",
+      "meaning_vi": "làm ơn, xin vui lòng",
+      "example": "Could you kindly send me the updated file?",
+      "example_vi": "Bạn có thể vui lòng gửi cho tôi tệp đã cập nhật không?"
+    },
+    {
+      "word": "as per our discussion",
+      "ipa": "/æz pɜːr aʊər dɪˈskʌʃən/",
+      "meaning_vi": "như đã trao đổi",
+      "example": "As per our discussion, I'm sending the updated proposal.",
+      "example_vi": "Như đã trao đổi, tôi gửi bản đề xuất đã cập nhật."
+    },
+    {
+      "word": "pending reply",
+      "ipa": "/ˈpendɪŋ rɪˈplaɪ/",
+      "meaning_vi": "đang chờ phản hồi",
+      "example": "This email has been pending reply for three days.",
+      "example_vi": "Email này đã chờ phản hồi ba ngày rồi."
+    },
+    {
+      "word": "circle back",
+      "ipa": "/ˈsɜːrkəl bæk/",
+      "meaning_vi": "quay lại trao đổi tiếp",
+      "example": "Let's circle back on this once the client confirms.",
+      "example_vi": "Chúng ta hãy quay lại trao đổi vấn đề này khi khách xác nhận."
+    },
+    {
+      "word": "gentle reminder",
+      "ipa": "/ˈdʒentl rɪˈmaɪndər/",
+      "meaning_vi": "lời nhắc nhẹ nhàng",
+      "example": "Just a gentle reminder about tomorrow's deadline.",
+      "example_vi": "Chỉ là lời nhắc nhẹ về hạn chót ngày mai."
+    },
+    {
+      "word": "cc'd",
+      "ipa": "/ˌsiː ˈsiːd/",
+      "meaning_vi": "đã được gửi cc (bản sao)",
+      "example": "I've cc'd the finance team so they're aware too.",
+      "example_vi": "Tôi đã cc đội tài chính để họ cũng nắm được."
+    },
+    {
+      "word": "close the loop",
+      "ipa": "/kləʊz ðə luːp/",
+      "meaning_vi": "hoàn tất trao đổi, thông báo kết quả cuối",
+      "example": "Just closing the loop to confirm the meeting is set.",
+      "example_vi": "Chỉ là để hoàn tất trao đổi xác nhận cuộc họp đã chốt."
+    }
+  ],
+  "listening": {
+    "title": "Viết email nhắc việc",
+    "lines": [
+      { "speaker": "Trang", "voice": "female", "text": "Hi Phong, did you see my email about the budget file?" },
+      { "speaker": "Phong", "voice": "male", "text": "Not yet, let me check. Was there an attached file?" },
+      { "speaker": "Trang", "voice": "female", "text": "Yes, as per our discussion, I sent the updated numbers yesterday." },
+      { "speaker": "Phong", "voice": "male", "text": "Got it, I see it now. Sorry, it's been pending reply." },
+      { "speaker": "Trang", "voice": "female", "text": "No problem, could you kindly review it today?" },
+      { "speaker": "Phong", "voice": "male", "text": "Sure. Should I reply directly or circle back later?" },
+      { "speaker": "Trang", "voice": "female", "text": "A quick reply is fine. I'll send a gentle reminder if I don't hear back." },
+      { "speaker": "Phong", "voice": "male", "text": "Understood. I'll cc'd my manager too, just in case." },
+      { "speaker": "Trang", "voice": "female", "text": "Perfect, thanks for closing the loop on this." }
+    ],
+    "questions": [
+      { "q": "What was in Trang's email?", "options": ["An attached file with updated numbers", "A meeting invite", "A holiday notice"], "answer": 0 },
+      { "q": "Why hasn't Phong replied yet?", "options": ["The email was pending reply", "He never received it", "He was on leave"], "answer": 0 },
+      { "q": "What will Phong do?", "options": ["Review it today and cc his manager", "Ignore the email", "Forward it without reading"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Please find the updated report in the attached file.",
+    "Could you kindly review this before the end of day?",
+    "As per our discussion, I'm sending the revised file.",
+    "Just a gentle reminder about tomorrow's deadline.",
+    "I'm closing the loop to confirm everything is set."
+  ]
+}
