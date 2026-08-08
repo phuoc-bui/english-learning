@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-09",
+  "track": "interview",
+  "theme": "Kể về dự án đáng nhớ",
+  "vocab": [
+    {
+      "word": "take ownership",
+      "ipa": "/teɪk ˈəʊnərʃɪp/",
+      "meaning_vi": "nhận trách nhiệm chính",
+      "example": "I took ownership of the migration project from day one.",
+      "example_vi": "Tôi đã nhận trách nhiệm chính cho dự án di chuyển hệ thống ngay từ đầu."
+    },
+    {
+      "word": "proudest moment",
+      "ipa": "/ˈpraʊdɪst ˈməʊmənt/",
+      "meaning_vi": "khoảnh khắc tự hào nhất",
+      "example": "Launching that feature was my proudest moment at the company.",
+      "example_vi": "Ra mắt tính năng đó là khoảnh khắc tự hào nhất của tôi tại công ty."
+    },
+    {
+      "word": "biggest challenge",
+      "ipa": "/ˈbɪɡɪst ˈtʃælɪndʒ/",
+      "meaning_vi": "thách thức lớn nhất",
+      "example": "The biggest challenge was meeting the deadline with a small team.",
+      "example_vi": "Thách thức lớn nhất là hoàn thành đúng hạn với đội ngũ nhỏ."
+    },
+    {
+      "word": "end result",
+      "ipa": "/end rɪˈzʌlt/",
+      "meaning_vi": "kết quả cuối cùng",
+      "example": "The end result was a much faster and more stable system.",
+      "example_vi": "Kết quả cuối cùng là một hệ thống nhanh hơn và ổn định hơn nhiều."
+    },
+    {
+      "word": "hands-on role",
+      "ipa": "/hændz ɒn rəʊl/",
+      "meaning_vi": "vai trò trực tiếp thực hiện",
+      "example": "I had a hands-on role in every stage of the project.",
+      "example_vi": "Tôi có vai trò trực tiếp thực hiện ở mọi giai đoạn của dự án."
+    },
+    {
+      "word": "tackle a problem",
+      "ipa": "/ˈtækl ə ˈprɒbləm/",
+      "meaning_vi": "giải quyết một vấn đề",
+      "example": "We had to tackle a problem with the database every single week.",
+      "example_vi": "Chúng tôi phải giải quyết một vấn đề về cơ sở dữ liệu mỗi tuần."
+    },
+    {
+      "word": "project deadline",
+      "ipa": "/ˈprɒdʒekt ˈdedlaɪn/",
+      "meaning_vi": "hạn chót dự án",
+      "example": "The project deadline was only six weeks away when I joined.",
+      "example_vi": "Hạn chót dự án chỉ còn sáu tuần khi tôi tham gia."
+    },
+    {
+      "word": "deliver on time",
+      "ipa": "/dɪˈlɪvər ɒn taɪm/",
+      "meaning_vi": "hoàn thành đúng hạn",
+      "example": "Despite the pressure, we managed to deliver on time.",
+      "example_vi": "Dù áp lực, chúng tôi vẫn hoàn thành đúng hạn."
+    }
+  ],
+  "listening": {
+    "title": "Phỏng vấn: Kể về dự án đáng nhớ",
+    "lines": [
+      { "speaker": "An (interviewer)", "voice": "female", "text": "Can you tell me about a project you're really proud of?" },
+      { "speaker": "Khang (candidate)", "voice": "male", "text": "Sure. Last year I took ownership of migrating our old system to the cloud." },
+      { "speaker": "An (interviewer)", "voice": "female", "text": "That sounds big. What was your biggest challenge?" },
+      { "speaker": "Khang (candidate)", "voice": "male", "text": "The biggest challenge was the tight project deadline — only six weeks." },
+      { "speaker": "An (interviewer)", "voice": "female", "text": "How did you manage that?" },
+      { "speaker": "Khang (candidate)", "voice": "male", "text": "I took a hands-on role every day and made sure to tackle a problem the moment it appeared." },
+      { "speaker": "An (interviewer)", "voice": "female", "text": "What was the end result?" },
+      { "speaker": "Khang (candidate)", "voice": "male", "text": "We managed to deliver on time, and the system became much faster." },
+      { "speaker": "An (interviewer)", "voice": "female", "text": "That must have been your proudest moment." },
+      { "speaker": "Khang (candidate)", "voice": "male", "text": "It really was. Seeing the whole team succeed together felt amazing." },
+      { "speaker": "An (interviewer)", "voice": "female", "text": "What did you learn from that experience?" },
+      { "speaker": "Khang (candidate)", "voice": "male", "text": "I learned that taking ownership early really helps a team stay focused." }
+    ],
+    "questions": [
+      { "q": "What project does Khang describe?", "options": ["Migrating the old system to the cloud", "Building a new mobile app", "Redesigning the website"], "answer": 0 },
+      { "q": "What was Khang's biggest challenge?", "options": ["A tight six-week deadline", "A lack of budget", "Not enough team members"], "answer": 0 },
+      { "q": "What was the end result of the project?", "options": ["They delivered on time and the system became faster", "The project was cancelled", "They missed the deadline"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Last year I took ownership of migrating our system to the cloud.",
+    "The biggest challenge was finishing everything within a tight six-week deadline.",
+    "I took a hands-on role and tackled problems as they appeared.",
+    "In the end, we delivered on time and improved system performance.",
+    "Seeing the whole team succeed together was truly my proudest moment."
+  ]
+}

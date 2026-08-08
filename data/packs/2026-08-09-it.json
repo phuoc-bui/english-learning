@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-09",
+  "track": "it",
+  "theme": "Nói về email & follow-up",
+  "vocab": [
+    {
+      "word": "follow-up email",
+      "ipa": "/ˈfɒləʊ ʌp ˈiːmeɪl/",
+      "meaning_vi": "email nhắc lại/theo dõi",
+      "example": "I'll send a follow-up email if the client doesn't respond by tomorrow.",
+      "example_vi": "Tôi sẽ gửi email nhắc lại nếu khách hàng không phản hồi vào ngày mai."
+    },
+    {
+      "word": "cc someone",
+      "ipa": "/siː siː ˈsʌmwʌn/",
+      "meaning_vi": "gửi bản sao (cc) email cho ai đó",
+      "example": "Please cc me on all emails to the client.",
+      "example_vi": "Hãy cc tôi vào tất cả email gửi khách hàng."
+    },
+    {
+      "word": "reply-all",
+      "ipa": "/rɪˈplaɪ ɔːl/",
+      "meaning_vi": "trả lời tất cả người nhận",
+      "example": "Be careful when you hit reply-all on a large email thread.",
+      "example_vi": "Hãy cẩn thận khi bấm trả lời tất cả trên một luồng email đông người."
+    },
+    {
+      "word": "attach a file",
+      "ipa": "/əˈtætʃ ə faɪl/",
+      "meaning_vi": "đính kèm tệp",
+      "example": "Don't forget to attach a file with the updated report.",
+      "example_vi": "Đừng quên đính kèm tệp báo cáo đã cập nhật."
+    },
+    {
+      "word": "read receipt",
+      "ipa": "/riːd rɪˈsiːt/",
+      "meaning_vi": "xác nhận đã đọc (email)",
+      "example": "I requested a read receipt so I'd know when they opened it.",
+      "example_vi": "Tôi đã yêu cầu xác nhận đã đọc để biết khi nào họ mở email."
+    },
+    {
+      "word": "bump the thread",
+      "ipa": "/bʌmp ðə θred/",
+      "meaning_vi": "nhắc lại luồng email cũ",
+      "example": "If nobody replies by Friday, I'll bump the thread.",
+      "example_vi": "Nếu không ai trả lời trước thứ Sáu, tôi sẽ nhắc lại luồng email."
+    },
+    {
+      "word": "prompt reply",
+      "ipa": "/prɒmpt rɪˈplaɪ/",
+      "meaning_vi": "phản hồi nhanh chóng",
+      "example": "Thanks for your prompt reply, it really helped us move forward.",
+      "example_vi": "Cảm ơn phản hồi nhanh chóng của bạn, điều đó thực sự giúp chúng tôi tiến triển."
+    },
+    {
+      "word": "inbox zero",
+      "ipa": "/ˈɪnbɒks ˈzɪərəʊ/",
+      "meaning_vi": "xử lý hết email trong hộp thư",
+      "example": "I try to reach inbox zero before I leave the office every day.",
+      "example_vi": "Tôi cố gắng xử lý hết email trong hộp thư trước khi rời văn phòng mỗi ngày."
+    }
+  ],
+  "listening": {
+    "title": "Theo dõi email với khách hàng",
+    "lines": [
+      { "speaker": "Linh (developer)", "voice": "female", "text": "Did you see the email from the client about the login bug?" },
+      { "speaker": "Tuan (developer)", "voice": "male", "text": "Not yet, was I cc'd on it?" },
+      { "speaker": "Linh (developer)", "voice": "female", "text": "Yes, you were cc'd this morning. It's still unanswered." },
+      { "speaker": "Tuan (developer)", "voice": "male", "text": "Let me check... found it. Should I reply-all or just answer the client?" },
+      { "speaker": "Linh (developer)", "voice": "female", "text": "Reply-all is safer, the PM is in the thread too." },
+      { "speaker": "Tuan (developer)", "voice": "male", "text": "Okay. I'll attach a file with the error logs." },
+      { "speaker": "Linh (developer)", "voice": "female", "text": "Good. Ask for a read receipt so we know they saw it." },
+      { "speaker": "Tuan (developer)", "voice": "male", "text": "Will do. It's been three days, should I send a follow-up email?" },
+      { "speaker": "Linh (developer)", "voice": "female", "text": "Yes, a short follow-up email usually gets a prompt reply." },
+      { "speaker": "Tuan (developer)", "voice": "male", "text": "Sent! If they don't answer by tomorrow, I'll bump the thread." },
+      { "speaker": "Linh (developer)", "voice": "female", "text": "Good plan. Hopefully we get to inbox zero by Friday." },
+      { "speaker": "Tuan (developer)", "voice": "male", "text": "Fingers crossed. I'll let you know when they respond." }
+    ],
+    "questions": [
+      { "q": "Was Tuan cc'd on the client's email?", "options": ["Yes, this morning", "No, never", "Only last week"], "answer": 0 },
+      { "q": "What does Tuan attach to his reply?", "options": ["A file with error logs", "A screenshot", "An invoice"], "answer": 0 },
+      { "q": "What will Tuan do if there's no answer by tomorrow?", "options": ["Bump the thread", "Call the client", "Close the ticket"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Were you cc'd on the client's email about the login bug?",
+    "Should I reply-all, or just send a reply to the client?",
+    "I'll attach a file with the error logs from this morning.",
+    "Let's send a follow-up email and ask for a read receipt.",
+    "If they don't reply soon, I'll bump the thread tomorrow."
+  ]
+}

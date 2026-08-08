@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-09",
+  "track": "office",
+  "theme": "Xin nghỉ phép & bàn giao",
+  "vocab": [
+    {
+      "word": "leave application",
+      "ipa": "/liːv ˌæplɪˈkeɪʃn/",
+      "meaning_vi": "đơn xin nghỉ phép",
+      "example": "I submitted my leave application to HR this morning.",
+      "example_vi": "Tôi đã nộp đơn xin nghỉ phép cho phòng nhân sự sáng nay."
+    },
+    {
+      "word": "leave dates",
+      "ipa": "/liːv deɪts/",
+      "meaning_vi": "các ngày nghỉ phép",
+      "example": "Please confirm your leave dates so we can plan the schedule.",
+      "example_vi": "Vui lòng xác nhận các ngày nghỉ phép để chúng tôi sắp xếp lịch."
+    },
+    {
+      "word": "approval pending",
+      "ipa": "/əˈpruːvəl ˈpendɪŋ/",
+      "meaning_vi": "đang chờ phê duyệt",
+      "example": "My request is still approval pending from my manager.",
+      "example_vi": "Yêu cầu của tôi vẫn đang chờ quản lý phê duyệt."
+    },
+    {
+      "word": "cover my duties",
+      "ipa": "/ˈkʌvər maɪ ˈdjuːtiz/",
+      "meaning_vi": "đảm nhận công việc thay tôi",
+      "example": "Could you cover my duties while I'm on leave?",
+      "example_vi": "Bạn có thể đảm nhận công việc thay tôi trong lúc tôi nghỉ phép không?"
+    },
+    {
+      "word": "handover meeting",
+      "ipa": "/ˈhændəʊvər ˈmiːtɪŋ/",
+      "meaning_vi": "buổi họp bàn giao",
+      "example": "Let's schedule a handover meeting before you go.",
+      "example_vi": "Hãy lên lịch một buổi họp bàn giao trước khi bạn đi."
+    },
+    {
+      "word": "delegate authority",
+      "ipa": "/ˈdelɪɡeɪt ɔːˈθɒrəti/",
+      "meaning_vi": "ủy quyền",
+      "example": "I'll delegate authority to Mai for small approvals.",
+      "example_vi": "Tôi sẽ ủy quyền cho Mai để phê duyệt các việc nhỏ."
+    },
+    {
+      "word": "pressing issue",
+      "ipa": "/ˈpresɪŋ ˈɪʃuː/",
+      "meaning_vi": "vấn đề cấp bách",
+      "example": "Let me know if there's any pressing issue while I'm away.",
+      "example_vi": "Hãy cho tôi biết nếu có vấn đề cấp bách nào trong lúc tôi vắng mặt."
+    },
+    {
+      "word": "paid time off",
+      "ipa": "/peɪd taɪm ɒf/",
+      "meaning_vi": "nghỉ phép có lương",
+      "example": "Everyone gets twelve days of paid time off per year.",
+      "example_vi": "Mỗi người được nghỉ phép có lương mười hai ngày một năm."
+    }
+  ],
+  "listening": {
+    "title": "Xin nghỉ phép và bàn giao công việc",
+    "lines": [
+      { "speaker": "Duc (employee)", "voice": "male", "text": "Lan, I'd like to submit a leave application for next week." },
+      { "speaker": "Lan (manager)", "voice": "female", "text": "Sure, what are your leave dates exactly?" },
+      { "speaker": "Duc (employee)", "voice": "male", "text": "From Monday to Wednesday, three days in total." },
+      { "speaker": "Lan (manager)", "voice": "female", "text": "Have you submitted it? Is the approval pending from HR?" },
+      { "speaker": "Duc (employee)", "voice": "male", "text": "Yes, I just sent it. It's approval pending right now." },
+      { "speaker": "Lan (manager)", "voice": "female", "text": "No problem. Who will cover your duties while you're away?" },
+      { "speaker": "Duc (employee)", "voice": "male", "text": "Mai agreed to cover my duties for those three days." },
+      { "speaker": "Lan (manager)", "voice": "female", "text": "Great. Let's set up a handover meeting today so she's ready." },
+      { "speaker": "Duc (employee)", "voice": "male", "text": "Sure. I'll also delegate authority to her for approving small requests." },
+      { "speaker": "Lan (manager)", "voice": "female", "text": "Good idea. Is there any pressing issue I should know about?" },
+      { "speaker": "Duc (employee)", "voice": "male", "text": "Not really, just the client report due on Friday." },
+      { "speaker": "Lan (manager)", "voice": "female", "text": "Got it. I'll keep an eye on that. Enjoy your paid time off!" }
+    ],
+    "questions": [
+      { "q": "What are Duc's leave dates?", "options": ["Monday to Wednesday, three days", "A full week", "Only Friday"], "answer": 0 },
+      { "q": "Who will cover Duc's duties while he's away?", "options": ["Mai", "Lan", "HR"], "answer": 0 },
+      { "q": "What does Lan ask about before Duc leaves?", "options": ["Any pressing issue she should know about", "His salary", "His vacation plans"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I'd like to submit a leave application for next week, please.",
+    "What are your leave dates, and how many days do you need?",
+    "Mai agreed to cover my duties while I'm away next week.",
+    "Let's set up a handover meeting so she's fully ready.",
+    "Is there any pressing issue I should know about before I go?"
+  ]
+}

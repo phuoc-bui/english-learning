@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-09",
+  "track": "sales",
+  "theme": "Xử lý khi khách từ chối",
+  "vocab": [
+    {
+      "word": "soften the blow",
+      "ipa": "/ˈsɒfn ðə bləʊ/",
+      "meaning_vi": "làm giảm nhẹ cú sốc",
+      "example": "I tried to soften the blow when I gave her the news.",
+      "example_vi": "Tôi đã cố làm giảm nhẹ cú sốc khi báo tin cho cô ấy."
+    },
+    {
+      "word": "address a concern",
+      "ipa": "/əˈdres ə kənˈsɜːn/",
+      "meaning_vi": "giải quyết mối lo ngại",
+      "example": "Let me address a concern you might have about the price.",
+      "example_vi": "Để tôi giải quyết mối lo ngại của bạn về giá cả."
+    },
+    {
+      "word": "pushback",
+      "ipa": "/ˈpʊʃbæk/",
+      "meaning_vi": "sự phản đối, từ chối",
+      "example": "We usually get some pushback before customers agree to the deal.",
+      "example_vi": "Chúng tôi thường gặp phản đối trước khi khách hàng đồng ý với thỏa thuận."
+    },
+    {
+      "word": "reconsider",
+      "ipa": "/ˌriːkənˈsɪdər/",
+      "meaning_vi": "cân nhắc lại",
+      "example": "Would you reconsider if we offered a shorter contract?",
+      "example_vi": "Bạn có cân nhắc lại nếu chúng tôi đề nghị hợp đồng ngắn hơn không?"
+    },
+    {
+      "word": "not the right fit",
+      "ipa": "/nɒt ðə raɪt fɪt/",
+      "meaning_vi": "không phù hợp",
+      "example": "The client said our product was just not the right fit right now.",
+      "example_vi": "Khách hàng nói sản phẩm của chúng tôi hiện không phù hợp."
+    },
+    {
+      "word": "keep the door open",
+      "ipa": "/kiːp ðə dɔːr ˈəʊpən/",
+      "meaning_vi": "để ngỏ cơ hội",
+      "example": "Even after a no, I always try to keep the door open.",
+      "example_vi": "Ngay cả sau khi bị từ chối, tôi luôn cố gắng để ngỏ cơ hội."
+    },
+    {
+      "word": "respect the decision",
+      "ipa": "/rɪˈspekt ðə dɪˈsɪʒn/",
+      "meaning_vi": "tôn trọng quyết định",
+      "example": "I respect the decision, even though I'm a little disappointed.",
+      "example_vi": "Tôi tôn trọng quyết định đó, dù có hơi thất vọng."
+    },
+    {
+      "word": "follow up later",
+      "ipa": "/ˈfɒləʊ ʌp ˈleɪtər/",
+      "meaning_vi": "liên hệ lại sau",
+      "example": "I'll follow up later next quarter to check in.",
+      "example_vi": "Tôi sẽ liên hệ lại vào quý sau để hỏi thăm."
+    }
+  ],
+  "listening": {
+    "title": "Khi khách hàng từ chối đề nghị",
+    "lines": [
+      { "speaker": "Duy (sales rep)", "voice": "male", "text": "Hi Trang, thanks for letting me know. I want to soften the blow a little — I know this wasn't an easy decision." },
+      { "speaker": "Trang (client)", "voice": "female", "text": "Thanks Duy. Honestly, the price is just too high for our budget right now." },
+      { "speaker": "Duy (sales rep)", "voice": "male", "text": "I understand. Let me address a concern — the price actually includes free onboarding support." },
+      { "speaker": "Trang (client)", "voice": "female", "text": "I see, but I think it's just not the right fit for us this quarter." },
+      { "speaker": "Duy (sales rep)", "voice": "male", "text": "That's fair, I respect the decision. Can I ask what would need to change?" },
+      { "speaker": "Trang (client)", "voice": "female", "text": "Maybe if the contract term was shorter, we could reconsider." },
+      { "speaker": "Duy (sales rep)", "voice": "male", "text": "Got it. I'd like to keep the door open in case things change." },
+      { "speaker": "Trang (client)", "voice": "female", "text": "Sure, I appreciate that you're not pushing too hard." },
+      { "speaker": "Duy (sales rep)", "voice": "male", "text": "No worries, some pushback is completely normal in sales." },
+      { "speaker": "Trang (client)", "voice": "female", "text": "Thanks for being so understanding." },
+      { "speaker": "Duy (sales rep)", "voice": "male", "text": "I'll follow up later next quarter to check in." },
+      { "speaker": "Trang (client)", "voice": "female", "text": "Sounds good, talk to you then, Duy." }
+    ],
+    "questions": [
+      { "q": "Why does Trang decide not to move forward?", "options": ["The price is too high for their budget", "The product doesn't work", "She found a better vendor"], "answer": 0 },
+      { "q": "What does Duy offer to address Trang's concern?", "options": ["Free onboarding support", "A bigger discount", "A free trial"], "answer": 0 },
+      { "q": "What could make Trang reconsider?", "options": ["A shorter contract term", "A longer trial period", "A different sales rep"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I want to soften the blow — I know this wasn't easy.",
+    "Let me address a concern about the pricing for your team.",
+    "I think it's just not the right fit for us right now.",
+    "I'd like to keep the door open in case things change.",
+    "Some pushback is completely normal, so don't worry about it."
+  ]
+}

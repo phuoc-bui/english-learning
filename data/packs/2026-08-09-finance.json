@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-09",
+  "track": "finance",
+  "theme": "Hoá đơn và thanh toán",
+  "vocab": [
+    {
+      "word": "payment reminder",
+      "ipa": "/ˈpeɪmənt rɪˈmaɪndər/",
+      "meaning_vi": "nhắc nhở thanh toán",
+      "example": "We sent a payment reminder to the client yesterday.",
+      "example_vi": "Chúng tôi đã gửi nhắc nhở thanh toán cho khách hàng hôm qua."
+    },
+    {
+      "word": "invoice number",
+      "ipa": "/ˈɪnvɔɪs ˈnʌmbər/",
+      "meaning_vi": "số hóa đơn",
+      "example": "Please quote the invoice number when you make the payment.",
+      "example_vi": "Vui lòng ghi rõ số hóa đơn khi thanh toán."
+    },
+    {
+      "word": "overdue invoice",
+      "ipa": "/ˌəʊvəˈdjuː ˈɪnvɔɪs/",
+      "meaning_vi": "hóa đơn quá hạn",
+      "example": "This overdue invoice needs to be settled by Friday.",
+      "example_vi": "Hóa đơn quá hạn này cần được thanh toán trước thứ Sáu."
+    },
+    {
+      "word": "wire transfer",
+      "ipa": "/ˈwaɪər ˈtrænsfɜːr/",
+      "meaning_vi": "chuyển khoản ngân hàng",
+      "example": "We usually pay large invoices by wire transfer.",
+      "example_vi": "Chúng tôi thường thanh toán hóa đơn lớn bằng chuyển khoản ngân hàng."
+    },
+    {
+      "word": "payment discrepancy",
+      "ipa": "/ˈpeɪmənt dɪˈskrepənsi/",
+      "meaning_vi": "sự chênh lệch thanh toán",
+      "example": "There's a small payment discrepancy we need to check.",
+      "example_vi": "Có một sự chênh lệch thanh toán nhỏ chúng ta cần kiểm tra."
+    },
+    {
+      "word": "proof of payment",
+      "ipa": "/pruːf əv ˈpeɪmənt/",
+      "meaning_vi": "chứng từ thanh toán",
+      "example": "Could you send us proof of payment for that invoice?",
+      "example_vi": "Bạn có thể gửi chứng từ thanh toán cho hóa đơn đó không?"
+    },
+    {
+      "word": "credit terms",
+      "ipa": "/ˈkredɪt tɜːmz/",
+      "meaning_vi": "điều khoản công nợ",
+      "example": "Our credit terms with this supplier are thirty days.",
+      "example_vi": "Điều khoản công nợ của chúng tôi với nhà cung cấp này là ba mươi ngày."
+    },
+    {
+      "word": "write off",
+      "ipa": "/raɪt ɒf/",
+      "meaning_vi": "xóa nợ/ghi nhận là mất",
+      "example": "The amount is small, so we can just write off.",
+      "example_vi": "Số tiền nhỏ, nên chúng ta có thể xóa nợ luôn."
+    }
+  ],
+  "listening": {
+    "title": "Hóa đơn quá hạn và thanh toán",
+    "lines": [
+      { "speaker": "Khoa (accountant)", "voice": "male", "text": "An, did we get a payment reminder from the supplier again?" },
+      { "speaker": "An (accountant)", "voice": "female", "text": "Yes, it's about invoice number INV-2291. It's overdue now." },
+      { "speaker": "Khoa (accountant)", "voice": "male", "text": "Right, that overdue invoice was due last week. Did we already pay it?" },
+      { "speaker": "An (accountant)", "voice": "female", "text": "I checked our records, and I don't see any wire transfer for it yet." },
+      { "speaker": "Khoa (accountant)", "voice": "male", "text": "Let's check with the vendor. Maybe there's a payment discrepancy somewhere." },
+      { "speaker": "An (accountant)", "voice": "female", "text": "Good idea. I'll ask them to send proof of payment if they think it's paid." },
+      { "speaker": "Khoa (accountant)", "voice": "male", "text": "And if it turns out we really missed it, let's process it today." },
+      { "speaker": "An (accountant)", "voice": "female", "text": "Agreed. Do we still have 30-day credit terms with this supplier?" },
+      { "speaker": "Khoa (accountant)", "voice": "male", "text": "Yes, so we're actually within the grace period, just cutting it close." },
+      { "speaker": "An (accountant)", "voice": "female", "text": "Okay, I'll arrange the wire transfer this afternoon." },
+      { "speaker": "Khoa (accountant)", "voice": "male", "text": "Great. And if it's a really small amount, sometimes it's easier to just write off." },
+      { "speaker": "An (accountant)", "voice": "female", "text": "True, but this one's too large to write off. Let's just pay it properly." }
+    ],
+    "questions": [
+      { "q": "What is the status of invoice INV-2291?", "options": ["It's overdue", "It's already paid", "It's cancelled"], "answer": 0 },
+      { "q": "What does Khoa suggest checking with the vendor?", "options": ["Whether there's a payment discrepancy", "Whether they want a discount", "Whether they changed address"], "answer": 0 },
+      { "q": "Why don't they just write off the invoice?", "options": ["The amount is too large", "The vendor asked them not to", "It's against company policy"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "We got a payment reminder from the supplier again this week.",
+    "This invoice number is now more than a week overdue.",
+    "I don't see any wire transfer for this invoice yet.",
+    "Could you send us proof of payment if it's already paid?",
+    "We still have thirty-day credit terms with this particular supplier."
+  ]
+}
