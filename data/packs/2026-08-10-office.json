@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-10",
+  "track": "office",
+  "theme": "Báo cáo với sếp",
+  "vocab": [
+    {
+      "word": "give visibility",
+      "ipa": "/ɡɪv ˌvɪzəˈbɪləti/",
+      "meaning_vi": "cho biết rõ tình hình, minh bạch thông tin",
+      "example": "I want to give visibility on one risk before it grows.",
+      "example_vi": "Tôi muốn cho sếp biết rõ về một rủi ro trước khi nó lớn hơn."
+    },
+    {
+      "word": "top-line summary",
+      "ipa": "/tɒp laɪn ˈsʌməri/",
+      "meaning_vi": "tóm tắt tổng quan ngắn gọn",
+      "example": "Give me the top-line summary first, then the details.",
+      "example_vi": "Hãy cho tôi tóm tắt tổng quan trước, rồi mới đến chi tiết."
+    },
+    {
+      "word": "traffic-light status",
+      "ipa": "/ˈtræfɪk laɪt ˈsteɪtəs/",
+      "meaning_vi": "trạng thái theo màu đèn giao thông (xanh/vàng/đỏ)",
+      "example": "What's the traffic-light status for each task this week?",
+      "example_vi": "Trạng thái đèn giao thông của từng việc trong tuần này là gì?"
+    },
+    {
+      "word": "surface a concern",
+      "ipa": "/ˈsɜːfɪs ə kənˈsɜːn/",
+      "meaning_vi": "nêu lên một mối lo ngại",
+      "example": "Thanks for surfacing that concern early in the project.",
+      "example_vi": "Cảm ơn bạn đã nêu lên mối lo ngại đó sớm trong dự án."
+    },
+    {
+      "word": "get the green light",
+      "ipa": "/ɡet ðə ɡriːn laɪt/",
+      "meaning_vi": "được chấp thuận, được bật đèn xanh",
+      "example": "Should I get the green light from you before sending it out?",
+      "example_vi": "Tôi có cần được sếp chấp thuận trước khi gửi đi không?"
+    },
+    {
+      "word": "action tracker",
+      "ipa": "/ˈækʃən ˈtrækər/",
+      "meaning_vi": "bảng theo dõi các việc cần làm",
+      "example": "I'll share the action tracker after this meeting.",
+      "example_vi": "Tôi sẽ gửi bảng theo dõi công việc sau buổi họp này."
+    },
+    {
+      "word": "manage expectations",
+      "ipa": "/ˈmænɪdʒ ˌekspekˈteɪʃənz/",
+      "meaning_vi": "quản lý kỳ vọng của người khác",
+      "example": "Please help me manage expectations with the client about the timeline.",
+      "example_vi": "Hãy giúp tôi quản lý kỳ vọng của khách hàng về tiến độ."
+    },
+    {
+      "word": "talking points",
+      "ipa": "/ˈtɔːkɪŋ pɔɪnts/",
+      "meaning_vi": "các ý chính cần trình bày",
+      "example": "Prepare your talking points before the client call tomorrow.",
+      "example_vi": "Hãy chuẩn bị các ý chính trước cuộc gọi với khách hàng ngày mai."
+    }
+  ],
+  "listening": {
+    "title": "Báo cáo tiến độ dự án với sếp",
+    "lines": [
+      { "speaker": "Hoa (nhân viên)", "voice": "female", "text": "Do you have five minutes? I'd like to give you a quick update." },
+      { "speaker": "Long (Trưởng phòng)", "voice": "male", "text": "Sure, go ahead. Just give me the top-line summary first." },
+      { "speaker": "Hoa (nhân viên)", "voice": "female", "text": "Overall the project is on track, but I want to give visibility on one risk." },
+      { "speaker": "Long (Trưởng phòng)", "voice": "male", "text": "Okay, what's the traffic-light status for each task?" },
+      { "speaker": "Hoa (nhân viên)", "voice": "female", "text": "Two tasks are green, one is yellow because of a vendor delay." },
+      { "speaker": "Long (Trưởng phòng)", "voice": "male", "text": "Thanks for surfacing that. What do you need from me?" },
+      { "speaker": "Hoa (nhân viên)", "voice": "female", "text": "I need you to manage expectations with the client about the timeline." },
+      { "speaker": "Long (Trưởng phòng)", "voice": "male", "text": "Understood. Do we have an action tracker for the open items?" },
+      { "speaker": "Hoa (nhân viên)", "voice": "female", "text": "Yes, I'll share the action tracker right after this meeting." },
+      { "speaker": "Long (Trưởng phòng)", "voice": "male", "text": "Good. Prepare your talking points before the client call tomorrow." },
+      { "speaker": "Hoa (nhân viên)", "voice": "female", "text": "Will do. Should I get the green light from you before sending it?" },
+      { "speaker": "Long (Trưởng phòng)", "voice": "male", "text": "Yes, send it to me first so I can review it." }
+    ],
+    "questions": [
+      { "q": "What does Hoa give first?", "options": ["A top-line summary", "A detailed spreadsheet", "A video call"], "answer": 0 },
+      { "q": "What color is the task delayed by a vendor?", "options": ["Yellow", "Red", "Green"], "answer": 0 },
+      { "q": "What does Long ask Hoa to prepare before the client call?", "options": ["Talking points", "A new contract", "A budget report"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Let me give you the top-line summary before we go into detail.",
+    "I want to give you visibility on one risk this week.",
+    "Two tasks are green, but one is yellow because of a delay.",
+    "Please help me manage expectations with the client about the timeline.",
+    "I'll share the action tracker right after this meeting ends."
+  ]
+}

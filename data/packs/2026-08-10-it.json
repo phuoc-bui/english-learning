@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-10",
+  "track": "it",
+  "theme": "Họp retrospective",
+  "vocab": [
+    {
+      "word": "action point",
+      "ipa": "/ˈækʃən pɔɪnt/",
+      "meaning_vi": "điểm hành động cần thực hiện",
+      "example": "We turned the feedback into a clear action point for next sprint.",
+      "example_vi": "Chúng tôi biến phản hồi thành một điểm hành động rõ ràng cho sprint tới."
+    },
+    {
+      "word": "blameless",
+      "ipa": "/ˈbleɪmləs/",
+      "meaning_vi": "không đổ lỗi cho cá nhân",
+      "example": "Our retrospective stays blameless so people can speak honestly.",
+      "example_vi": "Buổi retrospective của chúng tôi không đổ lỗi cho ai để mọi người có thể nói thật."
+    },
+    {
+      "word": "continuous improvement",
+      "ipa": "/kənˈtɪnjuəs ɪmˈpruːvmənt/",
+      "meaning_vi": "cải tiến liên tục",
+      "example": "Continuous improvement is the whole point of a retrospective.",
+      "example_vi": "Cải tiến liên tục chính là mục đích của buổi retrospective."
+    },
+    {
+      "word": "facilitator",
+      "ipa": "/fəˈsɪlɪteɪtər/",
+      "meaning_vi": "người điều phối buổi họp",
+      "example": "Nam volunteered to be the facilitator for today's retrospective.",
+      "example_vi": "Nam xung phong làm người điều phối cho buổi retrospective hôm nay."
+    },
+    {
+      "word": "start-stop-continue",
+      "ipa": "/stɑːrt stɒp kənˈtɪnjuː/",
+      "meaning_vi": "mô hình bắt đầu - dừng - tiếp tục",
+      "example": "We used start-stop-continue to structure our retrospective notes.",
+      "example_vi": "Chúng tôi dùng mô hình bắt đầu-dừng-tiếp tục để sắp xếp ghi chú retrospective."
+    },
+    {
+      "word": "time-box",
+      "ipa": "/ˈtaɪm bɒks/",
+      "meaning_vi": "giới hạn thời gian cho một hoạt động",
+      "example": "Let's time-box the discussion to keep the meeting short.",
+      "example_vi": "Hãy giới hạn thời gian thảo luận để buổi họp ngắn gọn."
+    },
+    {
+      "word": "sprint velocity",
+      "ipa": "/sprɪnt vəˈlɒsɪti/",
+      "meaning_vi": "tốc độ hoàn thành công việc trong sprint",
+      "example": "Our sprint velocity dropped because of the server outage.",
+      "example_vi": "Tốc độ sprint của chúng tôi giảm vì sự cố máy chủ."
+    },
+    {
+      "word": "vote on priorities",
+      "ipa": "/voʊt ɒn praɪˈɒrətiz/",
+      "meaning_vi": "bỏ phiếu chọn việc ưu tiên",
+      "example": "At the end, the team will vote on priorities for next sprint.",
+      "example_vi": "Cuối buổi, cả nhóm sẽ bỏ phiếu chọn việc ưu tiên cho sprint tới."
+    }
+  ],
+  "listening": {
+    "title": "Buổi họp retrospective cuối sprint",
+    "lines": [
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Let's start the retrospective. I'll be the facilitator today." },
+      { "speaker": "Hoa (developer)", "voice": "female", "text": "Sounds good. Should we time-box this to thirty minutes?" },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Yes, let's keep it focused. First, how was our sprint velocity this time?" },
+      { "speaker": "Hoa (developer)", "voice": "female", "text": "It dropped a bit because of the server outage on Monday." },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Okay, let's stay blameless and focus on the process, not the person." },
+      { "speaker": "Hoa (developer)", "voice": "female", "text": "Agreed. For continuous improvement, we should automate the deployment checks." },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Good idea. Let's use start-stop-continue to organize our thoughts." },
+      { "speaker": "Hoa (developer)", "voice": "female", "text": "I'll start. We should stop skipping code reviews under pressure." },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Noted. Let's turn that into a clear action point for next sprint." },
+      { "speaker": "Hoa (developer)", "voice": "female", "text": "Can we vote on priorities before we close the meeting?" },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Sure, let's vote now so everyone agrees on what matters most." },
+      { "speaker": "Hoa (developer)", "voice": "female", "text": "Great, I feel like this retrospective was actually useful today." }
+    ],
+    "questions": [
+      { "q": "Who is the facilitator today?", "options": ["Nam", "Hoa", "The project manager"], "answer": 0 },
+      { "q": "Why did the sprint velocity drop?", "options": ["A server outage on Monday", "Too many meetings", "A new hire joining"], "answer": 0 },
+      { "q": "What do they use to organize their thoughts?", "options": ["Start-stop-continue", "A voting app", "A whiteboard only"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Let's time-box this retrospective so we can finish in thirty minutes.",
+    "We should stay blameless and focus on fixing the process.",
+    "Our sprint velocity dropped a lot because of Monday's server outage.",
+    "Let's use start-stop-continue to organize our feedback for next sprint.",
+    "Can we vote on priorities before we close this meeting today?"
+  ]
+}

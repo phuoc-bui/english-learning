@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-10",
+  "track": "interview",
+  "theme": "Xử lý xung đột trong nhóm",
+  "vocab": [
+    {
+      "word": "address it head-on",
+      "ipa": "/əˈdres ɪt hed ɒn/",
+      "meaning_vi": "giải quyết trực tiếp, không né tránh",
+      "example": "I brought them together to address it head-on, without blame.",
+      "example_vi": "Tôi đưa họ lại với nhau để giải quyết trực tiếp, không đổ lỗi ai."
+    },
+    {
+      "word": "de-escalate the situation",
+      "ipa": "/diːˈeskəleɪt ðə ˌsɪtʃuˈeɪʃən/",
+      "meaning_vi": "làm dịu tình huống căng thẳng",
+      "example": "Did you try to de-escalate the situation right away?",
+      "example_vi": "Bạn có cố gắng làm dịu tình huống ngay lập tức không?"
+    },
+    {
+      "word": "difference of opinion",
+      "ipa": "/ˈdɪfrəns əv əˈpɪnjən/",
+      "meaning_vi": "sự khác biệt quan điểm",
+      "example": "Two teammates had a difference of opinion about the project design.",
+      "example_vi": "Hai đồng nghiệp có sự khác biệt quan điểm về thiết kế dự án."
+    },
+    {
+      "word": "cool-down period",
+      "ipa": "/kuːl daʊn ˈpɪəriəd/",
+      "meaning_vi": "khoảng thời gian để bình tĩnh lại",
+      "example": "We agreed on a short cool-down period before talking again.",
+      "example_vi": "Chúng tôi thống nhất có một khoảng thời gian ngắn để bình tĩnh trước khi nói chuyện lại."
+    },
+    {
+      "word": "friction",
+      "ipa": "/ˈfrɪkʃən/",
+      "meaning_vi": "sự va chạm, mâu thuẫn nhỏ",
+      "example": "How did you first respond to that friction?",
+      "example_vi": "Bạn đã phản ứng như thế nào với sự va chạm đó lúc đầu?"
+    },
+    {
+      "word": "step back and listen",
+      "ipa": "/step bæk ænd ˈlɪsn/",
+      "meaning_vi": "lùi lại và lắng nghe",
+      "example": "I asked them to step back and listen to each other calmly.",
+      "example_vi": "Tôi đề nghị họ lùi lại và lắng nghe nhau một cách bình tĩnh."
+    },
+    {
+      "word": "resolve amicably",
+      "ipa": "/rɪˈzɒlv ˈæmɪkəbli/",
+      "meaning_vi": "giải quyết trong hoà bình, ổn thoả",
+      "example": "We resolved it amicably, and the project stayed on schedule.",
+      "example_vi": "Chúng tôi giải quyết ổn thoả, và dự án vẫn đúng tiến độ."
+    },
+    {
+      "word": "get to the root of it",
+      "ipa": "/ɡet tuː ðə ruːt əv ɪt/",
+      "meaning_vi": "tìm ra nguyên nhân gốc rễ",
+      "example": "Did you get to the root of it during that conversation?",
+      "example_vi": "Bạn có tìm ra nguyên nhân gốc rễ trong cuộc trò chuyện đó không?"
+    }
+  ],
+  "listening": {
+    "title": "Phỏng vấn: xử lý xung đột trong nhóm",
+    "lines": [
+      { "speaker": "Huong (Interviewer)", "voice": "female", "text": "Tell me about a time you had to handle conflict in your team." },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "Sure. Two teammates had a difference of opinion about the project design." },
+      { "speaker": "Huong (Interviewer)", "voice": "female", "text": "How did you first respond to that friction?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "I asked them to step back and listen to each other calmly." },
+      { "speaker": "Huong (Interviewer)", "voice": "female", "text": "Did you try to de-escalate the situation right away?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "Yes, we agreed on a short cool-down period before talking again." },
+      { "speaker": "Huong (Interviewer)", "voice": "female", "text": "What did you do after that break?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "I brought them together to address it head-on, without blame." },
+      { "speaker": "Huong (Interviewer)", "voice": "female", "text": "Did you get to the root of it during that conversation?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "Yes, it turned out to be a simple miscommunication about scope." },
+      { "speaker": "Huong (Interviewer)", "voice": "female", "text": "How did the conflict finally end?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "We resolved it amicably, and the project stayed on schedule." }
+    ],
+    "questions": [
+      { "q": "What caused the friction between the two teammates?", "options": ["A difference of opinion about design", "A missed deadline", "A salary dispute"], "answer": 0 },
+      { "q": "What did Duc suggest before talking again?", "options": ["A cool-down period", "Ending the project", "Involving HR immediately"], "answer": 0 },
+      { "q": "What was the real cause of the conflict?", "options": ["A miscommunication about scope", "A personal dislike", "A budget cut"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I asked both teammates to step back and listen calmly.",
+    "We agreed on a short cool-down period before talking again.",
+    "I wanted to address it head-on without blaming anyone at all.",
+    "We finally got to the root of a simple miscommunication.",
+    "In the end, we resolved everything amicably and stayed on schedule."
+  ]
+}

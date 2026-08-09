@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-10",
+  "track": "finance",
+  "theme": "Làm việc với kiểm toán",
+  "vocab": [
+    {
+      "word": "audit scope",
+      "ipa": "/ˈɔːdɪt skoʊp/",
+      "meaning_vi": "phạm vi kiểm toán",
+      "example": "Can we agree on the audit scope before we start?",
+      "example_vi": "Chúng ta có thể thống nhất phạm vi kiểm toán trước khi bắt đầu không?"
+    },
+    {
+      "word": "evidence request",
+      "ipa": "/ˈevɪdəns rɪˈkwest/",
+      "meaning_vi": "yêu cầu cung cấp bằng chứng",
+      "example": "I'll send you an evidence request list by email today.",
+      "example_vi": "Tôi sẽ gửi bạn danh sách yêu cầu bằng chứng qua email hôm nay."
+    },
+    {
+      "word": "control weakness",
+      "ipa": "/kənˈtroʊl ˈwiːknəs/",
+      "meaning_vi": "điểm yếu trong kiểm soát nội bộ",
+      "example": "I found one control weakness in the approval process.",
+      "example_vi": "Tôi phát hiện một điểm yếu kiểm soát trong quy trình phê duyệt."
+    },
+    {
+      "word": "management letter",
+      "ipa": "/ˈmænɪdʒmənt ˈletər/",
+      "meaning_vi": "thư kiến nghị của kiểm toán gửi ban quản lý",
+      "example": "We'll fix the process before next year's management letter.",
+      "example_vi": "Chúng tôi sẽ sửa quy trình trước thư kiến nghị năm sau."
+    },
+    {
+      "word": "walkthrough",
+      "ipa": "/ˈwɔːkθruː/",
+      "meaning_vi": "buổi trình bày chi tiết quy trình",
+      "example": "I'll prepare the documents before our walkthrough tomorrow.",
+      "example_vi": "Tôi sẽ chuẩn bị tài liệu trước buổi trình bày quy trình ngày mai."
+    },
+    {
+      "word": "sample size",
+      "ipa": "/ˈsæmpl saɪz/",
+      "meaning_vi": "cỡ mẫu kiểm tra",
+      "example": "What sample size are you using for the invoice testing?",
+      "example_vi": "Bạn dùng cỡ mẫu bao nhiêu để kiểm tra hóa đơn?"
+    },
+    {
+      "word": "exception noted",
+      "ipa": "/ɪkˈsepʃən ˈnoʊtɪd/",
+      "meaning_vi": "trường hợp ngoại lệ được ghi nhận",
+      "example": "Will that be an exception noted in the report?",
+      "example_vi": "Trường hợp đó có được ghi nhận là ngoại lệ trong báo cáo không?"
+    },
+    {
+      "word": "clean opinion",
+      "ipa": "/kliːn əˈpɪnjən/",
+      "meaning_vi": "kết luận kiểm toán chấp nhận toàn phần",
+      "example": "It's minor, so we can still issue a clean opinion overall.",
+      "example_vi": "Vấn đề nhỏ nên chúng tôi vẫn có thể đưa ra kết luận chấp nhận toàn phần."
+    }
+  ],
+  "listening": {
+    "title": "Làm việc với kiểm toán viên",
+    "lines": [
+      { "speaker": "Khoa (Kiểm toán viên)", "voice": "male", "text": "Good morning. Can we start with the audit scope for this quarter?" },
+      { "speaker": "Linh (Kế toán)", "voice": "female", "text": "Sure, we agreed to cover revenue and expenses mainly." },
+      { "speaker": "Khoa (Kiểm toán viên)", "voice": "male", "text": "Great. I'll send you an evidence request list by email today." },
+      { "speaker": "Linh (Kế toán)", "voice": "female", "text": "Okay, I'll prepare the documents before our walkthrough tomorrow." },
+      { "speaker": "Khoa (Kiểm toán viên)", "voice": "male", "text": "Thanks. What sample size are you using for the invoice testing?" },
+      { "speaker": "Linh (Kế toán)", "voice": "female", "text": "We're testing about thirty invoices this quarter, as usual." },
+      { "speaker": "Khoa (Kiểm toán viên)", "voice": "male", "text": "Understood. I found one control weakness in the approval process." },
+      { "speaker": "Linh (Kế toán)", "voice": "female", "text": "Can you explain what exactly went wrong there?" },
+      { "speaker": "Khoa (Kiểm toán viên)", "voice": "male", "text": "Two invoices were paid without a second signature." },
+      { "speaker": "Linh (Kế toán)", "voice": "female", "text": "I see. Will that be an exception noted in the report?" },
+      { "speaker": "Khoa (Kiểm toán viên)", "voice": "male", "text": "Yes, but it's minor. We can still issue a clean opinion overall." },
+      { "speaker": "Linh (Kế toán)", "voice": "female", "text": "That's a relief. We'll fix the process before next year's management letter." }
+    ],
+    "questions": [
+      { "q": "What does Khoa send by email?", "options": ["An evidence request list", "A new invoice", "The final report"], "answer": 0 },
+      { "q": "How many invoices were paid without a second signature?", "options": ["Two", "Five", "Thirty"], "answer": 0 },
+      { "q": "What kind of opinion can Khoa still issue overall?", "options": ["A clean opinion", "A qualified opinion", "No opinion at all"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Can we agree on the audit scope before we start today?",
+    "I'll send you the evidence request list by email today.",
+    "We found one small control weakness in the approval process.",
+    "What sample size are you using for the invoice testing?",
+    "This will be a small exception noted in the audit report."
+  ]
+}

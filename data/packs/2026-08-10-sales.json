@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-10",
+  "track": "sales",
+  "theme": "Đàm phán giá & điều khoản",
+  "vocab": [
+    {
+      "word": "bottom line",
+      "ipa": "/ˈbɒtəm laɪn/",
+      "meaning_vi": "mức giá thấp nhất có thể chấp nhận",
+      "example": "What's your bottom line if we sign a one-year contract?",
+      "example_vi": "Mức giá thấp nhất bạn chấp nhận nếu ký hợp đồng một năm là bao nhiêu?"
+    },
+    {
+      "word": "meet in the middle",
+      "ipa": "/miːt ɪn ðə ˈmɪdl/",
+      "meaning_vi": "gặp nhau ở giữa, thoả hiệp",
+      "example": "Let's try to meet in the middle on the support package.",
+      "example_vi": "Hãy thử thoả hiệp ở khoản gói hỗ trợ."
+    },
+    {
+      "word": "floor price",
+      "ipa": "/flɔːr praɪs/",
+      "meaning_vi": "giá sàn, giá thấp nhất",
+      "example": "Honestly, your quote is above our floor price.",
+      "example_vi": "Thành thật mà nói, báo giá của bạn cao hơn giá sàn của chúng tôi."
+    },
+    {
+      "word": "leverage",
+      "ipa": "/ˈliːvərɪdʒ/",
+      "meaning_vi": "đòn bẩy, lợi thế để mặc cả",
+      "example": "Can you use your leverage to get us a better shipping rate?",
+      "example_vi": "Bạn có thể dùng lợi thế của mình để có giá vận chuyển tốt hơn không?"
+    },
+    {
+      "word": "make a concession",
+      "ipa": "/meɪk ə kənˈseʃən/",
+      "meaning_vi": "nhượng bộ",
+      "example": "Let me check with my manager and make a concession there.",
+      "example_vi": "Để tôi hỏi quản lý và xem có thể nhượng bộ ở đó không."
+    },
+    {
+      "word": "agree on terms",
+      "ipa": "/əˈɡriː ɒn tɜːmz/",
+      "meaning_vi": "thống nhất điều khoản",
+      "example": "If you add free training, we might agree on terms faster.",
+      "example_vi": "Nếu bạn thêm đào tạo miễn phí, chúng tôi có thể thống nhất điều khoản nhanh hơn."
+    },
+    {
+      "word": "sweetener",
+      "ipa": "/ˈswiːtnər/",
+      "meaning_vi": "ưu đãi thêm để hấp dẫn hơn",
+      "example": "I can offer free training as a sweetener for this deal.",
+      "example_vi": "Tôi có thể tặng thêm đào tạo miễn phí như một ưu đãi cho hợp đồng này."
+    },
+    {
+      "word": "haggle over price",
+      "ipa": "/ˈhæɡl ˈoʊvər praɪs/",
+      "meaning_vi": "mặc cả về giá",
+      "example": "We don't need to haggle over price if the extras are strong enough.",
+      "example_vi": "Chúng ta không cần mặc cả về giá nếu các ưu đãi kèm theo đủ hấp dẫn."
+    }
+  ],
+  "listening": {
+    "title": "Đàm phán giá và điều khoản hợp đồng",
+    "lines": [
+      { "speaker": "Minh (Sales)", "voice": "male", "text": "Thanks for meeting again. Let's talk about the final price today." },
+      { "speaker": "Trang (Purchasing Manager)", "voice": "female", "text": "Sure. Honestly, your quote is above our floor price." },
+      { "speaker": "Minh (Sales)", "voice": "male", "text": "I understand. What's your bottom line for this deal?" },
+      { "speaker": "Trang (Purchasing Manager)", "voice": "female", "text": "If you can add free training, we might agree on terms faster." },
+      { "speaker": "Minh (Sales)", "voice": "male", "text": "That's fair. I can offer that as a sweetener for a one-year contract." },
+      { "speaker": "Trang (Purchasing Manager)", "voice": "female", "text": "Good. Can you also use your leverage to get us a better shipping rate?" },
+      { "speaker": "Minh (Sales)", "voice": "male", "text": "Let me check with my manager and make a concession there if possible." },
+      { "speaker": "Trang (Purchasing Manager)", "voice": "female", "text": "We don't need to haggle over price if the extras are strong enough." },
+      { "speaker": "Minh (Sales)", "voice": "male", "text": "Great, let's try to meet in the middle on the support package too." },
+      { "speaker": "Trang (Purchasing Manager)", "voice": "female", "text": "Deal. Send me the updated terms by tomorrow." },
+      { "speaker": "Minh (Sales)", "voice": "male", "text": "I will. Thanks for negotiating in good faith today." },
+      { "speaker": "Trang (Purchasing Manager)", "voice": "female", "text": "Likewise, this was a productive conversation." }
+    ],
+    "questions": [
+      { "q": "What is above the client's floor price?", "options": ["Minh's quote", "The shipping rate", "The training cost"], "answer": 0 },
+      { "q": "What sweetener does Minh offer?", "options": ["Free training", "A discount code", "A free upgrade"], "answer": 0 },
+      { "q": "What do they agree to send by tomorrow?", "options": ["Updated terms", "A new invoice", "A product sample"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Your quote is a bit above our floor price right now.",
+    "What's your bottom line if we sign a one-year contract?",
+    "I can offer free training as a sweetener for this deal.",
+    "Let's try to meet in the middle on the support package.",
+    "I'll make a small concession if you agree on these terms."
+  ]
+}
