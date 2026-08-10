@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-11",
+  "track": "sales",
+  "theme": "Email follow-up sau gặp khách",
+  "vocab": [
+    {
+      "word": "recap email",
+      "ipa": "/ˈriːkæp ˈiːmeɪl/",
+      "meaning_vi": "email tóm tắt lại nội dung",
+      "example": "I sent a recap email summarizing everything we discussed.",
+      "example_vi": "Tôi đã gửi một email tóm tắt lại mọi thứ chúng tôi đã trao đổi."
+    },
+    {
+      "word": "attach the proposal",
+      "ipa": "/əˈtætʃ ðə prəˈpoʊzəl/",
+      "meaning_vi": "đính kèm bản đề xuất",
+      "example": "Please remember to attach the proposal to your follow-up email.",
+      "example_vi": "Hãy nhớ đính kèm bản đề xuất vào email follow-up của bạn."
+    },
+    {
+      "word": "next available slot",
+      "ipa": "/nekst əˈveɪləbl slɒt/",
+      "meaning_vi": "khung giờ trống tiếp theo",
+      "example": "I offered the next available slot for a demo call.",
+      "example_vi": "Tôi đã đề xuất khung giờ trống tiếp theo cho một buổi demo."
+    },
+    {
+      "word": "bump this email",
+      "ipa": "/bʌmp ðɪs ˈiːmeɪl/",
+      "meaning_vi": "đẩy lại email này",
+      "example": "I'll bump this email if the client doesn't reply by Friday.",
+      "example_vi": "Tôi sẽ đẩy lại email này nếu khách chưa trả lời trước thứ Sáu."
+    },
+    {
+      "word": "email signature",
+      "ipa": "/ˈiːmeɪl ˈsɪɡnətʃər/",
+      "meaning_vi": "chữ ký email",
+      "example": "Add your email signature so the client has your contact info.",
+      "example_vi": "Thêm chữ ký email để khách có thông tin liên hệ của bạn."
+    },
+    {
+      "word": "cc the manager",
+      "ipa": "/siː siː ðə ˈmænɪdʒər/",
+      "meaning_vi": "cc cho quản lý",
+      "example": "Don't forget to cc the manager on important client emails.",
+      "example_vi": "Đừng quên cc quản lý vào các email quan trọng với khách."
+    },
+    {
+      "word": "subject line",
+      "ipa": "/ˈsʌbdʒɪkt laɪn/",
+      "meaning_vi": "tiêu đề email",
+      "example": "Keep the subject line clear so the client opens it quickly.",
+      "example_vi": "Giữ tiêu đề email rõ ràng để khách mở nhanh hơn."
+    },
+    {
+      "word": "follow up promptly",
+      "ipa": "/ˈfɒloʊ ʌp ˈprɒmptli/",
+      "meaning_vi": "theo sát kịp thời",
+      "example": "We always follow up promptly after meeting a new client.",
+      "example_vi": "Chúng tôi luôn theo sát kịp thời sau khi gặp khách hàng mới."
+    }
+  ],
+  "listening": {
+    "title": "Gửi email follow-up sau buổi gặp khách",
+    "lines": [
+      { "speaker": "Mai (Sales Executive)", "voice": "female", "text": "I just met with the client. I should send a recap email today." },
+      { "speaker": "Khoa (Sales Manager)", "voice": "male", "text": "Good idea. Make sure you attach the proposal this time." },
+      { "speaker": "Mai (Sales Executive)", "voice": "female", "text": "Sure. I'll also mention the next available slot for a call." },
+      { "speaker": "Khoa (Sales Manager)", "voice": "male", "text": "Perfect. Don't forget to cc the manager on this one." },
+      { "speaker": "Mai (Sales Executive)", "voice": "female", "text": "Got it. What should I put in the subject line?" },
+      { "speaker": "Khoa (Sales Manager)", "voice": "male", "text": "Something clear, like 'Follow-up: Meeting Recap and Proposal'." },
+      { "speaker": "Mai (Sales Executive)", "voice": "female", "text": "Sounds good. I'll add my email signature before sending." },
+      { "speaker": "Khoa (Sales Manager)", "voice": "male", "text": "If they don't reply in two days, bump this email politely." },
+      { "speaker": "Mai (Sales Executive)", "voice": "female", "text": "Will do. I always try to follow up promptly after a meeting." },
+      { "speaker": "Khoa (Sales Manager)", "voice": "male", "text": "That's why our clients trust us. Great work today." }
+    ],
+    "questions": [
+      {
+        "q": "What does Mai need to attach in the email?",
+        "options": ["The proposal", "An invoice", "A contract"],
+        "answer": 0
+      },
+      {
+        "q": "What does Khoa remind Mai to do?",
+        "options": ["Cc the manager", "Call the client", "Send a gift"],
+        "answer": 0
+      },
+      {
+        "q": "What should Mai do if there's no reply in two days?",
+        "options": ["Bump the email politely", "Cancel the deal", "Call the manager"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I should send a recap email to the client today.",
+    "Make sure you attach the proposal before sending the email.",
+    "I'll mention the next available slot for a follow-up call.",
+    "Don't forget to cc the manager on this email thread.",
+    "If they don't reply soon, I'll bump this email politely."
+  ]
+}

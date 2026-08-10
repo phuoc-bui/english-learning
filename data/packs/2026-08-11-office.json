@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-11",
+  "track": "office",
+  "theme": "Họp phòng ban",
+  "vocab": [
+    {
+      "word": "chair the meeting",
+      "ipa": "/tʃer ðə ˈmiːtɪŋ/",
+      "meaning_vi": "chủ trì cuộc họp",
+      "example": "Hoa will chair the meeting since the manager is on leave.",
+      "example_vi": "Hoa sẽ chủ trì cuộc họp vì trưởng phòng đang nghỉ phép."
+    },
+    {
+      "word": "agenda item",
+      "ipa": "/əˈdʒendə ˈaɪtəm/",
+      "meaning_vi": "mục trong chương trình họp",
+      "example": "We covered every agenda item before the meeting ended.",
+      "example_vi": "Chúng tôi đã giải quyết hết các mục trong chương trình họp trước khi kết thúc."
+    },
+    {
+      "word": "book a meeting room",
+      "ipa": "/bʊk ə ˈmiːtɪŋ ruːm/",
+      "meaning_vi": "đặt phòng họp",
+      "example": "Can you book a meeting room for our department meeting?",
+      "example_vi": "Bạn có thể đặt phòng họp cho buổi họp phòng ban không?"
+    },
+    {
+      "word": "go off-topic",
+      "ipa": "/ɡoʊ ɒf ˈtɒpɪk/",
+      "meaning_vi": "lạc đề",
+      "example": "Try not to go off-topic during the department meeting.",
+      "example_vi": "Cố gắng đừng lạc đề trong buổi họp phòng ban."
+    },
+    {
+      "word": "department update",
+      "ipa": "/dɪˈpɑːrtmənt ˈʌpdeɪt/",
+      "meaning_vi": "bản cập nhật của phòng ban",
+      "example": "Each team gives a short department update every Monday.",
+      "example_vi": "Mỗi nhóm đưa ra một bản cập nhật ngắn của phòng ban vào mỗi thứ Hai."
+    },
+    {
+      "word": "cross-departmental",
+      "ipa": "/krɒs dɪˈpɑːrtmentl/",
+      "meaning_vi": "liên phòng ban",
+      "example": "This is a cross-departmental project between sales and marketing.",
+      "example_vi": "Đây là một dự án liên phòng ban giữa sales và marketing."
+    },
+    {
+      "word": "meeting overrun",
+      "ipa": "/ˈmiːtɪŋ ˌoʊvərˈrʌn/",
+      "meaning_vi": "họp quá giờ",
+      "example": "We had a meeting overrun because the discussion took too long.",
+      "example_vi": "Cuộc họp bị kéo dài quá giờ vì thảo luận mất quá nhiều thời gian."
+    },
+    {
+      "word": "take the floor",
+      "ipa": "/teɪk ðə flɔːr/",
+      "meaning_vi": "đứng lên phát biểu",
+      "example": "Minh took the floor to explain the new proposal.",
+      "example_vi": "Minh đứng lên phát biểu để giải thích đề xuất mới."
+    }
+  ],
+  "listening": {
+    "title": "Buổi họp phòng ban đầu tuần",
+    "lines": [
+      { "speaker": "Hoa (Department Head)", "voice": "female", "text": "Good morning, everyone. I'll chair the meeting today, so let's go through the agenda items quickly." },
+      { "speaker": "Minh (Marketing staff)", "voice": "male", "text": "Sounds good. Did everyone get the department update I sent yesterday?" },
+      { "speaker": "Hoa (Department Head)", "voice": "female", "text": "Yes, thanks. Let's start with the first agenda item about the new campaign." },
+      { "speaker": "Minh (Marketing staff)", "voice": "male", "text": "Sure. This project needs a cross-departmental effort with the design team." },
+      { "speaker": "Hoa (Department Head)", "voice": "female", "text": "Good point. Did you book a meeting room for that discussion?" },
+      { "speaker": "Minh (Marketing staff)", "voice": "male", "text": "Not yet, I'll do it right after this meeting." },
+      { "speaker": "Hoa (Department Head)", "voice": "female", "text": "Great. Please don't go off-topic, we only have thirty minutes today." },
+      { "speaker": "Minh (Marketing staff)", "voice": "male", "text": "Understood. I'll keep my updates short and focused." },
+      { "speaker": "Hoa (Department Head)", "voice": "female", "text": "If you want to take the floor, just raise your hand." },
+      { "speaker": "Minh (Marketing staff)", "voice": "male", "text": "Got it. I think we're close to a meeting overrun, so let's wrap up." }
+    ],
+    "questions": [
+      {
+        "q": "Who chairs the meeting today?",
+        "options": ["Hoa", "Minh", "The CEO"],
+        "answer": 0
+      },
+      {
+        "q": "What does the new campaign project need?",
+        "options": ["A cross-departmental effort", "More budget", "A new logo"],
+        "answer": 0
+      },
+      {
+        "q": "What does Hoa ask Minh to avoid?",
+        "options": ["Going off-topic", "Taking notes", "Asking questions"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I'll chair the meeting today, so let's start on time.",
+    "This project needs a cross-departmental effort with the design team.",
+    "Did you book a meeting room for our discussion tomorrow?",
+    "Please don't go off-topic, we only have thirty minutes left.",
+    "I think we're close to a meeting overrun, let's wrap up."
+  ]
+}

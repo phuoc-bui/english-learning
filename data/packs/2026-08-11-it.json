@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-11",
+  "track": "it",
+  "theme": "Remote meeting etiquette",
+  "vocab": [
+    {
+      "word": "breakout room",
+      "ipa": "/ˈbreɪkaʊt ruːm/",
+      "meaning_vi": "phòng họp nhỏ tách ra từ cuộc họp chính",
+      "example": "We split into a breakout room to discuss the bug in detail.",
+      "example_vi": "Chúng tôi tách vào một breakout room để bàn kỹ về lỗi."
+    },
+    {
+      "word": "unmute",
+      "ipa": "/ʌnˈmjuːt/",
+      "meaning_vi": "bật lại mic",
+      "example": "Please unmute yourself before you start speaking in the call.",
+      "example_vi": "Hãy bật mic (unmute) trước khi bạn bắt đầu nói trong cuộc gọi."
+    },
+    {
+      "word": "lag",
+      "ipa": "/læɡ/",
+      "meaning_vi": "độ trễ đường truyền",
+      "example": "The video call had some lag during the screen share.",
+      "example_vi": "Cuộc gọi video bị lag một chút khi chia sẻ màn hình."
+    },
+    {
+      "word": "pin a participant",
+      "ipa": "/pɪn ə pɑːrˈtɪsɪpənt/",
+      "meaning_vi": "ghim video của một người tham gia",
+      "example": "I'll pin a participant so everyone can see the presenter clearly.",
+      "example_vi": "Tôi sẽ ghim video của một người để mọi người thấy rõ người thuyết trình."
+    },
+    {
+      "word": "chat box",
+      "ipa": "/tʃæt bɒks/",
+      "meaning_vi": "khung chat trong cuộc họp",
+      "example": "Drop your questions in the chat box during the demo.",
+      "example_vi": "Hãy đặt câu hỏi trong khung chat trong lúc demo."
+    },
+    {
+      "word": "dominate the conversation",
+      "ipa": "/ˈdɒmɪneɪt ðə ˌkɒnvərˈseɪʃən/",
+      "meaning_vi": "nói lấn át, chiếm hết thời gian nói",
+      "example": "Try not to dominate the conversation so others can share ideas.",
+      "example_vi": "Đừng nói lấn át để người khác cũng có thể chia sẻ ý kiến."
+    },
+    {
+      "word": "wrap up on time",
+      "ipa": "/ræp ʌp ɒn taɪm/",
+      "meaning_vi": "kết thúc đúng giờ",
+      "example": "Let's wrap up on time so people can join their next meeting.",
+      "example_vi": "Hãy kết thúc đúng giờ để mọi người kịp vào cuộc họp tiếp theo."
+    },
+    {
+      "word": "virtual background",
+      "ipa": "/ˈvɜːrtʃuəl ˈbækɡraʊnd/",
+      "meaning_vi": "hình nền ảo",
+      "example": "He set a virtual background so his messy room isn't visible.",
+      "example_vi": "Anh ấy dùng hình nền ảo để không lộ căn phòng bừa bộn."
+    }
+  ],
+  "listening": {
+    "title": "Cuộc họp remote đúng chuẩn etiquette",
+    "lines": [
+      { "speaker": "Linh (PM)", "voice": "female", "text": "Hi everyone, let's start. Can you all unmute if you have questions?" },
+      { "speaker": "Duc (developer)", "voice": "male", "text": "Sure. Sorry, I had some lag when I joined the call." },
+      { "speaker": "Linh (PM)", "voice": "female", "text": "No worries. Let's use the chat box for quick questions during the demo." },
+      { "speaker": "Duc (developer)", "voice": "male", "text": "Got it. Should we create a breakout room for the smaller discussion later?" },
+      { "speaker": "Linh (PM)", "voice": "female", "text": "Good idea. I'll pin a participant when it's their turn to present." },
+      { "speaker": "Duc (developer)", "voice": "male", "text": "Also, can everyone turn on their virtual background? The office looks messy today." },
+      { "speaker": "Linh (PM)", "voice": "female", "text": "Ha, sure. Let's keep the meeting focused and not dominate the conversation." },
+      { "speaker": "Duc (developer)", "voice": "male", "text": "Agreed. I'll try to keep my updates short and clear." },
+      { "speaker": "Linh (PM)", "voice": "female", "text": "Great. Let's aim to wrap up on time so nobody misses their next call." },
+      { "speaker": "Duc (developer)", "voice": "male", "text": "Sounds good. I'll unmute now to share my screen." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Duc apologize at the start?",
+        "options": ["He had lag joining the call", "He forgot the meeting", "He was late for lunch"],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh want to use for quick questions?",
+        "options": ["The chat box", "Email", "A phone call"],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh want to avoid in the meeting?",
+        "options": ["Dominating the conversation", "Using chat", "Turning on the camera"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Sorry, I had some lag when I first joined the call.",
+    "Let's use the chat box for any quick questions today.",
+    "Can we create a breakout room for the smaller discussion?",
+    "Please try not to dominate the conversation during the meeting.",
+    "Let's aim to wrap up on time so nobody is late."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-11",
+  "track": "interview",
+  "theme": "Lý do nghỉ việc & chuyển việc",
+  "vocab": [
+    {
+      "word": "give notice",
+      "ipa": "/ɡɪv ˈnoʊtɪs/",
+      "meaning_vi": "báo trước nghỉ việc",
+      "example": "I gave notice two weeks before my last working day.",
+      "example_vi": "Tôi đã báo nghỉ việc hai tuần trước ngày làm việc cuối cùng."
+    },
+    {
+      "word": "new opportunity",
+      "ipa": "/nuː ˌɒpərˈtjuːnəti/",
+      "meaning_vi": "cơ hội mới",
+      "example": "This role is a new opportunity for me to grow my skills.",
+      "example_vi": "Vị trí này là một cơ hội mới để tôi phát triển kỹ năng."
+    },
+    {
+      "word": "company restructuring",
+      "ipa": "/ˈkʌmpəni riːˈstrʌktʃərɪŋ/",
+      "meaning_vi": "tái cơ cấu công ty",
+      "example": "The company restructuring reduced our team from ten to five people.",
+      "example_vi": "Việc tái cơ cấu công ty đã giảm đội nhóm từ mười xuống còn năm người."
+    },
+    {
+      "word": "lack of growth",
+      "ipa": "/læk ʌv ɡroʊθ/",
+      "meaning_vi": "thiếu cơ hội phát triển",
+      "example": "I left because of a lack of growth in my previous role.",
+      "example_vi": "Tôi nghỉ việc vì thiếu cơ hội phát triển trong vai trò trước đây."
+    },
+    {
+      "word": "resign gracefully",
+      "ipa": "/rɪˈzaɪn ˈɡreɪsfəli/",
+      "meaning_vi": "nghỉ việc một cách khéo léo, đúng mực",
+      "example": "It's important to resign gracefully and help with the transition.",
+      "example_vi": "Điều quan trọng là nghỉ việc một cách khéo léo và hỗ trợ bàn giao."
+    },
+    {
+      "word": "industry switch",
+      "ipa": "/ˈɪndəstri swɪtʃ/",
+      "meaning_vi": "chuyển ngành",
+      "example": "She made an industry switch from banking to technology.",
+      "example_vi": "Cô ấy đã chuyển ngành từ ngân hàng sang công nghệ."
+    },
+    {
+      "word": "exit interview",
+      "ipa": "/ˈeksɪt ˈɪntərvjuː/",
+      "meaning_vi": "buổi phỏng vấn thôi việc",
+      "example": "During my exit interview, I shared honest feedback about the team.",
+      "example_vi": "Trong buổi phỏng vấn thôi việc, tôi đã chia sẻ phản hồi thật lòng về đội nhóm."
+    },
+    {
+      "word": "burn bridges",
+      "ipa": "/bɜːrn ˈbrɪdʒɪz/",
+      "meaning_vi": "làm mất lòng, cắt đứt quan hệ",
+      "example": "I always try not to burn bridges when I leave a job.",
+      "example_vi": "Tôi luôn cố gắng không làm mất lòng ai khi nghỉ việc."
+    }
+  ],
+  "listening": {
+    "title": "Phỏng vấn: Lý do nghỉ việc và chuyển việc",
+    "lines": [
+      { "speaker": "Huong (Interviewer)", "voice": "female", "text": "Thanks for coming in today, Duc. Why are you looking to leave your current company?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "I gave notice last month because I want a new opportunity to grow." },
+      { "speaker": "Huong (Interviewer)", "voice": "female", "text": "I see. Was there a specific reason, like company restructuring?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "Actually, yes. There was some restructuring, and my team lost several projects." },
+      { "speaker": "Huong (Interviewer)", "voice": "female", "text": "That makes sense. Did you also feel a lack of growth in your role?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "Yes, I'd been in the same position for three years without a promotion." },
+      { "speaker": "Huong (Interviewer)", "voice": "female", "text": "Understood. Are you looking to make an industry switch as well?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "No, I still want to stay in software, just at a bigger company." },
+      { "speaker": "Huong (Interviewer)", "voice": "female", "text": "Good to know. How did your manager react when you resigned?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "I tried to resign gracefully and even offered to help during the handover." },
+      { "speaker": "Huong (Interviewer)", "voice": "female", "text": "That's great. Did you have an exit interview with HR?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "Yes, and I made sure not to burn bridges with anyone there." }
+    ],
+    "questions": [
+      {
+        "q": "Why did Duc give notice at his current company?",
+        "options": ["He wants a new opportunity to grow", "He was fired", "He is moving abroad"],
+        "answer": 0
+      },
+      {
+        "q": "What happened at Duc's company that affected his team?",
+        "options": ["Company restructuring", "A merger", "A pay cut"],
+        "answer": 0
+      },
+      {
+        "q": "What did Duc do to avoid burning bridges?",
+        "options": ["He resigned gracefully and helped with handover", "He complained to HR", "He left without notice"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I gave notice because I wanted a new growth opportunity.",
+    "There was some company restructuring that affected my whole team.",
+    "I felt a lack of growth after three years in the role.",
+    "I tried to resign gracefully and helped with the handover.",
+    "I made sure not to burn bridges during my exit interview."
+  ]
+}

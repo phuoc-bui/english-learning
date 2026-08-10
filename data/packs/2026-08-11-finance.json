@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-11",
+  "track": "finance",
+  "theme": "Expense claim & hoàn ứng",
+  "vocab": [
+    {
+      "word": "submit a claim",
+      "ipa": "/səbˈmɪt ə kleɪm/",
+      "meaning_vi": "nộp yêu cầu hoàn ứng",
+      "example": "You need to submit a claim within seven days of your trip.",
+      "example_vi": "Bạn cần nộp yêu cầu hoàn ứng trong vòng bảy ngày sau chuyến công tác."
+    },
+    {
+      "word": "approval chain",
+      "ipa": "/əˈpruːvəl tʃeɪn/",
+      "meaning_vi": "chuỗi phê duyệt",
+      "example": "The expense goes through a three-step approval chain before payment.",
+      "example_vi": "Chi phí phải qua chuỗi phê duyệt ba bước trước khi được thanh toán."
+    },
+    {
+      "word": "reimbursement amount",
+      "ipa": "/ˌriːɪmˈbɜːrsmənt əˈmaʊnt/",
+      "meaning_vi": "số tiền được hoàn",
+      "example": "Please check the reimbursement amount before you sign the form.",
+      "example_vi": "Hãy kiểm tra số tiền được hoàn trước khi bạn ký vào biểu mẫu."
+    },
+    {
+      "word": "scan the receipt",
+      "ipa": "/skæn ðə rɪˈsiːt/",
+      "meaning_vi": "scan hoá đơn",
+      "example": "Remember to scan the receipt before you throw it away.",
+      "example_vi": "Nhớ scan hoá đơn trước khi bạn vứt nó đi."
+    },
+    {
+      "word": "exceed the limit",
+      "ipa": "/ɪkˈsiːd ðə ˈlɪmɪt/",
+      "meaning_vi": "vượt quá hạn mức",
+      "example": "Your claim was delayed because it exceeded the limit for meals.",
+      "example_vi": "Yêu cầu của bạn bị chậm vì đã vượt quá hạn mức cho bữa ăn."
+    },
+    {
+      "word": "cash advance",
+      "ipa": "/kæʃ ədˈvæns/",
+      "meaning_vi": "tạm ứng tiền mặt",
+      "example": "I took a cash advance to cover the trip's initial costs.",
+      "example_vi": "Tôi đã tạm ứng tiền mặt để trang trải chi phí ban đầu của chuyến đi."
+    },
+    {
+      "word": "expense category",
+      "ipa": "/ɪkˈspens ˈkætəɡəri/",
+      "meaning_vi": "hạng mục chi phí",
+      "example": "Choose the correct expense category so the form is processed faster.",
+      "example_vi": "Chọn đúng hạng mục chi phí để biểu mẫu được xử lý nhanh hơn."
+    },
+    {
+      "word": "pending approval",
+      "ipa": "/ˈpendɪŋ əˈpruːvəl/",
+      "meaning_vi": "đang chờ phê duyệt",
+      "example": "My claim is still pending approval from the finance team.",
+      "example_vi": "Yêu cầu của tôi vẫn đang chờ phê duyệt từ phòng tài chính."
+    }
+  ],
+  "listening": {
+    "title": "Nộp yêu cầu hoàn ứng sau chuyến công tác",
+    "lines": [
+      { "speaker": "Tuan (developer)", "voice": "male", "text": "Hi Lan, I need to submit a claim for my business trip expenses." },
+      { "speaker": "Lan (Accountant)", "voice": "female", "text": "Sure, Tuan. Did you scan the receipt for each expense?" },
+      { "speaker": "Tuan (developer)", "voice": "male", "text": "Yes, I have them all ready. What's the expense category for taxi rides?" },
+      { "speaker": "Lan (Accountant)", "voice": "female", "text": "You can put that under 'transportation' in the expense category list." },
+      { "speaker": "Tuan (developer)", "voice": "male", "text": "Got it. Also, I took a cash advance before the trip, does that matter?" },
+      { "speaker": "Lan (Accountant)", "voice": "female", "text": "Yes, we'll subtract that from your reimbursement amount automatically." },
+      { "speaker": "Tuan (developer)", "voice": "male", "text": "Makes sense. How long does the approval chain usually take?" },
+      { "speaker": "Lan (Accountant)", "voice": "female", "text": "Around three business days if you don't exceed the limit." },
+      { "speaker": "Tuan (developer)", "voice": "male", "text": "Understood. So my claim is pending approval until then?" },
+      { "speaker": "Lan (Accountant)", "voice": "female", "text": "Exactly. I'll notify you once it's approved and processed." }
+    ],
+    "questions": [
+      {
+        "q": "What does Tuan need to do for each expense?",
+        "options": ["Scan the receipt", "Call the accountant", "Print a form"],
+        "answer": 0
+      },
+      {
+        "q": "What will be subtracted from Tuan's reimbursement amount?",
+        "options": ["The cash advance he took", "His salary", "The taxi fare"],
+        "answer": 0
+      },
+      {
+        "q": "How long does the approval chain usually take?",
+        "options": ["Around three business days", "One week", "One month"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I need to submit a claim for my business trip expenses.",
+    "Did you scan the receipt for each of your expenses?",
+    "This falls under the transportation expense category on the form.",
+    "We'll subtract the cash advance from your reimbursement amount later.",
+    "Your claim is still pending approval, so please wait a bit."
+  ]
+}
