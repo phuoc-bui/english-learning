@@ -1,0 +1,103 @@
+{
+  "date": "2026-08-12",
+  "track": "finance",
+  "theme": "Dự báo dòng tiền",
+  "vocab": [
+    {
+      "word": "cash position",
+      "ipa": "/kæʃ pəˈzɪʃən/",
+      "meaning_vi": "tình trạng tiền mặt hiện tại",
+      "example": "We review our cash position every Monday morning.",
+      "example_vi": "Chúng tôi kiểm tra tình trạng tiền mặt vào mỗi sáng thứ Hai."
+    },
+    {
+      "word": "cash flow statement",
+      "ipa": "/kæʃ floʊ ˈsteɪtmənt/",
+      "meaning_vi": "báo cáo lưu chuyển tiền tệ",
+      "example": "The cash flow statement shows how money moves in and out each month.",
+      "example_vi": "Báo cáo lưu chuyển tiền tệ cho thấy tiền ra vào như thế nào mỗi tháng."
+    },
+    {
+      "word": "forecast period",
+      "ipa": "/ˈfɔːrkæst ˈpɪəriəd/",
+      "meaning_vi": "giai đoạn dự báo",
+      "example": "Our forecast period usually covers the next twelve months.",
+      "example_vi": "Giai đoạn dự báo của chúng tôi thường kéo dài mười hai tháng tới."
+    },
+    {
+      "word": "best-case scenario",
+      "ipa": "/best keɪs səˈnɛəriˌoʊ/",
+      "meaning_vi": "kịch bản lạc quan nhất",
+      "example": "In the best-case scenario, we'll have a surplus by next quarter.",
+      "example_vi": "Trong kịch bản lạc quan nhất, chúng tôi sẽ có thặng dư vào quý tới."
+    },
+    {
+      "word": "worst-case scenario",
+      "ipa": "/wɜːrst keɪs səˈnɛəriˌoʊ/",
+      "meaning_vi": "kịch bản xấu nhất",
+      "example": "We also prepared for the worst-case scenario in case sales drop.",
+      "example_vi": "Chúng tôi cũng chuẩn bị cho kịch bản xấu nhất nếu doanh số giảm."
+    },
+    {
+      "word": "seasonal fluctuation",
+      "ipa": "/ˈsiːzənl ˌflʌktʃuˈeɪʃən/",
+      "meaning_vi": "biến động theo mùa",
+      "example": "Revenue shows a clear seasonal fluctuation around holidays.",
+      "example_vi": "Doanh thu có biến động theo mùa rõ rệt vào các dịp lễ."
+    },
+    {
+      "word": "cash crunch",
+      "ipa": "/kæʃ krʌntʃ/",
+      "meaning_vi": "tình trạng thiếu hụt tiền mặt tạm thời",
+      "example": "We might face a cash crunch if clients pay late this month.",
+      "example_vi": "Chúng tôi có thể thiếu hụt tiền mặt tạm thời nếu khách trả chậm tháng này."
+    },
+    {
+      "word": "monthly projection",
+      "ipa": "/ˈmʌnθli prəˈdʒekʃən/",
+      "meaning_vi": "dự phóng theo tháng",
+      "example": "Please update the monthly projection before the finance meeting.",
+      "example_vi": "Hãy cập nhật dự phóng theo tháng trước buổi họp tài chính."
+    }
+  ],
+  "listening": {
+    "title": "Dự báo dòng tiền cho công ty",
+    "lines": [
+      { "speaker": "Thao (Finance Manager)", "voice": "female", "text": "Dat, can we go over our cash position before the meeting with the CEO?" },
+      { "speaker": "Dat (Finance Analyst)", "voice": "male", "text": "Sure. I just updated the cash flow statement for this month." },
+      { "speaker": "Thao (Finance Manager)", "voice": "female", "text": "Good. What forecast period did you use for the new numbers?" },
+      { "speaker": "Dat (Finance Analyst)", "voice": "male", "text": "I used a six-month forecast period, based on our current contracts." },
+      { "speaker": "Thao (Finance Manager)", "voice": "female", "text": "And what does the best-case scenario look like?" },
+      { "speaker": "Dat (Finance Analyst)", "voice": "male", "text": "In the best-case scenario, we'll have a healthy surplus by September." },
+      { "speaker": "Thao (Finance Manager)", "voice": "female", "text": "What about the worst-case scenario, if a big client delays payment?" },
+      { "speaker": "Dat (Finance Analyst)", "voice": "male", "text": "In the worst-case scenario, we could face a cash crunch by August." },
+      { "speaker": "Thao (Finance Manager)", "voice": "female", "text": "That's worrying. Is this related to the seasonal fluctuation we usually see?" },
+      { "speaker": "Dat (Finance Analyst)", "voice": "male", "text": "Partly, yes. I'll include that in the monthly projection I send tomorrow." },
+      { "speaker": "Thao (Finance Manager)", "voice": "female", "text": "Great, please share it before our meeting with the CEO." }
+    ],
+    "questions": [
+      {
+        "q": "What did Dat update before the meeting?",
+        "options": ["The cash flow statement", "The tax return", "The org chart"],
+        "answer": 0
+      },
+      {
+        "q": "What could happen in the worst-case scenario?",
+        "options": ["The company could face a cash crunch", "The company will get a bonus", "Sales will double"],
+        "answer": 0
+      },
+      {
+        "q": "What will Dat include in the monthly projection?",
+        "options": ["The seasonal fluctuation", "A new logo", "A hiring plan"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Let's check our cash position before the meeting with the CEO.",
+    "I just updated the cash flow statement for this month.",
+    "In the best-case scenario, we'll have a healthy surplus by September.",
+    "We could face a cash crunch if payments come in late.",
+    "I'll include the seasonal fluctuation in the monthly projection tomorrow."
+  ]
+}

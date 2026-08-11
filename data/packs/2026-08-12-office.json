@@ -1,0 +1,103 @@
+{
+  "date": "2026-08-12",
+  "track": "office",
+  "theme": "Feedback cho đồng nghiệp",
+  "vocab": [
+    {
+      "word": "deliver feedback",
+      "ipa": "/dɪˈlɪvər ˈfiːdbæk/",
+      "meaning_vi": "đưa ra phản hồi",
+      "example": "Try to deliver feedback calmly and focus on the facts.",
+      "example_vi": "Hãy cố gắng đưa ra phản hồi một cách bình tĩnh và tập trung vào sự việc."
+    },
+    {
+      "word": "sandwich method",
+      "ipa": "/ˈsændwɪtʃ ˈmeθəd/",
+      "meaning_vi": "phương pháp phản hồi kẹp (khen - góp ý - khen)",
+      "example": "I used the sandwich method to soften my feedback about the report.",
+      "example_vi": "Tôi dùng phương pháp kẹp để làm dịu phản hồi về bản báo cáo."
+    },
+    {
+      "word": "focus on behavior",
+      "ipa": "/ˈfoʊkəs ɒn bɪˈheɪvjər/",
+      "meaning_vi": "tập trung vào hành vi cụ thể",
+      "example": "Good feedback should focus on behavior, not personality.",
+      "example_vi": "Phản hồi tốt nên tập trung vào hành vi cụ thể, không phải tính cách."
+    },
+    {
+      "word": "take criticism well",
+      "ipa": "/teɪk ˈkrɪtɪsɪzəm wel/",
+      "meaning_vi": "tiếp nhận góp ý một cách tích cực",
+      "example": "He always takes criticism well and tries to improve quickly.",
+      "example_vi": "Anh ấy luôn tiếp nhận góp ý một cách tích cực và cố gắng cải thiện nhanh chóng."
+    },
+    {
+      "word": "private conversation",
+      "ipa": "/ˈpraɪvət ˌkɒnvərˈseɪʃən/",
+      "meaning_vi": "cuộc trò chuyện riêng tư",
+      "example": "Let's have a private conversation about your presentation skills.",
+      "example_vi": "Hãy cùng có một cuộc trò chuyện riêng tư về kỹ năng thuyết trình của bạn."
+    },
+    {
+      "word": "phrase it kindly",
+      "ipa": "/freɪz ɪt ˈkaɪndli/",
+      "meaning_vi": "diễn đạt một cách nhẹ nhàng",
+      "example": "I tried to phrase it kindly so she wouldn't feel discouraged.",
+      "example_vi": "Tôi cố gắng diễn đạt nhẹ nhàng để cô ấy không cảm thấy nản lòng."
+    },
+    {
+      "word": "growth-oriented",
+      "ipa": "/ɡroʊθ ˈɔːriəntɪd/",
+      "meaning_vi": "hướng đến sự phát triển",
+      "example": "Our feedback culture is growth-oriented, not judgmental.",
+      "example_vi": "Văn hoá phản hồi của chúng tôi hướng đến sự phát triển, không phán xét."
+    },
+    {
+      "word": "follow up on feedback",
+      "ipa": "/ˈfɒloʊ ʌp ɒn ˈfiːdbæk/",
+      "meaning_vi": "theo dõi sau khi đưa phản hồi",
+      "example": "Remember to follow up on feedback a week later to check progress.",
+      "example_vi": "Nhớ theo dõi lại sau khi đưa phản hồi khoảng một tuần để kiểm tra tiến độ."
+    }
+  ],
+  "listening": {
+    "title": "Đưa phản hồi cho đồng nghiệp",
+    "lines": [
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Khoa, do you have a few minutes? I'd like to deliver feedback about your last report." },
+      { "speaker": "Khoa (Developer)", "voice": "male", "text": "Sure, go ahead. I want to know what I can improve." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "I'll use the sandwich method — first, the structure was really clear and easy to follow." },
+      { "speaker": "Khoa (Developer)", "voice": "male", "text": "Thanks, that's good to hear." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "The one thing I'd suggest is to focus on behavior next time, like being more specific." },
+      { "speaker": "Khoa (Developer)", "voice": "male", "text": "That makes sense. I take criticism well, so please just be direct with me." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Good. Let's keep this as a private conversation so you feel comfortable." },
+      { "speaker": "Khoa (Developer)", "voice": "male", "text": "I appreciate that. Just try to phrase it kindly if it's something sensitive." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Of course. Our team is growth-oriented, so I only want to help you improve." },
+      { "speaker": "Khoa (Developer)", "voice": "male", "text": "Thank you. Will you follow up on feedback next week to see how I'm doing?" },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Yes, definitely. Let's check in again next Friday." }
+    ],
+    "questions": [
+      {
+        "q": "What method does Hoa use to give feedback?",
+        "options": ["The sandwich method", "A written email", "A group meeting"],
+        "answer": 0
+      },
+      {
+        "q": "What does Hoa suggest Khoa focus on next time?",
+        "options": ["Being more specific about his work", "Working faster", "Changing teams"],
+        "answer": 0
+      },
+      {
+        "q": "When will Hoa follow up on the feedback?",
+        "options": ["Next Friday", "The next day", "In one month"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I'd like to deliver feedback about your presentation this afternoon.",
+    "Let's keep this as a private conversation between the two of us.",
+    "I always try to phrase it kindly so no one feels hurt.",
+    "Good feedback should focus on behavior, not on someone's personality.",
+    "Remember to follow up on feedback about a week later."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-12",
+  "track": "interview",
+  "theme": "Mục tiêu nghề nghiệp 3-5 năm",
+  "vocab": [
+    {
+      "word": "set a target",
+      "ipa": "/set ə ˈtɑːrɡɪt/",
+      "meaning_vi": "đặt mục tiêu cụ thể",
+      "example": "I set a target to become a team lead within three years.",
+      "example_vi": "Tôi đặt mục tiêu trở thành team lead trong vòng ba năm."
+    },
+    {
+      "word": "realistic timeline",
+      "ipa": "/ˌriːəˈlɪstɪk ˈtaɪmlaɪn/",
+      "meaning_vi": "mốc thời gian thực tế",
+      "example": "I try to build a realistic timeline for each career goal.",
+      "example_vi": "Tôi cố gắng xây dựng mốc thời gian thực tế cho từng mục tiêu nghề nghiệp."
+    },
+    {
+      "word": "personal growth plan",
+      "ipa": "/ˈpɜːrsənl ɡroʊθ plæn/",
+      "meaning_vi": "kế hoạch phát triển cá nhân",
+      "example": "My personal growth plan includes learning cloud architecture next year.",
+      "example_vi": "Kế hoạch phát triển cá nhân của tôi bao gồm học kiến trúc cloud vào năm tới."
+    },
+    {
+      "word": "align with company goals",
+      "ipa": "/əˈlaɪn wɪð ˈkʌmpəni ɡoʊlz/",
+      "meaning_vi": "gắn kết với mục tiêu công ty",
+      "example": "I want my career goals to align with company goals as well.",
+      "example_vi": "Tôi muốn mục tiêu nghề nghiệp của mình cũng gắn kết với mục tiêu công ty."
+    },
+    {
+      "word": "measure your progress",
+      "ipa": "/ˈmeʒər jʊr ˈprɒɡres/",
+      "meaning_vi": "đo lường tiến độ của bản thân",
+      "example": "I measure my progress every quarter with my manager.",
+      "example_vi": "Tôi đo lường tiến độ của mình mỗi quý cùng với quản lý."
+    },
+    {
+      "word": "envision your future role",
+      "ipa": "/ɪnˈvɪʒən jʊr ˈfjuːtʃər roʊl/",
+      "meaning_vi": "hình dung vai trò tương lai của mình",
+      "example": "I try to envision my future role as a technical lead.",
+      "example_vi": "Tôi cố gắng hình dung vai trò tương lai của mình là một technical lead."
+    },
+    {
+      "word": "stretch goal",
+      "ipa": "/stretʃ ɡoʊl/",
+      "meaning_vi": "mục tiêu đầy thử thách",
+      "example": "Leading a cross-team project is a stretch goal for me this year.",
+      "example_vi": "Dẫn dắt một dự án liên phòng ban là mục tiêu đầy thử thách của tôi năm nay."
+    },
+    {
+      "word": "chart your own path",
+      "ipa": "/tʃɑːrt jʊr oʊn pæθ/",
+      "meaning_vi": "tự vạch ra con đường sự nghiệp",
+      "example": "I like to chart my own path instead of just following others.",
+      "example_vi": "Tôi thích tự vạch ra con đường sự nghiệp thay vì chỉ đi theo người khác."
+    }
+  ],
+  "listening": {
+    "title": "Phỏng vấn: Mục tiêu nghề nghiệp 3-5 năm",
+    "lines": [
+      { "speaker": "Mai (Interviewer)", "voice": "female", "text": "So, Son, where do you see yourself in the next three to five years?" },
+      { "speaker": "Son (Candidate)", "voice": "male", "text": "I set a target to grow from developer to technical lead within five years." },
+      { "speaker": "Mai (Interviewer)", "voice": "female", "text": "That's a clear goal. Do you have a realistic timeline for each step?" },
+      { "speaker": "Son (Candidate)", "voice": "male", "text": "Yes, I plan to master system design in year two, then move into mentoring." },
+      { "speaker": "Mai (Interviewer)", "voice": "female", "text": "Do you have a personal growth plan to support that?" },
+      { "speaker": "Son (Candidate)", "voice": "male", "text": "I do. I'm taking an architecture course and reading about leadership every month." },
+      { "speaker": "Mai (Interviewer)", "voice": "female", "text": "Good. How do you make sure your goals align with company goals?" },
+      { "speaker": "Son (Candidate)", "voice": "male", "text": "I always check in with my manager to make sure my plan fits the roadmap." },
+      { "speaker": "Mai (Interviewer)", "voice": "female", "text": "How do you measure your progress along the way?" },
+      { "speaker": "Son (Candidate)", "voice": "male", "text": "I review it every quarter and adjust the plan if something changes." },
+      { "speaker": "Mai (Interviewer)", "voice": "female", "text": "Do you envision your future role as purely technical, or also managing people?" },
+      { "speaker": "Son (Candidate)", "voice": "male", "text": "Both, actually. Leading a big migration is a stretch goal, and I like to chart my own path." }
+    ],
+    "questions": [
+      {
+        "q": "What is Son's main career target?",
+        "options": ["To grow from developer to technical lead within five years", "To become a CEO", "To quit and start a business"],
+        "answer": 0
+      },
+      {
+        "q": "What does Son do to support his personal growth plan?",
+        "options": ["He takes an architecture course and reads about leadership", "He works overtime every day", "He avoids extra responsibilities"],
+        "answer": 0
+      },
+      {
+        "q": "What does Son call leading a big migration project?",
+        "options": ["A stretch goal", "An easy task", "A backup plan"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I set a target to become a technical lead within five years.",
+    "I always try to build a realistic timeline for my goals.",
+    "My personal growth plan includes learning system design next year.",
+    "I make sure my goals align with the company's roadmap.",
+    "Leading a big migration project is a real stretch goal for me."
+  ]
+}

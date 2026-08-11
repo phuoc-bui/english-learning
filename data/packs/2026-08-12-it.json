@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-12",
+  "track": "it",
+  "theme": "Daily standup meeting",
+  "vocab": [
+    {
+      "word": "task board",
+      "ipa": "/tæsk bɔːrd/",
+      "meaning_vi": "bảng theo dõi công việc",
+      "example": "We track all our sprint items on the task board.",
+      "example_vi": "Chúng tôi theo dõi tất cả công việc trong sprint trên task board."
+    },
+    {
+      "word": "run the standup",
+      "ipa": "/rʌn ðə ˈstændʌp/",
+      "meaning_vi": "điều phối buổi standup",
+      "example": "Minh will run the standup while the scrum master is on leave.",
+      "example_vi": "Minh sẽ điều phối buổi standup trong khi scrum master nghỉ phép."
+    },
+    {
+      "word": "share an update",
+      "ipa": "/ʃer ən ˈʌpdeɪt/",
+      "meaning_vi": "chia sẻ cập nhật công việc",
+      "example": "Each person should share an update on their current task.",
+      "example_vi": "Mỗi người nên chia sẻ cập nhật về công việc hiện tại của mình."
+    },
+    {
+      "word": "no blockers",
+      "ipa": "/noʊ ˈblɒkərz/",
+      "meaning_vi": "không có gì cản trở",
+      "example": "I have no blockers today, so I'll finish the feature by Friday.",
+      "example_vi": "Hôm nay tôi không có gì cản trở, nên sẽ hoàn thành tính năng trước thứ Sáu."
+    },
+    {
+      "word": "get straight to the point",
+      "ipa": "/ɡet streɪt tə ðə pɔɪnt/",
+      "meaning_vi": "nói thẳng vào trọng tâm",
+      "example": "Let's get straight to the point since the standup is only fifteen minutes.",
+      "example_vi": "Hãy nói thẳng vào trọng tâm vì standup chỉ có mười lăm phút."
+    },
+    {
+      "word": "day-to-day update",
+      "ipa": "/ˌdeɪ tə ˈdeɪ ˈʌpdeɪt/",
+      "meaning_vi": "cập nhật hằng ngày",
+      "example": "The team gives a day-to-day update to stay aligned on progress.",
+      "example_vi": "Đội nhóm đưa ra cập nhật hằng ngày để giữ sự thống nhất về tiến độ."
+    },
+    {
+      "word": "mark as done",
+      "ipa": "/mɑːrk əz dʌn/",
+      "meaning_vi": "đánh dấu hoàn thành",
+      "example": "Please mark as done once the ticket passes testing.",
+      "example_vi": "Hãy đánh dấu hoàn thành khi ticket đã qua kiểm thử."
+    },
+    {
+      "word": "async standup",
+      "ipa": "/ˌeɪˈsɪŋk ˈstændʌp/",
+      "meaning_vi": "standup không đồng bộ",
+      "example": "We switched to an async standup because our team spans two time zones.",
+      "example_vi": "Chúng tôi chuyển sang standup không đồng bộ vì đội nhóm ở hai múi giờ khác nhau."
+    }
+  ],
+  "listening": {
+    "title": "Buổi standup buổi sáng của đội dev",
+    "lines": [
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Morning, Trang. Let's run the standup quickly since the client call starts soon." },
+      { "speaker": "Trang (Developer)", "voice": "female", "text": "Sounds good. Yesterday I updated the login page, and I have no blockers today." },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Nice. Can you share an update on the API bug you were fixing?" },
+      { "speaker": "Trang (Developer)", "voice": "female", "text": "Sure, I'll get straight to the point — it's almost fixed, just need one more test." },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Great. Let's check the task board to see what's still open." },
+      { "speaker": "Trang (Developer)", "voice": "female", "text": "I see my ticket there. I'll mark as done once QA approves it this afternoon." },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Perfect. Do you also give a day-to-day update to the client?" },
+      { "speaker": "Trang (Developer)", "voice": "female", "text": "Not directly, but our team posts an async standup on Slack every morning for them." },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "That's smart since some of them work in a different time zone." },
+      { "speaker": "Trang (Developer)", "voice": "female", "text": "Exactly. It keeps everyone informed without needing another meeting." }
+    ],
+    "questions": [
+      {
+        "q": "What does Trang say about blockers?",
+        "options": ["She has no blockers today", "She has three blockers", "She doesn't know yet"],
+        "answer": 0
+      },
+      {
+        "q": "What will Trang do once QA approves her ticket?",
+        "options": ["Mark it as done", "Delete the ticket", "Reassign it to Nam"],
+        "answer": 0
+      },
+      {
+        "q": "Why does the team use an async standup?",
+        "options": ["Because some members work in a different time zone", "Because Nam is on leave", "Because they don't like meetings"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I have no blockers today, so I'll finish the feature by evening.",
+    "Let's get straight to the point since the standup is short.",
+    "Please mark as done once your ticket passes the QA testing.",
+    "We switched to an async standup because our team spans two time zones.",
+    "Each person should share a quick update on their current task today."
+  ]
+}

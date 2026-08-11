@@ -1,0 +1,103 @@
+{
+  "date": "2026-08-12",
+  "track": "sales",
+  "theme": "Gặp khách lần đầu",
+  "vocab": [
+    {
+      "word": "meet and greet",
+      "ipa": "/miːt ənd ɡriːt/",
+      "meaning_vi": "buổi gặp gỡ làm quen",
+      "example": "We organized a short meet and greet before the main presentation.",
+      "example_vi": "Chúng tôi tổ chức một buổi gặp gỡ làm quen ngắn trước phần thuyết trình chính."
+    },
+    {
+      "word": "company overview",
+      "ipa": "/ˈkʌmpəni ˈoʊvərvjuː/",
+      "meaning_vi": "giới thiệu tổng quan công ty",
+      "example": "Let me start with a quick company overview before we discuss the product.",
+      "example_vi": "Để tôi bắt đầu với phần giới thiệu tổng quan công ty trước khi bàn về sản phẩm."
+    },
+    {
+      "word": "put the client at ease",
+      "ipa": "/pʊt ðə ˈklaɪənt æt iːz/",
+      "meaning_vi": "giúp khách hàng cảm thấy thoải mái",
+      "example": "I always try to put the client at ease before talking business.",
+      "example_vi": "Tôi luôn cố gắng giúp khách hàng thoải mái trước khi bàn chuyện công việc."
+    },
+    {
+      "word": "set the tone",
+      "ipa": "/set ðə toʊn/",
+      "meaning_vi": "tạo không khí cho cuộc gặp",
+      "example": "A warm smile can set the tone for the whole meeting.",
+      "example_vi": "Một nụ cười thân thiện có thể tạo không khí cho cả buổi gặp."
+    },
+    {
+      "word": "active listening",
+      "ipa": "/ˈæktɪv ˈlɪsənɪŋ/",
+      "meaning_vi": "lắng nghe chủ động",
+      "example": "Active listening helps you understand what the client really needs.",
+      "example_vi": "Lắng nghe chủ động giúp bạn hiểu điều khách hàng thực sự cần."
+    },
+    {
+      "word": "note key details",
+      "ipa": "/noʊt kiː ˈdiːteɪlz/",
+      "meaning_vi": "ghi lại các chi tiết quan trọng",
+      "example": "I always note key details during the first meeting with a client.",
+      "example_vi": "Tôi luôn ghi lại các chi tiết quan trọng trong buổi gặp đầu tiên với khách hàng."
+    },
+    {
+      "word": "meeting etiquette",
+      "ipa": "/ˈmiːtɪŋ ˈetɪket/",
+      "meaning_vi": "phép lịch sự trong cuộc họp",
+      "example": "Good meeting etiquette includes arriving early and turning off your phone.",
+      "example_vi": "Phép lịch sự trong họp bao gồm đến sớm và tắt điện thoại."
+    },
+    {
+      "word": "office tour",
+      "ipa": "/ˈɒfɪs tʊr/",
+      "meaning_vi": "dẫn khách tham quan văn phòng",
+      "example": "After the introduction, we gave the client a quick office tour.",
+      "example_vi": "Sau phần giới thiệu, chúng tôi dẫn khách tham quan văn phòng một chút."
+    }
+  ],
+  "listening": {
+    "title": "Gặp khách hàng mới lần đầu",
+    "lines": [
+      { "speaker": "An (Sales Executive)", "voice": "female", "text": "Good morning, Mr. Phong! Thanks for coming in — let's start with a quick meet and greet." },
+      { "speaker": "Phong (Client)", "voice": "male", "text": "Good morning, An. Nice to finally meet you in person." },
+      { "speaker": "An (Sales Executive)", "voice": "female", "text": "Before we dive into the proposal, let me give you a short company overview." },
+      { "speaker": "Phong (Client)", "voice": "male", "text": "Sure, that would help me understand your background." },
+      { "speaker": "An (Sales Executive)", "voice": "female", "text": "I always try to put the client at ease first — would you like some coffee?" },
+      { "speaker": "Phong (Client)", "voice": "male", "text": "That's kind, thank you. A relaxed start really does set the tone." },
+      { "speaker": "An (Sales Executive)", "voice": "female", "text": "Great. I'll use active listening throughout, so please tell me about your challenges." },
+      { "speaker": "Phong (Client)", "voice": "male", "text": "Sounds good. I noticed your team follows good meeting etiquette — starting right on time." },
+      { "speaker": "An (Sales Executive)", "voice": "female", "text": "Thank you! I'll note key details as we talk so I don't miss anything important." },
+      { "speaker": "Phong (Client)", "voice": "male", "text": "Perfect. Could we also get a quick office tour before we leave today?" },
+      { "speaker": "An (Sales Executive)", "voice": "female", "text": "Of course, I'll show you around after our discussion." }
+    ],
+    "questions": [
+      {
+        "q": "What does An do first when Phong arrives?",
+        "options": ["She starts with a meet and greet", "She asks for payment", "She calls a taxi"],
+        "answer": 0
+      },
+      {
+        "q": "What does An do throughout the conversation with Phong?",
+        "options": ["She practices active listening", "She reads a script", "She checks her phone"],
+        "answer": 0
+      },
+      {
+        "q": "What does Phong ask for at the end of the meeting?",
+        "options": ["A quick office tour", "A price discount", "A signed contract"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Let's start with a quick meet and greet before the proposal.",
+    "I always try to put the client at ease right away.",
+    "A warm smile can really set the tone for the meeting.",
+    "Active listening helps you understand what the client truly needs.",
+    "I'll note key details so I don't miss anything important later."
+  ]
+}
