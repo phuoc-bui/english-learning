@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-13",
+  "track": "office",
+  "theme": "Deal deadline",
+  "vocab": [
+    {
+      "word": "missed deadline",
+      "ipa": "/mɪst ˈdedlaɪn/",
+      "meaning_vi": "deadline bị trễ, bị lỡ",
+      "example": "There's a risk of a missed deadline if we don't get the data today.",
+      "example_vi": "Có nguy cơ trễ deadline nếu hôm nay chúng ta không có dữ liệu."
+    },
+    {
+      "word": "running behind",
+      "ipa": "/ˈrʌnɪŋ bɪˈhaɪnd/",
+      "meaning_vi": "bị chậm tiến độ",
+      "example": "We're running behind because of the extra requests.",
+      "example_vi": "Chúng tôi đang bị chậm tiến độ vì có thêm yêu cầu."
+    },
+    {
+      "word": "buffer day",
+      "ipa": "/ˈbʌfər deɪ/",
+      "meaning_vi": "ngày dự phòng thêm vào lịch trình",
+      "example": "Let's add a buffer day in case something else comes up.",
+      "example_vi": "Hãy thêm một ngày dự phòng phòng khi có phát sinh khác."
+    },
+    {
+      "word": "overcommit",
+      "ipa": "/ˌoʊvərkəˈmɪt/",
+      "meaning_vi": "nhận quá nhiều việc so với khả năng",
+      "example": "I overcommitted last sprint and couldn't finish everything.",
+      "example_vi": "Tôi đã nhận quá nhiều việc ở sprint trước và không hoàn thành hết."
+    },
+    {
+      "word": "renegotiate",
+      "ipa": "/ˌriːnɪˈɡoʊʃieɪt/",
+      "meaning_vi": "đàm phán lại",
+      "example": "We need to renegotiate the deadline with the client.",
+      "example_vi": "Chúng ta cần đàm phán lại deadline với khách hàng."
+    },
+    {
+      "word": "extension",
+      "ipa": "/ɪkˈstenʃn/",
+      "meaning_vi": "gia hạn thời gian",
+      "example": "Could we get a two-day extension on this project?",
+      "example_vi": "Chúng ta có thể xin gia hạn thêm hai ngày cho dự án này không?"
+    },
+    {
+      "word": "realistic estimate",
+      "ipa": "/ˌriːəˈlɪstɪk ˈestɪmət/",
+      "meaning_vi": "ước tính hợp lý, sát thực tế",
+      "example": "Please give me a realistic estimate before you commit to a date.",
+      "example_vi": "Hãy đưa ra một ước tính hợp lý trước khi bạn cam kết ngày hoàn thành."
+    },
+    {
+      "word": "revised timeline",
+      "ipa": "/rɪˈvaɪzd ˈtaɪmlaɪn/",
+      "meaning_vi": "lịch trình đã được điều chỉnh lại",
+      "example": "Can you send me the revised timeline by tomorrow morning?",
+      "example_vi": "Bạn có thể gửi tôi lịch trình đã điều chỉnh trước sáng mai không?"
+    }
+  ],
+  "listening": {
+    "title": "Renegotiating a Deadline",
+    "lines": [
+      { "speaker": "Hoa (Project Manager)", "voice": "female", "text": "Minh, how is the report coming along? The deadline is tomorrow." },
+      { "speaker": "Minh (Employee)", "voice": "male", "text": "Actually, I think we have a missed deadline risk. The data isn't ready yet." },
+      { "speaker": "Hoa (Project Manager)", "voice": "female", "text": "That's concerning. Can you tell me why you're running behind?" },
+      { "speaker": "Minh (Employee)", "voice": "male", "text": "I overcommitted to too many tasks this month." },
+      { "speaker": "Hoa (Project Manager)", "voice": "female", "text": "I understand. Let's renegotiate the deadline with the client." },
+      { "speaker": "Minh (Employee)", "voice": "male", "text": "Thank you. A two-day extension would really help." },
+      { "speaker": "Hoa (Project Manager)", "voice": "female", "text": "Okay, I'll ask for two more days. Please give me a realistic estimate this time." },
+      { "speaker": "Minh (Employee)", "voice": "male", "text": "I will. Let's also add a buffer day in case something else comes up." },
+      { "speaker": "Hoa (Project Manager)", "voice": "female", "text": "Good idea. Can you send me the revised timeline by tomorrow morning?" },
+      { "speaker": "Minh (Employee)", "voice": "male", "text": "Sure, I'll prepare it tonight and share it first thing tomorrow." },
+      { "speaker": "Hoa (Project Manager)", "voice": "female", "text": "Perfect. If we stay on track, we can still deliver on time." },
+      { "speaker": "Minh (Employee)", "voice": "male", "text": "Understood. I'll update you every day so there are no surprises." }
+    ],
+    "questions": [
+      {
+        "q": "Why is Minh running behind on the report?",
+        "options": ["He is sick", "He overcommitted to too many tasks", "He lost the data"],
+        "answer": 1
+      },
+      {
+        "q": "What does Hoa decide to do about the deadline?",
+        "options": ["Cancel the project", "Renegotiate the deadline with the client", "Fire Minh"],
+        "answer": 1
+      },
+      {
+        "q": "What do Hoa and Minh agree to add to the new plan?",
+        "options": ["A buffer day and a revised timeline", "A new team member", "A bonus payment"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I think we have a missed deadline risk on this report.",
+    "I overcommitted to too many tasks this month at work.",
+    "Let's renegotiate the deadline before the client gets really upset.",
+    "Could you give me a realistic estimate before you commit?",
+    "Let's add a buffer day and send the revised timeline tomorrow."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-13",
+  "track": "sales",
+  "theme": "Chăm sóc khách sau bán",
+  "vocab": [
+    {
+      "word": "check-in call",
+      "ipa": "/ˈtʃek ɪn kɔːl/",
+      "meaning_vi": "cuộc gọi thăm hỏi định kỳ",
+      "example": "I'm making a check-in call to see how you're doing with our product.",
+      "example_vi": "Tôi gọi điện thăm hỏi để xem bạn dùng sản phẩm của chúng tôi thế nào."
+    },
+    {
+      "word": "troubleshoot",
+      "ipa": "/ˈtrʌbəlʃuːt/",
+      "meaning_vi": "khắc phục sự cố",
+      "example": "Our technical team will troubleshoot the issue today.",
+      "example_vi": "Đội kỹ thuật của chúng tôi sẽ khắc phục sự cố ngay hôm nay."
+    },
+    {
+      "word": "product training",
+      "ipa": "/ˈprɒdʌkt ˈtreɪnɪŋ/",
+      "meaning_vi": "đào tạo sử dụng sản phẩm",
+      "example": "We offer product training for all new staff members.",
+      "example_vi": "Chúng tôi cung cấp đào tạo sản phẩm cho tất cả nhân viên mới."
+    },
+    {
+      "word": "satisfaction survey",
+      "ipa": "/ˌsætɪsˈfækʃn ˈsɜːrveɪ/",
+      "meaning_vi": "khảo sát mức độ hài lòng",
+      "example": "Please fill out our satisfaction survey after the visit.",
+      "example_vi": "Vui lòng điền khảo sát mức độ hài lòng sau buổi làm việc."
+    },
+    {
+      "word": "repeat customer",
+      "ipa": "/rɪˈpiːt ˈkʌstəmər/",
+      "meaning_vi": "khách hàng thân thiết, khách quay lại",
+      "example": "You've been a repeat customer for three years now.",
+      "example_vi": "Anh đã là khách hàng thân thiết của chúng tôi ba năm nay."
+    },
+    {
+      "word": "service level agreement",
+      "ipa": "/ˈsɜːrvɪs ˈlevl əˈɡriːmənt/",
+      "meaning_vi": "thỏa thuận mức độ dịch vụ (SLA)",
+      "example": "Under our service level agreement, we respond within twenty-four hours.",
+      "example_vi": "Theo thỏa thuận mức độ dịch vụ, chúng tôi phản hồi trong vòng 24 giờ."
+    },
+    {
+      "word": "follow-up visit",
+      "ipa": "/ˈfɒloʊ ʌp ˈvɪzɪt/",
+      "meaning_vi": "buổi thăm/gặp lại sau đó",
+      "example": "Let's schedule a follow-up visit for next month.",
+      "example_vi": "Hãy lên lịch một buổi thăm lại vào tháng sau."
+    },
+    {
+      "word": "retention rate",
+      "ipa": "/rɪˈtenʃn reɪt/",
+      "meaning_vi": "tỷ lệ giữ chân khách hàng",
+      "example": "Good after-sales care helps improve our retention rate.",
+      "example_vi": "Chăm sóc sau bán tốt giúp cải thiện tỷ lệ giữ chân khách hàng."
+    }
+  ],
+  "listening": {
+    "title": "A Check-in Call With a Customer",
+    "lines": [
+      { "speaker": "Mai (Account Manager)", "voice": "female", "text": "Hi Mr. Long, this is Mai from customer care. I'm making a check-in call about your new software." },
+      { "speaker": "Long (Customer)", "voice": "male", "text": "Hi Mai, thanks for calling. Actually, we had a small issue last week." },
+      { "speaker": "Mai (Account Manager)", "voice": "female", "text": "I'm sorry to hear that. Can you tell me what happened so I can troubleshoot it?" },
+      { "speaker": "Long (Customer)", "voice": "male", "text": "The system was slow during our busy hours." },
+      { "speaker": "Mai (Account Manager)", "voice": "female", "text": "I'll send our technical team to troubleshoot it today." },
+      { "speaker": "Long (Customer)", "voice": "male", "text": "That would be great. Also, could your team run a short product training for our new staff?" },
+      { "speaker": "Mai (Account Manager)", "voice": "female", "text": "Of course. I'll also send a satisfaction survey after the training so we can improve." },
+      { "speaker": "Long (Customer)", "voice": "male", "text": "Sounds good. We've been a repeat customer for three years, so we trust your service." },
+      { "speaker": "Mai (Account Manager)", "voice": "female", "text": "We really appreciate that. Under our service level agreement, we should respond within twenty-four hours." },
+      { "speaker": "Long (Customer)", "voice": "male", "text": "Good to know. Please also schedule a follow-up visit next month." },
+      { "speaker": "Mai (Account Manager)", "voice": "female", "text": "I will. Keeping our retention rate high starts with taking good care of customers like you." },
+      { "speaker": "Long (Customer)", "voice": "male", "text": "Thank you, Mai. I'll wait for your team's call." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Mai call Mr. Long?",
+        "options": ["To sell a new product", "To make a check-in call about his software", "To ask for payment"],
+        "answer": 1
+      },
+      {
+        "q": "What problem does Mr. Long report?",
+        "options": ["The system was slow during busy hours", "The software crashed completely", "He lost his password"],
+        "answer": 0
+      },
+      {
+        "q": "What does Mai promise to send after the training?",
+        "options": ["A new invoice", "A satisfaction survey", "A contract"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "I'm making a check-in call to see how things are going.",
+    "Our technical team will troubleshoot the issue as soon as possible.",
+    "Could your team run a short product training for our new staff?",
+    "We've been a repeat customer for three years, so we trust you.",
+    "Please schedule a follow-up visit sometime next month if possible."
+  ]
+}

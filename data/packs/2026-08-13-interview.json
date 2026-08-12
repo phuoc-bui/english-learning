@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-13",
+  "track": "interview",
+  "theme": "Deal lương khi phỏng vấn",
+  "vocab": [
+    {
+      "word": "pay range",
+      "ipa": "/peɪ reɪndʒ/",
+      "meaning_vi": "khoảng lương",
+      "example": "What pay range did you have in mind for this position?",
+      "example_vi": "Bạn nghĩ đến khoảng lương nào cho vị trí này?"
+    },
+    {
+      "word": "salary bracket",
+      "ipa": "/ˈsæləri ˈbrækɪt/",
+      "meaning_vi": "bậc lương",
+      "example": "Your experience puts you in a higher salary bracket.",
+      "example_vi": "Kinh nghiệm của bạn đưa bạn vào bậc lương cao hơn."
+    },
+    {
+      "word": "compensation structure",
+      "ipa": "/ˌkɒmpenˈseɪʃn ˈstrʌktʃər/",
+      "meaning_vi": "cơ cấu lương thưởng",
+      "example": "Let me explain our compensation structure in more detail.",
+      "example_vi": "Để tôi giải thích chi tiết hơn về cơ cấu lương thưởng của chúng tôi."
+    },
+    {
+      "word": "sweeten the offer",
+      "ipa": "/ˈswiːtn ði ˈɒfər/",
+      "meaning_vi": "làm cho đề nghị hấp dẫn hơn",
+      "example": "We can sweeten the offer with extra vacation days.",
+      "example_vi": "Chúng tôi có thể làm đề nghị hấp dẫn hơn bằng cách thêm ngày nghỉ phép."
+    },
+    {
+      "word": "justify your ask",
+      "ipa": "/ˈdʒʌstɪfaɪ jɔːr æsk/",
+      "meaning_vi": "giải trình lý do cho yêu cầu của mình",
+      "example": "Let me justify my ask with two examples from my last job.",
+      "example_vi": "Hãy để tôi giải trình yêu cầu của mình bằng hai ví dụ từ công việc trước."
+    },
+    {
+      "word": "final offer",
+      "ipa": "/ˈfaɪnl ˈɒfər/",
+      "meaning_vi": "đề nghị cuối cùng",
+      "example": "We'll prepare a final offer after discussing with the manager.",
+      "example_vi": "Chúng tôi sẽ chuẩn bị đề nghị cuối cùng sau khi trao đổi với quản lý."
+    },
+    {
+      "word": "probation review",
+      "ipa": "/proʊˈbeɪʃn rɪˈvjuː/",
+      "meaning_vi": "đánh giá sau thời gian thử việc",
+      "example": "Your salary can increase after the probation review.",
+      "example_vi": "Lương của bạn có thể tăng sau đợt đánh giá thử việc."
+    },
+    {
+      "word": "negotiate confidently",
+      "ipa": "/nɪˈɡoʊʃieɪt ˈkɒnfɪdəntli/",
+      "meaning_vi": "đàm phán một cách tự tin",
+      "example": "It's important to negotiate confidently but stay respectful.",
+      "example_vi": "Điều quan trọng là đàm phán tự tin nhưng vẫn giữ sự tôn trọng."
+    }
+  ],
+  "listening": {
+    "title": "Negotiating Salary in an Interview",
+    "lines": [
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "Duy, before we finish, let's talk about the pay range for this role." },
+      { "speaker": "Duy (Candidate)", "voice": "male", "text": "Thank you. Based on my experience, I believe I fit into a higher salary bracket." },
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "That's fair. Let me explain our compensation structure in a bit more detail." },
+      { "speaker": "Duy (Candidate)", "voice": "male", "text": "I appreciate that. Is there any room to sweeten the offer with other benefits?" },
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "We could add extra vacation days or more remote workdays, if that helps." },
+      { "speaker": "Duy (Candidate)", "voice": "male", "text": "That would help a lot. Let me justify my ask — I led two major projects at my last company." },
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "That's helpful context. I'll discuss this with my manager and prepare a final offer." },
+      { "speaker": "Duy (Candidate)", "voice": "male", "text": "Thank you. Could you also tell me about the probation review? I heard salaries can adjust after that." },
+      { "speaker": "Trang (Interviewer)", "voice": "female", "text": "Yes, that's correct. We review pay again after the probation review." },
+      { "speaker": "Duy (Candidate)", "voice": "male", "text": "Great, I'm confident we can negotiate confidently and find a number that works for both sides." }
+    ],
+    "questions": [
+      {
+        "q": "What does Duy ask Trang to explain?",
+        "options": ["The compensation structure", "The office location", "The dress code"],
+        "answer": 0
+      },
+      {
+        "q": "What does Duy ask about near the end of the interview?",
+        "options": ["The probation review and pay adjustment", "The company's holiday schedule", "The dress code policy"],
+        "answer": 0
+      },
+      {
+        "q": "How does Duy justify his salary ask?",
+        "options": ["By mentioning two major projects he led", "By comparing salaries with a friend", "By threatening to quit"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "What pay range did you have in mind for this position?",
+    "My experience puts me in a higher salary bracket than before.",
+    "Could you explain your compensation structure in a bit more detail?",
+    "Is there any room to sweeten the offer with more benefits?",
+    "I'll negotiate confidently and justify my ask with real examples."
+  ]
+}

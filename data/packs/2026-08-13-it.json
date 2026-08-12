@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-13",
+  "track": "it",
+  "theme": "Code review & pull requests",
+  "vocab": [
+    {
+      "word": "PR description",
+      "ipa": "/piː ɑːr dɪˈskrɪpʃn/",
+      "meaning_vi": "phần mô tả trong pull request",
+      "example": "Please write a clear PR description so reviewers understand the change.",
+      "example_vi": "Hãy viết mô tả PR rõ ràng để người review hiểu được thay đổi."
+    },
+    {
+      "word": "merge conflict",
+      "ipa": "/mɜːrdʒ ˈkɒnflɪkt/",
+      "meaning_vi": "xung đột khi hợp nhất mã",
+      "example": "I have a merge conflict between my branch and the main branch.",
+      "example_vi": "Tôi có xung đột hợp nhất giữa nhánh của tôi và nhánh main."
+    },
+    {
+      "word": "self-review",
+      "ipa": "/self rɪˈvjuː/",
+      "meaning_vi": "tự kiểm tra lại code trước khi gửi review",
+      "example": "Do a self-review before you ask someone to check your pull request.",
+      "example_vi": "Hãy tự kiểm tra lại code trước khi nhờ ai đó xem pull request của bạn."
+    },
+    {
+      "word": "inline comment",
+      "ipa": "/ˈɪnlaɪn ˈkɒment/",
+      "meaning_vi": "bình luận trực tiếp trên dòng code",
+      "example": "She left an inline comment about the variable name.",
+      "example_vi": "Cô ấy để lại một bình luận trực tiếp về tên biến."
+    },
+    {
+      "word": "request changes",
+      "ipa": "/rɪˈkwɛst ˈtʃeɪndʒɪz/",
+      "meaning_vi": "yêu cầu chỉnh sửa (trạng thái review)",
+      "example": "The reviewer chose request changes instead of approving.",
+      "example_vi": "Người review chọn yêu cầu chỉnh sửa thay vì phê duyệt."
+    },
+    {
+      "word": "code coverage",
+      "ipa": "/koʊd ˈkʌvərɪdʒ/",
+      "meaning_vi": "độ bao phủ của kiểm thử mã",
+      "example": "Our code coverage needs to stay above eighty percent.",
+      "example_vi": "Độ bao phủ kiểm thử của chúng ta cần duy trì trên tám mươi phần trăm."
+    },
+    {
+      "word": "rebase",
+      "ipa": "/riːˈbeɪs/",
+      "meaning_vi": "đặt lại nhánh dựa trên nhánh khác",
+      "example": "Please rebase your branch before you push again.",
+      "example_vi": "Hãy rebase nhánh của bạn trước khi push lại."
+    },
+    {
+      "word": "lint error",
+      "ipa": "/lɪnt ˈɛrər/",
+      "meaning_vi": "lỗi định dạng mã do công cụ lint phát hiện",
+      "example": "The pipeline failed because of a lint error in your file.",
+      "example_vi": "Pipeline bị lỗi vì có lint error trong file của bạn."
+    }
+  ],
+  "listening": {
+    "title": "Reviewing Nam's Pull Request",
+    "lines": [
+      { "speaker": "Linh (Senior Dev)", "voice": "female", "text": "Hi Nam, I just opened your pull request for the login feature." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Thanks, Linh. Did you find any issues?" },
+      { "speaker": "Linh (Senior Dev)", "voice": "female", "text": "There's a merge conflict with the main branch. Can you rebase your code first?" },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Sure, I'll rebase it this afternoon." },
+      { "speaker": "Linh (Senior Dev)", "voice": "female", "text": "Also, I left an inline comment on line forty-two. The function name is confusing." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Got it. I'll rename it and reply to your comment." },
+      { "speaker": "Linh (Senior Dev)", "voice": "female", "text": "One more thing — the code coverage dropped to seventy percent. Can you add more tests?" },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Okay, I'll add more test cases before I ask for another review." },
+      { "speaker": "Linh (Senior Dev)", "voice": "female", "text": "Great. For now, I'll mark this as request changes so you know what to fix." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Understood. I'll ping you as the reviewer again once it's ready." },
+      { "speaker": "Linh (Senior Dev)", "voice": "female", "text": "Sounds good. Also, please check the lint error in the CI pipeline." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Oh, I missed that. I'll fix the lint error and push again today." }
+    ],
+    "questions": [
+      {
+        "q": "What problem does Linh find first in Nam's pull request?",
+        "options": ["A merge conflict with the main branch", "A missing unit test", "A lint error"],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh ask Nam to do about code coverage?",
+        "options": ["Delete some old tests", "Add more test cases", "Skip the tests for now"],
+        "answer": 1
+      },
+      {
+        "q": "What does Linh mark the pull request as?",
+        "options": ["Approved", "Request changes", "Closed"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Can you rebase your branch before you push the new changes?",
+    "I left an inline comment about the confusing function name.",
+    "Our code coverage dropped, so please add a few more tests.",
+    "There's a merge conflict between your branch and the main branch.",
+    "Please fix the lint error before you request another review."
+  ]
+}

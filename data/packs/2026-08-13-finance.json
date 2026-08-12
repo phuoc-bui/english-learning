@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-13",
+  "track": "finance",
+  "theme": "Trao đổi với kế toán thuế",
+  "vocab": [
+    {
+      "word": "tax deadline",
+      "ipa": "/tæks ˈdedlaɪn/",
+      "meaning_vi": "hạn nộp thuế",
+      "example": "We need to prepare everything before the tax deadline next week.",
+      "example_vi": "Chúng ta cần chuẩn bị mọi thứ trước hạn nộp thuế tuần sau."
+    },
+    {
+      "word": "backup paperwork",
+      "ipa": "/ˈbækʌp ˈpeɪpərwɜːrk/",
+      "meaning_vi": "giấy tờ, chứng từ bổ sung",
+      "example": "Please send the backup paperwork before Friday so I can finish the filing.",
+      "example_vi": "Vui lòng gửi giấy tờ bổ sung trước thứ Sáu để tôi hoàn tất việc nộp thuế."
+    },
+    {
+      "word": "tax deduction",
+      "ipa": "/tæks dɪˈdʌkʃn/",
+      "meaning_vi": "khoản khấu trừ thuế",
+      "example": "Health insurance contributions can count as a tax deduction.",
+      "example_vi": "Tiền đóng bảo hiểm y tế có thể được tính là khoản khấu trừ thuế."
+    },
+    {
+      "word": "tax exemption",
+      "ipa": "/tæks ɪɡˈzempʃn/",
+      "meaning_vi": "miễn thuế",
+      "example": "Are we eligible for any tax exemption this quarter?",
+      "example_vi": "Quý này chúng ta có được miễn thuế khoản nào không?"
+    },
+    {
+      "word": "annual tax report",
+      "ipa": "/ˈænjuəl tæks rɪˈpɔːrt/",
+      "meaning_vi": "báo cáo thuế hàng năm",
+      "example": "We must submit the annual tax report before the deadline.",
+      "example_vi": "Chúng ta phải nộp báo cáo thuế hàng năm trước hạn."
+    },
+    {
+      "word": "penalty for late filing",
+      "ipa": "/ˈpenəlti fɔːr leɪt ˈfaɪlɪŋ/",
+      "meaning_vi": "mức phạt do nộp trễ",
+      "example": "There's a penalty for late filing, so let's submit early.",
+      "example_vi": "Có mức phạt cho việc nộp trễ, vì vậy hãy nộp sớm."
+    },
+    {
+      "word": "clarify a regulation",
+      "ipa": "/ˈklærɪfaɪ ə ˌreɡjuˈleɪʃn/",
+      "meaning_vi": "làm rõ một quy định",
+      "example": "Can you clarify a regulation about employee tax deductions?",
+      "example_vi": "Anh có thể làm rõ giúp một quy định về khấu trừ thuế nhân viên không?"
+    },
+    {
+      "word": "finalize the numbers",
+      "ipa": "/ˈfaɪnəlaɪz ðə ˈnʌmbərz/",
+      "meaning_vi": "chốt số liệu cuối cùng",
+      "example": "Please send the invoices so I can finalize the numbers.",
+      "example_vi": "Vui lòng gửi hóa đơn để tôi chốt số liệu cuối cùng."
+    }
+  ],
+  "listening": {
+    "title": "Talking to the Tax Accountant",
+    "lines": [
+      { "speaker": "Hoa (Finance Staff)", "voice": "female", "text": "Hi Kien, thanks for coming. We need to prepare for the tax deadline next week." },
+      { "speaker": "Kien (Tax Consultant)", "voice": "male", "text": "No problem. Do you have all the backup paperwork ready?" },
+      { "speaker": "Hoa (Finance Staff)", "voice": "female", "text": "Most of them. I'm still missing two invoices from last month." },
+      { "speaker": "Kien (Tax Consultant)", "voice": "male", "text": "Okay, please send them to me by Wednesday so I can finalize the numbers." },
+      { "speaker": "Hoa (Finance Staff)", "voice": "female", "text": "Sure. Can you also clarify a regulation about employee tax deductions?" },
+      { "speaker": "Kien (Tax Consultant)", "voice": "male", "text": "Of course. Which tax deduction are you asking about?" },
+      { "speaker": "Hoa (Finance Staff)", "voice": "female", "text": "The one for health insurance contributions." },
+      { "speaker": "Kien (Tax Consultant)", "voice": "male", "text": "I'll check the latest rule and explain it in our next call." },
+      { "speaker": "Hoa (Finance Staff)", "voice": "female", "text": "Great. Also, are we eligible for any tax exemption this quarter?" },
+      { "speaker": "Kien (Tax Consultant)", "voice": "male", "text": "I checked, and part of it qualifies. Just remember there's a penalty for late filing, so let's submit early." },
+      { "speaker": "Hoa (Finance Staff)", "voice": "female", "text": "Understood. I don't want to submit the annual tax report late again." },
+      { "speaker": "Kien (Tax Consultant)", "voice": "male", "text": "Don't worry, we still have time. I'll send you the draft tomorrow." }
+    ],
+    "questions": [
+      {
+        "q": "What is Hoa still missing?",
+        "options": ["Two invoices from last month", "The company stamp", "A new laptop"],
+        "answer": 0
+      },
+      {
+        "q": "What does Hoa ask Kien to clarify?",
+        "options": ["A regulation about employee tax deductions", "The company's VAT rate", "The exchange rate"],
+        "answer": 0
+      },
+      {
+        "q": "Why does Kien say they should submit early?",
+        "options": ["The office will close", "There's a penalty for late filing", "The system will be down"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "We need to prepare everything before the tax deadline next week.",
+    "Please send me all the backup paperwork by Wednesday morning.",
+    "Health insurance contributions can count as a valid tax deduction.",
+    "There's a penalty for late filing, so let's submit everything early.",
+    "Can you clarify a regulation about employee tax deductions for me?"
+  ]
+}
