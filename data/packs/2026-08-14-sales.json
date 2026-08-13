@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-14",
+  "track": "sales",
+  "theme": "Pitch ngắn (elevator pitch)",
+  "vocab": [
+    {
+      "word": "key differentiator",
+      "ipa": "/kiː ˌdɪfəˈrenʃieɪtər/",
+      "meaning_vi": "yếu tố khác biệt then chốt",
+      "example": "Our key differentiator is the fastest support response in the market.",
+      "example_vi": "Yếu tố khác biệt then chốt của chúng tôi là thời gian phản hồi hỗ trợ nhanh nhất thị trường."
+    },
+    {
+      "word": "concise pitch",
+      "ipa": "/kənˈsaɪs pɪtʃ/",
+      "meaning_vi": "bài pitch ngắn gọn",
+      "example": "Try to make your introduction a concise pitch, not a long story.",
+      "example_vi": "Hãy cố gắng biến phần giới thiệu thành một bài pitch ngắn gọn, không phải một câu chuyện dài."
+    },
+    {
+      "word": "capture interest",
+      "ipa": "/ˈkæptʃər ˈɪntrəst/",
+      "meaning_vi": "thu hút sự quan tâm",
+      "example": "You need a strong line to capture interest in the first five seconds.",
+      "example_vi": "Bạn cần một câu mạnh để thu hút sự quan tâm trong năm giây đầu."
+    },
+    {
+      "word": "30-second pitch",
+      "ipa": "/ˈθɜːrti ˈsekənd pɪtʃ/",
+      "meaning_vi": "bài pitch ba mươi giây",
+      "example": "Prepare a 30-second pitch you can deliver anywhere, anytime.",
+      "example_vi": "Hãy chuẩn bị một bài pitch ba mươi giây có thể trình bày ở bất cứ đâu, bất cứ lúc nào."
+    },
+    {
+      "word": "tailor the pitch",
+      "ipa": "/ˈteɪlər ðə pɪtʃ/",
+      "meaning_vi": "điều chỉnh bài pitch cho phù hợp",
+      "example": "Always tailor the pitch to match your audience's interests.",
+      "example_vi": "Luôn điều chỉnh bài pitch để phù hợp với mối quan tâm của người nghe."
+    },
+    {
+      "word": "strong opener",
+      "ipa": "/strɒŋ ˈoʊpənər/",
+      "meaning_vi": "câu mở đầu ấn tượng",
+      "example": "A strong opener makes people want to keep listening.",
+      "example_vi": "Một câu mở đầu ấn tượng khiến người nghe muốn tiếp tục lắng nghe."
+    },
+    {
+      "word": "clear ask",
+      "ipa": "/klɪr æsk/",
+      "meaning_vi": "yêu cầu rõ ràng ở cuối bài pitch",
+      "example": "End your pitch with a clear ask, like booking a demo.",
+      "example_vi": "Kết thúc bài pitch bằng một yêu cầu rõ ràng, như đặt lịch demo."
+    },
+    {
+      "word": "pitch flow",
+      "ipa": "/pɪtʃ floʊ/",
+      "meaning_vi": "mạch bài pitch",
+      "example": "Keep a natural pitch flow so it doesn't sound memorized.",
+      "example_vi": "Giữ mạch bài pitch tự nhiên để không nghe như học thuộc lòng."
+    }
+  ],
+  "listening": {
+    "title": "Practicing an Elevator Pitch",
+    "lines": [
+      { "speaker": "Linh (Sales Exec)", "voice": "female", "text": "Đạt, let's practice your elevator pitch before the networking event." },
+      { "speaker": "Đạt (Sales Rep)", "voice": "male", "text": "Okay. Is thirty seconds enough time to explain what we do?" },
+      { "speaker": "Linh (Sales Exec)", "voice": "female", "text": "Yes, a 30-second pitch is usually the right length — just focus on your key differentiator." },
+      { "speaker": "Đạt (Sales Rep)", "voice": "male", "text": "Got it. Our key differentiator is that we cut onboarding time in half." },
+      { "speaker": "Linh (Sales Exec)", "voice": "female", "text": "Good. Now make it more concise — a concise pitch is easier to remember." },
+      { "speaker": "Đạt (Sales Rep)", "voice": "male", "text": "Okay, let me try a shorter version and see if it still makes sense." },
+      { "speaker": "Linh (Sales Exec)", "voice": "female", "text": "Also, your opener needs to capture interest right away." },
+      { "speaker": "Đạt (Sales Rep)", "voice": "male", "text": "Should I start with a question to capture interest?" },
+      { "speaker": "Linh (Sales Exec)", "voice": "female", "text": "That could work. A strong opener often starts with a real customer story." },
+      { "speaker": "Đạt (Sales Rep)", "voice": "male", "text": "Alright, and how should I end it?" },
+      { "speaker": "Linh (Sales Exec)", "voice": "female", "text": "End with a clear ask, like a follow-up meeting. Also tailor the pitch to who you're talking to." },
+      { "speaker": "Đạt (Sales Rep)", "voice": "male", "text": "Got it — tailor the pitch for each person, keep the pitch flow smooth, and end with a clear ask." }
+    ],
+    "questions": [
+      {
+        "q": "How long should Đạt's pitch be?",
+        "options": ["About thirty seconds", "About five minutes", "About one minute"],
+        "answer": 0
+      },
+      {
+        "q": "What is Đạt's key differentiator?",
+        "options": ["Cutting onboarding time in half", "Lower prices than competitors", "Free technical support"],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh say the pitch should end with?",
+        "options": ["A clear ask, like a follow-up meeting", "A joke", "A long list of features"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Let's practice your elevator pitch again before the networking event starts.",
+    "A thirty-second pitch should always focus on your key differentiator.",
+    "Make your pitch more concise so people remember it easily.",
+    "A strong opener needs to capture interest within a few seconds.",
+    "Always tailor the pitch and end with a clear ask."
+  ]
+}

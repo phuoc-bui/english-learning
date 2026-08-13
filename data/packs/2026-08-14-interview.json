@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-14",
+  "track": "interview",
+  "theme": "Câu hỏi ngược cho nhà tuyển dụng",
+  "vocab": [
+    {
+      "word": "clarifying question",
+      "ipa": "/ˈklerɪfaɪɪŋ ˈkwestʃən/",
+      "meaning_vi": "câu hỏi làm rõ",
+      "example": "I have a clarifying question about the reporting structure.",
+      "example_vi": "Tôi có một câu hỏi làm rõ về cơ cấu báo cáo."
+    },
+    {
+      "word": "thoughtful question",
+      "ipa": "/ˈθɔːtfl ˈkwestʃən/",
+      "meaning_vi": "câu hỏi sâu sắc, chu đáo",
+      "example": "Asking a thoughtful question shows genuine interest in the role.",
+      "example_vi": "Đặt một câu hỏi sâu sắc thể hiện sự quan tâm thực sự đến vị trí này."
+    },
+    {
+      "word": "advancement opportunity",
+      "ipa": "/ədˈvænsmənt ˌɒpərˈtjuːnəti/",
+      "meaning_vi": "cơ hội thăng tiến",
+      "example": "Can you tell me about the advancement opportunity in this position?",
+      "example_vi": "Bạn có thể cho tôi biết về cơ hội thăng tiến trong vị trí này không?"
+    },
+    {
+      "word": "career progression",
+      "ipa": "/kəˈrɪr prəˈɡreʃn/",
+      "meaning_vi": "lộ trình thăng tiến sự nghiệp",
+      "example": "What career progression do most people follow after this role?",
+      "example_vi": "Hầu hết mọi người theo lộ trình thăng tiến nào sau vị trí này?"
+    },
+    {
+      "word": "leadership style",
+      "ipa": "/ˈliːdərʃɪp staɪl/",
+      "meaning_vi": "phong cách lãnh đạo",
+      "example": "I'd like to understand your leadership style better.",
+      "example_vi": "Tôi muốn hiểu rõ hơn về phong cách lãnh đạo của anh/chị."
+    },
+    {
+      "word": "upskilling",
+      "ipa": "/ʌpˈskɪlɪŋ/",
+      "meaning_vi": "nâng cao kỹ năng",
+      "example": "Does the company offer upskilling programs?",
+      "example_vi": "Công ty có cung cấp chương trình nâng cao kỹ năng không?"
+    },
+    {
+      "word": "decision timeline",
+      "ipa": "/dɪˈsɪʒn ˈtaɪmlaɪn/",
+      "meaning_vi": "mốc thời gian ra quyết định",
+      "example": "Could you share the decision timeline for this position?",
+      "example_vi": "Anh/chị có thể chia sẻ mốc thời gian ra quyết định cho vị trí này không?"
+    },
+    {
+      "word": "day in the life",
+      "ipa": "/deɪ ɪn ðə laɪf/",
+      "meaning_vi": "một ngày làm việc điển hình",
+      "example": "Can you describe a typical day in the life of this role?",
+      "example_vi": "Bạn có thể mô tả một ngày làm việc điển hình của vị trí này không?"
+    }
+  ],
+  "listening": {
+    "title": "Asking Good Questions at the End of an Interview",
+    "lines": [
+      { "speaker": "Hằng (Interviewer)", "voice": "female", "text": "Sơn, we're near the end of the interview. Do you have any questions for me?" },
+      { "speaker": "Sơn (Candidate)", "voice": "male", "text": "Yes, thank you. I'd like to ask a thoughtful question about the team first." },
+      { "speaker": "Hằng (Interviewer)", "voice": "female", "text": "Sure, go ahead." },
+      { "speaker": "Sơn (Candidate)", "voice": "male", "text": "What does a typical day in the life look like for this role?" },
+      { "speaker": "Hằng (Interviewer)", "voice": "female", "text": "You'd usually start with a stand-up, then work on tickets and code reviews." },
+      { "speaker": "Sơn (Candidate)", "voice": "male", "text": "That's helpful. Could I also ask a clarifying question about the advancement opportunity here?" },
+      { "speaker": "Hằng (Interviewer)", "voice": "female", "text": "Of course. We support internal promotions and upskilling programs." },
+      { "speaker": "Sơn (Candidate)", "voice": "male", "text": "Great. What career progression could someone in this role expect over time?" },
+      { "speaker": "Hằng (Interviewer)", "voice": "female", "text": "Many engineers move into a tech lead or senior role within two years." },
+      { "speaker": "Sơn (Candidate)", "voice": "male", "text": "That sounds promising. What's the leadership style like on this team?" },
+      { "speaker": "Hằng (Interviewer)", "voice": "female", "text": "It's fairly hands-off, but we check in every week." },
+      { "speaker": "Sơn (Candidate)", "voice": "male", "text": "Thank you. One last question — what's the decision timeline for this position?" }
+    ],
+    "questions": [
+      {
+        "q": "What does Sơn ask about first?",
+        "options": ["A typical day in the life for the role", "The company's holiday policy", "The office dress code"],
+        "answer": 0
+      },
+      {
+        "q": "What does Hằng say the company supports?",
+        "options": ["Internal promotions and upskilling programs", "Unlimited vacation days", "Free gym membership"],
+        "answer": 0
+      },
+      {
+        "q": "What does Sơn ask about at the very end?",
+        "options": ["The decision timeline for the position", "The salary range", "The interview process"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you tell me what a typical day in the life looks like?",
+    "I'd like to ask a clarifying question about the role.",
+    "What career progression could someone in this role expect long-term?",
+    "Could you briefly describe the leadership style for this team?",
+    "What's the decision timeline for this position, if you don't mind me asking?"
+  ]
+}

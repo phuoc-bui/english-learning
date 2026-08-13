@@ -1,0 +1,103 @@
+{
+  "date": "2026-08-14",
+  "track": "finance",
+  "theme": "Lương thưởng & phúc lợi",
+  "vocab": [
+    {
+      "word": "benefits package",
+      "ipa": "/bɪˈnefɪts ˈpækɪdʒ/",
+      "meaning_vi": "gói phúc lợi",
+      "example": "The benefits package includes health insurance and paid training.",
+      "example_vi": "Gói phúc lợi bao gồm bảo hiểm y tế và đào tạo có trả phí."
+    },
+    {
+      "word": "salary adjustment",
+      "ipa": "/ˈsæləri əˈdʒʌstmənt/",
+      "meaning_vi": "điều chỉnh lương",
+      "example": "Your salary adjustment will be reflected in next month's payslip.",
+      "example_vi": "Việc điều chỉnh lương của bạn sẽ được thể hiện trong phiếu lương tháng sau."
+    },
+    {
+      "word": "before-tax salary",
+      "ipa": "/bɪˈfɔːr tæks ˈsæləri/",
+      "meaning_vi": "lương trước thuế",
+      "example": "My before-tax salary looks higher than what I actually receive.",
+      "example_vi": "Lương trước thuế của tôi trông cao hơn số tiền tôi thực nhận."
+    },
+    {
+      "word": "after-tax salary",
+      "ipa": "/ˈæftər tæks ˈsæləri/",
+      "meaning_vi": "lương sau thuế (thực nhận)",
+      "example": "My after-tax salary is about eighteen million dong.",
+      "example_vi": "Lương sau thuế của tôi khoảng mười tám triệu đồng."
+    },
+    {
+      "word": "payroll cycle",
+      "ipa": "/ˈpeɪroʊl ˈsaɪkl/",
+      "meaning_vi": "chu kỳ trả lương",
+      "example": "Our payroll cycle closes on the twenty-fifth of each month.",
+      "example_vi": "Chu kỳ trả lương của chúng tôi đóng vào ngày hai mươi lăm hàng tháng."
+    },
+    {
+      "word": "performance-based bonus",
+      "ipa": "/pərˈfɔːrməns beɪst ˈboʊnəs/",
+      "meaning_vi": "thưởng theo hiệu suất",
+      "example": "The performance-based bonus depends on your quarterly results.",
+      "example_vi": "Thưởng theo hiệu suất phụ thuộc vào kết quả hàng quý của bạn."
+    },
+    {
+      "word": "overtime pay",
+      "ipa": "/ˈoʊvərtaɪm peɪ/",
+      "meaning_vi": "lương làm thêm giờ",
+      "example": "You'll receive overtime pay for any extra hours this weekend.",
+      "example_vi": "Bạn sẽ nhận lương làm thêm giờ cho bất kỳ giờ làm thêm nào cuối tuần này."
+    },
+    {
+      "word": "housing allowance",
+      "ipa": "/ˈhaʊzɪŋ əˈlaʊəns/",
+      "meaning_vi": "trợ cấp nhà ở",
+      "example": "The housing allowance helps cover part of my rent.",
+      "example_vi": "Trợ cấp nhà ở giúp trang trải một phần tiền thuê nhà của tôi."
+    }
+  ],
+  "listening": {
+    "title": "Reviewing Salary and Benefits with HR",
+    "lines": [
+      { "speaker": "Lan (HR)", "voice": "female", "text": "Minh, let's go through your benefits package for this year." },
+      { "speaker": "Minh (Employee)", "voice": "male", "text": "Great, I have a few questions about my salary too." },
+      { "speaker": "Lan (HR)", "voice": "female", "text": "Sure. First, do you know the difference between before-tax salary and after-tax salary?" },
+      { "speaker": "Minh (Employee)", "voice": "male", "text": "I think before-tax salary is the amount before deductions, and after-tax salary is what I actually receive." },
+      { "speaker": "Lan (HR)", "voice": "female", "text": "Exactly. Now, about the salary adjustment — it will take effect from next month." },
+      { "speaker": "Minh (Employee)", "voice": "male", "text": "That's good news. When does the payroll cycle usually run?" },
+      { "speaker": "Lan (HR)", "voice": "female", "text": "Our payroll cycle runs from the first to the last day of each month." },
+      { "speaker": "Minh (Employee)", "voice": "male", "text": "Got it. Do we still get a performance-based bonus this year?" },
+      { "speaker": "Lan (HR)", "voice": "female", "text": "Yes, and if you work extra hours on a project, you'll also get overtime pay." },
+      { "speaker": "Minh (Employee)", "voice": "male", "text": "One more thing — does the benefits package include a housing allowance?" },
+      { "speaker": "Lan (HR)", "voice": "female", "text": "Yes, a housing allowance is included for staff based outside the city." }
+    ],
+    "questions": [
+      {
+        "q": "What does Minh think is the difference between before-tax and after-tax salary?",
+        "options": ["Before-tax is the amount before deductions, after-tax is what he actually receives", "They are the same thing", "After-tax salary is always higher"],
+        "answer": 0
+      },
+      {
+        "q": "When does the salary adjustment take effect?",
+        "options": ["From next month", "Immediately", "Next year"],
+        "answer": 0
+      },
+      {
+        "q": "What benefit does Lan mention for staff based outside the city?",
+        "options": ["A housing allowance", "Free lunch", "A company car"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Let's go through your benefits package for this year together.",
+    "Before-tax salary is the full amount, and after-tax salary is what you keep.",
+    "Your salary adjustment will officially take effect starting next month.",
+    "Our payroll cycle runs from the first to the last day.",
+    "You'll get a performance-based bonus and overtime pay this year."
+  ]
+}

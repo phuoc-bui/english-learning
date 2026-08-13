@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-14",
+  "track": "office",
+  "theme": "Gọi điện với đối tác",
+  "vocab": [
+    {
+      "word": "reschedule the call",
+      "ipa": "/riːˈʃedjuːl ðə kɔːl/",
+      "meaning_vi": "dời lại cuộc gọi",
+      "example": "Let's reschedule the call to tomorrow morning instead.",
+      "example_vi": "Hãy dời cuộc gọi sang sáng mai nhé."
+    },
+    {
+      "word": "line quality",
+      "ipa": "/laɪn ˈkwɒləti/",
+      "meaning_vi": "chất lượng đường truyền",
+      "example": "The line quality was so bad we could barely hear each other.",
+      "example_vi": "Chất lượng đường truyền tệ đến mức chúng tôi khó nghe rõ nhau."
+    },
+    {
+      "word": "call agenda",
+      "ipa": "/kɔːl əˈdʒendə/",
+      "meaning_vi": "chương trình cuộc gọi",
+      "example": "I sent you the call agenda so we can stay on topic.",
+      "example_vi": "Tôi đã gửi chương trình cuộc gọi để chúng ta bám sát chủ đề."
+    },
+    {
+      "word": "wrap up the call",
+      "ipa": "/ræp ʌp ðə kɔːl/",
+      "meaning_vi": "kết thúc cuộc gọi",
+      "example": "Let's wrap up the call and send a summary email.",
+      "example_vi": "Hãy kết thúc cuộc gọi và gửi email tóm tắt."
+    },
+    {
+      "word": "follow-up call",
+      "ipa": "/ˈfɒloʊ ʌp kɔːl/",
+      "meaning_vi": "cuộc gọi theo dõi tiếp theo",
+      "example": "I'll set up a follow-up call for next Monday.",
+      "example_vi": "Tôi sẽ sắp xếp cuộc gọi theo dõi vào thứ Hai tới."
+    },
+    {
+      "word": "speakerphone",
+      "ipa": "/ˈspiːkərfoʊn/",
+      "meaning_vi": "loa ngoài điện thoại",
+      "example": "Can we switch to speakerphone so everyone can join?",
+      "example_vi": "Chúng ta có thể chuyển sang loa ngoài để mọi người cùng tham gia không?"
+    },
+    {
+      "word": "confirm details",
+      "ipa": "/kənˈfɜːrm ˈdiːteɪlz/",
+      "meaning_vi": "xác nhận chi tiết",
+      "example": "Please confirm details about the shipment before Friday.",
+      "example_vi": "Vui lòng xác nhận chi tiết về lô hàng trước thứ Sáu."
+    },
+    {
+      "word": "time difference",
+      "ipa": "/taɪm ˈdɪfrəns/",
+      "meaning_vi": "chênh lệch múi giờ",
+      "example": "There's a big time difference between our two offices.",
+      "example_vi": "Có sự chênh lệch múi giờ lớn giữa hai văn phòng của chúng ta."
+    }
+  ],
+  "listening": {
+    "title": "A Call with a Business Partner",
+    "lines": [
+      { "speaker": "Mai (Office Staff)", "voice": "female", "text": "Hi Đức, thanks for taking my call. Do you have the call agenda I sent earlier?" },
+      { "speaker": "Đức (Partner)", "voice": "male", "text": "Yes, I have it open. Should we go through it point by point?" },
+      { "speaker": "Mai (Office Staff)", "voice": "female", "text": "Sure. First, I'd like to confirm details about the delivery date." },
+      { "speaker": "Đức (Partner)", "voice": "male", "text": "The line quality is a bit bad right now — can you repeat that?" },
+      { "speaker": "Mai (Office Staff)", "voice": "female", "text": "I said I'd like to confirm details about the delivery date." },
+      { "speaker": "Đức (Partner)", "voice": "male", "text": "Got it. Let me switch to speakerphone so my colleague can join too." },
+      { "speaker": "Mai (Office Staff)", "voice": "female", "text": "No problem. Also, there's a time difference we should plan around for our next call." },
+      { "speaker": "Đức (Partner)", "voice": "male", "text": "Good point. Maybe we should reschedule the call to a time that works for both offices." },
+      { "speaker": "Mai (Office Staff)", "voice": "female", "text": "Agreed. Let's wrap up the call now and confirm a new time by email." },
+      { "speaker": "Đức (Partner)", "voice": "male", "text": "Sounds good. I'll follow up with a follow-up call next week." }
+    ],
+    "questions": [
+      {
+        "q": "What does Mai want to confirm first?",
+        "options": ["Details about the delivery date", "The office address", "The meeting room"],
+        "answer": 0
+      },
+      {
+        "q": "Why does Đức ask Mai to repeat herself?",
+        "options": ["Because the line quality is bad", "Because he wasn't listening", "Because he disagreed"],
+        "answer": 0
+      },
+      {
+        "q": "What do they agree to do because of the time difference?",
+        "options": ["Reschedule the call", "Cancel the project", "Send an email instead"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Do you have the call agenda I sent you earlier?",
+    "I'd like to confirm a few details about the delivery date.",
+    "The line quality is bad — can you repeat that please?",
+    "Let's reschedule the call to a time that works better.",
+    "I'll wrap up the call and follow up by email."
+  ]
+}

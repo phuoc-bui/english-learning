@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-14",
+  "track": "it",
+  "theme": "Báo cáo tiến độ với sếp",
+  "vocab": [
+    {
+      "word": "progress report",
+      "ipa": "/ˈprɒɡres rɪˈpɔːrt/",
+      "meaning_vi": "báo cáo tiến độ",
+      "example": "Please send me your progress report before the weekly meeting.",
+      "example_vi": "Hãy gửi báo cáo tiến độ cho tôi trước cuộc họp hàng tuần."
+    },
+    {
+      "word": "on schedule",
+      "ipa": "/ɒn ˈʃedjuːl/",
+      "meaning_vi": "đúng tiến độ",
+      "example": "The project is on schedule to finish by the end of the month.",
+      "example_vi": "Dự án đang đúng tiến độ để hoàn thành vào cuối tháng."
+    },
+    {
+      "word": "falling behind",
+      "ipa": "/ˈfɔːlɪŋ bɪˈhaɪnd/",
+      "meaning_vi": "chậm tiến độ, tụt lại phía sau",
+      "example": "The testing phase is falling behind by two days.",
+      "example_vi": "Giai đoạn kiểm thử đang chậm tiến độ, tụt lại hai ngày."
+    },
+    {
+      "word": "flag it up",
+      "ipa": "/flæɡ ɪt ʌp/",
+      "meaning_vi": "báo cáo vấn đề lên cấp trên",
+      "example": "We need to flag it up to the vendor's support team.",
+      "example_vi": "Chúng ta cần báo cáo vấn đề này lên đội hỗ trợ của nhà cung cấp."
+    },
+    {
+      "word": "checkpoint",
+      "ipa": "/ˈtʃekpɔɪnt/",
+      "meaning_vi": "mốc kiểm tra tiến độ",
+      "example": "Reaching the beta release is an important checkpoint for us.",
+      "example_vi": "Đạt được bản beta là một mốc kiểm tra quan trọng đối với chúng tôi."
+    },
+    {
+      "word": "contingency plan",
+      "ipa": "/kənˈtɪndʒənsi plæn/",
+      "meaning_vi": "kế hoạch dự phòng",
+      "example": "We always prepare a contingency plan for critical releases.",
+      "example_vi": "Chúng tôi luôn chuẩn bị kế hoạch dự phòng cho các bản phát hành quan trọng."
+    },
+    {
+      "word": "risk register",
+      "ipa": "/rɪsk ˈredʒɪstər/",
+      "meaning_vi": "danh sách rủi ro",
+      "example": "I updated the risk register after our discussion this morning.",
+      "example_vi": "Tôi đã cập nhật danh sách rủi ro sau cuộc thảo luận sáng nay."
+    },
+    {
+      "word": "ETA",
+      "ipa": "/iː tiː eɪ/",
+      "meaning_vi": "thời gian dự kiến hoàn thành",
+      "example": "Can you give me an ETA for the bug fix?",
+      "example_vi": "Bạn có thể cho tôi biết thời gian dự kiến sửa xong lỗi không?"
+    }
+  ],
+  "listening": {
+    "title": "Weekly Progress Update with the PM",
+    "lines": [
+      { "speaker": "Hương (Project Manager)", "voice": "female", "text": "Duy, can you give me a quick progress report on the payment module?" },
+      { "speaker": "Duy (Developer)", "voice": "male", "text": "Sure. We're on schedule — about seventy percent of the tasks are done." },
+      { "speaker": "Hương (Project Manager)", "voice": "female", "text": "Good. Is anything falling behind?" },
+      { "speaker": "Duy (Developer)", "voice": "male", "text": "One task is falling behind because of an API issue with the vendor." },
+      { "speaker": "Hương (Project Manager)", "voice": "female", "text": "Do we need to flag it up to their team?" },
+      { "speaker": "Duy (Developer)", "voice": "male", "text": "Yes, I think we should flag it up today so we don't lose more time." },
+      { "speaker": "Hương (Project Manager)", "voice": "female", "text": "Okay. What's our next checkpoint?" },
+      { "speaker": "Duy (Developer)", "voice": "male", "text": "The next checkpoint is the staging deployment, due this Friday." },
+      { "speaker": "Hương (Project Manager)", "voice": "female", "text": "Do we have a contingency plan if the API issue isn't fixed by then?" },
+      { "speaker": "Duy (Developer)", "voice": "male", "text": "Yes, I added it to the risk register and prepared a fallback option." },
+      { "speaker": "Hương (Project Manager)", "voice": "female", "text": "Great. What's your ETA for the full report?" },
+      { "speaker": "Duy (Developer)", "voice": "male", "text": "I'll send the full report by end of day." }
+    ],
+    "questions": [
+      {
+        "q": "What does Duy say about the overall progress?",
+        "options": ["It's on schedule, about 70% done", "It's finished already", "It hasn't started yet"],
+        "answer": 0
+      },
+      {
+        "q": "Why is one task falling behind?",
+        "options": ["Because of an API issue with the vendor", "Because Duy was on leave", "Because of a lint error"],
+        "answer": 0
+      },
+      {
+        "q": "What does Duy add to the risk register?",
+        "options": ["A fallback option for the API issue", "A new hire request", "A code review comment"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "We're on schedule, about seventy percent of the tasks are done.",
+    "One task is falling behind because of an API issue.",
+    "I think we should flag it up to their team today.",
+    "Our next checkpoint is the staging deployment, due this Friday.",
+    "I added it to the risk register and prepared a contingency plan."
+  ]
+}
