@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-15",
+  "track": "interview",
+  "theme": "Phỏng vấn qua video call",
+  "vocab": [
+    { "word": "screen freeze", "ipa": "/skriːn friːz/", "meaning_vi": "màn hình bị đứng/treo", "example": "If your screen freezes during the interview, just rejoin the call.", "example_vi": "Nếu màn hình bị đứng trong lúc phỏng vấn, bạn chỉ cần vào lại cuộc gọi." },
+    { "word": "dry run", "ipa": "/draɪ rʌn/", "meaning_vi": "chạy thử trước", "example": "I did a dry run with my laptop an hour before the interview.", "example_vi": "Tôi đã chạy thử với laptop một tiếng trước buổi phỏng vấn." },
+    { "word": "echo", "ipa": "/ˈekoʊ/", "meaning_vi": "tiếng vọng, tiếng dội", "example": "There was an echo, so I asked the interviewer to mute their speaker.", "example_vi": "Có tiếng vọng, nên tôi đã đề nghị người phỏng vấn tắt loa của họ." },
+    { "word": "log in early", "ipa": "/lɒɡ ɪn ˈɜːrli/", "meaning_vi": "đăng nhập sớm", "example": "It's a good idea to log in early to avoid any last-minute issues.", "example_vi": "Nên đăng nhập sớm để tránh gặp sự cố vào phút chót." },
+    { "word": "headset", "ipa": "/ˈhedset/", "meaning_vi": "tai nghe có mic", "example": "I always use a headset for a clearer connection during interviews.", "example_vi": "Tôi luôn dùng tai nghe có mic để kết nối rõ hơn khi phỏng vấn." },
+    { "word": "camera angle", "ipa": "/ˈkæmərə ˈæŋɡəl/", "meaning_vi": "góc camera", "example": "Adjust your camera angle so your face is well lit and centered.", "example_vi": "Hãy chỉnh góc camera sao cho khuôn mặt được chiếu sáng tốt và ở giữa khung hình." },
+    { "word": "background noise", "ipa": "/ˈbækɡraʊnd nɔɪz/", "meaning_vi": "tiếng ồn nền", "example": "Please find a quiet room to avoid background noise during the call.", "example_vi": "Hãy tìm một phòng yên tĩnh để tránh tiếng ồn nền trong cuộc gọi." },
+    { "word": "log off", "ipa": "/lɒɡ ɒf/", "meaning_vi": "đăng xuất, thoát khỏi cuộc gọi", "example": "Thank the interviewer politely before you log off.", "example_vi": "Hãy cảm ơn người phỏng vấn một cách lịch sự trước khi bạn thoát khỏi cuộc gọi." }
+  ],
+  "listening": {
+    "title": "Phỏng vấn qua video call",
+    "lines": [
+      { "speaker": "Đức (Interviewer)", "voice": "male", "text": "Hi Ngọc, can you hear me? There was a bit of an echo a moment ago." },
+      { "speaker": "Ngọc (Candidate)", "voice": "female", "text": "Hi, yes, I can hear you now. Sorry, I did a dry run earlier but my headset wasn't connected." },
+      { "speaker": "Đức (Interviewer)", "voice": "male", "text": "No problem. I always recommend logging in early to avoid technical issues." },
+      { "speaker": "Ngọc (Candidate)", "voice": "female", "text": "You're right, I should have logged in five minutes earlier." },
+      { "speaker": "Đức (Interviewer)", "voice": "male", "text": "It's fine. Could you adjust your camera angle? I can only see half your face." },
+      { "speaker": "Ngọc (Candidate)", "voice": "female", "text": "Sure, is this better now?" },
+      { "speaker": "Đức (Interviewer)", "voice": "male", "text": "Much better. Oh, my screen just froze for a second — can you still see me?" },
+      { "speaker": "Ngọc (Candidate)", "voice": "female", "text": "Yes, I can see you clearly. There's some background noise from my neighbor, let me close the window." },
+      { "speaker": "Đức (Interviewer)", "voice": "male", "text": "No worries, take your time. Let's start with a quick introduction about yourself." },
+      { "speaker": "Ngọc (Candidate)", "voice": "female", "text": "Of course, thank you. I'll be happy to log off and rejoin if the connection drops." },
+      { "speaker": "Đức (Interviewer)", "voice": "male", "text": "Great, let's begin then." }
+    ],
+    "questions": [
+      { "q": "Why couldn't Đức hear Ngọc clearly at first?", "options": ["Her headset wasn't connected yet", "She was in a different room", "The interview was cancelled"], "answer": 0 },
+      { "q": "What does Đức ask Ngọc to adjust?", "options": ["Her camera angle", "Her interview answers", "Her resume"], "answer": 0 },
+      { "q": "What causes background noise during the call?", "options": ["Ngọc's neighbor", "A construction site", "Loud music"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Sorry, I did a dry run earlier but my headset wasn't connected.",
+    "I always recommend logging in early to avoid technical issues.",
+    "Could you adjust your camera angle so I can see you?",
+    "There's some background noise, let me close the window quickly.",
+    "I'll log off and rejoin if the connection drops suddenly."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-15",
+  "track": "finance",
+  "theme": "Đề xuất mua sắm thiết bị",
+  "vocab": [
+    { "word": "lead time", "ipa": "/liːd taɪm/", "meaning_vi": "thời gian giao hàng, thời gian chờ", "example": "The lead time for new laptops is about three weeks.", "example_vi": "Thời gian giao hàng cho laptop mới là khoảng ba tuần." },
+    { "word": "specification", "ipa": "/ˌspesɪfɪˈkeɪʃən/", "meaning_vi": "thông số kỹ thuật", "example": "Please check the specification before you approve the purchase.", "example_vi": "Vui lòng kiểm tra thông số kỹ thuật trước khi phê duyệt việc mua sắm." },
+    { "word": "warranty", "ipa": "/ˈwɒrənti/", "meaning_vi": "bảo hành", "example": "This model comes with a two-year warranty.", "example_vi": "Mẫu này đi kèm bảo hành hai năm." },
+    { "word": "obsolete", "ipa": "/ˌɒbsəˈliːt/", "meaning_vi": "lỗi thời", "example": "Our current servers are almost obsolete and need replacing.", "example_vi": "Máy chủ hiện tại của chúng ta gần như đã lỗi thời và cần thay thế." },
+    { "word": "bulk purchase", "ipa": "/bʌlk ˈpɜːrtʃəs/", "meaning_vi": "mua số lượng lớn", "example": "We can get a discount with a bulk purchase of monitors.", "example_vi": "Chúng ta có thể được giảm giá khi mua màn hình với số lượng lớn." },
+    { "word": "supplier", "ipa": "/səˈplaɪər/", "meaning_vi": "nhà cung cấp", "example": "We compared three suppliers before choosing this one.", "example_vi": "Chúng tôi đã so sánh ba nhà cung cấp trước khi chọn nhà này." },
+    { "word": "trade-in", "ipa": "/treɪd ɪn/", "meaning_vi": "đổi cũ lấy mới", "example": "The supplier offered a trade-in deal for our old laptops.", "example_vi": "Nhà cung cấp đề nghị chương trình đổi cũ lấy mới cho laptop cũ của chúng ta." },
+    { "word": "cost comparison", "ipa": "/kɒst kəmˈpærɪsən/", "meaning_vi": "so sánh chi phí", "example": "I attached a cost comparison of the three vendors in the proposal.", "example_vi": "Tôi đã đính kèm bảng so sánh chi phí của ba nhà cung cấp trong đề xuất." }
+  ],
+  "listening": {
+    "title": "Đề xuất mua thiết bị mới cho phòng IT",
+    "lines": [
+      { "speaker": "Trang (IT Manager)", "voice": "female", "text": "Hùng, I want to submit a proposal to replace our old laptops." },
+      { "speaker": "Hùng (Finance)", "voice": "male", "text": "Sure. What's the reason — are they broken?" },
+      { "speaker": "Trang (IT Manager)", "voice": "female", "text": "Not broken, but almost obsolete. They're slowing the whole team down." },
+      { "speaker": "Hùng (Finance)", "voice": "male", "text": "Okay. Do you have the specification and price for the new ones?" },
+      { "speaker": "Trang (IT Manager)", "voice": "female", "text": "Yes, I attached a cost comparison of three suppliers in the proposal." },
+      { "speaker": "Hùng (Finance)", "voice": "male", "text": "Good. What's the lead time if we approve this week?" },
+      { "speaker": "Trang (IT Manager)", "voice": "female", "text": "About three weeks, and each laptop comes with a two-year warranty." },
+      { "speaker": "Hùng (Finance)", "voice": "male", "text": "Can we get a discount with a bulk purchase?" },
+      { "speaker": "Trang (IT Manager)", "voice": "female", "text": "Yes, and the supplier also offers a trade-in deal for our old ones." }
+    ],
+    "questions": [
+      { "q": "Why does Trang want to replace the laptops?", "options": ["They are almost obsolete and slow the team down", "They were stolen", "The company got extra budget"], "answer": 0 },
+      { "q": "What did Trang attach to the proposal?", "options": ["A cost comparison of three suppliers", "A resignation letter", "A training schedule"], "answer": 0 },
+      { "q": "What extra deal does the supplier offer?", "options": ["A trade-in deal for old laptops", "Free installation only", "A longer lead time"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Our current laptops are almost obsolete and slowing the team down.",
+    "I attached a cost comparison of three suppliers in the proposal.",
+    "What's the lead time if we approve this purchase today?",
+    "Each laptop comes with a two-year warranty from the supplier.",
+    "We might get a discount if we make a bulk purchase."
+  ]
+}

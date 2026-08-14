@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-15",
+  "track": "office",
+  "theme": "Ghi chú & biên bản họp",
+  "vocab": [
+    { "word": "verbatim", "ipa": "/vərˈbeɪtɪm/", "meaning_vi": "nguyên văn, đúng từng chữ", "example": "The note-taker wrote the client's request verbatim in the minutes.", "example_vi": "Người ghi biên bản viết yêu cầu của khách hàng nguyên văn trong biên bản." },
+    { "word": "shorthand", "ipa": "/ˈʃɔːrthænd/", "meaning_vi": "cách viết tắt, ký hiệu nhanh", "example": "I use shorthand to keep up when the meeting moves fast.", "example_vi": "Tôi dùng cách viết tắt để theo kịp khi cuộc họp diễn ra nhanh." },
+    { "word": "timestamp", "ipa": "/ˈtaɪmstæmp/", "meaning_vi": "dấu thời gian", "example": "Add a timestamp next to each decision in the meeting notes.", "example_vi": "Hãy thêm dấu thời gian bên cạnh mỗi quyết định trong biên bản họp." },
+    { "word": "archive", "ipa": "/ˈɑːrkaɪv/", "meaning_vi": "lưu trữ", "example": "We archive all meeting minutes in a shared folder for reference.", "example_vi": "Chúng tôi lưu trữ tất cả biên bản họp trong một thư mục chung để tham khảo." },
+    { "word": "action owner", "ipa": "/ˈækʃən ˈoʊnər/", "meaning_vi": "người chịu trách nhiệm thực hiện", "example": "Make sure every task has a clear action owner in the notes.", "example_vi": "Hãy đảm bảo mỗi việc cần làm đều có người chịu trách nhiệm rõ ràng trong biên bản." },
+    { "word": "keep track of", "ipa": "/kiːp træk ʌv/", "meaning_vi": "theo dõi", "example": "This template helps us keep track of decisions from every meeting.", "example_vi": "Mẫu này giúp chúng tôi theo dõi các quyết định từ mỗi cuộc họp." },
+    { "word": "template", "ipa": "/ˈtemplət/", "meaning_vi": "mẫu có sẵn", "example": "Please use the standard template when you write the meeting minutes.", "example_vi": "Vui lòng dùng mẫu chuẩn khi bạn viết biên bản cuộc họp." },
+    { "word": "highlight", "ipa": "/ˈhaɪlaɪt/", "meaning_vi": "làm nổi bật", "example": "Highlight the key decisions so everyone can find them quickly.", "example_vi": "Hãy làm nổi bật các quyết định quan trọng để mọi người dễ tìm thấy." }
+  ],
+  "listening": {
+    "title": "Ghi biên bản cuộc họp phòng ban",
+    "lines": [
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Minh, can you take the minutes for today's meeting?" },
+      { "speaker": "Minh (Note-taker)", "voice": "male", "text": "Sure. Should I write everything verbatim or just summarize?" },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Just summarize, but keep the client's exact request in shorthand." },
+      { "speaker": "Minh (Note-taker)", "voice": "male", "text": "Got it. I'll also add a timestamp next to each decision." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Good idea. That will help us keep track of the timeline later." },
+      { "speaker": "Minh (Note-taker)", "voice": "male", "text": "Should I use the usual template for the action items?" },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Yes, please. And make sure each item has a clear action owner." },
+      { "speaker": "Minh (Note-taker)", "voice": "male", "text": "I'll highlight the deadline for each task too." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Perfect. Once it's done, archive it in the shared drive." }
+    ],
+    "questions": [
+      { "q": "What does Hoa ask Minh to do?", "options": ["Take the minutes for the meeting", "Book the meeting room", "Present the report"], "answer": 0 },
+      { "q": "How should Minh record the client's exact request?", "options": ["In shorthand", "Word for word in full", "He should skip it"], "answer": 0 },
+      { "q": "Where will Minh archive the minutes after finishing?", "options": ["In the shared drive", "In his personal notebook", "He will delete it"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Can you take the minutes for today's department meeting, please?",
+    "Please add a timestamp next to every key decision we make.",
+    "Make sure each action item has a clear owner assigned.",
+    "I'll archive the meeting notes in our shared drive later.",
+    "Let's use the standard template so the notes stay consistent."
+  ]
+}

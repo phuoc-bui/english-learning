@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-15",
+  "track": "it",
+  "theme": "Small talk đầu giờ & pantry chat",
+  "vocab": [
+    { "word": "overslept", "ipa": "/ˌoʊvərˈslept/", "meaning_vi": "bị ngủ quên", "example": "I overslept and missed the morning standup by five minutes.", "example_vi": "Tôi bị ngủ quên và lỡ buổi standup buổi sáng mất năm phút." },
+    { "word": "chit-chat", "ipa": "/ˈtʃɪt tʃæt/", "meaning_vi": "chuyện phiếm, tán gẫu", "example": "We had a quick chit-chat in the pantry before work started.", "example_vi": "Chúng tôi tán gẫu nhanh ở pantry trước khi bắt đầu làm việc." },
+    { "word": "rush hour", "ipa": "/rʌʃ ˈaʊər/", "meaning_vi": "giờ cao điểm", "example": "The office is quiet before rush hour traffic builds up outside.", "example_vi": "Văn phòng khá yên tĩnh trước khi giờ cao điểm bắt đầu đông đúc bên ngoài." },
+    { "word": "microwave", "ipa": "/ˈmaɪkrəˌweɪv/", "meaning_vi": "lò vi sóng", "example": "He heated his lunch in the microwave next to the fridge.", "example_vi": "Anh ấy hâm nóng bữa trưa trong lò vi sóng cạnh tủ lạnh." },
+    { "word": "instant noodles", "ipa": "/ˈɪnstənt ˈnuːdəlz/", "meaning_vi": "mì ăn liền", "example": "She keeps instant noodles in her desk for busy days.", "example_vi": "Cô ấy để sẵn mì ăn liền trong ngăn bàn cho những ngày bận rộn." },
+    { "word": "queue", "ipa": "/kjuː/", "meaning_vi": "xếp hàng", "example": "There was a queue for coffee right before the standup meeting.", "example_vi": "Có một hàng người xếp hàng lấy cà phê ngay trước buổi standup." },
+    { "word": "spill", "ipa": "/spɪl/", "meaning_vi": "làm đổ, làm tràn", "example": "Please wipe up if you spill coffee on the shared desk.", "example_vi": "Làm ơn lau sạch nếu bạn làm đổ cà phê lên bàn dùng chung." },
+    { "word": "recharge", "ipa": "/riːˈtʃɑːrdʒ/", "meaning_vi": "nạp lại năng lượng", "example": "A short walk helps me recharge before the afternoon sprint planning.", "example_vi": "Một đoạn đi bộ ngắn giúp tôi nạp lại năng lượng trước buổi lập kế hoạch sprint chiều." }
+  ],
+  "listening": {
+    "title": "Chat buổi sáng ở pantry",
+    "lines": [
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Morning, Linh! You look tired today." },
+      { "speaker": "Linh (Tester)", "voice": "female", "text": "Yeah, I overslept and missed the bus. Rush hour was brutal." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Same here. The traffic near the office was crazy this morning." },
+      { "speaker": "Linh (Tester)", "voice": "female", "text": "Let's grab some coffee before the standup. I really need it." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Good idea. Did you try the new instant noodles in the pantry?" },
+      { "speaker": "Linh (Tester)", "voice": "female", "text": "Not yet, I'm still in line — there's a queue for the microwave." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Careful, someone spilled coffee on the counter earlier." },
+      { "speaker": "Linh (Tester)", "voice": "female", "text": "Thanks for the heads-up. I just need ten minutes to recharge before the meeting." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "No worries, we still have five minutes before the standup starts." },
+      { "speaker": "Linh (Tester)", "voice": "female", "text": "Perfect, let's just chit-chat until then." }
+    ],
+    "questions": [
+      { "q": "Why does Linh look tired?", "options": ["She overslept and missed the bus", "She worked all night on a bug", "She has a cold"], "answer": 0 },
+      { "q": "What does Linh want to do before the standup?", "options": ["Grab some coffee", "Check her email", "Call a client"], "answer": 0 },
+      { "q": "What warning does Nam give Linh?", "options": ["Someone spilled coffee on the counter", "The microwave is broken", "The standup was moved"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I overslept this morning, so I missed my usual bus to work.",
+    "The rush hour traffic near our office was really bad again today.",
+    "Can we grab a coffee before the standup meeting starts?",
+    "There's a long queue for the microwave in the pantry right now.",
+    "Someone spilled coffee on the counter, so please be careful."
+  ]
+}
