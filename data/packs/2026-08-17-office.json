@@ -1,0 +1,154 @@
+{
+  "date": "2026-08-17",
+  "track": "office",
+  "theme": "Tổ chức sự kiện nội bộ",
+  "vocab": [
+    {
+      "word": "function room",
+      "ipa": "/ˈfʌŋkʃn ruːm/",
+      "meaning_vi": "phòng tổ chức sự kiện",
+      "example": "We must book the function room for the year-end party this week.",
+      "example_vi": "Chúng ta phải đặt phòng tổ chức sự kiện cho tiệc cuối năm trong tuần này."
+    },
+    {
+      "word": "capacity",
+      "ipa": "/kəˈpæsəti/",
+      "meaning_vi": "sức chứa",
+      "example": "The hotel needs the final capacity three days before the event.",
+      "example_vi": "Khách sạn cần con số sức chứa cuối cùng trước sự kiện ba ngày."
+    },
+    {
+      "word": "catering",
+      "ipa": "/ˈkeɪtərɪŋ/",
+      "meaning_vi": "dịch vụ ăn uống",
+      "example": "The catering budget covers dinner and two coffee breaks.",
+      "example_vi": "Ngân sách ăn uống bao gồm bữa tối và hai lần nghỉ giải lao."
+    },
+    {
+      "word": "attendance list",
+      "ipa": "/əˈtendəns lɪst/",
+      "meaning_vi": "danh sách người tham dự",
+      "example": "Three departments have not returned their attendance list yet.",
+      "example_vi": "Ba phòng ban vẫn chưa gửi lại danh sách người tham dự."
+    },
+    {
+      "word": "run of show",
+      "ipa": "/rʌn əv ʃəʊ/",
+      "meaning_vi": "kịch bản chương trình theo thời gian",
+      "example": "The run of show lists every speech and its exact timing.",
+      "example_vi": "Kịch bản chương trình liệt kê từng bài phát biểu và thời gian chính xác."
+    },
+    {
+      "word": "ice-breaker game",
+      "ipa": "/ˈaɪs breɪkə ɡeɪm/",
+      "meaning_vi": "trò chơi làm quen, phá băng",
+      "example": "We start with a short ice-breaker game for the new joiners.",
+      "example_vi": "Chúng ta bắt đầu bằng một trò chơi làm quen ngắn cho nhân viên mới."
+    },
+    {
+      "word": "seating arrangement",
+      "ipa": "/ˈsiːtɪŋ əˈreɪndʒmənt/",
+      "meaning_vi": "sơ đồ chỗ ngồi",
+      "example": "The seating arrangement mixes people from different departments.",
+      "example_vi": "Sơ đồ chỗ ngồi trộn lẫn người từ các phòng ban khác nhau."
+    },
+    {
+      "word": "team-building activity",
+      "ipa": "/ˈtiːm bɪldɪŋ ækˈtɪvəti/",
+      "meaning_vi": "hoạt động gắn kết đội nhóm",
+      "example": "The afternoon team-building activity should last about ninety minutes.",
+      "example_vi": "Hoạt động gắn kết đội nhóm buổi chiều nên kéo dài khoảng chín mươi phút."
+    }
+  ],
+  "listening": {
+    "title": "Planning the Year-End Company Party",
+    "lines": [
+      {
+        "speaker": "Linh - HR Executive",
+        "voice": "female",
+        "text": "Minh, we need to book the function room for the year-end party this week."
+      },
+      {
+        "speaker": "Minh - Admin Officer",
+        "voice": "male",
+        "text": "I have shortlisted two hotels. Both have a capacity of about two hundred people."
+      },
+      {
+        "speaker": "Linh - HR Executive",
+        "voice": "female",
+        "text": "Two hundred? Please check the attendance list again, because some teams have not replied yet."
+      },
+      {
+        "speaker": "Minh - Admin Officer",
+        "voice": "male",
+        "text": "I will send a reminder today. What about catering, a buffet or a set menu?"
+      },
+      {
+        "speaker": "Linh - HR Executive",
+        "voice": "female",
+        "text": "A buffet, I think. It is easier for people to move around and chat."
+      },
+      {
+        "speaker": "Minh - Admin Officer",
+        "voice": "male",
+        "text": "Agreed. Should I book a team-building activity in the afternoon before dinner?"
+      },
+      {
+        "speaker": "Linh - HR Executive",
+        "voice": "female",
+        "text": "Yes, but keep it short. Something light, maybe an ice-breaker game for the new joiners."
+      },
+      {
+        "speaker": "Minh - Admin Officer",
+        "voice": "male",
+        "text": "Good idea. I will also prepare the seating arrangement so departments can mix a little."
+      },
+      {
+        "speaker": "Linh - HR Executive",
+        "voice": "female",
+        "text": "Perfect. Can you draft the run of show and share it with me tomorrow?"
+      },
+      {
+        "speaker": "Minh - Admin Officer",
+        "voice": "male",
+        "text": "Sure. I will include the timings for the speeches, the awards, and the dinner."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How many people is the function room expected to host?",
+        "options": [
+          "About fifty",
+          "About two hundred",
+          "About one thousand"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why does Linh prefer a buffet?",
+        "options": [
+          "It lets people move around and chat",
+          "It is much cheaper than a set menu",
+          "The hotel does not offer a set menu"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What will Minh share with Linh tomorrow?",
+        "options": [
+          "The final invoice from the hotel",
+          "A list of all new joiners",
+          "The run of show"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "We still need to book the function room and confirm the capacity before Friday.",
+    "Please send a reminder to the teams that haven't returned their attendance list.",
+    "I think a buffet works better because people can move around and chat.",
+    "Let's start with a short ice-breaker game so the new joiners feel comfortable.",
+    "Could you draft the run of show and share it with me tomorrow morning?"
+  ]
+}

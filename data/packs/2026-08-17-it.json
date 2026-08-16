@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-17",
+  "track": "it",
+  "theme": "Họp với khách hàng",
+  "vocab": [
+    {
+      "word": "kick-off meeting",
+      "ipa": "/ˈkɪk ɒf ˈmiːtɪŋ/",
+      "meaning_vi": "buổi họp khởi động dự án",
+      "example": "We hold a kick-off meeting with the client before writing any code.",
+      "example_vi": "Chúng tôi tổ chức buổi họp khởi động với khách hàng trước khi viết dòng code nào."
+    },
+    {
+      "word": "client sponsor",
+      "ipa": "/ˈklaɪənt ˈspɒnsə/",
+      "meaning_vi": "người bảo trợ dự án phía khách hàng",
+      "example": "The client sponsor approves the budget and settles any disagreement.",
+      "example_vi": "Người bảo trợ dự án phía khách hàng duyệt ngân sách và giải quyết mọi bất đồng."
+    },
+    {
+      "word": "acceptance criteria",
+      "ipa": "/əkˈseptəns kraɪˈtɪəriə/",
+      "meaning_vi": "tiêu chí nghiệm thu",
+      "example": "We agreed on clear acceptance criteria for the booking module.",
+      "example_vi": "Chúng tôi đã thống nhất tiêu chí nghiệm thu rõ ràng cho module đặt chỗ."
+    },
+    {
+      "word": "change request",
+      "ipa": "/tʃeɪndʒ rɪˈkwest/",
+      "meaning_vi": "yêu cầu thay đổi phạm vi công việc",
+      "example": "Adding the mobile version now would become a change request.",
+      "example_vi": "Thêm bản mobile lúc này sẽ trở thành một yêu cầu thay đổi."
+    },
+    {
+      "word": "sign-off",
+      "ipa": "/ˈsaɪn ɒf/",
+      "meaning_vi": "sự phê duyệt chính thức",
+      "example": "We cannot start coding without the client's sign-off on the document.",
+      "example_vi": "Chúng tôi không thể bắt đầu code khi chưa có phê duyệt của khách hàng trên tài liệu."
+    },
+    {
+      "word": "clarify a requirement",
+      "ipa": "/ˈklærɪfaɪ ə rɪˈkwaɪəmənt/",
+      "meaning_vi": "làm rõ một yêu cầu",
+      "example": "Please clarify a requirement whenever the wording sounds unclear to you.",
+      "example_vi": "Hãy làm rõ yêu cầu bất cứ khi nào bạn thấy câu chữ chưa rõ ràng."
+    },
+    {
+      "word": "project timeline",
+      "ipa": "/ˈprɒdʒekt ˈtaɪmlaɪn/",
+      "meaning_vi": "tiến độ, dòng thời gian dự án",
+      "example": "Nam shared the project timeline so the client could see every milestone.",
+      "example_vi": "Nam chia sẻ tiến độ dự án để khách hàng thấy được từng mốc quan trọng."
+    },
+    {
+      "word": "recap the meeting",
+      "ipa": "/ˈriːkæp ðə ˈmiːtɪŋ/",
+      "meaning_vi": "tóm tắt lại nội dung cuộc họp",
+      "example": "I always recap the meeting in an email to avoid misunderstandings later.",
+      "example_vi": "Tôi luôn tóm tắt cuộc họp qua email để tránh hiểu lầm về sau."
+    }
+  ],
+  "listening": {
+    "title": "Client Meeting: Confirming the Scope",
+    "lines": [
+      {
+        "speaker": "Nam - Project Manager",
+        "voice": "male",
+        "text": "Good morning, Hoa. Thanks for making time for this kick-off meeting with our team."
+      },
+      {
+        "speaker": "Hoa - Client Product Owner",
+        "voice": "female",
+        "text": "Happy to be here, Nam. My director is the client sponsor, and he will join later."
+      },
+      {
+        "speaker": "Nam - Project Manager",
+        "voice": "male",
+        "text": "Great. I would like to go through the project timeline and confirm the acceptance criteria."
+      },
+      {
+        "speaker": "Hoa - Client Product Owner",
+        "voice": "female",
+        "text": "Please do. My team needs to know what we receive at the end of each phase."
+      },
+      {
+        "speaker": "Nam - Project Manager",
+        "voice": "male",
+        "text": "Phase one ends in six weeks with a working booking module and a test report."
+      },
+      {
+        "speaker": "Hoa - Client Product Owner",
+        "voice": "female",
+        "text": "Could you clarify a requirement for me? Does that include the mobile version?"
+      },
+      {
+        "speaker": "Nam - Project Manager",
+        "voice": "male",
+        "text": "Not in phase one. Adding it now would be a change request and affect the budget."
+      },
+      {
+        "speaker": "Hoa - Client Product Owner",
+        "voice": "female",
+        "text": "Understood. Let's keep it for phase two, then. What do you need from our side?"
+      },
+      {
+        "speaker": "Nam - Project Manager",
+        "voice": "male",
+        "text": "Your sign-off on the requirement document by Friday, so development can start on Monday."
+      },
+      {
+        "speaker": "Hoa - Client Product Owner",
+        "voice": "female",
+        "text": "I will read it tonight and send comments. Could you recap the meeting in an email?"
+      },
+      {
+        "speaker": "Nam - Project Manager",
+        "voice": "male",
+        "text": "Of course. I will send the minutes and the action items this afternoon."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Nam want to confirm in the meeting?",
+        "options": [
+          "The project timeline and the acceptance criteria",
+          "The client's marketing budget",
+          "The address of the client's new office"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Why is the mobile version not included in phase one?",
+        "options": [
+          "The client does not want it at all",
+          "It would be a change request and affect the budget",
+          "The developers do not know how to build it"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Nam need from Hoa by Friday?",
+        "options": [
+          "Payment for phase two",
+          "A new project manager",
+          "Her sign-off on the requirement document"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Thanks for making time today; let's review the timeline and the acceptance criteria.",
+    "Could you clarify a requirement for me before we move on to the next item?",
+    "Any change to the scope now would be a change request affecting our budget.",
+    "We need your sign-off by Friday so the development team can start on Monday.",
+    "I'll recap the meeting in an email and send the action items this afternoon."
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-17",
+  "track": "interview",
+  "theme": "Kể chuyện theo STAR",
+  "vocab": [
+    {
+      "word": "behavioural question",
+      "ipa": "/bɪˈheɪvjərəl ˈkwestʃən/",
+      "meaning_vi": "câu hỏi về hành vi trong quá khứ",
+      "example": "A behavioural question asks how you acted in a real situation.",
+      "example_vi": "Câu hỏi hành vi hỏi bạn đã hành động thế nào trong một tình huống thật."
+    },
+    {
+      "word": "set the scene",
+      "ipa": "/set ðə siːn/",
+      "meaning_vi": "dựng bối cảnh cho câu chuyện",
+      "example": "Set the scene in one or two sentences before the details.",
+      "example_vi": "Hãy dựng bối cảnh trong một hai câu trước khi đi vào chi tiết."
+    },
+    {
+      "word": "assigned task",
+      "ipa": "/əˈsaɪnd tɑːsk/",
+      "meaning_vi": "nhiệm vụ được giao",
+      "example": "My assigned task was to keep the release on schedule.",
+      "example_vi": "Nhiệm vụ được giao của tôi là giữ cho bản phát hành đúng tiến độ."
+    },
+    {
+      "word": "concrete action",
+      "ipa": "/ˈkɒŋkriːt ˈækʃn/",
+      "meaning_vi": "hành động cụ thể",
+      "example": "Interviewers want a concrete action, not a general opinion.",
+      "example_vi": "Nhà tuyển dụng muốn nghe hành động cụ thể, không phải ý kiến chung chung."
+    },
+    {
+      "word": "measurable result",
+      "ipa": "/ˈmeʒərəbl rɪˈzʌlt/",
+      "meaning_vi": "kết quả đo lường được",
+      "example": "End your story with a measurable result whenever you can.",
+      "example_vi": "Hãy kết thúc câu chuyện bằng một kết quả đo lường được nếu có thể."
+    },
+    {
+      "word": "quantify the impact",
+      "ipa": "/ˈkwɒntɪfaɪ ðə ˈɪmpækt/",
+      "meaning_vi": "lượng hoá tác động bằng con số",
+      "example": "Try to quantify the impact with a percentage or an amount of time.",
+      "example_vi": "Hãy cố lượng hoá tác động bằng phần trăm hoặc thời gian tiết kiệm được."
+    },
+    {
+      "word": "STAR method",
+      "ipa": "/stɑː ˈmeθəd/",
+      "meaning_vi": "phương pháp STAR (Tình huống - Nhiệm vụ - Hành động - Kết quả)",
+      "example": "The STAR method helps you tell a clear and complete work story.",
+      "example_vi": "Phương pháp STAR giúp bạn kể một câu chuyện công việc rõ ràng và đầy đủ."
+    },
+    {
+      "word": "back it up with numbers",
+      "ipa": "/bæk ɪt ʌp wɪð ˈnʌmbəz/",
+      "meaning_vi": "chứng minh bằng số liệu",
+      "example": "Whenever you claim an improvement, back it up with numbers.",
+      "example_vi": "Bất cứ khi nào bạn nói có cải thiện, hãy chứng minh bằng số liệu."
+    }
+  ],
+  "listening": {
+    "title": "Answering a Behavioural Question with STAR",
+    "lines": [
+      {
+        "speaker": "Ha - HR Manager",
+        "voice": "female",
+        "text": "Khoa, tell me about a time you solved a difficult problem at work."
+      },
+      {
+        "speaker": "Khoa - Candidate",
+        "voice": "male",
+        "text": "Let me set the scene. Last year our team lost a key developer very suddenly."
+      },
+      {
+        "speaker": "Ha - HR Manager",
+        "voice": "female",
+        "text": "That sounds stressful. What was your assigned task in that situation?"
+      },
+      {
+        "speaker": "Khoa - Candidate",
+        "voice": "male",
+        "text": "I had to keep the release on schedule with only three people left on the team."
+      },
+      {
+        "speaker": "Ha - HR Manager",
+        "voice": "female",
+        "text": "And what concrete action did you take first?"
+      },
+      {
+        "speaker": "Khoa - Candidate",
+        "voice": "male",
+        "text": "I re-planned the sprint, dropped two low-value features, and trained a junior developer."
+      },
+      {
+        "speaker": "Ha - HR Manager",
+        "voice": "female",
+        "text": "Were you able to quantify the impact of those changes?"
+      },
+      {
+        "speaker": "Khoa - Candidate",
+        "voice": "male",
+        "text": "Yes. We shipped only four days late and cut support tickets by thirty percent."
+      },
+      {
+        "speaker": "Ha - HR Manager",
+        "voice": "female",
+        "text": "That is a clear, measurable result. I like the way you follow the STAR method."
+      },
+      {
+        "speaker": "Khoa - Candidate",
+        "voice": "male",
+        "text": "Thank you. I always try to back it up with numbers instead of opinions."
+      },
+      {
+        "speaker": "Ha - HR Manager",
+        "voice": "female",
+        "text": "Very good. That is exactly what we look for in a senior candidate."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What problem did Khoa's team face?",
+        "options": [
+          "They lost a key developer suddenly",
+          "Their office was closed for a month",
+          "The client cancelled the whole project"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What did Khoa do to keep the release on schedule?",
+        "options": [
+          "He hired three new developers immediately",
+          "He re-planned the sprint and dropped low-value features",
+          "He delayed the release by two months"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does the interviewer like about Khoa's answer?",
+        "options": [
+          "It is very short and funny",
+          "It avoids talking about problems",
+          "It ends with a clear, measurable result"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Let me set the scene: last year our team lost a key developer suddenly.",
+    "My assigned task was to keep the release on schedule with fewer people.",
+    "The concrete action I took was re-planning the sprint and training a junior.",
+    "We shipped only four days late and cut support tickets by thirty percent.",
+    "I always try to back it up with numbers rather than personal opinions."
+  ]
+}

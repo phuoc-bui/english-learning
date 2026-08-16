@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-17",
+  "track": "finance",
+  "theme": "Đối chiếu số liệu",
+  "vocab": [
+    {
+      "word": "bank statement",
+      "ipa": "/bæŋk ˈsteɪtmənt/",
+      "meaning_vi": "sao kê ngân hàng",
+      "example": "The bank statement and our accounting records differ by twelve million dong.",
+      "example_vi": "Sao kê ngân hàng và sổ sách kế toán của chúng ta chênh nhau mười hai triệu đồng."
+    },
+    {
+      "word": "balance brought forward",
+      "ipa": "/ˈbæləns brɔːt ˈfɔːwəd/",
+      "meaning_vi": "số dư mang sang từ kỳ trước",
+      "example": "Always check the balance brought forward before looking for other errors.",
+      "example_vi": "Luôn kiểm tra số dư mang sang từ kỳ trước khi đi tìm các lỗi khác."
+    },
+    {
+      "word": "ending balance",
+      "ipa": "/ˈendɪŋ ˈbæləns/",
+      "meaning_vi": "số dư cuối kỳ",
+      "example": "The ending balance must match the bank statement exactly.",
+      "example_vi": "Số dư cuối kỳ phải khớp chính xác với sao kê ngân hàng."
+    },
+    {
+      "word": "accounting records",
+      "ipa": "/əˈkaʊntɪŋ ˈrekɔːdz/",
+      "meaning_vi": "sổ sách kế toán",
+      "example": "Mai printed the accounting records for the second week of the month.",
+      "example_vi": "Mai in sổ sách kế toán cho tuần thứ hai của tháng."
+    },
+    {
+      "word": "match against",
+      "ipa": "/mætʃ əˈɡenst/",
+      "meaning_vi": "đối chiếu với",
+      "example": "Please match every payment against the supplier invoices.",
+      "example_vi": "Hãy đối chiếu từng khoản thanh toán với hoá đơn nhà cung cấp."
+    },
+    {
+      "word": "outstanding item",
+      "ipa": "/aʊtˈstændɪŋ ˈaɪtəm/",
+      "meaning_vi": "khoản mục chưa được xử lý xong",
+      "example": "Two outstanding items only cleared the bank a few days later.",
+      "example_vi": "Hai khoản mục chưa xử lý xong chỉ về đến ngân hàng vài ngày sau đó."
+    },
+    {
+      "word": "journal entry",
+      "ipa": "/ˈdʒɜːnl ˈentri/",
+      "meaning_vi": "bút toán",
+      "example": "One journal entry was posted twice by mistake.",
+      "example_vi": "Một bút toán đã bị ghi nhận hai lần do nhầm lẫn."
+    },
+    {
+      "word": "balance out",
+      "ipa": "/ˈbæləns aʊt/",
+      "meaning_vi": "cân bằng, khớp số",
+      "example": "Once the double entry is reversed, the accounts will balance out.",
+      "example_vi": "Sau khi bút toán trùng được đảo lại, các tài khoản sẽ khớp số."
+    }
+  ],
+  "listening": {
+    "title": "Reconciling the Monthly Accounts",
+    "lines": [
+      {
+        "speaker": "Tuan - Chief Accountant",
+        "voice": "male",
+        "text": "Mai, have you finished the reconciliation for last month yet?"
+      },
+      {
+        "speaker": "Mai - Accountant",
+        "voice": "female",
+        "text": "Almost. The bank statement and our accounting records still differ by twelve million dong."
+      },
+      {
+        "speaker": "Tuan - Chief Accountant",
+        "voice": "male",
+        "text": "That is a big gap. Did you check the balance brought forward first?"
+      },
+      {
+        "speaker": "Mai - Accountant",
+        "voice": "female",
+        "text": "Yes, the balance brought forward matches. The problem only appeared in the second week."
+      },
+      {
+        "speaker": "Tuan - Chief Accountant",
+        "voice": "male",
+        "text": "Then match the payments made around that time against the supplier invoices."
+      },
+      {
+        "speaker": "Mai - Accountant",
+        "voice": "female",
+        "text": "I already found two outstanding items, supplier payments that cleared the bank late."
+      },
+      {
+        "speaker": "Tuan - Chief Accountant",
+        "voice": "male",
+        "text": "That explains part of it. What about the rest of the difference?"
+      },
+      {
+        "speaker": "Mai - Accountant",
+        "voice": "female",
+        "text": "One journal entry was posted twice by mistake. I will reverse it this morning."
+      },
+      {
+        "speaker": "Tuan - Chief Accountant",
+        "voice": "male",
+        "text": "Good catch. Once that is fixed, does everything balance out?"
+      },
+      {
+        "speaker": "Mai - Accountant",
+        "voice": "female",
+        "text": "It should. Then the ending balance will match the bank statement exactly."
+      },
+      {
+        "speaker": "Tuan - Chief Accountant",
+        "voice": "male",
+        "text": "Please finish before noon. I need the report for the director's meeting."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How big is the difference Mai is investigating?",
+        "options": [
+          "Twelve million dong",
+          "Two million dong",
+          "One hundred million dong"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What mistake did Mai discover in the accounts?",
+        "options": [
+          "The balance brought forward was wrong",
+          "A journal entry was posted twice",
+          "The bank lost a supplier payment"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "When does Tuan need the finished report?",
+        "options": [
+          "Next Monday",
+          "At the end of the month",
+          "Before noon today"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "The bank statement and our accounting records still differ by twelve million dong.",
+    "Please match every payment from that week against the supplier invoices.",
+    "I found two outstanding items that only cleared the bank a few days later.",
+    "One journal entry was posted twice, so I will reverse it this morning.",
+    "Once that is corrected, the ending balance should match the statement exactly."
+  ]
+}

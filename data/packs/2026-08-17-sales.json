@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-17",
+  "track": "sales",
+  "theme": "Gửi & giải thích báo giá",
+  "vocab": [
+    {
+      "word": "formal quote",
+      "ipa": "/ˈfɔːml kwəʊt/",
+      "meaning_vi": "báo giá chính thức",
+      "example": "I sent the formal quote to the purchasing manager yesterday afternoon.",
+      "example_vi": "Tôi đã gửi báo giá chính thức cho trưởng phòng mua hàng chiều hôm qua."
+    },
+    {
+      "word": "list price",
+      "ipa": "/lɪst praɪs/",
+      "meaning_vi": "giá niêm yết",
+      "example": "The list price is fifty dollars for orders under one hundred units.",
+      "example_vi": "Giá niêm yết là năm mươi đô la cho đơn hàng dưới một trăm sản phẩm."
+    },
+    {
+      "word": "volume discount",
+      "ipa": "/ˈvɒljuːm ˈdɪskaʊnt/",
+      "meaning_vi": "chiết khấu theo số lượng",
+      "example": "We offer a volume discount once the order reaches three hundred units.",
+      "example_vi": "Chúng tôi có chiết khấu theo số lượng khi đơn hàng đạt ba trăm sản phẩm."
+    },
+    {
+      "word": "payment terms",
+      "ipa": "/ˈpeɪmənt tɜːmz/",
+      "meaning_vi": "điều khoản thanh toán",
+      "example": "Our standard payment terms are thirty days from delivery.",
+      "example_vi": "Điều khoản thanh toán tiêu chuẩn của chúng tôi là ba mươi ngày kể từ khi giao hàng."
+    },
+    {
+      "word": "itemized breakdown",
+      "ipa": "/ˈaɪtəmaɪzd ˈbreɪkdaʊn/",
+      "meaning_vi": "bảng chi tiết từng khoản mục",
+      "example": "The itemized breakdown on page two shows every cost clearly.",
+      "example_vi": "Bảng chi tiết từng khoản mục ở trang hai thể hiện rõ mọi chi phí."
+    },
+    {
+      "word": "hidden charge",
+      "ipa": "/ˈhɪdn tʃɑːdʒ/",
+      "meaning_vi": "phí ẩn, chi phí phát sinh không báo trước",
+      "example": "There is no hidden charge anywhere in this formal quote.",
+      "example_vi": "Không có bất kỳ phí ẩn nào trong báo giá chính thức này."
+    },
+    {
+      "word": "expiry date",
+      "ipa": "/ɪkˈspaɪəri deɪt/",
+      "meaning_vi": "ngày hết hiệu lực",
+      "example": "The expiry date of this quote is the end of August.",
+      "example_vi": "Ngày hết hiệu lực của báo giá này là cuối tháng Tám."
+    },
+    {
+      "word": "revise the quote",
+      "ipa": "/rɪˈvaɪz ðə kwəʊt/",
+      "meaning_vi": "điều chỉnh lại báo giá",
+      "example": "If you need more time, I can revise the quote for you.",
+      "example_vi": "Nếu anh chị cần thêm thời gian, tôi có thể điều chỉnh lại báo giá."
+    }
+  ],
+  "listening": {
+    "title": "Explaining the Formal Quote to a Client",
+    "lines": [
+      {
+        "speaker": "Hung - Sales Executive",
+        "voice": "male",
+        "text": "Good afternoon, Ms. Trang. Did you receive the formal quote I sent yesterday?"
+      },
+      {
+        "speaker": "Trang - Purchasing Manager",
+        "voice": "female",
+        "text": "Yes, I did. But I have a few questions about the list price."
+      },
+      {
+        "speaker": "Hung - Sales Executive",
+        "voice": "male",
+        "text": "Of course. The list price is fifty dollars for orders under one hundred units."
+      },
+      {
+        "speaker": "Trang - Purchasing Manager",
+        "voice": "female",
+        "text": "And if we order three hundred? Is there a volume discount for that?"
+      },
+      {
+        "speaker": "Hung - Sales Executive",
+        "voice": "male",
+        "text": "Yes. At three hundred units the price drops to forty-two dollars each."
+      },
+      {
+        "speaker": "Trang - Purchasing Manager",
+        "voice": "female",
+        "text": "That is better. What about the payment terms in the second section?"
+      },
+      {
+        "speaker": "Hung - Sales Executive",
+        "voice": "male",
+        "text": "Thirty days from delivery. We can extend that to forty-five days for long-term partners."
+      },
+      {
+        "speaker": "Trang - Purchasing Manager",
+        "voice": "female",
+        "text": "Good. I also want to be sure there is no hidden charge later."
+      },
+      {
+        "speaker": "Hung - Sales Executive",
+        "voice": "male",
+        "text": "None at all. The itemized breakdown on page two shows every cost clearly."
+      },
+      {
+        "speaker": "Trang - Purchasing Manager",
+        "voice": "female",
+        "text": "Great. One more thing: what is the expiry date of this quote?"
+      },
+      {
+        "speaker": "Hung - Sales Executive",
+        "voice": "male",
+        "text": "The end of this month. If you need more time, I can revise the quote."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is the list price for orders under one hundred units?",
+        "options": [
+          "Forty-two dollars",
+          "Fifty dollars",
+          "Thirty dollars"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What are the standard payment terms?",
+        "options": [
+          "Thirty days from delivery",
+          "Full payment before delivery",
+          "Ninety days from delivery"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What can Hung do if Ms. Trang needs more time to decide?",
+        "options": [
+          "Cancel the order immediately",
+          "Double the list price",
+          "Revise the quote for her"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "The list price drops to forty-two dollars if you order three hundred units.",
+    "Please check the itemized breakdown on page two for every cost included.",
+    "I can confirm there is no hidden charge anywhere in this formal quote.",
+    "Our payment terms are thirty days, but long-term partners can request forty-five.",
+    "Please note the expiry date of this quote is the end of August."
+  ]
+}
