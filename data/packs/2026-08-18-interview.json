@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-18",
+  "track": "interview",
+  "theme": "Tìm hiểu văn hoá công ty",
+  "vocab": [
+    {
+      "word": "flat structure",
+      "ipa": "/flæt ˈstrʌktʃə/",
+      "meaning_vi": "cơ cấu tổ chức phẳng, ít tầng quản lý",
+      "example": "We have a flat structure, so juniors can speak directly to the director.",
+      "example_vi": "Chúng tôi có cơ cấu phẳng, nên nhân viên mới có thể trao đổi trực tiếp với giám đốc."
+    },
+    {
+      "word": "open-door policy",
+      "ipa": "/ˌəʊpən dɔː ˈpɒləsi/",
+      "meaning_vi": "chính sách cởi mở, luôn sẵn sàng lắng nghe nhân viên",
+      "example": "My manager has an open-door policy, so I can raise concerns any time.",
+      "example_vi": "Quản lý của tôi theo chính sách cởi mở, nên tôi có thể nêu vấn đề bất cứ lúc nào."
+    },
+    {
+      "word": "what success looks like",
+      "ipa": "/wɒt səkˈses lʊks laɪk/",
+      "meaning_vi": "thế nào là thành công trong vai trò này",
+      "example": "May I ask what success looks like in this role after one year?",
+      "example_vi": "Cho tôi hỏi thế nào là thành công ở vị trí này sau một năm?"
+    },
+    {
+      "word": "recognition program",
+      "ipa": "/ˌrekəɡˈnɪʃn ˈprəʊɡræm/",
+      "meaning_vi": "chương trình ghi nhận, khen thưởng nhân viên",
+      "example": "Their recognition program gives an award to one team member each quarter.",
+      "example_vi": "Chương trình ghi nhận của họ trao giải cho một thành viên mỗi quý."
+    },
+    {
+      "word": "team outing",
+      "ipa": "/tiːm ˈaʊtɪŋ/",
+      "meaning_vi": "hoạt động dã ngoại, đi chơi cùng nhóm",
+      "example": "We hold a team outing twice a year to build stronger relationships.",
+      "example_vi": "Chúng tôi tổ chức đi chơi nhóm hai lần một năm để gắn kết hơn."
+    },
+    {
+      "word": "employee turnover",
+      "ipa": "/ɪmˈplɔɪiː ˈtɜːnəʊvə/",
+      "meaning_vi": "tỉ lệ nhân viên nghỉ việc",
+      "example": "Low employee turnover usually means people are happy with their managers.",
+      "example_vi": "Tỉ lệ nghỉ việc thấp thường có nghĩa là nhân viên hài lòng với quản lý."
+    },
+    {
+      "word": "learning culture",
+      "ipa": "/ˈlɜːnɪŋ ˈkʌltʃə/",
+      "meaning_vi": "văn hoá học hỏi trong tổ chức",
+      "example": "A real learning culture means the company pays for courses and study time.",
+      "example_vi": "Văn hoá học hỏi thật sự nghĩa là công ty chi trả cho khoá học và thời gian học."
+    },
+    {
+      "word": "culture fit",
+      "ipa": "/ˈkʌltʃə fɪt/",
+      "meaning_vi": "sự phù hợp với văn hoá công ty",
+      "example": "Skills matter, but culture fit decides whether you enjoy the job.",
+      "example_vi": "Kỹ năng quan trọng, nhưng sự phù hợp văn hoá quyết định bạn có thích công việc hay không."
+    }
+  ],
+  "listening": {
+    "title": "Asking About the Company Culture",
+    "lines": [
+      {
+        "speaker": "Hoa - Hiring Manager",
+        "voice": "female",
+        "text": "We are near the end, Minh. Do you have any questions for me?"
+      },
+      {
+        "speaker": "Minh - Candidate",
+        "voice": "male",
+        "text": "Yes, thank you. How would you describe the culture inside your team?"
+      },
+      {
+        "speaker": "Hoa - Hiring Manager",
+        "voice": "female",
+        "text": "We have a flat structure, so anyone can share an idea in our meetings."
+      },
+      {
+        "speaker": "Minh - Candidate",
+        "voice": "male",
+        "text": "That sounds good. Is there an open-door policy with senior managers too?"
+      },
+      {
+        "speaker": "Hoa - Hiring Manager",
+        "voice": "female",
+        "text": "There is. My director sits with us and joins our Monday planning session."
+      },
+      {
+        "speaker": "Minh - Candidate",
+        "voice": "male",
+        "text": "May I ask what success looks like in this role after six months?"
+      },
+      {
+        "speaker": "Hoa - Hiring Manager",
+        "voice": "female",
+        "text": "Owning two products, and coaching one junior member of the team."
+      },
+      {
+        "speaker": "Minh - Candidate",
+        "voice": "male",
+        "text": "Understood. Does the company have a recognition program for strong work?"
+      },
+      {
+        "speaker": "Hoa - Hiring Manager",
+        "voice": "female",
+        "text": "Yes, we vote for a team hero each quarter, and we run a team outing twice a year."
+      },
+      {
+        "speaker": "Minh - Candidate",
+        "voice": "male",
+        "text": "I like that. How high is the employee turnover in your department?"
+      },
+      {
+        "speaker": "Hoa - Hiring Manager",
+        "voice": "female",
+        "text": "Quite low. People stay because we invest in a real learning culture here."
+      },
+      {
+        "speaker": "Minh - Candidate",
+        "voice": "male",
+        "text": "That matters to me. I believe the culture fit here would be very strong."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Minh ask about first?",
+        "options": [
+          "The salary and the annual bonus",
+          "The culture inside the team",
+          "The location of the office"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does success in the role look like after six months?",
+        "options": [
+          "Owning two products and coaching a junior member",
+          "Opening a new office abroad",
+          "Hiring ten new engineers"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Why do people stay in Hoa's department?",
+        "options": [
+          "The office is close to their homes",
+          "The company provides free lunch every day",
+          "The company invests in a real learning culture"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you describe the culture and how your team makes everyday decisions?",
+    "May I ask what success looks like in this role after six months?",
+    "I work best in a flat structure where everyone can share ideas openly.",
+    "Does the company have a recognition program for people who exceed their targets?",
+    "A strong learning culture matters to me more than a slightly higher salary."
+  ]
+}

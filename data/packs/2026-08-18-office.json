@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-18",
+  "track": "office",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    {
+      "word": "induction session",
+      "ipa": "/ɪnˈdʌkʃn ˈseʃn/",
+      "meaning_vi": "buổi định hướng cho nhân viên mới",
+      "example": "Every new hire joins an induction session on their first morning.",
+      "example_vi": "Mọi nhân viên mới đều tham gia buổi định hướng vào sáng đầu tiên."
+    },
+    {
+      "word": "org chart",
+      "ipa": "/ɔːɡ tʃɑːt/",
+      "meaning_vi": "sơ đồ tổ chức",
+      "example": "The org chart shows who reports to whom in each department.",
+      "example_vi": "Sơ đồ tổ chức cho thấy ai báo cáo cho ai ở từng phòng ban."
+    },
+    {
+      "word": "workstation",
+      "ipa": "/ˈwɜːksteɪʃn/",
+      "meaning_vi": "chỗ ngồi làm việc, bàn làm việc",
+      "example": "Your workstation is ready, with a laptop and two screens.",
+      "example_vi": "Chỗ ngồi của bạn đã sẵn sàng, có laptop và hai màn hình."
+    },
+    {
+      "word": "learning curve",
+      "ipa": "/ˈlɜːnɪŋ kɜːv/",
+      "meaning_vi": "quá trình học việc, làm quen công việc",
+      "example": "The learning curve is steep in month one, but it gets easier.",
+      "example_vi": "Quá trình học việc khá vất vả trong tháng đầu, nhưng sau đó dễ dần."
+    },
+    {
+      "word": "familiarize yourself with",
+      "ipa": "/fəˈmɪliəraɪz jɔːˈself wɪð/",
+      "meaning_vi": "tự làm quen với điều gì đó",
+      "example": "Please familiarize yourself with our shared drive before the team meeting.",
+      "example_vi": "Hãy tự làm quen với ổ đĩa dùng chung trước buổi họp nhóm."
+    },
+    {
+      "word": "company values",
+      "ipa": "/ˈkʌmpəni ˈværjuːz/",
+      "meaning_vi": "giá trị cốt lõi của công ty",
+      "example": "Our company values are honesty, teamwork and respect for the customer.",
+      "example_vi": "Giá trị cốt lõi của công ty là trung thực, làm việc nhóm và tôn trọng khách hàng."
+    },
+    {
+      "word": "30-day plan",
+      "ipa": "/ˈθɜːti deɪ plæn/",
+      "meaning_vi": "kế hoạch 30 ngày đầu",
+      "example": "Hoa wrote a 30-day plan so the new hire knows each weekly goal.",
+      "example_vi": "Hoa viết kế hoạch 30 ngày để nhân viên mới biết mục tiêu từng tuần."
+    },
+    {
+      "word": "hit the ground running",
+      "ipa": "/hɪt ðə ɡraʊnd ˈrʌnɪŋ/",
+      "meaning_vi": "bắt nhịp công việc nhanh chóng",
+      "example": "With good training, a new colleague can hit the ground running.",
+      "example_vi": "Với đào tạo tốt, đồng nghiệp mới có thể bắt nhịp công việc rất nhanh."
+    }
+  ],
+  "listening": {
+    "title": "The First Morning at the Office",
+    "lines": [
+      {
+        "speaker": "Hoa - HR Officer",
+        "voice": "female",
+        "text": "Welcome to the company, Nam. We start with a short induction session at nine."
+      },
+      {
+        "speaker": "Nam - New Marketing Executive",
+        "voice": "male",
+        "text": "Thank you, Hoa. I am excited, although I still feel a little nervous."
+      },
+      {
+        "speaker": "Hoa - HR Officer",
+        "voice": "female",
+        "text": "That is normal. Everyone has a learning curve in the first few weeks here."
+      },
+      {
+        "speaker": "Nam - New Marketing Executive",
+        "voice": "male",
+        "text": "Where will I sit? I would like to set up my workstation early."
+      },
+      {
+        "speaker": "Hoa - HR Officer",
+        "voice": "female",
+        "text": "Third floor, next to the design team. Your laptop and badge are waiting there."
+      },
+      {
+        "speaker": "Nam - New Marketing Executive",
+        "voice": "male",
+        "text": "Great. Could you show me the org chart so I know who to contact?"
+      },
+      {
+        "speaker": "Hoa - HR Officer",
+        "voice": "female",
+        "text": "It is on the shared drive. Please familiarize yourself with it this morning."
+      },
+      {
+        "speaker": "Nam - New Marketing Executive",
+        "voice": "male",
+        "text": "I will. Is there anything I should read about the company values?"
+      },
+      {
+        "speaker": "Hoa - HR Officer",
+        "voice": "female",
+        "text": "The handbook explains them well. We also have a 30-day plan for every new hire."
+      },
+      {
+        "speaker": "Nam - New Marketing Executive",
+        "voice": "male",
+        "text": "That sounds helpful. I hope I can hit the ground running by next month."
+      },
+      {
+        "speaker": "Hoa - HR Officer",
+        "voice": "female",
+        "text": "You will. Linh sits beside you and can answer any small question."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What starts at nine o'clock on Nam's first day?",
+        "options": [
+          "A short induction session",
+          "A meeting with an important client",
+          "A team lunch in the canteen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Where is Nam's workstation?",
+        "options": [
+          "On the first floor near reception",
+          "On the third floor next to the design team",
+          "In the small meeting room"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Hoa ask Nam to read this morning?",
+        "options": [
+          "The annual budget report",
+          "The contract with the biggest client",
+          "The org chart on the shared drive"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Welcome to the team; your induction session starts at nine in room two.",
+    "Please familiarize yourself with the org chart before your first team meeting.",
+    "Everyone has a learning curve, so ask me anything during your first month.",
+    "Your workstation is on the third floor, right next to the design team.",
+    "We follow a 30-day plan so new hires can hit the ground running."
+  ]
+}

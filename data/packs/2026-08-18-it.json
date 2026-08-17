@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-18",
+  "track": "it",
+  "theme": "Deal lương & phúc lợi",
+  "vocab": [
+    {
+      "word": "salary review",
+      "ipa": "/ˈsæləri rɪˈvjuː/",
+      "meaning_vi": "kỳ xem xét, đánh giá lại lương",
+      "example": "Our salary review happens every June, right after the performance cycle.",
+      "example_vi": "Kỳ xem xét lương của chúng tôi diễn ra vào tháng Sáu, ngay sau chu kỳ đánh giá."
+    },
+    {
+      "word": "market rate",
+      "ipa": "/ˈmɑːkɪt reɪt/",
+      "meaning_vi": "mức lương mặt bằng thị trường",
+      "example": "Linh compared her pay with the market rate for backend developers in Hanoi.",
+      "example_vi": "Linh so sánh lương của mình với mặt bằng thị trường cho lập trình viên backend ở Hà Nội."
+    },
+    {
+      "word": "make a case for",
+      "ipa": "/meɪk ə keɪs fɔː/",
+      "meaning_vi": "đưa ra lý lẽ thuyết phục cho điều gì",
+      "example": "You should make a case for the increase with real numbers, not feelings.",
+      "example_vi": "Bạn nên đưa ra lý lẽ cho việc tăng lương bằng số liệu thật, không phải cảm tính."
+    },
+    {
+      "word": "seniority level",
+      "ipa": "/ˌsiːniˈɒrəti ˈlevl/",
+      "meaning_vi": "cấp bậc, thâm niên trong công ty",
+      "example": "Moving up one seniority level usually changes both the title and the pay.",
+      "example_vi": "Lên một cấp bậc thường thay đổi cả chức danh lẫn mức lương."
+    },
+    {
+      "word": "total package",
+      "ipa": "/ˈtəʊtl ˈpækɪdʒ/",
+      "meaning_vi": "tổng gói đãi ngộ (lương và phúc lợi)",
+      "example": "Look at the total package, because the base pay is only one part.",
+      "example_vi": "Hãy nhìn vào tổng gói đãi ngộ, vì lương cơ bản chỉ là một phần."
+    },
+    {
+      "word": "health coverage",
+      "ipa": "/helθ ˈkʌvərɪdʒ/",
+      "meaning_vi": "chế độ bảo hiểm y tế",
+      "example": "The company extends health coverage to your spouse and children.",
+      "example_vi": "Công ty mở rộng bảo hiểm y tế cho vợ/chồng và con của bạn."
+    },
+    {
+      "word": "13th month salary",
+      "ipa": "/θɜːˈtiːnθ mʌnθ ˈsæləri/",
+      "meaning_vi": "lương tháng thứ 13",
+      "example": "Most staff receive the 13th month salary before the Lunar New Year.",
+      "example_vi": "Đa số nhân viên nhận lương tháng 13 trước Tết Nguyên đán."
+    },
+    {
+      "word": "flexible hours",
+      "ipa": "/ˈfleksəbl ˈaʊəz/",
+      "meaning_vi": "giờ làm việc linh hoạt",
+      "example": "Flexible hours help our engineers avoid the worst traffic in the morning.",
+      "example_vi": "Giờ làm linh hoạt giúp kỹ sư của chúng tôi tránh giờ cao điểm buổi sáng."
+    }
+  ],
+  "listening": {
+    "title": "Talking About Pay and Benefits",
+    "lines": [
+      {
+        "speaker": "Linh - Senior Developer",
+        "voice": "female",
+        "text": "Thanks for meeting me, Minh. I would like to talk about my salary review this year."
+      },
+      {
+        "speaker": "Minh - Engineering Manager",
+        "voice": "male",
+        "text": "Of course, Linh. You have had a strong year, so let's look at the numbers together."
+      },
+      {
+        "speaker": "Linh - Senior Developer",
+        "voice": "female",
+        "text": "I checked the market rate for my role, and my pay sits below it."
+      },
+      {
+        "speaker": "Minh - Engineering Manager",
+        "voice": "male",
+        "text": "That is fair. Could you make a case for the increase with some examples?"
+      },
+      {
+        "speaker": "Linh - Senior Developer",
+        "voice": "female",
+        "text": "I led the payment module and cut our release time by thirty percent."
+      },
+      {
+        "speaker": "Minh - Engineering Manager",
+        "voice": "male",
+        "text": "That is solid. Your seniority level is also due for a change after that project."
+      },
+      {
+        "speaker": "Linh - Senior Developer",
+        "voice": "female",
+        "text": "I would also like to understand the total package, not only the base pay."
+      },
+      {
+        "speaker": "Minh - Engineering Manager",
+        "voice": "male",
+        "text": "Sure. It includes health coverage for your family and the 13th month salary."
+      },
+      {
+        "speaker": "Linh - Senior Developer",
+        "voice": "female",
+        "text": "Good. Will the engineering team still have flexible hours next quarter?"
+      },
+      {
+        "speaker": "Minh - Engineering Manager",
+        "voice": "male",
+        "text": "Yes, that policy stays. I will take your case to HR and reply by Friday."
+      },
+      {
+        "speaker": "Linh - Senior Developer",
+        "voice": "female",
+        "text": "Thank you, Minh. I will send you a short summary of my results today."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Linh want to discuss with Minh?",
+        "options": [
+          "Her salary review this year",
+          "Her holiday plan for December",
+          "A new laptop for her team"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How does Linh support her request?",
+        "options": [
+          "By showing an offer from another company",
+          "By showing results from the payment module",
+          "By complaining about her workload"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What will Minh do next?",
+        "options": [
+          "Cancel the salary review",
+          "Move Linh to another team",
+          "Take her case to HR and reply by Friday"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I'd like to talk about my salary review before the quarter closes.",
+    "I checked the market rate for my role and my pay is below it.",
+    "Let me make a case for the increase with clear examples from this year.",
+    "Could you explain the total package, including health coverage and the 13th month salary?",
+    "I hope our team can keep flexible hours for the next two quarters."
+  ]
+}

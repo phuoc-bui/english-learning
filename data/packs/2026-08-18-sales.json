@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-18",
+  "track": "sales",
+  "theme": "Networking tại hội chợ/sự kiện",
+  "vocab": [
+    {
+      "word": "trade fair",
+      "ipa": "/treɪd feə/",
+      "meaning_vi": "hội chợ thương mại",
+      "example": "Our company takes a stand at the software trade fair every autumn.",
+      "example_vi": "Công ty chúng tôi thuê gian hàng ở hội chợ phần mềm mỗi mùa thu."
+    },
+    {
+      "word": "exhibition hall",
+      "ipa": "/ˌeksɪˈbɪʃn hɔːl/",
+      "meaning_vi": "khu vực triển lãm, hội trường trưng bày",
+      "example": "The exhibition hall opens at eight, one hour before the visitors arrive.",
+      "example_vi": "Khu triển lãm mở cửa lúc tám giờ, trước khách tham quan một tiếng."
+    },
+    {
+      "word": "brochure",
+      "ipa": "/ˈbrəʊʃə/",
+      "meaning_vi": "tờ rơi, cuốn giới thiệu sản phẩm",
+      "example": "Give every visitor a brochure with our prices printed on the back.",
+      "example_vi": "Hãy đưa mỗi khách tham quan một tờ rơi có in bảng giá ở mặt sau."
+    },
+    {
+      "word": "strike up a conversation",
+      "ipa": "/straɪk ʌp ə ˌkɒnvəˈseɪʃn/",
+      "meaning_vi": "bắt chuyện, mở lời làm quen",
+      "example": "Minh can strike up a conversation with almost anyone at an event.",
+      "example_vi": "Minh có thể bắt chuyện với hầu như bất kỳ ai tại một sự kiện."
+    },
+    {
+      "word": "industry peer",
+      "ipa": "/ˈɪndəstri pɪə/",
+      "meaning_vi": "người cùng ngành, đồng nghiệp trong ngành",
+      "example": "I met three industry peers today and learned about their biggest problems.",
+      "example_vi": "Hôm nay tôi gặp ba người cùng ngành và biết được vấn đề lớn nhất của họ."
+    },
+    {
+      "word": "scan a QR code",
+      "ipa": "/skæn ə ˌkjuː ˈɑː kəʊd/",
+      "meaning_vi": "quét mã QR",
+      "example": "Visitors scan a QR code to book a demo without filling in forms.",
+      "example_vi": "Khách quét mã QR để đặt lịch demo mà không cần điền biểu mẫu."
+    },
+    {
+      "word": "giveaway",
+      "ipa": "/ˈɡɪvəweɪ/",
+      "meaning_vi": "quà tặng nhỏ cho khách tham quan",
+      "example": "Our giveaway this year is a notebook with the company logo.",
+      "example_vi": "Quà tặng năm nay của chúng tôi là cuốn sổ có in logo công ty."
+    },
+    {
+      "word": "networking event",
+      "ipa": "/ˈnetwɜːkɪŋ ɪˈvent/",
+      "meaning_vi": "sự kiện kết nối, giao lưu mở rộng quan hệ",
+      "example": "The networking event after the fair is where the real talking happens.",
+      "example_vi": "Sự kiện kết nối sau hội chợ mới là nơi diễn ra những trao đổi thực sự."
+    }
+  ],
+  "listening": {
+    "title": "Meeting a Visitor at the Stand",
+    "lines": [
+      {
+        "speaker": "Minh - Sales Executive",
+        "voice": "male",
+        "text": "Hello, welcome to our stand. Is this your first time at this trade fair?"
+      },
+      {
+        "speaker": "Hoa - Marketing Manager",
+        "voice": "female",
+        "text": "It is. The exhibition hall is much bigger than I expected today."
+      },
+      {
+        "speaker": "Minh - Sales Executive",
+        "voice": "male",
+        "text": "It really is. I am Minh from Delta Software. May I give you a brochure?"
+      },
+      {
+        "speaker": "Hoa - Marketing Manager",
+        "voice": "female",
+        "text": "Thank you. We are looking for a tool to manage our customer data."
+      },
+      {
+        "speaker": "Minh - Sales Executive",
+        "voice": "male",
+        "text": "Then you are at the right stand. What system does your team use now?"
+      },
+      {
+        "speaker": "Hoa - Marketing Manager",
+        "voice": "female",
+        "text": "Spreadsheets, mostly. They work, but our team wastes hours every week."
+      },
+      {
+        "speaker": "Minh - Sales Executive",
+        "voice": "male",
+        "text": "I hear that from many industry peers here. A short demo takes ten minutes."
+      },
+      {
+        "speaker": "Hoa - Marketing Manager",
+        "voice": "female",
+        "text": "I have a talk to attend now, but I can come back after lunch."
+      },
+      {
+        "speaker": "Minh - Sales Executive",
+        "voice": "male",
+        "text": "Perfect. Please scan a QR code here and I will hold a slot for you."
+      },
+      {
+        "speaker": "Hoa - Marketing Manager",
+        "voice": "female",
+        "text": "Done. And what is inside the bag on your table?"
+      },
+      {
+        "speaker": "Minh - Sales Executive",
+        "voice": "male",
+        "text": "A small giveaway for visitors: a notebook and a coffee voucher. Enjoy the fair!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "Where does this conversation take place?",
+        "options": [
+          "At a trade fair",
+          "In the client's head office",
+          "At the airport"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Hoa's team use to manage customer data now?",
+        "options": [
+          "A mobile application",
+          "Spreadsheets",
+          "A paper filing system"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What will Hoa do after lunch?",
+        "options": [
+          "Sign the contract",
+          "Fly back home",
+          "Come back for a short demo"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Welcome to our stand; is this your first time at this trade fair?",
+    "May I give you a brochure and tell you about our main product?",
+    "Please scan a QR code and I'll hold a demo slot for you.",
+    "It's easy to strike up a conversation with industry peers at these events.",
+    "Take a small giveaway before you leave the exhibition hall this afternoon."
+  ]
+}

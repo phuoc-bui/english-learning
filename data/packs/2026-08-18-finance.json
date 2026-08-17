@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-18",
+  "track": "finance",
+  "theme": "Trình bày số liệu với sếp",
+  "vocab": [
+    {
+      "word": "keep it high-level",
+      "ipa": "/kiːp ɪt haɪ ˈlevl/",
+      "meaning_vi": "trình bày ở mức tổng quan, không đi vào chi tiết",
+      "example": "Please keep it high-level; the director only has ten minutes.",
+      "example_vi": "Hãy trình bày ở mức tổng quan; giám đốc chỉ có mười phút."
+    },
+    {
+      "word": "line graph",
+      "ipa": "/laɪn ɡrɑːf/",
+      "meaning_vi": "biểu đồ đường",
+      "example": "This line graph shows how our monthly costs moved during the year.",
+      "example_vi": "Biểu đồ đường này cho thấy chi phí hàng tháng của chúng ta biến động thế nào trong năm."
+    },
+    {
+      "word": "actual versus budget",
+      "ipa": "/ˈæktʃuəl ˈvɜːsəs ˈbʌdʒɪt/",
+      "meaning_vi": "số thực tế so với ngân sách",
+      "example": "The second tab compares actual versus budget for every cost centre.",
+      "example_vi": "Tab thứ hai so sánh số thực tế với ngân sách cho từng trung tâm chi phí."
+    },
+    {
+      "word": "outlier",
+      "ipa": "/ˈaʊtlaɪə/",
+      "meaning_vi": "số liệu bất thường, điểm dị biệt",
+      "example": "June is an outlier because two customers paid earlier than usual.",
+      "example_vi": "Tháng Sáu là số liệu bất thường vì hai khách hàng thanh toán sớm hơn thường lệ."
+    },
+    {
+      "word": "assumption",
+      "ipa": "/əˈsʌmpʃn/",
+      "meaning_vi": "giả định dùng khi tính toán",
+      "example": "My main assumption is that no new staff join before October.",
+      "example_vi": "Giả định chính của tôi là không có nhân sự mới nào vào trước tháng Mười."
+    },
+    {
+      "word": "run rate",
+      "ipa": "/rʌn reɪt/",
+      "meaning_vi": "mức chi tiêu/doanh thu đều đặn theo chu kỳ",
+      "example": "At the current run rate, we will finish the year slightly under budget.",
+      "example_vi": "Với mức chi hiện tại, chúng ta sẽ kết thúc năm thấp hơn ngân sách một chút."
+    },
+    {
+      "word": "color-code",
+      "ipa": "/ˈkʌlə kəʊd/",
+      "meaning_vi": "tô màu để phân loại số liệu",
+      "example": "I color-code every risky line in red so managers see it fast.",
+      "example_vi": "Tôi tô đỏ mọi dòng rủi ro để quản lý nhìn thấy ngay."
+    },
+    {
+      "word": "field a question",
+      "ipa": "/fiːld ə ˈkwestʃən/",
+      "meaning_vi": "tiếp nhận và trả lời câu hỏi",
+      "example": "Linh stayed online to field a question from the board.",
+      "example_vi": "Linh ở lại trên cuộc gọi để trả lời câu hỏi từ hội đồng quản trị."
+    }
+  ],
+  "listening": {
+    "title": "A Ten-Minute Numbers Update",
+    "lines": [
+      {
+        "speaker": "Linh - Financial Analyst",
+        "voice": "female",
+        "text": "Good morning, Nam. I have ten minutes of numbers before your next call."
+      },
+      {
+        "speaker": "Nam - Finance Director",
+        "voice": "male",
+        "text": "Please keep it high-level. I only need the main message this morning."
+      },
+      {
+        "speaker": "Linh - Financial Analyst",
+        "voice": "female",
+        "text": "Understood. Revenue is up eight percent, and costs are flat against last quarter."
+      },
+      {
+        "speaker": "Nam - Finance Director",
+        "voice": "male",
+        "text": "Good. How does that look for actual versus budget across the year?"
+      },
+      {
+        "speaker": "Linh - Financial Analyst",
+        "voice": "female",
+        "text": "We are two percent ahead of budget. This line graph shows the monthly trend."
+      },
+      {
+        "speaker": "Nam - Finance Director",
+        "voice": "male",
+        "text": "There is a sharp jump in June. Is that an outlier or a real change?"
+      },
+      {
+        "speaker": "Linh - Financial Analyst",
+        "voice": "female",
+        "text": "An outlier. One customer paid two invoices early, so June looks stronger."
+      },
+      {
+        "speaker": "Nam - Finance Director",
+        "voice": "male",
+        "text": "Fine. What assumption did you use for the rest of the year?"
+      },
+      {
+        "speaker": "Linh - Financial Analyst",
+        "voice": "female",
+        "text": "A steady run rate, with no new hires joining before October."
+      },
+      {
+        "speaker": "Nam - Finance Director",
+        "voice": "male",
+        "text": "Clear. Could you color-code the risky lines in red before the board meeting?"
+      },
+      {
+        "speaker": "Linh - Financial Analyst",
+        "voice": "female",
+        "text": "Of course. I will also stay online to field a question from the board."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Nam ask Linh to do at the start?",
+        "options": [
+          "Keep the update high-level",
+          "Read every line of the report aloud",
+          "Move the meeting to the afternoon"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Why did the June figures look stronger?",
+        "options": [
+          "The company hired fewer people",
+          "One customer paid two invoices early",
+          "Prices increased sharply that month"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Nam want before the board meeting?",
+        "options": [
+          "A much longer report",
+          "A completely new budget",
+          "The risky lines color-coded in red"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I'll keep it high-level and share only the three most important numbers.",
+    "This line graph compares actual versus budget for every month this year.",
+    "The spike in June is an outlier, not a real change in demand.",
+    "My forecast uses one assumption: a steady run rate until the fourth quarter.",
+    "I'll color-code the risky lines and stay online to field a question."
+  ]
+}
