@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-19",
+  "track": "sales",
+  "theme": "Upsell & cross-sell",
+  "vocab": [
+    {
+      "word": "account growth",
+      "ipa": "/əˈkaʊnt ɡrəʊθ/",
+      "meaning_vi": "sự tăng trưởng của tài khoản khách hàng",
+      "example": "I looked at your account growth this quarter before I called you.",
+      "example_vi": "Tôi đã xem mức tăng trưởng tài khoản của anh chị quý này trước khi gọi."
+    },
+    {
+      "word": "usage limit",
+      "ipa": "/ˈjuːsɪdʒ ˈlɪmɪt/",
+      "meaning_vi": "giới hạn sử dụng của gói dịch vụ",
+      "example": "Your team is close to the usage limit of the current plan.",
+      "example_vi": "Nhóm của anh chị sắp chạm giới hạn sử dụng của gói hiện tại."
+    },
+    {
+      "word": "trade up",
+      "ipa": "/treɪd ʌp/",
+      "meaning_vi": "nâng lên gói cao hơn",
+      "example": "Many clients your size trade up to the business plan after a year.",
+      "example_vi": "Nhiều khách hàng quy mô như anh chị nâng lên gói doanh nghiệp sau một năm."
+    },
+    {
+      "word": "extra module",
+      "ipa": "/ˈekstrə ˈmɒdjuːl/",
+      "meaning_vi": "phân hệ, tính năng bổ sung",
+      "example": "The business plan includes the extra module you asked about last time.",
+      "example_vi": "Gói doanh nghiệp đã bao gồm phân hệ bổ sung mà anh chị hỏi lần trước."
+    },
+    {
+      "word": "package deal",
+      "ipa": "/ˈpækɪdʒ diːl/",
+      "meaning_vi": "gói combo mua chung nhiều dịch vụ",
+      "example": "If you take both products together, I can offer a package deal.",
+      "example_vi": "Nếu anh chị lấy cả hai sản phẩm cùng lúc, tôi có thể chào một gói combo."
+    },
+    {
+      "word": "average order value",
+      "ipa": "/ˈævərɪdʒ ˈɔːdə ˈvæljuː/",
+      "meaning_vi": "giá trị đơn hàng trung bình",
+      "example": "A package deal raises the average order value, so we can give a better rate.",
+      "example_vi": "Gói combo làm tăng giá trị đơn hàng trung bình, nên chúng tôi có thể cho mức giá tốt hơn."
+    },
+    {
+      "word": "recommend an upgrade",
+      "ipa": "/ˌrekəˈmend ən ˈʌpɡreɪd/",
+      "meaning_vi": "đề xuất nâng cấp gói",
+      "example": "I will recommend an upgrade in writing today, with a clear cost comparison.",
+      "example_vi": "Hôm nay tôi sẽ gửi đề xuất nâng cấp bằng văn bản, kèm bảng so sánh chi phí rõ ràng."
+    },
+    {
+      "word": "make the most of",
+      "ipa": "/meɪk ðə məʊst ɒv/",
+      "meaning_vi": "tận dụng tối đa",
+      "example": "The training helps your staff make the most of the new reports.",
+      "example_vi": "Buổi đào tạo giúp nhân viên của anh chị tận dụng tối đa các báo cáo mới."
+    }
+  ],
+  "listening": {
+    "title": "A call about moving to a bigger plan",
+    "lines": [
+      {
+        "speaker": "Nam (account manager)",
+        "voice": "male",
+        "text": "Hi Hoa, thanks for the call. I looked at your account growth this quarter."
+      },
+      {
+        "speaker": "Hoa (IT manager, client)",
+        "voice": "female",
+        "text": "Yes, we added twenty new users, so the system feels a bit slow sometimes."
+      },
+      {
+        "speaker": "Nam (account manager)",
+        "voice": "male",
+        "text": "That matches the data. You are close to the usage limit of your current plan."
+      },
+      {
+        "speaker": "Hoa (IT manager, client)",
+        "voice": "female",
+        "text": "What happens if we go over it? Do you stop the service?"
+      },
+      {
+        "speaker": "Nam (account manager)",
+        "voice": "male",
+        "text": "No, but reports get slower. Many clients your size trade up to the business plan."
+      },
+      {
+        "speaker": "Hoa (IT manager, client)",
+        "voice": "female",
+        "text": "How much more would that cost us every month?"
+      },
+      {
+        "speaker": "Nam (account manager)",
+        "voice": "male",
+        "text": "About fifteen percent more, and it includes the extra module you asked about."
+      },
+      {
+        "speaker": "Hoa (IT manager, client)",
+        "voice": "female",
+        "text": "Interesting. Is there a package deal if we take training as well?"
+      },
+      {
+        "speaker": "Nam (account manager)",
+        "voice": "male",
+        "text": "Yes. With a package deal the average order value is higher, so I can give a better rate."
+      },
+      {
+        "speaker": "Hoa (IT manager, client)",
+        "voice": "female",
+        "text": "Send me the numbers. If it helps us make the most of the tool, I will ask my boss."
+      },
+      {
+        "speaker": "Nam (account manager)",
+        "voice": "male",
+        "text": "I will recommend an upgrade in writing today, with a clear cost comparison."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why does Hoa’s system feel slow?",
+        "options": [
+          "They added twenty new users",
+          "They changed the password",
+          "They lost their data"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What is included in the business plan?",
+        "options": [
+          "A free laptop",
+          "The extra module",
+          "Two years of training"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What will Nam send today?",
+        "options": [
+          "A written upgrade recommendation with costs",
+          "A refund form",
+          "A signed contract"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Your team is close to the usage limit of the current plan this quarter.",
+    "Many customers your size trade up once their account growth passes twenty users.",
+    "If you take both together, I can offer a package deal with a discount.",
+    "The extra module will help your team make the most of the reports.",
+    "I will recommend an upgrade in writing, with a clear comparison of both plans."
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "date": "2026-08-19",
+  "track": "office",
+  "theme": "Out-of-office & bàn giao việc",
+  "vocab": [
+    {
+      "word": "away message",
+      "ipa": "/əˈweɪ ˈmesɪdʒ/",
+      "meaning_vi": "tin nhắn tự động báo vắng mặt",
+      "example": "Linh set an away message that gives her colleague’s phone number and email.",
+      "example_vi": "Linh đã cài tin nhắn tự động báo vắng, trong đó có số điện thoại và email của đồng nghiệp."
+    },
+    {
+      "word": "delegation plan",
+      "ipa": "/ˌdelɪˈɡeɪʃn plæn/",
+      "meaning_vi": "kế hoạch giao việc lại khi vắng",
+      "example": "Her delegation plan shows the three tasks Hoa will own next week.",
+      "example_vi": "Kế hoạch giao việc của cô ấy cho thấy ba việc mà Hoa sẽ phụ trách tuần tới."
+    },
+    {
+      "word": "interim owner",
+      "ipa": "/ˈɪntərɪm ˈəʊnə/",
+      "meaning_vi": "người tạm phụ trách công việc",
+      "example": "Hoa is the interim owner of the campaign report until Monday.",
+      "example_vi": "Hoa là người tạm phụ trách báo cáo chiến dịch cho tới thứ Hai."
+    },
+    {
+      "word": "in my absence",
+      "ipa": "/ɪn maɪ ˈæbsəns/",
+      "meaning_vi": "trong lúc tôi vắng mặt",
+      "example": "In my absence, please send all client emails to Hoa first.",
+      "example_vi": "Trong lúc tôi vắng mặt, hãy gửi mọi email của khách cho Hoa trước."
+    },
+    {
+      "word": "unavailable dates",
+      "ipa": "/ˌʌnəˈveɪləbl deɪts/",
+      "meaning_vi": "những ngày không có mặt, không liên lạc được",
+      "example": "I put my unavailable dates in the team calendar two weeks ago.",
+      "example_vi": "Tôi đã ghi những ngày mình vắng mặt vào lịch chung của nhóm từ hai tuần trước."
+    },
+    {
+      "word": "status snapshot",
+      "ipa": "/ˈsteɪtəs ˈsnæpʃɒt/",
+      "meaning_vi": "bản tóm tắt nhanh tình hình công việc",
+      "example": "Send me a status snapshot on Friday so I know where each task stands.",
+      "example_vi": "Hãy gửi tôi bản tóm tắt nhanh vào thứ Sáu để tôi biết từng việc đang ở đâu."
+    },
+    {
+      "word": "transition period",
+      "ipa": "/trænˈzɪʃn ˈpɪəriəd/",
+      "meaning_vi": "giai đoạn chuyển giao công việc",
+      "example": "The transition period is short, so we will meet tomorrow morning.",
+      "example_vi": "Giai đoạn chuyển giao khá ngắn, nên chúng tôi sẽ gặp nhau sáng mai."
+    },
+    {
+      "word": "pick up where I left off",
+      "ipa": "/pɪk ʌp weə aɪ left ɒf/",
+      "meaning_vi": "làm tiếp từ chỗ đang dở",
+      "example": "When I return, I can pick up where I left off with the client.",
+      "example_vi": "Khi quay lại, tôi có thể làm tiếp từ chỗ đang dở với khách hàng."
+    }
+  ],
+  "listening": {
+    "title": "Planning a clean handover before leave",
+    "lines": [
+      {
+        "speaker": "Linh (marketing executive)",
+        "voice": "female",
+        "text": "Minh, I am off from Monday to Friday, so I want to plan the handover."
+      },
+      {
+        "speaker": "Minh (department manager)",
+        "voice": "male",
+        "text": "Thanks for telling me early. Who is the interim owner of the campaign report?"
+      },
+      {
+        "speaker": "Linh (marketing executive)",
+        "voice": "female",
+        "text": "Hoa will take it. I wrote a delegation plan with the three tasks she owns."
+      },
+      {
+        "speaker": "Minh (department manager)",
+        "voice": "male",
+        "text": "Good. What should the team do if the client calls in your absence?"
+      },
+      {
+        "speaker": "Linh (marketing executive)",
+        "voice": "female",
+        "text": "They can forward the email to Hoa and copy me only for urgent things."
+      },
+      {
+        "speaker": "Minh (department manager)",
+        "voice": "male",
+        "text": "Have you set the away message with your unavailable dates?"
+      },
+      {
+        "speaker": "Linh (marketing executive)",
+        "voice": "female",
+        "text": "Yes, it starts on Sunday evening and gives Hoa’s phone number and email."
+      },
+      {
+        "speaker": "Minh (department manager)",
+        "voice": "male",
+        "text": "Please send me a status snapshot on Friday so I know where each task stands."
+      },
+      {
+        "speaker": "Linh (marketing executive)",
+        "voice": "female",
+        "text": "I will. The transition period is short, so Hoa and I will meet tomorrow."
+      },
+      {
+        "speaker": "Minh (department manager)",
+        "voice": "male",
+        "text": "Perfect. When you return, you can pick up where you left off without stress."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Who becomes the interim owner of the campaign report?",
+        "options": [
+          "Minh",
+          "Hoa",
+          "The client"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does the away message give the sender?",
+        "options": [
+          "Hoa’s phone number and email",
+          "The client’s address",
+          "A list of prices"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Minh ask Linh to send on Friday?",
+        "options": [
+          "A status snapshot",
+          "A leave application",
+          "A campaign budget"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I am off next week, so let me walk you through the delegation plan.",
+    "Hoa is the interim owner of this report until I come back on Monday.",
+    "My away message shows my unavailable dates and gives a backup contact.",
+    "Please send me a short status snapshot before the end of the day Friday.",
+    "When I return, I will pick up where I left off with the client."
+  ]
+}

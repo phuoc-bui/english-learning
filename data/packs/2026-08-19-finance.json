@@ -1,0 +1,154 @@
+{
+  "date": "2026-08-19",
+  "track": "finance",
+  "theme": "Deadline quyết toán",
+  "vocab": [
+    {
+      "word": "closing calendar",
+      "ipa": "/ˈkləʊzɪŋ ˈkælɪndə/",
+      "meaning_vi": "lịch các mốc chốt sổ trong kỳ",
+      "example": "We are two days behind the closing calendar for this month.",
+      "example_vi": "Chúng ta đang chậm hai ngày so với lịch chốt sổ tháng này."
+    },
+    {
+      "word": "meet the deadline",
+      "ipa": "/miːt ðə ˈdedlaɪn/",
+      "meaning_vi": "kịp hạn chót",
+      "example": "We can still meet the deadline on the twenty-fifth if suppliers send bills early.",
+      "example_vi": "Chúng ta vẫn kịp hạn ngày 25 nếu nhà cung cấp gửi hoá đơn sớm."
+    },
+    {
+      "word": "pending entry",
+      "ipa": "/ˈpendɪŋ ˈentri/",
+      "meaning_vi": "bút toán còn treo, chưa ghi sổ",
+      "example": "There are nine pending entries waiting for supporting bills.",
+      "example_vi": "Còn chín bút toán đang treo chờ hoá đơn kèm theo."
+    },
+    {
+      "word": "last-minute change",
+      "ipa": "/lɑːst ˈmɪnɪt tʃeɪndʒ/",
+      "meaning_vi": "thay đổi phút chót",
+      "example": "The marketing team usually sends a last-minute change on the final day.",
+      "example_vi": "Nhóm marketing thường gửi thay đổi phút chót vào ngày cuối cùng."
+    },
+    {
+      "word": "lock the period",
+      "ipa": "/lɒk ðə ˈpɪəriəd/",
+      "meaning_vi": "khoá kỳ kế toán (không cho sửa nữa)",
+      "example": "After Friday I will lock the period, so no one can post new entries.",
+      "example_vi": "Sau thứ Sáu tôi sẽ khoá kỳ, nên không ai ghi thêm bút toán được nữa."
+    },
+    {
+      "word": "escalate a delay",
+      "ipa": "/ˈeskəleɪt ə dɪˈleɪ/",
+      "meaning_vi": "báo cấp trên khi bị chậm trễ",
+      "example": "If a team misses the cut-off, escalate a delay to me the same day.",
+      "example_vi": "Nếu nhóm nào trễ hạn chốt, hãy báo cho tôi ngay trong ngày."
+    },
+    {
+      "word": "extension request",
+      "ipa": "/ɪkˈstenʃn rɪˈkwest/",
+      "meaning_vi": "đề nghị gia hạn thời gian",
+      "example": "An extension request to the group office is only our last option.",
+      "example_vi": "Đề nghị gia hạn với văn phòng tập đoàn chỉ là phương án cuối cùng."
+    },
+    {
+      "word": "buffer day",
+      "ipa": "/ˈbʌfə deɪ/",
+      "meaning_vi": "ngày dự phòng trước hạn chót",
+      "example": "Let us keep one buffer day before the final report goes to the board.",
+      "example_vi": "Hãy giữ một ngày dự phòng trước khi báo cáo cuối gửi lên ban lãnh đạo."
+    }
+  ],
+  "listening": {
+    "title": "Two days behind the closing calendar",
+    "lines": [
+      {
+        "speaker": "Minh (finance manager)",
+        "voice": "male",
+        "text": "Linh, how are we doing against the closing calendar for this month?"
+      },
+      {
+        "speaker": "Linh (accountant)",
+        "voice": "female",
+        "text": "We are two days behind. Sales sent their invoices late again."
+      },
+      {
+        "speaker": "Minh (finance manager)",
+        "voice": "male",
+        "text": "Can we still meet the deadline on the twenty-fifth?"
+      },
+      {
+        "speaker": "Linh (accountant)",
+        "voice": "female",
+        "text": "Yes, if I get all supplier bills by Wednesday. There is a long list of pending entries."
+      },
+      {
+        "speaker": "Minh (finance manager)",
+        "voice": "male",
+        "text": "What about marketing? They usually send a last-minute change."
+      },
+      {
+        "speaker": "Linh (accountant)",
+        "voice": "female",
+        "text": "I told them Friday is the cut-off. After that I will lock the period."
+      },
+      {
+        "speaker": "Minh (finance manager)",
+        "voice": "male",
+        "text": "Good. If anyone misses it, escalate a delay to me the same day."
+      },
+      {
+        "speaker": "Linh (accountant)",
+        "voice": "female",
+        "text": "I will. Should I send an extension request to the group office?"
+      },
+      {
+        "speaker": "Minh (finance manager)",
+        "voice": "male",
+        "text": "Only as a last option. Let us keep one buffer day before the final report."
+      },
+      {
+        "speaker": "Linh (accountant)",
+        "voice": "female",
+        "text": "Understood. I will send you a short update every morning until we close the books."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why is the team two days behind?",
+        "options": [
+          "Sales sent their invoices late",
+          "The software crashed",
+          "The manager was on leave"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What will Linh do after Friday?",
+        "options": [
+          "Lock the period",
+          "Pay all suppliers",
+          "Cancel the report"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Minh want to keep before the final report?",
+        "options": [
+          "One buffer day",
+          "Two extra staff",
+          "A new system"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "We are two days behind the closing calendar, but we can still catch up.",
+    "Please send all supplier bills by Wednesday so I can clear the pending entries.",
+    "Friday is the cut-off, and after that I will lock the period for everyone.",
+    "If a team misses the date, I will escalate a delay the same day.",
+    "Let us keep one buffer day so we can meet the deadline without stress."
+  ]
+}

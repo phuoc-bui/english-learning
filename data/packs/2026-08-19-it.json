@@ -1,0 +1,154 @@
+{
+  "date": "2026-08-19",
+  "track": "it",
+  "theme": "Xin nghỉ phép & thông báo vắng mặt",
+  "vocab": [
+    {
+      "word": "leave policy",
+      "ipa": "/liːv ˈpɒləsi/",
+      "meaning_vi": "chính sách nghỉ phép của công ty",
+      "example": "Our leave policy asks for five working days of notice before a planned break.",
+      "example_vi": "Chính sách nghỉ phép của công ty yêu cầu báo trước năm ngày làm việc cho kỳ nghỉ có kế hoạch."
+    },
+    {
+      "word": "time-off request",
+      "ipa": "/ˈtaɪm ɒf rɪˈkwest/",
+      "meaning_vi": "đơn xin nghỉ (trên hệ thống)",
+      "example": "Nam submitted the time-off request in the HR tool before he told the team.",
+      "example_vi": "Nam đã nộp đơn xin nghỉ trên hệ thống nhân sự trước khi báo cho cả nhóm."
+    },
+    {
+      "word": "on-call rotation",
+      "ipa": "/ˈɒn kɔːl rəʊˈteɪʃn/",
+      "meaning_vi": "lịch trực luân phiên (hỗ trợ sự cố)",
+      "example": "Please check the on-call rotation before you book your flight home.",
+      "example_vi": "Hãy kiểm tra lịch trực luân phiên trước khi bạn đặt vé máy bay về nhà."
+    },
+    {
+      "word": "stand-in",
+      "ipa": "/ˈstænd ɪn/",
+      "meaning_vi": "người làm thay trong thời gian bạn vắng",
+      "example": "Minh will be my stand-in for the payment service while I am away.",
+      "example_vi": "Minh sẽ là người làm thay tôi ở dịch vụ thanh toán trong lúc tôi vắng mặt."
+    },
+    {
+      "word": "block the calendar",
+      "ipa": "/blɒk ðə ˈkælɪndə/",
+      "meaning_vi": "chặn lịch (để không ai đặt họp)",
+      "example": "Block the calendar for those three days so nobody invites you to meetings.",
+      "example_vi": "Hãy chặn lịch ba ngày đó để không ai mời bạn họp."
+    },
+    {
+      "word": "at short notice",
+      "ipa": "/ət ʃɔːt ˈnəʊtɪs/",
+      "meaning_vi": "gấp, báo sát giờ",
+      "example": "If the server fails at short notice, my stand-in knows how to reach me.",
+      "example_vi": "Nếu máy chủ hỏng bất ngờ, người làm thay tôi biết cách liên lạc với tôi."
+    },
+    {
+      "word": "handover note",
+      "ipa": "/ˈhændəʊvə nəʊt/",
+      "meaning_vi": "ghi chú bàn giao công việc",
+      "example": "My handover note lists every open ticket and who owns it this week.",
+      "example_vi": "Ghi chú bàn giao của tôi liệt kê mọi ticket đang mở và ai phụ trách trong tuần này."
+    },
+    {
+      "word": "compassionate leave",
+      "ipa": "/kəmˈpæʃənət liːv/",
+      "meaning_vi": "nghỉ vì việc gia đình, hiếu hỉ",
+      "example": "She took two days of compassionate leave when her grandmother was ill.",
+      "example_vi": "Cô ấy nghỉ hai ngày vì việc gia đình khi bà của cô bị ốm."
+    }
+  ],
+  "listening": {
+    "title": "Asking for three days off",
+    "lines": [
+      {
+        "speaker": "Nam (developer)",
+        "voice": "male",
+        "text": "Hi Hoa, do you have a minute? I need three days off next week."
+      },
+      {
+        "speaker": "Hoa (team lead)",
+        "voice": "female",
+        "text": "Sure, Nam. Have you checked the leave policy for how much notice we need?"
+      },
+      {
+        "speaker": "Nam (developer)",
+        "voice": "male",
+        "text": "Yes, it says five working days for planned leave, so I am inside the window."
+      },
+      {
+        "speaker": "Hoa (team lead)",
+        "voice": "female",
+        "text": "Good. Please put the time-off request in the HR tool today so I can approve it."
+      },
+      {
+        "speaker": "Nam (developer)",
+        "voice": "male",
+        "text": "I already did. I also asked Minh to be my stand-in for the payment service."
+      },
+      {
+        "speaker": "Hoa (team lead)",
+        "voice": "female",
+        "text": "Nice. Does Minh know about the on-call rotation? You are listed for Tuesday night."
+      },
+      {
+        "speaker": "Nam (developer)",
+        "voice": "male",
+        "text": "Not yet. I will swap with him and write a handover note with all the open tickets."
+      },
+      {
+        "speaker": "Hoa (team lead)",
+        "voice": "female",
+        "text": "Please block the calendar too, so nobody books you for the sprint review."
+      },
+      {
+        "speaker": "Nam (developer)",
+        "voice": "male",
+        "text": "Will do. If something breaks at short notice, Minh can still reach me by phone."
+      },
+      {
+        "speaker": "Hoa (team lead)",
+        "voice": "female",
+        "text": "Let us hope not. Enjoy your break, and please leave the laptop at home."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How much notice does the leave policy ask for?",
+        "options": [
+          "Three working days",
+          "Five working days",
+          "Ten working days"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Who will cover the payment service while Nam is away?",
+        "options": [
+          "Hoa",
+          "Minh",
+          "The HR team"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What will Nam write before he leaves?",
+        "options": [
+          "A handover note",
+          "A performance review",
+          "A test report"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I would like to take three days off next week if that works.",
+    "I have already submitted the time-off request and asked Minh to cover me.",
+    "My handover note lists every open ticket and the contact person for each one.",
+    "Please block my calendar so nobody books meetings while I am on leave.",
+    "If something urgent happens at short notice, my stand-in knows how to reach me."
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-19",
+  "track": "interview",
+  "theme": "Thất bại & bài học",
+  "vocab": [
+    {
+      "word": "fall short of",
+      "ipa": "/fɔːl ʃɔːt ɒv/",
+      "meaning_vi": "không đạt được (mục tiêu, hạn chót)",
+      "example": "We fell short of the deadline by one week on my first project.",
+      "example_vi": "Chúng tôi đã trễ hạn một tuần trong dự án đầu tiên của tôi."
+    },
+    {
+      "word": "underestimate",
+      "ipa": "/ˌʌndərˈestɪmeɪt/",
+      "meaning_vi": "đánh giá thấp, ước lượng thiếu",
+      "example": "I underestimated the testing time, so bugs appeared in the final week.",
+      "example_vi": "Tôi đã ước lượng thiếu thời gian kiểm thử, nên lỗi xuất hiện vào tuần cuối."
+    },
+    {
+      "word": "admit a mistake",
+      "ipa": "/ədˈmɪt ə mɪˈsteɪk/",
+      "meaning_vi": "thừa nhận sai sót",
+      "example": "I went to my manager early to admit a mistake instead of hiding it.",
+      "example_vi": "Tôi đã gặp quản lý sớm để thừa nhận sai sót thay vì giấu đi."
+    },
+    {
+      "word": "warning sign",
+      "ipa": "/ˈwɔːnɪŋ saɪn/",
+      "meaning_vi": "dấu hiệu cảnh báo sớm",
+      "example": "The first warning sign was that two tasks slipped in the same week.",
+      "example_vi": "Dấu hiệu cảnh báo đầu tiên là hai đầu việc cùng bị trễ trong một tuần."
+    },
+    {
+      "word": "speak up early",
+      "ipa": "/spiːk ʌp ˈɜːli/",
+      "meaning_vi": "lên tiếng sớm về vấn đề",
+      "example": "Now I speak up early about risks in our weekly planning meeting.",
+      "example_vi": "Bây giờ tôi lên tiếng sớm về rủi ro trong buổi họp kế hoạch hằng tuần."
+    },
+    {
+      "word": "double-check",
+      "ipa": "/ˈdʌbl tʃek/",
+      "meaning_vi": "kiểm tra lại cho chắc",
+      "example": "I double-check the schedule with the whole team before I promise a date.",
+      "example_vi": "Tôi kiểm tra lại lịch với cả nhóm trước khi hứa một mốc thời gian."
+    },
+    {
+      "word": "regain trust",
+      "ipa": "/rɪˈɡeɪn trʌst/",
+      "meaning_vi": "lấy lại niềm tin",
+      "example": "We had to regain trust with weekly progress calls for two months.",
+      "example_vi": "Chúng tôi phải lấy lại niềm tin bằng các cuộc gọi báo tiến độ hằng tuần trong hai tháng."
+    },
+    {
+      "word": "apply the lesson",
+      "ipa": "/əˈplaɪ ðə ˈlesn/",
+      "meaning_vi": "áp dụng bài học đã rút ra",
+      "example": "I apply the lesson by raising risks before they become real problems.",
+      "example_vi": "Tôi áp dụng bài học bằng cách nêu rủi ro trước khi chúng thành vấn đề thật."
+    }
+  ],
+  "listening": {
+    "title": "Interview question: tell me about a failure",
+    "lines": [
+      {
+        "speaker": "Hoa (interviewer)",
+        "voice": "female",
+        "text": "Nam, can you tell me about a time when a project did not go well?"
+      },
+      {
+        "speaker": "Nam (candidate)",
+        "voice": "male",
+        "text": "Yes. Last year I led a small website project and we fell short of the deadline."
+      },
+      {
+        "speaker": "Hoa (interviewer)",
+        "voice": "female",
+        "text": "What went wrong exactly?"
+      },
+      {
+        "speaker": "Nam (candidate)",
+        "voice": "male",
+        "text": "I underestimated the testing time, so we found many bugs in the final week."
+      },
+      {
+        "speaker": "Hoa (interviewer)",
+        "voice": "female",
+        "text": "How did you handle it with your manager?"
+      },
+      {
+        "speaker": "Nam (candidate)",
+        "voice": "male",
+        "text": "I went to her early to admit a mistake instead of hiding the problem."
+      },
+      {
+        "speaker": "Hoa (interviewer)",
+        "voice": "female",
+        "text": "And how did the client react?"
+      },
+      {
+        "speaker": "Nam (candidate)",
+        "voice": "male",
+        "text": "They were not happy, so we had to regain trust with weekly progress calls."
+      },
+      {
+        "speaker": "Hoa (interviewer)",
+        "voice": "female",
+        "text": "What did you change after that project?"
+      },
+      {
+        "speaker": "Nam (candidate)",
+        "voice": "male",
+        "text": "Now I double-check the schedule with the whole team and speak up early about risks."
+      },
+      {
+        "speaker": "Hoa (interviewer)",
+        "voice": "female",
+        "text": "That is a useful lesson. Do you see any warning signs in your current team?"
+      },
+      {
+        "speaker": "Nam (candidate)",
+        "voice": "male",
+        "text": "Yes, and I apply the lesson by raising them in our weekly planning meeting."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What was the main problem in Nam’s project?",
+        "options": [
+          "He underestimated the testing time",
+          "He lost the source code",
+          "He changed jobs"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What did Nam do when he saw the delay?",
+        "options": [
+          "He hid the problem",
+          "He told his manager early",
+          "He blamed the client"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How does Nam apply the lesson today?",
+        "options": [
+          "He works alone",
+          "He raises risks in weekly planning",
+          "He stops testing"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "I led a small website project, and we fell short of the original deadline.",
+    "I underestimated the testing time, so many bugs appeared in the final week.",
+    "I admitted the mistake to my manager early instead of hiding the real problem.",
+    "We regained the client trust with weekly calls and a clear recovery plan.",
+    "Today I double-check the schedule and speak up early about any warning signs."
+  ]
+}
