@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-20",
+  "track": "finance",
+  "theme": "Phần mềm kế toán & công cụ",
+  "vocab": [
+    {
+      "word": "accounting software",
+      "ipa": "/əˈkaʊntɪŋ ˈsɒftweə/",
+      "meaning_vi": "phần mềm kế toán",
+      "example": "Our accounting software becomes very slow during the last week of the month.",
+      "example_vi": "Phần mềm kế toán của chúng tôi chạy rất chậm vào tuần cuối tháng."
+    },
+    {
+      "word": "software license",
+      "ipa": "/ˈsɒftweə ˈlaɪsns/",
+      "meaning_vi": "giấy phép sử dụng phần mềm",
+      "example": "Each software license covers three users, so we need two more licenses.",
+      "example_vi": "Mỗi giấy phép phần mềm dùng được cho ba người, nên chúng ta cần thêm hai cái nữa."
+    },
+    {
+      "word": "chart of accounts",
+      "ipa": "/tʃɑːt əv əˈkaʊnts/",
+      "meaning_vi": "hệ thống tài khoản kế toán",
+      "example": "Please check that the chart of accounts moves to the new system without errors.",
+      "example_vi": "Hãy kiểm tra để hệ thống tài khoản chuyển sang phần mềm mới mà không bị lỗi."
+    },
+    {
+      "word": "user interface",
+      "ipa": "/ˈjuːzər ˈɪntəfeɪs/",
+      "meaning_vi": "giao diện người dùng",
+      "example": "The user interface looks simple, so the team will learn it in one day.",
+      "example_vi": "Giao diện người dùng trông đơn giản, nên cả đội sẽ học được trong một ngày."
+    },
+    {
+      "word": "subscription fee",
+      "ipa": "/səbˈskrɪpʃn fiː/",
+      "meaning_vi": "phí thuê bao định kỳ",
+      "example": "The subscription fee is twenty percent higher, but we save many overtime hours.",
+      "example_vi": "Phí thuê bao cao hơn hai mươi phần trăm, nhưng chúng ta tiết kiệm được nhiều giờ làm thêm."
+    },
+    {
+      "word": "batch upload",
+      "ipa": "/bætʃ ˈʌpləʊd/",
+      "meaning_vi": "tải lên hàng loạt",
+      "example": "With batch upload, I can post two hundred supplier bills in five minutes.",
+      "example_vi": "Với tính năng tải lên hàng loạt, tôi có thể hạch toán hai trăm hoá đơn trong năm phút."
+    },
+    {
+      "word": "technical support",
+      "ipa": "/ˈteknɪkl səˈpɔːt/",
+      "meaning_vi": "bộ phận hỗ trợ kỹ thuật",
+      "example": "Technical support will help us move the old data for free.",
+      "example_vi": "Bộ phận hỗ trợ kỹ thuật sẽ giúp chúng ta chuyển dữ liệu cũ miễn phí."
+    },
+    {
+      "word": "shortcut key",
+      "ipa": "/ˈʃɔːtkʌt kiː/",
+      "meaning_vi": "phím tắt",
+      "example": "Learning a few shortcut keys saves me around thirty minutes every day.",
+      "example_vi": "Học vài phím tắt giúp tôi tiết kiệm khoảng ba mươi phút mỗi ngày."
+    }
+  ],
+  "listening": {
+    "title": "Should we upgrade the accounting system?",
+    "lines": [
+      { "speaker": "Nam (Finance Executive)", "voice": "male", "text": "Hoa, our accounting software feels very slow at month end. Can we change it?" },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Maybe. First tell me what takes the most time in your daily work." },
+      { "speaker": "Nam (Finance Executive)", "voice": "male", "text": "Entering supplier bills one by one. There is no batch upload in this version." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "The new version has it, but the subscription fee is higher every year." },
+      { "speaker": "Nam (Finance Executive)", "voice": "male", "text": "How much higher? I need real numbers before I write the proposal." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "About twenty percent more, and each software license covers only three users." },
+      { "speaker": "Nam (Finance Executive)", "voice": "male", "text": "That is still cheaper than the overtime we pay during every closing week." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Agreed. Also check that the chart of accounts can be moved without errors." },
+      { "speaker": "Nam (Finance Executive)", "voice": "male", "text": "The vendor said technical support will help us with that for free." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Good. Ask them for a demo, and see if the user interface is easy for our team." }
+    ],
+    "questions": [
+      {
+        "q": "What takes Nam the most time?",
+        "options": ["Entering supplier bills one by one", "Printing monthly reports", "Answering client emails"],
+        "answer": 0
+      },
+      {
+        "q": "How much higher is the fee for the new version?",
+        "options": ["About twenty percent", "About fifty percent", "About five percent"],
+        "answer": 0
+      },
+      {
+        "q": "What does Hoa ask Nam to check?",
+        "options": ["That the chart of accounts moves without errors", "That the tax rate changed", "That the office buys new laptops"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Our accounting software becomes very slow during the last week of the month.",
+    "Does the new version support batch upload for supplier invoices?",
+    "Each software license covers three users, so we need two more licenses.",
+    "Please ask technical support before you change anything in the chart of accounts.",
+    "The user interface looks simple, but the subscription fee is quite high."
+  ]
+}

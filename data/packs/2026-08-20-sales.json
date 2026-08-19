@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-20",
+  "track": "sales",
+  "theme": "Xử lý phàn nàn của khách",
+  "vocab": [
+    {
+      "word": "unhappy customer",
+      "ipa": "/ʌnˈhæpi ˈkʌstəmə/",
+      "meaning_vi": "khách hàng không hài lòng",
+      "example": "An unhappy customer often just wants someone to listen carefully first.",
+      "example_vi": "Một khách hàng không hài lòng thường chỉ muốn có người lắng nghe kỹ trước đã."
+    },
+    {
+      "word": "file a complaint",
+      "ipa": "/faɪl ə kəmˈpleɪnt/",
+      "meaning_vi": "gửi đơn khiếu nại chính thức",
+      "example": "The client filed a complaint last Friday, so the ticket is already open.",
+      "example_vi": "Khách đã gửi khiếu nại hôm thứ Sáu tuần trước, nên ticket đã được mở rồi."
+    },
+    {
+      "word": "sincere apology",
+      "ipa": "/sɪnˈsɪər əˈpɒlədʒi/",
+      "meaning_vi": "lời xin lỗi chân thành",
+      "example": "Start the call with a sincere apology before you explain the details.",
+      "example_vi": "Hãy mở đầu cuộc gọi bằng một lời xin lỗi chân thành trước khi giải thích chi tiết."
+    },
+    {
+      "word": "delivery delay",
+      "ipa": "/dɪˈlɪvəri dɪˈleɪ/",
+      "meaning_vi": "sự chậm trễ giao hàng",
+      "example": "This delivery delay stopped their team from starting the installation on Monday.",
+      "example_vi": "Việc giao hàng chậm này khiến đội của họ không thể bắt đầu lắp đặt vào thứ Hai."
+    },
+    {
+      "word": "case number",
+      "ipa": "/keɪs ˈnʌmbə/",
+      "meaning_vi": "mã hồ sơ khiếu nại",
+      "example": "May I have your case number so I can check the history quickly?",
+      "example_vi": "Anh cho tôi xin mã hồ sơ để tôi kiểm tra lịch sử nhanh được không ạ?"
+    },
+    {
+      "word": "replacement",
+      "ipa": "/rɪˈpleɪsmənt/",
+      "meaning_vi": "hàng thay thế",
+      "example": "We will send a replacement tomorrow morning at no extra cost to you.",
+      "example_vi": "Chúng tôi sẽ gửi hàng thay thế vào sáng mai mà không tính thêm phí nào cho anh."
+    },
+    {
+      "word": "stay professional",
+      "ipa": "/steɪ prəˈfeʃənl/",
+      "meaning_vi": "giữ thái độ chuyên nghiệp",
+      "example": "Even when the client shouts, we stay professional and keep taking notes.",
+      "example_vi": "Ngay cả khi khách lớn tiếng, chúng ta vẫn giữ thái độ chuyên nghiệp và tiếp tục ghi chú."
+    },
+    {
+      "word": "corrective action",
+      "ipa": "/kəˈrektɪv ˈækʃn/",
+      "meaning_vi": "biện pháp khắc phục",
+      "example": "Our corrective action is a final check on every order for this account.",
+      "example_vi": "Biện pháp khắc phục của chúng tôi là kiểm tra lần cuối mọi đơn hàng của khách này."
+    }
+  ],
+  "listening": {
+    "title": "A phone call about a late order",
+    "lines": [
+      { "speaker": "Mr Hung (Client)", "voice": "male", "text": "Linh, I am calling because our order arrived four days late again." },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "I am really sorry, Mr Hung. Let me start with a sincere apology for that." },
+      { "speaker": "Mr Hung (Client)", "voice": "male", "text": "This is the second delivery delay this quarter. My team could not start work." },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "I understand. May I take your case number so I can check the details now?" },
+      { "speaker": "Mr Hung (Client)", "voice": "male", "text": "It is C S four four two one. I filed a complaint last week too." },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "Thank you. I can see it here. The warehouse sent your boxes to the wrong branch." },
+      { "speaker": "Mr Hung (Client)", "voice": "male", "text": "So what will you actually do about it this time?" },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "We will send a replacement tomorrow morning by express, at no extra cost." },
+      { "speaker": "Mr Hung (Client)", "voice": "male", "text": "And how do I know this will not happen a third time?" },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "We agreed on a corrective action: every order for you now gets a final check." }
+    ],
+    "questions": [
+      {
+        "q": "Why is Mr Hung unhappy?",
+        "options": ["His order arrived four days late", "The price went up", "The product was broken"],
+        "answer": 0
+      },
+      {
+        "q": "What caused the problem?",
+        "options": ["The boxes went to the wrong branch", "A public holiday", "A payment error"],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh promise to do?",
+        "options": ["Send a replacement tomorrow by express", "Give a full refund today", "Cancel the contract"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I want to start with a sincere apology for the delivery delay last week.",
+    "Could you give me your case number so I can check the order?",
+    "We will send a replacement tomorrow morning and cover all the shipping cost.",
+    "I always stay professional even when an unhappy customer raises their voice.",
+    "Our team agreed on a corrective action so this problem does not happen again."
+  ]
+}

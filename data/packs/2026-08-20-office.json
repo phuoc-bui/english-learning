@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-20",
+  "track": "office",
+  "theme": "Văn hoá công sở đa quốc gia",
+  "vocab": [
+    {
+      "word": "mother tongue",
+      "ipa": "/ˈmʌðə tʌŋ/",
+      "meaning_vi": "tiếng mẹ đẻ",
+      "example": "English is not my mother tongue, so please stop me if anything is unclear.",
+      "example_vi": "Tiếng Anh không phải tiếng mẹ đẻ của tôi, nên hãy dừng tôi lại nếu có gì chưa rõ."
+    },
+    {
+      "word": "accent",
+      "ipa": "/ˈæksent/",
+      "meaning_vi": "giọng, chất giọng vùng miền hoặc quốc gia",
+      "example": "Our Indian partner has a strong accent, but he speaks very clearly.",
+      "example_vi": "Đối tác người Ấn của chúng ta có giọng khá nặng, nhưng anh ấy nói rất rõ ràng."
+    },
+    {
+      "word": "punctuality",
+      "ipa": "/ˌpʌŋktʃuˈæləti/",
+      "meaning_vi": "sự đúng giờ",
+      "example": "Punctuality matters a lot in that office, so never join a call late.",
+      "example_vi": "Sự đúng giờ rất quan trọng ở văn phòng đó, nên đừng bao giờ vào họp muộn."
+    },
+    {
+      "word": "direct communication",
+      "ipa": "/dəˈrekt kəˌmjuːnɪˈkeɪʃn/",
+      "meaning_vi": "cách giao tiếp thẳng thắn, nói thẳng vào vấn đề",
+      "example": "They prefer direct communication, so a short and honest answer is fine.",
+      "example_vi": "Họ thích cách nói thẳng, nên một câu trả lời ngắn và thành thật là ổn."
+    },
+    {
+      "word": "etiquette",
+      "ipa": "/ˈetɪket/",
+      "meaning_vi": "phép tắc, quy tắc ứng xử",
+      "example": "Email etiquette is different in each country, so read the old threads first.",
+      "example_vi": "Phép tắc viết email khác nhau ở mỗi nước, nên hãy đọc các luồng email cũ trước."
+    },
+    {
+      "word": "global team",
+      "ipa": "/ˈɡləʊbl tiːm/",
+      "meaning_vi": "đội ngũ làm việc ở nhiều quốc gia",
+      "example": "In a global team, we rotate the meeting time so nobody always stays late.",
+      "example_vi": "Trong một đội đa quốc gia, chúng tôi luân phiên giờ họp để không ai luôn phải thức khuya."
+    },
+    {
+      "word": "misunderstanding",
+      "ipa": "/ˌmɪsʌndəˈstændɪŋ/",
+      "meaning_vi": "sự hiểu lầm",
+      "example": "I repeat the action points at the end to avoid any misunderstanding.",
+      "example_vi": "Tôi nhắc lại các đầu việc ở cuối buổi để tránh mọi hiểu lầm."
+    },
+    {
+      "word": "open-minded",
+      "ipa": "/ˌəʊpən ˈmaɪndɪd/",
+      "meaning_vi": "cởi mở, sẵn sàng đón nhận cái khác biệt",
+      "example": "Be open-minded when a colleague gives feedback in a very different style.",
+      "example_vi": "Hãy cởi mở khi đồng nghiệp góp ý theo một phong cách rất khác."
+    }
+  ],
+  "listening": {
+    "title": "Getting ready to work with the Singapore team",
+    "lines": [
+      { "speaker": "Minh (Project Coordinator)", "voice": "male", "text": "Hoa, our new team in Singapore starts next week. Any advice on working with them?" },
+      { "speaker": "Hoa (HR Officer)", "voice": "female", "text": "Yes. Be open-minded about the small differences in how people give feedback." },
+      { "speaker": "Minh (Project Coordinator)", "voice": "male", "text": "I heard some teams prefer very direct communication. Is that true for them?" },
+      { "speaker": "Hoa (HR Officer)", "voice": "female", "text": "Often, yes. They say what they think quickly, and it is not rude at all." },
+      { "speaker": "Minh (Project Coordinator)", "voice": "male", "text": "Good to know. English is not my mother tongue, so I worry about my accent." },
+      { "speaker": "Hoa (HR Officer)", "voice": "female", "text": "Do not worry. Speak slowly and clearly, and ask people to repeat when you need it." },
+      { "speaker": "Minh (Project Coordinator)", "voice": "male", "text": "What about meeting times? A global team makes the schedule quite difficult." },
+      { "speaker": "Hoa (HR Officer)", "voice": "female", "text": "Punctuality matters a lot there. Join the call two minutes early if you can." },
+      { "speaker": "Minh (Project Coordinator)", "voice": "male", "text": "Any other etiquette I should remember for the first video meeting?" },
+      { "speaker": "Hoa (HR Officer)", "voice": "female", "text": "Use simple sentences. That avoids any misunderstanding about deadlines and responsibilities." }
+    ],
+    "questions": [
+      {
+        "q": "What does Hoa say about the Singapore team's communication style?",
+        "options": ["It is often very direct", "It is always indirect", "They rarely give feedback"],
+        "answer": 0
+      },
+      {
+        "q": "Why is Minh worried?",
+        "options": ["English is not his mother tongue", "He has no laptop", "He dislikes video calls"],
+        "answer": 0
+      },
+      {
+        "q": "What does Hoa advise about the meeting time?",
+        "options": ["Join the call a little early", "Join a few minutes late", "Ask to move every meeting"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Please be open-minded when colleagues from other countries give very direct feedback.",
+    "English is not my mother tongue, so please stop me if anything is unclear.",
+    "Punctuality is very important here, so I always join the call five minutes early.",
+    "Working in a global team means learning the etiquette of each office.",
+    "Let me repeat the action points so there is no misunderstanding about the deadline."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-20",
+  "track": "interview",
+  "theme": "Làm việc nhóm & teamwork",
+  "vocab": [
+    {
+      "word": "coordinate",
+      "ipa": "/kəʊˈɔːdɪneɪt/",
+      "meaning_vi": "điều phối, phối hợp công việc",
+      "example": "In that project I helped coordinate the weekly schedule for four people.",
+      "example_vi": "Trong dự án đó tôi đã giúp điều phối lịch làm việc hàng tuần cho bốn người."
+    },
+    {
+      "word": "delegate",
+      "ipa": "/ˈdelɪɡeɪt/",
+      "meaning_vi": "giao việc cho người khác",
+      "example": "I learned to delegate small tasks instead of doing everything myself.",
+      "example_vi": "Tôi đã học cách giao bớt việc nhỏ thay vì tự làm hết mọi thứ."
+    },
+    {
+      "word": "share credit",
+      "ipa": "/ʃeə ˈkredɪt/",
+      "meaning_vi": "chia sẻ công lao với cả nhóm",
+      "example": "When we won the award, I shared credit with every member of the team.",
+      "example_vi": "Khi chúng tôi được khen thưởng, tôi đã chia sẻ công lao với từng thành viên trong nhóm."
+    },
+    {
+      "word": "open communication",
+      "ipa": "/ˈəʊpən kəˌmjuːnɪˈkeɪʃn/",
+      "meaning_vi": "giao tiếp cởi mở, nói ra vấn đề sớm",
+      "example": "Open communication saved us two weeks because problems appeared very early.",
+      "example_vi": "Giao tiếp cởi mở giúp chúng tôi tiết kiệm hai tuần vì vấn đề lộ ra rất sớm."
+    },
+    {
+      "word": "back someone up",
+      "ipa": "/bæk ˈsʌmwʌn ʌp/",
+      "meaning_vi": "hỗ trợ, đứng về phía ai đó",
+      "example": "My manager knows I back my colleagues up when a client is difficult.",
+      "example_vi": "Quản lý của tôi biết rằng tôi luôn hỗ trợ đồng nghiệp khi gặp khách hàng khó tính."
+    },
+    {
+      "word": "workload balance",
+      "ipa": "/ˈwɜːkləʊd ˈbæləns/",
+      "meaning_vi": "sự cân bằng khối lượng công việc giữa các thành viên",
+      "example": "I check the workload balance first, then give each task to the right person.",
+      "example_vi": "Tôi xem mức độ cân bằng công việc trước, rồi mới giao từng việc cho đúng người."
+    },
+    {
+      "word": "joint effort",
+      "ipa": "/dʒɔɪnt ˈefət/",
+      "meaning_vi": "nỗ lực chung của cả nhóm",
+      "example": "That result was a joint effort, not the work of one person.",
+      "example_vi": "Kết quả đó là nỗ lực chung của cả nhóm, không phải công của riêng ai."
+    },
+    {
+      "word": "step in",
+      "ipa": "/step ɪn/",
+      "meaning_vi": "nhảy vào hỗ trợ khi cần",
+      "example": "When a teammate was struggling, I stepped in and finished the report with him.",
+      "example_vi": "Khi một đồng đội gặp khó, tôi đã nhảy vào và hoàn thành báo cáo cùng bạn ấy."
+    }
+  ],
+  "listening": {
+    "title": "Interview question: how do you work in a team?",
+    "lines": [
+      { "speaker": "Ms Mai (Interviewer)", "voice": "female", "text": "Minh, tell me how you usually work inside a team." },
+      { "speaker": "Minh (Candidate)", "voice": "male", "text": "I believe good teamwork starts with open communication and a very clear plan." },
+      { "speaker": "Ms Mai (Interviewer)", "voice": "female", "text": "Can you give me a real example from your last project?" },
+      { "speaker": "Minh (Candidate)", "voice": "male", "text": "Yes. We were four people, and I helped coordinate the weekly schedule." },
+      { "speaker": "Ms Mai (Interviewer)", "voice": "female", "text": "How did you decide who would do what?" },
+      { "speaker": "Minh (Candidate)", "voice": "male", "text": "We looked at workload balance first, then I would delegate each task by skill." },
+      { "speaker": "Ms Mai (Interviewer)", "voice": "female", "text": "What happens when a teammate falls behind?" },
+      { "speaker": "Minh (Candidate)", "voice": "male", "text": "I step in and help, because one late task hurts the whole joint effort." },
+      { "speaker": "Ms Mai (Interviewer)", "voice": "female", "text": "And when the project succeeds, how do you talk about it?" },
+      { "speaker": "Minh (Candidate)", "voice": "male", "text": "I always share credit, and I back my colleagues up in front of managers." }
+    ],
+    "questions": [
+      {
+        "q": "How did Minh help in his last project?",
+        "options": ["He coordinated the weekly schedule", "He wrote the contract", "He hired new staff"],
+        "answer": 0
+      },
+      {
+        "q": "What does Minh look at before giving out tasks?",
+        "options": ["Workload balance and skill", "Age and salary", "Office location"],
+        "answer": 0
+      },
+      {
+        "q": "What does Minh do when the project succeeds?",
+        "options": ["He shares credit with the team", "He asks for a bonus", "He moves to another team"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "In that project I helped coordinate the schedule so nobody missed a deadline.",
+    "I check the workload balance first, then delegate each task to the right person.",
+    "When a teammate was struggling, I stepped in and finished the report with them.",
+    "Open communication saved us two weeks, because problems came out very early.",
+    "I always share credit, since the result came from a real joint effort."
+  ]
+}

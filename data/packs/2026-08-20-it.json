@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-20",
+  "track": "it",
+  "theme": "Giải thích bug & sự cố production",
+  "vocab": [
+    {
+      "word": "triage",
+      "ipa": "/ˈtriːɑːʒ/",
+      "meaning_vi": "phân loại và xử lý sự cố theo mức ưu tiên",
+      "example": "Let me triage the new tickets before we decide what to fix first.",
+      "example_vi": "Để tôi phân loại các ticket mới trước khi mình quyết định sửa cái nào trước."
+    },
+    {
+      "word": "symptom",
+      "ipa": "/ˈsɪmptəm/",
+      "meaning_vi": "biểu hiện, dấu hiệu của lỗi mà người dùng nhìn thấy",
+      "example": "The main symptom is that the payment button stays disabled for most users.",
+      "example_vi": "Biểu hiện chính là nút thanh toán bị khoá với phần lớn người dùng."
+    },
+    {
+      "word": "error rate",
+      "ipa": "/ˈerə reɪt/",
+      "meaning_vi": "tỉ lệ lỗi",
+      "example": "The error rate on the checkout API jumped to twelve percent this morning.",
+      "example_vi": "Tỉ lệ lỗi của API thanh toán tăng vọt lên mười hai phần trăm sáng nay."
+    },
+    {
+      "word": "mitigate",
+      "ipa": "/ˈmɪtɪɡeɪt/",
+      "meaning_vi": "giảm nhẹ tác động của sự cố",
+      "example": "We should mitigate the impact for customers before we look for the real cause.",
+      "example_vi": "Chúng ta nên giảm nhẹ ảnh hưởng tới khách hàng trước khi tìm nguyên nhân thật sự."
+    },
+    {
+      "word": "workaround",
+      "ipa": "/ˈwɜːkəraʊnd/",
+      "meaning_vi": "giải pháp tạm thời",
+      "example": "As a workaround, we turned off the new discount check for one hour.",
+      "example_vi": "Như một giải pháp tạm, chúng tôi tắt phần kiểm tra giảm giá mới trong một tiếng."
+    },
+    {
+      "word": "patch",
+      "ipa": "/pætʃ/",
+      "meaning_vi": "bản vá lỗi nhỏ",
+      "example": "A small patch is safer than shipping the whole release again tonight.",
+      "example_vi": "Một bản vá nhỏ sẽ an toàn hơn là phát hành lại toàn bộ bản build tối nay."
+    },
+    {
+      "word": "downtime",
+      "ipa": "/ˈdaʊntaɪm/",
+      "meaning_vi": "thời gian hệ thống ngừng hoạt động",
+      "example": "Total downtime was only three minutes, so very few orders were lost.",
+      "example_vi": "Tổng thời gian hệ thống ngừng chỉ ba phút nên rất ít đơn hàng bị mất."
+    },
+    {
+      "word": "restore service",
+      "ipa": "/rɪˈstɔː ˈsɜːvɪs/",
+      "meaning_vi": "khôi phục dịch vụ trở lại bình thường",
+      "example": "Our first job is to restore service, and the deep analysis can wait.",
+      "example_vi": "Việc đầu tiên là khôi phục dịch vụ, còn phân tích sâu thì có thể để sau."
+    }
+  ],
+  "listening": {
+    "title": "A production incident on the checkout API",
+    "lines": [
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Nam, the monitoring alert says our checkout API is failing. What is the current error rate?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "It jumped to twelve percent about twenty minutes ago. I am doing a quick triage now." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Any idea what the main symptom is? Are users seeing a blank page?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "No, the page loads, but the payment button stays disabled for most users." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "How much downtime are we talking about if we roll back the last release?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "About three minutes. But I think a small patch is safer than a full rollback." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Can we mitigate the impact right now while you prepare that patch?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Yes. I will apply a workaround and turn off the new discount check for now." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Good. Please restore service first, then write the incident report this afternoon." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Understood. I will update the team channel every ten minutes until everything is stable." }
+    ],
+    "questions": [
+      {
+        "q": "What error rate does Nam report?",
+        "options": ["About twelve percent", "About two percent", "About twenty percent"],
+        "answer": 0
+      },
+      {
+        "q": "What does Nam suggest instead of a full rollback?",
+        "options": ["A small patch", "A new release tonight", "A longer maintenance window"],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh ask Nam to do first?",
+        "options": ["Restore service", "Write the incident report", "Call the customer"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "We need to triage the issue quickly before the error rate goes higher.",
+    "I applied a temporary workaround so users can still complete their payment today.",
+    "The main symptom is that the page loads but the button stays disabled.",
+    "Let us mitigate the impact first and then look for the real root problem.",
+    "We restored service after ten minutes of downtime and I will send a summary."
+  ]
+}
