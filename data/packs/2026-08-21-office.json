@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-21",
+  "track": "office",
+  "theme": "Pantry chat & networking nội bộ",
+  "vocab": [
+    {
+      "word": "bump into",
+      "ipa": "/bʌmp ˈɪntuː/",
+      "meaning_vi": "tình cờ gặp ai đó",
+      "example": "I bumped into the finance manager in the pantry this morning.",
+      "example_vi": "Sáng nay tôi tình cờ gặp chị quản lý tài chính ở khu pantry."
+    },
+    {
+      "word": "vending machine",
+      "ipa": "/ˈvendɪŋ məˌʃiːn/",
+      "meaning_vi": "máy bán hàng tự động",
+      "example": "The vending machine on the fourth floor still takes only coins.",
+      "example_vi": "Máy bán hàng tự động ở tầng bốn vẫn chỉ nhận tiền xu."
+    },
+    {
+      "word": "strike up a conversation",
+      "ipa": "/straɪk ʌp ə ˌkɒnvəˈseɪʃn/",
+      "meaning_vi": "bắt chuyện",
+      "example": "It's easy to strike up a conversation while you wait for coffee.",
+      "example_vi": "Rất dễ bắt chuyện với ai đó trong lúc chờ pha cà phê."
+    },
+    {
+      "word": "mutual connection",
+      "ipa": "/ˈmjuːtʃuəl kəˈnekʃn/",
+      "meaning_vi": "người quen chung",
+      "example": "We found a mutual connection in the design team last week.",
+      "example_vi": "Tuần trước chúng tôi phát hiện có một người quen chung ở nhóm thiết kế."
+    },
+    {
+      "word": "keep it light",
+      "ipa": "/kiːp ɪt laɪt/",
+      "meaning_vi": "giữ câu chuyện nhẹ nhàng, vui vẻ",
+      "example": "In the pantry, keep it light and avoid talking about salaries.",
+      "example_vi": "Ở khu pantry, hãy nói chuyện nhẹ nhàng và tránh bàn về lương."
+    },
+    {
+      "word": "office gossip",
+      "ipa": "/ˈɒfɪs ˈɡɒsɪp/",
+      "meaning_vi": "chuyện đồn đại, tán gẫu nơi công sở",
+      "example": "I try to stay out of office gossip about the new manager.",
+      "example_vi": "Tôi cố tránh xa những lời đồn trong công ty về sếp mới."
+    },
+    {
+      "word": "cross paths",
+      "ipa": "/krɒs pɑːθs/",
+      "meaning_vi": "có dịp gặp nhau, chạm mặt nhau",
+      "example": "We rarely cross paths because our teams sit on different floors.",
+      "example_vi": "Chúng tôi ít khi gặp nhau vì hai nhóm ngồi ở hai tầng khác nhau."
+    },
+    {
+      "word": "leftovers",
+      "ipa": "/ˈleftəʊvəz/",
+      "meaning_vi": "đồ ăn còn thừa lại",
+      "example": "There are leftovers from the workshop in the fridge, help yourself.",
+      "example_vi": "Trong tủ lạnh còn đồ ăn thừa từ buổi workshop, bạn cứ tự nhiên nhé."
+    }
+  ],
+  "listening": {
+    "title": "A chat by the coffee machine",
+    "lines": [
+      {
+        "speaker": "Hoa (Marketing)",
+        "voice": "female",
+        "text": "Oh, hi! I don't think we've met properly before."
+      },
+      {
+        "speaker": "Minh (HR)",
+        "voice": "male",
+        "text": "Hi! I'm Minh from HR. I started three weeks ago."
+      },
+      {
+        "speaker": "Hoa (Marketing)",
+        "voice": "female",
+        "text": "I'm Hoa, marketing. Funny, we almost never cross paths in this building."
+      },
+      {
+        "speaker": "Minh (HR)",
+        "voice": "male",
+        "text": "True. My desk is on the second floor, next to the vending machine."
+      },
+      {
+        "speaker": "Hoa (Marketing)",
+        "voice": "female",
+        "text": "Lucky you. Ours only sells warm water after four in the afternoon."
+      },
+      {
+        "speaker": "Minh (HR)",
+        "voice": "male",
+        "text": "I usually bump into people here at the coffee machine around ten."
+      },
+      {
+        "speaker": "Hoa (Marketing)",
+        "voice": "female",
+        "text": "That's the best time. By the way, do you know Trang in design?"
+      },
+      {
+        "speaker": "Minh (HR)",
+        "voice": "male",
+        "text": "I do! She interviewed me. Nice to find a mutual connection so fast."
+      },
+      {
+        "speaker": "Hoa (Marketing)",
+        "voice": "female",
+        "text": "Small company. Oh, there are leftovers from our workshop in the fridge."
+      },
+      {
+        "speaker": "Minh (HR)",
+        "voice": "male",
+        "text": "Thanks, I'll take some. Anyway, my meeting starts in five minutes."
+      },
+      {
+        "speaker": "Hoa (Marketing)",
+        "voice": "female",
+        "text": "Go ahead. Let's grab lunch next week and talk properly."
+      },
+      {
+        "speaker": "Minh (HR)",
+        "voice": "male",
+        "text": "Sounds great. I'll message you on Teams later today."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Which department does Minh work in?",
+        "options": [
+          "Marketing",
+          "HR",
+          "Design"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Who is their mutual connection?",
+        "options": [
+          "Hoa's manager",
+          "Trang in design",
+          "Someone in finance"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What do they agree to do next week?",
+        "options": [
+          "Have lunch together",
+          "Join the same project",
+          "Move to the second floor"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I don't think we've met properly. I'm Hoa from the marketing team.",
+    "I usually bump into people at the coffee machine around ten every morning.",
+    "There are leftovers in the fridge, so please help yourself before they spoil.",
+    "Let's keep it light and talk about work another time, shall we?",
+    "Shall we grab lunch next week and get to know each other better?"
+  ]
+}

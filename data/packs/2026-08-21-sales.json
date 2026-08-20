@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-21",
+  "track": "sales",
+  "theme": "Chốt hợp đồng",
+  "vocab": [
+    {
+      "word": "green light",
+      "ipa": "/ˌɡriːn ˈlaɪt/",
+      "meaning_vi": "sự chấp thuận, \"đèn xanh\"",
+      "example": "Our director gave the green light, so we can sign this week.",
+      "example_vi": "Giám đốc đã bật đèn xanh nên tuần này chúng ta có thể ký."
+    },
+    {
+      "word": "effective date",
+      "ipa": "/ɪˈfektɪv deɪt/",
+      "meaning_vi": "ngày hợp đồng có hiệu lực",
+      "example": "The effective date of the contract is the first of next month.",
+      "example_vi": "Ngày hiệu lực của hợp đồng là ngày mùng một tháng sau."
+    },
+    {
+      "word": "deposit",
+      "ipa": "/dɪˈpɒzɪt/",
+      "meaning_vi": "tiền đặt cọc",
+      "example": "We ask for a thirty percent deposit before the project starts.",
+      "example_vi": "Chúng tôi đề nghị đặt cọc ba mươi phần trăm trước khi dự án bắt đầu."
+    },
+    {
+      "word": "amendment",
+      "ipa": "/əˈmendmənt/",
+      "meaning_vi": "điều khoản sửa đổi, bổ sung",
+      "example": "Legal sent one small amendment about the support hours.",
+      "example_vi": "Bộ phận pháp lý gửi một sửa đổi nhỏ về giờ hỗ trợ."
+    },
+    {
+      "word": "signatory",
+      "ipa": "/ˈsɪɡnətri/",
+      "meaning_vi": "người có thẩm quyền ký hợp đồng",
+      "example": "Who is the signatory on your side, the CEO or the CFO?",
+      "example_vi": "Bên anh ai là người ký, tổng giám đốc hay giám đốc tài chính?"
+    },
+    {
+      "word": "paperwork",
+      "ipa": "/ˈpeɪpəwɜːk/",
+      "meaning_vi": "giấy tờ, thủ tục",
+      "example": "I'll prepare all the paperwork so you only need to sign once.",
+      "example_vi": "Tôi sẽ chuẩn bị hết giấy tờ để anh chỉ cần ký một lần."
+    },
+    {
+      "word": "kick-off date",
+      "ipa": "/ˈkɪk ɒf deɪt/",
+      "meaning_vi": "ngày khởi động dự án",
+      "example": "Once we sign, the kick-off date will be Monday the fifteenth.",
+      "example_vi": "Sau khi ký, ngày khởi động dự án sẽ là thứ Hai ngày mười lăm."
+    },
+    {
+      "word": "milestone payment",
+      "ipa": "/ˈmaɪlstəʊn ˈpeɪmənt/",
+      "meaning_vi": "khoản thanh toán theo cột mốc",
+      "example": "There are three milestone payments across the six-month project.",
+      "example_vi": "Có ba đợt thanh toán theo cột mốc trong dự án sáu tháng."
+    }
+  ],
+  "listening": {
+    "title": "Closing the contract",
+    "lines": [
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "Good news, Hung. Did your board approve our final proposal?"
+      },
+      {
+        "speaker": "Hung (Procurement Manager)",
+        "voice": "male",
+        "text": "Yes, we got the green light yesterday afternoon. Everyone is happy."
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "Wonderful. Then I'll prepare the paperwork and send it this evening."
+      },
+      {
+        "speaker": "Hung (Procurement Manager)",
+        "voice": "male",
+        "text": "Our legal team has one small amendment about the support hours."
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "No problem. We can extend support until seven in the evening."
+      },
+      {
+        "speaker": "Hung (Procurement Manager)",
+        "voice": "male",
+        "text": "Great. What effective date should we put in the contract?"
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "The first of next month works well for both teams, I think."
+      },
+      {
+        "speaker": "Hung (Procurement Manager)",
+        "voice": "male",
+        "text": "Agreed. And the payment terms, is it still three milestone payments?"
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "Yes, plus a twenty percent deposit within ten days of signing."
+      },
+      {
+        "speaker": "Hung (Procurement Manager)",
+        "voice": "male",
+        "text": "Fine. Our CFO is the signatory, so I'll book time with him."
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "Perfect. Then the kick-off date can be Monday the fifteenth."
+      },
+      {
+        "speaker": "Hung (Procurement Manager)",
+        "voice": "male",
+        "text": "Let's aim for that. I'll confirm the signing time tomorrow morning."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What did the client's board decide?",
+        "options": [
+          "They approved the proposal",
+          "They asked for a lower price",
+          "They postponed the decision"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What change does the legal team want?",
+        "options": [
+          "A longer contract",
+          "Different support hours",
+          "A smaller deposit"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Who will sign the contract for the client?",
+        "options": [
+          "Hung",
+          "The CFO",
+          "The legal team"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "We got the green light, so I'll send the paperwork this evening.",
+    "Could you confirm the effective date and who the signatory will be?",
+    "We ask for a small deposit within ten days of signing the contract.",
+    "Happy to accept that amendment if we can keep the same price.",
+    "Once both sides sign, the kick-off date will be Monday the fifteenth."
+  ]
+}

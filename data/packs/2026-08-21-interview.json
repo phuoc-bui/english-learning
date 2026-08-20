@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-21",
+  "track": "interview",
+  "theme": "Câu hỏi tình huống (situational)",
+  "vocab": [
+    {
+      "word": "trade-off",
+      "ipa": "/ˈtreɪd ɒf/",
+      "meaning_vi": "sự đánh đổi giữa hai lựa chọn",
+      "example": "Every decision has a trade-off between speed and quality.",
+      "example_vi": "Mọi quyết định đều có sự đánh đổi giữa tốc độ và chất lượng."
+    },
+    {
+      "word": "escalate",
+      "ipa": "/ˈeskəleɪt/",
+      "meaning_vi": "báo vấn đề lên cấp trên",
+      "example": "I would escalate the problem only after trying to solve it myself.",
+      "example_vi": "Tôi chỉ báo lên cấp trên sau khi đã tự mình tìm cách xử lý."
+    },
+    {
+      "word": "contingency",
+      "ipa": "/kənˈtɪndʒənsi/",
+      "meaning_vi": "khoản/thời gian dự phòng cho tình huống bất ngờ",
+      "example": "I always build some contingency into the schedule for surprises.",
+      "example_vi": "Tôi luôn để một khoảng dự phòng trong lịch cho những tình huống bất ngờ."
+    },
+    {
+      "word": "gather the facts",
+      "ipa": "/ˈɡæðə ðə fækts/",
+      "meaning_vi": "thu thập thông tin, dữ kiện",
+      "example": "Before I blame anyone, I gather the facts from both sides.",
+      "example_vi": "Trước khi trách ai đó, tôi thu thập thông tin từ cả hai phía."
+    },
+    {
+      "word": "chain of command",
+      "ipa": "/ˌtʃeɪn əv kəˈmɑːnd/",
+      "meaning_vi": "trình tự báo cáo theo cấp bậc",
+      "example": "I follow the chain of command and inform my team leader first.",
+      "example_vi": "Tôi làm theo trình tự báo cáo và thông báo cho trưởng nhóm trước."
+    },
+    {
+      "word": "assess the risk",
+      "ipa": "/əˈses ðə rɪsk/",
+      "meaning_vi": "đánh giá rủi ro",
+      "example": "I would assess the risk before promising the client a new date.",
+      "example_vi": "Tôi sẽ đánh giá rủi ro trước khi hứa với khách một mốc thời gian mới."
+    },
+    {
+      "word": "play it safe",
+      "ipa": "/pleɪ ɪt seɪf/",
+      "meaning_vi": "chọn cách an toàn, tránh mạo hiểm",
+      "example": "When customer data is involved, I prefer to play it safe.",
+      "example_vi": "Khi liên quan tới dữ liệu khách hàng, tôi thích chọn cách an toàn."
+    },
+    {
+      "word": "backup plan",
+      "ipa": "/ˈbækʌp plæn/",
+      "meaning_vi": "kế hoạch dự phòng",
+      "example": "I always keep a backup plan in case a supplier is late.",
+      "example_vi": "Tôi luôn có kế hoạch dự phòng phòng khi nhà cung cấp giao trễ."
+    }
+  ],
+  "listening": {
+    "title": "A situational question in the interview",
+    "lines": [
+      {
+        "speaker": "Huong (Hiring Manager)",
+        "voice": "female",
+        "text": "Khoa, let's try a situational question. Is that all right?"
+      },
+      {
+        "speaker": "Khoa (Candidate)",
+        "voice": "male",
+        "text": "Of course. Please go ahead."
+      },
+      {
+        "speaker": "Huong (Hiring Manager)",
+        "voice": "female",
+        "text": "Your teammate is sick and the deadline is tomorrow. What do you do?"
+      },
+      {
+        "speaker": "Khoa (Candidate)",
+        "voice": "male",
+        "text": "First, I would gather the facts and check what work is really left."
+      },
+      {
+        "speaker": "Huong (Hiring Manager)",
+        "voice": "female",
+        "text": "And if the remaining work is clearly too much for one day?"
+      },
+      {
+        "speaker": "Khoa (Candidate)",
+        "voice": "male",
+        "text": "Then I would assess the risk and tell my manager the same morning."
+      },
+      {
+        "speaker": "Huong (Hiring Manager)",
+        "voice": "female",
+        "text": "Some people prefer to try quietly first. Why do you escalate early?"
+      },
+      {
+        "speaker": "Khoa (Candidate)",
+        "voice": "male",
+        "text": "Because a late surprise costs the client more than an early warning."
+      },
+      {
+        "speaker": "Huong (Hiring Manager)",
+        "voice": "female",
+        "text": "Fair point. Would you cut some features to meet the date?"
+      },
+      {
+        "speaker": "Khoa (Candidate)",
+        "voice": "male",
+        "text": "That is a trade-off. I would ship the most important part first."
+      },
+      {
+        "speaker": "Huong (Hiring Manager)",
+        "voice": "female",
+        "text": "Nice. And do you usually prepare a backup plan for such weeks?"
+      },
+      {
+        "speaker": "Khoa (Candidate)",
+        "voice": "male",
+        "text": "Yes. I keep a small contingency and play it safe with customer data."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Khoa do first in that situation?",
+        "options": [
+          "Ask for more people",
+          "Gather the facts",
+          "Call the client"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why does Khoa escalate early?",
+        "options": [
+          "His manager asked him to",
+          "A late surprise costs the client more",
+          "He cannot work alone"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Khoa suggest when the deadline is too tight?",
+        "options": [
+          "Shipping the most important part first",
+          "Working all night",
+          "Moving the deadline by a month"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "In that situation, I would first gather the facts before making any decision.",
+    "I would assess the risk and inform my manager on the same day.",
+    "There is always a trade-off, so I explain the options to stakeholders.",
+    "I follow the chain of command, but I never hide a serious problem.",
+    "With customer data, I play it safe and prepare a clear backup plan."
+  ]
+}

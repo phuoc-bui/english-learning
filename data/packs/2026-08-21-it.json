@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-21",
+  "track": "it",
+  "theme": "Thuyết trình demo sản phẩm",
+  "vocab": [
+    {
+      "word": "dry run",
+      "ipa": "/ˈdraɪ rʌn/",
+      "meaning_vi": "buổi chạy thử trước khi trình bày thật",
+      "example": "Let's do a dry run of the demo before the client joins.",
+      "example_vi": "Mình chạy thử buổi demo một lần trước khi khách vào họp nhé."
+    },
+    {
+      "word": "slide deck",
+      "ipa": "/ˈslaɪd dek/",
+      "meaning_vi": "bộ slide trình chiếu",
+      "example": "Please keep the slide deck short and spend more time on the product.",
+      "example_vi": "Hãy để bộ slide ngắn thôi và dành nhiều thời gian hơn cho sản phẩm."
+    },
+    {
+      "word": "happy path",
+      "ipa": "/ˈhæpi pɑːθ/",
+      "meaning_vi": "luồng thao tác thuận lợi, không phát sinh lỗi",
+      "example": "In the demo we only show the happy path, so nothing should fail.",
+      "example_vi": "Trong buổi demo mình chỉ đi luồng thuận lợi nên sẽ không có lỗi nào."
+    },
+    {
+      "word": "live environment",
+      "ipa": "/laɪv ɪnˈvaɪrənmənt/",
+      "meaning_vi": "môi trường chạy thật",
+      "example": "I will run the demo on a live environment so the data looks real.",
+      "example_vi": "Tôi sẽ demo trên môi trường thật để dữ liệu trông giống thực tế."
+    },
+    {
+      "word": "sample data",
+      "ipa": "/ˈsɑːmpl ˈdeɪtə/",
+      "meaning_vi": "dữ liệu mẫu",
+      "example": "We prepared sample data with three customers and ten orders.",
+      "example_vi": "Chúng tôi đã chuẩn bị dữ liệu mẫu gồm ba khách hàng và mười đơn hàng."
+    },
+    {
+      "word": "fallback plan",
+      "ipa": "/ˈfɔːlbæk plæn/",
+      "meaning_vi": "phương án dự phòng",
+      "example": "If the network is slow, our fallback plan is a short video.",
+      "example_vi": "Nếu mạng chậm, phương án dự phòng của mình là một video ngắn."
+    },
+    {
+      "word": "narrate",
+      "ipa": "/nəˈreɪt/",
+      "meaning_vi": "thuyết minh, kể lại từng bước khi thao tác",
+      "example": "Try to narrate every click so the client can follow you easily.",
+      "example_vi": "Hãy thuyết minh từng thao tác để khách dễ dàng theo dõi bạn."
+    },
+    {
+      "word": "hands-on",
+      "ipa": "/ˌhændz ˈɒn/",
+      "meaning_vi": "trực tiếp trải nghiệm, tự thao tác",
+      "example": "After the demo we give them ten minutes of hands-on time.",
+      "example_vi": "Sau buổi demo, chúng ta cho họ mười phút tự trải nghiệm sản phẩm."
+    }
+  ],
+  "listening": {
+    "title": "Getting ready for the product demo",
+    "lines": [
+      {
+        "speaker": "Linh (Product Owner)",
+        "voice": "female",
+        "text": "Nam, the client demo starts at three. Are we ready for it?"
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Almost. I finished the slide deck this morning, only six slides."
+      },
+      {
+        "speaker": "Linh (Product Owner)",
+        "voice": "female",
+        "text": "Good. Can we do a dry run right after lunch, maybe at one?"
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Sure. I will run everything on the live environment, not my laptop."
+      },
+      {
+        "speaker": "Linh (Product Owner)",
+        "voice": "female",
+        "text": "Is the sample data ready? Last time the customer names looked strange."
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Yes, I created three clean customers and ten orders with realistic numbers."
+      },
+      {
+        "speaker": "Linh (Product Owner)",
+        "voice": "female",
+        "text": "Please stick to the happy path. We don't want an error on screen."
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Agreed. And I will narrate each step slowly so they can follow."
+      },
+      {
+        "speaker": "Linh (Product Owner)",
+        "voice": "female",
+        "text": "What if the office internet drops again like last Friday?"
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Our fallback plan is a two-minute recorded video of the same flow."
+      },
+      {
+        "speaker": "Linh (Product Owner)",
+        "voice": "female",
+        "text": "Perfect. Let's also leave ten minutes of hands-on time at the end."
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Then I'll send them a test account before the meeting starts."
+      }
+    ],
+    "questions": [
+      {
+        "q": "When will the team do the dry run?",
+        "options": [
+          "Right after lunch, at one",
+          "Right before the demo, at three",
+          "Tomorrow morning"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What is the fallback plan if the internet fails?",
+        "options": [
+          "Reschedule the demo",
+          "Play a short recorded video",
+          "Use Nam's laptop"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What will the client get at the end of the demo?",
+        "options": [
+          "A copy of the slide deck",
+          "Ten minutes of hands-on time",
+          "A discount offer"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Let's do a quick dry run before the client joins the call.",
+    "I'll narrate every step slowly so everyone can follow the demo easily.",
+    "Please prepare sample data that looks realistic but contains no customer information.",
+    "If the connection drops, we will switch to the recorded video immediately.",
+    "We'll keep the slide deck short and give you more hands-on time."
+  ]
+}

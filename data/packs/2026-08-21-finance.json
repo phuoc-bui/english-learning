@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-21",
+  "track": "finance",
+  "theme": "Chính sách tài chính công ty",
+  "vocab": [
+    {
+      "word": "handbook",
+      "ipa": "/ˈhændbʊk/",
+      "meaning_vi": "sổ tay hướng dẫn, quy định",
+      "example": "The finance handbook explains every rule about company spending.",
+      "example_vi": "Sổ tay tài chính giải thích mọi quy định về chi tiêu của công ty."
+    },
+    {
+      "word": "mandatory",
+      "ipa": "/ˈmændətəri/",
+      "meaning_vi": "bắt buộc",
+      "example": "Training on the new expense rules is mandatory for all managers.",
+      "example_vi": "Buổi đào tạo về quy định chi phí mới là bắt buộc với mọi quản lý."
+    },
+    {
+      "word": "threshold",
+      "ipa": "/ˈθreʃhəʊld/",
+      "meaning_vi": "ngưỡng, hạn mức",
+      "example": "Any purchase above the ten-million threshold needs a second approval.",
+      "example_vi": "Mọi khoản mua trên ngưỡng mười triệu cần thêm một cấp phê duyệt."
+    },
+    {
+      "word": "prior approval",
+      "ipa": "/ˈpraɪə əˈpruːvl/",
+      "meaning_vi": "phê duyệt trước khi thực hiện",
+      "example": "You must get prior approval before booking any international flight.",
+      "example_vi": "Bạn phải xin phê duyệt trước khi đặt bất kỳ vé máy bay quốc tế nào."
+    },
+    {
+      "word": "grace period",
+      "ipa": "/ˈɡreɪs ˌpɪəriəd/",
+      "meaning_vi": "thời gian gia hạn",
+      "example": "There is a five-day grace period for late expense claims.",
+      "example_vi": "Có thời gian gia hạn năm ngày cho các đề nghị hoàn ứng nộp trễ."
+    },
+    {
+      "word": "non-compliance",
+      "ipa": "/ˌnɒn kəmˈplaɪəns/",
+      "meaning_vi": "việc không tuân thủ quy định",
+      "example": "Non-compliance with the policy is reported to the department head.",
+      "example_vi": "Việc không tuân thủ chính sách sẽ được báo lên trưởng bộ phận."
+    },
+    {
+      "word": "disciplinary action",
+      "ipa": "/ˌdɪsəˈplɪnəri ˈækʃn/",
+      "meaning_vi": "biện pháp kỷ luật",
+      "example": "Repeated cases can lead to disciplinary action from HR.",
+      "example_vi": "Vi phạm nhiều lần có thể dẫn đến biện pháp kỷ luật từ phòng nhân sự."
+    },
+    {
+      "word": "internal audit",
+      "ipa": "/ɪnˈtɜːnl ˈɔːdɪt/",
+      "meaning_vi": "kiểm toán nội bộ",
+      "example": "The internal audit team checks ten random claims every quarter.",
+      "example_vi": "Nhóm kiểm toán nội bộ kiểm tra mười hồ sơ ngẫu nhiên mỗi quý."
+    }
+  ],
+  "listening": {
+    "title": "The updated finance policy",
+    "lines": [
+      {
+        "speaker": "Mai (Finance Manager)",
+        "voice": "female",
+        "text": "Duc, have you read the updated finance handbook we sent last week?"
+      },
+      {
+        "speaker": "Duc (Team Leader)",
+        "voice": "male",
+        "text": "I opened it, but honestly I only read the first section."
+      },
+      {
+        "speaker": "Mai (Finance Manager)",
+        "voice": "female",
+        "text": "Please read part three. The approval threshold changed from five to ten million."
+      },
+      {
+        "speaker": "Duc (Team Leader)",
+        "voice": "male",
+        "text": "So small purchases are faster now? That sounds good for my team."
+      },
+      {
+        "speaker": "Mai (Finance Manager)",
+        "voice": "female",
+        "text": "Yes, but anything above that needs prior approval from your director."
+      },
+      {
+        "speaker": "Duc (Team Leader)",
+        "voice": "male",
+        "text": "Understood. What about expense claims? People often send them very late."
+      },
+      {
+        "speaker": "Mai (Finance Manager)",
+        "voice": "female",
+        "text": "There is now a five-day grace period after the monthly deadline."
+      },
+      {
+        "speaker": "Duc (Team Leader)",
+        "voice": "male",
+        "text": "And what happens if someone misses that as well?"
+      },
+      {
+        "speaker": "Mai (Finance Manager)",
+        "voice": "female",
+        "text": "The claim moves to the next month. Repeated non-compliance goes to HR."
+      },
+      {
+        "speaker": "Duc (Team Leader)",
+        "voice": "male",
+        "text": "That sounds serious. Could it really lead to disciplinary action?"
+      },
+      {
+        "speaker": "Mai (Finance Manager)",
+        "voice": "female",
+        "text": "Only in repeated cases. The internal audit team will also sample ten claims."
+      },
+      {
+        "speaker": "Duc (Team Leader)",
+        "voice": "male",
+        "text": "Okay. I'll make the handbook reading mandatory in our team meeting."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What changed in the approval threshold?",
+        "options": [
+          "It rose from five to ten million",
+          "It fell to five million",
+          "It was removed completely"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How long is the grace period for expense claims?",
+        "options": [
+          "Two days",
+          "Five days",
+          "One month"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What will the internal audit team do?",
+        "options": [
+          "Approve every claim",
+          "Sample ten claims",
+          "Train the new staff"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Any purchase above the threshold needs prior approval from your department director.",
+    "Reading the new finance handbook is mandatory for every team leader.",
+    "There is a five-day grace period after the monthly submission deadline.",
+    "Repeated non-compliance is reported to HR and may bring disciplinary action.",
+    "The internal audit team samples ten random claims at the end of every quarter."
+  ]
+}
