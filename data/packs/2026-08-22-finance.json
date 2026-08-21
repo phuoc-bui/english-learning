@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-22",
+  "track": "finance",
+  "theme": "Trình bày báo cáo tháng",
+  "vocab": [
+    { "word": "reporting period", "ipa": "/rɪˈpɔːtɪŋ ˈpɪəriəd/", "meaning_vi": "kỳ báo cáo", "example": "All invoices dated after the reporting period go into the next report.", "example_vi": "Mọi hoá đơn có ngày sau kỳ báo cáo sẽ được đưa vào báo cáo kỳ sau." },
+    { "word": "top-line revenue", "ipa": "/ˌtɒp laɪn ˈrevənjuː/", "meaning_vi": "doanh thu tổng", "example": "Top-line revenue reached twelve billion dong in July.", "example_vi": "Doanh thu tổng đạt mười hai tỷ đồng trong tháng Bảy." },
+    { "word": "breakdown by department", "ipa": "/ˈbreɪkdaʊn baɪ dɪˈpɑːtmənt/", "meaning_vi": "số liệu chi tiết theo phòng ban", "example": "Slide three gives a breakdown by department for every cost line.", "example_vi": "Slide ba đưa ra số liệu chi tiết theo phòng ban cho từng khoản chi phí." },
+    { "word": "in line with expectations", "ipa": "/ɪn laɪn wɪð ˌekspekˈteɪʃnz/", "meaning_vi": "đúng như dự kiến", "example": "Our sales figures are in line with expectations, so no action is needed.", "example_vi": "Số liệu bán hàng đúng như dự kiến nên chưa cần hành động gì." },
+    { "word": "one-off item", "ipa": "/ˌwʌn ɒf ˈaɪtəm/", "meaning_vi": "khoản phát sinh một lần", "example": "The event in Da Nang was a one-off item, not a monthly cost.", "example_vi": "Sự kiện ở Đà Nẵng là khoản phát sinh một lần, không phải chi phí hàng tháng." },
+    { "word": "commentary", "ipa": "/ˈkɒməntri/", "meaning_vi": "phần thuyết minh, giải thích số liệu", "example": "I write a short commentary under each chart for the directors.", "example_vi": "Tôi viết một phần thuyết minh ngắn dưới mỗi biểu đồ cho ban giám đốc." },
+    { "word": "summary table", "ipa": "/ˈsʌməri ˈteɪbl/", "meaning_vi": "bảng tổng hợp", "example": "The summary table compares this month with the same month last year.", "example_vi": "Bảng tổng hợp so sánh tháng này với cùng kỳ năm ngoái." },
+    { "word": "flat month", "ipa": "/flæt mʌnθ/", "meaning_vi": "tháng không tăng không giảm", "example": "June was a flat month, but July grew four percent.", "example_vi": "Tháng Sáu là tháng không tăng không giảm, nhưng tháng Bảy tăng bốn phần trăm." }
+  ],
+  "listening": {
+    "title": "Presenting the July numbers",
+    "lines": [
+      { "speaker": "Linh (Chief Accountant)", "voice": "female", "text": "Good afternoon. I'll present the numbers for the July reporting period." },
+      { "speaker": "Tuan (Finance Director)", "voice": "male", "text": "Please start with the top-line revenue and keep it simple." },
+      { "speaker": "Linh (Chief Accountant)", "voice": "female", "text": "Revenue reached twelve billion dong, which is in line with expectations." },
+      { "speaker": "Tuan (Finance Director)", "voice": "male", "text": "And how does that compare with June? Was it a flat month?" },
+      { "speaker": "Linh (Chief Accountant)", "voice": "female", "text": "It grew four percent. The summary table on slide two shows the details." },
+      { "speaker": "Tuan (Finance Director)", "voice": "male", "text": "Good. What about the breakdown by department? Marketing worries me." },
+      { "speaker": "Linh (Chief Accountant)", "voice": "female", "text": "Marketing spent more because of a one-off item, an event in Da Nang." },
+      { "speaker": "Tuan (Finance Director)", "voice": "male", "text": "So that cost will not repeat next month, correct?" },
+      { "speaker": "Linh (Chief Accountant)", "voice": "female", "text": "Correct. I added a short commentary under each chart to explain it." },
+      { "speaker": "Tuan (Finance Director)", "voice": "male", "text": "Excellent. Please send the deck to the board before Friday afternoon." }
+    ],
+    "questions": [
+      { "q": "How much did revenue grow compared with June?", "options": ["Four percent", "Twelve percent", "It did not grow"], "answer": 0 },
+      { "q": "Why did Marketing spend more?", "options": ["Because of a one-off event", "Because of new staff", "Because of higher rent"], "answer": 0 },
+      { "q": "What must Linh do before Friday?", "options": ["Send the deck to the board", "Hire an auditor", "Change the budget"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Revenue for this reporting period is in line with expectations, around twelve billion.",
+    "The summary table on slide two shows the breakdown by department clearly.",
+    "Top-line revenue grew slightly, but costs stayed flat compared with last month.",
+    "This higher cost is a one-off item and will not repeat next quarter.",
+    "I added a short commentary under each chart so managers understand the numbers."
+  ]
+}

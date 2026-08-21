@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-22",
+  "track": "interview",
+  "theme": "Giới thiệu bản thân",
+  "vocab": [
+    { "word": "self-introduction", "ipa": "/ˌself ˌɪntrəˈdʌkʃn/", "meaning_vi": "phần tự giới thiệu", "example": "Prepare a ninety-second self-introduction before every interview.", "example_vi": "Hãy chuẩn bị phần tự giới thiệu chín mươi giây trước mỗi buổi phỏng vấn." },
+    { "word": "career highlight", "ipa": "/kəˈrɪə ˈhaɪlaɪt/", "meaning_vi": "điểm nổi bật trong sự nghiệp", "example": "My career highlight was leading the payment project last year.", "example_vi": "Điểm nổi bật trong sự nghiệp của tôi là dẫn dắt dự án thanh toán năm ngoái." },
+    { "word": "relevant experience", "ipa": "/ˈreləvənt ɪkˈspɪəriəns/", "meaning_vi": "kinh nghiệm liên quan tới vị trí", "example": "Mention only the relevant experience for the role you are applying for.", "example_vi": "Chỉ nên nhắc tới kinh nghiệm liên quan tới vị trí bạn đang ứng tuyển." },
+    { "word": "transferable skill", "ipa": "/trænsˈfɜːrəbl skɪl/", "meaning_vi": "kỹ năng có thể áp dụng sang lĩnh vực khác", "example": "Data analysis is a transferable skill from banking to software.", "example_vi": "Phân tích dữ liệu là kỹ năng có thể áp dụng từ ngân hàng sang phần mềm." },
+    { "word": "in a nutshell", "ipa": "/ɪn ə ˈnʌtʃel/", "meaning_vi": "nói ngắn gọn lại là", "example": "In a nutshell, I turn user requests into clear technical documents.", "example_vi": "Nói ngắn gọn, tôi biến yêu cầu người dùng thành tài liệu kỹ thuật rõ ràng." },
+    { "word": "current responsibilities", "ipa": "/ˈkʌrənt rɪˌspɒnsəˈbɪlətiz/", "meaning_vi": "công việc hiện tại đang phụ trách", "example": "My current responsibilities include requirements and weekly reports for two products.", "example_vi": "Công việc hiện tại của tôi gồm phân tích yêu cầu và báo cáo tuần cho hai sản phẩm." },
+    { "word": "motivation for applying", "ipa": "/ˌməʊtɪˈveɪʃn fər əˈplaɪɪŋ/", "meaning_vi": "lý do ứng tuyển", "example": "My motivation for applying is your focus on small business products.", "example_vi": "Lý do tôi ứng tuyển là vì công ty tập trung vào sản phẩm cho doanh nghiệp nhỏ." },
+    { "word": "keep it concise", "ipa": "/kiːp ɪt kənˈsaɪs/", "meaning_vi": "trình bày ngắn gọn, súc tích", "example": "Keep it concise: two minutes is enough for an introduction.", "example_vi": "Hãy trình bày ngắn gọn: hai phút là đủ cho phần giới thiệu." }
+  ],
+  "listening": {
+    "title": "Tell me about yourself",
+    "lines": [
+      { "speaker": "Mai (HR Manager)", "voice": "female", "text": "Good morning, Hung. Could you start with a short self-introduction?" },
+      { "speaker": "Hung (Candidate)", "voice": "male", "text": "Certainly. In a nutshell, I'm a business analyst with four years of experience." },
+      { "speaker": "Mai (HR Manager)", "voice": "female", "text": "Great. What are your current responsibilities at your company?" },
+      { "speaker": "Hung (Candidate)", "voice": "male", "text": "I collect requirements from users and write clear documents for the developers." },
+      { "speaker": "Mai (HR Manager)", "voice": "female", "text": "Which relevant experience do you think fits this position best?" },
+      { "speaker": "Hung (Candidate)", "voice": "male", "text": "I led a payment project last year, and that is my main career highlight." },
+      { "speaker": "Mai (HR Manager)", "voice": "female", "text": "Interesting. You come from banking. What transferable skill will you bring?" },
+      { "speaker": "Hung (Candidate)", "voice": "male", "text": "Strong data analysis and the ability to explain complex ideas simply." },
+      { "speaker": "Mai (HR Manager)", "voice": "female", "text": "And what is your motivation for applying to our company?" },
+      { "speaker": "Hung (Candidate)", "voice": "male", "text": "You build products for small businesses, and I want to grow in that market." }
+    ],
+    "questions": [
+      { "q": "How long has Hung worked as a business analyst?", "options": ["Four years", "Ten years", "Six months"], "answer": 0 },
+      { "q": "What is Hung's career highlight?", "options": ["A payment project", "A marketing campaign", "An audit report"], "answer": 0 },
+      { "q": "Why does Hung want to join the company?", "options": ["He wants to work on small business products", "He wants a shorter commute", "He wants to leave the industry"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "In a nutshell, I'm a business analyst with four years of banking experience.",
+    "My current responsibilities include gathering requirements and writing clear documents for developers.",
+    "My career highlight was leading a payment project that served twenty thousand users.",
+    "My strongest transferable skill is explaining complex data in simple business language.",
+    "I'll keep it concise: I want to grow with a product-focused company like yours."
+  ]
+}

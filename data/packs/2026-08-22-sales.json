@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-22",
+  "track": "sales",
+  "theme": "Cold call khách mới",
+  "vocab": [
+    { "word": "call list", "ipa": "/kɔːl lɪst/", "meaning_vi": "danh sách khách hàng cần gọi", "example": "I have forty offices on my call list for this week.", "example_vi": "Tôi có bốn mươi văn phòng trong danh sách khách cần gọi tuần này." },
+    { "word": "dial", "ipa": "/ˈdaɪəl/", "meaning_vi": "bấm số gọi điện", "example": "Check the company name once more before you dial the number.", "example_vi": "Hãy kiểm tra lại tên công ty một lần nữa trước khi bấm số gọi." },
+    { "word": "reason for calling", "ipa": "/ˈriːzn fə ˈkɔːlɪŋ/", "meaning_vi": "lý do gọi điện", "example": "State your reason for calling in the first fifteen seconds.", "example_vi": "Hãy nêu lý do gọi ngay trong mười lăm giây đầu tiên." },
+    { "word": "is now a good time", "ipa": "/ɪz naʊ ə ɡʊd taɪm/", "meaning_vi": "bây giờ có tiện nói chuyện không", "example": "Is now a good time, or should I try again after lunch?", "example_vi": "Bây giờ có tiện nói chuyện không, hay tôi gọi lại sau bữa trưa?" },
+    { "word": "call back", "ipa": "/kɔːl bæk/", "meaning_vi": "gọi lại", "example": "She asked me to call back on Thursday when the director returns.", "example_vi": "Cô ấy bảo tôi gọi lại vào thứ Năm khi giám đốc quay lại." },
+    { "word": "keep it short", "ipa": "/kiːp ɪt ʃɔːt/", "meaning_vi": "nói ngắn gọn", "example": "Busy managers appreciate it when you keep it short and clear.", "example_vi": "Các quản lý bận rộn rất thích khi bạn nói ngắn gọn và rõ ràng." },
+    { "word": "book a meeting", "ipa": "/bʊk ə ˈmiːtɪŋ/", "meaning_vi": "đặt lịch hẹn gặp", "example": "My only goal on this call is to book a meeting.", "example_vi": "Mục tiêu duy nhất của tôi trong cuộc gọi này là đặt được lịch hẹn." },
+    { "word": "turn down", "ipa": "/tɜːn daʊn/", "meaning_vi": "từ chối", "example": "If they turn down the offer, ask permission to contact them later.", "example_vi": "Nếu họ từ chối lời chào hàng, hãy xin phép liên hệ lại sau." }
+  ],
+  "listening": {
+    "title": "A two-minute cold call",
+    "lines": [
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Good morning, this is Nam from VietSoft. Am I speaking to Ms. Hoa?" },
+      { "speaker": "Hoa (Office Manager)", "voice": "female", "text": "Yes, speaking. I'm quite busy, so please keep it short." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Of course. Is now a good time, or should I call back later?" },
+      { "speaker": "Hoa (Office Manager)", "voice": "female", "text": "You have two minutes. What is the reason for calling?" },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "We help offices cut printing costs by about thirty percent each month." },
+      { "speaker": "Hoa (Office Manager)", "voice": "female", "text": "We already have a supplier, so I might turn down your offer." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "I understand. May I ask how much you spend on printing now?" },
+      { "speaker": "Hoa (Office Manager)", "voice": "female", "text": "Around ten million dong a month. Honestly, that number is too high." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Then a short demo could help. Can we book a meeting on Thursday?" },
+      { "speaker": "Hoa (Office Manager)", "voice": "female", "text": "Alright, send me an email first, and I'll confirm the time." }
+    ],
+    "questions": [
+      { "q": "Why does Nam ask about the printing cost?", "options": ["To find a real problem", "To sell paper", "To end the call"], "answer": 0 },
+      { "q": "How much time does Ms. Hoa give Nam?", "options": ["Two minutes", "Thirty minutes", "One hour"], "answer": 0 },
+      { "q": "What does Ms. Hoa ask Nam to do next?", "options": ["Visit her office today", "Send an email first", "Call her boss"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Good morning, is now a good time to talk for two minutes?",
+    "The reason for calling is to show you how we reduce costs.",
+    "I'll keep it short and call back if today is not convenient.",
+    "Can we book a meeting on Thursday morning to discuss your printing costs?",
+    "If you turn down the offer today, may I follow up next quarter?"
+  ]
+}

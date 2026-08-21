@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-22",
+  "track": "it",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    { "word": "ramp-up plan", "ipa": "/ˈræmp ʌp plæn/", "meaning_vi": "kế hoạch làm quen công việc dần dần", "example": "Your ramp-up plan covers the first two weeks on the payment team.", "example_vi": "Kế hoạch làm quen của bạn bao gồm hai tuần đầu ở team thanh toán." },
+    { "word": "repository", "ipa": "/rɪˈpɒzətri/", "meaning_vi": "kho mã nguồn", "example": "Please clone the repository and run the project on your machine today.", "example_vi": "Bạn hãy clone kho mã nguồn và chạy dự án trên máy mình hôm nay." },
+    { "word": "credentials", "ipa": "/krəˈdenʃlz/", "meaning_vi": "thông tin đăng nhập", "example": "IT sent your credentials this morning, so change the password right away.", "example_vi": "Bộ phận IT đã gửi thông tin đăng nhập sáng nay, bạn hãy đổi mật khẩu ngay." },
+    { "word": "local setup", "ipa": "/ˈləʊkl ˈsetʌp/", "meaning_vi": "việc cài đặt môi trường trên máy cá nhân", "example": "Finish the local setup first; the starter ticket can wait until tomorrow.", "example_vi": "Hãy hoàn tất cài đặt môi trường trước; ticket đầu tiên có thể để tới mai." },
+    { "word": "induction", "ipa": "/ɪnˈdʌkʃn/", "meaning_vi": "buổi hướng dẫn nhập môn cho người mới", "example": "The induction page on our wiki explains how the team works.", "example_vi": "Trang hướng dẫn nhập môn trên wiki giải thích cách team làm việc." },
+    { "word": "knowledge transfer", "ipa": "/ˈnɒlɪdʒ ˈtrænsfɜː(r)/", "meaning_vi": "chuyển giao kiến thức", "example": "We booked two knowledge transfer sessions about the billing service.", "example_vi": "Chúng ta đã đặt hai buổi chuyển giao kiến thức về dịch vụ tính phí." },
+    { "word": "team norms", "ipa": "/tiːm nɔːmz/", "meaning_vi": "quy tắc chung của nhóm", "example": "Our team norms say we never merge code without one approval.", "example_vi": "Quy tắc chung của nhóm là không bao giờ merge code khi chưa có một phê duyệt." },
+    { "word": "point person", "ipa": "/pɔɪnt ˈpɜːsn/", "meaning_vi": "người phụ trách chính để liên hệ", "example": "Minh is the point person for anything about the database this month.", "example_vi": "Minh là người phụ trách chính cho mọi vấn đề về cơ sở dữ liệu tháng này." }
+  ],
+  "listening": {
+    "title": "First day on the platform team",
+    "lines": [
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Welcome to the team, Linh. I've prepared a ramp-up plan for your first two weeks." },
+      { "speaker": "Linh (New Developer)", "voice": "female", "text": "Thank you, Nam. Should I start with the local setup today?" },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Yes. Install the tools first, then clone the repository and run the project." },
+      { "speaker": "Linh (New Developer)", "voice": "female", "text": "Do I already have the credentials for the internal systems?" },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "IT sent them this morning. Check your email and change the password right away." },
+      { "speaker": "Linh (New Developer)", "voice": "female", "text": "Got it. Who is my point person if something breaks?" },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Minh is your buddy this month. Ask him anything, even small questions." },
+      { "speaker": "Linh (New Developer)", "voice": "female", "text": "Is there a document about the team norms, like meeting times?" },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Yes, our wiki has a short induction page. Please read it before Friday." },
+      { "speaker": "Linh (New Developer)", "voice": "female", "text": "Perfect. I'll finish the knowledge transfer sessions and then take a small ticket." }
+    ],
+    "questions": [
+      { "q": "What should Linh do first?", "options": ["Fix a production bug", "Finish the local setup", "Lead the standup"], "answer": 1 },
+      { "q": "Who can Linh ask for help this month?", "options": ["Minh", "The client", "Nobody"], "answer": 0 },
+      { "q": "Where can Linh read about the team norms?", "options": ["On the team wiki", "In her contract", "On a printed poster"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Could you send me the credentials so I can finish my local setup today?",
+    "I have read the induction page and I understand our team norms now.",
+    "Who is the point person for the payment service if I get stuck?",
+    "My ramp-up plan says I should join code reviews from the second week.",
+    "Can we book a knowledge transfer session about the repository structure tomorrow morning?"
+  ]
+}

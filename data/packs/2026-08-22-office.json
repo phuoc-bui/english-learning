@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-22",
+  "track": "office",
+  "theme": "Small talk trước giờ họp",
+  "vocab": [
+    { "word": "chime in", "ipa": "/tʃaɪm ɪn/", "meaning_vi": "góp lời vào câu chuyện đang diễn ra", "example": "Feel free to chime in if you know that supplier as well.", "example_vi": "Bạn cứ góp lời nếu bạn cũng biết nhà cung cấp đó." },
+    { "word": "bring up a topic", "ipa": "/brɪŋ ʌp ə ˈtɒpɪk/", "meaning_vi": "khơi ra một chủ đề", "example": "I usually bring up a topic that everyone at the table knows.", "example_vi": "Tôi thường khơi ra một chủ đề mà mọi người ở bàn đều biết." },
+    { "word": "light topic", "ipa": "/laɪt ˈtɒpɪk/", "meaning_vi": "chủ đề nhẹ nhàng, dễ nói", "example": "Traffic and coffee are safe light topics before a Monday meeting.", "example_vi": "Kẹt xe và cà phê là những chủ đề nhẹ nhàng an toàn trước cuộc họp thứ Hai." },
+    { "word": "keep the conversation going", "ipa": "/kiːp ðə ˌkɒnvəˈseɪʃn ˈɡəʊɪŋ/", "meaning_vi": "duy trì cuộc trò chuyện", "example": "Ask a short question to keep the conversation going naturally.", "example_vi": "Hãy hỏi một câu ngắn để duy trì cuộc trò chuyện một cách tự nhiên." },
+    { "word": "nod along", "ipa": "/nɒd əˈlɒŋ/", "meaning_vi": "gật đầu tỏ ý đang lắng nghe", "example": "She nodded along politely while her manager described the weekend trip.", "example_vi": "Cô ấy gật đầu lịch sự trong khi quản lý kể về chuyến đi cuối tuần." },
+    { "word": "pay a compliment", "ipa": "/peɪ ə ˈkɒmplɪmənt/", "meaning_vi": "khen ngợi ai đó", "example": "Pay a compliment about her report, but keep it honest and short.", "example_vi": "Hãy khen về báo cáo của cô ấy, nhưng nên chân thành và ngắn gọn." },
+    { "word": "awkward silence", "ipa": "/ˈɔːkwəd ˈsaɪləns/", "meaning_vi": "khoảng lặng ngượng ngùng", "example": "An awkward silence in the meeting room makes new colleagues nervous.", "example_vi": "Khoảng lặng ngượng ngùng trong phòng họp làm đồng nghiệp mới lo lắng." },
+    { "word": "join the conversation", "ipa": "/dʒɔɪn ðə ˌkɒnvəˈseɪʃn/", "meaning_vi": "tham gia vào cuộc trò chuyện", "example": "Trang joined the conversation as soon as we mentioned her hometown.", "example_vi": "Trang tham gia vào cuộc trò chuyện ngay khi chúng tôi nhắc tới quê cô ấy." }
+  ],
+  "listening": {
+    "title": "Five minutes before the department meeting",
+    "lines": [
+      { "speaker": "Hoa (Marketing Executive)", "voice": "female", "text": "Good morning, Minh. We're a bit early, so let's relax for five minutes." },
+      { "speaker": "Minh (Accountant)", "voice": "male", "text": "Good morning, Hoa. I always arrive early to avoid the lift queue." },
+      { "speaker": "Hoa (Marketing Executive)", "voice": "female", "text": "Smart. By the way, have you tried the new coffee shop downstairs?" },
+      { "speaker": "Minh (Accountant)", "voice": "male", "text": "Not yet. Is it good? I need a light topic for Monday mornings." },
+      { "speaker": "Hoa (Marketing Executive)", "voice": "female", "text": "It's quiet and cheap. We should go together after this meeting." },
+      { "speaker": "Minh (Accountant)", "voice": "male", "text": "Sounds good. Oh, Trang is joining us today, so please introduce her." },
+      { "speaker": "Hoa (Marketing Executive)", "voice": "female", "text": "Of course. I'll bring up a topic she can join the conversation with." },
+      { "speaker": "Minh (Accountant)", "voice": "male", "text": "Good idea. She's new, and an awkward silence makes new people uncomfortable." },
+      { "speaker": "Hoa (Marketing Executive)", "voice": "female", "text": "True. I'll pay her a compliment about the presentation she gave last week." },
+      { "speaker": "Minh (Accountant)", "voice": "male", "text": "Nice. Okay, the manager is here. Let's keep the small talk short now." }
+    ],
+    "questions": [
+      { "q": "Why does Minh come to the office early?", "options": ["To avoid the lift queue", "To finish a report", "To meet the manager"], "answer": 0 },
+      { "q": "What will Hoa do for Trang?", "options": ["Ignore her", "Help her join the conversation", "Ask her to take notes"], "answer": 1 },
+      { "q": "When do they stop the small talk?", "options": ["When the manager arrives", "At lunch time", "After the coffee break"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Let's keep the conversation going until the manager joins the meeting room.",
+    "Please chime in if you have something to add before we start.",
+    "I always bring up a light topic to avoid an awkward silence.",
+    "How was your trip to Da Nang? I heard the weather was lovely.",
+    "She just joined the conversation, so let's ask about her previous company."
+  ]
+}
