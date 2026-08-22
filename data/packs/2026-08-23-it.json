@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-23",
+  "track": "it",
+  "theme": "Nói về email & follow-up",
+  "vocab": [
+    { "word": "email chain", "ipa": "/ˈiːmeɪl tʃeɪn/", "meaning_vi": "chuỗi email (nhiều lượt trả lời nối nhau)", "example": "The email chain about the release has more than twenty replies now.", "example_vi": "Chuỗi email về bản release giờ đã có hơn hai mươi lượt trả lời." },
+    { "word": "action required", "ipa": "/ˈækʃn rɪˈkwaɪəd/", "meaning_vi": "việc cần làm, phần yêu cầu hành động", "example": "Please put the action required at the top so nobody misses it.", "example_vi": "Hãy để phần việc cần làm lên đầu để không ai bỏ sót." },
+    { "word": "bcc", "ipa": "/ˌbiː siː ˈsiː/", "meaning_vi": "gửi ẩn danh (người nhận khác không thấy)", "example": "I will reply to the tech lead and put the rest of the team on bcc.", "example_vi": "Tôi sẽ trả lời tech lead và để phần còn lại của nhóm ở mục bcc." },
+    { "word": "acknowledge receipt", "ipa": "/əkˈnɒlɪdʒ rɪˈsiːt/", "meaning_vi": "xác nhận đã nhận được (email, tài liệu)", "example": "Just acknowledge receipt today, and send the full answer tomorrow.", "example_vi": "Hôm nay cứ xác nhận đã nhận, rồi mai gửi câu trả lời đầy đủ." },
+    { "word": "loop someone in", "ipa": "/luːp ˈsʌmwʌn ɪn/", "meaning_vi": "thêm ai đó vào email/trao đổi để họ nắm thông tin", "example": "Can you loop someone in from QA before we answer the client?", "example_vi": "Bạn thêm một người bên QA vào email trước khi mình trả lời khách nhé?" },
+    { "word": "distribution list", "ipa": "/ˌdɪstrɪˈbjuːʃn lɪst/", "meaning_vi": "danh sách người nhận chung (nhóm email)", "example": "New members are added to the team distribution list on their first day.", "example_vi": "Thành viên mới được thêm vào danh sách email của nhóm ngay ngày đầu tiên." },
+    { "word": "typo", "ipa": "/ˈtaɪpəʊ/", "meaning_vi": "lỗi đánh máy", "example": "There is a typo in the subject line, so please fix it before sending.", "example_vi": "Có lỗi đánh máy ở dòng tiêu đề, bạn sửa trước khi gửi nhé." },
+    { "word": "nudge", "ipa": "/nʌdʒ/", "meaning_vi": "lời nhắc nhẹ (khi chưa ai trả lời)", "example": "If nobody answers by Wednesday, I will send a polite nudge.", "example_vi": "Nếu đến thứ Tư không ai trả lời, tôi sẽ gửi một lời nhắc nhẹ nhàng." }
+  ],
+  "listening": {
+    "title": "Handling a long email chain",
+    "lines": [
+      { "speaker": "Linh (Project Coordinator)", "voice": "female", "text": "Nam, did you see the email chain about the new deployment process?" },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "I did, but there were twenty replies. I lost track of the main point." },
+      { "speaker": "Linh (Project Coordinator)", "voice": "female", "text": "The action required is at the bottom. We must confirm our test plan by Friday." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Got it. Should I reply to everyone, or only to the tech lead?" },
+      { "speaker": "Linh (Project Coordinator)", "voice": "female", "text": "Reply to the tech lead, and put the rest of us on bcc." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Fine. I will also acknowledge receipt so nobody sends a second reminder." },
+      { "speaker": "Linh (Project Coordinator)", "voice": "female", "text": "Good idea. And please loop someone in from the QA side." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "I will add Hoa. Is she on the team distribution list already?" },
+      { "speaker": "Linh (Project Coordinator)", "voice": "female", "text": "She is. One more thing, check for a typo before you send it." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Sure. If they stay quiet until Wednesday, I will send a short nudge." }
+    ],
+    "questions": [
+      { "q": "What does Linh ask Nam to do with the rest of the team?", "options": ["Put them on bcc", "Remove them completely", "Call them one by one"], "answer": 0 },
+      { "q": "Why will Nam acknowledge receipt?", "options": ["To close the ticket", "So nobody sends a second reminder", "To cancel the meeting"], "answer": 1 },
+      { "q": "What will Nam do if there is no answer by Wednesday?", "options": ["Escalate to the director", "Send a short nudge", "Start the work anyway"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Could you check the email chain and tell me what action is required?",
+    "I will acknowledge receipt today and send you the full test plan tomorrow.",
+    "Please loop someone in from QA before we reply to the client team.",
+    "There is a typo in the subject line, so let me fix it first.",
+    "If nobody replies by Wednesday, I will send a polite nudge to them."
+  ]
+}

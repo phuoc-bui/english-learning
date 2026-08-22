@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-23",
+  "track": "sales",
+  "theme": "Demo sản phẩm cho khách",
+  "vocab": [
+    { "word": "demo environment", "ipa": "/ˈdeməʊ ɪnˈvaɪrənmənt/", "meaning_vi": "môi trường dùng để trình diễn sản phẩm", "example": "Today I will show you our system in a safe demo environment.", "example_vi": "Hôm nay tôi sẽ giới thiệu hệ thống trong môi trường demo an toàn." },
+    { "word": "sandbox account", "ipa": "/ˈsændbɒks əˈkaʊnt/", "meaning_vi": "tài khoản thử nghiệm (dữ liệu giả, không ảnh hưởng thật)", "example": "I prepared a sandbox account so your team can test everything freely.", "example_vi": "Tôi đã chuẩn bị một tài khoản thử nghiệm để nhóm anh chị thoải mái thử." },
+    { "word": "workflow", "ipa": "/ˈwɜːkfləʊ/", "meaning_vi": "quy trình làm việc", "example": "The sample data follows your daily workflow, not a general example.", "example_vi": "Dữ liệu mẫu bám theo quy trình làm việc hằng ngày của anh chị, không phải ví dụ chung chung." },
+    { "word": "click through", "ipa": "/klɪk θruː/", "meaning_vi": "bấm lần lượt qua các màn hình", "example": "Let me click through the main screens first, then we open the reports.", "example_vi": "Để tôi bấm lướt qua các màn hình chính trước, rồi mình mở phần báo cáo." },
+    { "word": "drag and drop", "ipa": "/dræɡ ənd drɒp/", "meaning_vi": "kéo và thả (thao tác chuột)", "example": "You can drag and drop the columns to change the report layout.", "example_vi": "Anh chị có thể kéo thả các cột để đổi bố cục báo cáo." },
+    { "word": "wow moment", "ipa": "/waʊ ˈməʊmənt/", "meaning_vi": "khoảnh khắc gây ấn tượng mạnh với khách", "example": "The one-click report is the wow moment for most operations teams.", "example_vi": "Báo cáo chỉ một cú nhấp là khoảnh khắc gây ấn tượng nhất với đa số nhóm vận hành." },
+    { "word": "talk track", "ipa": "/tɔːk træk/", "meaning_vi": "kịch bản nói khi demo", "example": "I will stop my talk track here and listen to your team.", "example_vi": "Tôi sẽ dừng kịch bản trình bày ở đây và lắng nghe nhóm của anh chị." },
+    { "word": "field a question", "ipa": "/fiːld ə ˈkwestʃən/", "meaning_vi": "tiếp nhận và trả lời câu hỏi", "example": "After each section I stop to field a question from the room.", "example_vi": "Sau mỗi phần tôi dừng lại để nhận và trả lời câu hỏi từ mọi người." }
+  ],
+  "listening": {
+    "title": "Running a product demo for a client",
+    "lines": [
+      { "speaker": "Linh (Sales Consultant)", "voice": "female", "text": "Good morning Minh. Today I will show you our system in a demo environment." },
+      { "speaker": "Minh (Operations Manager)", "voice": "male", "text": "Great. Can we use real numbers, or is everything sample data?" },
+      { "speaker": "Linh (Sales Consultant)", "voice": "female", "text": "I prepared a sandbox account with data that looks like your daily workflow." },
+      { "speaker": "Minh (Operations Manager)", "voice": "male", "text": "Perfect. My team cares most about how fast we can build a report." },
+      { "speaker": "Linh (Sales Consultant)", "voice": "female", "text": "Let me click through the main screen first, then we go to reports." },
+      { "speaker": "Minh (Operations Manager)", "voice": "male", "text": "Please slow down there. That part is the wow moment for my staff." },
+      { "speaker": "Linh (Sales Consultant)", "voice": "female", "text": "Sure. You can drag and drop the columns to change the report layout." },
+      { "speaker": "Minh (Operations Manager)", "voice": "male", "text": "That is very simple. Even our new staff can learn it quickly." },
+      { "speaker": "Linh (Sales Consultant)", "voice": "female", "text": "I will stop my talk track here and field a question from your side." },
+      { "speaker": "Minh (Operations Manager)", "voice": "male", "text": "Good. Please send me the recording so my director can watch it later." }
+    ],
+    "questions": [
+      { "q": "What did Linh prepare for the demo?", "options": ["A printed brochure", "A sandbox account with realistic data", "A price list only"], "answer": 1 },
+      { "q": "Which part does Minh ask her to show slowly?", "options": ["The login screen", "The report part", "The billing page"], "answer": 1 },
+      { "q": "What does Minh ask for at the end?", "options": ["A free trial", "A bigger discount", "The recording of the demo"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Let me show you the main screen in our demo environment right now.",
+    "You can drag and drop the columns to build the report you need.",
+    "I set up a sandbox account so your team can test everything safely.",
+    "Before I click through the next screen, do you have any quick questions?",
+    "I will pause my talk track here and field a question from you."
+  ]
+}

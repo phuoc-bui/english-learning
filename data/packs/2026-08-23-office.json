@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-23",
+  "track": "office",
+  "theme": "Viết email & follow-up",
+  "vocab": [
+    { "word": "salutation", "ipa": "/ˌsæljuˈteɪʃn/", "meaning_vi": "lời chào mở đầu email", "example": "Your salutation is too casual for a first message to a supplier.", "example_vi": "Lời chào mở đầu của bạn quá suồng sã cho email đầu tiên gửi nhà cung cấp." },
+    { "word": "closing line", "ipa": "/ˈkləʊzɪŋ laɪn/", "meaning_vi": "câu kết thúc email", "example": "Add a simple closing line such as Looking forward to your reply.", "example_vi": "Thêm một câu kết đơn giản như Mong sớm nhận hồi âm của anh/chị." },
+    { "word": "call to action", "ipa": "/ˌkɔːl tu ˈækʃn/", "meaning_vi": "phần đề nghị người nhận làm gì tiếp theo", "example": "Your call to action is hidden in the middle of the second paragraph.", "example_vi": "Phần đề nghị của bạn bị giấu ở giữa đoạn văn thứ hai." },
+    { "word": "email signature", "ipa": "/ˈiːmeɪl ˈsɪɡnətʃə/", "meaning_vi": "chữ ký email (tên, chức danh, liên hệ)", "example": "Please put your phone number in your email signature.", "example_vi": "Hãy để số điện thoại của bạn trong chữ ký email." },
+    { "word": "reply all", "ipa": "/rɪˈplaɪ ɔːl/", "meaning_vi": "trả lời tất cả người nhận", "example": "Only reply all when the whole team really needs the information.", "example_vi": "Chỉ trả lời tất cả khi cả nhóm thực sự cần thông tin đó." },
+    { "word": "read receipt", "ipa": "/riːd rɪˈsiːt/", "meaning_vi": "báo đã đọc (thông báo khi người nhận mở email)", "example": "A read receipt can feel pushy in a first email to a partner.", "example_vi": "Báo đã đọc có thể tạo cảm giác thúc ép trong email đầu tiên gửi đối tác." },
+    { "word": "flag an email", "ipa": "/flæɡ ən ˈiːmeɪl/", "meaning_vi": "đánh dấu email để theo dõi lại sau", "example": "I flag an email whenever I need to check the answer later.", "example_vi": "Tôi đánh dấu email mỗi khi cần kiểm tra câu trả lời sau này." },
+    { "word": "keep someone posted", "ipa": "/kiːp ˈsʌmwʌn ˈpəʊstɪd/", "meaning_vi": "cập nhật thông tin thường xuyên cho ai đó", "example": "I will keep the manager posted after every reply from the supplier.", "example_vi": "Tôi sẽ cập nhật cho quản lý sau mỗi lần nhà cung cấp trả lời." }
+  ],
+  "listening": {
+    "title": "Checking an email before it goes out",
+    "lines": [
+      { "speaker": "Minh (Marketing Executive)", "voice": "male", "text": "Hoa, can you look at my email to the supplier before I send it?" },
+      { "speaker": "Hoa (Admin Officer)", "voice": "female", "text": "Of course. Your salutation is too casual for a first message." },
+      { "speaker": "Minh (Marketing Executive)", "voice": "male", "text": "Should I write Dear Mr Tran instead of Hi there?" },
+      { "speaker": "Hoa (Admin Officer)", "voice": "female", "text": "Yes, that is better. And your call to action is hidden in the middle." },
+      { "speaker": "Minh (Marketing Executive)", "voice": "male", "text": "I see. I will move the request to the top in one clear sentence." },
+      { "speaker": "Hoa (Admin Officer)", "voice": "female", "text": "Also add a simple closing line, then your email signature with the phone number." },
+      { "speaker": "Minh (Marketing Executive)", "voice": "male", "text": "Do I need to turn on a read receipt for this one?" },
+      { "speaker": "Hoa (Admin Officer)", "voice": "female", "text": "No, that feels pushy. Just flag an email in your folder and check on Thursday." },
+      { "speaker": "Minh (Marketing Executive)", "voice": "male", "text": "Understood. Should I reply all when their whole team answers?" },
+      { "speaker": "Hoa (Admin Officer)", "voice": "female", "text": "Only if everyone needs the update. Otherwise keep the manager posted separately." }
+    ],
+    "questions": [
+      { "q": "What problem does Hoa find with the salutation?", "options": ["It is too casual", "It is missing a date", "It has the wrong company name"], "answer": 0 },
+      { "q": "Where should Minh put the call to action?", "options": ["In the attachment", "At the very bottom", "At the top in one clear sentence"], "answer": 2 },
+      { "q": "What does Hoa say about using a read receipt here?", "options": ["It is required by policy", "It feels pushy", "It saves the supplier time"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Please start with a polite salutation and keep the first paragraph very short.",
+    "Put the call to action near the top so the reader cannot miss it.",
+    "I will add a short closing line and my email signature before sending this.",
+    "Let me flag an email so I remember to follow up on Thursday morning.",
+    "Please do not reply all unless the whole team really needs this update."
+  ]
+}

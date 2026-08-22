@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-23",
+  "track": "finance",
+  "theme": "Ngân sách & cắt giảm chi phí",
+  "vocab": [
+    { "word": "belt-tightening", "ipa": "/belt ˈtaɪtnɪŋ/", "meaning_vi": "thắt lưng buộc bụng, siết chi tiêu", "example": "The board asked every department to join this belt-tightening plan.", "example_vi": "Ban lãnh đạo yêu cầu mọi phòng ban tham gia kế hoạch thắt chặt chi tiêu này." },
+    { "word": "trim the budget", "ipa": "/trɪm ðə ˈbʌdʒɪt/", "meaning_vi": "cắt bớt ngân sách", "example": "We must trim the budget by twelve percent for the next two quarters.", "example_vi": "Chúng ta phải cắt bớt ngân sách mười hai phần trăm trong hai quý tới." },
+    { "word": "cost driver", "ipa": "/kɒst ˈdraɪvə/", "meaning_vi": "yếu tố làm phát sinh chi phí lớn nhất", "example": "Travel is the biggest cost driver in the sales department this year.", "example_vi": "Chi phí đi lại là yếu tố tốn kém nhất của phòng kinh doanh năm nay." },
+    { "word": "quick win", "ipa": "/kwɪk wɪn/", "meaning_vi": "kết quả nhanh, dễ đạt được", "example": "Cancelling unused software licences is an easy quick win.", "example_vi": "Hủy các bản quyền phần mềm không dùng là một kết quả nhanh và dễ đạt." },
+    { "word": "renegotiate a contract", "ipa": "/ˌriːnɪˈɡəʊʃieɪt ə ˈkɒntrækt/", "meaning_vi": "đàm phán lại hợp đồng", "example": "We will renegotiate a contract with the training vendor next month.", "example_vi": "Tháng sau chúng ta sẽ đàm phán lại hợp đồng với nhà cung cấp đào tạo." },
+    { "word": "consolidate vendors", "ipa": "/kənˈsɒlɪdeɪt ˈvendəz/", "meaning_vi": "gom về ít nhà cung cấp hơn để có giá tốt", "example": "If we consolidate vendors, we can ask for a better price.", "example_vi": "Nếu gom về ít nhà cung cấp hơn, chúng ta có thể xin giá tốt hơn." },
+    { "word": "headcount freeze", "ipa": "/ˈhedkaʊnt friːz/", "meaning_vi": "tạm dừng tuyển dụng", "example": "There is a headcount freeze until December, so we cannot hire now.", "example_vi": "Công ty tạm dừng tuyển dụng đến tháng Mười Hai nên hiện giờ chưa tuyển được." },
+    { "word": "unnecessary cost", "ipa": "/ʌnˈnesəsəri kɒst/", "meaning_vi": "chi phí không cần thiết", "example": "Please remove any unnecessary cost from your plan by Friday.", "example_vi": "Vui lòng bỏ mọi chi phí không cần thiết khỏi kế hoạch của bạn trước thứ Sáu." }
+  ],
+  "listening": {
+    "title": "Cutting the department budget",
+    "lines": [
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Nam, the board asked every department to join this belt-tightening plan." },
+      { "speaker": "Nam (Department Head)", "voice": "male", "text": "I expected that. How much do I need to trim the budget by?" },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "About twelve percent for the next two quarters, without touching customer service." },
+      { "speaker": "Nam (Department Head)", "voice": "male", "text": "Then I should look at the biggest cost driver in my team first." },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Exactly. Travel and software licences are usually where we find a quick win." },
+      { "speaker": "Nam (Department Head)", "voice": "male", "text": "We can renegotiate a contract with the training vendor next month." },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Good. We also want to consolidate vendors, so we buy from fewer suppliers." },
+      { "speaker": "Nam (Department Head)", "voice": "male", "text": "Is there a headcount freeze as well? My team is waiting for two people." },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Yes, until December. Please remove any unnecessary cost from your plan by Friday." },
+      { "speaker": "Nam (Department Head)", "voice": "male", "text": "Understood. I will send you the updated numbers with short comments." }
+    ],
+    "questions": [
+      { "q": "How much must Nam cut from his budget?", "options": ["About five percent", "About twelve percent", "About thirty percent"], "answer": 1 },
+      { "q": "What does Hoa say about hiring?", "options": ["There is a headcount freeze until December", "Hiring continues as usual", "Two people start next week"], "answer": 0 },
+      { "q": "What must Nam do by Friday?", "options": ["Meet all the vendors", "Remove unnecessary cost from his plan", "Stop customer service"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "We need to trim the budget by ten percent before the next quarter.",
+    "Travel is the biggest cost driver, so let us start our review there.",
+    "I will renegotiate a contract with our vendor to get a better price.",
+    "Please remove any unnecessary cost from the plan and send it by Friday.",
+    "There is a headcount freeze, so we cannot hire new staff this quarter."
+  ]
+}

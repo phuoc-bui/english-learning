@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-23",
+  "track": "interview",
+  "theme": "Điểm mạnh điểm yếu",
+  "vocab": [
+    { "word": "play to your strengths", "ipa": "/pleɪ tu jɔː streŋθs/", "meaning_vi": "phát huy điểm mạnh của mình", "example": "I like to play to my strengths, so I usually lead the planning.", "example_vi": "Tôi thích phát huy điểm mạnh của mình nên thường nhận phần lập kế hoạch." },
+    { "word": "self-critical", "ipa": "/self ˈkrɪtɪkl/", "meaning_vi": "hay tự phê bình bản thân", "example": "I am quite self-critical and check my work many times before sharing it.", "example_vi": "Tôi khá hay tự phê bình và kiểm tra công việc nhiều lần trước khi gửi đi." },
+    { "word": "downside", "ipa": "/ˈdaʊnsaɪd/", "meaning_vi": "mặt hạn chế, điểm bất lợi", "example": "The downside is that my team sometimes waits for my final check.", "example_vi": "Mặt hạn chế là đôi khi cả nhóm phải chờ tôi kiểm tra lần cuối." },
+    { "word": "impatient", "ipa": "/ɪmˈpeɪʃnt/", "meaning_vi": "thiếu kiên nhẫn", "example": "I used to be impatient when other people worked more slowly than me.", "example_vi": "Trước đây tôi thiếu kiên nhẫn khi người khác làm chậm hơn mình." },
+    { "word": "blind spot", "ipa": "/blaɪnd spɒt/", "meaning_vi": "điểm mù, điều bản thân không tự nhận ra", "example": "My manager showed me a blind spot in the way I gave feedback.", "example_vi": "Quản lý đã chỉ ra điểm mù của tôi trong cách đưa phản hồi." },
+    { "word": "ask for help", "ipa": "/ɑːsk fə help/", "meaning_vi": "nhờ giúp đỡ", "example": "Now I ask for help much earlier instead of solving everything alone.", "example_vi": "Giờ tôi nhờ giúp đỡ sớm hơn nhiều thay vì tự giải quyết mọi thứ." },
+    { "word": "public speaking", "ipa": "/ˈpʌblɪk ˈspiːkɪŋ/", "meaning_vi": "nói trước đám đông", "example": "Public speaking is not my strongest skill, so I practise every week.", "example_vi": "Nói trước đám đông không phải thế mạnh của tôi nên tôi luyện tập hằng tuần." },
+    { "word": "work in progress", "ipa": "/wɜːk ɪn ˈprəʊɡres/", "meaning_vi": "điều đang được cải thiện dần", "example": "My presentation skill is still a work in progress, but it is improving.", "example_vi": "Kỹ năng thuyết trình của tôi vẫn đang được cải thiện dần, nhưng đã tốt hơn." }
+  ],
+  "listening": {
+    "title": "Talking about strengths and weaknesses",
+    "lines": [
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "Minh, could you tell me about your greatest strength in a real situation?" },
+      { "speaker": "Minh (Candidate)", "voice": "male", "text": "I plan carefully. I like to play to my strengths and lead the planning." },
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "That is useful. Now, what would you call your biggest weakness?" },
+      { "speaker": "Minh (Candidate)", "voice": "male", "text": "I am quite self-critical. I check my work many times before I share it." },
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "Does that slow the team down? What is the downside for your project?" },
+      { "speaker": "Minh (Candidate)", "voice": "male", "text": "Sometimes yes. I was also impatient when other people worked more slowly." },
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "And how are you handling that now?" },
+      { "speaker": "Minh (Candidate)", "voice": "male", "text": "My manager showed me my blind spot, so I learned to ask for help earlier." },
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "What about presenting your work to a large group?" },
+      { "speaker": "Minh (Candidate)", "voice": "male", "text": "Public speaking is still a work in progress, so I joined a small club." }
+    ],
+    "questions": [
+      { "q": "What does Minh say is his strength?", "options": ["Careful planning", "Fast typing", "Selling products"], "answer": 0 },
+      { "q": "Why can being self-critical be a problem?", "options": ["It makes him late for work", "It can slow the team down", "It makes him rude to clients"], "answer": 1 },
+      { "q": "What is Minh doing about public speaking?", "options": ["He avoids it completely", "He joined a small club", "He asked to change his job"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "My greatest strength is planning, and I always play to my strengths at work.",
+    "I can be self-critical, so I check my work more times than needed.",
+    "My manager helped me see a blind spot, and I improved within three months.",
+    "Public speaking is a work in progress, so I practise every Friday afternoon.",
+    "I used to be impatient, but now I ask for help much earlier."
+  ]
+}
