@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-24",
+  "track": "interview",
+  "theme": "Kể về dự án đáng nhớ",
+  "vocab": [
+    { "word": "from scratch", "ipa": "/frəm skrætʃ/", "meaning_vi": "làm từ đầu, từ con số không", "example": "We built the internal reporting tool from scratch in four months.", "example_vi": "Chúng tôi xây công cụ báo cáo nội bộ từ đầu trong bốn tháng." },
+    { "word": "kick off", "ipa": "/kɪk ɒf/", "meaning_vi": "khởi động, bắt đầu (một dự án)", "example": "I helped kick off the project by writing the first requirement list.", "example_vi": "Tôi giúp khởi động dự án bằng việc viết danh sách yêu cầu đầu tiên." },
+    { "word": "pilot phase", "ipa": "/ˈpaɪlət feɪz/", "meaning_vi": "giai đoạn thí điểm", "example": "During the pilot phase, only two departments used the new system.", "example_vi": "Trong giai đoạn thí điểm, chỉ hai phòng ban dùng hệ thống mới." },
+    { "word": "user feedback", "ipa": "/ˈjuːzə ˈfiːdbæk/", "meaning_vi": "phản hồi của người dùng", "example": "I collected user feedback every Friday and shared it with the developers.", "example_vi": "Tôi thu thập phản hồi của người dùng mỗi thứ Sáu và chia sẻ cho các lập trình viên." },
+    { "word": "roll out", "ipa": "/rəʊl aʊt/", "meaning_vi": "triển khai rộng ra", "example": "After the test, we decided to roll out the tool to all offices.", "example_vi": "Sau đợt thử nghiệm, chúng tôi quyết định triển khai công cụ ra toàn bộ văn phòng." },
+    { "word": "go live", "ipa": "/ɡəʊ laɪv/", "meaning_vi": "chính thức chạy thật", "example": "The system went live in June without any serious problem.", "example_vi": "Hệ thống chính thức chạy thật vào tháng Sáu mà không gặp vấn đề nghiêm trọng nào." },
+    { "word": "learning curve", "ipa": "/ˈlɜːnɪŋ kɜːv/", "meaning_vi": "quá trình học để thành thạo (thường vất vả lúc đầu)", "example": "The learning curve was steep because I had never managed a budget before.", "example_vi": "Quá trình học khá vất vả vì trước đó tôi chưa từng quản lý ngân sách." },
+    { "word": "ahead of schedule", "ipa": "/əˈhed əv ˈʃedjuːl/", "meaning_vi": "sớm hơn kế hoạch", "example": "We finished two weeks ahead of schedule and still stayed inside the budget.", "example_vi": "Chúng tôi hoàn thành sớm hơn kế hoạch hai tuần mà vẫn nằm trong ngân sách." }
+  ],
+  "listening": {
+    "title": "Tell me about a project you are proud of",
+    "lines": [
+      { "speaker": "Lan (Hiring Manager)", "voice": "female", "text": "Nam, could you walk me through a project you are really proud of?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Certainly. Last year my company had no way to track customer requests." },
+      { "speaker": "Lan (Hiring Manager)", "voice": "female", "text": "So what exactly was your role in solving that?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I was asked to build a simple tracking tool from scratch with two colleagues." },
+      { "speaker": "Lan (Hiring Manager)", "voice": "female", "text": "How did you kick off the work with such a small team?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I interviewed eight staff members first, then wrote a short list of must-have features." },
+      { "speaker": "Lan (Hiring Manager)", "voice": "female", "text": "Did you release everything to the whole company at once?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "No. We ran a pilot phase with one team and collected user feedback weekly." },
+      { "speaker": "Lan (Hiring Manager)", "voice": "female", "text": "That sounds careful. What was the hardest part for you personally?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "The learning curve, honestly. I had never planned a rollout for non-technical users." },
+      { "speaker": "Lan (Hiring Manager)", "voice": "female", "text": "And what was the final result?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "We went live in June, two weeks ahead of schedule, and response time dropped by half." }
+    ],
+    "questions": [
+      { "q": "What problem did Nam's company have?", "options": ["No way to track customer requests", "Too many managers", "A very old office building"], "answer": 0 },
+      { "q": "What did Nam do before writing the feature list?", "options": ["He hired three developers", "He interviewed eight staff members", "He copied a competitor's tool"], "answer": 1 },
+      { "q": "What did Nam find the hardest?", "options": ["Working at weekends", "Talking to the finance team", "The learning curve of planning a rollout"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "We built the reporting tool from scratch in only three months last year.",
+    "My task was to lead the pilot phase and collect early user feedback.",
+    "I ran daily check-ins so the team could kick off each week clearly.",
+    "We went live in June, two weeks ahead of the original schedule.",
+    "The learning curve was steep, but support tickets dropped by forty percent."
+  ]
+}

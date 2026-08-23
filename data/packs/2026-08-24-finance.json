@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-24",
+  "track": "finance",
+  "theme": "Hoá đơn và thanh toán",
+  "vocab": [
+    { "word": "billing address", "ipa": "/ˈbɪlɪŋ əˈdres/", "meaning_vi": "địa chỉ xuất hoá đơn", "example": "The billing address on this invoice is our old office, so we must return it.", "example_vi": "Địa chỉ xuất hoá đơn trên tờ này là văn phòng cũ, nên phải trả lại." },
+    { "word": "e-invoice", "ipa": "/ˈiː ˈɪnvɔɪs/", "meaning_vi": "hoá đơn điện tử", "example": "Since January, every supplier must send an e-invoice instead of a paper one.", "example_vi": "Từ tháng Một, mọi nhà cung cấp phải gửi hoá đơn điện tử thay cho bản giấy." },
+    { "word": "payment run", "ipa": "/ˈpeɪmənt rʌn/", "meaning_vi": "đợt chi trả định kỳ", "example": "Our payment run is every Thursday, so late requests wait a week.", "example_vi": "Đợt chi trả của chúng tôi là mỗi thứ Năm, nên đề nghị trễ phải đợi một tuần." },
+    { "word": "part payment", "ipa": "/pɑːt ˈpeɪmənt/", "meaning_vi": "thanh toán một phần", "example": "The supplier accepted a part payment of sixty percent this month.", "example_vi": "Nhà cung cấp chấp nhận thanh toán một phần sáu mươi phần trăm trong tháng này." },
+    { "word": "chase a payment", "ipa": "/tʃeɪs ə ˈpeɪmənt/", "meaning_vi": "đòi/thúc khoản thanh toán", "example": "I have to chase a payment that has been late for three weeks.", "example_vi": "Tôi phải thúc một khoản thanh toán đã trễ ba tuần." },
+    { "word": "debit note", "ipa": "/ˈdebɪt nəʊt/", "meaning_vi": "giấy báo nợ (khi cần thu thêm)", "example": "We will issue a debit note because the first invoice charged too little.", "example_vi": "Chúng tôi sẽ phát hành giấy báo nợ vì hoá đơn đầu tiên tính thiếu tiền." },
+    { "word": "net 30", "ipa": "/net ˈθɜːti/", "meaning_vi": "thanh toán trong vòng 30 ngày kể từ ngày hoá đơn", "example": "Their contract says net 30, counted from the invoice date.", "example_vi": "Hợp đồng của họ ghi thanh toán trong ba mươi ngày, tính từ ngày hoá đơn." },
+    { "word": "on hold", "ipa": "/ɒn həʊld/", "meaning_vi": "bị tạm giữ, chưa xử lý tiếp", "example": "The transfer is on hold until the manager signs the approval form.", "example_vi": "Lệnh chuyển tiền bị tạm giữ đến khi quản lý ký vào phiếu duyệt." }
+  ],
+  "listening": {
+    "title": "Sorting out a supplier invoice",
+    "lines": [
+      { "speaker": "Hoa (Accountant)", "voice": "female", "text": "Tuan, the invoice from the hardware supplier cannot go through today." },
+      { "speaker": "Tuan (Procurement Officer)", "voice": "male", "text": "Really? They told me the goods were delivered two weeks ago." },
+      { "speaker": "Hoa (Accountant)", "voice": "female", "text": "The delivery is fine, but the billing address is still our old office." },
+      { "speaker": "Tuan (Procurement Officer)", "voice": "male", "text": "I see. Should I ask them to cancel it and send a new e-invoice?" },
+      { "speaker": "Hoa (Accountant)", "voice": "female", "text": "Yes, please. Without a correct e-invoice, our tax team will not accept the cost." },
+      { "speaker": "Tuan (Procurement Officer)", "voice": "male", "text": "How long do we have? Their terms are net 30 and the clock is running." },
+      { "speaker": "Hoa (Accountant)", "voice": "female", "text": "Nine days left. If the new file arrives Tuesday, it joins Thursday's payment run." },
+      { "speaker": "Tuan (Procurement Officer)", "voice": "male", "text": "And if it arrives later? They already called me twice to chase a payment." },
+      { "speaker": "Hoa (Accountant)", "voice": "female", "text": "Then I can arrange a part payment first, so the account stays healthy." },
+      { "speaker": "Tuan (Procurement Officer)", "voice": "male", "text": "That sounds fair. They also sent a debit note for the extra shipping fee." },
+      { "speaker": "Hoa (Accountant)", "voice": "female", "text": "I will keep that one on hold until you confirm the fee was agreed." },
+      { "speaker": "Tuan (Procurement Officer)", "voice": "male", "text": "Give me an hour. The email with the agreed price is in my inbox." }
+    ],
+    "questions": [
+      { "q": "What is wrong with the supplier's invoice?", "options": ["The billing address is the old office", "The goods were never delivered", "The amount is missing"], "answer": 0 },
+      { "q": "What will Hoa do if the corrected invoice arrives late?", "options": ["Cancel the whole order", "Arrange a part payment first", "Report the supplier to the tax office"], "answer": 1 },
+      { "q": "Why is the debit note kept on hold?", "options": ["Because the supplier is closed", "Because it is a paper document", "Until Tuan confirms the fee was agreed"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Could you check whether the billing address on this invoice is correct?",
+    "We process the payment run every Thursday, so please submit before Wednesday evening.",
+    "The supplier agreed to a part payment now and the rest next month.",
+    "I need to chase a payment that has been overdue for three weeks.",
+    "Their standard terms are net thirty days from the invoice issue date."
+  ]
+}

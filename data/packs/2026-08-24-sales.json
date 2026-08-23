@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-24",
+  "track": "sales",
+  "theme": "Xử lý khi khách từ chối",
+  "vocab": [
+    { "word": "rejection", "ipa": "/rɪˈdʒekʃn/", "meaning_vi": "sự từ chối", "example": "A rejection today does not mean the door is closed forever.", "example_vi": "Bị từ chối hôm nay không có nghĩa là cánh cửa đóng lại mãi mãi." },
+    { "word": "take it personally", "ipa": "/teɪk ɪt ˈpɜːsənəli/", "meaning_vi": "để bụng, coi đó là chuyện cá nhân", "example": "Do not take it personally when a client chooses another supplier.", "example_vi": "Đừng để bụng khi khách chọn một nhà cung cấp khác." },
+    { "word": "budget freeze", "ipa": "/ˈbʌdʒɪt friːz/", "meaning_vi": "đóng băng ngân sách, tạm dừng chi tiêu", "example": "Their head office announced a budget freeze until the end of the year.", "example_vi": "Trụ sở chính của họ thông báo đóng băng ngân sách đến cuối năm." },
+    { "word": "bad timing", "ipa": "/bæd ˈtaɪmɪŋ/", "meaning_vi": "không đúng thời điểm", "example": "It was simply bad timing, because they signed with another vendor last month.", "example_vi": "Đơn giản là không đúng thời điểm, vì tháng trước họ đã ký với nhà cung cấp khác." },
+    { "word": "final decision", "ipa": "/ˈfaɪnl dɪˈsɪʒn/", "meaning_vi": "quyết định cuối cùng", "example": "I respect your final decision and I will not push you again.", "example_vi": "Tôi tôn trọng quyết định cuối cùng của anh và sẽ không nài thêm." },
+    { "word": "lost deal", "ipa": "/lɒst diːl/", "meaning_vi": "hợp đồng bị mất, thương vụ thất bại", "example": "Our team reviews every lost deal to learn what we can improve.", "example_vi": "Nhóm chúng tôi rà lại mọi thương vụ thất bại để học xem cần cải thiện gì." },
+    { "word": "stay in touch", "ipa": "/steɪ ɪn tʌtʃ/", "meaning_vi": "giữ liên lạc", "example": "Can we stay in touch and review your needs again in six months?", "example_vi": "Chúng ta giữ liên lạc và xem lại nhu cầu của anh sau sáu tháng nhé?" },
+    { "word": "referral", "ipa": "/rɪˈfɜːrəl/", "meaning_vi": "sự giới thiệu sang người khác", "example": "Even without an order, a referral to your partner would help me a lot.", "example_vi": "Dù chưa có đơn hàng, một lời giới thiệu sang đối tác của anh cũng giúp tôi rất nhiều." }
+  ],
+  "listening": {
+    "title": "A polite no from the client",
+    "lines": [
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "Good afternoon, Ms. Thu. Have you had time to review our proposal?" },
+      { "speaker": "Thu (Operations Manager)", "voice": "female", "text": "I have, Minh. I am sorry, but we will not move ahead this year." },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "Thank you for telling me directly. May I ask what led to that?" },
+      { "speaker": "Thu (Operations Manager)", "voice": "female", "text": "Head office announced a budget freeze, so no new software is approved." },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "I understand. So it is bad timing rather than a problem with the product?" },
+      { "speaker": "Thu (Operations Manager)", "voice": "female", "text": "Exactly. Your demo was clear, and my team liked the reporting screen." },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "That is good to hear. I will not take it personally, and I respect your final decision." },
+      { "speaker": "Thu (Operations Manager)", "voice": "female", "text": "Thank you. Please do not disappear, though. Things may change next year." },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "Then let us stay in touch. May I send you a short update every quarter?" },
+      { "speaker": "Thu (Operations Manager)", "voice": "female", "text": "That works. Keep it short, and I will read it." },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "One last thing. Could you give me a referral to someone in your group?" },
+      { "speaker": "Thu (Operations Manager)", "voice": "female", "text": "I can introduce you to our logistics branch. Their budget is separate from ours." }
+    ],
+    "questions": [
+      { "q": "Why is the client not moving ahead this year?", "options": ["Because of a budget freeze", "Because the demo was confusing", "Because the price is too high"], "answer": 0 },
+      { "q": "What does Minh offer to send every quarter?", "options": ["A new contract", "A short update", "A free product sample"], "answer": 1 },
+      { "q": "What referral does Thu offer?", "options": ["A friend at a competitor", "Her former manager", "Their logistics branch"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Thank you for your time, and I fully respect your final decision.",
+    "May I ask which part of the offer did not work for you?",
+    "I understand the budget freeze, so let us talk again next quarter.",
+    "If the timing is bad now, I am happy to stay in touch.",
+    "Would you mind giving me a referral to someone else in your industry?"
+  ]
+}

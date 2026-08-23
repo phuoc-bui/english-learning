@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-24",
+  "track": "it",
+  "theme": "Họp retrospective",
+  "vocab": [
+    { "word": "icebreaker", "ipa": "/ˈaɪsbreɪkə/", "meaning_vi": "hoạt động khởi động cho mọi người thoải mái", "example": "We start every retrospective with a two-minute icebreaker so people relax.", "example_vi": "Chúng tôi mở đầu mỗi buổi retrospective bằng hoạt động khởi động hai phút để mọi người thoải mái." },
+    { "word": "sticky note", "ipa": "/ˈstɪki nəʊt/", "meaning_vi": "giấy ghi chú dán (dùng để ghi ý kiến)", "example": "Write one idea on each sticky note and put it on the board.", "example_vi": "Mỗi giấy ghi chú viết một ý rồi dán lên bảng." },
+    { "word": "brainstorm", "ipa": "/ˈbreɪnstɔːm/", "meaning_vi": "cùng nghĩ ra nhiều ý tưởng", "example": "Let us brainstorm for five minutes before we discuss any single idea.", "example_vi": "Chúng ta cùng nghĩ ý tưởng trong năm phút trước khi bàn sâu từng ý." },
+    { "word": "speak up", "ipa": "/spiːk ʌp/", "meaning_vi": "lên tiếng, nói ra suy nghĩ của mình", "example": "Junior members should speak up too, because their view is often different.", "example_vi": "Các bạn mới cũng nên lên tiếng, vì góc nhìn của họ thường khác." },
+    { "word": "cluster", "ipa": "/ˈklʌstə/", "meaning_vi": "nhóm các ý giống nhau lại với nhau", "example": "We cluster similar notes so the team can see the biggest problem.", "example_vi": "Chúng tôi gom các ghi chú giống nhau để cả nhóm thấy vấn đề lớn nhất." },
+    { "word": "owner", "ipa": "/ˈəʊnə/", "meaning_vi": "người chịu trách nhiệm chính cho một việc", "example": "Each action needs one owner, not the whole team.", "example_vi": "Mỗi việc cần một người chịu trách nhiệm chính, không phải cả nhóm." },
+    { "word": "measurable", "ipa": "/ˈmeʒərəbl/", "meaning_vi": "đo lường được (có con số cụ thể)", "example": "Make the action measurable, for example cut build time by ten minutes.", "example_vi": "Hãy đặt hành động đo lường được, ví dụ giảm thời gian build đi mười phút." },
+    { "word": "revisit", "ipa": "/ˌriːˈvɪzɪt/", "meaning_vi": "xem lại, quay lại xem xét sau", "example": "We revisit last month's actions at the beginning of every meeting.", "example_vi": "Chúng tôi xem lại các hành động của tháng trước vào đầu mỗi buổi họp." }
+  ],
+  "listening": {
+    "title": "Running a sprint retrospective",
+    "lines": [
+      { "speaker": "Hoa (Scrum Master)", "voice": "female", "text": "Good morning, everyone. Let us begin with a short icebreaker before the real discussion." },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "Sure. Should we write our thoughts first, or talk one by one?" },
+      { "speaker": "Hoa (Scrum Master)", "voice": "female", "text": "Write first, please. Put one idea on each sticky note for five minutes." },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "Fine. I have three notes about slow builds and one about unclear tickets." },
+      { "speaker": "Hoa (Scrum Master)", "voice": "female", "text": "Great. I will cluster the similar notes so we can see the pattern." },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "Many people wrote about the same build problem, so that group is the biggest." },
+      { "speaker": "Hoa (Scrum Master)", "voice": "female", "text": "Then let us brainstorm solutions for that one. Please speak up, even if the idea sounds small." },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "We could run the heavy tests at night instead of on every single commit." },
+      { "speaker": "Hoa (Scrum Master)", "voice": "female", "text": "I like it. Can you be the owner and make the goal measurable?" },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "Yes. My target is to cut the build from twenty minutes to eight." },
+      { "speaker": "Hoa (Scrum Master)", "voice": "female", "text": "Perfect. We will revisit this action at the start of the next retrospective." }
+    ],
+    "questions": [
+      { "q": "How does Hoa want the team to share ideas first?", "options": ["By writing on sticky notes", "By speaking one by one", "By sending an email"], "answer": 0 },
+      { "q": "What does Minh suggest about the heavy tests?", "options": ["Delete them completely", "Run them at night instead of on every commit", "Ask the client to run them"], "answer": 1 },
+      { "q": "What is Minh's measurable target?", "options": ["Zero bugs in the sprint", "Twenty new tests every week", "Cut the build from twenty minutes to eight"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Let me start the retrospective with a short icebreaker to help everyone relax.",
+    "Please write your ideas on sticky notes before we group them into topics.",
+    "Feel free to speak up, because nobody here will blame you for problems.",
+    "Every action item needs an owner and a clear date, not just good intentions.",
+    "We will revisit these three actions at the start of the next retrospective."
+  ]
+}

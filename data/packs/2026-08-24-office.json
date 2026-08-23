@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-24",
+  "track": "office",
+  "theme": "Xin nghỉ phép & bàn giao",
+  "vocab": [
+    { "word": "carry over", "ipa": "/ˈkæri ˈəʊvə/", "meaning_vi": "chuyển ngày phép chưa dùng sang năm sau", "example": "You can carry over five unused days to the first quarter of next year.", "example_vi": "Bạn được chuyển năm ngày phép chưa dùng sang quý một năm sau." },
+    { "word": "half day", "ipa": "/hɑːf deɪ/", "meaning_vi": "nghỉ nửa ngày", "example": "I only need a half day on Thursday for a medical appointment.", "example_vi": "Tôi chỉ cần nghỉ nửa ngày thứ Năm để đi khám bệnh." },
+    { "word": "accrue", "ipa": "/əˈkruː/", "meaning_vi": "tích luỹ dần (ngày phép theo thời gian làm việc)", "example": "New staff accrue one extra day of leave for every month they work.", "example_vi": "Nhân viên mới tích luỹ thêm một ngày phép cho mỗi tháng làm việc." },
+    { "word": "grant leave", "ipa": "/ɡrɑːnt liːv/", "meaning_vi": "duyệt cho nghỉ phép", "example": "My manager will grant leave only if the monthly report is finished.", "example_vi": "Quản lý của tôi chỉ duyệt nghỉ phép nếu báo cáo tháng đã xong." },
+    { "word": "substitute", "ipa": "/ˈsʌbstɪtjuːt/", "meaning_vi": "người thay thế tạm thời", "example": "Please name a substitute who can answer client emails while you are away.", "example_vi": "Hãy chỉ định người thay thế có thể trả lời email khách hàng khi bạn vắng." },
+    { "word": "shared drive", "ipa": "/ʃeəd draɪv/", "meaning_vi": "ổ đĩa dùng chung của nhóm", "example": "All the contract files are in the team folder on the shared drive.", "example_vi": "Toàn bộ file hợp đồng nằm trong thư mục nhóm trên ổ đĩa dùng chung." },
+    { "word": "on my behalf", "ipa": "/ɒn maɪ bɪˈhɑːf/", "meaning_vi": "thay mặt tôi", "example": "Linh will join the partner call on my behalf next Tuesday.", "example_vi": "Linh sẽ dự cuộc gọi với đối tác thay mặt tôi vào thứ Ba tới." },
+    { "word": "block out", "ipa": "/blɒk aʊt/", "meaning_vi": "chặn/giữ sẵn một khoảng thời gian trên lịch", "example": "I will block out an hour on Friday to explain my open tasks.", "example_vi": "Tôi sẽ giữ sẵn một tiếng vào thứ Sáu để giải thích các việc đang làm dở." }
+  ],
+  "listening": {
+    "title": "Asking for leave and planning the handover",
+    "lines": [
+      { "speaker": "Nam (Marketing Executive)", "voice": "male", "text": "Linh, do you have a minute? I would like to take leave next month." },
+      { "speaker": "Linh (Team Leader)", "voice": "female", "text": "Of course. Which dates are you thinking about, and how many days?" },
+      { "speaker": "Nam (Marketing Executive)", "voice": "male", "text": "From the tenth to the fourteenth, plus a half day on the ninth." },
+      { "speaker": "Linh (Team Leader)", "voice": "female", "text": "That should be fine. Do you still have enough days this year?" },
+      { "speaker": "Nam (Marketing Executive)", "voice": "male", "text": "Yes. I accrue one day every month, and I can also carry over three days." },
+      { "speaker": "Linh (Team Leader)", "voice": "female", "text": "Good. I can only grant leave after the campaign report is delivered." },
+      { "speaker": "Nam (Marketing Executive)", "voice": "male", "text": "The report will be ready on the seventh, two days before I leave." },
+      { "speaker": "Linh (Team Leader)", "voice": "female", "text": "Then who will be your substitute for the daily social media posts?" },
+      { "speaker": "Nam (Marketing Executive)", "voice": "male", "text": "Hoa agreed to do it, and she will also join the agency call on my behalf." },
+      { "speaker": "Linh (Team Leader)", "voice": "female", "text": "Please put the schedule and the passwords on the shared drive for her." },
+      { "speaker": "Nam (Marketing Executive)", "voice": "male", "text": "I will. Can we block out Friday afternoon to walk through everything together?" },
+      { "speaker": "Linh (Team Leader)", "voice": "female", "text": "Yes, three o'clock works for me. Send Hoa the invitation as well." }
+    ],
+    "questions": [
+      { "q": "When does Nam want to take a half day?", "options": ["On the seventh", "On the ninth", "On the fourteenth"], "answer": 1 },
+      { "q": "What condition does Linh set before she grants the leave?", "options": ["The campaign report must be delivered", "Nam must work every weekend", "Hoa must be promoted first"], "answer": 0 },
+      { "q": "Where should Nam put the schedule and passwords?", "options": ["In a printed folder", "In a personal email", "On the shared drive"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I would like to apply for three days of leave next week.",
+    "Could you cover the client report on my behalf while I am away?",
+    "I have put all the handover files on the shared drive for you.",
+    "Please block out Friday afternoon so we can go through my open tasks.",
+    "If anything is urgent, my manager can decide without waiting for me."
+  ]
+}
