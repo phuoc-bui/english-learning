@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-25",
+  "track": "interview",
+  "theme": "Xử lý xung đột trong nhóm",
+  "vocab": [
+    { "word": "misunderstanding", "ipa": "/ˌmɪsʌndəˈstændɪŋ/", "meaning_vi": "sự hiểu lầm", "example": "Most conflicts in my team started as a small misunderstanding.", "example_vi": "Phần lớn mâu thuẫn trong nhóm tôi bắt đầu từ một hiểu lầm nhỏ." },
+    { "word": "one-on-one", "ipa": "/ˌwʌn ɒn ˈwʌn/", "meaning_vi": "buổi nói chuyện riêng giữa hai người", "example": "I asked him for a one-on-one because email made things worse.", "example_vi": "Tôi rủ anh ấy nói chuyện riêng vì trao đổi qua email làm mọi thứ tệ hơn." },
+    { "word": "neutral party", "ipa": "/ˈnjuːtrəl ˈpɑːti/", "meaning_vi": "bên trung lập", "example": "We invited our manager to join as a neutral party for ten minutes.", "example_vi": "Chúng tôi mời quản lý tham gia mười phút với vai trò bên trung lập." },
+    { "word": "assume good intent", "ipa": "/əˈsjuːm ɡʊd ɪnˈtent/", "meaning_vi": "tin rằng người kia có ý tốt", "example": "I try to assume good intent before I judge a colleague's message.", "example_vi": "Tôi cố tin rằng đồng nghiệp có ý tốt trước khi phán xét tin nhắn của họ." },
+    { "word": "hear both sides", "ipa": "/hɪə bəʊθ saɪdz/", "meaning_vi": "nghe ý kiến của cả hai bên", "example": "A good leader will hear both sides before making any decision.", "example_vi": "Một người lãnh đạo tốt sẽ nghe cả hai bên trước khi ra quyết định." },
+    { "word": "reach an agreement", "ipa": "/riːtʃ ən əˈɡriːmənt/", "meaning_vi": "đạt được thoả thuận", "example": "After twenty minutes we reached an agreement about urgent bugs.", "example_vi": "Sau hai mươi phút chúng tôi đạt được thoả thuận về cách xử lý lỗi khẩn cấp." },
+    { "word": "clear the air", "ipa": "/klɪə ði eə/", "meaning_vi": "làm dịu căng thẳng, nói ra cho rõ ràng", "example": "One honest conversation cleared the air between us completely.", "example_vi": "Một cuộc nói chuyện thẳng thắn đã hoàn toàn làm dịu căng thẳng giữa chúng tôi." },
+    { "word": "stay objective", "ipa": "/steɪ əbˈdʒektɪv/", "meaning_vi": "giữ thái độ khách quan", "example": "I try to stay objective and look at the facts, not personal feelings.", "example_vi": "Tôi cố giữ khách quan và nhìn vào sự việc, không nhìn vào cảm xúc cá nhân." }
+  ],
+  "listening": {
+    "title": "Interview question: a conflict with a teammate",
+    "lines": [
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "Nam, can you tell me about a conflict you had with a teammate?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Yes. Last year a tester and I disagreed about who should fix urgent bugs." },
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "That sounds stressful. What was the first thing you did?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I asked him for a one-on-one coffee, because email was making things worse." },
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "And what did you learn in that conversation?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "It was mainly a misunderstanding. He thought I was ignoring his reports on purpose." },
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "How did you handle that moment?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I tried to stay objective and hear both sides before suggesting any solution." },
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "Did you need help from your manager?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Only once. We asked her to join as a neutral party for ten minutes." },
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "What was the final result?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "We reached an agreement about urgent bugs, and that cleared the air completely." }
+    ],
+    "questions": [
+      { "q": "What was the conflict about?", "options": ["Who should fix urgent bugs", "Who should lead the meeting", "Who should write the report"], "answer": 0 },
+      { "q": "How did Nam start solving the problem?", "options": ["He wrote a long email", "He asked for a one-on-one coffee", "He complained to HR"], "answer": 1 },
+      { "q": "What role did the manager play?", "options": ["She decided everything herself", "She joined as a neutral party", "She moved Nam to another team"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "The situation was a disagreement about who should fix urgent bugs each week.",
+    "My task was to solve it quickly without hurting the team's daily work.",
+    "I invited him for a one-on-one coffee and let him speak first.",
+    "I tried to stay objective and hear both sides before suggesting a solution.",
+    "As a result, we reached an agreement and finished the release on time."
+  ]
+}

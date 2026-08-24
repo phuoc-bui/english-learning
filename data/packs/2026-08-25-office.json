@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-25",
+  "track": "office",
+  "theme": "Báo cáo với sếp",
+  "vocab": [
+    { "word": "weekly report", "ipa": "/ˈwiːkli rɪˈpɔːt/", "meaning_vi": "báo cáo tuần", "example": "I send my weekly report to my manager every Friday afternoon.", "example_vi": "Tôi gửi báo cáo tuần cho quản lý vào chiều thứ Sáu hằng tuần." },
+    { "word": "progress report", "ipa": "/ˈprəʊɡres rɪˈpɔːt/", "meaning_vi": "báo cáo tiến độ", "example": "The director asked for a short progress report on the training project.", "example_vi": "Giám đốc yêu cầu một báo cáo tiến độ ngắn về dự án đào tạo." },
+    { "word": "high-level overview", "ipa": "/ˌhaɪ ˈlevl ˈəʊvəvjuː/", "meaning_vi": "phần tóm tắt tổng quan, không đi vào chi tiết", "example": "Let me give you a high-level overview first, and then the details.", "example_vi": "Để tôi trình bày tổng quan trước, sau đó mới đến chi tiết." },
+    { "word": "bring to your attention", "ipa": "/brɪŋ tə jɔː əˈtenʃn/", "meaning_vi": "lưu ý sếp về việc gì đó", "example": "I would like to bring to your attention a problem with the budget.", "example_vi": "Tôi muốn lưu ý anh về một vấn đề trong ngân sách." },
+    { "word": "back on track", "ipa": "/bæk ɒn træk/", "meaning_vi": "trở lại đúng tiến độ", "example": "With one more designer, the project will be back on track next week.", "example_vi": "Có thêm một bạn thiết kế, dự án sẽ trở lại đúng tiến độ vào tuần sau." },
+    { "word": "resource constraint", "ipa": "/rɪˈzɔːs kənˈstreɪnt/", "meaning_vi": "hạn chế về nguồn lực (người, thời gian, tiền)", "example": "We have a resource constraint because two designers are on leave.", "example_vi": "Chúng ta bị hạn chế nguồn lực vì hai bạn thiết kế đang nghỉ phép." },
+    { "word": "mitigation plan", "ipa": "/ˌmɪtɪˈɡeɪʃn plæn/", "meaning_vi": "phương án giảm thiểu rủi ro", "example": "Every delay in my report comes with a clear mitigation plan.", "example_vi": "Mỗi chỗ chậm trễ trong báo cáo của tôi đều kèm phương án khắc phục rõ ràng." },
+    { "word": "key takeaway", "ipa": "/kiː ˈteɪkəweɪ/", "meaning_vi": "ý chính cần nhớ", "example": "The key takeaway is that we need one more designer next month.", "example_vi": "Ý chính cần nhớ là tháng sau chúng ta cần thêm một bạn thiết kế." }
+  ],
+  "listening": {
+    "title": "Monday report with the manager",
+    "lines": [
+      { "speaker": "Hoa (Project Coordinator)", "voice": "female", "text": "Good morning, Minh. I have prepared my weekly report for our ten o'clock meeting." },
+      { "speaker": "Minh (Manager)", "voice": "male", "text": "Thank you, Hoa. Please start with a high-level overview before the details." },
+      { "speaker": "Hoa (Project Coordinator)", "voice": "female", "text": "Sure. Two of the three projects are on schedule, and one is a little late." },
+      { "speaker": "Minh (Manager)", "voice": "male", "text": "Which one is late, and what is the main reason for the delay?" },
+      { "speaker": "Hoa (Project Coordinator)", "voice": "female", "text": "The training project. We have a resource constraint because two designers are on leave." },
+      { "speaker": "Minh (Manager)", "voice": "male", "text": "I see. Do you have a mitigation plan to bring it back on track?" },
+      { "speaker": "Hoa (Project Coordinator)", "voice": "female", "text": "Yes. We will hire a freelancer for two weeks and move the launch by five days." },
+      { "speaker": "Minh (Manager)", "voice": "male", "text": "That sounds reasonable. Please put that in the progress report for the director." },
+      { "speaker": "Hoa (Project Coordinator)", "voice": "female", "text": "I will. I also want to bring to your attention a small gap in the budget." },
+      { "speaker": "Minh (Manager)", "voice": "male", "text": "Send me the numbers today. What is the key takeaway for this week?" },
+      { "speaker": "Hoa (Project Coordinator)", "voice": "female", "text": "Overall we are in good shape, but we need one extra designer next month." }
+    ],
+    "questions": [
+      { "q": "How many projects are on schedule?", "options": ["One", "Two", "Three"], "answer": 1 },
+      { "q": "Why is the training project late?", "options": ["Two designers are on leave", "The budget was cut", "The client changed the plan"], "answer": 0 },
+      { "q": "What does Minh ask Hoa to send today?", "options": ["The numbers about the budget gap", "The freelancer's contract", "The new launch date"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Here is a high-level overview before I go into the detailed numbers.",
+    "We have a resource constraint this month because two designers are on leave.",
+    "I would like to bring to your attention a small gap in the budget.",
+    "Our mitigation plan will bring the project back on track within two weeks.",
+    "The key takeaway is that we need one extra designer for next month."
+  ]
+}

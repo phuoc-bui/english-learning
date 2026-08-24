@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-25",
+  "track": "it",
+  "theme": "Remote meeting etiquette",
+  "vocab": [
+    { "word": "dial in", "ipa": "/ˈdaɪəl ɪn/", "meaning_vi": "gọi vào cuộc họp bằng điện thoại", "example": "If your internet is down, you can dial in by phone instead.", "example_vi": "Nếu mạng hỏng, bạn có thể gọi vào cuộc họp bằng điện thoại." },
+    { "word": "headset", "ipa": "/ˈhedset/", "meaning_vi": "tai nghe có micro", "example": "A cheap headset gives much better sound than your laptop microphone.", "example_vi": "Một chiếc tai nghe rẻ tiền cũng cho âm thanh tốt hơn micro laptop nhiều." },
+    { "word": "echo", "ipa": "/ˈekəʊ/", "meaning_vi": "tiếng vọng, âm bị dội lại", "example": "There is an echo because two people are using speakers in the same room.", "example_vi": "Có tiếng vọng vì hai người dùng loa ngoài trong cùng một phòng." },
+    { "word": "talk over someone", "ipa": "/tɔːk ˈəʊvə ˈsʌmwʌn/", "meaning_vi": "nói chen ngang, nói đè lên lời người khác", "example": "In a video call it is easy to talk over someone by accident.", "example_vi": "Trong cuộc họp video rất dễ vô tình nói chen ngang lời người khác." },
+    { "word": "waiting room", "ipa": "/ˈweɪtɪŋ ruːm/", "meaning_vi": "phòng chờ (trước khi được cho vào họp)", "example": "Please let me in; I have been in the waiting room for two minutes.", "example_vi": "Cho tôi vào với, tôi đã ở phòng chờ hai phút rồi." },
+    { "word": "meeting link", "ipa": "/ˈmiːtɪŋ lɪŋk/", "meaning_vi": "đường link vào cuộc họp", "example": "I will send the meeting link in the team channel ten minutes before we start.", "example_vi": "Tôi sẽ gửi link vào họp trong kênh của nhóm mười phút trước khi bắt đầu." },
+    { "word": "cut out", "ipa": "/kʌt aʊt/", "meaning_vi": "bị ngắt quãng (âm thanh, hình ảnh)", "example": "Your voice keeps cutting out, so please check your connection.", "example_vi": "Giọng bạn cứ bị ngắt quãng, bạn kiểm tra lại đường truyền nhé." },
+    { "word": "side conversation", "ipa": "/saɪd ˌkɒnvəˈseɪʃn/", "meaning_vi": "cuộc trò chuyện riêng bên lề cuộc họp", "example": "Please avoid side conversations in the chat while someone is presenting.", "example_vi": "Hãy tránh nói chuyện riêng trong khung chat khi có người đang trình bày." }
+  ],
+  "listening": {
+    "title": "Ground rules for our remote meetings",
+    "lines": [
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Good morning, everyone. Please join the call on time so we can start at nine." },
+      { "speaker": "Linh (Developer)", "voice": "female", "text": "Sorry, I was in the waiting room for two minutes before you let me in." },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "That was my mistake. I forgot to open the room after the previous meeting." },
+      { "speaker": "Linh (Developer)", "voice": "female", "text": "By the way, your voice keeps cutting out. Maybe your connection is not stable." },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Let me switch to my headset. Is this better for everyone now?" },
+      { "speaker": "Linh (Developer)", "voice": "female", "text": "Much better. There is no echo now, and I can hear you clearly." },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Good. Please stay on mute when you are not speaking, especially in a noisy room." },
+      { "speaker": "Linh (Developer)", "voice": "female", "text": "Should I also avoid side conversations in the chat while someone is presenting?" },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Yes, keep the chat for questions. And please try not to talk over other people." },
+      { "speaker": "Linh (Developer)", "voice": "female", "text": "Understood. I will send the meeting link to Hoa, who joined our team yesterday." },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Thank you. One last thing: if you dial in by phone, say your name first." }
+    ],
+    "questions": [
+      { "q": "Why did Linh join the meeting late?", "options": ["She lost the meeting link", "She was still in the waiting room", "Her headset was broken"], "answer": 1 },
+      { "q": "How does Nam fix his sound problem?", "options": ["He switches to his headset", "He turns off his camera", "He restarts his laptop"], "answer": 0 },
+      { "q": "What does Nam ask people to do when they are not speaking?", "options": ["Leave the call", "Stay on mute", "Write in the chat"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Please stay on mute when you are not speaking during the call.",
+    "Sorry, your voice is cutting out; could you move closer to the router?",
+    "I will send the meeting link again so everyone can join on time.",
+    "Let me switch to my headset because there is a strong echo here.",
+    "Please keep side conversations in the chat until the speaker has finished talking."
+  ]
+}

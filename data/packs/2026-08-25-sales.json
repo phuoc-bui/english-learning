@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-25",
+  "track": "sales",
+  "theme": "Đàm phán giá & điều khoản",
+  "vocab": [
+    { "word": "ballpark figure", "ipa": "/ˈbɔːlpɑːk ˈfɪɡə/", "meaning_vi": "con số ước chừng, giá tạm tính", "example": "Could you give me a ballpark figure for one hundred licences?", "example_vi": "Anh cho tôi một con số ước chừng cho một trăm license được không?" },
+    { "word": "wiggle room", "ipa": "/ˈwɪɡl ruːm/", "meaning_vi": "khoảng linh động (để thương lượng)", "example": "There is a little wiggle room on price if you sign for two years.", "example_vi": "Giá còn chút linh động nếu anh ký hợp đồng hai năm." },
+    { "word": "price point", "ipa": "/praɪs pɔɪnt/", "meaning_vi": "mức giá của sản phẩm", "example": "Our price point is twenty dollars per user each month.", "example_vi": "Mức giá của chúng tôi là hai mươi đô mỗi người dùng mỗi tháng." },
+    { "word": "contract length", "ipa": "/ˈkɒntrækt leŋθ/", "meaning_vi": "thời hạn hợp đồng", "example": "If we extend the contract length, I can lower the monthly fee.", "example_vi": "Nếu kéo dài thời hạn hợp đồng, tôi có thể giảm phí hằng tháng." },
+    { "word": "upfront payment", "ipa": "/ˌʌpˈfrʌnt ˈpeɪmənt/", "meaning_vi": "khoản thanh toán trả trước", "example": "Many customers do not want a large upfront payment in the first month.", "example_vi": "Nhiều khách hàng không muốn trả trước một khoản lớn ngay tháng đầu." },
+    { "word": "trade-off", "ipa": "/ˈtreɪd ɒf/", "meaning_vi": "sự đánh đổi giữa hai lựa chọn", "example": "The trade-off is a lower price but a longer commitment.", "example_vi": "Sự đánh đổi ở đây là giá thấp hơn nhưng cam kết dài hơn." },
+    { "word": "agree in principle", "ipa": "/əˈɡriː ɪn ˈprɪnsəpl/", "meaning_vi": "thống nhất về nguyên tắc (chi tiết bàn sau)", "example": "We agree in principle, but our legal team must read the contract first.", "example_vi": "Chúng ta thống nhất về nguyên tắc, nhưng bộ phận pháp lý phải đọc hợp đồng trước." },
+    { "word": "penalty clause", "ipa": "/ˈpenəlti klɔːz/", "meaning_vi": "điều khoản phạt", "example": "The customer asked us to remove the penalty clause for early cancellation.", "example_vi": "Khách hàng đề nghị bỏ điều khoản phạt khi huỷ hợp đồng sớm." }
+  ],
+  "listening": {
+    "title": "Negotiating price and terms with a client",
+    "lines": [
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Thank you for your time, Nam. Shall we talk about price and terms today?" },
+      { "speaker": "Nam (Procurement Manager)", "voice": "male", "text": "Yes, please. Can you give me a ballpark figure for one hundred licences?" },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "For that volume, our price point is about twenty dollars per user each month." },
+      { "speaker": "Nam (Procurement Manager)", "voice": "male", "text": "That is higher than our budget. Is there any wiggle room on that number?" },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "A little, if we increase the contract length from one year to two years." },
+      { "speaker": "Nam (Procurement Manager)", "voice": "male", "text": "So the trade-off is a lower price but a longer commitment. I understand." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Exactly. With two years I can offer eighteen dollars and free training for your staff." },
+      { "speaker": "Nam (Procurement Manager)", "voice": "male", "text": "What about payment? We prefer not to make a large upfront payment." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "We can split it into four quarterly payments with no extra charge." },
+      { "speaker": "Nam (Procurement Manager)", "voice": "male", "text": "Good. But please remove the penalty clause if we cancel after eighteen months." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "I must check with my manager, but I think we can agree in principle today." }
+    ],
+    "questions": [
+      { "q": "What price does Linh offer for a two-year contract?", "options": ["Twenty dollars per user", "Eighteen dollars per user", "Fifteen dollars per user"], "answer": 1 },
+      { "q": "How does Linh solve the payment problem?", "options": ["She removes the training fee", "She splits the payment into four quarterly payments", "She asks for full payment next year"], "answer": 1 },
+      { "q": "What does Nam want to remove from the contract?", "options": ["The penalty clause", "The training package", "The quarterly payments"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Could you give me a ballpark figure before we prepare the formal quotation?",
+    "There is a little wiggle room if you extend the contract length.",
+    "The trade-off is a lower price point for a longer commitment from you.",
+    "We would prefer four quarterly payments instead of one large upfront payment.",
+    "I think we can agree in principle and sign the contract next week."
+  ]
+}

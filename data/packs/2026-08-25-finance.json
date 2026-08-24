@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-25",
+  "track": "finance",
+  "theme": "Làm việc với kiểm toán",
+  "vocab": [
+    { "word": "fieldwork", "ipa": "/ˈfiːldwɜːk/", "meaning_vi": "giai đoạn kiểm toán viên làm việc trực tiếp tại công ty", "example": "The fieldwork starts on Monday and will last for two weeks.", "example_vi": "Giai đoạn kiểm toán tại chỗ bắt đầu từ thứ Hai và kéo dài hai tuần." },
+    { "word": "audit query", "ipa": "/ˈɔːdɪt ˈkwɪəri/", "meaning_vi": "câu hỏi/yêu cầu giải trình từ kiểm toán", "example": "We answer every audit query by email so there is a written record.", "example_vi": "Chúng tôi trả lời mọi câu hỏi kiểm toán qua email để có lưu vết bằng văn bản." },
+    { "word": "prior year figures", "ipa": "/ˈpraɪə jɪə ˈfɪɡəz/", "meaning_vi": "số liệu năm trước", "example": "The auditor compares this month with the prior year figures.", "example_vi": "Kiểm toán viên so sánh tháng này với số liệu năm trước." },
+    { "word": "grant access", "ipa": "/ɡrɑːnt ˈækses/", "meaning_vi": "cấp quyền truy cập", "example": "I will grant access to our accounting system for two auditors only.", "example_vi": "Tôi sẽ cấp quyền truy cập hệ thống kế toán cho đúng hai kiểm toán viên." },
+    { "word": "trace a transaction", "ipa": "/treɪs ə trænˈzækʃn/", "meaning_vi": "lần theo một giao dịch từ đầu đến cuối", "example": "They want to trace a transaction from the invoice to the bank payment.", "example_vi": "Họ muốn lần theo một giao dịch từ hoá đơn đến khoản chi ở ngân hàng." },
+    { "word": "response deadline", "ipa": "/rɪˈspɒns ˈdedlaɪn/", "meaning_vi": "hạn phải phản hồi", "example": "The response deadline for normal questions is five working days.", "example_vi": "Hạn phản hồi cho câu hỏi thông thường là năm ngày làm việc." },
+    { "word": "closing meeting", "ipa": "/ˈkləʊzɪŋ ˈmiːtɪŋ/", "meaning_vi": "buổi họp kết thúc kiểm toán để thông báo kết quả", "example": "All findings will be discussed at the closing meeting on Friday.", "example_vi": "Mọi phát hiện sẽ được trao đổi tại buổi họp kết thúc vào thứ Sáu." },
+    { "word": "confidential", "ipa": "/ˌkɒnfɪˈdenʃl/", "meaning_vi": "bảo mật, không được chia sẻ rộng", "example": "Salary data is confidential, so it needs my approval before sharing.", "example_vi": "Dữ liệu lương là thông tin bảo mật nên cần tôi duyệt trước khi chia sẻ." }
+  ],
+  "listening": {
+    "title": "Preparing for the annual audit",
+    "lines": [
+      { "speaker": "Minh (Audit Senior)", "voice": "male", "text": "Good morning, Hoa. Our fieldwork starts on Monday and will last for two weeks." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Thank you for telling me early. Which documents do you need first?" },
+      { "speaker": "Minh (Audit Senior)", "voice": "male", "text": "The general ledger, the bank statements, and the prior year figures for comparison." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "I will grant access to our accounting system for your team on Monday morning." },
+      { "speaker": "Minh (Audit Senior)", "voice": "male", "text": "That helps a lot. We also need to trace a transaction from invoice to payment." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "No problem. Every payment has a reference number, so it is easy to follow." },
+      { "speaker": "Minh (Audit Senior)", "voice": "male", "text": "We will send each audit query by email, with a response deadline of three days." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Three days is tight during month-end. Could we agree on five days instead?" },
+      { "speaker": "Minh (Audit Senior)", "voice": "male", "text": "Five days is fine for normal items, but urgent ones stay at three days." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Understood. Please remember that salary data is confidential and needs my approval." },
+      { "speaker": "Minh (Audit Senior)", "voice": "male", "text": "Of course. We will discuss all the findings with you at the closing meeting." }
+    ],
+    "questions": [
+      { "q": "When does the fieldwork start?", "options": ["On Monday", "At the end of the month", "Next year"], "answer": 0 },
+      { "q": "What does Hoa ask about the response deadline?", "options": ["To remove it completely", "To extend it to five days", "To answer only by phone"], "answer": 1 },
+      { "q": "What does Hoa say about salary data?", "options": ["It is confidential and needs her approval", "It is not ready yet", "It is kept by the auditor"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Our fieldwork starts on Monday and will last for about two weeks.",
+    "I will grant access to the accounting system for your team tomorrow.",
+    "Could we extend the response deadline to five working days during month-end?",
+    "Please send each audit query by email so we can answer clearly.",
+    "We will discuss all the findings with you at the closing meeting."
+  ]
+}
