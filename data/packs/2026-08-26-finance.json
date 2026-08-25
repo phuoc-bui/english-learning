@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-26",
+  "track": "finance",
+  "theme": "Expense claim & hoàn ứng",
+  "vocab": [
+    { "word": "claim form", "ipa": "/ˈkleɪm fɔːrm/", "meaning_vi": "mẫu đơn đề nghị hoàn tiền", "example": "Download the claim form from the intranet and fill it in completely.", "example_vi": "Hãy tải mẫu đơn hoàn tiền trên mạng nội bộ và điền đầy đủ." },
+    { "word": "eligible expense", "ipa": "/ˈelɪdʒəbl ɪkˈspens/", "meaning_vi": "khoản chi được phép hoàn", "example": "A taxi to the airport is an eligible expense, but a personal meal is not.", "example_vi": "Tiền taxi ra sân bay là khoản chi được hoàn, còn bữa ăn cá nhân thì không." },
+    { "word": "settle the advance", "ipa": "/ˈsetl ði ədˈvɑːns/", "meaning_vi": "quyết toán khoản tạm ứng", "example": "You must settle the advance within seven days after the business trip.", "example_vi": "Bạn phải quyết toán khoản tạm ứng trong vòng bảy ngày sau chuyến công tác." },
+    { "word": "approver", "ipa": "/əˈpruːvər/", "meaning_vi": "người phê duyệt", "example": "Your approver will get an email as soon as you submit the claim.", "example_vi": "Người phê duyệt sẽ nhận email ngay khi bạn nộp đề nghị hoàn tiền." },
+    { "word": "reject a claim", "ipa": "/rɪˈdʒekt ə ˈkleɪm/", "meaning_vi": "từ chối đề nghị hoàn tiền", "example": "We have to reject a claim when the receipt is missing or unclear.", "example_vi": "Chúng tôi phải từ chối đề nghị hoàn tiền khi thiếu hoá đơn hoặc hoá đơn không rõ." },
+    { "word": "travel expense", "ipa": "/ˈtrævl ɪkˈspens/", "meaning_vi": "chi phí đi lại, công tác phí", "example": "Please record every travel expense on the same form.", "example_vi": "Vui lòng ghi mọi chi phí đi lại vào cùng một biểu mẫu." },
+    { "word": "itemize", "ipa": "/ˈaɪtəmaɪz/", "meaning_vi": "liệt kê chi tiết từng khoản", "example": "Please itemize the hotel, the taxi and the meals separately.", "example_vi": "Vui lòng liệt kê riêng tiền khách sạn, taxi và bữa ăn." },
+    { "word": "resubmit", "ipa": "/ˌriːsəbˈmɪt/", "meaning_vi": "nộp lại", "example": "Correct the amount and resubmit the form before Friday.", "example_vi": "Hãy sửa lại số tiền và nộp lại biểu mẫu trước thứ Sáu." }
+  ],
+  "listening": {
+    "title": "Claiming expenses after a business trip",
+    "lines": [
+      { "speaker": "Sơn (Sales Staff)", "voice": "male", "text": "Hi Ngọc, I want to claim my travel expense from the Da Nang trip." },
+      { "speaker": "Ngọc (Accountant)", "voice": "female", "text": "Sure. Please fill in the claim form and attach all the original receipts." },
+      { "speaker": "Sơn (Sales Staff)", "voice": "male", "text": "I paid for the hotel and two taxis. Is the client dinner an eligible expense?" },
+      { "speaker": "Ngọc (Accountant)", "voice": "female", "text": "Yes, but only up to five hundred thousand dong for each person." },
+      { "speaker": "Sơn (Sales Staff)", "voice": "male", "text": "I also took a cash advance of three million dong before the trip." },
+      { "speaker": "Ngọc (Accountant)", "voice": "female", "text": "Then we will settle the advance first and pay you the difference." },
+      { "speaker": "Sơn (Sales Staff)", "voice": "male", "text": "How long does the approval take after I submit everything?" },
+      { "speaker": "Ngọc (Accountant)", "voice": "female", "text": "Your approver is Lan, and she usually signs within two working days." },
+      { "speaker": "Sơn (Sales Staff)", "voice": "male", "text": "What happens if something is missing on my form?" },
+      { "speaker": "Ngọc (Accountant)", "voice": "female", "text": "If a receipt is missing, we must reject a claim. You can itemize the costs again and resubmit." }
+    ],
+    "questions": [
+      { "q": "What must Sơn attach to his claim form?", "options": ["All the original receipts", "A copy of his passport", "A photo of the hotel"], "answer": 0 },
+      { "q": "What will the company do with the cash advance?", "options": ["Keep it until next year", "Settle it first and pay him the difference", "Ask him to return it in cash"], "answer": 1 },
+      { "q": "How long does the approver usually take to sign?", "options": ["Two working days", "Two weeks", "One month"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Please fill in the claim form and attach all the original receipts today.",
+    "Is a client dinner an eligible expense under our current company policy?",
+    "I need to settle the advance before I claim my travel expense.",
+    "Could you please itemize the costs so the approver can check them quickly?",
+    "If we reject a claim, you can fix the form and resubmit it."
+  ]
+}

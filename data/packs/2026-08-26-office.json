@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-26",
+  "track": "office",
+  "theme": "Họp phòng ban",
+  "vocab": [
+    { "word": "any other business", "ipa": "/ˌeni ˈʌðər ˈbɪznəs/", "meaning_vi": "mục \"các vấn đề khác\" ở cuối cuộc họp", "example": "We have five minutes for any other business before we close the meeting.", "example_vi": "Chúng ta có năm phút cho các vấn đề khác trước khi kết thúc cuộc họp." },
+    { "word": "show of hands", "ipa": "/ˌʃəʊ əv ˈhændz/", "meaning_vi": "biểu quyết bằng cách giơ tay", "example": "Let's have a show of hands to see who can join the workshop.", "example_vi": "Hãy giơ tay biểu quyết xem ai có thể tham gia buổi workshop." },
+    { "word": "workstream", "ipa": "/ˈwɜːrkstriːm/", "meaning_vi": "luồng công việc, mảng công việc", "example": "Each workstream reports its progress at the monthly department meeting.", "example_vi": "Mỗi luồng công việc báo cáo tiến độ trong cuộc họp phòng hàng tháng." },
+    { "word": "meeting cadence", "ipa": "/ˈmiːtɪŋ ˈkeɪdns/", "meaning_vi": "tần suất, nhịp họp định kỳ", "example": "Our meeting cadence is weekly, but we may change it to twice a month.", "example_vi": "Nhịp họp của chúng ta là hàng tuần, nhưng có thể đổi thành hai lần một tháng." },
+    { "word": "run through the agenda", "ipa": "/rʌn θruː ði əˈdʒendə/", "meaning_vi": "điểm qua chương trình họp", "example": "Let me run through the agenda so everyone knows what we will cover.", "example_vi": "Để tôi điểm qua chương trình họp để mọi người biết chúng ta sẽ bàn những gì." },
+    { "word": "off the top of my head", "ipa": "/ɒf ðə tɒp əv maɪ ˈhed/", "meaning_vi": "theo trí nhớ, chưa kiểm tra lại số liệu", "example": "Off the top of my head, we had about forty new customers last month.", "example_vi": "Theo trí nhớ của tôi, tháng trước chúng ta có khoảng bốn mươi khách hàng mới." },
+    { "word": "put it to a vote", "ipa": "/pʊt ɪt tuː ə ˈvəʊt/", "meaning_vi": "đưa ra biểu quyết", "example": "If we cannot agree, let's put it to a vote and follow the majority.", "example_vi": "Nếu không thống nhất được, hãy đưa ra biểu quyết và theo số đông." },
+    { "word": "monthly target", "ipa": "/ˈmʌnθli ˈtɑːrɡɪt/", "meaning_vi": "chỉ tiêu hàng tháng", "example": "The team passed its monthly target for the third time this quarter.", "example_vi": "Nhóm đã vượt chỉ tiêu hàng tháng lần thứ ba trong quý này." }
+  ],
+  "listening": {
+    "title": "Monthly meeting of the customer service department",
+    "lines": [
+      { "speaker": "Hùng (Department Manager)", "voice": "male", "text": "Good afternoon, everyone. Let me run through the agenda quickly so we finish on time." },
+      { "speaker": "Thảo (Team Leader)", "voice": "female", "text": "Before we start, can we add one item under any other business?" },
+      { "speaker": "Hùng (Department Manager)", "voice": "male", "text": "Of course. I will leave ten minutes at the end for that." },
+      { "speaker": "Mai (HR Coordinator)", "voice": "female", "text": "Our first point is the monthly target for the customer support team." },
+      { "speaker": "Khoa (Marketing Executive)", "voice": "male", "text": "My workstream reached ninety percent of the target last month, which is better than June." },
+      { "speaker": "Thảo (Team Leader)", "voice": "female", "text": "Off the top of my head, I think the new chat tool helped us a lot." },
+      { "speaker": "Khoa (Marketing Executive)", "voice": "male", "text": "Should we change our meeting cadence from every week to twice a month?" },
+      { "speaker": "Mai (HR Coordinator)", "voice": "female", "text": "Let's put it to a vote. Who prefers twice a month?" },
+      { "speaker": "Hùng (Department Manager)", "voice": "male", "text": "That is a clear show of hands, so we will meet every two weeks from September." },
+      { "speaker": "Thảo (Team Leader)", "voice": "female", "text": "I will update the shared calendar and send the notes to everyone this afternoon." }
+    ],
+    "questions": [
+      { "q": "What does Thảo ask for at the beginning of the meeting?", "options": ["To cancel the meeting", "To add an item under any other business", "To change the monthly target"], "answer": 1 },
+      { "q": "How did the department decide the new meeting cadence?", "options": ["By a show of hands", "By an email survey", "By asking the director"], "answer": 0 },
+      { "q": "What will Thảo do after the meeting?", "options": ["Book a bigger meeting room", "Update the calendar and send the notes", "Hire a new team member"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Let's run through the agenda quickly so that we can finish on time.",
+    "Can we add one more item under any other business at the end?",
+    "Off the top of my head, our team reached about ninety percent last month.",
+    "Let's put it to a vote so everyone in the department can decide.",
+    "I will change our meeting cadence and update the shared calendar this afternoon."
+  ]
+}

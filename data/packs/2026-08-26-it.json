@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-26",
+  "track": "it",
+  "theme": "Daily standup meeting",
+  "vocab": [
+    { "word": "impediment", "ipa": "/ɪmˈpedɪmənt/", "meaning_vi": "trở ngại, vướng mắc cản trở công việc", "example": "Please raise any impediment during the standup so the team can help you quickly.", "example_vi": "Hãy nêu bất kỳ vướng mắc nào trong buổi standup để cả nhóm giúp bạn nhanh chóng." },
+    { "word": "kanban board", "ipa": "/ˈkænbæn bɔːrd/", "meaning_vi": "bảng kanban để theo dõi công việc", "example": "Move your card on the kanban board as soon as the task is done.", "example_vi": "Hãy di chuyển thẻ của bạn trên bảng kanban ngay khi hoàn thành công việc." },
+    { "word": "work item", "ipa": "/ˈwɜːrk ˌaɪtəm/", "meaning_vi": "hạng mục công việc", "example": "Every work item needs a clear owner before the sprint starts.", "example_vi": "Mỗi hạng mục công việc cần có người phụ trách rõ ràng trước khi sprint bắt đầu." },
+    { "word": "story point", "ipa": "/ˈstɔːri pɔɪnt/", "meaning_vi": "điểm story, đơn vị ước lượng khối lượng công việc", "example": "We estimated this feature at five story points during sprint planning.", "example_vi": "Chúng tôi ước lượng tính năng này là năm điểm story trong buổi lập kế hoạch sprint." },
+    { "word": "in flight", "ipa": "/ɪn ˈflaɪt/", "meaning_vi": "đang được thực hiện, còn dang dở", "example": "Two tasks are still in flight, so we cannot close the sprint today.", "example_vi": "Hai công việc vẫn đang dang dở nên hôm nay chúng ta chưa thể đóng sprint." },
+    { "word": "parking lot", "ipa": "/ˈpɑːrkɪŋ lɑːt/", "meaning_vi": "danh sách vấn đề để bàn sau cuộc họp", "example": "Let's move this topic to the parking lot and discuss it after the standup.", "example_vi": "Hãy đưa chủ đề này vào danh sách bàn sau và thảo luận sau buổi standup." },
+    { "word": "on my plate", "ipa": "/ɒn maɪ ˈpleɪt/", "meaning_vi": "đang phải làm, đang ôm việc", "example": "I have three tickets on my plate this week, so I need some support.", "example_vi": "Tuần này tôi đang ôm ba ticket nên tôi cần hỗ trợ một chút." },
+    { "word": "pick up a ticket", "ipa": "/pɪk ʌp ə ˈtɪkɪt/", "meaning_vi": "nhận một task để làm", "example": "If you are free, please pick up a ticket from the top of the backlog.", "example_vi": "Nếu bạn rảnh, hãy nhận một ticket ở đầu backlog để làm." }
+  ],
+  "listening": {
+    "title": "Monday standup with the product team",
+    "lines": [
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Good morning, team. Let's start the standup and try to finish in fifteen minutes." },
+      { "speaker": "Linh (Backend Developer)", "voice": "female", "text": "I'll go first. Yesterday I finished the payment service and moved the work item to review." },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Great. What do you have in flight today?" },
+      { "speaker": "Linh (Backend Developer)", "voice": "female", "text": "I'll pick up a ticket about the refund API. Nothing is blocking me at the moment." },
+      { "speaker": "Minh (QA Engineer)", "voice": "male", "text": "Yesterday I tested the login flow and logged two small bugs on the kanban board." },
+      { "speaker": "Hoa (Frontend Developer)", "voice": "female", "text": "Thanks, Minh. I saw them this morning and I have already fixed one of them." },
+      { "speaker": "Minh (QA Engineer)", "voice": "male", "text": "Today I still have five story points on my plate, but I can finish them by Thursday." },
+      { "speaker": "Hoa (Frontend Developer)", "voice": "female", "text": "I have one impediment. The design file is not final, so I cannot build the profile page." },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Let's put that in the parking lot and speak to the designer right after this call." },
+      { "speaker": "Linh (Backend Developer)", "voice": "female", "text": "Good idea. Everything else looks fine, so we can close the standup here." }
+    ],
+    "questions": [
+      { "q": "What did Linh finish yesterday?", "options": ["The payment service", "The profile page", "The login tests"], "answer": 0 },
+      { "q": "Where did Minh log the two bugs?", "options": ["In a long email", "On the kanban board", "In the design file"], "answer": 1 },
+      { "q": "What does Nam suggest about Hoa's impediment?", "options": ["Wait until the next sprint", "Put it in the parking lot and talk to the designer", "Ask Hoa to change the design herself"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Yesterday I finished the payment service and moved the work item to review.",
+    "Today I will pick up a ticket about the refund API for our client.",
+    "I have one impediment and I need help from the design team today.",
+    "Let's put that topic in the parking lot and discuss it after the standup.",
+    "I still have five story points on my plate, but everything is on track."
+  ]
+}

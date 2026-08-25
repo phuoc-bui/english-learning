@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-26",
+  "track": "interview",
+  "theme": "Lý do nghỉ việc & chuyển việc",
+  "vocab": [
+    { "word": "reason for leaving", "ipa": "/ˈriːzn fər ˈliːvɪŋ/", "meaning_vi": "lý do nghỉ việc", "example": "Prepare a short, honest reason for leaving before every interview.", "example_vi": "Hãy chuẩn bị một lý do nghỉ việc ngắn gọn và trung thực trước mỗi buổi phỏng vấn." },
+    { "word": "outgrow my role", "ipa": "/ˌaʊtˈɡrəʊ maɪ rəʊl/", "meaning_vi": "vượt ra ngoài khuôn khổ vị trí hiện tại", "example": "I have started to outgrow my role and I want more responsibility.", "example_vi": "Tôi đã bắt đầu vượt ra ngoài khuôn khổ vị trí hiện tại và muốn nhận thêm trách nhiệm." },
+    { "word": "hit a ceiling", "ipa": "/hɪt ə ˈsiːlɪŋ/", "meaning_vi": "chạm trần, không thể thăng tiến thêm", "example": "I hit a ceiling because there was no higher position in my department.", "example_vi": "Tôi chạm trần vì phòng của tôi không còn vị trí nào cao hơn." },
+    { "word": "mutual decision", "ipa": "/ˈmjuːtʃuəl dɪˈsɪʒn/", "meaning_vi": "quyết định của cả hai bên", "example": "Leaving the company was a mutual decision after a long, open talk.", "example_vi": "Việc rời công ty là quyết định của cả hai bên sau một buổi nói chuyện cởi mở." },
+    { "word": "redundancy", "ipa": "/rɪˈdʌndənsi/", "meaning_vi": "việc bị cắt giảm nhân sự", "example": "He lost his job because of redundancy, not because of his performance.", "example_vi": "Anh ấy mất việc vì công ty cắt giảm nhân sự, không phải vì năng lực." },
+    { "word": "speak highly of", "ipa": "/spiːk ˈhaɪli əv/", "meaning_vi": "nói tốt về ai đó", "example": "I still speak highly of my old team and my former manager.", "example_vi": "Tôi vẫn nói tốt về nhóm cũ và người quản lý cũ của mình." },
+    { "word": "positive spin", "ipa": "/ˈpɒzətɪv spɪn/", "meaning_vi": "cách diễn đạt theo hướng tích cực", "example": "Put a positive spin on your answer instead of blaming your old company.", "example_vi": "Hãy diễn đạt câu trả lời theo hướng tích cực thay vì đổ lỗi cho công ty cũ." },
+    { "word": "long-term fit", "ipa": "/ˌlɒŋ ˈtɜːrm fɪt/", "meaning_vi": "sự phù hợp lâu dài", "example": "I am looking for a long-term fit, not a job for one year.", "example_vi": "Tôi đang tìm một nơi phù hợp lâu dài, không phải công việc chỉ một năm." }
+  ],
+  "listening": {
+    "title": "Interview: talking about your reason for leaving",
+    "lines": [
+      { "speaker": "Hương (HR Manager, interviewer)", "voice": "female", "text": "Tuấn, could you tell me your reason for leaving your current company?" },
+      { "speaker": "Tuấn (Candidate)", "voice": "male", "text": "Of course. After four years, I feel that I have started to outgrow my role." },
+      { "speaker": "Hương (HR Manager, interviewer)", "voice": "female", "text": "Could you explain that a little more for me?" },
+      { "speaker": "Tuấn (Candidate)", "voice": "male", "text": "I hit a ceiling last year because there was no senior position in my small team." },
+      { "speaker": "Hương (HR Manager, interviewer)", "voice": "female", "text": "How do you feel about your current employer today?" },
+      { "speaker": "Tuấn (Candidate)", "voice": "male", "text": "I speak highly of them. My manager taught me a lot and we are still in touch." },
+      { "speaker": "Hương (HR Manager, interviewer)", "voice": "female", "text": "Was your decision to leave a mutual decision?" },
+      { "speaker": "Tuấn (Candidate)", "voice": "male", "text": "Yes. We talked openly, and my manager understood that I needed a bigger challenge." },
+      { "speaker": "Hương (HR Manager, interviewer)", "voice": "female", "text": "Some candidates leave because of redundancy. Was that your situation?" },
+      { "speaker": "Tuấn (Candidate)", "voice": "male", "text": "No, my position is safe. I am simply looking for a long-term fit, not a quick change." }
+    ],
+    "questions": [
+      { "q": "Why is Tuấn leaving his current company?", "options": ["He was made redundant", "He has started to outgrow his role", "He had a serious conflict with his manager"], "answer": 1 },
+      { "q": "How does Tuấn describe his current employer?", "options": ["He speaks highly of them", "He complains about them", "He refuses to talk about them"], "answer": 0 },
+      { "q": "What is Tuấn looking for in a new job?", "options": ["A short contract", "A long-term fit", "A job with no travel"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "After four years, I feel that I have started to outgrow my current role.",
+    "I hit a ceiling because there was no senior position in my small team.",
+    "I speak highly of my manager, who taught me how to lead a project.",
+    "Leaving was a mutual decision after an open and very honest conversation.",
+    "I am looking for a long-term fit where I can grow for many years."
+  ]
+}

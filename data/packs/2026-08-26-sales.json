@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-26",
+  "track": "sales",
+  "theme": "Email follow-up sau gặp khách",
+  "vocab": [
+    { "word": "thank-you note", "ipa": "/ˈθæŋk juː nəʊt/", "meaning_vi": "lời cảm ơn ngắn trong email", "example": "Always begin your follow-up email with a short thank-you note.", "example_vi": "Hãy luôn bắt đầu email follow-up bằng một lời cảm ơn ngắn." },
+    { "word": "as promised", "ipa": "/əz ˈprɒmɪst/", "meaning_vi": "như đã hứa", "example": "As promised, I am sending you the full quotation this afternoon.", "example_vi": "Như đã hứa, chiều nay tôi gửi anh/chị bản báo giá đầy đủ." },
+    { "word": "per your request", "ipa": "/pɜːr jɔːr rɪˈkwest/", "meaning_vi": "theo yêu cầu của anh/chị", "example": "Per your request, I have added the delivery schedule to the proposal.", "example_vi": "Theo yêu cầu của anh/chị, tôi đã thêm lịch giao hàng vào bản đề xuất." },
+    { "word": "meeting notes", "ipa": "/ˈmiːtɪŋ nəʊts/", "meaning_vi": "ghi chú nội dung cuộc gặp", "example": "I attached the meeting notes so we all remember the same details.", "example_vi": "Tôi đính kèm ghi chú cuộc gặp để cả hai bên nhớ cùng một nội dung." },
+    { "word": "next touchpoint", "ipa": "/nekst ˈtʌtʃpɔɪnt/", "meaning_vi": "lần liên hệ kế tiếp với khách", "example": "Our next touchpoint is a short call on Tuesday morning.", "example_vi": "Lần liên hệ kế tiếp của chúng ta là một cuộc gọi ngắn sáng thứ Ba." },
+    { "word": "on your radar", "ipa": "/ɒn jɔːr ˈreɪdɑːr/", "meaning_vi": "nằm trong tầm chú ý của anh/chị", "example": "I am writing to keep our new plan on your radar this month.", "example_vi": "Tôi viết email này để giữ kế hoạch mới trong tầm chú ý của anh/chị tháng này." },
+    { "word": "attachment", "ipa": "/əˈtætʃmənt/", "meaning_vi": "tệp đính kèm", "example": "Please check the attachment for the updated price list.", "example_vi": "Anh/chị vui lòng xem tệp đính kèm để biết bảng giá mới nhất." },
+    { "word": "nudge", "ipa": "/nʌdʒ/", "meaning_vi": "lời nhắc nhẹ nhàng", "example": "After a week of silence, I sent a polite nudge to the client.", "example_vi": "Sau một tuần không hồi âm, tôi gửi một lời nhắc nhẹ nhàng cho khách." }
+  ],
+  "listening": {
+    "title": "Writing a follow-up email after the client meeting",
+    "lines": [
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "How did the meeting with Sunrise Retail go this morning?" },
+      { "speaker": "Duy (Sales Executive)", "voice": "male", "text": "Very well. They liked the demo, so I want to send a follow-up email today." },
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "Good. Start with a short thank-you note and keep the email under two hundred words." },
+      { "speaker": "Duy (Sales Executive)", "voice": "male", "text": "Should I send the price list as promised during the meeting?" },
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "Yes, and mention the attachment in the first line so they do not miss it." },
+      { "speaker": "Duy (Sales Executive)", "voice": "male", "text": "I also wrote a summary of the meeting notes with three action points." },
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "Perfect. Add the next touchpoint too, for example a call next Tuesday." },
+      { "speaker": "Duy (Sales Executive)", "voice": "male", "text": "What if they do not reply? Should I send another email?" },
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "Wait four working days, then send a friendly nudge to stay on their radar." },
+      { "speaker": "Duy (Sales Executive)", "voice": "male", "text": "Understood. I will send you the draft before I press send." }
+    ],
+    "questions": [
+      { "q": "How should Duy start his follow-up email?", "options": ["With a long company introduction", "With a short thank-you note", "With the total price"], "answer": 1 },
+      { "q": "How long should Duy wait before sending a reminder?", "options": ["Four working days", "Two weeks", "The same afternoon"], "answer": 0 },
+      { "q": "What will Duy do before he sends the email?", "options": ["Call the client again", "Send the draft to Trang", "Book a meeting room"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Thank you again for your time this morning and for the useful discussion.",
+    "As promised, I have attached the price list and a short product summary.",
+    "Please find the meeting notes below with the three action points we agreed.",
+    "Would next Tuesday at ten o'clock work for a short follow-up call?",
+    "I am just sending a gentle nudge to keep this offer on your radar."
+  ]
+}
