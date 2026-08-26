@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-27",
+  "track": "office",
+  "theme": "Feedback cho đồng nghiệp",
+  "vocab": [
+    { "word": "peer feedback", "ipa": "/pɪr ˈfiːdbæk/", "meaning_vi": "phản hồi giữa các đồng nghiệp cùng cấp", "example": "Our team collects peer feedback every quarter, not only from managers.", "example_vi": "Nhóm chúng tôi thu thập phản hồi từ đồng nghiệp mỗi quý, không chỉ từ quản lý." },
+    { "word": "one-on-one", "ipa": "/ˌwʌn ɒn ˈwʌn/", "meaning_vi": "buổi trao đổi riêng giữa hai người", "example": "Let us discuss this in a one-on-one instead of the team meeting.", "example_vi": "Chúng ta hãy trao đổi việc này trong buổi nói chuyện riêng thay vì họp nhóm." },
+    { "word": "observation", "ipa": "/ˌɒbzərˈveɪʃn/", "meaning_vi": "điều mình quan sát được, nêu ra một cách khách quan", "example": "I have one observation about how you shared the file last night.", "example_vi": "Tôi có một quan sát về cách bạn gửi file tối qua." },
+    { "word": "acknowledge effort", "ipa": "/əkˈnɒlɪdʒ ˈefərt/", "meaning_vi": "ghi nhận công sức của người khác", "example": "Always acknowledge effort before you talk about what can improve.", "example_vi": "Hãy luôn ghi nhận công sức trước khi nói về điều cần cải thiện." },
+    { "word": "timely", "ipa": "/ˈtaɪmli/", "meaning_vi": "kịp thời, đúng lúc", "example": "Timely comments are more useful than a long report at year end.", "example_vi": "Nhận xét kịp thời hữu ích hơn một bản báo cáo dài vào cuối năm." },
+    { "word": "defensive", "ipa": "/dɪˈfensɪv/", "meaning_vi": "phòng thủ, dễ tự ái khi bị góp ý", "example": "Try not to sound defensive when a colleague points out a mistake.", "example_vi": "Cố gắng đừng tỏ ra tự ái khi đồng nghiệp chỉ ra một lỗi sai." },
+    { "word": "self-assessment", "ipa": "/ˌself əˈsesmənt/", "meaning_vi": "bản tự đánh giá của chính mình", "example": "Please send me your self-assessment before our review next Monday.", "example_vi": "Hãy gửi tôi bản tự đánh giá của bạn trước buổi đánh giá thứ Hai tới." },
+    { "word": "follow-through", "ipa": "/ˌfɒloʊ ˈθruː/", "meaning_vi": "sự thực hiện đến nơi đến chốn sau khi đã thống nhất", "example": "Good feedback needs follow-through, or nothing really changes.", "example_vi": "Phản hồi tốt cần được thực hiện đến nơi đến chốn, nếu không thì không có gì thay đổi." }
+  ],
+  "listening": {
+    "title": "A one-on-one about last week's report",
+    "lines": [
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "Thanks for joining this one-on-one, Tuan. I would like to share some feedback." },
+      { "speaker": "Tuan (Business Analyst)", "voice": "male", "text": "Of course. I always prefer to hear it early." },
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "Your report last week was clear, and the whole team acknowledged your effort on the charts." },
+      { "speaker": "Tuan (Business Analyst)", "voice": "male", "text": "Thank you. I spent two evenings cleaning the data." },
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "One observation: you sent the file at eleven at night, so nobody could check it." },
+      { "speaker": "Tuan (Business Analyst)", "voice": "male", "text": "That is fair. I should share a draft much earlier." },
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "Exactly. Timely comments from the team help you fix small mistakes before the client sees them." },
+      { "speaker": "Tuan (Business Analyst)", "voice": "male", "text": "I understand. Sometimes I feel defensive when people comment on my work." },
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "That is normal. Try to hear the point first, then decide what to change." },
+      { "speaker": "Tuan (Business Analyst)", "voice": "male", "text": "I will. Should I prepare a short self-assessment before our next review?" },
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "Good idea. Write three strengths and two things to improve, and we will discuss them." },
+      { "speaker": "Tuan (Business Analyst)", "voice": "male", "text": "Perfect. I will also add a follow-through plan for the actions we agree on." }
+    ],
+    "questions": [
+      { "q": "What did Hoa praise in Tuan's report?", "options": ["The charts and his effort", "The length of the report", "The design of the slides"], "answer": 0 },
+      { "q": "What was Hoa's main observation?", "options": ["He forgot to attach the file", "He used the wrong template", "He sent the file very late at night"], "answer": 2 },
+      { "q": "What will Tuan prepare before the next review?", "options": ["A new report for the client", "A self-assessment with strengths and improvements", "A budget plan"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Could I share some quick feedback about the report you sent last night?",
+    "I want to acknowledge your effort; the charts were clear and easy to follow.",
+    "One observation: sharing the draft earlier would give the team time to comment.",
+    "Try not to feel defensive; the comments are about the work, not you.",
+    "Let us book a one-on-one next week to review your self-assessment together."
+  ]
+}

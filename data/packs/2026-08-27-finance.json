@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-27",
+  "track": "finance",
+  "theme": "Dự báo dòng tiền",
+  "vocab": [
+    { "word": "baseline", "ipa": "/ˈbeɪslaɪn/", "meaning_vi": "mốc cơ sở dùng để so sánh và dự báo", "example": "We used last year's figures as the baseline for this forecast.", "example_vi": "Chúng tôi dùng số liệu năm ngoái làm mốc cơ sở cho dự báo này." },
+    { "word": "collection period", "ipa": "/kəˈlekʃn ˈpɪriəd/", "meaning_vi": "thời gian thu hồi công nợ từ khách hàng", "example": "Two large customers have a sixty-day collection period.", "example_vi": "Hai khách hàng lớn có thời gian thu hồi công nợ là sáu mươi ngày." },
+    { "word": "dip", "ipa": "/dɪp/", "meaning_vi": "sự sụt giảm tạm thời", "example": "The forecast shows a dip in October before sales recover.", "example_vi": "Dự báo cho thấy một đợt sụt giảm vào tháng Mười trước khi doanh số hồi phục." },
+    { "word": "headroom", "ipa": "/ˈhedruːm/", "meaning_vi": "khoảng dư an toàn về tiền mặt", "example": "Our headroom drops to about two weeks of operating cost.", "example_vi": "Khoảng dư an toàn của chúng ta giảm còn khoảng hai tuần chi phí vận hành." },
+    { "word": "credit line", "ipa": "/ˈkredɪt laɪn/", "meaning_vi": "hạn mức tín dụng ngân hàng cấp cho công ty", "example": "We keep the credit line as a backup, but we have never used it.", "example_vi": "Chúng tôi giữ hạn mức tín dụng để dự phòng, nhưng chưa bao giờ dùng đến." },
+    { "word": "overdraft", "ipa": "/ˈoʊvərdræft/", "meaning_vi": "khoản thấu chi, rút quá số dư tài khoản", "example": "An overdraft is expensive, so we plan our payments carefully.", "example_vi": "Thấu chi rất tốn kém nên chúng tôi lên kế hoạch thanh toán cẩn thận." },
+    { "word": "committed spend", "ipa": "/kəˈmɪtɪd spend/", "meaning_vi": "khoản chi đã cam kết, khó huỷ", "example": "Salaries and rent are committed spend, so we cannot delay them.", "example_vi": "Lương và tiền thuê là khoản chi đã cam kết nên chúng ta không thể hoãn." },
+    { "word": "peak season", "ipa": "/piːk ˈsiːzn/", "meaning_vi": "mùa cao điểm", "example": "September is our peak season, so cash comes in quickly.", "example_vi": "Tháng Chín là mùa cao điểm nên tiền về rất nhanh." }
+  ],
+  "listening": {
+    "title": "Reviewing the three-month cash forecast",
+    "lines": [
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "Hoa, could you walk me through the cash forecast for the next three months?" },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Of course. I used last year's numbers as the baseline and adjusted for new contracts." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "How does September look?" },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "September is comfortable. We expect a strong month because it is our peak season." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "And what about October?" },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "October shows a dip. Two large customers have a sixty-day collection period." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "So the money arrives late, but salaries and rent stay the same." },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Exactly. Our headroom drops to about two weeks of operating cost." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "That is tight. Do we still have the credit line with the bank?" },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Yes, and we have never used it. We could also delay some committed spend on new laptops." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "Let us keep the credit line as a backup and move the laptop purchase to November." },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Agreed. I will update the forecast and send you a new version on Friday." }
+    ],
+    "questions": [
+      { "q": "Which month shows a cash dip?", "options": ["September", "October", "November"], "answer": 1 },
+      { "q": "Why does the dip happen?", "options": ["Two big customers pay after sixty days", "The company lost a contract", "The rent increased sharply"], "answer": 0 },
+      { "q": "What do they decide about the laptop purchase?", "options": ["Cancel it completely", "Buy the laptops in September", "Move it to November"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I used last year's figures as the baseline for this three-month cash forecast.",
+    "October looks tight because two big customers pay us after sixty days.",
+    "Our headroom is only two weeks, so we should delay some big purchases.",
+    "We still have a credit line with the bank, but we prefer not to use it.",
+    "I will update the forecast and send you the new version on Friday."
+  ]
+}

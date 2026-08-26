@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-27",
+  "track": "sales",
+  "theme": "Gặp khách lần đầu",
+  "vocab": [
+    { "word": "introductory meeting", "ipa": "/ˌɪntrəˈdʌktəri ˈmiːtɪŋ/", "meaning_vi": "buổi gặp làm quen, giới thiệu ban đầu", "example": "This is only an introductory meeting, so we will not discuss prices today.", "example_vi": "Đây chỉ là buổi gặp làm quen nên hôm nay chúng ta chưa bàn về giá." },
+    { "word": "do your homework", "ipa": "/duː jɔːr ˈhoʊmwɜːrk/", "meaning_vi": "tìm hiểu kỹ trước khi gặp khách", "example": "I did my homework and read your company report before this visit.", "example_vi": "Tôi đã tìm hiểu kỹ và đọc báo cáo công ty của anh trước chuyến thăm này." },
+    { "word": "greet", "ipa": "/ɡriːt/", "meaning_vi": "chào hỏi khi gặp mặt", "example": "Always greet the receptionist politely before you meet the client.", "example_vi": "Hãy luôn chào lễ tân một cách lịch sự trước khi gặp khách hàng." },
+    { "word": "courteous", "ipa": "/ˈkɜːrtiəs/", "meaning_vi": "lịch thiệp, nhã nhặn", "example": "A courteous email after the visit leaves a very good impression.", "example_vi": "Một email nhã nhặn sau buổi gặp để lại ấn tượng rất tốt." },
+    { "word": "attentive", "ipa": "/əˈtentɪv/", "meaning_vi": "chăm chú lắng nghe, quan tâm đến người khác", "example": "Be attentive and take notes while the customer describes the problem.", "example_vi": "Hãy chăm chú lắng nghe và ghi chép khi khách hàng mô tả vấn đề." },
+    { "word": "agenda", "ipa": "/əˈdʒendə/", "meaning_vi": "chương trình, nội dung dự kiến của buổi gặp", "example": "I prepared a short agenda so we can use our forty minutes well.", "example_vi": "Tôi đã chuẩn bị một chương trình ngắn để chúng ta dùng tốt bốn mươi phút." },
+    { "word": "take the lead", "ipa": "/teɪk ðə liːd/", "meaning_vi": "chủ động dẫn dắt câu chuyện", "example": "I let the customer take the lead when he explains his daily process.", "example_vi": "Tôi để khách hàng chủ động dẫn dắt khi anh ấy giải thích quy trình hằng ngày." },
+    { "word": "set expectations", "ipa": "/set ˌekspekˈteɪʃnz/", "meaning_vi": "thống nhất trước điều gì sẽ và không xảy ra", "example": "Let me set expectations: today I only want to understand your needs.", "example_vi": "Cho phép tôi nói rõ trước: hôm nay tôi chỉ muốn hiểu nhu cầu của anh." }
+  ],
+  "listening": {
+    "title": "First visit to a new customer",
+    "lines": [
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Good morning, Mr. Khanh. Thank you for meeting me at your office today." },
+      { "speaker": "Mr. Khanh (Operations Manager)", "voice": "male", "text": "Good morning, Linh. Please have a seat. Would you like tea or coffee?" },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Tea would be lovely, thank you. Your reception area looks very new." },
+      { "speaker": "Mr. Khanh (Operations Manager)", "voice": "male", "text": "We moved here in March. So, what can you tell me about your company?" },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Before I start, I did my homework and read your latest report on the website." },
+      { "speaker": "Mr. Khanh (Operations Manager)", "voice": "male", "text": "That is good to hear. Many salespeople come here without any preparation." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "I prepared a short agenda: your current process, our solution, and the next steps." },
+      { "speaker": "Mr. Khanh (Operations Manager)", "voice": "male", "text": "That works for me. We have about forty minutes." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Perfect. Let me set expectations: today I only want to understand your needs." },
+      { "speaker": "Mr. Khanh (Operations Manager)", "voice": "male", "text": "I appreciate that. Our warehouse team still records everything on paper." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Thank you for sharing. Could you take the lead and walk me through one order?" },
+      { "speaker": "Mr. Khanh (Operations Manager)", "voice": "male", "text": "Sure. It starts when the customer calls our hotline in the morning." }
+    ],
+    "questions": [
+      { "q": "Where does the meeting take place?", "options": ["At a coffee shop", "At Mr. Khanh's office", "On a video call"], "answer": 1 },
+      { "q": "What impressed Mr. Khanh about Linh?", "options": ["She brought a gift", "She had read about his company", "She offered a big discount"], "answer": 1 },
+      { "q": "What is Linh's goal for this first meeting?", "options": ["To sign a contract", "To collect a payment", "To understand the customer's needs"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Thank you for your time today; I know your morning is very busy.",
+    "Before we start, I would like to share a short agenda for today.",
+    "I read your annual report, so I understand your business quite well already.",
+    "Today I only want to listen and learn about your current working process.",
+    "Could you walk me through one order from the first call to delivery?"
+  ]
+}

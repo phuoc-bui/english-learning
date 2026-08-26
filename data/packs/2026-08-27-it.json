@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-27",
+  "track": "it",
+  "theme": "Code review & pull requests",
+  "vocab": [
+    { "word": "diff", "ipa": "/dɪf/", "meaning_vi": "phần khác biệt giữa code cũ và code mới", "example": "Please read the diff carefully before you approve my changes.", "example_vi": "Hãy đọc kỹ phần khác biệt trước khi bạn duyệt thay đổi của tôi." },
+    { "word": "squash commits", "ipa": "/skwɒʃ kəˈmɪts/", "meaning_vi": "gộp nhiều commit thành một commit", "example": "I will squash commits so the history of the branch stays clean.", "example_vi": "Tôi sẽ gộp các commit lại để lịch sử của nhánh gọn gàng hơn." },
+    { "word": "feature branch", "ipa": "/ˈfiːtʃər bræntʃ/", "meaning_vi": "nhánh riêng để phát triển một tính năng", "example": "Every new task starts on its own feature branch, not on main.", "example_vi": "Mỗi công việc mới bắt đầu trên một nhánh tính năng riêng, không phải trên nhánh main." },
+    { "word": "code smell", "ipa": "/koʊd smel/", "meaning_vi": "dấu hiệu code viết chưa tốt, dễ gây lỗi về sau", "example": "The same logic in four files is a clear code smell.", "example_vi": "Cùng một đoạn logic nằm ở bốn file là một dấu hiệu code chưa tốt." },
+    { "word": "boilerplate", "ipa": "/ˈbɔɪlərpleɪt/", "meaning_vi": "đoạn code lặp đi lặp lại, không mang nhiều ý nghĩa riêng", "example": "We moved the boilerplate into a helper so each file becomes shorter.", "example_vi": "Chúng tôi chuyển đoạn code lặp lại vào một hàm hỗ trợ để mỗi file ngắn hơn." },
+    { "word": "blocking comment", "ipa": "/ˈblɒkɪŋ ˈkɒment/", "meaning_vi": "nhận xét bắt buộc phải sửa trước khi merge", "example": "I left one blocking comment about the missing error handling.", "example_vi": "Tôi để lại một nhận xét bắt buộc phải sửa về phần xử lý lỗi còn thiếu." },
+    { "word": "turnaround time", "ipa": "/ˈtɜːrnəraʊnd taɪm/", "meaning_vi": "thời gian xử lý xong một việc, ở đây là thời gian review", "example": "A short turnaround time on reviews keeps the whole team moving.", "example_vi": "Thời gian review ngắn giúp cả nhóm tiến độ trôi chảy." },
+    { "word": "second opinion", "ipa": "/ˈsekənd əˈpɪnjən/", "meaning_vi": "ý kiến thứ hai từ một người khác", "example": "This change touches security, so I want a second opinion from Minh.", "example_vi": "Thay đổi này liên quan đến bảo mật nên tôi muốn có ý kiến thứ hai từ Minh." }
+  ],
+  "listening": {
+    "title": "Reviewing a large pull request",
+    "lines": [
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Hi Linh, could you take a look at my pull request when you have time?" },
+      { "speaker": "Linh (Senior Developer)", "voice": "female", "text": "Sure. I opened the diff this morning, but it has too many files to review." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "I know. Should I split it into smaller changes?" },
+      { "speaker": "Linh (Senior Developer)", "voice": "female", "text": "Yes, please. A smaller pull request is easier to read and gets reviewed faster." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Okay. I will also squash commits so the history stays clean." },
+      { "speaker": "Linh (Senior Developer)", "voice": "female", "text": "Good. I left one blocking comment about the error handling in the payment service." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "I saw it. I copied that block from another file, so it is a bit of boilerplate." },
+      { "speaker": "Linh (Senior Developer)", "voice": "female", "text": "That repeated code is a small code smell. Can you move it into one helper function?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Sure. I will push the change on my feature branch this afternoon." },
+      { "speaker": "Linh (Senior Developer)", "voice": "female", "text": "Great. I will review again tomorrow morning, so the turnaround time stays short." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Thanks. If you are too busy, I can ask Minh for a second opinion." },
+      { "speaker": "Linh (Senior Developer)", "voice": "female", "text": "No problem, I can handle it. Just tag me when the new version is ready." }
+    ],
+    "questions": [
+      { "q": "Why is Linh unhappy with the first version of the pull request?", "options": ["It contains too many files to review", "It has no description", "It was pushed to the wrong branch"], "answer": 0 },
+      { "q": "What will Nam do with the repeated code?", "options": ["Delete the payment service", "Leave it and add a comment", "Move it into one helper function"], "answer": 2 },
+      { "q": "When will Linh review the new version?", "options": ["Right after lunch", "Tomorrow morning", "Next week"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Could you review my pull request today so we can merge before the release?",
+    "I split the change into two smaller commits to make the diff easier.",
+    "I left a few comments, but none of them are blocking your merge.",
+    "Please rebase your feature branch on main before you ask for another review.",
+    "Thanks for the quick turnaround time; I will fix the small issues now."
+  ]
+}

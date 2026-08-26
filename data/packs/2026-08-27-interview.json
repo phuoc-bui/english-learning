@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-27",
+  "track": "interview",
+  "theme": "Mục tiêu nghề nghiệp 3-5 năm",
+  "vocab": [
+    { "word": "short-term goal", "ipa": "/ˌʃɔːrt tɜːrm ɡoʊl/", "meaning_vi": "mục tiêu ngắn hạn", "example": "My short-term goal this year is to finish a cloud certification.", "example_vi": "Mục tiêu ngắn hạn của tôi năm nay là hoàn thành một chứng chỉ về cloud." },
+    { "word": "ambition", "ipa": "/æmˈbɪʃn/", "meaning_vi": "hoài bão, khát vọng nghề nghiệp", "example": "My ambition is to grow with the team, not only to change my title.", "example_vi": "Hoài bão của tôi là phát triển cùng đội ngũ, không chỉ là đổi chức danh." },
+    { "word": "certification", "ipa": "/ˌsɜːrtɪfɪˈkeɪʃn/", "meaning_vi": "chứng chỉ chuyên môn", "example": "I plan to take one certification every year to stay up to date.", "example_vi": "Tôi dự định lấy một chứng chỉ mỗi năm để luôn cập nhật kiến thức." },
+    { "word": "domain knowledge", "ipa": "/doʊˈmeɪn ˈnɒlɪdʒ/", "meaning_vi": "kiến thức về lĩnh vực nghiệp vụ", "example": "In three years I want deep domain knowledge in payment systems.", "example_vi": "Trong ba năm tới tôi muốn có kiến thức sâu về lĩnh vực thanh toán." },
+    { "word": "subject matter expert", "ipa": "/ˈsʌbdʒɪkt ˈmætər ˈekspɜːrt/", "meaning_vi": "chuyên gia trong một mảng cụ thể", "example": "I hope to become the subject matter expert for our billing module.", "example_vi": "Tôi hy vọng trở thành chuyên gia cho phân hệ tính phí của công ty." },
+    { "word": "mentorship", "ipa": "/ˈmentɔːrʃɪp/", "meaning_vi": "việc hướng dẫn, kèm cặp người ít kinh nghiệm hơn", "example": "Mentorship is part of my plan, because teaching makes me stronger too.", "example_vi": "Việc kèm cặp nằm trong kế hoạch của tôi, vì dạy người khác cũng giúp tôi giỏi hơn." },
+    { "word": "career roadmap", "ipa": "/kəˈrɪr ˈroʊdmæp/", "meaning_vi": "lộ trình nghề nghiệp", "example": "I wrote a simple career roadmap with one goal for each year.", "example_vi": "Tôi đã viết một lộ trình nghề nghiệp đơn giản với mỗi năm một mục tiêu." },
+    { "word": "steady progress", "ipa": "/ˈstedi ˈprɒɡres/", "meaning_vi": "sự tiến bộ đều đặn, chắc chắn", "example": "I value steady progress with real results more than a quick promotion.", "example_vi": "Tôi coi trọng sự tiến bộ đều đặn với kết quả thật hơn là thăng chức nhanh." }
+  ],
+  "listening": {
+    "title": "Where do you see yourself in five years?",
+    "lines": [
+      { "speaker": "Ms. Trang (Hiring Manager)", "voice": "female", "text": "Nam, where do you see yourself in three to five years?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "In the short term, my goal is to become strong in backend systems." },
+      { "speaker": "Ms. Trang (Hiring Manager)", "voice": "female", "text": "Could you be more specific about that short-term goal?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "In the first year, I want to finish a cloud certification and lead one small module." },
+      { "speaker": "Ms. Trang (Hiring Manager)", "voice": "female", "text": "And after that?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "In three years, I would like to build deep domain knowledge in payment systems." },
+      { "speaker": "Ms. Trang (Hiring Manager)", "voice": "female", "text": "Why payments in particular?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Your company works with many banks, so I can learn from real projects here." },
+      { "speaker": "Ms. Trang (Hiring Manager)", "voice": "female", "text": "That is a fair point. What about five years from now?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "By then, I hope to be a subject matter expert and mentor junior developers." },
+      { "speaker": "Ms. Trang (Hiring Manager)", "voice": "female", "text": "So mentorship is part of your career roadmap?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Yes. I prefer steady progress with real results rather than a quick title change." }
+    ],
+    "questions": [
+      { "q": "What is Nam's goal for the first year?", "options": ["To become a manager", "To finish a cloud certification and lead a small module", "To move into a sales role"], "answer": 1 },
+      { "q": "Why is Nam interested in payment systems?", "options": ["The company works with many banks", "The salary is much higher", "The work requires less overtime"], "answer": 0 },
+      { "q": "What does Nam want to do after five years?", "options": ["Start his own company", "Move abroad", "Become an expert and mentor juniors"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "In the short term, I want to strengthen my backend skills and lead a module.",
+    "My short-term goal this year is to finish a cloud certification and apply it.",
+    "In three years, I hope to build deep domain knowledge in payment systems.",
+    "My career roadmap includes mentorship, because teaching others makes my own skills stronger.",
+    "I value steady progress and real results more than a quick change of title."
+  ]
+}
