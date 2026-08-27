@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-28",
+  "track": "interview",
+  "theme": "Deal lương khi phỏng vấn",
+  "vocab": [
+    { "word": "compensation package", "ipa": "/ˌkɑːmpenˈseɪʃn ˈpækɪdʒ/", "meaning_vi": "toàn bộ lương và các quyền lợi đi kèm", "example": "Could you describe the full compensation package for this position?", "example_vi": "Anh/chị có thể mô tả toàn bộ gói lương và phúc lợi cho vị trí này không?" },
+    { "word": "budget for the role", "ipa": "/ˈbʌdʒɪt fɔːr ðə roʊl/", "meaning_vi": "ngân sách công ty dành cho vị trí đó", "example": "May I ask what budget for the role your team has approved?", "example_vi": "Tôi có thể hỏi ngân sách cho vị trí này mà bộ phận của anh/chị đã duyệt không?" },
+    { "word": "on the table", "ipa": "/ɑːn ðə ˈteɪbl/", "meaning_vi": "đang được đưa ra để thảo luận hoặc đề nghị", "example": "The number on the table is a little below my current salary.", "example_vi": "Con số đang được đưa ra thấp hơn một chút so với lương hiện tại của tôi." },
+    { "word": "equity", "ipa": "/ˈekwəti/", "meaning_vi": "cổ phần được cấp như một phần thu nhập", "example": "Some companies offer equity instead of a higher monthly salary.", "example_vi": "Một số công ty đề nghị cổ phần thay vì mức lương tháng cao hơn." },
+    { "word": "relocation allowance", "ipa": "/ˌriːloʊˈkeɪʃn əˈlaʊəns/", "meaning_vi": "khoản hỗ trợ khi chuyển nơi ở để đi làm", "example": "Since the office is in Da Nang, is there a relocation allowance?", "example_vi": "Vì văn phòng ở Đà Nẵng, công ty có khoản hỗ trợ chuyển chỗ ở không?" },
+    { "word": "make a case", "ipa": "/meɪk ə keɪs/", "meaning_vi": "đưa ra lập luận thuyết phục cho đề nghị của mình", "example": "I would like to make a case for a higher number based on my results.", "example_vi": "Tôi muốn đưa ra lập luận cho một con số cao hơn dựa trên kết quả của mình." },
+    { "word": "meet your expectations", "ipa": "/miːt jɔːr ˌekspekˈteɪʃnz/", "meaning_vi": "đáp ứng được kỳ vọng của bạn", "example": "If we cannot meet your expectations on salary, what else matters to you?", "example_vi": "Nếu chúng tôi không đáp ứng được kỳ vọng về lương, điều gì khác quan trọng với bạn?" },
+    { "word": "review the offer", "ipa": "/rɪˈvjuː ði ˈɔːfər/", "meaning_vi": "xem xét kỹ thư mời làm việc trước khi trả lời", "example": "I would like two days to review the offer with my family.", "example_vi": "Tôi muốn xin hai ngày để xem xét thư mời cùng gia đình." }
+  ],
+  "listening": {
+    "title": "Talking about salary at the end of the interview",
+    "lines": [
+      { "speaker": "Mai (HR Manager)", "voice": "female", "text": "Nam, we are happy with your interview. Shall we talk about salary now?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Yes, thank you. Could you tell me the budget for the role first?" },
+      { "speaker": "Mai (HR Manager)", "voice": "female", "text": "For this level, we have approved thirty to thirty-five million dong per month." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Thank you for being open. The number on the table is close to my expectation." },
+      { "speaker": "Mai (HR Manager)", "voice": "female", "text": "What figure did you have in mind, if I may ask?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I was hoping for thirty-eight million, and I would like to make a case for that." },
+      { "speaker": "Mai (HR Manager)", "voice": "female", "text": "Please go ahead. I am listening." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "In my last job, I led the payment project and cut support requests by thirty percent." },
+      { "speaker": "Mai (HR Manager)", "voice": "female", "text": "That is a strong result. Thirty-eight is above our range, but I can offer thirty-six." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "That is fair. Could you also explain the rest of the compensation package?" },
+      { "speaker": "Mai (HR Manager)", "voice": "female", "text": "Of course. There is a yearly bonus, full insurance, and a relocation allowance if you move." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Thank you. May I take two days to review the offer before I answer?" }
+    ],
+    "questions": [
+      { "q": "What is the approved budget for the role?", "options": ["Thirty to thirty-five million dong", "Thirty-eight million dong", "Forty million dong"], "answer": 0 },
+      { "q": "How does Nam support his request?", "options": ["He says other companies pay more", "He mentions his payment project and a thirty percent drop in support requests", "He says he has a family to support"], "answer": 1 },
+      { "q": "What does Nam ask for at the end?", "options": ["A signing bonus", "A second interview", "Two days to review the offer"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Could you tell me the budget for the role before I give a number?",
+    "The number on the table is close to what I had in mind.",
+    "I would like to make a case for a slightly higher monthly salary.",
+    "Could you also explain the rest of the compensation package, please?",
+    "May I take two days to review the offer before I give my answer?"
+  ]
+}

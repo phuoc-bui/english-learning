@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-28",
+  "track": "sales",
+  "theme": "Chăm sóc khách sau bán",
+  "vocab": [
+    { "word": "health check", "ipa": "/helθ tʃek/", "meaning_vi": "buổi kiểm tra tình hình sử dụng sản phẩm của khách", "example": "We run a health check every quarter to see how the client uses the system.", "example_vi": "Chúng tôi thực hiện buổi kiểm tra mỗi quý để xem khách dùng hệ thống thế nào." },
+    { "word": "adoption rate", "ipa": "/əˈdɑːpʃn reɪt/", "meaning_vi": "tỷ lệ người dùng thực sự sử dụng sản phẩm", "example": "The adoption rate in the sales team is only forty percent so far.", "example_vi": "Tỷ lệ sử dụng trong nhóm kinh doanh hiện mới chỉ bốn mươi phần trăm." },
+    { "word": "account manager", "ipa": "/əˈkaʊnt ˈmænɪdʒər/", "meaning_vi": "người phụ trách chăm sóc một khách hàng", "example": "I am your account manager, so please contact me first with any question.", "example_vi": "Tôi là người phụ trách tài khoản của anh, nên hãy liên hệ tôi đầu tiên khi có thắc mắc." },
+    { "word": "success plan", "ipa": "/səkˈses plæn/", "meaning_vi": "kế hoạch giúp khách đạt mục tiêu khi dùng sản phẩm", "example": "Let us write a simple success plan with three goals for this quarter.", "example_vi": "Chúng ta hãy viết một kế hoạch thành công đơn giản với ba mục tiêu trong quý này." },
+    { "word": "quarterly business review", "ipa": "/ˈkwɔːrtərli ˈbɪznəs rɪˈvjuː/", "meaning_vi": "buổi tổng kết hợp tác giữa hai bên mỗi quý", "example": "Our quarterly business review is next Tuesday, and your director is invited.", "example_vi": "Buổi tổng kết quý của chúng ta là thứ Ba tới, và giám đốc của anh cũng được mời." },
+    { "word": "support ticket", "ipa": "/səˈpɔːrt ˈtɪkɪt/", "meaning_vi": "yêu cầu hỗ trợ được ghi nhận trong hệ thống", "example": "Your team opened five support tickets last month, and all of them are closed.", "example_vi": "Nhóm của anh đã mở năm yêu cầu hỗ trợ tháng trước, và tất cả đều đã được đóng." },
+    { "word": "go the extra mile", "ipa": "/ɡoʊ ði ˈekstrə maɪl/", "meaning_vi": "làm nhiều hơn mức khách mong đợi", "example": "Our support team went the extra mile and fixed the report on Saturday.", "example_vi": "Đội hỗ trợ của chúng tôi đã làm hơn mong đợi và sửa báo cáo vào thứ Bảy." },
+    { "word": "escalation path", "ipa": "/ˌeskəˈleɪʃn pæθ/", "meaning_vi": "quy trình đưa vấn đề lên cấp cao hơn khi cần", "example": "If the issue is urgent, the escalation path goes straight to my director.", "example_vi": "Nếu vấn đề khẩn cấp, quy trình leo thang sẽ đi thẳng lên giám đốc của tôi." }
+  ],
+  "listening": {
+    "title": "A quarterly check-in with an existing client",
+    "lines": [
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "Good morning, Mr. Tuan. Thank you for making time for our health check today." },
+      { "speaker": "Tuan (IT Manager, client)", "voice": "male", "text": "No problem, Linh. We have been using the system for three months now." },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "Yes, and the adoption rate is growing. About seventy percent of your staff log in weekly." },
+      { "speaker": "Tuan (IT Manager, client)", "voice": "male", "text": "That is better than I expected. The sales team is still slow, though." },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "I noticed that too. Shall we add a short training session to the success plan?" },
+      { "speaker": "Tuan (IT Manager, client)", "voice": "male", "text": "That would help. Can you do it before the end of the month?" },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "Of course. I will send two possible dates this afternoon." },
+      { "speaker": "Tuan (IT Manager, client)", "voice": "male", "text": "Thank you. Also, your team went the extra mile last week with the export bug." },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "I am glad to hear that. You opened five support tickets, and all are now closed." },
+      { "speaker": "Tuan (IT Manager, client)", "voice": "male", "text": "Good. What happens if something breaks during a busy week?" },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "Then use the escalation path. Call me first, and I bring in my director immediately." },
+      { "speaker": "Tuan (IT Manager, client)", "voice": "male", "text": "Perfect. See you at the quarterly business review next Tuesday." }
+    ],
+    "questions": [
+      { "q": "How many staff log in every week?", "options": ["About forty percent", "About seventy percent", "All of them"], "answer": 1 },
+      { "q": "What will Linh add to the success plan?", "options": ["A short training session", "A price discount", "A new software module"], "answer": 0 },
+      { "q": "What should Tuan do if something breaks urgently?", "options": ["Send an email to support", "Wait for the next review", "Call Linh and use the escalation path"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Thank you for your time today; this is our regular quarterly health check.",
+    "The adoption rate is growing, but the sales team still needs some training.",
+    "As your account manager, I will send two possible dates this afternoon.",
+    "If anything is urgent, please call me and we use the escalation path.",
+    "Our team went the extra mile and fixed that export bug on Saturday."
+  ]
+}

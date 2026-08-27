@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-28",
+  "track": "it",
+  "theme": "Báo cáo tiến độ với sếp",
+  "vocab": [
+    { "word": "status report", "ipa": "/ˈsteɪtəs rɪˈpɔːrt/", "meaning_vi": "báo cáo tình trạng công việc tại một thời điểm", "example": "I send a short status report to my manager every Friday afternoon.", "example_vi": "Tôi gửi một báo cáo tình trạng ngắn cho quản lý vào chiều thứ Sáu hằng tuần." },
+    { "word": "percent complete", "ipa": "/pərˈsent kəmˈpliːt/", "meaning_vi": "phần trăm khối lượng công việc đã hoàn thành", "example": "The payment module is about seventy percent complete at the moment.", "example_vi": "Module thanh toán hiện đã hoàn thành khoảng bảy mươi phần trăm." },
+    { "word": "critical path", "ipa": "/ˈkrɪtɪkl pæθ/", "meaning_vi": "chuỗi công việc quyết định ngày kết thúc của dự án", "example": "The login service is on the critical path, so any delay hurts the release.", "example_vi": "Dịch vụ đăng nhập nằm trên đường găng, nên bất kỳ trễ nào cũng ảnh hưởng bản phát hành." },
+    { "word": "slippage", "ipa": "/ˈslɪpɪdʒ/", "meaning_vi": "sự trễ tiến độ so với kế hoạch ban đầu", "example": "We have two days of slippage because the test data arrived late.", "example_vi": "Chúng tôi bị trễ hai ngày vì dữ liệu kiểm thử đến muộn." },
+    { "word": "catch-up plan", "ipa": "/ˈkætʃ ʌp plæn/", "meaning_vi": "kế hoạch để bù lại phần công việc bị chậm", "example": "My catch-up plan is to move one task to the next sprint.", "example_vi": "Kế hoạch bù tiến độ của tôi là dời một đầu việc sang sprint kế tiếp." },
+    { "word": "burn-down chart", "ipa": "/ˈbɜːrn daʊn tʃɑːrt/", "meaning_vi": "biểu đồ cho thấy khối lượng công việc còn lại theo thời gian", "example": "The burn-down chart shows that our remaining work is dropping steadily.", "example_vi": "Biểu đồ burn-down cho thấy khối lượng việc còn lại đang giảm đều." },
+    { "word": "confidence level", "ipa": "/ˈkɑːnfɪdəns ˈlevl/", "meaning_vi": "mức độ chắc chắn về một dự đoán hay cam kết", "example": "My confidence level for the Friday release is high, around eighty percent.", "example_vi": "Mức độ chắc chắn của tôi cho bản phát hành thứ Sáu là cao, khoảng tám mươi phần trăm." },
+    { "word": "throughput", "ipa": "/ˈθruːpʊt/", "meaning_vi": "số lượng công việc hoàn thành trong một khoảng thời gian", "example": "Our throughput improved after we stopped taking urgent requests mid-sprint.", "example_vi": "Năng suất của nhóm cải thiện sau khi chúng tôi ngừng nhận yêu cầu gấp giữa sprint." }
+  ],
+  "listening": {
+    "title": "Weekly progress report with the project manager",
+    "lines": [
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "Hi Nam, thanks for joining. Can you walk me through your status report for this week?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Sure. The payment module is about seventy percent complete, and the API is already working." },
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "That sounds good. Are we still fine for the release on Friday next week?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Mostly yes, but I have two days of slippage on the refund feature." },
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "Two days is not small. What caused it, and do you have a catch-up plan?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "The test data from the bank arrived late. My catch-up plan is to move reporting to the next sprint." },
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "I can accept that. Reporting is not on the critical path, so we can wait." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Thank you. The burn-down chart still looks healthy, and our throughput is better than last month." },
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "Good. What is your confidence level for the Friday release, honestly?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "About eighty percent. I will tell you on Wednesday if anything changes." },
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "Perfect. Please put those numbers in the status report before the client meeting." }
+    ],
+    "questions": [
+      { "q": "How complete is the payment module?", "options": ["About fifty percent", "About seventy percent", "It is finished"], "answer": 1 },
+      { "q": "Why is the refund feature two days late?", "options": ["The test data from the bank arrived late", "A developer was sick", "The design was changed"], "answer": 0 },
+      { "q": "What does Nam move to the next sprint?", "options": ["The refund feature", "The payment API", "The reporting task"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I want to give you a quick status report on the payment module.",
+    "We are about seventy percent complete, and the rest is mostly testing work.",
+    "There is a small slippage of two days, but I have a catch-up plan.",
+    "The login task is on the critical path, so I started it first.",
+    "My confidence level for the Friday release is high, around eighty percent."
+  ]
+}

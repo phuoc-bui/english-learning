@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-28",
+  "track": "office",
+  "theme": "Deal deadline",
+  "vocab": [
+    { "word": "hard deadline", "ipa": "/hɑːrd ˈdedlaɪn/", "meaning_vi": "hạn chót bắt buộc, không thể dời", "example": "The board meeting is a hard deadline because the date is already fixed.", "example_vi": "Cuộc họp hội đồng là hạn chót bắt buộc vì ngày đã được ấn định." },
+    { "word": "buy more time", "ipa": "/baɪ mɔːr taɪm/", "meaning_vi": "xin thêm thời gian để hoàn thành việc", "example": "I need to buy more time because two team members are on leave.", "example_vi": "Tôi cần xin thêm thời gian vì hai thành viên trong nhóm đang nghỉ phép." },
+    { "word": "de-scope", "ipa": "/diː skoʊp/", "meaning_vi": "cắt bớt phạm vi công việc cho vừa thời gian", "example": "If we cannot extend the date, we should de-scope the last two sections.", "example_vi": "Nếu không thể dời ngày, chúng ta nên cắt bớt hai phần cuối." },
+    { "word": "reprioritize", "ipa": "/riːpraɪˈɔːrətaɪz/", "meaning_vi": "sắp xếp lại thứ tự ưu tiên", "example": "Let us reprioritize the list so the urgent items come first.", "example_vi": "Chúng ta hãy sắp xếp lại thứ tự ưu tiên để các việc gấp lên trước." },
+    { "word": "wiggle room", "ipa": "/ˈwɪɡl ruːm/", "meaning_vi": "khoảng linh động còn lại để thương lượng", "example": "There is a little wiggle room on the design, but not on the launch date.", "example_vi": "Còn một chút linh động về thiết kế, nhưng không có với ngày ra mắt." },
+    { "word": "non-negotiable", "ipa": "/ˌnɑːn nɪˈɡoʊʃiəbl/", "meaning_vi": "không thể thương lượng hay thay đổi", "example": "The legal review is non-negotiable, so please plan around it.", "example_vi": "Việc rà soát pháp lý là không thể thương lượng, nên hãy lên kế hoạch quanh nó." },
+    { "word": "commit to a date", "ipa": "/kəˈmɪt tuː ə deɪt/", "meaning_vi": "cam kết một ngày hoàn thành cụ thể", "example": "I can commit to a date once I know how many people can help.", "example_vi": "Tôi có thể cam kết một ngày cụ thể khi biết có bao nhiêu người hỗ trợ." },
+    { "word": "trade-off", "ipa": "/ˈtreɪd ɔːf/", "meaning_vi": "sự đánh đổi giữa hai lựa chọn", "example": "The trade-off is simple: less detail now, or the same report one week later.", "example_vi": "Sự đánh đổi rất đơn giản: ít chi tiết hơn bây giờ, hoặc cùng báo cáo đó chậm một tuần." }
+  ],
+  "listening": {
+    "title": "Asking the manager for a later deadline",
+    "lines": [
+      { "speaker": "Hoa (Marketing Executive)", "voice": "female", "text": "Minh, do you have five minutes? I want to talk about the campaign report." },
+      { "speaker": "Minh (Department Manager)", "voice": "male", "text": "Of course. It is due on Thursday, right? Is something wrong?" },
+      { "speaker": "Hoa (Marketing Executive)", "voice": "female", "text": "The data from the agency came three days late, so I need to buy more time." },
+      { "speaker": "Minh (Department Manager)", "voice": "male", "text": "I understand, but Thursday is a hard deadline. The director presents it on Friday morning." },
+      { "speaker": "Hoa (Marketing Executive)", "voice": "female", "text": "Then can we de-scope it? I can deliver the main numbers without the competitor section." },
+      { "speaker": "Minh (Department Manager)", "voice": "male", "text": "That could work. The director mainly wants the results, not the competitor analysis." },
+      { "speaker": "Hoa (Marketing Executive)", "voice": "female", "text": "So there is some wiggle room on content, but the date is non-negotiable." },
+      { "speaker": "Minh (Department Manager)", "voice": "male", "text": "Exactly. That is the trade-off: a shorter report on time, or a full report too late." },
+      { "speaker": "Hoa (Marketing Executive)", "voice": "female", "text": "I will take the shorter one. Can I also reprioritize the social media plan to next week?" },
+      { "speaker": "Minh (Department Manager)", "voice": "male", "text": "Yes, that one can wait. Just send me an email so everyone knows." },
+      { "speaker": "Hoa (Marketing Executive)", "voice": "female", "text": "Great. Then I can commit to a date: Thursday at two in the afternoon." }
+    ],
+    "questions": [
+      { "q": "Why does Hoa want more time?", "options": ["She was on leave last week", "The agency data arrived three days late", "The report is too long"], "answer": 1 },
+      { "q": "What solution do they agree on?", "options": ["Removing the competitor section", "Moving the deadline to Friday", "Asking another team to write it"], "answer": 0 },
+      { "q": "What time does Hoa commit to?", "options": ["Thursday morning", "Friday morning", "Thursday at two in the afternoon"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "The data arrived late, so I would like to ask for two more days.",
+    "Thursday is a hard deadline, but there is some wiggle room on the content.",
+    "Can we de-scope the competitor section and keep only the main results?",
+    "The trade-off is a shorter report on time or a full one later.",
+    "I can commit to a date once I know who is free to help."
+  ]
+}

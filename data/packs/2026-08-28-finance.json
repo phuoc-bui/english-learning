@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-28",
+  "track": "finance",
+  "theme": "Trao đổi với kế toán thuế",
+  "vocab": [
+    { "word": "tax authority", "ipa": "/tæks ɔːˈθɔːrəti/", "meaning_vi": "cơ quan thuế", "example": "The tax authority sent us a letter asking for more supporting papers.", "example_vi": "Cơ quan thuế đã gửi cho chúng tôi công văn yêu cầu bổ sung giấy tờ." },
+    { "word": "corporate income tax", "ipa": "/ˈkɔːrpərət ˈɪnkʌm tæks/", "meaning_vi": "thuế thu nhập doanh nghiệp", "example": "Our corporate income tax is calculated on the profit of the whole year.", "example_vi": "Thuế thu nhập doanh nghiệp của chúng tôi được tính trên lợi nhuận cả năm." },
+    { "word": "personal income tax", "ipa": "/ˈpɜːrsənl ˈɪnkʌm tæks/", "meaning_vi": "thuế thu nhập cá nhân", "example": "The company pays personal income tax for staff every month.", "example_vi": "Công ty nộp thuế thu nhập cá nhân cho nhân viên hằng tháng." },
+    { "word": "tax finalization", "ipa": "/tæks ˌfaɪnəlaɪˈzeɪʃn/", "meaning_vi": "quyết toán thuế cuối kỳ", "example": "Tax finalization for last year must be done before the end of March.", "example_vi": "Quyết toán thuế của năm ngoái phải hoàn thành trước cuối tháng Ba." },
+    { "word": "tax invoice", "ipa": "/tæks ˈɪnvɔɪs/", "meaning_vi": "hoá đơn giá trị gia tăng hợp lệ", "example": "Without a valid tax invoice, we cannot record the cost as an expense.", "example_vi": "Không có hoá đơn hợp lệ, chúng tôi không thể ghi nhận khoản đó là chi phí." },
+    { "word": "declare", "ipa": "/dɪˈkler/", "meaning_vi": "kê khai với cơ quan thuế", "example": "We declare our sales figures online on the twentieth of every month.", "example_vi": "Chúng tôi kê khai doanh thu trực tuyến vào ngày hai mươi hằng tháng." },
+    { "word": "amend a return", "ipa": "/əˈmend ə rɪˈtɜːrn/", "meaning_vi": "điều chỉnh tờ khai đã nộp", "example": "If we find a mistake, we can amend a return within a certain period.", "example_vi": "Nếu phát hiện sai sót, chúng tôi có thể điều chỉnh tờ khai trong một thời hạn nhất định." },
+    { "word": "tax inspection", "ipa": "/tæks ɪnˈspekʃn/", "meaning_vi": "cuộc thanh tra, kiểm tra thuế", "example": "During a tax inspection, officers usually ask for contracts and bank papers.", "example_vi": "Trong một cuộc thanh tra thuế, cán bộ thường yêu cầu hợp đồng và chứng từ ngân hàng." }
+  ],
+  "listening": {
+    "title": "A call with the external tax accountant",
+    "lines": [
+      { "speaker": "Hoa (Company Accountant)", "voice": "female", "text": "Hello Mr. Phong. I have a few questions before we close the quarter." },
+      { "speaker": "Phong (Tax Accountant)", "voice": "male", "text": "Sure, Hoa. Are they about corporate income tax or personal income tax?" },
+      { "speaker": "Hoa (Company Accountant)", "voice": "female", "text": "Both, actually. First, we found a mistake in the figures we declared in June." },
+      { "speaker": "Phong (Tax Accountant)", "voice": "male", "text": "How big is the difference? That decides how urgent the correction is." },
+      { "speaker": "Hoa (Company Accountant)", "voice": "female", "text": "About twelve million dong. We recorded one supplier bill in the wrong month." },
+      { "speaker": "Phong (Tax Accountant)", "voice": "male", "text": "That is not serious. We can amend a return, but please do it this week." },
+      { "speaker": "Hoa (Company Accountant)", "voice": "female", "text": "Understood. My second question is about a training course for our developers." },
+      { "speaker": "Phong (Tax Accountant)", "voice": "male", "text": "Do you have a proper tax invoice with the company name and tax code?" },
+      { "speaker": "Hoa (Company Accountant)", "voice": "female", "text": "We only have a receipt. The training centre says the invoice will come next month." },
+      { "speaker": "Phong (Tax Accountant)", "voice": "male", "text": "Then wait for it. Without the invoice, the tax authority may reject the expense." },
+      { "speaker": "Hoa (Company Accountant)", "voice": "female", "text": "Thank you. Should we prepare anything else before tax finalization in March?" },
+      { "speaker": "Phong (Tax Accountant)", "voice": "male", "text": "Yes. Keep all contracts organised, in case there is a tax inspection later." }
+    ],
+    "questions": [
+      { "q": "What mistake did Hoa find?", "options": ["A supplier bill was recorded in the wrong month", "A salary was paid twice", "A customer did not pay"], "answer": 0 },
+      { "q": "Why can the training cost be a problem?", "options": ["It is too expensive", "There is no proper tax invoice yet", "It was paid in cash"], "answer": 1 },
+      { "q": "What does Mr. Phong advise before tax finalization?", "options": ["Change the accounting software", "Pay the tax earlier", "Keep all contracts organised"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "We found a small mistake in the figures we declared for June.",
+    "Can we amend a return, or do we have to wait until March?",
+    "Without a valid tax invoice, the tax authority may reject this expense.",
+    "Please keep all contracts organised in case there is a tax inspection.",
+    "Tax finalization for last year must be finished before the end of March."
+  ]
+}
