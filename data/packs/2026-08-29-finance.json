@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-29",
+  "track": "finance",
+  "theme": "Lương thưởng & phúc lợi",
+  "vocab": [
+    {
+      "word": "pay slip",
+      "ipa": "/ˈpeɪ slɪp/",
+      "meaning_vi": "phiếu lương",
+      "example": "Every employee receives a pay slip by email on the tenth.",
+      "example_vi": "Mỗi nhân viên nhận phiếu lương qua email vào ngày mùng mười."
+    },
+    {
+      "word": "gross pay",
+      "ipa": "/ɡrəʊs peɪ/",
+      "meaning_vi": "lương gộp (trước khấu trừ)",
+      "example": "Your gross pay appears on the first line of the document.",
+      "example_vi": "Lương gộp của bạn nằm ở dòng đầu tiên của tài liệu."
+    },
+    {
+      "word": "net pay",
+      "ipa": "/net peɪ/",
+      "meaning_vi": "lương thực nhận sau khấu trừ",
+      "example": "His net pay fell this month because the insurance rate changed.",
+      "example_vi": "Lương thực nhận của anh ấy giảm tháng này vì tỷ lệ bảo hiểm thay đổi."
+    },
+    {
+      "word": "social insurance",
+      "ipa": "/ˈsəʊʃl ɪnˈʃʊərəns/",
+      "meaning_vi": "bảo hiểm xã hội",
+      "example": "The company pays part of the social insurance for every full-time employee.",
+      "example_vi": "Công ty đóng một phần bảo hiểm xã hội cho mọi nhân viên toàn thời gian."
+    },
+    {
+      "word": "meal allowance",
+      "ipa": "/miːl əˈlaʊəns/",
+      "meaning_vi": "phụ cấp ăn trưa",
+      "example": "The meal allowance is listed under allowances, not under bonuses.",
+      "example_vi": "Phụ cấp ăn trưa được liệt kê ở mục phụ cấp, không phải mục thưởng."
+    },
+    {
+      "word": "salary band",
+      "ipa": "/ˈsæləri bænd/",
+      "meaning_vi": "khung lương cho một vị trí",
+      "example": "Human resources keeps the salary band for each job title.",
+      "example_vi": "Bộ phận nhân sự giữ khung lương cho từng chức danh công việc."
+    },
+    {
+      "word": "pay rise",
+      "ipa": "/ˈpeɪ raɪz/",
+      "meaning_vi": "việc tăng lương",
+      "example": "A pay rise needs approval from both human resources and finance.",
+      "example_vi": "Việc tăng lương cần phê duyệt từ cả nhân sự và tài chính."
+    },
+    {
+      "word": "unused leave payout",
+      "ipa": "/ʌnˈjuːzd liːv ˈpeɪaʊt/",
+      "meaning_vi": "tiền thanh toán cho số ngày phép chưa dùng",
+      "example": "We calculate the unused leave payout in the employee's final month.",
+      "example_vi": "Chúng tôi tính tiền phép chưa dùng vào tháng làm việc cuối của nhân viên."
+    }
+  ],
+  "listening": {
+    "title": "Questions about this month's pay slip",
+    "lines": [
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Hi Hang, do you have five minutes to explain my pay slip?" },
+      { "speaker": "Hang (Payroll Accountant)", "voice": "female", "text": "Of course. Which line is not clear to you this month?" },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "My gross pay is the same, but my net pay dropped by one million dong." },
+      { "speaker": "Hang (Payroll Accountant)", "voice": "female", "text": "That is the social insurance rate. It changed from the first of August." },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "I see. And where exactly does the meal allowance appear on the document?" },
+      { "speaker": "Hang (Payroll Accountant)", "voice": "female", "text": "In the second block, under allowances. It is not taxed up to the legal limit." },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Understood. One of my staff also asked about her salary band this week." },
+      { "speaker": "Hang (Payroll Accountant)", "voice": "female", "text": "Human resources owns that table. A pay rise still needs approval from finance too." },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "She is leaving in October, so she asked about her unused leave payout." },
+      { "speaker": "Hang (Payroll Accountant)", "voice": "female", "text": "We calculate it in her final month and pay it with her last salary." }
+    ],
+    "questions": [
+      {
+        "q": "Why did Tuan's net pay drop this month?",
+        "options": ["His gross pay was reduced", "The social insurance rate changed", "He took three days of unpaid leave"],
+        "answer": 1
+      },
+      {
+        "q": "Where does the meal allowance appear on the pay slip?",
+        "options": ["In the second block, under allowances", "On the first line, next to gross pay", "It does not appear at all"],
+        "answer": 0
+      },
+      {
+        "q": "When will the unused leave payout be paid?",
+        "options": ["At the start of next year", "Together with the last salary", "Three months after leaving"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you explain the difference between my gross pay and my net pay?",
+    "The social insurance rate changed, so the amount everyone receives is slightly lower.",
+    "Your meal allowance appears under allowances, in the second block of the pay slip.",
+    "A pay rise needs approval from human resources and from the finance department.",
+    "We calculate the unused leave payout and add it to your final salary."
+  ]
+}

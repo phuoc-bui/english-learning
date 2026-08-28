@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-29",
+  "track": "sales",
+  "theme": "Pitch ngắn (elevator pitch)",
+  "vocab": [
+    {
+      "word": "one-liner",
+      "ipa": "/ˈwʌn ˌlaɪnə/",
+      "meaning_vi": "câu giới thiệu ngắn gọn một dòng",
+      "example": "Every salesperson should have a clear one-liner about the product.",
+      "example_vi": "Mỗi nhân viên kinh doanh nên có một câu giới thiệu rõ ràng về sản phẩm."
+    },
+    {
+      "word": "elevator ride",
+      "ipa": "/ˈelɪveɪtə raɪd/",
+      "meaning_vi": "chuyến đi thang máy (khoảng thời gian rất ngắn)",
+      "example": "You have about one elevator ride to make the client curious.",
+      "example_vi": "Bạn chỉ có khoảng một chuyến thang máy để khiến khách tò mò."
+    },
+    {
+      "word": "buzzword",
+      "ipa": "/ˈbʌzwɜːd/",
+      "meaning_vi": "từ thời thượng, nghe kêu nhưng rỗng nghĩa",
+      "example": "Drop the buzzwords and tell the customer what the tool actually does.",
+      "example_vi": "Bỏ mấy từ thời thượng đi và nói cho khách biết công cụ thực sự làm gì."
+    },
+    {
+      "word": "jargon",
+      "ipa": "/ˈdʒɑːɡən/",
+      "meaning_vi": "biệt ngữ chuyên ngành",
+      "example": "Too much technical jargon confused the factory owner during our first meeting.",
+      "example_vi": "Quá nhiều biệt ngữ kỹ thuật đã làm chủ nhà máy bối rối trong buổi gặp đầu tiên."
+    },
+    {
+      "word": "credibility",
+      "ipa": "/ˌkredəˈbɪləti/",
+      "meaning_vi": "độ tin cậy, uy tín",
+      "example": "Real customer numbers give your pitch credibility in less than a minute.",
+      "example_vi": "Số liệu khách hàng thật giúp phần pitch của bạn có uy tín chỉ trong chưa đầy một phút."
+    },
+    {
+      "word": "proof point",
+      "ipa": "/ˈpruːf pɔɪnt/",
+      "meaning_vi": "bằng chứng cụ thể để chứng minh",
+      "example": "Prepare one strong proof point for every claim you make.",
+      "example_vi": "Hãy chuẩn bị một bằng chứng cụ thể cho mỗi lời khẳng định bạn đưa ra."
+    },
+    {
+      "word": "curiosity",
+      "ipa": "/ˌkjʊəriˈɒsəti/",
+      "meaning_vi": "sự tò mò",
+      "example": "A good closing question creates curiosity and leads to a second meeting.",
+      "example_vi": "Một câu hỏi kết thúc tốt tạo sự tò mò và dẫn đến buổi gặp thứ hai."
+    },
+    {
+      "word": "catchy",
+      "ipa": "/ˈkætʃi/",
+      "meaning_vi": "dễ nhớ, gây ấn tượng",
+      "example": "Her opening sentence was catchy, so everyone remembered the company name.",
+      "example_vi": "Câu mở đầu của chị ấy rất dễ nhớ, nên ai cũng nhớ tên công ty."
+    }
+  ],
+  "listening": {
+    "title": "Practising a short pitch before the trade conference",
+    "lines": [
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "Minh, the conference is on Friday. Can I hear your short pitch now?" },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "Sure. We help small factories cut paperwork with a simple cloud system." },
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "That is a clear one-liner. But who exactly is your customer here?" },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "Factory owners with twenty to fifty staff who still use paper order forms." },
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "Much better. Now add a proof point, because numbers build credibility very quickly." },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "Last year one client cut order processing from three days to four hours." },
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "Excellent. Now drop words like synergy and transformation; they sound like empty buzzwords." },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "Agreed. I also used too much technical jargon in my last customer meeting." },
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "Keep it simple and catchy. You only have one elevator ride to impress someone." },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "Then I will finish with a question to create curiosity and book a demo." }
+    ],
+    "questions": [
+      {
+        "q": "What does Minh's product help small factories do?",
+        "options": ["Cut paperwork with a cloud system", "Hire more production workers", "Design better packaging"],
+        "answer": 0
+      },
+      {
+        "q": "Why does Trang ask Minh to add a proof point?",
+        "options": ["Because the pitch is too short", "Because numbers build credibility quickly", "Because the client requested data"],
+        "answer": 1
+      },
+      {
+        "q": "How will Minh end his pitch?",
+        "options": ["With the company history", "With a price list", "With a question that creates curiosity"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "We help small factories cut paperwork with one simple and affordable cloud system.",
+    "Keep your pitch short, because you only have one elevator ride to impress people.",
+    "Add a proof point with real numbers, and your pitch gains instant credibility.",
+    "Avoid heavy jargon and empty buzzwords when you speak with a busy customer.",
+    "End with a question that creates curiosity and opens the door for a meeting."
+  ]
+}

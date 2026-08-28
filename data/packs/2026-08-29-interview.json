@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-29",
+  "track": "interview",
+  "theme": "Câu hỏi ngược cho nhà tuyển dụng",
+  "vocab": [
+    {
+      "word": "success metrics",
+      "ipa": "/səkˈses ˈmetrɪks/",
+      "meaning_vi": "các tiêu chí đo lường thành công",
+      "example": "May I ask which success metrics the team reviews every quarter?",
+      "example_vi": "Cho tôi hỏi nhóm đánh giá thành công dựa trên những tiêu chí nào mỗi quý?"
+    },
+    {
+      "word": "first 90 days",
+      "ipa": "/fɜːst ˈnaɪnti deɪz/",
+      "meaning_vi": "90 ngày đầu tiên khi nhận việc",
+      "example": "What should a new engineer achieve in the first 90 days?",
+      "example_vi": "Một kỹ sư mới nên đạt được điều gì trong 90 ngày đầu tiên?"
+    },
+    {
+      "word": "performance review cycle",
+      "ipa": "/pəˈfɔːməns rɪˈvjuː ˈsaɪkl/",
+      "meaning_vi": "chu kỳ đánh giá hiệu suất",
+      "example": "I would like to understand your performance review cycle before I decide.",
+      "example_vi": "Tôi muốn hiểu chu kỳ đánh giá hiệu suất của công ty trước khi quyết định."
+    },
+    {
+      "word": "tech stack",
+      "ipa": "/tek stæk/",
+      "meaning_vi": "bộ công nghệ nhóm đang dùng",
+      "example": "Could you describe the tech stack your team uses today?",
+      "example_vi": "Anh có thể mô tả bộ công nghệ nhóm anh đang dùng hiện nay không?"
+    },
+    {
+      "word": "remote policy",
+      "ipa": "/rɪˈməʊt ˈpɒləsi/",
+      "meaning_vi": "chính sách làm việc từ xa",
+      "example": "Their remote policy allows two days from home every week.",
+      "example_vi": "Chính sách làm việc từ xa của họ cho phép hai ngày ở nhà mỗi tuần."
+    },
+    {
+      "word": "training budget",
+      "ipa": "/ˈtreɪnɪŋ ˈbʌdʒɪt/",
+      "meaning_vi": "ngân sách đào tạo",
+      "example": "Does each engineer have a yearly training budget for courses?",
+      "example_vi": "Mỗi kỹ sư có ngân sách đào tạo hằng năm cho các khoá học không?"
+    },
+    {
+      "word": "typical career path",
+      "ipa": "/ˈtɪpɪkl kəˈrɪə pɑːθ/",
+      "meaning_vi": "lộ trình nghề nghiệp thường thấy",
+      "example": "What is the typical career path for someone in this role?",
+      "example_vi": "Lộ trình nghề nghiệp thường thấy cho người ở vị trí này là gì?"
+    },
+    {
+      "word": "interview panel",
+      "ipa": "/ˈɪntəvjuː ˈpænl/",
+      "meaning_vi": "hội đồng phỏng vấn",
+      "example": "Could you tell me who will be on the interview panel next round?",
+      "example_vi": "Anh cho tôi biết ai sẽ nằm trong hội đồng phỏng vấn vòng sau được không?"
+    }
+  ],
+  "listening": {
+    "title": "The candidate asks the last questions",
+    "lines": [
+      { "speaker": "Thu (Hiring Manager)", "voice": "female", "text": "Khanh, we are almost finished. Do you have any questions for us?" },
+      { "speaker": "Khanh (Candidate)", "voice": "male", "text": "Yes, thank you. What does success look like in my first 90 days?" },
+      { "speaker": "Thu (Hiring Manager)", "voice": "female", "text": "You should ship one small feature and understand our main product by then." },
+      { "speaker": "Khanh (Candidate)", "voice": "male", "text": "That is clear. Which success metrics does the team follow every quarter?" },
+      { "speaker": "Thu (Hiring Manager)", "voice": "female", "text": "Delivery speed, the bug rate after release, and feedback from internal users." },
+      { "speaker": "Khanh (Candidate)", "voice": "male", "text": "Could you tell me more about the tech stack your team uses today?" },
+      { "speaker": "Thu (Hiring Manager)", "voice": "female", "text": "Mostly Java and React, with a slow move towards a cloud platform." },
+      { "speaker": "Khanh (Candidate)", "voice": "male", "text": "Good to know. May I ask about the remote policy and the training budget?" },
+      { "speaker": "Thu (Hiring Manager)", "voice": "female", "text": "Two days from home each week, and every engineer has a yearly training budget." },
+      { "speaker": "Khanh (Candidate)", "voice": "male", "text": "One last question: what is the typical career path for this role?" },
+      { "speaker": "Thu (Hiring Manager)", "voice": "female", "text": "Senior in about two years, then technical lead if the performance review cycle goes well." },
+      { "speaker": "Khanh (Candidate)", "voice": "male", "text": "Thank you. Could you also share who will join the interview panel next round?" }
+    ],
+    "questions": [
+      {
+        "q": "What should Khanh achieve in his first 90 days?",
+        "options": ["Lead the whole engineering team", "Ship one small feature and learn the product", "Hire two new developers"],
+        "answer": 1
+      },
+      {
+        "q": "What is the company's remote policy?",
+        "options": ["Two days from home each week", "Fully remote work", "No remote work is allowed"],
+        "answer": 0
+      },
+      {
+        "q": "What is the typical career path Thu describes?",
+        "options": ["Manager after six months", "A move into the sales team", "Senior in two years, then technical lead"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you tell me what success looks like in my first 90 days?",
+    "Which success metrics does the team review at the end of each quarter?",
+    "In my last role I asked about the tech stack before I accepted the offer.",
+    "May I ask how often the performance review cycle happens in your company?",
+    "Thank you for your time; could you share the next steps after today?"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-29",
+  "track": "office",
+  "theme": "Gọi điện với đối tác",
+  "vocab": [
+    {
+      "word": "dial the number",
+      "ipa": "/ˈdaɪəl ðə ˈnʌmbə/",
+      "meaning_vi": "bấm số để gọi",
+      "example": "Please dial the number again; the first attempt did not connect.",
+      "example_vi": "Bạn bấm số gọi lại giúp nhé; lần đầu không kết nối được."
+    },
+    {
+      "word": "on the line",
+      "ipa": "/ɒn ðə laɪn/",
+      "meaning_vi": "đang ở đầu dây",
+      "example": "Mr Duc is on the line and would like to speak with you.",
+      "example_vi": "Anh Đức đang ở đầu dây và muốn nói chuyện với anh."
+    },
+    {
+      "word": "go ahead",
+      "ipa": "/ˌɡəʊ əˈhed/",
+      "meaning_vi": "mời anh/chị nói tiếp",
+      "example": "Please go ahead, I have my notes open in front of me.",
+      "example_vi": "Mời anh nói tiếp, tôi đang mở sẵn ghi chú trước mặt."
+    },
+    {
+      "word": "take a message",
+      "ipa": "/teɪk ə ˈmesɪdʒ/",
+      "meaning_vi": "ghi lại lời nhắn",
+      "example": "She is in a workshop now, but I can take a message.",
+      "example_vi": "Chị ấy đang trong buổi workshop, nhưng tôi có thể ghi lại lời nhắn."
+    },
+    {
+      "word": "call back later",
+      "ipa": "/kɔːl ˈbæk ˈleɪtə/",
+      "meaning_vi": "gọi lại sau",
+      "example": "If the meeting runs long, I will call back later this afternoon.",
+      "example_vi": "Nếu cuộc họp kéo dài, tôi sẽ gọi lại vào cuối buổi chiều nay."
+    },
+    {
+      "word": "spell it out",
+      "ipa": "/spel ɪt ˈaʊt/",
+      "meaning_vi": "đánh vần từng chữ cho rõ",
+      "example": "Could you spell it out slowly so that I write it correctly?",
+      "example_vi": "Anh đánh vần chậm giúp tôi để tôi ghi đúng nhé?"
+    },
+    {
+      "word": "recap the call",
+      "ipa": "/ˈriːkæp ðə kɔːl/",
+      "meaning_vi": "tóm tắt lại nội dung cuộc gọi",
+      "example": "Before we finish, let me recap the call in two short points.",
+      "example_vi": "Trước khi kết thúc, cho tôi tóm tắt lại cuộc gọi trong hai ý ngắn."
+    },
+    {
+      "word": "written confirmation",
+      "ipa": "/ˈrɪtn ˌkɒnfəˈmeɪʃn/",
+      "meaning_vi": "xác nhận bằng văn bản",
+      "example": "Our finance team needs written confirmation before they release the payment.",
+      "example_vi": "Bộ phận tài chính của chúng tôi cần xác nhận bằng văn bản trước khi giải ngân."
+    }
+  ],
+  "listening": {
+    "title": "A call with a supplier about the delivery date",
+    "lines": [
+      { "speaker": "Hoa (Procurement Officer)", "voice": "female", "text": "Good morning, this is Hoa from VietSoft. Is Mr Duc on the line?" },
+      { "speaker": "Duc (Partner Account Manager)", "voice": "male", "text": "Speaking. Good morning, Hoa. Thank you for calling. How can I help today?" },
+      { "speaker": "Hoa (Procurement Officer)", "voice": "female", "text": "I have two points about the delivery schedule. May I start with the first?" },
+      { "speaker": "Duc (Partner Account Manager)", "voice": "male", "text": "Please go ahead. I have my notes open and about fifteen free minutes." },
+      { "speaker": "Hoa (Procurement Officer)", "voice": "female", "text": "Our team needs the new licences before Friday. Is that date still possible?" },
+      { "speaker": "Duc (Partner Account Manager)", "voice": "male", "text": "It is tight, but yes. I will send written confirmation this afternoon." },
+      { "speaker": "Hoa (Procurement Officer)", "voice": "female", "text": "Thank you. Please use my work email, not the general company address." },
+      { "speaker": "Duc (Partner Account Manager)", "voice": "male", "text": "Could you spell it out slowly? I want to avoid sending it to the wrong inbox." },
+      { "speaker": "Hoa (Procurement Officer)", "voice": "female", "text": "Of course: H-O-A, then vietsoft dot vn. Shall I recap the call quickly?" },
+      { "speaker": "Duc (Partner Account Manager)", "voice": "male", "text": "Yes please, that always helps both of us remember the agreed points." },
+      { "speaker": "Hoa (Procurement Officer)", "voice": "female", "text": "You confirm the licences by Friday and email me the signed delivery schedule." },
+      { "speaker": "Duc (Partner Account Manager)", "voice": "male", "text": "Correct. If I am out, my assistant will take a message and I will call back later." }
+    ],
+    "questions": [
+      {
+        "q": "Why is Hoa calling Duc?",
+        "options": ["To ask about the delivery schedule", "To apply for a new position", "To complain about a broken laptop"],
+        "answer": 0
+      },
+      {
+        "q": "What will Duc send this afternoon?",
+        "options": ["A new price list", "Written confirmation", "A calendar invitation"],
+        "answer": 1
+      },
+      {
+        "q": "Why does Duc ask Hoa to spell her email?",
+        "options": ["He cannot hear her voice", "He wants to avoid the wrong inbox", "He has no computer with him"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Good morning, this is Hoa from VietSoft. May I speak to Mr Duc?",
+    "He is in a meeting right now. Would you like to leave a message?",
+    "Could you spell it out slowly so that I write the address correctly?",
+    "Let me recap the call before we finish, just to confirm the main points.",
+    "I will send you written confirmation by email before the end of today."
+  ]
+}

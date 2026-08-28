@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-29",
+  "track": "it",
+  "theme": "Small talk đầu giờ & pantry chat",
+  "vocab": [
+    {
+      "word": "kettle",
+      "ipa": "/ˈketl/",
+      "meaning_vi": "ấm đun nước",
+      "example": "Nam turned on the kettle before the daily standup started.",
+      "example_vi": "Nam bật ấm đun nước trước khi buổi standup hằng ngày bắt đầu."
+    },
+    {
+      "word": "mug",
+      "ipa": "/mʌɡ/",
+      "meaning_vi": "cốc có quai (để uống cà phê, trà)",
+      "example": "I left my mug next to the keyboard again this morning.",
+      "example_vi": "Sáng nay tôi lại để quên cốc cạnh bàn phím."
+    },
+    {
+      "word": "break room",
+      "ipa": "/ˈbreɪk ruːm/",
+      "meaning_vi": "phòng nghỉ, khu pantry của công ty",
+      "example": "The whole backend team eats lunch in the break room on Fridays.",
+      "example_vi": "Cả nhóm backend ăn trưa ở phòng nghỉ vào các ngày thứ Sáu."
+    },
+    {
+      "word": "refill",
+      "ipa": "/ˈriːfɪl/",
+      "meaning_vi": "rót thêm; lần rót thêm",
+      "example": "Would you like a refill before we join the sprint planning call?",
+      "example_vi": "Bạn có muốn rót thêm một chút trước khi vào cuộc họp sprint planning không?"
+    },
+    {
+      "word": "stretch my legs",
+      "ipa": "/stretʃ maɪ leɡz/",
+      "meaning_vi": "đi lại một chút cho đỡ mỏi",
+      "example": "After three hours of debugging I need to stretch my legs.",
+      "example_vi": "Sau ba tiếng debug tôi cần đi lại một chút cho đỡ mỏi."
+    },
+    {
+      "word": "long weekend",
+      "ipa": "/ˌlɒŋ ˈwiːkend/",
+      "meaning_vi": "kỳ nghỉ cuối tuần dài (có thêm ngày lễ)",
+      "example": "The team looks fresh after a long weekend without any production alerts.",
+      "example_vi": "Cả nhóm trông tỉnh táo hẳn sau kỳ nghỉ dài không có cảnh báo production nào."
+    },
+    {
+      "word": "traffic jam",
+      "ipa": "/ˈtræfɪk dʒæm/",
+      "meaning_vi": "cảnh kẹt xe",
+      "example": "Linh joined the standup from her phone because of a traffic jam.",
+      "example_vi": "Linh vào standup bằng điện thoại vì bị kẹt xe."
+    },
+    {
+      "word": "water cooler",
+      "ipa": "/ˈwɔːtə ˌkuːlə/",
+      "meaning_vi": "cây nước (nơi mọi người hay đứng nói chuyện)",
+      "example": "Most project news travels faster at the water cooler than by email.",
+      "example_vi": "Phần lớn tin tức dự án lan nhanh ở cây nước hơn là qua email."
+    }
+  ],
+  "listening": {
+    "title": "Morning chat in the pantry",
+    "lines": [
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Morning, Linh. You are early today. Is the kettle already on?" },
+      { "speaker": "Linh (QA Engineer)", "voice": "female", "text": "Morning, Nam. Yes, I boiled it. Do you want a refill of coffee?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Yes please. I left my mug on the desk, so give me one minute." },
+      { "speaker": "Linh (QA Engineer)", "voice": "female", "text": "Take your time. The break room is quiet before the daily standup starts." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "I really needed this. The traffic jam near the office was terrible this morning." },
+      { "speaker": "Linh (QA Engineer)", "voice": "female", "text": "Same for me. I left home at seven and still arrived a bit late." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Did you enjoy the long weekend? You mentioned a short trip to Da Lat." },
+      { "speaker": "Linh (QA Engineer)", "voice": "female", "text": "It was lovely. We walked every morning, so I came back quite tired." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "After the standup I will stretch my legs and get some cold water." },
+      { "speaker": "Linh (QA Engineer)", "voice": "female", "text": "Good idea. People always meet at the water cooler and share project news." }
+    ],
+    "questions": [
+      {
+        "q": "Why was Nam late this morning?",
+        "options": ["He was stuck in a traffic jam", "He forgot his laptop at home", "He travelled to Da Lat"],
+        "answer": 0
+      },
+      {
+        "q": "What did Linh do during the long weekend?",
+        "options": ["She worked from the office", "She took a trip to Da Lat", "She stayed at home and slept"],
+        "answer": 1
+      },
+      {
+        "q": "What will Nam do after the standup?",
+        "options": ["Join a client call", "Fix a production bug", "Stretch his legs and get water"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Morning, Linh. Did you have a good weekend away from work and email?",
+    "The kettle is empty again, so let me boil some water for everyone.",
+    "Sorry I am late, the traffic jam near the office was really bad.",
+    "Let's grab a quick coffee in the break room before the standup starts.",
+    "I will stretch my legs for five minutes and refill my mug downstairs."
+  ]
+}
