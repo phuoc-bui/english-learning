@@ -1,0 +1,154 @@
+{
+  "date": "2026-08-30",
+  "track": "office",
+  "theme": "Ghi chú & biên bản họp",
+  "vocab": [
+    {
+      "word": "take down notes",
+      "ipa": "/teɪk daʊn nəʊts/",
+      "meaning_vi": "ghi chép lại",
+      "example": "Linh takes down notes for every department meeting on Monday.",
+      "example_vi": "Linh ghi chép lại cho mọi cuộc họp phòng vào thứ Hai."
+    },
+    {
+      "word": "approve the minutes",
+      "ipa": "/əˈpruːv ðə ˈmɪnɪts/",
+      "meaning_vi": "phê duyệt biên bản họp",
+      "example": "The manager must approve the minutes before we send them to the team.",
+      "example_vi": "Quản lý phải phê duyệt biên bản trước khi chúng ta gửi cho cả đội."
+    },
+    {
+      "word": "concise summary",
+      "ipa": "/kənˈsaɪs ˈsʌməri/",
+      "meaning_vi": "bản tóm tắt ngắn gọn",
+      "example": "Please write a concise summary of the discussion in four short lines.",
+      "example_vi": "Vui lòng viết một bản tóm tắt ngắn gọn về phần thảo luận trong bốn dòng."
+    },
+    {
+      "word": "decision log",
+      "ipa": "/dɪˈsɪʒn lɒɡ/",
+      "meaning_vi": "nhật ký các quyết định",
+      "example": "Every approved change goes into the decision log on the shared folder.",
+      "example_vi": "Mọi thay đổi được duyệt đều được ghi vào nhật ký quyết định trên thư mục chung."
+    },
+    {
+      "word": "due date",
+      "ipa": "/djuː deɪt/",
+      "meaning_vi": "ngày đến hạn",
+      "example": "The minutes must show a due date for each action item.",
+      "example_vi": "Biên bản phải ghi rõ ngày đến hạn cho từng đầu việc."
+    },
+    {
+      "word": "jot down",
+      "ipa": "/dʒɒt daʊn/",
+      "meaning_vi": "ghi nhanh, ghi vội",
+      "example": "I jot down the key numbers first and tidy the file later.",
+      "example_vi": "Tôi ghi nhanh các con số quan trọng trước rồi sắp xếp lại tài liệu sau."
+    },
+    {
+      "word": "amend",
+      "ipa": "/əˈmend/",
+      "meaning_vi": "sửa đổi, hiệu chỉnh",
+      "example": "Tell me if I should amend anything before I send the final version.",
+      "example_vi": "Hãy cho tôi biết nếu cần sửa đổi gì trước khi tôi gửi bản cuối."
+    },
+    {
+      "word": "apologies for absence",
+      "ipa": "/əˈpɒlədʒiz fər ˈæbsəns/",
+      "meaning_vi": "lý do vắng mặt (ghi trong biên bản)",
+      "example": "The minutes list apologies for absence at the top of the first page.",
+      "example_vi": "Biên bản ghi lý do vắng mặt ở đầu trang đầu tiên."
+    }
+  ],
+  "listening": {
+    "title": "Checking the meeting minutes",
+    "lines": [
+      {
+        "speaker": "Linh (Team Assistant)",
+        "voice": "female",
+        "text": "Mr. Minh, I have finished the draft minutes from this morning's department meeting."
+      },
+      {
+        "speaker": "Minh (Department Manager)",
+        "voice": "male",
+        "text": "That was fast. Did you note the decision about the new supplier?"
+      },
+      {
+        "speaker": "Linh (Team Assistant)",
+        "voice": "female",
+        "text": "Yes, I put it in the decision log with your name as the approver."
+      },
+      {
+        "speaker": "Minh (Department Manager)",
+        "voice": "male",
+        "text": "Good. Could you also summarize the discussion about the office move?"
+      },
+      {
+        "speaker": "Linh (Team Assistant)",
+        "voice": "female",
+        "text": "I wrote a concise summary, because the discussion was quite long and detailed."
+      },
+      {
+        "speaker": "Minh (Department Manager)",
+        "voice": "male",
+        "text": "A short summary is enough. Does every action item have an owner and a due date?"
+      },
+      {
+        "speaker": "Linh (Team Assistant)",
+        "voice": "female",
+        "text": "All of them except one. I am not sure who will book the meeting room."
+      },
+      {
+        "speaker": "Minh (Department Manager)",
+        "voice": "male",
+        "text": "Please write my name there, and set the due date as next Tuesday."
+      },
+      {
+        "speaker": "Linh (Team Assistant)",
+        "voice": "female",
+        "text": "Noted. Is there anything else I should amend before I circulate the file?"
+      },
+      {
+        "speaker": "Minh (Department Manager)",
+        "voice": "male",
+        "text": "Please add the apologies for absence, and note that the training budget was approved."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Where did Linh record the decision about the new supplier?",
+        "options": [
+          "In the decision log",
+          "In a personal notebook",
+          "In an email to the director"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What was missing from one action item?",
+        "options": [
+          "The meeting title",
+          "The owner of the task",
+          "The list of attendees"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Minh ask Linh to add at the end?",
+        "options": [
+          "The new office address",
+          "The name of the supplier",
+          "The apologies for absence and the approved training budget"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I will take down notes today and send them after the meeting ends.",
+    "Could you repeat that decision so I can jot it down correctly?",
+    "Please check the draft minutes and tell me if anything needs amending.",
+    "Please note the due date for this task is next Friday afternoon.",
+    "I wrote a concise summary of every decision in the decision log."
+  ]
+}

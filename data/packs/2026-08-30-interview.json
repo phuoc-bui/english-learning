@@ -1,0 +1,154 @@
+{
+  "date": "2026-08-30",
+  "track": "interview",
+  "theme": "Phỏng vấn qua video call",
+  "vocab": [
+    {
+      "word": "internet speed",
+      "ipa": "/ˈɪntənet spiːd/",
+      "meaning_vi": "tốc độ mạng",
+      "example": "I checked my internet speed this morning before the interview started.",
+      "example_vi": "Tôi đã kiểm tra tốc độ mạng sáng nay trước khi buổi phỏng vấn bắt đầu."
+    },
+    {
+      "word": "unmute",
+      "ipa": "/ˌʌnˈmjuːt/",
+      "meaning_vi": "bật lại tiếng micro",
+      "example": "Sorry, I forgot to unmute; let me answer your question again.",
+      "example_vi": "Xin lỗi, tôi quên bật lại tiếng; để tôi trả lời câu hỏi của bạn lại."
+    },
+    {
+      "word": "look at the camera",
+      "ipa": "/lʊk ət ðə ˈkæmərə/",
+      "meaning_vi": "nhìn vào camera",
+      "example": "Look at the camera, not at your own picture, when you answer.",
+      "example_vi": "Hãy nhìn vào camera, đừng nhìn hình của chính mình, khi bạn trả lời."
+    },
+    {
+      "word": "well-lit room",
+      "ipa": "/wel lɪt ruːm/",
+      "meaning_vi": "phòng đủ ánh sáng",
+      "example": "I sat near the window so I was in a well-lit room.",
+      "example_vi": "Tôi ngồi gần cửa sổ nên tôi ở trong một phòng đủ ánh sáng."
+    },
+    {
+      "word": "lag",
+      "ipa": "/læɡ/",
+      "meaning_vi": "độ trễ",
+      "example": "There is a short lag, so please wait a second before you speak.",
+      "example_vi": "Có một chút độ trễ, nên hãy đợi một giây trước khi bạn nói."
+    },
+    {
+      "word": "share my screen",
+      "ipa": "/ʃeə maɪ skriːn/",
+      "meaning_vi": "chia sẻ màn hình của tôi",
+      "example": "May I share my screen to show you the dashboard I built?",
+      "example_vi": "Tôi có thể chia sẻ màn hình để cho bạn xem dashboard tôi đã làm không?"
+    },
+    {
+      "word": "reconnect",
+      "ipa": "/ˌriːkəˈnekt/",
+      "meaning_vi": "kết nối lại",
+      "example": "If the call drops, I will reconnect within one minute.",
+      "example_vi": "Nếu cuộc gọi bị rớt, tôi sẽ kết nối lại trong vòng một phút."
+    },
+    {
+      "word": "quiet space",
+      "ipa": "/ˈkwaɪət speɪs/",
+      "meaning_vi": "không gian yên tĩnh",
+      "example": "I booked a quiet space at home so nobody would interrupt the interview.",
+      "example_vi": "Tôi đã chuẩn bị một không gian yên tĩnh ở nhà để không ai làm gián đoạn buổi phỏng vấn."
+    }
+  ],
+  "listening": {
+    "title": "A job interview over a video call",
+    "lines": [
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "Good afternoon, Nam. Can you hear and see me clearly on your side?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Yes, very clearly. I am in a quiet space at home, so we will not be interrupted."
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "Perfect. Let us start. Could you tell me about a project you are proud of?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Last year our team had to move an old report system to a new one."
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "What was your own task in that project?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "I tested the data and trained six users. Sorry, was there a lag just now?"
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "A small one, but I heard everything. Please continue with the result."
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "We finished one week early, and reporting time dropped from two days to two hours."
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "That is a strong result. Do you have anything you would like to show me?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Yes, may I share my screen for two minutes and walk you through the dashboard?"
+      }
+    ],
+    "questions": [
+      {
+        "q": "Where is Nam taking the interview?",
+        "options": [
+          "In a quiet space at home",
+          "In a coffee shop",
+          "In his current office"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What was Nam's task in the project?",
+        "options": [
+          "He managed the budget",
+          "He tested the data and trained users",
+          "He designed the office network"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Nam ask to do at the end?",
+        "options": [
+          "Reschedule the interview",
+          "Turn off his camera",
+          "Share his screen to show a dashboard"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Can you hear me clearly, or should I move to a quieter room?",
+    "Sorry, the connection lagged for a moment; could you repeat the question?",
+    "In that project my task was to test the payment feature carefully.",
+    "I will share my screen now so you can see my sample work.",
+    "As a result, we finished one week early and the client was happy."
+  ]
+}

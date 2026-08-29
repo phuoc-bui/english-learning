@@ -1,0 +1,154 @@
+{
+  "date": "2026-08-30",
+  "track": "it",
+  "theme": "Họp với khách hàng",
+  "vocab": [
+    {
+      "word": "scope of work",
+      "ipa": "/skəʊp əv wɜːk/",
+      "meaning_vi": "phạm vi công việc",
+      "example": "This new report is outside the scope of work we agreed in June.",
+      "example_vi": "Báo cáo mới này nằm ngoài phạm vi công việc chúng ta đã thống nhất hồi tháng Sáu."
+    },
+    {
+      "word": "walk through",
+      "ipa": "/wɔːk θruː/",
+      "meaning_vi": "đi qua từng phần, giải thích chi tiết",
+      "example": "Let me walk you through the login screen before we discuss the API.",
+      "example_vi": "Để tôi giải thích chi tiết màn hình đăng nhập trước khi bàn về API."
+    },
+    {
+      "word": "progress update",
+      "ipa": "/ˈprəʊɡres ˌʌpdeɪt/",
+      "meaning_vi": "bản cập nhật tiến độ",
+      "example": "I send the client a short progress update every Friday afternoon.",
+      "example_vi": "Tôi gửi cho khách hàng một bản cập nhật tiến độ ngắn vào chiều thứ Sáu hàng tuần."
+    },
+    {
+      "word": "align on",
+      "ipa": "/əˈlaɪn ɒn/",
+      "meaning_vi": "thống nhất về",
+      "example": "Can we align on the release date before the team starts coding?",
+      "example_vi": "Chúng ta có thể thống nhất về ngày phát hành trước khi đội bắt đầu code không?"
+    },
+    {
+      "word": "constraint",
+      "ipa": "/kənˈstreɪnt/",
+      "meaning_vi": "ràng buộc, giới hạn",
+      "example": "Our main constraint is that the old database cannot be changed.",
+      "example_vi": "Ràng buộc chính của chúng tôi là cơ sở dữ liệu cũ không thể thay đổi."
+    },
+    {
+      "word": "action owner",
+      "ipa": "/ˈækʃn ˈəʊnə/",
+      "meaning_vi": "người phụ trách đầu việc",
+      "example": "Each task in the notes needs an action owner and a clear date.",
+      "example_vi": "Mỗi việc trong ghi chú cần có người phụ trách và một ngày rõ ràng."
+    },
+    {
+      "word": "raise a concern",
+      "ipa": "/reɪz ə kənˈsɜːn/",
+      "meaning_vi": "nêu một lo ngại",
+      "example": "The client raised a concern about the speed of the search function.",
+      "example_vi": "Khách hàng đã nêu một lo ngại về tốc độ của chức năng tìm kiếm."
+    },
+    {
+      "word": "go-live date",
+      "ipa": "/ˈɡəʊ laɪv deɪt/",
+      "meaning_vi": "ngày đưa hệ thống vào vận hành",
+      "example": "The client asked us to confirm the go-live date for the new portal.",
+      "example_vi": "Khách hàng đề nghị chúng tôi xác nhận ngày vận hành chính thức của cổng thông tin mới."
+    }
+  ],
+  "listening": {
+    "title": "A progress meeting with the client",
+    "lines": [
+      {
+        "speaker": "Nam (Project Manager)",
+        "voice": "male",
+        "text": "Good morning, Ms. Hoa. Thank you for joining. Shall I walk you through this week's progress first?"
+      },
+      {
+        "speaker": "Hoa (Client Product Owner)",
+        "voice": "female",
+        "text": "Yes, please. I mainly want to know if the first deliverable is still on time."
+      },
+      {
+        "speaker": "Nam (Project Manager)",
+        "voice": "male",
+        "text": "It is. The first progress update and demo will be ready next Wednesday morning."
+      },
+      {
+        "speaker": "Hoa (Client Product Owner)",
+        "voice": "female",
+        "text": "That is good news. One of our managers raised a concern about the search speed."
+      },
+      {
+        "speaker": "Nam (Project Manager)",
+        "voice": "male",
+        "text": "We noticed that too. The main constraint is the old database, which we cannot change."
+      },
+      {
+        "speaker": "Hoa (Client Product Owner)",
+        "voice": "female",
+        "text": "I understand. Can your team still make the search faster in some way?"
+      },
+      {
+        "speaker": "Nam (Project Manager)",
+        "voice": "male",
+        "text": "Yes, we can add a cache layer. It needs about three extra days of work."
+      },
+      {
+        "speaker": "Hoa (Client Product Owner)",
+        "voice": "female",
+        "text": "Three days is acceptable. Is that inside our current scope of work?"
+      },
+      {
+        "speaker": "Nam (Project Manager)",
+        "voice": "male",
+        "text": "It is a small addition, so we will cover it without extra cost this time."
+      },
+      {
+        "speaker": "Hoa (Client Product Owner)",
+        "voice": "female",
+        "text": "Thank you. Let us align on the demo agenda and confirm the go-live date by email."
+      }
+    ],
+    "questions": [
+      {
+        "q": "When will the first demo be ready?",
+        "options": [
+          "Next Wednesday morning",
+          "This Friday afternoon",
+          "In three weeks"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What concern did one of the client's managers have?",
+        "options": [
+          "The colour of the screens",
+          "The speed of the search function",
+          "The price of the project"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How will Nam make the search faster?",
+        "options": [
+          "By changing the old database",
+          "By removing the search function",
+          "By adding a cache layer"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Thanks for joining today; let me walk you through the main updates.",
+    "Before we start, I would like to align on the meeting goals.",
+    "Could you confirm whether this feature is part of the current scope?",
+    "I will send a progress update with an action owner for each task.",
+    "If you have any concerns, please raise them before we close the meeting."
+  ]
+}

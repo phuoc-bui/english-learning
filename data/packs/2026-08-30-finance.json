@@ -1,0 +1,154 @@
+{
+  "date": "2026-08-30",
+  "track": "finance",
+  "theme": "Đề xuất mua sắm thiết bị",
+  "vocab": [
+    {
+      "word": "fixed asset",
+      "ipa": "/fɪkst ˈæset/",
+      "meaning_vi": "tài sản cố định",
+      "example": "New servers are treated as a fixed asset, not a monthly cost.",
+      "example_vi": "Máy chủ mới được coi là tài sản cố định, không phải chi phí hàng tháng."
+    },
+    {
+      "word": "purchase order",
+      "ipa": "/ˈpɜːtʃəs ˈɔːdə/",
+      "meaning_vi": "đơn đặt hàng",
+      "example": "Please sign the purchase order before I send it to the director.",
+      "example_vi": "Vui lòng ký đơn đặt hàng trước khi tôi gửi cho giám đốc."
+    },
+    {
+      "word": "vendor selection",
+      "ipa": "/ˈvendə sɪˈlekʃn/",
+      "meaning_vi": "việc lựa chọn nhà cung cấp",
+      "example": "The vendor selection took two weeks because we compared three offers.",
+      "example_vi": "Việc lựa chọn nhà cung cấp mất hai tuần vì chúng tôi so sánh ba đề nghị."
+    },
+    {
+      "word": "justify the cost",
+      "ipa": "/ˈdʒʌstɪfaɪ ðə kɒst/",
+      "meaning_vi": "chứng minh chi phí là hợp lý",
+      "example": "You must justify the cost with real numbers from last quarter.",
+      "example_vi": "Bạn phải chứng minh chi phí là hợp lý bằng số liệu thực của quý trước."
+    },
+    {
+      "word": "quote",
+      "ipa": "/kwəʊt/",
+      "meaning_vi": "báo giá",
+      "example": "We received three quotes and chose the cheapest one with good support.",
+      "example_vi": "Chúng tôi nhận ba báo giá và chọn cái rẻ nhất có hỗ trợ tốt."
+    },
+    {
+      "word": "asset register",
+      "ipa": "/ˈæset ˈredʒɪstə/",
+      "meaning_vi": "sổ theo dõi tài sản",
+      "example": "Every laptop over ten million dong goes into the asset register.",
+      "example_vi": "Mọi laptop trên mười triệu đồng đều được ghi vào sổ theo dõi tài sản."
+    },
+    {
+      "word": "installation cost",
+      "ipa": "/ˌɪnstəˈleɪʃn kɒst/",
+      "meaning_vi": "chi phí lắp đặt",
+      "example": "Do not forget the installation cost when you compare the two offers.",
+      "example_vi": "Đừng quên chi phí lắp đặt khi bạn so sánh hai đề nghị."
+    },
+    {
+      "word": "payback period",
+      "ipa": "/ˈpeɪbæk ˈpɪəriəd/",
+      "meaning_vi": "thời gian hoàn vốn",
+      "example": "The payback period is short because the machine saves labour costs.",
+      "example_vi": "Thời gian hoàn vốn ngắn vì máy này tiết kiệm chi phí nhân công."
+    }
+  ],
+  "listening": {
+    "title": "Approving a request for new equipment",
+    "lines": [
+      {
+        "speaker": "Minh (Accountant)",
+        "voice": "male",
+        "text": "Ms. Linh, the IT team sent a purchase order for five new laptops."
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "Five is quite a lot. Did they explain why the old ones are not enough?"
+      },
+      {
+        "speaker": "Minh (Accountant)",
+        "voice": "male",
+        "text": "Yes. The old machines are six years old and crash almost every week."
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "That helps them justify the cost. How many quotes did they collect?"
+      },
+      {
+        "speaker": "Minh (Accountant)",
+        "voice": "male",
+        "text": "Three quotes. The middle one is the best value, about ninety million dong in total."
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "We should treat this as a fixed asset, not an ordinary office expense."
+      },
+      {
+        "speaker": "Minh (Accountant)",
+        "voice": "male",
+        "text": "Agreed. The vendor selection is finished, and the installation cost is already included."
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "Please also add each laptop to the asset register when they arrive."
+      },
+      {
+        "speaker": "Minh (Accountant)",
+        "voice": "male",
+        "text": "Of course. Should I mention the payback period in the summary for the director?"
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "Yes, and keep it on one page. He will read it before Friday."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why does the IT team need new laptops?",
+        "options": [
+          "The old ones are six years old and crash often",
+          "The team has five new members",
+          "The old ones were lost"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How many quotes did the IT team collect?",
+        "options": [
+          "One",
+          "Three",
+          "Five"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What should Minh do when the laptops arrive?",
+        "options": [
+          "Send them back to the supplier",
+          "Pay the invoice twice",
+          "Add each laptop to the asset register"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I have prepared a purchase order for three new laptops this quarter.",
+    "Could you help me justify the cost to the management team please?",
+    "This equipment counts as a fixed asset, not a normal monthly expense.",
+    "Please include the installation cost when you compare these two supplier quotes.",
+    "Please attach the quote and add the item to the asset register."
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-30",
+  "track": "sales",
+  "theme": "Khảo sát nhu cầu khách",
+  "vocab": [
+    {
+      "word": "current challenge",
+      "ipa": "/ˈkʌrənt ˈtʃælɪndʒ/",
+      "meaning_vi": "khó khăn hiện tại",
+      "example": "Their current challenge is that reports take two days to prepare.",
+      "example_vi": "Khó khăn hiện tại của họ là báo cáo mất hai ngày để chuẩn bị."
+    },
+    {
+      "word": "current process",
+      "ipa": "/ˈkʌrənt ˈprəʊses/",
+      "meaning_vi": "quy trình hiện tại",
+      "example": "Could you describe your current process for handling customer orders?",
+      "example_vi": "Bạn có thể mô tả quy trình hiện tại để xử lý đơn hàng của khách không?"
+    },
+    {
+      "word": "budget holder",
+      "ipa": "/ˈbʌdʒɪt ˈhəʊldə/",
+      "meaning_vi": "người nắm ngân sách",
+      "example": "May I ask who the budget holder is for this kind of purchase?",
+      "example_vi": "Cho tôi hỏi ai là người nắm ngân sách cho loại mua sắm này?"
+    },
+    {
+      "word": "open question",
+      "ipa": "/ˈəʊpən ˈkwestʃən/",
+      "meaning_vi": "câu hỏi mở",
+      "example": "I ask open questions first, so the customer can explain freely.",
+      "example_vi": "Tôi hỏi câu hỏi mở trước, để khách hàng có thể trình bày thoải mái."
+    },
+    {
+      "word": "must-have",
+      "ipa": "/ˈmʌst hæv/",
+      "meaning_vi": "thứ bắt buộc phải có",
+      "example": "Accurate numbers are a must-have; a nice design is only nice to have.",
+      "example_vi": "Số liệu chính xác là thứ bắt buộc phải có; giao diện đẹp chỉ là điểm cộng."
+    },
+    {
+      "word": "spending limit",
+      "ipa": "/ˈspendɪŋ ˈlɪmɪt/",
+      "meaning_vi": "hạn mức chi tiêu",
+      "example": "Knowing your spending limit helps me suggest the right package.",
+      "example_vi": "Biết hạn mức chi tiêu của bạn giúp tôi gợi ý gói phù hợp."
+    },
+    {
+      "word": "dig deeper",
+      "ipa": "/dɪɡ ˈdiːpə/",
+      "meaning_vi": "tìm hiểu sâu hơn",
+      "example": "Let me dig deeper into how your warehouse team uses the system.",
+      "example_vi": "Để tôi tìm hiểu sâu hơn về cách đội kho của bạn dùng hệ thống."
+    },
+    {
+      "word": "requirement",
+      "ipa": "/rɪˈkwaɪəmənt/",
+      "meaning_vi": "yêu cầu",
+      "example": "I will write down every requirement and send you a short summary.",
+      "example_vi": "Tôi sẽ ghi lại mọi yêu cầu và gửi bạn một bản tóm tắt ngắn."
+    }
+  ],
+  "listening": {
+    "title": "Understanding what the customer really needs",
+    "lines": [
+      {
+        "speaker": "Hoa (Sales Consultant)",
+        "voice": "female",
+        "text": "Thank you for your time, Mr. Nam. Could you describe your current process for stock reports?"
+      },
+      {
+        "speaker": "Nam (Operations Manager)",
+        "voice": "male",
+        "text": "Our staff export data from two systems and then combine everything in Excel."
+      },
+      {
+        "speaker": "Hoa (Sales Consultant)",
+        "voice": "female",
+        "text": "That sounds slow. How long does one full report usually take your team?"
+      },
+      {
+        "speaker": "Nam (Operations Manager)",
+        "voice": "male",
+        "text": "About two days each month, and small mistakes happen quite often."
+      },
+      {
+        "speaker": "Hoa (Sales Consultant)",
+        "voice": "female",
+        "text": "So your current challenge is manual work and small errors. Is that correct?"
+      },
+      {
+        "speaker": "Nam (Operations Manager)",
+        "voice": "male",
+        "text": "Exactly. Accurate numbers are a must-have, and after that, faster reporting."
+      },
+      {
+        "speaker": "Hoa (Sales Consultant)",
+        "voice": "female",
+        "text": "May I dig deeper? How many people would use the new system every day?"
+      },
+      {
+        "speaker": "Nam (Operations Manager)",
+        "voice": "male",
+        "text": "Around fifteen people in the warehouse, plus three staff in the office."
+      },
+      {
+        "speaker": "Hoa (Sales Consultant)",
+        "voice": "female",
+        "text": "Understood. Do you have a spending limit in mind for this year?"
+      },
+      {
+        "speaker": "Nam (Operations Manager)",
+        "voice": "male",
+        "text": "We have some money set aside, but our director is the budget holder."
+      },
+      {
+        "speaker": "Hoa (Sales Consultant)",
+        "voice": "female",
+        "text": "Thank you. I will list every requirement and send a short summary tomorrow."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How does Nam's team prepare stock reports now?",
+        "options": [
+          "They export data and combine it in Excel",
+          "They use one automatic system",
+          "They write the reports by hand"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Nam say is a must-have?",
+        "options": [
+          "A lower price",
+          "Accurate numbers",
+          "A nicer design"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Who is the budget holder?",
+        "options": [
+          "Nam himself",
+          "The warehouse staff",
+          "The director"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you tell me more about the current process your team uses?",
+    "What is the biggest challenge your team faces every single week?",
+    "May I ask who else is involved when you choose a supplier?",
+    "I would like to dig deeper into your reporting and approval requirements.",
+    "Do you have a spending limit in mind for this project already?"
+  ]
+}
