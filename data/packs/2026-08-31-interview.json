@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-31",
+  "track": "interview",
+  "theme": "Kể chuyện theo STAR",
+  "vocab": [
+    {
+      "word": "structure an answer",
+      "ipa": "/ˈstrʌktʃər ən ˈɑːnsə/",
+      "meaning_vi": "sắp xếp câu trả lời có bố cục",
+      "example": "I always structure an answer so the interviewer can follow me easily.",
+      "example_vi": "Tôi luôn sắp xếp câu trả lời có bố cục để người phỏng vấn dễ theo dõi."
+    },
+    {
+      "word": "context",
+      "ipa": "/ˈkɒntekst/",
+      "meaning_vi": "bối cảnh",
+      "example": "Let me give you the context first, then I will explain my actions.",
+      "example_vi": "Để tôi đưa ra bối cảnh trước, rồi tôi sẽ giải thích những việc tôi đã làm."
+    },
+    {
+      "word": "specific example",
+      "ipa": "/spəˌsɪfɪk ɪɡˈzɑːmpl/",
+      "meaning_vi": "ví dụ cụ thể",
+      "example": "A specific example is always stronger than a general sentence about teamwork.",
+      "example_vi": "Một ví dụ cụ thể luôn mạnh hơn một câu chung chung về làm việc nhóm."
+    },
+    {
+      "word": "walk through",
+      "ipa": "/ˌwɔːk ˈθruː/",
+      "meaning_vi": "dẫn dắt qua từng bước",
+      "example": "May I walk you through the three steps I took last year?",
+      "example_vi": "Tôi có thể dẫn anh qua từng bước trong ba việc tôi đã làm năm ngoái không?"
+    },
+    {
+      "word": "measurable",
+      "ipa": "/ˈmeʒərəbl/",
+      "meaning_vi": "có thể đo lường được",
+      "example": "I try to end every story with a measurable number, not just a feeling.",
+      "example_vi": "Tôi cố kết thúc mỗi câu chuyện bằng một con số đo lường được, không chỉ là cảm nhận."
+    },
+    {
+      "word": "impact",
+      "ipa": "/ˈɪmpækt/",
+      "meaning_vi": "tác động, ảnh hưởng",
+      "example": "The impact of that change was clear: fewer complaints from our customers.",
+      "example_vi": "Tác động của thay đổi đó rất rõ: ít lời phàn nàn hơn từ khách hàng của chúng tôi."
+    },
+    {
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning_vi": "ngắn gọn, súc tích",
+      "example": "Please keep your answer concise, about two minutes is enough.",
+      "example_vi": "Hãy giữ câu trả lời ngắn gọn, khoảng hai phút là đủ."
+    },
+    {
+      "word": "highlight",
+      "ipa": "/ˈhaɪlaɪt/",
+      "meaning_vi": "nhấn mạnh, làm nổi bật",
+      "example": "In the last part I highlight what I learned from that project.",
+      "example_vi": "Ở phần cuối tôi nhấn mạnh điều tôi học được từ dự án đó."
+    }
+  ],
+  "listening": {
+    "title": "Answering a question with the STAR structure",
+    "lines": [
+      {
+        "speaker": "Hoa (Interviewer)",
+        "voice": "female",
+        "text": "Minh, tell me about a time when you solved a difficult problem at work."
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "Certainly. May I walk you through it using the STAR structure?"
+      },
+      {
+        "speaker": "Hoa (Interviewer)",
+        "voice": "female",
+        "text": "Please do. That makes it easier for me to follow."
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "For context, last year our monthly report took two full days to prepare."
+      },
+      {
+        "speaker": "Hoa (Interviewer)",
+        "voice": "female",
+        "text": "And what was your own task in that situation?"
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "My task was to cut that time by half before the new quarter started."
+      },
+      {
+        "speaker": "Hoa (Interviewer)",
+        "voice": "female",
+        "text": "What actions did you take? Please keep it concise."
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "I mapped the manual steps, built one template, and trained four colleagues to use it."
+      },
+      {
+        "speaker": "Hoa (Interviewer)",
+        "voice": "female",
+        "text": "Good. Can you give me a measurable result?"
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "Yes. Preparation time dropped from sixteen hours to five, so we saved eleven hours monthly."
+      },
+      {
+        "speaker": "Hoa (Interviewer)",
+        "voice": "female",
+        "text": "That is a real impact. What would you highlight from that experience?"
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "I learned that training people matters as much as building the tool itself."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What structure does Minh use for his answer?",
+        "options": [
+          "The STAR structure",
+          "A list of his skills",
+          "A short story with no numbers"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What was Minh's task?",
+        "options": [
+          "To hire four new colleagues",
+          "To cut the reporting time by half",
+          "To write a new company policy"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What result did Minh give?",
+        "options": [
+          "The report became easier to read",
+          "The team grew from four to eight people",
+          "Preparation time dropped from sixteen hours to five"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "The situation was that our main client asked for a report every week.",
+    "My task was to build the new template and train four team members.",
+    "I will walk you through the actions I took in a concise way.",
+    "As a result, our reporting time dropped by forty percent in two months.",
+    "Let me give you a specific example with measurable numbers from last year."
+  ]
+}

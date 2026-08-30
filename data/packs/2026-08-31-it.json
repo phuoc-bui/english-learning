@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-31",
+  "track": "it",
+  "theme": "Deal lương & phúc lợi",
+  "vocab": [
+    {
+      "word": "base salary",
+      "ipa": "/ˌbeɪs ˈsæləri/",
+      "meaning_vi": "lương cơ bản",
+      "example": "My base salary is fixed, but the bonus depends on the project result.",
+      "example_vi": "Lương cơ bản của tôi là cố định, nhưng thưởng phụ thuộc vào kết quả dự án."
+    },
+    {
+      "word": "salary band",
+      "ipa": "/ˈsæləri bænd/",
+      "meaning_vi": "khung lương",
+      "example": "Every engineer level has its own salary band in our company.",
+      "example_vi": "Mỗi cấp bậc kỹ sư đều có khung lương riêng trong công ty chúng tôi."
+    },
+    {
+      "word": "counter-offer",
+      "ipa": "/ˈkaʊntər ˌɒfə/",
+      "meaning_vi": "đề nghị ngược lại (mức lương khác)",
+      "example": "I sent a polite counter-offer and asked for ten percent more.",
+      "example_vi": "Tôi đã gửi một đề nghị ngược lại lịch sự và xin thêm mười phần trăm."
+    },
+    {
+      "word": "probation period",
+      "ipa": "/prəˈbeɪʃn ˈpɪəriəd/",
+      "meaning_vi": "thời gian thử việc",
+      "example": "The probation period is two months, and then we review your work.",
+      "example_vi": "Thời gian thử việc là hai tháng, sau đó chúng tôi đánh giá công việc của bạn."
+    },
+    {
+      "word": "performance bonus",
+      "ipa": "/pəˈfɔːməns ˈbəʊnəs/",
+      "meaning_vi": "thưởng theo hiệu suất",
+      "example": "Our team got a performance bonus after we shipped the release on time.",
+      "example_vi": "Nhóm chúng tôi được thưởng theo hiệu suất sau khi phát hành đúng hạn."
+    },
+    {
+      "word": "health insurance",
+      "ipa": "/ˈhelθ ɪnˌʃʊərəns/",
+      "meaning_vi": "bảo hiểm sức khoẻ",
+      "example": "The company pays health insurance for me and for my two children.",
+      "example_vi": "Công ty trả bảo hiểm sức khoẻ cho tôi và cho hai con của tôi."
+    },
+    {
+      "word": "training budget",
+      "ipa": "/ˈtreɪnɪŋ ˌbʌdʒɪt/",
+      "meaning_vi": "ngân sách đào tạo",
+      "example": "I used my training budget to take a cloud security course.",
+      "example_vi": "Tôi đã dùng ngân sách đào tạo của mình để học một khoá bảo mật đám mây."
+    },
+    {
+      "word": "overtime pay",
+      "ipa": "/ˈəʊvətaɪm peɪ/",
+      "meaning_vi": "tiền làm thêm giờ",
+      "example": "We receive overtime pay when we support a release at the weekend.",
+      "example_vi": "Chúng tôi nhận tiền làm thêm giờ khi hỗ trợ phát hành vào cuối tuần."
+    }
+  ],
+  "listening": {
+    "title": "Talking about salary and benefits with HR",
+    "lines": [
+      {
+        "speaker": "Linh (HR Manager)",
+        "voice": "female",
+        "text": "Thanks for coming, Nam. Today I would like to talk about your new offer."
+      },
+      {
+        "speaker": "Nam (Senior Developer)",
+        "voice": "male",
+        "text": "Thank you, Linh. Could you start with the base salary, please?"
+      },
+      {
+        "speaker": "Linh (HR Manager)",
+        "voice": "female",
+        "text": "Of course. The base salary is forty million dong per month, before tax."
+      },
+      {
+        "speaker": "Nam (Senior Developer)",
+        "voice": "male",
+        "text": "I see. May I ask where that sits inside the salary band for my level?"
+      },
+      {
+        "speaker": "Linh (HR Manager)",
+        "voice": "female",
+        "text": "It is in the middle of the band. Strong reviews can move you higher next year."
+      },
+      {
+        "speaker": "Nam (Senior Developer)",
+        "voice": "male",
+        "text": "Understood. I would like to make a small counter-offer of forty-four million."
+      },
+      {
+        "speaker": "Linh (HR Manager)",
+        "voice": "female",
+        "text": "I can go to forty-two, and I will add a performance bonus twice a year."
+      },
+      {
+        "speaker": "Nam (Senior Developer)",
+        "voice": "male",
+        "text": "That sounds fair. What about health insurance and the training budget?"
+      },
+      {
+        "speaker": "Linh (HR Manager)",
+        "voice": "female",
+        "text": "Health insurance covers your family, and you have twenty million for training each year."
+      },
+      {
+        "speaker": "Nam (Senior Developer)",
+        "voice": "male",
+        "text": "Great. One last question: is there overtime pay during the probation period?"
+      },
+      {
+        "speaker": "Linh (HR Manager)",
+        "voice": "female",
+        "text": "Yes, from your first day. I will send the full offer letter this afternoon."
+      },
+      {
+        "speaker": "Nam (Senior Developer)",
+        "voice": "male",
+        "text": "Perfect. I will read it carefully and reply to you before Friday."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What base salary does Linh offer at the beginning?",
+        "options": [
+          "Forty million dong per month",
+          "Forty-four million dong per month",
+          "Twenty million dong per month"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh add when Nam makes a counter-offer?",
+        "options": [
+          "An extra week of leave",
+          "A performance bonus twice a year",
+          "A new laptop"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "When does overtime pay start for Nam?",
+        "options": [
+          "After the probation period",
+          "After one year",
+          "From his first day"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you tell me the salary band for this senior developer position?",
+    "My base salary expectation is based on my six years of experience.",
+    "Does the package include health insurance for my wife and my children?",
+    "I would like to make a counter-offer before I sign the contract.",
+    "Is there a training budget for cloud certificates during the probation period?"
+  ]
+}

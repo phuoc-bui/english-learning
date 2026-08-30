@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-31",
+  "track": "finance",
+  "theme": "Đối chiếu số liệu",
+  "vocab": [
+    {
+      "word": "reconciliation",
+      "ipa": "/ˌrekənsɪliˈeɪʃn/",
+      "meaning_vi": "việc đối chiếu số liệu",
+      "example": "The bank reconciliation must be finished before the fifth of each month.",
+      "example_vi": "Việc đối chiếu số liệu ngân hàng phải xong trước ngày mùng năm mỗi tháng."
+    },
+    {
+      "word": "duplicate entry",
+      "ipa": "/ˈdjuːplɪkət ˈentri/",
+      "meaning_vi": "bút toán trùng lặp",
+      "example": "I found a duplicate entry, so the same invoice was recorded twice.",
+      "example_vi": "Tôi tìm thấy một bút toán trùng lặp, nên cùng một hoá đơn được ghi nhận hai lần."
+    },
+    {
+      "word": "rounding",
+      "ipa": "/ˈraʊndɪŋ/",
+      "meaning_vi": "việc làm tròn số",
+      "example": "The small gap of two thousand dong comes from rounding, not from an error.",
+      "example_vi": "Khoảng chênh nhỏ hai nghìn đồng đến từ việc làm tròn số, không phải do sai sót."
+    },
+    {
+      "word": "source data",
+      "ipa": "/ˈsɔːs ˌdeɪtə/",
+      "meaning_vi": "dữ liệu gốc",
+      "example": "Please send me the source data so I can check every number myself.",
+      "example_vi": "Vui lòng gửi tôi dữ liệu gốc để tôi tự kiểm tra từng con số."
+    },
+    {
+      "word": "tally",
+      "ipa": "/ˈtæli/",
+      "meaning_vi": "khớp nhau (số liệu)",
+      "example": "The two reports do not tally, so we must look for the difference.",
+      "example_vi": "Hai báo cáo không khớp nhau, nên chúng ta phải tìm ra chỗ chênh lệch."
+    },
+    {
+      "word": "trace",
+      "ipa": "/treɪs/",
+      "meaning_vi": "truy ngược lại (nguồn gốc)",
+      "example": "I can trace this payment back to the invoice from March.",
+      "example_vi": "Tôi có thể truy ngược khoản thanh toán này về hoá đơn từ tháng Ba."
+    },
+    {
+      "word": "sub-ledger",
+      "ipa": "/ˈsʌb ˌledʒə/",
+      "meaning_vi": "sổ chi tiết",
+      "example": "The customer sub-ledger shows every invoice for that one client.",
+      "example_vi": "Sổ chi tiết công nợ khách hàng cho thấy từng hoá đơn của khách hàng đó."
+    },
+    {
+      "word": "line by line",
+      "ipa": "/ˌlaɪn baɪ ˈlaɪn/",
+      "meaning_vi": "từng dòng một",
+      "example": "We checked the report line by line and found the missing payment.",
+      "example_vi": "Chúng tôi kiểm tra báo cáo từng dòng một và tìm ra khoản thanh toán bị thiếu."
+    }
+  ],
+  "listening": {
+    "title": "Finding a difference during the monthly reconciliation",
+    "lines": [
+      {
+        "speaker": "Nam (Accountant)",
+        "voice": "male",
+        "text": "Hoa, I am doing the reconciliation for August, but the numbers do not tally."
+      },
+      {
+        "speaker": "Hoa (Chief Accountant)",
+        "voice": "female",
+        "text": "How big is the difference between the bank and our system?"
+      },
+      {
+        "speaker": "Nam (Accountant)",
+        "voice": "male",
+        "text": "About twelve million dong. The bank is higher than our books."
+      },
+      {
+        "speaker": "Hoa (Chief Accountant)",
+        "voice": "female",
+        "text": "That is too big for rounding. Did you check the sub-ledger for customers?"
+      },
+      {
+        "speaker": "Nam (Accountant)",
+        "voice": "male",
+        "text": "Not yet. I only compared the totals in the summary report."
+      },
+      {
+        "speaker": "Hoa (Chief Accountant)",
+        "voice": "female",
+        "text": "Then please open the source data and go through it line by line."
+      },
+      {
+        "speaker": "Nam (Accountant)",
+        "voice": "male",
+        "text": "All right. Should I start from the biggest payments first?"
+      },
+      {
+        "speaker": "Hoa (Chief Accountant)",
+        "voice": "female",
+        "text": "Yes, that is faster. You can usually trace a large gap in ten minutes."
+      },
+      {
+        "speaker": "Nam (Accountant)",
+        "voice": "male",
+        "text": "Here it is. One customer payment appears twice on the same day."
+      },
+      {
+        "speaker": "Hoa (Chief Accountant)",
+        "voice": "female",
+        "text": "So it is a duplicate entry. Please remove one and write a short note."
+      },
+      {
+        "speaker": "Nam (Accountant)",
+        "voice": "male",
+        "text": "Done. Now both sides show the same closing number for August."
+      },
+      {
+        "speaker": "Hoa (Chief Accountant)",
+        "voice": "female",
+        "text": "Excellent. Send me the file before lunch and I will sign it today."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How big is the difference Nam found?",
+        "options": [
+          "About two thousand dong",
+          "About twelve million dong",
+          "About one hundred million dong"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Hoa tell Nam to do?",
+        "options": [
+          "Open the source data and check line by line",
+          "Ask the bank to fix the statement",
+          "Wait until next month"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What was the real cause of the difference?",
+        "options": [
+          "Rounding",
+          "A missing invoice",
+          "A duplicate entry"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I am doing the monthly reconciliation, so I need the source data today.",
+    "The two reports do not tally; there is a gap of three million.",
+    "Let me trace this number back to the invoice in the sub-ledger.",
+    "I found a duplicate entry, so one payment was recorded two times.",
+    "We should check the list line by line before we send it to Hoa."
+  ]
+}

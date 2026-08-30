@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-31",
+  "track": "sales",
+  "theme": "Gửi & giải thích báo giá",
+  "vocab": [
+    {
+      "word": "quote",
+      "ipa": "/kwəʊt/",
+      "meaning_vi": "báo giá",
+      "example": "I will send you a detailed quote before five o'clock today.",
+      "example_vi": "Tôi sẽ gửi anh một bản báo giá chi tiết trước năm giờ chiều nay."
+    },
+    {
+      "word": "validity period",
+      "ipa": "/vəˈlɪdəti ˈpɪəriəd/",
+      "meaning_vi": "thời hạn hiệu lực",
+      "example": "The validity period of this price is thirty days from today.",
+      "example_vi": "Thời hạn hiệu lực của mức giá này là ba mươi ngày kể từ hôm nay."
+    },
+    {
+      "word": "VAT",
+      "ipa": "/ˌviː eɪ ˈtiː/",
+      "meaning_vi": "thuế giá trị gia tăng",
+      "example": "All numbers in the table are before VAT, so please add eight percent.",
+      "example_vi": "Tất cả con số trong bảng đều chưa gồm thuế giá trị gia tăng, nên hãy cộng thêm tám phần trăm."
+    },
+    {
+      "word": "scope of work",
+      "ipa": "/skəʊp əv ˈwɜːk/",
+      "meaning_vi": "phạm vi công việc",
+      "example": "Training is inside the scope of work, but data migration is not.",
+      "example_vi": "Đào tạo nằm trong phạm vi công việc, nhưng chuyển dữ liệu thì không."
+    },
+    {
+      "word": "subtotal",
+      "ipa": "/ˈsʌbtəʊtl/",
+      "meaning_vi": "tổng phụ (trước thuế)",
+      "example": "The subtotal is two hundred million, and tax comes after that line.",
+      "example_vi": "Tổng phụ là hai trăm triệu, và thuế nằm sau dòng đó."
+    },
+    {
+      "word": "price list",
+      "ipa": "/ˈpraɪs lɪst/",
+      "meaning_vi": "bảng giá",
+      "example": "We update our price list at the start of every quarter.",
+      "example_vi": "Chúng tôi cập nhật bảng giá vào đầu mỗi quý."
+    },
+    {
+      "word": "lead time",
+      "ipa": "/ˈliːd taɪm/",
+      "meaning_vi": "thời gian chờ giao hàng",
+      "example": "The lead time for the licences is about two weeks after payment.",
+      "example_vi": "Thời gian chờ cho các giấy phép là khoảng hai tuần sau khi thanh toán."
+    },
+    {
+      "word": "recurring fee",
+      "ipa": "/rɪˈkɜːrɪŋ fiː/",
+      "meaning_vi": "phí định kỳ",
+      "example": "Support is a recurring fee that you pay once every year.",
+      "example_vi": "Hỗ trợ là một khoản phí định kỳ mà anh trả một lần mỗi năm."
+    }
+  ],
+  "listening": {
+    "title": "Explaining a quote to a client",
+    "lines": [
+      {
+        "speaker": "Linh (Account Executive)",
+        "voice": "female",
+        "text": "Good morning, Mr Khoa. Did you receive the quote I sent yesterday?"
+      },
+      {
+        "speaker": "Khoa (Purchasing Manager)",
+        "voice": "male",
+        "text": "Yes, I opened it this morning, but I have a few questions."
+      },
+      {
+        "speaker": "Linh (Account Executive)",
+        "voice": "female",
+        "text": "Please go ahead. I can walk you through the document line by line."
+      },
+      {
+        "speaker": "Khoa (Purchasing Manager)",
+        "voice": "male",
+        "text": "The subtotal says two hundred million. Is that the final number?"
+      },
+      {
+        "speaker": "Linh (Account Executive)",
+        "voice": "female",
+        "text": "Not yet. VAT of eight percent is added below, so the total is higher."
+      },
+      {
+        "speaker": "Khoa (Purchasing Manager)",
+        "voice": "male",
+        "text": "I understand. And what exactly is inside the scope of work?"
+      },
+      {
+        "speaker": "Linh (Account Executive)",
+        "voice": "female",
+        "text": "Setup, training for ten users, and one year of support are all included."
+      },
+      {
+        "speaker": "Khoa (Purchasing Manager)",
+        "voice": "male",
+        "text": "What about the support after that first year?"
+      },
+      {
+        "speaker": "Linh (Account Executive)",
+        "voice": "female",
+        "text": "That becomes a recurring fee, about fifteen percent of the licence value."
+      },
+      {
+        "speaker": "Khoa (Purchasing Manager)",
+        "voice": "male",
+        "text": "Fine. How long is the validity period of this price?"
+      },
+      {
+        "speaker": "Linh (Account Executive)",
+        "voice": "female",
+        "text": "Thirty days. After that we must use the new price list."
+      },
+      {
+        "speaker": "Khoa (Purchasing Manager)",
+        "voice": "male",
+        "text": "Then I will bring it to my director next week. Thank you, Linh."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why is the subtotal not the final number?",
+        "options": [
+          "Because VAT is added below it",
+          "Because the discount is missing",
+          "Because the price list is old"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What happens to support after the first year?",
+        "options": [
+          "It stops completely",
+          "It becomes a recurring fee",
+          "It stays free forever"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How long is the price valid?",
+        "options": [
+          "Seven days",
+          "One year",
+          "Thirty days"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I have just sent you the quote; please check the scope of work.",
+    "The subtotal does not include VAT, so the final number will be higher.",
+    "This price is valid for thirty days; after that we update the price list.",
+    "The lead time is four weeks from the day we receive your order.",
+    "Would you like me to explain the recurring fee for support and updates?"
+  ]
+}

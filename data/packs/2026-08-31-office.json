@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-31",
+  "track": "office",
+  "theme": "Tổ chức sự kiện nội bộ",
+  "vocab": [
+    {
+      "word": "internal event",
+      "ipa": "/ɪnˌtɜːnl ɪˈvent/",
+      "meaning_vi": "sự kiện nội bộ",
+      "example": "The internal event is only for staff, not for clients or partners.",
+      "example_vi": "Sự kiện nội bộ chỉ dành cho nhân viên, không dành cho khách hàng hay đối tác."
+    },
+    {
+      "word": "team building",
+      "ipa": "/ˈtiːm ˌbɪldɪŋ/",
+      "meaning_vi": "hoạt động gắn kết đội nhóm",
+      "example": "We plan two team building games after lunch so people can relax.",
+      "example_vi": "Chúng tôi lên kế hoạch hai trò gắn kết đội nhóm sau bữa trưa để mọi người thư giãn."
+    },
+    {
+      "word": "invitation",
+      "ipa": "/ˌɪnvɪˈteɪʃn/",
+      "meaning_vi": "thư mời",
+      "example": "The invitation went out this morning with the address and the dress code.",
+      "example_vi": "Thư mời đã được gửi sáng nay kèm địa chỉ và quy định trang phục."
+    },
+    {
+      "word": "volunteer",
+      "ipa": "/ˌvɒlənˈtɪə/",
+      "meaning_vi": "người tình nguyện; xung phong",
+      "example": "We still need one volunteer to welcome guests at the front desk.",
+      "example_vi": "Chúng tôi vẫn cần một người tình nguyện để đón khách ở quầy lễ tân."
+    },
+    {
+      "word": "run-through",
+      "ipa": "/ˈrʌn θruː/",
+      "meaning_vi": "buổi chạy thử chương trình",
+      "example": "Let us book a short run-through on Thursday to test the sound.",
+      "example_vi": "Hãy đặt một buổi chạy thử ngắn vào thứ Năm để kiểm tra âm thanh."
+    },
+    {
+      "word": "raffle",
+      "ipa": "/ˈræfl/",
+      "meaning_vi": "phần bốc thăm trúng thưởng",
+      "example": "The raffle at the end always keeps everybody in the room.",
+      "example_vi": "Phần bốc thăm trúng thưởng ở cuối luôn giữ mọi người ở lại trong phòng."
+    },
+    {
+      "word": "budget approval",
+      "ipa": "/ˈbʌdʒɪt əˌpruːvl/",
+      "meaning_vi": "phê duyệt ngân sách",
+      "example": "We cannot pay the deposit until we get budget approval from the director.",
+      "example_vi": "Chúng ta không thể đặt cọc cho tới khi được giám đốc phê duyệt ngân sách."
+    },
+    {
+      "word": "MC",
+      "ipa": "/ˌem ˈsiː/",
+      "meaning_vi": "người dẫn chương trình",
+      "example": "Minh will be the MC because he speaks clearly and keeps good energy.",
+      "example_vi": "Minh sẽ là người dẫn chương trình vì anh ấy nói rõ ràng và giữ được năng lượng tốt."
+    }
+  ],
+  "listening": {
+    "title": "Planning the year-end internal event",
+    "lines": [
+      {
+        "speaker": "Hoa (Admin Officer)",
+        "voice": "female",
+        "text": "Minh, do you have ten minutes to plan our year-end internal event?"
+      },
+      {
+        "speaker": "Minh (Team Lead)",
+        "voice": "male",
+        "text": "Yes, of course. How many people are we expecting this year?"
+      },
+      {
+        "speaker": "Hoa (Admin Officer)",
+        "voice": "female",
+        "text": "About one hundred and twenty, so we need a bigger hall than last time."
+      },
+      {
+        "speaker": "Minh (Team Lead)",
+        "voice": "male",
+        "text": "Do we already have budget approval, or is it still with the director?"
+      },
+      {
+        "speaker": "Hoa (Admin Officer)",
+        "voice": "female",
+        "text": "She signed it yesterday, so I can pay the deposit this week."
+      },
+      {
+        "speaker": "Minh (Team Lead)",
+        "voice": "male",
+        "text": "Good. When will you send the invitation to all the departments?"
+      },
+      {
+        "speaker": "Hoa (Admin Officer)",
+        "voice": "female",
+        "text": "On Monday morning. I will ask people to reply before the tenth."
+      },
+      {
+        "speaker": "Minh (Team Lead)",
+        "voice": "male",
+        "text": "My team can help with the team building games in the afternoon."
+      },
+      {
+        "speaker": "Hoa (Admin Officer)",
+        "voice": "female",
+        "text": "Wonderful. I also need one volunteer for the welcome desk and one MC."
+      },
+      {
+        "speaker": "Minh (Team Lead)",
+        "voice": "male",
+        "text": "I will be the MC, and Linh said she is happy to welcome guests."
+      },
+      {
+        "speaker": "Hoa (Admin Officer)",
+        "voice": "female",
+        "text": "Then we only need a run-through one day before, and the raffle prizes."
+      },
+      {
+        "speaker": "Minh (Team Lead)",
+        "voice": "male",
+        "text": "Let us do the run-through at four o'clock. I will book the room now."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why do they need a bigger hall this year?",
+        "options": [
+          "Because clients will join",
+          "Because about one hundred and twenty people will come",
+          "Because the old hall is closed"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is the situation with the budget?",
+        "options": [
+          "The director already approved it",
+          "It is still waiting for the director",
+          "There is no budget this year"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Who will be the MC of the event?",
+        "options": [
+          "Hoa",
+          "Linh",
+          "Minh"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "We need budget approval before we book the venue for the internal event.",
+    "Could you send the invitation to all departments by the end of Friday?",
+    "I will join as a volunteer to help with registration in the morning.",
+    "Let us do a quick run-through of the programme one day before.",
+    "Who would like to be the MC for the team building game session?"
+  ]
+}
