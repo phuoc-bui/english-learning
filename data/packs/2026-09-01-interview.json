@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-01",
+  "track": "interview",
+  "theme": "Tìm hiểu văn hoá công ty",
+  "vocab": [
+    {
+      "word": "day-to-day work",
+      "ipa": "/deɪ tə deɪ wɜːk/",
+      "meaning_vi": "công việc hàng ngày của vị trí",
+      "example": "Could you describe the day-to-day work of this position?",
+      "example_vi": "Anh/chị có thể mô tả công việc hàng ngày của vị trí này không?"
+    },
+    {
+      "word": "working atmosphere",
+      "ipa": "/ˈwɜːkɪŋ ˈætməsfɪə(r)/",
+      "meaning_vi": "bầu không khí làm việc",
+      "example": "How would you describe the working atmosphere in your team?",
+      "example_vi": "Anh/chị mô tả bầu không khí làm việc trong nhóm mình thế nào?"
+    },
+    {
+      "word": "speak up",
+      "ipa": "/spiːk ʌp/",
+      "meaning_vi": "mạnh dạn nêu ý kiến",
+      "example": "Everyone can speak up, even in front of the director.",
+      "example_vi": "Mọi người đều có thể mạnh dạn nêu ý kiến, kể cả trước mặt giám đốc."
+    },
+    {
+      "word": "hybrid model",
+      "ipa": "/ˈhaɪbrɪd ˈmɒdl/",
+      "meaning_vi": "mô hình làm việc kết hợp văn phòng và ở nhà",
+      "example": "Do you follow a hybrid model, or is everyone in the office?",
+      "example_vi": "Công ty theo mô hình kết hợp hay mọi người đều lên văn phòng?"
+    },
+    {
+      "word": "working hours",
+      "ipa": "/ˈwɜːkɪŋ ˈaʊəz/",
+      "meaning_vi": "giờ làm việc",
+      "example": "What are the normal working hours for the engineering department?",
+      "example_vi": "Giờ làm việc bình thường của phòng kỹ thuật là như thế nào?"
+    },
+    {
+      "word": "mentoring program",
+      "ipa": "/ˈmentərɪŋ ˈprəʊɡræm/",
+      "meaning_vi": "chương trình kèm cặp nhân viên",
+      "example": "Is there a mentoring program for someone joining a new domain?",
+      "example_vi": "Có chương trình kèm cặp cho người mới vào một lĩnh vực mới không?"
+    },
+    {
+      "word": "dress code",
+      "ipa": "/dres kəʊd/",
+      "meaning_vi": "quy định về trang phục",
+      "example": "Is the dress code formal, or can I wear jeans?",
+      "example_vi": "Quy định trang phục có trang trọng không, hay tôi có thể mặc quần jean?"
+    },
+    {
+      "word": "team ritual",
+      "ipa": "/tiːm ˈrɪtʃuəl/",
+      "meaning_vi": "hoạt động quen thuộc thường kỳ của nhóm",
+      "example": "Our only team ritual is breakfast together every Monday morning.",
+      "example_vi": "Hoạt động thường kỳ duy nhất của nhóm là ăn sáng cùng nhau mỗi sáng thứ Hai."
+    }
+  ],
+  "listening": {
+    "title": "A candidate asks about the working atmosphere",
+    "lines": [
+      {
+        "speaker": "Hoa (Interviewer)",
+        "voice": "female",
+        "text": "Nam, we have ten minutes left. Do you have any questions for us?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Yes. Could you describe the day-to-day work of this position?"
+      },
+      {
+        "speaker": "Hoa (Interviewer)",
+        "voice": "female",
+        "text": "You would spend most mornings on code, and afternoons on reviews and meetings."
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "That sounds balanced. How would you describe the working atmosphere here?"
+      },
+      {
+        "speaker": "Hoa (Interviewer)",
+        "voice": "female",
+        "text": "We are quite informal. Everyone can speak up, even in front of the director."
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "I like that. Do you follow a hybrid model, or is everyone in the office?"
+      },
+      {
+        "speaker": "Hoa (Interviewer)",
+        "voice": "female",
+        "text": "Three days in the office, two days at home, and working hours are flexible."
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Is there a mentoring program for someone who joins a new domain?"
+      },
+      {
+        "speaker": "Hoa (Interviewer)",
+        "voice": "female",
+        "text": "Yes. Every new engineer gets a senior partner for the first three months."
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "That is very helpful. Is the dress code formal, or can I wear jeans?"
+      },
+      {
+        "speaker": "Hoa (Interviewer)",
+        "voice": "female",
+        "text": "Jeans are fine. Our only team ritual is breakfast together every Monday morning."
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Thank you. Everything you described matches the kind of team I am looking for."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does the candidate ask about first?",
+        "options": [
+          "The salary",
+          "The day-to-day work",
+          "The dress code"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How many days do most teams work in the office?",
+        "options": [
+          "Two days",
+          "Three days",
+          "Five days"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What team ritual does the interviewer mention?",
+        "options": [
+          "Breakfast together on Monday",
+          "A monthly party",
+          "A Friday football match"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you tell me more about the day-to-day work of this role?",
+    "In my last team, I always spoke up when I saw a risk.",
+    "I worked in a hybrid model for two years and stayed very productive.",
+    "I joined a mentoring program last year and it improved my testing skills.",
+    "A working atmosphere where people share problems early is very important to me."
+  ]
+}

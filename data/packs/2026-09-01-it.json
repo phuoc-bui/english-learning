@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-01",
+  "track": "it",
+  "theme": "Xin nghỉ phép & thông báo vắng mặt",
+  "vocab": [
+    {
+      "word": "paid leave",
+      "ipa": "/peɪd liːv/",
+      "meaning_vi": "nghỉ phép có hưởng lương",
+      "example": "I still have six days of paid leave left this year.",
+      "example_vi": "Năm nay tôi vẫn còn sáu ngày nghỉ phép có lương."
+    },
+    {
+      "word": "grant leave",
+      "ipa": "/ɡrɑːnt liːv/",
+      "meaning_vi": "duyệt cho ai đó nghỉ phép",
+      "example": "My team lead can grant leave for up to five days.",
+      "example_vi": "Trưởng nhóm của tôi có thể duyệt nghỉ phép tối đa năm ngày."
+    },
+    {
+      "word": "absence",
+      "ipa": "/ˈæbsəns/",
+      "meaning_vi": "sự vắng mặt",
+      "example": "Please tell the client team about your absence before Wednesday.",
+      "example_vi": "Hãy báo cho nhóm khách hàng về việc bạn vắng mặt trước thứ Tư."
+    },
+    {
+      "word": "pending approval",
+      "ipa": "/ˈpendɪŋ əˈpruːvl/",
+      "meaning_vi": "đang chờ được duyệt",
+      "example": "My request is still pending approval in the HR system.",
+      "example_vi": "Đơn của tôi vẫn đang chờ duyệt trên hệ thống nhân sự."
+    },
+    {
+      "word": "day in lieu",
+      "ipa": "/deɪ ɪn ˈljuː/",
+      "meaning_vi": "ngày nghỉ bù",
+      "example": "I worked on Saturday, so I can take a day in lieu.",
+      "example_vi": "Tôi đã làm việc thứ Bảy nên tôi có thể lấy một ngày nghỉ bù."
+    },
+    {
+      "word": "take over",
+      "ipa": "/teɪk ˈəʊvə(r)/",
+      "meaning_vi": "tiếp quản (công việc của ai đó)",
+      "example": "Hoa will take over my tickets while I am away.",
+      "example_vi": "Hoa sẽ tiếp quản các ticket của tôi trong lúc tôi vắng mặt."
+    },
+    {
+      "word": "family matter",
+      "ipa": "/ˈfæməli ˈmætə(r)/",
+      "meaning_vi": "việc riêng của gia đình",
+      "example": "I need two days off for a family matter at home.",
+      "example_vi": "Tôi cần nghỉ hai ngày vì một việc gia đình ở quê."
+    },
+    {
+      "word": "unwind",
+      "ipa": "/ˌʌnˈwaɪnd/",
+      "meaning_vi": "thư giãn, xả hơi sau thời gian làm việc căng thẳng",
+      "example": "A short trip helps me unwind before the next release.",
+      "example_vi": "Một chuyến đi ngắn giúp tôi thư giãn trước đợt phát hành tới."
+    }
+  ],
+  "listening": {
+    "title": "Asking the team lead for two days of leave",
+    "lines": [
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Linh, do you have five minutes? I need to talk about some paid leave next week."
+      },
+      {
+        "speaker": "Linh (Team Lead)",
+        "voice": "female",
+        "text": "Sure, Nam. Which days are you thinking about?"
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Thursday and Friday. I have a family matter at home, so I need to travel."
+      },
+      {
+        "speaker": "Linh (Team Lead)",
+        "voice": "female",
+        "text": "That should be fine. Have you already put the request in the system?"
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "I did it this morning. It is still pending approval on your side."
+      },
+      {
+        "speaker": "Linh (Team Lead)",
+        "voice": "female",
+        "text": "I will grant leave today. Who will take over your tickets while you are away?"
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Hoa agreed to take over the payment module, and I will write a short guide for her."
+      },
+      {
+        "speaker": "Linh (Team Lead)",
+        "voice": "female",
+        "text": "Good. Please also tell the client team about your absence before Wednesday."
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "I will send them a message and set my chat status to away."
+      },
+      {
+        "speaker": "Linh (Team Lead)",
+        "voice": "female",
+        "text": "One more thing. You worked last Saturday, so you can also take a day in lieu."
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "That is great news. Then I can really unwind before the release."
+      },
+      {
+        "speaker": "Linh (Team Lead)",
+        "voice": "female",
+        "text": "Exactly. Rest well, and please do not open your laptop on holiday."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Which days does Nam want to take off?",
+        "options": [
+          "Monday and Tuesday",
+          "Thursday and Friday",
+          "Saturday and Sunday"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Who will take over Nam's payment module?",
+        "options": [
+          "Linh",
+          "Hoa",
+          "The client team"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why can Nam take a day in lieu?",
+        "options": [
+          "He worked last Saturday",
+          "He was sick last week",
+          "He has unused annual leave"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I would like to take two days of paid leave next week, please.",
+    "My leave request is still pending approval, so could you check it today?",
+    "Hoa will take over my tickets while I am away from the office.",
+    "I need one day off for a family matter, and I will work remotely after.",
+    "Since I worked on Saturday, may I take a day in lieu this Friday?"
+  ]
+}

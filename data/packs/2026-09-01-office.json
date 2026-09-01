@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-01",
+  "track": "office",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    {
+      "word": "new hire",
+      "ipa": "/njuː ˈhaɪə(r)/",
+      "meaning_vi": "nhân viên mới tuyển",
+      "example": "Our new hire will join the marketing team on Monday.",
+      "example_vi": "Nhân viên mới của chúng ta sẽ vào nhóm marketing từ thứ Hai."
+    },
+    {
+      "word": "day one",
+      "ipa": "/deɪ wʌn/",
+      "meaning_vi": "ngày đầu tiên đi làm",
+      "example": "On day one she only needs her laptop and her contract.",
+      "example_vi": "Ngày đầu tiên cô ấy chỉ cần laptop và hợp đồng của mình."
+    },
+    {
+      "word": "find your feet",
+      "ipa": "/faɪnd jɔː fiːt/",
+      "meaning_vi": "làm quen và tự tin dần ở nơi làm việc mới",
+      "example": "Most people need three weeks to find their feet at a new company.",
+      "example_vi": "Phần lớn mọi người cần ba tuần để làm quen ở công ty mới."
+    },
+    {
+      "word": "walk someone through",
+      "ipa": "/wɔːk ˈsʌmwʌn θruː/",
+      "meaning_vi": "hướng dẫn ai đó từng bước",
+      "example": "I will walk her through the timesheet system tomorrow morning.",
+      "example_vi": "Sáng mai tôi sẽ hướng dẫn cô ấy từng bước dùng hệ thống chấm công."
+    },
+    {
+      "word": "go-to person",
+      "ipa": "/ˈɡəʊ tuː ˈpɜːsn/",
+      "meaning_vi": "người đầu mối để hỏi khi cần",
+      "example": "Linh is your go-to person for anything about reports.",
+      "example_vi": "Linh là người bạn nên hỏi cho mọi việc liên quan đến báo cáo."
+    },
+    {
+      "word": "house rules",
+      "ipa": "/haʊs ruːlz/",
+      "meaning_vi": "quy định nội bộ của công ty",
+      "example": "The house rules cover lunch breaks and meeting room bookings.",
+      "example_vi": "Quy định nội bộ bao gồm giờ nghỉ trưa và việc đặt phòng họp."
+    },
+    {
+      "word": "show someone the ropes",
+      "ipa": "/ʃəʊ ˈsʌmwʌn ðə rəʊps/",
+      "meaning_vi": "chỉ dẫn công việc cho người mới",
+      "example": "Could you show her the ropes during her first week?",
+      "example_vi": "Bạn có thể chỉ dẫn công việc cho cô ấy trong tuần đầu không?"
+    },
+    {
+      "word": "meet and greet",
+      "ipa": "/miːt ən ɡriːt/",
+      "meaning_vi": "buổi gặp gỡ làm quen",
+      "example": "We will hold a short meet and greet with the whole floor.",
+      "example_vi": "Chúng ta sẽ tổ chức một buổi gặp gỡ làm quen ngắn với cả tầng."
+    }
+  ],
+  "listening": {
+    "title": "Getting the new hire ready for day one",
+    "lines": [
+      {
+        "speaker": "Minh (HR Officer)",
+        "voice": "female",
+        "text": "Tuan, our new hire starts on Monday. Is your team ready for day one?"
+      },
+      {
+        "speaker": "Tuan (Team Manager)",
+        "voice": "male",
+        "text": "Almost. I still need to book a laptop and a desk for her."
+      },
+      {
+        "speaker": "Minh (HR Officer)",
+        "voice": "female",
+        "text": "I can help with that. Who will be her go-to person in the first week?"
+      },
+      {
+        "speaker": "Tuan (Team Manager)",
+        "voice": "male",
+        "text": "Linh will show her the ropes, because they will work on the same reports."
+      },
+      {
+        "speaker": "Minh (HR Officer)",
+        "voice": "female",
+        "text": "Perfect. I will walk her through the house rules on Monday morning."
+      },
+      {
+        "speaker": "Tuan (Team Manager)",
+        "voice": "male",
+        "text": "Please also explain the lunch break and the meeting room booking system."
+      },
+      {
+        "speaker": "Minh (HR Officer)",
+        "voice": "female",
+        "text": "Of course. Should we organise a small meet and greet with the whole floor?"
+      },
+      {
+        "speaker": "Tuan (Team Manager)",
+        "voice": "male",
+        "text": "Yes, maybe at three o'clock. Coffee and some fruit are enough, I think."
+      },
+      {
+        "speaker": "Minh (HR Officer)",
+        "voice": "female",
+        "text": "Agreed. Most people need two or three weeks to find their feet."
+      },
+      {
+        "speaker": "Tuan (Team Manager)",
+        "voice": "male",
+        "text": "True. I will keep her tasks light and check in with her every afternoon."
+      },
+      {
+        "speaker": "Minh (HR Officer)",
+        "voice": "female",
+        "text": "That is a good plan. I will send you the full schedule tonight."
+      },
+      {
+        "speaker": "Tuan (Team Manager)",
+        "voice": "male",
+        "text": "Thanks, Minh. She will feel welcome from the very first day."
+      }
+    ],
+    "questions": [
+      {
+        "q": "When does the new hire start?",
+        "options": [
+          "On Friday",
+          "On Monday",
+          "On Wednesday"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Who will show the new hire the ropes?",
+        "options": [
+          "Minh",
+          "Tuan",
+          "Linh"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What time will the meet and greet happen?",
+        "options": [
+          "At one o'clock",
+          "At three o'clock",
+          "At five o'clock"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Our new hire starts on Monday, so please prepare her laptop and desk.",
+    "I will walk you through the house rules during your first morning here.",
+    "Linh is your go-to person for anything about reports and deadlines.",
+    "Most new colleagues need about three weeks to find their feet here.",
+    "Let us organise a short meet and greet so everyone can say hello."
+  ]
+}

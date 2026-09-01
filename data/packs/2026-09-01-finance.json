@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-01",
+  "track": "finance",
+  "theme": "Trình bày số liệu với sếp",
+  "vocab": [
+    {
+      "word": "top-line figure",
+      "ipa": "/ˈtɒp laɪn ˈfɪɡə(r)/",
+      "meaning_vi": "con số tổng quan quan trọng nhất",
+      "example": "The top-line figure is revenue, eight percent above our plan.",
+      "example_vi": "Con số tổng quan quan trọng nhất là doanh thu, cao hơn kế hoạch tám phần trăm."
+    },
+    {
+      "word": "go over the figures",
+      "ipa": "/ɡəʊ ˈəʊvə ðə ˈfɪɡəz/",
+      "meaning_vi": "rà soát và trình bày lại số liệu",
+      "example": "Let me go over the figures slowly, one section at a time.",
+      "example_vi": "Để tôi rà soát số liệu chậm rãi, từng phần một."
+    },
+    {
+      "word": "round the numbers",
+      "ipa": "/raʊnd ðə ˈnʌmbəz/",
+      "meaning_vi": "làm tròn số liệu",
+      "example": "Please round the numbers on the slides so they are easier to read.",
+      "example_vi": "Hãy làm tròn số trên slide để dễ đọc hơn."
+    },
+    {
+      "word": "column chart",
+      "ipa": "/ˈkɒləm tʃɑːt/",
+      "meaning_vi": "biểu đồ cột",
+      "example": "This column chart shows the cost structure of each department.",
+      "example_vi": "Biểu đồ cột này thể hiện cơ cấu chi phí của từng phòng ban."
+    },
+    {
+      "word": "break down the cost",
+      "ipa": "/breɪk daʊn ðə kɒst/",
+      "meaning_vi": "bóc tách chi phí thành từng khoản",
+      "example": "Can you break down the cost of the new office for me?",
+      "example_vi": "Bạn bóc tách chi phí văn phòng mới giúp tôi được không?"
+    },
+    {
+      "word": "side by side",
+      "ipa": "/saɪd baɪ saɪd/",
+      "meaning_vi": "đặt cạnh nhau để so sánh",
+      "example": "Rent and electricity are shown side by side with last quarter.",
+      "example_vi": "Tiền thuê và tiền điện được đặt cạnh số liệu quý trước để so sánh."
+    },
+    {
+      "word": "back up with data",
+      "ipa": "/bæk ʌp wɪð ˈdeɪtə/",
+      "meaning_vi": "chứng minh bằng số liệu",
+      "example": "The director always asks why, so back up with data.",
+      "example_vi": "Giám đốc luôn hỏi tại sao, nên hãy chứng minh bằng số liệu."
+    },
+    {
+      "word": "in a nutshell",
+      "ipa": "/ɪn ə ˈnʌtʃel/",
+      "meaning_vi": "nói tóm lại, nói ngắn gọn",
+      "example": "In a nutshell, we spend more, but we also earn more.",
+      "example_vi": "Nói tóm lại, chúng ta chi nhiều hơn nhưng cũng thu nhiều hơn."
+    }
+  ],
+  "listening": {
+    "title": "Preparing the monthly numbers for the director",
+    "lines": [
+      {
+        "speaker": "Minh (Finance Manager)",
+        "voice": "male",
+        "text": "Linh, the director only has fifteen minutes. What is the top-line figure?"
+      },
+      {
+        "speaker": "Linh (Accountant)",
+        "voice": "female",
+        "text": "Revenue is twelve billion dong, about eight percent above our plan."
+      },
+      {
+        "speaker": "Minh (Finance Manager)",
+        "voice": "male",
+        "text": "Start with that. Then go over the figures slowly, one section at a time."
+      },
+      {
+        "speaker": "Linh (Accountant)",
+        "voice": "female",
+        "text": "Should I round the numbers, or keep the exact figures on every slide?"
+      },
+      {
+        "speaker": "Minh (Finance Manager)",
+        "voice": "male",
+        "text": "Round them. Exact figures are fine in the file, but not on the screen."
+      },
+      {
+        "speaker": "Linh (Accountant)",
+        "voice": "female",
+        "text": "Understood. I made a column chart for the cost structure of each department."
+      },
+      {
+        "speaker": "Minh (Finance Manager)",
+        "voice": "male",
+        "text": "Good. Can you break down the cost of the new office as well?"
+      },
+      {
+        "speaker": "Linh (Accountant)",
+        "voice": "female",
+        "text": "Yes. Rent, electricity and furniture are shown side by side with last quarter."
+      },
+      {
+        "speaker": "Minh (Finance Manager)",
+        "voice": "male",
+        "text": "The director always asks why, so please be ready to back up with data."
+      },
+      {
+        "speaker": "Linh (Accountant)",
+        "voice": "female",
+        "text": "I have the invoices and the bank statements in the appendix folder."
+      },
+      {
+        "speaker": "Minh (Finance Manager)",
+        "voice": "male",
+        "text": "Then, in a nutshell, we spend more, but we also earn more."
+      },
+      {
+        "speaker": "Linh (Accountant)",
+        "voice": "female",
+        "text": "I will say that in one sentence at the beginning and at the end."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How much time does the director have?",
+        "options": [
+          "Five minutes",
+          "Fifteen minutes",
+          "Fifty minutes"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Minh want Linh to do with the figures on the slides?",
+        "options": [
+          "Round them",
+          "Delete them",
+          "Print them"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What is in the appendix folder?",
+        "options": [
+          "Invoices and bank statements",
+          "Staff contracts",
+          "Marketing photos"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Let me start with the top-line figure and then explain the details after.",
+    "Please round the numbers on the slides so they are easier to read.",
+    "This column chart shows how each department spent its budget last quarter.",
+    "I can break down the cost of the new office in three parts.",
+    "Every claim in this report is backed up with data from our system."
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-01",
+  "track": "sales",
+  "theme": "Networking tại hội chợ/sự kiện",
+  "vocab": [
+    {
+      "word": "break the ice",
+      "ipa": "/breɪk ðə aɪs/",
+      "meaning_vi": "phá tan sự ngại ngùng ban đầu",
+      "example": "A simple question about the event helps me break the ice.",
+      "example_vi": "Một câu hỏi đơn giản về sự kiện giúp tôi phá tan sự ngại ngùng."
+    },
+    {
+      "word": "attendee",
+      "ipa": "/əˌtenˈdiː/",
+      "meaning_vi": "người tham dự",
+      "example": "There are almost two thousand attendees at the expo today.",
+      "example_vi": "Hôm nay có gần hai nghìn người tham dự hội chợ."
+    },
+    {
+      "word": "panel discussion",
+      "ipa": "/ˈpænl dɪˈskʌʃn/",
+      "meaning_vi": "phiên thảo luận có nhiều diễn giả",
+      "example": "The panel discussion about cloud security starts at eleven.",
+      "example_vi": "Phiên thảo luận về bảo mật đám mây bắt đầu lúc mười một giờ."
+    },
+    {
+      "word": "swap contacts",
+      "ipa": "/swɒp ˈkɒntækts/",
+      "meaning_vi": "trao đổi thông tin liên hệ",
+      "example": "If someone looks interested, we swap contacts and book a call.",
+      "example_vi": "Nếu ai đó có vẻ quan tâm, chúng ta trao đổi liên hệ và hẹn một cuộc gọi."
+    },
+    {
+      "word": "hand out",
+      "ipa": "/hænd aʊt/",
+      "meaning_vi": "phát (tài liệu, tờ rơi)",
+      "example": "I will hand out our new product leaflets near the entrance.",
+      "example_vi": "Tôi sẽ phát tờ rơi sản phẩm mới của chúng ta gần lối vào."
+    },
+    {
+      "word": "make an impression",
+      "ipa": "/meɪk ən ɪmˈpreʃn/",
+      "meaning_vi": "tạo được ấn tượng với người khác",
+      "example": "We make an impression because we ask questions instead of selling.",
+      "example_vi": "Chúng tôi tạo được ấn tượng vì chúng tôi đặt câu hỏi thay vì chỉ bán hàng."
+    },
+    {
+      "word": "sign-up sheet",
+      "ipa": "/ˈsaɪn ʌp ʃiːt/",
+      "meaning_vi": "phiếu đăng ký thông tin",
+      "example": "Please write your email on the sign-up sheet before you leave.",
+      "example_vi": "Vui lòng ghi email của bạn vào phiếu đăng ký trước khi ra về."
+    },
+    {
+      "word": "keep in touch",
+      "ipa": "/kiːp ɪn tʌtʃ/",
+      "meaning_vi": "giữ liên lạc",
+      "example": "I will write to everyone next week so we keep in touch.",
+      "example_vi": "Tuần sau tôi sẽ viết thư cho mọi người để giữ liên lạc."
+    }
+  ],
+  "listening": {
+    "title": "Meeting new contacts at the tech expo",
+    "lines": [
+      {
+        "speaker": "Nam (Sales Manager)",
+        "voice": "male",
+        "text": "Hoa, there are almost two thousand attendees today. Where should we start?"
+      },
+      {
+        "speaker": "Hoa (Sales Executive)",
+        "voice": "female",
+        "text": "Let us stay near the coffee area first. It is the easiest place to break the ice."
+      },
+      {
+        "speaker": "Nam (Sales Manager)",
+        "voice": "male",
+        "text": "Good idea. I will hand out our new product leaflets while people are waiting."
+      },
+      {
+        "speaker": "Hoa (Sales Executive)",
+        "voice": "female",
+        "text": "Remember to ask questions instead of selling. That is how we make an impression here."
+      },
+      {
+        "speaker": "Nam (Sales Manager)",
+        "voice": "male",
+        "text": "Agreed. There is also a panel discussion about cloud security at eleven."
+      },
+      {
+        "speaker": "Hoa (Sales Executive)",
+        "voice": "female",
+        "text": "We should join it. Many of our target customers will sit in that room."
+      },
+      {
+        "speaker": "Nam (Sales Manager)",
+        "voice": "male",
+        "text": "I will bring the sign-up sheet so people can leave their email addresses."
+      },
+      {
+        "speaker": "Hoa (Sales Executive)",
+        "voice": "female",
+        "text": "Perfect. If someone looks interested, we swap contacts and book a call later."
+      },
+      {
+        "speaker": "Nam (Sales Manager)",
+        "voice": "male",
+        "text": "How many good conversations do you want from today?"
+      },
+      {
+        "speaker": "Hoa (Sales Executive)",
+        "voice": "female",
+        "text": "Twenty is realistic. Quality matters more than the number of business cards."
+      },
+      {
+        "speaker": "Nam (Sales Manager)",
+        "voice": "male",
+        "text": "True. Next week I will write to everyone and try to keep in touch."
+      },
+      {
+        "speaker": "Hoa (Sales Executive)",
+        "voice": "female",
+        "text": "Exactly. The event ends today, but the relationship starts tomorrow."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Where do Nam and Hoa decide to start?",
+        "options": [
+          "Near the coffee area",
+          "At the main stage",
+          "Outside the hall"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What is the panel discussion about?",
+        "options": [
+          "Cloud security",
+          "Digital marketing",
+          "Company finance"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How many good conversations does Hoa want today?",
+        "options": [
+          "Ten",
+          "Twenty",
+          "Fifty"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Let us start near the coffee area because it is easy to break the ice.",
+    "I will hand out our leaflets and invite people to visit our stand.",
+    "Ask good questions if you really want to make an impression today.",
+    "Please write your name and email on the sign-up sheet before you leave.",
+    "I will send a short message next week so we can keep in touch."
+  ]
+}
