@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-02",
+  "track": "it",
+  "theme": "Giải thích bug & sự cố production",
+  "vocab": [
+    {
+      "word": "incident report",
+      "ipa": "/ˈɪnsɪdənt rɪˈpɔːt/",
+      "meaning_vi": "báo cáo sự cố",
+      "example": "I will send the incident report to the client before noon.",
+      "example_vi": "Tôi sẽ gửi báo cáo sự cố cho khách hàng trước buổi trưa."
+    },
+    {
+      "word": "stack trace",
+      "ipa": "/stæk treɪs/",
+      "meaning_vi": "dấu vết lỗi trong log, cho biết lỗi xảy ra ở đâu",
+      "example": "The stack trace points to the payment service, not the database.",
+      "example_vi": "Dấu vết lỗi chỉ tới dịch vụ thanh toán, không phải cơ sở dữ liệu."
+    },
+    {
+      "word": "roll back",
+      "ipa": "/rəʊl ˈbæk/",
+      "meaning_vi": "quay lại phiên bản cũ (khi bản mới lỗi)",
+      "example": "We had to roll back the release after fifteen minutes.",
+      "example_vi": "Chúng tôi phải quay lại phiên bản cũ sau mười lăm phút."
+    },
+    {
+      "word": "affected users",
+      "ipa": "/əˈfektɪd ˈjuːzəz/",
+      "meaning_vi": "người dùng bị ảnh hưởng",
+      "example": "About two hundred affected users could not log in this morning.",
+      "example_vi": "Khoảng hai trăm người dùng bị ảnh hưởng không đăng nhập được sáng nay."
+    },
+    {
+      "word": "log entry",
+      "ipa": "/lɒɡ ˈentri/",
+      "meaning_vi": "một dòng ghi trong nhật ký hệ thống",
+      "example": "Every log entry after nine o'clock shows the same timeout.",
+      "example_vi": "Mọi dòng log sau chín giờ đều cho thấy cùng một lỗi timeout."
+    },
+    {
+      "word": "reproduce the issue",
+      "ipa": "/ˌriːprəˈdjuːs ðə ˈɪʃuː/",
+      "meaning_vi": "tái hiện lại lỗi",
+      "example": "I could not reproduce the issue on my local machine.",
+      "example_vi": "Tôi không tái hiện được lỗi trên máy của mình."
+    },
+    {
+      "word": "severity level",
+      "ipa": "/sɪˈverəti ˈlevl/",
+      "meaning_vi": "mức độ nghiêm trọng của sự cố",
+      "example": "We marked the bug as severity level one because payments stopped.",
+      "example_vi": "Chúng tôi đánh dấu lỗi ở mức nghiêm trọng một vì thanh toán đã dừng."
+    },
+    {
+      "word": "post-mortem",
+      "ipa": "/ˌpəʊst ˈmɔːtəm/",
+      "meaning_vi": "buổi họp phân tích sự cố sau khi đã xử lý xong",
+      "example": "The post-mortem is on Thursday, and everyone should join.",
+      "example_vi": "Buổi phân tích sự cố diễn ra thứ Năm, và mọi người nên tham gia."
+    }
+  ],
+  "listening": {
+    "title": "Explaining a production bug to the support manager",
+    "lines": [
+      {
+        "speaker": "Hoa (Support Manager)",
+        "voice": "female",
+        "text": "Minh, customers are calling us. What exactly happened this morning?"
+      },
+      {
+        "speaker": "Minh (Backend Developer)",
+        "voice": "male",
+        "text": "We released a new version at nine, and the login service started failing."
+      },
+      {
+        "speaker": "Hoa (Support Manager)",
+        "voice": "female",
+        "text": "How many affected users are we talking about?"
+      },
+      {
+        "speaker": "Minh (Backend Developer)",
+        "voice": "male",
+        "text": "About two hundred. Every log entry after nine shows the same timeout."
+      },
+      {
+        "speaker": "Hoa (Support Manager)",
+        "voice": "female",
+        "text": "Do you already know where the problem is?"
+      },
+      {
+        "speaker": "Minh (Backend Developer)",
+        "voice": "male",
+        "text": "Yes. The stack trace points to the payment service, not the database."
+      },
+      {
+        "speaker": "Hoa (Support Manager)",
+        "voice": "female",
+        "text": "Could you reproduce the issue on your own machine?"
+      },
+      {
+        "speaker": "Minh (Backend Developer)",
+        "voice": "male",
+        "text": "Not at first. I only saw it after I used real customer data."
+      },
+      {
+        "speaker": "Hoa (Support Manager)",
+        "voice": "female",
+        "text": "So what did the team decide to do?"
+      },
+      {
+        "speaker": "Minh (Backend Developer)",
+        "voice": "male",
+        "text": "We decided to roll back the release, and the errors stopped in ten minutes."
+      },
+      {
+        "speaker": "Hoa (Support Manager)",
+        "voice": "female",
+        "text": "Good. I need something written for the client, please."
+      },
+      {
+        "speaker": "Minh (Backend Developer)",
+        "voice": "male",
+        "text": "I will finish the incident report today, and we have a post-mortem on Thursday."
+      }
+    ],
+    "questions": [
+      {
+        "q": "When did the login service start failing?",
+        "options": [
+          "At nine, after a new release",
+          "Late last night",
+          "During the post-mortem"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does the stack trace point to?",
+        "options": [
+          "The database",
+          "The payment service",
+          "The customer's browser"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How did the team stop the errors?",
+        "options": [
+          "They restarted every computer",
+          "They called the customers",
+          "They rolled back the release"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "We rolled back the release, and the error rate dropped within ten minutes.",
+    "I checked the log entry and found a clear stack trace for this bug.",
+    "About two hundred affected users could not log in between nine and ten.",
+    "Could you tell me the severity level before I wake up the whole team?",
+    "I will write the incident report today and share it in the post-mortem."
+  ]
+}

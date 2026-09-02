@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-02",
+  "track": "sales",
+  "theme": "Upsell & cross-sell",
+  "vocab": [
+    {
+      "word": "renewal date",
+      "ipa": "/rɪˈnjuːəl deɪt/",
+      "meaning_vi": "ngày gia hạn hợp đồng",
+      "example": "Your renewal date is in March, so let us plan early.",
+      "example_vi": "Ngày gia hạn của anh là tháng Ba, nên chúng ta hãy lên kế hoạch sớm."
+    },
+    {
+      "word": "tier",
+      "ipa": "/tɪə(r)/",
+      "meaning_vi": "hạng, cấp gói dịch vụ",
+      "example": "The next tier includes reporting tools and priority support.",
+      "example_vi": "Gói cấp cao hơn bao gồm công cụ báo cáo và hỗ trợ ưu tiên."
+    },
+    {
+      "word": "seat count",
+      "ipa": "/siːt kaʊnt/",
+      "meaning_vi": "số lượng tài khoản người dùng trong hợp đồng",
+      "example": "Your seat count is thirty, but forty people use the system.",
+      "example_vi": "Số tài khoản của anh là ba mươi, nhưng bốn mươi người đang dùng hệ thống."
+    },
+    {
+      "word": "usage report",
+      "ipa": "/ˈjuːsɪdʒ rɪˈpɔːt/",
+      "meaning_vi": "báo cáo mức độ sử dụng",
+      "example": "The usage report shows your team logs in every working day.",
+      "example_vi": "Báo cáo sử dụng cho thấy nhóm của anh đăng nhập mỗi ngày làm việc."
+    },
+    {
+      "word": "additional licence",
+      "ipa": "/əˈdɪʃənl ˈlaɪsns/",
+      "meaning_vi": "giấy phép sử dụng thêm",
+      "example": "Each additional licence costs less when you buy ten together.",
+      "example_vi": "Mỗi giấy phép thêm có giá rẻ hơn khi anh mua mười cái cùng lúc."
+    },
+    {
+      "word": "related product",
+      "ipa": "/rɪˈleɪtɪd ˈprɒdʌkt/",
+      "meaning_vi": "sản phẩm liên quan (bán kèm)",
+      "example": "Many customers also buy the related product for invoice scanning.",
+      "example_vi": "Nhiều khách hàng cũng mua sản phẩm liên quan để quét hoá đơn."
+    },
+    {
+      "word": "return on investment",
+      "ipa": "/rɪˈtɜːn ɒn ɪnˈvestmənt/",
+      "meaning_vi": "lợi ích thu được so với chi phí bỏ ra",
+      "example": "Let me show you the return on investment over twelve months.",
+      "example_vi": "Để tôi cho anh xem lợi ích thu được trong mười hai tháng."
+    },
+    {
+      "word": "long-term value",
+      "ipa": "/ˌlɒŋ tɜːm ˈvæljuː/",
+      "meaning_vi": "giá trị lâu dài",
+      "example": "I care about long-term value, not only the price this year.",
+      "example_vi": "Tôi quan tâm giá trị lâu dài, không chỉ giá của năm nay."
+    }
+  ],
+  "listening": {
+    "title": "Suggesting a bigger plan before the renewal",
+    "lines": [
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "Thanks for your time, Minh. Your renewal date is in March, so let us plan early."
+      },
+      {
+        "speaker": "Minh (IT Manager)",
+        "voice": "male",
+        "text": "Sure. Honestly, the current plan works well for us."
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "I am glad. But I noticed something in your usage report."
+      },
+      {
+        "speaker": "Minh (IT Manager)",
+        "voice": "male",
+        "text": "What did you see?"
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "Your seat count is thirty, but about forty people use the system every day."
+      },
+      {
+        "speaker": "Minh (IT Manager)",
+        "voice": "male",
+        "text": "That is true. Some people share one account, and it is not ideal."
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "You can buy an additional licence for each person, or move to the next tier."
+      },
+      {
+        "speaker": "Minh (IT Manager)",
+        "voice": "male",
+        "text": "What is the difference between those two options?"
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "The next tier gives you fifty seats, reporting tools and priority support."
+      },
+      {
+        "speaker": "Minh (IT Manager)",
+        "voice": "male",
+        "text": "That sounds interesting, but my director will ask about the cost."
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "Of course. I will send the return on investment over twelve months."
+      },
+      {
+        "speaker": "Minh (IT Manager)",
+        "voice": "male",
+        "text": "Please do. If the long-term value is clear, we can discuss it in January."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What problem did the usage report show?",
+        "options": [
+          "Nobody uses the system",
+          "More people use the system than the seat count allows",
+          "The system is often down"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does the next tier include?",
+        "options": [
+          "Fifty seats, reporting tools and priority support",
+          "A free laptop for each user",
+          "Only ten extra seats"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What will Linh send to Minh?",
+        "options": [
+          "A new contract to sign today",
+          "The return on investment over twelve months",
+          "A list of other customers"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Your usage report shows that your team is close to the current seat count.",
+    "Before the renewal date, I would like to review your plan and your needs.",
+    "Moving to the next tier gives you reporting tools and priority support included.",
+    "Many customers also add the related product because both tools share the same data.",
+    "Let me show you the return on investment over a full twelve month period."
+  ]
+}

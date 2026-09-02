@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-02",
+  "track": "interview",
+  "theme": "Thất bại & bài học",
+  "vocab": [
+    {
+      "word": "own up to",
+      "ipa": "/əʊn ˈʌp tuː/",
+      "meaning_vi": "thừa nhận (lỗi của mình)",
+      "example": "I owned up to the delay in the very next team meeting.",
+      "example_vi": "Tôi đã thừa nhận sự chậm trễ ngay trong buổi họp nhóm kế tiếp."
+    },
+    {
+      "word": "unrealistic timeline",
+      "ipa": "/ˌʌnrɪəˈlɪstɪk ˈtaɪmlaɪn/",
+      "meaning_vi": "kế hoạch thời gian không khả thi",
+      "example": "My biggest mistake was accepting an unrealistic timeline from the client.",
+      "example_vi": "Sai lầm lớn nhất của tôi là nhận một kế hoạch thời gian không khả thi từ khách hàng."
+    },
+    {
+      "word": "scope creep",
+      "ipa": "/skəʊp kriːp/",
+      "meaning_vi": "việc phát sinh thêm ngoài phạm vi ban đầu",
+      "example": "Scope creep was the real reason we missed the launch date.",
+      "example_vi": "Việc phát sinh ngoài phạm vi là lý do thật sự khiến chúng tôi trễ ngày ra mắt."
+    },
+    {
+      "word": "missed deadline",
+      "ipa": "/mɪst ˈdedlaɪn/",
+      "meaning_vi": "hạn chót bị trễ",
+      "example": "One missed deadline taught me more than three successful projects.",
+      "example_vi": "Một lần trễ hạn dạy tôi nhiều hơn ba dự án thành công."
+    },
+    {
+      "word": "over-promise",
+      "ipa": "/ˌəʊvə ˈprɒmɪs/",
+      "meaning_vi": "hứa quá khả năng thực hiện",
+      "example": "I learned never to over-promise a date without asking the whole team.",
+      "example_vi": "Tôi học được là đừng bao giờ hứa một mốc thời gian mà chưa hỏi cả nhóm."
+    },
+    {
+      "word": "handle pressure",
+      "ipa": "/ˈhændl ˈpreʃə(r)/",
+      "meaning_vi": "chịu được áp lực",
+      "example": "That project showed me how I handle pressure in a difficult week.",
+      "example_vi": "Dự án đó cho tôi thấy tôi chịu áp lực thế nào trong một tuần khó khăn."
+    },
+    {
+      "word": "process improvement",
+      "ipa": "/ˈprəʊses ɪmˈpruːvmənt/",
+      "meaning_vi": "cải tiến quy trình",
+      "example": "After the failure, I proposed a small process improvement for change requests.",
+      "example_vi": "Sau thất bại đó, tôi đề xuất một cải tiến quy trình nhỏ cho các yêu cầu thay đổi."
+    },
+    {
+      "word": "learn the hard way",
+      "ipa": "/lɜːn ðə hɑːd weɪ/",
+      "meaning_vi": "học được bài học qua trải nghiệm khó khăn",
+      "example": "I learned the hard way that silence never solves a schedule problem.",
+      "example_vi": "Tôi đã học một cách khó khăn rằng im lặng không bao giờ giải quyết được vấn đề tiến độ."
+    }
+  ],
+  "listening": {
+    "title": "Interview question: tell me about a failure",
+    "lines": [
+      {
+        "speaker": "Linh (HR Manager)",
+        "voice": "female",
+        "text": "Nam, tell me about a time when a project of yours failed."
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Last year I led a small website project for a retail client."
+      },
+      {
+        "speaker": "Linh (HR Manager)",
+        "voice": "female",
+        "text": "What was your role exactly?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "I was the project lead, so I agreed the schedule with the client myself."
+      },
+      {
+        "speaker": "Linh (HR Manager)",
+        "voice": "female",
+        "text": "And what went wrong?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "I accepted an unrealistic timeline, and then we had serious scope creep."
+      },
+      {
+        "speaker": "Linh (HR Manager)",
+        "voice": "female",
+        "text": "How bad was the result?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "We had a missed deadline of three weeks, and the client was unhappy."
+      },
+      {
+        "speaker": "Linh (HR Manager)",
+        "voice": "female",
+        "text": "What did you do when you saw the problem?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "I owned up to it early, showed the real numbers and offered a new plan."
+      },
+      {
+        "speaker": "Linh (HR Manager)",
+        "voice": "female",
+        "text": "And what did you learn from that experience?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "I learned the hard way never to over-promise, so I proposed a process improvement."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What was Nam's role in the project?",
+        "options": [
+          "He was the project lead",
+          "He was a junior tester",
+          "He was the client"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What were the two main causes of the failure?",
+        "options": [
+          "A small budget and a sick colleague",
+          "An unrealistic timeline and scope creep",
+          "Bad internet and old computers"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What did Nam do when he saw the problem?",
+        "options": [
+          "He waited until the client asked",
+          "He asked another team to take over",
+          "He owned up to it early and offered a new plan"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "In my last project, I set an unrealistic timeline and the team fell behind.",
+    "I owned up to the mistake and explained the delay to my manager quickly.",
+    "The main cause was scope creep, because we accepted new requests every single week.",
+    "After that failure, I proposed a small process improvement for planning and change requests.",
+    "I learned the hard way never to over-promise a date without checking with everyone."
+  ]
+}

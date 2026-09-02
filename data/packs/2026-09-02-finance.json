@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-02",
+  "track": "finance",
+  "theme": "Deadline quyết toán",
+  "vocab": [
+    {
+      "word": "submission deadline",
+      "ipa": "/səbˈmɪʃn ˈdedlaɪn/",
+      "meaning_vi": "hạn chót nộp hồ sơ, báo cáo",
+      "example": "The submission deadline for the annual report is next Monday.",
+      "example_vi": "Hạn chót nộp báo cáo năm là thứ Hai tuần sau."
+    },
+    {
+      "word": "late penalty",
+      "ipa": "/leɪt ˈpenəlti/",
+      "meaning_vi": "tiền phạt do nộp muộn",
+      "example": "If we file late, the company must pay a late penalty.",
+      "example_vi": "Nếu nộp muộn, công ty phải nộp tiền phạt chậm."
+    },
+    {
+      "word": "final figures",
+      "ipa": "/ˈfaɪnl ˈfɪɡəz/",
+      "meaning_vi": "số liệu cuối cùng",
+      "example": "Please send me the final figures for the fourth quarter tomorrow.",
+      "example_vi": "Hãy gửi tôi số liệu cuối cùng của quý bốn vào ngày mai."
+    },
+    {
+      "word": "workload peak",
+      "ipa": "/ˈwɜːkləʊd piːk/",
+      "meaning_vi": "cao điểm công việc",
+      "example": "March is always our workload peak in the accounting team.",
+      "example_vi": "Tháng Ba luôn là cao điểm công việc của phòng kế toán."
+    },
+    {
+      "word": "checklist item",
+      "ipa": "/ˈtʃeklɪst ˈaɪtəm/",
+      "meaning_vi": "mục trong danh sách việc cần làm",
+      "example": "Only one checklist item is still open in the closing file.",
+      "example_vi": "Chỉ còn một mục trong danh sách kiểm tra chưa hoàn thành."
+    },
+    {
+      "word": "overtime shift",
+      "ipa": "/ˈəʊvətaɪm ʃɪft/",
+      "meaning_vi": "ca làm thêm giờ",
+      "example": "We planned one overtime shift on Saturday to finish the numbers.",
+      "example_vi": "Chúng tôi đã sắp một ca làm thêm vào thứ Bảy để hoàn thành số liệu."
+    },
+    {
+      "word": "crunch time",
+      "ipa": "/krʌntʃ taɪm/",
+      "meaning_vi": "giai đoạn nước rút, căng thẳng nhất",
+      "example": "It is crunch time, so please answer my emails quickly.",
+      "example_vi": "Đang là giai đoạn nước rút, nên hãy trả lời email của tôi nhanh nhé."
+    },
+    {
+      "word": "tight schedule",
+      "ipa": "/taɪt ˈʃedjuːl/",
+      "meaning_vi": "lịch làm việc gấp, không có thời gian dư",
+      "example": "We are on a tight schedule, but the plan is realistic.",
+      "example_vi": "Chúng ta đang có lịch rất gấp, nhưng kế hoạch vẫn khả thi."
+    }
+  ],
+  "listening": {
+    "title": "Planning the last week before the tax finalization deadline",
+    "lines": [
+      {
+        "speaker": "Hoa (Chief Accountant)",
+        "voice": "female",
+        "text": "Nam, the submission deadline is next Monday. Where are we now?"
+      },
+      {
+        "speaker": "Nam (Accountant)",
+        "voice": "male",
+        "text": "Most of the work is done. I have ticked every checklist item except one."
+      },
+      {
+        "speaker": "Hoa (Chief Accountant)",
+        "voice": "female",
+        "text": "Which one is still open?"
+      },
+      {
+        "speaker": "Nam (Accountant)",
+        "voice": "male",
+        "text": "The depreciation report for the factory. The site manager has not replied yet."
+      },
+      {
+        "speaker": "Hoa (Chief Accountant)",
+        "voice": "female",
+        "text": "I will call him this afternoon. When can you give me the final figures?"
+      },
+      {
+        "speaker": "Nam (Accountant)",
+        "voice": "male",
+        "text": "Tomorrow evening, if the factory data arrives before lunch."
+      },
+      {
+        "speaker": "Hoa (Chief Accountant)",
+        "voice": "female",
+        "text": "That is a tight schedule, but it should work."
+      },
+      {
+        "speaker": "Nam (Accountant)",
+        "voice": "male",
+        "text": "Should I plan an overtime shift on Saturday, just in case?"
+      },
+      {
+        "speaker": "Hoa (Chief Accountant)",
+        "voice": "female",
+        "text": "Yes, please. March is always our workload peak, and I do not want surprises."
+      },
+      {
+        "speaker": "Nam (Accountant)",
+        "voice": "male",
+        "text": "Understood. What happens if we cannot file on time?"
+      },
+      {
+        "speaker": "Hoa (Chief Accountant)",
+        "voice": "female",
+        "text": "The company pays a late penalty, and nobody in the board likes that."
+      },
+      {
+        "speaker": "Nam (Accountant)",
+        "voice": "male",
+        "text": "Then it is crunch time. I will answer your emails within the hour."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Which checklist item is still open?",
+        "options": [
+          "The salary report",
+          "The depreciation report for the factory",
+          "The bank reconciliation"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "When can Nam give the final figures?",
+        "options": [
+          "Tomorrow evening, if the factory data arrives before lunch",
+          "Next Monday morning",
+          "Only after the weekend"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What happens if the company files late?",
+        "options": [
+          "Nothing changes",
+          "The deadline moves one week",
+          "The company pays a late penalty"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "The submission deadline is next Monday, so please send me the final figures tomorrow.",
+    "If we file late, the company will have to pay a late penalty.",
+    "March is always our workload peak, so I plan the team schedule early.",
+    "I have ticked every checklist item except the depreciation report for the factory.",
+    "We are on a tight schedule, but one overtime shift should be enough."
+  ]
+}

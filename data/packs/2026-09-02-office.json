@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-02",
+  "track": "office",
+  "theme": "Out-of-office & bàn giao việc",
+  "vocab": [
+    {
+      "word": "out-of-office reply",
+      "ipa": "/ˌaʊt əv ˈɒfɪs rɪˈplaɪ/",
+      "meaning_vi": "thư trả lời tự động khi vắng mặt",
+      "example": "Please set your out-of-office reply before you leave on Friday.",
+      "example_vi": "Hãy cài thư trả lời tự động trước khi bạn nghỉ vào thứ Sáu."
+    },
+    {
+      "word": "backup contact",
+      "ipa": "/ˈbækʌp ˈkɒntækt/",
+      "meaning_vi": "người liên hệ thay thế khi mình vắng",
+      "example": "Hoa is the backup contact for all supplier questions next week.",
+      "example_vi": "Hoa là người liên hệ thay thế cho mọi câu hỏi về nhà cung cấp tuần tới."
+    },
+    {
+      "word": "coverage plan",
+      "ipa": "/ˈkʌvərɪdʒ plæn/",
+      "meaning_vi": "kế hoạch phân công người làm thay",
+      "example": "Send me a short coverage plan for your two weeks away.",
+      "example_vi": "Gửi tôi một kế hoạch phân công ngắn cho hai tuần bạn nghỉ."
+    },
+    {
+      "word": "access rights",
+      "ipa": "/ˈækses raɪts/",
+      "meaning_vi": "quyền truy cập (hệ thống, thư mục)",
+      "example": "She still needs access rights to the shared budget folder.",
+      "example_vi": "Cô ấy vẫn cần quyền truy cập vào thư mục ngân sách dùng chung."
+    },
+    {
+      "word": "brief someone",
+      "ipa": "/briːf ˈsʌmwʌn/",
+      "meaning_vi": "hướng dẫn, tóm tắt việc cho ai đó",
+      "example": "I will brief Hoa on Wednesday so she knows every deadline.",
+      "example_vi": "Tôi sẽ hướng dẫn Hoa vào thứ Tư để cô ấy nắm được mọi hạn chót."
+    },
+    {
+      "word": "checklist",
+      "ipa": "/ˈtʃeklɪst/",
+      "meaning_vi": "danh sách các việc cần kiểm tra",
+      "example": "A simple checklist saves a lot of questions while you are away.",
+      "example_vi": "Một danh sách kiểm tra đơn giản giúp tránh rất nhiều câu hỏi khi bạn vắng mặt."
+    },
+    {
+      "word": "loose ends",
+      "ipa": "/luːs endz/",
+      "meaning_vi": "những việc còn dang dở",
+      "example": "I have two loose ends to finish before my last working day.",
+      "example_vi": "Tôi còn hai việc dang dở phải xong trước ngày làm việc cuối cùng."
+    },
+    {
+      "word": "reachable",
+      "ipa": "/ˈriːtʃəbl/",
+      "meaning_vi": "có thể liên lạc được",
+      "example": "I am reachable by phone, but only for urgent problems.",
+      "example_vi": "Tôi có thể liên lạc qua điện thoại, nhưng chỉ cho việc khẩn cấp."
+    }
+  ],
+  "listening": {
+    "title": "Handing over work before two weeks of leave",
+    "lines": [
+      {
+        "speaker": "Tuan (Team Leader)",
+        "voice": "male",
+        "text": "Linh, you start your leave next Monday. Is everything ready?"
+      },
+      {
+        "speaker": "Linh (Marketing Executive)",
+        "voice": "female",
+        "text": "Almost. I am writing a coverage plan for the two weeks now."
+      },
+      {
+        "speaker": "Tuan (Team Leader)",
+        "voice": "male",
+        "text": "Who will be the backup contact for the supplier questions?"
+      },
+      {
+        "speaker": "Linh (Marketing Executive)",
+        "voice": "female",
+        "text": "Hoa will. I will brief her on Wednesday so she knows every deadline."
+      },
+      {
+        "speaker": "Tuan (Team Leader)",
+        "voice": "male",
+        "text": "Does she have access rights to the shared budget folder?"
+      },
+      {
+        "speaker": "Linh (Marketing Executive)",
+        "voice": "female",
+        "text": "Not yet. Could you ask IT to add her before Thursday afternoon?"
+      },
+      {
+        "speaker": "Tuan (Team Leader)",
+        "voice": "male",
+        "text": "I will do that today. Are there any loose ends left?"
+      },
+      {
+        "speaker": "Linh (Marketing Executive)",
+        "voice": "female",
+        "text": "Two. The printing quote and the event photos, and both finish this week."
+      },
+      {
+        "speaker": "Tuan (Team Leader)",
+        "voice": "male",
+        "text": "Good. Please leave a short checklist on the team page as well."
+      },
+      {
+        "speaker": "Linh (Marketing Executive)",
+        "voice": "female",
+        "text": "It is already there, with the file names and the contact numbers."
+      },
+      {
+        "speaker": "Tuan (Team Leader)",
+        "voice": "male",
+        "text": "And will you be reachable while you are away?"
+      },
+      {
+        "speaker": "Linh (Marketing Executive)",
+        "voice": "female",
+        "text": "By phone only, for urgent matters. My out-of-office reply explains the rest."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Who will answer the supplier questions while Linh is away?",
+        "options": [
+          "Tuan",
+          "Hoa",
+          "The IT team"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Linh still need from IT?",
+        "options": [
+          "A new laptop for Hoa",
+          "Access rights to the shared budget folder for Hoa",
+          "A longer out-of-office reply"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How can people reach Linh during her leave?",
+        "options": [
+          "By phone, for urgent matters only",
+          "By email every morning",
+          "They cannot reach her at all"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I will set my out-of-office reply before I leave the office on Friday.",
+    "Please contact Hoa during my leave; she is the backup contact for this project.",
+    "I have written a short checklist so nobody has to guess what comes next.",
+    "Could you give her access rights to the shared folder before Thursday afternoon, please?",
+    "I will brief the team tomorrow and tie up the loose ends this week."
+  ]
+}
