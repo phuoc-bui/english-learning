@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-03",
+  "track": "office",
+  "theme": "Văn hoá công sở đa quốc gia",
+  "vocab": [
+    {
+      "word": "cross-cultural",
+      "ipa": "/ˌkrɒs ˈkʌltʃərəl/",
+      "meaning_vi": "liên quan đến nhiều nền văn hoá khác nhau",
+      "example": "Our cross-cultural training starts next Monday at ten.",
+      "example_vi": "Buổi đào tạo đa văn hoá của chúng ta bắt đầu thứ Hai tới lúc mười giờ."
+    },
+    {
+      "word": "diverse team",
+      "ipa": "/daɪˈvɜːs tiːm/",
+      "meaning_vi": "đội ngũ đa dạng (nhiều quốc tịch, nền tảng khác nhau)",
+      "example": "A diverse team often finds better ideas, but needs clearer rules.",
+      "example_vi": "Một đội ngũ đa dạng thường tìm ra ý tưởng tốt hơn, nhưng cần quy tắc rõ ràng hơn."
+    },
+    {
+      "word": "local custom",
+      "ipa": "/ˈləʊkl ˈkʌstəm/",
+      "meaning_vi": "tập quán, thói quen của địa phương",
+      "example": "In Japan, one local custom is to exchange business cards with both hands.",
+      "example_vi": "Ở Nhật, một tập quán địa phương là trao danh thiếp bằng hai tay."
+    },
+    {
+      "word": "first name basis",
+      "ipa": "/fɜːst neɪm ˈbeɪsɪs/",
+      "meaning_vi": "gọi nhau bằng tên riêng, không dùng chức danh",
+      "example": "In our Dutch office everyone is on a first name basis.",
+      "example_vi": "Ở văn phòng Hà Lan của chúng ta mọi người đều gọi nhau bằng tên riêng."
+    },
+    {
+      "word": "public holiday",
+      "ipa": "/ˈpʌblɪk ˈhɒlədeɪ/",
+      "meaning_vi": "ngày nghỉ lễ chính thức",
+      "example": "Please check their public holiday calendar before you book the workshop.",
+      "example_vi": "Hãy kiểm tra lịch nghỉ lễ của họ trước khi bạn đặt lịch buổi workshop."
+    },
+    {
+      "word": "greeting",
+      "ipa": "/ˈɡriːtɪŋ/",
+      "meaning_vi": "lời chào, cách chào hỏi",
+      "example": "A short greeting at the start of a call feels friendly.",
+      "example_vi": "Một lời chào ngắn ở đầu cuộc gọi tạo cảm giác thân thiện."
+    },
+    {
+      "word": "norm",
+      "ipa": "/nɔːm/",
+      "meaning_vi": "chuẩn mực, quy tắc ngầm mà mọi người cùng theo",
+      "example": "Replying within one working day is the norm in this company.",
+      "example_vi": "Trả lời trong vòng một ngày làm việc là chuẩn mực ở công ty này."
+    },
+    {
+      "word": "assume",
+      "ipa": "/əˈsjuːm/",
+      "meaning_vi": "cho rằng, mặc định (mà chưa kiểm chứng)",
+      "example": "Do not assume silence means agreement in every culture.",
+      "example_vi": "Đừng cho rằng sự im lặng có nghĩa là đồng ý ở mọi nền văn hoá."
+    }
+  ],
+  "listening": {
+    "title": "Preparing to work with a new overseas office",
+    "lines": [
+      {
+        "speaker": "Hoa (HR Business Partner)",
+        "voice": "female",
+        "text": "Tuan, your team will work with our Singapore office from next month."
+      },
+      {
+        "speaker": "Tuan (Team Lead)",
+        "voice": "male",
+        "text": "Yes, and I am a little nervous. It will be my first cross-cultural project."
+      },
+      {
+        "speaker": "Hoa (HR Business Partner)",
+        "voice": "female",
+        "text": "Do not worry. Start by checking their public holiday calendar."
+      },
+      {
+        "speaker": "Tuan (Team Lead)",
+        "voice": "male",
+        "text": "Good point. I almost booked a workshop on one of their holidays."
+      },
+      {
+        "speaker": "Hoa (HR Business Partner)",
+        "voice": "female",
+        "text": "Also, please remember they are on a first name basis there."
+      },
+      {
+        "speaker": "Tuan (Team Lead)",
+        "voice": "male",
+        "text": "Really? Here my team still calls me by my title in meetings."
+      },
+      {
+        "speaker": "Hoa (HR Business Partner)",
+        "voice": "female",
+        "text": "Every office has its own norm. A diverse team needs to agree on one."
+      },
+      {
+        "speaker": "Tuan (Team Lead)",
+        "voice": "male",
+        "text": "Should I learn any local custom before the first call?"
+      },
+      {
+        "speaker": "Hoa (HR Business Partner)",
+        "voice": "female",
+        "text": "A warm greeting and clear questions are enough at the beginning."
+      },
+      {
+        "speaker": "Tuan (Team Lead)",
+        "voice": "male",
+        "text": "And if someone stays quiet, I should not assume they agree."
+      },
+      {
+        "speaker": "Hoa (HR Business Partner)",
+        "voice": "female",
+        "text": "Exactly. Ask people directly, but politely, for their opinion."
+      },
+      {
+        "speaker": "Tuan (Team Lead)",
+        "voice": "male",
+        "text": "Thank you, Hoa. I will share these tips with my team on Friday."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What should Tuan check first?",
+        "options": [
+          "The Singapore office public holiday calendar",
+          "The company dress code",
+          "The travel budget for next month"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How do people address each other in the Singapore office?",
+        "options": [
+          "By their family name only",
+          "On a first name basis",
+          "By their job title"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Hoa say about someone who stays quiet?",
+        "options": [
+          "They are probably busy",
+          "They should leave the meeting",
+          "You should not assume they agree"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "In our office we use first name basis, even with the senior managers.",
+    "Please check the public holiday calendar before you book that meeting with Japan.",
+    "A diverse team needs a bit more time to agree on one norm.",
+    "Do not assume everyone reads email the same way; ask when you are unsure.",
+    "I try to adapt my greeting to the local custom of each partner office."
+  ]
+}

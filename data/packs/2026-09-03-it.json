@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-03",
+  "track": "it",
+  "theme": "Thuyết trình demo sản phẩm",
+  "vocab": [
+    {
+      "word": "walk you through",
+      "ipa": "/wɔːk juː θruː/",
+      "meaning_vi": "hướng dẫn ai đó từng bước qua một nội dung",
+      "example": "Let me walk you through the main screen first.",
+      "example_vi": "Để tôi hướng dẫn anh chị qua màn hình chính trước."
+    },
+    {
+      "word": "key feature",
+      "ipa": "/kiː ˈfiːtʃə/",
+      "meaning_vi": "tính năng chính, tính năng quan trọng nhất",
+      "example": "The key feature of this release is the automatic report.",
+      "example_vi": "Tính năng chính của bản phát hành này là báo cáo tự động."
+    },
+    {
+      "word": "use case",
+      "ipa": "/juːs keɪs/",
+      "meaning_vi": "tình huống sử dụng thực tế của sản phẩm",
+      "example": "I will show one use case from your support team.",
+      "example_vi": "Tôi sẽ trình bày một tình huống sử dụng từ đội hỗ trợ của anh chị."
+    },
+    {
+      "word": "pain point",
+      "ipa": "/peɪn pɔɪnt/",
+      "meaning_vi": "khó khăn, vấn đề nhức nhối của người dùng",
+      "example": "Your biggest pain point is the manual export every Friday.",
+      "example_vi": "Khó khăn lớn nhất của anh chị là việc xuất dữ liệu thủ công mỗi thứ Sáu."
+    },
+    {
+      "word": "sandbox account",
+      "ipa": "/ˈsændbɒks əˈkaʊnt/",
+      "meaning_vi": "tài khoản dùng thử, không ảnh hưởng dữ liệu thật",
+      "example": "We created a sandbox account so your team can practise safely.",
+      "example_vi": "Chúng tôi đã tạo tài khoản dùng thử để đội của anh chị luyện tập an toàn."
+    },
+    {
+      "word": "dummy data",
+      "ipa": "/ˈdʌmi ˈdeɪtə/",
+      "meaning_vi": "dữ liệu giả dùng để minh hoạ",
+      "example": "Everything on this screen is dummy data, not real customers.",
+      "example_vi": "Mọi thứ trên màn hình này là dữ liệu giả, không phải khách hàng thật."
+    },
+    {
+      "word": "seamless",
+      "ipa": "/ˈsiːmləs/",
+      "meaning_vi": "mượt mà, liền mạch, không bị gián đoạn",
+      "example": "The move from the web app to the phone is seamless.",
+      "example_vi": "Việc chuyển từ ứng dụng web sang điện thoại rất mượt mà."
+    },
+    {
+      "word": "value proposition",
+      "ipa": "/ˈvæljuː ˌprɒpəˈzɪʃn/",
+      "meaning_vi": "giá trị cốt lõi mà sản phẩm mang lại cho khách hàng",
+      "example": "Our value proposition is simple: less manual work every day.",
+      "example_vi": "Giá trị cốt lõi của chúng tôi rất đơn giản: bớt việc thủ công mỗi ngày."
+    }
+  ],
+  "listening": {
+    "title": "Running a product demo for a client team",
+    "lines": [
+      {
+        "speaker": "Linh (Product Owner)",
+        "voice": "female",
+        "text": "Good morning, everyone. Today I will walk you through our new reporting tool."
+      },
+      {
+        "speaker": "Nam (Solution Engineer)",
+        "voice": "male",
+        "text": "Before we start, can you tell us your biggest pain point today?"
+      },
+      {
+        "speaker": "Linh (Product Owner)",
+        "voice": "female",
+        "text": "Their team exports numbers by hand every Friday afternoon."
+      },
+      {
+        "speaker": "Nam (Solution Engineer)",
+        "voice": "male",
+        "text": "Then this use case is perfect. Let me share my screen now."
+      },
+      {
+        "speaker": "Linh (Product Owner)",
+        "voice": "female",
+        "text": "Please remember that everything you see here is dummy data."
+      },
+      {
+        "speaker": "Nam (Solution Engineer)",
+        "voice": "male",
+        "text": "The key feature is here. One click builds the whole weekly report."
+      },
+      {
+        "speaker": "Linh (Product Owner)",
+        "voice": "female",
+        "text": "And it looks the same on a phone, so the experience is seamless."
+      },
+      {
+        "speaker": "Nam (Solution Engineer)",
+        "voice": "male",
+        "text": "That is our value proposition: your team saves about four hours a week."
+      },
+      {
+        "speaker": "Linh (Product Owner)",
+        "voice": "female",
+        "text": "Can people try it themselves before they decide?"
+      },
+      {
+        "speaker": "Nam (Solution Engineer)",
+        "voice": "male",
+        "text": "Of course. I will send a sandbox account to each user this afternoon."
+      },
+      {
+        "speaker": "Linh (Product Owner)",
+        "voice": "female",
+        "text": "Great. Shall we keep the last ten minutes for questions?"
+      },
+      {
+        "speaker": "Nam (Solution Engineer)",
+        "voice": "male",
+        "text": "Yes, please. I would rather answer questions than show more slides."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is the client's biggest pain point?",
+        "options": [
+          "Exporting numbers by hand every Friday",
+          "Training new staff every month",
+          "Paying for too many licences"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does the key feature do?",
+        "options": [
+          "It sends emails to customers",
+          "It builds the weekly report with one click",
+          "It creates a sandbox account"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What will Nam send this afternoon?",
+        "options": [
+          "The full price list",
+          "A recording of the demo",
+          "A sandbox account for each user"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Let me walk you through the main screen before we open the questions.",
+    "I will show you three key features that solve your daily pain point.",
+    "We prepared a sandbox account so your team can try it after today.",
+    "The data on this screen is dummy data, not your real customer records.",
+    "Our value proposition is simple: less manual work and a seamless daily flow."
+  ]
+}

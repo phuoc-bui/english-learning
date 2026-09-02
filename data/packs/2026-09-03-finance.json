@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-03",
+  "track": "finance",
+  "theme": "Phần mềm kế toán & công cụ",
+  "vocab": [
+    {
+      "word": "import data",
+      "ipa": "/ɪmˈpɔːt ˈdeɪtə/",
+      "meaning_vi": "nhập dữ liệu vào hệ thống từ nguồn khác",
+      "example": "You can import data from the bank file instead of typing it.",
+      "example_vi": "Bạn có thể nhập dữ liệu từ file ngân hàng thay vì gõ tay."
+    },
+    {
+      "word": "export file",
+      "ipa": "/ɪkˈspɔːt faɪl/",
+      "meaning_vi": "xuất file dữ liệu ra khỏi hệ thống",
+      "example": "Please export the file to Excel before the review meeting.",
+      "example_vi": "Hãy xuất file ra Excel trước buổi họp rà soát."
+    },
+    {
+      "word": "user licence",
+      "ipa": "/ˈjuːzə ˈlaɪsns/",
+      "meaning_vi": "giấy phép sử dụng cho một người dùng",
+      "example": "We only bought five user licences for the accounting system.",
+      "example_vi": "Chúng ta chỉ mua năm giấy phép người dùng cho hệ thống kế toán."
+    },
+    {
+      "word": "module",
+      "ipa": "/ˈmɒdjuːl/",
+      "meaning_vi": "phân hệ, khối chức năng riêng trong phần mềm",
+      "example": "The reporting module is slower than the invoice module.",
+      "example_vi": "Phân hệ báo cáo chạy chậm hơn phân hệ hoá đơn."
+    },
+    {
+      "word": "read-only access",
+      "ipa": "/ˌriːd ˈəʊnli ˈækses/",
+      "meaning_vi": "quyền chỉ xem, không được sửa",
+      "example": "The intern has read-only access to the general ledger.",
+      "example_vi": "Bạn thực tập sinh chỉ có quyền xem sổ cái, không được sửa."
+    },
+    {
+      "word": "sync",
+      "ipa": "/sɪŋk/",
+      "meaning_vi": "đồng bộ dữ liệu giữa hai hệ thống",
+      "example": "The system will sync with the bank every night at midnight.",
+      "example_vi": "Hệ thống sẽ đồng bộ với ngân hàng vào nửa đêm mỗi ngày."
+    },
+    {
+      "word": "back up",
+      "ipa": "/ˌbæk ˈʌp/",
+      "meaning_vi": "sao lưu dữ liệu",
+      "example": "Please back up the ledger before you install the new version.",
+      "example_vi": "Hãy sao lưu sổ cái trước khi bạn cài phiên bản mới."
+    },
+    {
+      "word": "shortcut",
+      "ipa": "/ˈʃɔːtkʌt/",
+      "meaning_vi": "phím tắt, cách làm nhanh hơn",
+      "example": "There is a keyboard shortcut for posting a journal entry.",
+      "example_vi": "Có một phím tắt để ghi sổ một bút toán."
+    }
+  ],
+  "listening": {
+    "title": "Learning the new accounting system",
+    "lines": [
+      {
+        "speaker": "Trang (Chief Accountant)",
+        "voice": "female",
+        "text": "Son, how are you getting on with the new accounting system?"
+      },
+      {
+        "speaker": "Son (Finance Analyst)",
+        "voice": "male",
+        "text": "Better than last week, but I still type every bank line by hand."
+      },
+      {
+        "speaker": "Trang (Chief Accountant)",
+        "voice": "female",
+        "text": "You do not have to. You can import data straight from the bank file."
+      },
+      {
+        "speaker": "Son (Finance Analyst)",
+        "voice": "male",
+        "text": "Really? That would save me two hours every Monday morning."
+      },
+      {
+        "speaker": "Trang (Chief Accountant)",
+        "voice": "female",
+        "text": "It also has a shortcut for posting entries. Press control and J."
+      },
+      {
+        "speaker": "Son (Finance Analyst)",
+        "voice": "male",
+        "text": "Thank you. And does the system sync with the bank automatically?"
+      },
+      {
+        "speaker": "Trang (Chief Accountant)",
+        "voice": "female",
+        "text": "Yes, every night at midnight. In the morning everything is ready."
+      },
+      {
+        "speaker": "Son (Finance Analyst)",
+        "voice": "male",
+        "text": "One more question. Can I give the intern access to the reports?"
+      },
+      {
+        "speaker": "Trang (Chief Accountant)",
+        "voice": "female",
+        "text": "Only read-only access, please. She must not change any number."
+      },
+      {
+        "speaker": "Son (Finance Analyst)",
+        "voice": "male",
+        "text": "Understood. Do we have enough user licences for the whole team?"
+      },
+      {
+        "speaker": "Trang (Chief Accountant)",
+        "voice": "female",
+        "text": "We have five, so please log out when you finish your work."
+      },
+      {
+        "speaker": "Son (Finance Analyst)",
+        "voice": "male",
+        "text": "Sure. I will also back up the ledger before the update tonight."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How does Son enter bank lines now?",
+        "options": [
+          "He types every line by hand",
+          "He imports them from a file",
+          "The intern does it for him"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What access will the intern get?",
+        "options": [
+          "Full access to the ledger",
+          "Read-only access",
+          "No access at all"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why should the team log out after work?",
+        "options": [
+          "To save electricity",
+          "Because the system is slow",
+          "Because there are only five user licences"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Can you import data from the bank file instead of typing every line?",
+    "Please export the file to Excel and send it to me before lunch.",
+    "We only have five user licences, so please log out when you finish.",
+    "The system will back up every night, so we will not lose data.",
+    "I gave the intern read-only access to the reporting module this morning."
+  ]
+}

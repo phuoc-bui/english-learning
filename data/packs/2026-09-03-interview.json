@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-03",
+  "track": "interview",
+  "theme": "Làm việc nhóm & teamwork",
+  "vocab": [
+    {
+      "word": "cross-functional",
+      "ipa": "/ˌkrɒs ˈfʌŋkʃənl/",
+      "meaning_vi": "liên phòng ban, gồm nhiều vai trò khác nhau",
+      "example": "I worked in a cross-functional team with designers and testers.",
+      "example_vi": "Tôi đã làm trong một nhóm liên phòng ban gồm thiết kế và kiểm thử."
+    },
+    {
+      "word": "pull my weight",
+      "ipa": "/pʊl maɪ weɪt/",
+      "meaning_vi": "làm đủ phần việc của mình, không ỷ lại",
+      "example": "I always pull my weight, especially during busy weeks.",
+      "example_vi": "Tôi luôn làm đủ phần việc của mình, nhất là vào những tuần bận rộn."
+    },
+    {
+      "word": "supportive",
+      "ipa": "/səˈpɔːtɪv/",
+      "meaning_vi": "hay hỗ trợ, sẵn sàng giúp đỡ người khác",
+      "example": "My manager said I was supportive when new members joined.",
+      "example_vi": "Quản lý của tôi nói tôi rất hỗ trợ khi có thành viên mới vào nhóm."
+    },
+    {
+      "word": "step up",
+      "ipa": "/step ˈʌp/",
+      "meaning_vi": "đứng ra nhận việc, gánh vác khi cần",
+      "example": "When our leader was sick, I stepped up and ran the meeting.",
+      "example_vi": "Khi trưởng nhóm ốm, tôi đã đứng ra và điều hành cuộc họp."
+    },
+    {
+      "word": "peer",
+      "ipa": "/pɪə/",
+      "meaning_vi": "đồng nghiệp cùng cấp",
+      "example": "I asked a peer to review my work before I sent it.",
+      "example_vi": "Tôi nhờ một đồng nghiệp cùng cấp xem lại bài trước khi gửi đi."
+    },
+    {
+      "word": "workload",
+      "ipa": "/ˈwɜːkləʊd/",
+      "meaning_vi": "khối lượng công việc",
+      "example": "We shared the workload so nobody had to stay late.",
+      "example_vi": "Chúng tôi chia sẻ khối lượng công việc để không ai phải ở lại muộn."
+    },
+    {
+      "word": "get along",
+      "ipa": "/ɡet əˈlɒŋ/",
+      "meaning_vi": "hoà hợp, làm việc ăn ý với ai đó",
+      "example": "I get along with most people because I listen first.",
+      "example_vi": "Tôi hoà hợp với hầu hết mọi người vì tôi lắng nghe trước."
+    },
+    {
+      "word": "contribute ideas",
+      "ipa": "/kənˈtrɪbjuːt aɪˈdɪəz/",
+      "meaning_vi": "đóng góp ý tưởng",
+      "example": "I try to contribute ideas in every planning meeting.",
+      "example_vi": "Tôi cố gắng đóng góp ý tưởng trong mọi buổi họp lập kế hoạch."
+    }
+  ],
+  "listening": {
+    "title": "Interview questions about working in a team",
+    "lines": [
+      {
+        "speaker": "Hoa (HR Manager)",
+        "voice": "female",
+        "text": "Nam, tell me about the last team you worked in."
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "It was a cross-functional team of six: two designers, three developers and a tester."
+      },
+      {
+        "speaker": "Hoa (HR Manager)",
+        "voice": "female",
+        "text": "How did you share the work inside that team?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "We split the workload every Monday and checked progress on Thursday."
+      },
+      {
+        "speaker": "Hoa (HR Manager)",
+        "voice": "female",
+        "text": "Can you give me an example when a teammate needed help?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Yes. Last March a peer had too many tickets before a release."
+      },
+      {
+        "speaker": "Hoa (HR Manager)",
+        "voice": "female",
+        "text": "What did you do exactly?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "I stepped up and took eight of his tickets, and we shipped on time."
+      },
+      {
+        "speaker": "Hoa (HR Manager)",
+        "voice": "female",
+        "text": "How would your old colleagues describe you?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "They would say I am supportive and I always pull my weight."
+      },
+      {
+        "speaker": "Hoa (HR Manager)",
+        "voice": "female",
+        "text": "And what if you do not get along with someone?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "I listen first, then I contribute ideas instead of blaming that person."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What kind of team did Nam work in?",
+        "options": [
+          "A cross-functional team of six people",
+          "A team of ten testers",
+          "He worked alone"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What did Nam do when his peer had too many tickets?",
+        "options": [
+          "He told the manager about it",
+          "He took eight of the tickets",
+          "He asked for more time"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Nam do when he does not get along with someone?",
+        "options": [
+          "He avoids that person",
+          "He asks to change team",
+          "He listens first and then contributes ideas"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "In my last team I always pull my weight, even during busy weeks.",
+    "I worked in a cross-functional team with designers, testers and two backend engineers.",
+    "When a peer was overloaded, I stepped up and took part of the workload.",
+    "I get along with most people because I listen before I give my opinion.",
+    "My manager said I was supportive and always ready to contribute ideas in meetings."
+  ]
+}

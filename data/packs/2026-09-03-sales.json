@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-03",
+  "track": "sales",
+  "theme": "Xử lý phàn nàn của khách",
+  "vocab": [
+    {
+      "word": "apologise",
+      "ipa": "/əˈpɒlədʒaɪz/",
+      "meaning_vi": "xin lỗi",
+      "example": "I apologise for the delay on your order last week.",
+      "example_vi": "Tôi xin lỗi vì đơn hàng của anh bị chậm tuần trước."
+    },
+    {
+      "word": "take responsibility",
+      "ipa": "/teɪk rɪˌspɒnsəˈbɪləti/",
+      "meaning_vi": "nhận trách nhiệm",
+      "example": "We take responsibility for the mistake and we will fix it.",
+      "example_vi": "Chúng tôi nhận trách nhiệm về sai sót này và sẽ khắc phục."
+    },
+    {
+      "word": "frustrated",
+      "ipa": "/frʌˈstreɪtɪd/",
+      "meaning_vi": "bực bội, khó chịu vì mọi việc không như mong muốn",
+      "example": "I understand you are frustrated after three failed deliveries.",
+      "example_vi": "Tôi hiểu anh đang bực bội sau ba lần giao hàng thất bại."
+    },
+    {
+      "word": "escalate",
+      "ipa": "/ˈeskəleɪt/",
+      "meaning_vi": "chuyển vấn đề lên cấp cao hơn để xử lý",
+      "example": "Let me escalate this to my manager this afternoon.",
+      "example_vi": "Để tôi chuyển việc này lên quản lý của tôi trong chiều nay."
+    },
+    {
+      "word": "service level",
+      "ipa": "/ˈsɜːvɪs ˈlevl/",
+      "meaning_vi": "mức chất lượng dịch vụ đã cam kết",
+      "example": "Our service level promises a reply within two working hours.",
+      "example_vi": "Mức dịch vụ của chúng tôi cam kết trả lời trong vòng hai giờ làm việc."
+    },
+    {
+      "word": "credit note",
+      "ipa": "/ˈkredɪt nəʊt/",
+      "meaning_vi": "giấy báo có, phiếu trừ tiền cho khách",
+      "example": "We will issue a credit note for the two late shipments.",
+      "example_vi": "Chúng tôi sẽ phát hành phiếu trừ tiền cho hai lô hàng giao chậm."
+    },
+    {
+      "word": "goodwill",
+      "ipa": "/ˌɡʊdˈwɪl/",
+      "meaning_vi": "thiện chí, sự tin tưởng tốt đẹp giữa hai bên",
+      "example": "We are adding free support for a month as a goodwill gesture.",
+      "example_vi": "Chúng tôi tặng thêm một tháng hỗ trợ miễn phí như một cử chỉ thiện chí."
+    },
+    {
+      "word": "win back",
+      "ipa": "/wɪn ˈbæk/",
+      "meaning_vi": "lấy lại (niềm tin, khách hàng đã mất)",
+      "example": "It takes months to win back a customer after a bad experience.",
+      "example_vi": "Phải mất nhiều tháng để lấy lại một khách hàng sau trải nghiệm tệ."
+    }
+  ],
+  "listening": {
+    "title": "Handling an angry customer on the phone",
+    "lines": [
+      {
+        "speaker": "Mai (Account Manager)",
+        "voice": "female",
+        "text": "Good afternoon, Mr Khoa. Thank you for taking my call today."
+      },
+      {
+        "speaker": "Khoa (Operations Manager)",
+        "voice": "male",
+        "text": "Honestly, Mai, I am frustrated. This is the third late delivery."
+      },
+      {
+        "speaker": "Mai (Account Manager)",
+        "voice": "female",
+        "text": "I apologise. You are right, and we take responsibility for it."
+      },
+      {
+        "speaker": "Khoa (Operations Manager)",
+        "voice": "male",
+        "text": "Your service level says two days, but we waited five."
+      },
+      {
+        "speaker": "Mai (Account Manager)",
+        "voice": "female",
+        "text": "I checked this morning. Our warehouse changed the packing process last month."
+      },
+      {
+        "speaker": "Khoa (Operations Manager)",
+        "voice": "male",
+        "text": "That is your problem, not mine. My factory stopped for a day."
+      },
+      {
+        "speaker": "Mai (Account Manager)",
+        "voice": "female",
+        "text": "I understand. Let me escalate this to our operations director today."
+      },
+      {
+        "speaker": "Khoa (Operations Manager)",
+        "voice": "male",
+        "text": "And what about the money we lost during that day?"
+      },
+      {
+        "speaker": "Mai (Account Manager)",
+        "voice": "female",
+        "text": "We will send a credit note for both late shipments this week."
+      },
+      {
+        "speaker": "Khoa (Operations Manager)",
+        "voice": "male",
+        "text": "Fine. But I need to see a real change, not only money."
+      },
+      {
+        "speaker": "Mai (Account Manager)",
+        "voice": "female",
+        "text": "As a goodwill gesture, I will call you every Friday for one month."
+      },
+      {
+        "speaker": "Khoa (Operations Manager)",
+        "voice": "male",
+        "text": "Do that, and you may win back my trust. Let us try again."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why is Khoa frustrated?",
+        "options": [
+          "The price went up again",
+          "This is the third late delivery",
+          "Nobody answered his email"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What caused the delay, according to Mai?",
+        "options": [
+          "The warehouse changed the packing process",
+          "The factory was closed",
+          "The driver was sick"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What will Mai do as a goodwill gesture?",
+        "options": [
+          "Give a fifty percent discount",
+          "Visit the factory every month",
+          "Call Khoa every Friday for one month"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I apologise for the delay, and I take full responsibility for this mistake.",
+    "I understand you are frustrated, and I want to fix this for you.",
+    "Let me escalate this to my manager and call you back before five.",
+    "We will send a credit note this week as a goodwill gesture.",
+    "Our service level says two hours, so this week was clearly not acceptable."
+  ]
+}
