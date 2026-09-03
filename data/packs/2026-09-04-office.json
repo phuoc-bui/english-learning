@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-04",
+  "track": "office",
+  "theme": "Pantry chat & networking nội bộ",
+  "vocab": [
+    {
+      "word": "pantry",
+      "ipa": "/ˈpæntri/",
+      "meaning_vi": "khu pha trà, pha cà phê chung của văn phòng",
+      "example": "Most people meet in the pantry around three o'clock.",
+      "example_vi": "Phần lớn mọi người gặp nhau ở khu pha trà khoảng ba giờ."
+    },
+    {
+      "word": "coffee run",
+      "ipa": "/ˈkɒfi rʌn/",
+      "meaning_vi": "chuyến đi mua cà phê giúp cả nhóm",
+      "example": "We do a coffee run every afternoon at half past three.",
+      "example_vi": "Chúng tôi đi mua cà phê cho cả nhóm mỗi chiều lúc ba giờ rưỡi."
+    },
+    {
+      "word": "pop by",
+      "ipa": "/pɒp baɪ/",
+      "meaning_vi": "ghé qua một lát",
+      "example": "Please pop by my desk when you have five free minutes.",
+      "example_vi": "Hãy ghé qua bàn tôi khi bạn rảnh năm phút nhé."
+    },
+    {
+      "word": "counterpart",
+      "ipa": "/ˈkaʊntəpɑːt/",
+      "meaning_vi": "người giữ vai trò tương đương ở phòng ban hoặc văn phòng khác",
+      "example": "My counterpart in the Hanoi office does the same reports.",
+      "example_vi": "Người giữ vai trò tương đương ở văn phòng Hà Nội cũng làm báo cáo giống tôi."
+    },
+    {
+      "word": "introduce yourself",
+      "ipa": "/ˌɪntrəˈdjuːs jɔːˈself/",
+      "meaning_vi": "tự giới thiệu bản thân",
+      "example": "Do not be shy, just introduce yourself and say your team name.",
+      "example_vi": "Đừng ngại, hãy tự giới thiệu và nói tên đội của bạn."
+    },
+    {
+      "word": "common ground",
+      "ipa": "/ˌkɒmən ˈɡraʊnd/",
+      "meaning_vi": "điểm chung giữa hai người để bắt chuyện",
+      "example": "We found common ground because we both play badminton.",
+      "example_vi": "Chúng tôi tìm được điểm chung vì cả hai đều chơi cầu lông."
+    },
+    {
+      "word": "on a first-name basis",
+      "ipa": "/ɒn ə ˈfɜːst neɪm ˈbeɪsɪs/",
+      "meaning_vi": "xưng hô thân mật bằng tên riêng",
+      "example": "In this office everyone is on a first-name basis, even the directors.",
+      "example_vi": "Ở văn phòng này ai cũng gọi nhau bằng tên riêng, kể cả các giám đốc."
+    },
+    {
+      "word": "queue",
+      "ipa": "/kjuː/",
+      "meaning_vi": "hàng người xếp chờ",
+      "example": "There is always a queue for the coffee machine at nine.",
+      "example_vi": "Lúc chín giờ luôn có một hàng người chờ máy pha cà phê."
+    }
+  ],
+  "listening": {
+    "title": "Meeting a colleague from another floor",
+    "lines": [
+      {
+        "speaker": "Linh (Marketing Executive)",
+        "voice": "female",
+        "text": "This queue for the coffee machine is longer than usual today."
+      },
+      {
+        "speaker": "Tuan (Finance Officer)",
+        "voice": "male",
+        "text": "It always is on Monday. I do not think we have met before."
+      },
+      {
+        "speaker": "Linh (Marketing Executive)",
+        "voice": "female",
+        "text": "Let me introduce myself. I am Linh, I joined marketing in July."
+      },
+      {
+        "speaker": "Tuan (Finance Officer)",
+        "voice": "male",
+        "text": "Nice to meet you. I am Tuan from finance, on the third floor."
+      },
+      {
+        "speaker": "Linh (Marketing Executive)",
+        "voice": "female",
+        "text": "Should I call you Mr Tuan? I am still learning the office rules."
+      },
+      {
+        "speaker": "Tuan (Finance Officer)",
+        "voice": "male",
+        "text": "Just Tuan. Here everyone is on a first-name basis, even the directors."
+      },
+      {
+        "speaker": "Linh (Marketing Executive)",
+        "voice": "female",
+        "text": "Good to know. Then you must work with Hoa, my counterpart on budgets."
+      },
+      {
+        "speaker": "Tuan (Finance Officer)",
+        "voice": "male",
+        "text": "Every month. I come to the pantry almost every afternoon to see people."
+      },
+      {
+        "speaker": "Linh (Marketing Executive)",
+        "voice": "female",
+        "text": "I also joined the badminton club to meet other teams."
+      },
+      {
+        "speaker": "Tuan (Finance Officer)",
+        "voice": "male",
+        "text": "Really? I play too, so we have found some common ground already."
+      },
+      {
+        "speaker": "Linh (Marketing Executive)",
+        "voice": "female",
+        "text": "Then pop by my desk on Friday and we can do a coffee run."
+      },
+      {
+        "speaker": "Tuan (Finance Officer)",
+        "voice": "male",
+        "text": "I will bring Hoa as well. See you on Friday, Linh."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Which department does Tuan work in?",
+        "options": [
+          "Marketing",
+          "Finance",
+          "Human resources"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How do people address each other in this office?",
+        "options": [
+          "They are on a first-name basis",
+          "They always use titles like Mr and Ms",
+          "They use team names only"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What will they do on Friday?",
+        "options": [
+          "Play a badminton match",
+          "Attend a budget meeting",
+          "Do a coffee run with Hoa"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I usually take a short break in the pantry around three in the afternoon.",
+    "Let me introduce myself properly, I joined the marketing team last month.",
+    "Do you want to join our coffee run at three this afternoon?",
+    "Please pop by my desk any time if you have a question.",
+    "I found common ground with my counterpart in finance over badminton."
+  ]
+}

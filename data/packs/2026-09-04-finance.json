@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-04",
+  "track": "finance",
+  "theme": "Chính sách tài chính công ty",
+  "vocab": [
+    {
+      "word": "policy update",
+      "ipa": "/ˈpɒləsi ˈʌpdeɪt/",
+      "meaning_vi": "bản cập nhật chính sách",
+      "example": "The policy update takes effect from the first of October.",
+      "example_vi": "Bản cập nhật chính sách có hiệu lực từ ngày một tháng Mười."
+    },
+    {
+      "word": "approval limit",
+      "ipa": "/əˈpruːvl ˈlɪmɪt/",
+      "meaning_vi": "hạn mức được phép phê duyệt",
+      "example": "My approval limit is fifty million dong for costs inside my budget.",
+      "example_vi": "Hạn mức phê duyệt của tôi là năm mươi triệu đồng cho chi phí trong ngân sách."
+    },
+    {
+      "word": "delegation of authority",
+      "ipa": "/ˌdelɪˈɡeɪʃn əv ɔːˈθɒrəti/",
+      "meaning_vi": "phân quyền phê duyệt theo cấp bậc",
+      "example": "The delegation of authority says who can approve each amount.",
+      "example_vi": "Quy định phân quyền phê duyệt cho biết ai được duyệt mỗi mức tiền."
+    },
+    {
+      "word": "expense policy",
+      "ipa": "/ɪkˈspens ˈpɒləsi/",
+      "meaning_vi": "chính sách về chi phí",
+      "example": "The expense policy says taxi fares need a receipt from the driver.",
+      "example_vi": "Chính sách chi phí quy định tiền taxi phải có hoá đơn từ tài xế."
+    },
+    {
+      "word": "exception",
+      "ipa": "/ɪkˈsepʃn/",
+      "meaning_vi": "trường hợp ngoại lệ",
+      "example": "We can only make an exception with approval from the CFO.",
+      "example_vi": "Chúng ta chỉ có thể tạo ngoại lệ khi có phê duyệt của giám đốc tài chính."
+    },
+    {
+      "word": "in writing",
+      "ipa": "/ɪn ˈraɪtɪŋ/",
+      "meaning_vi": "bằng văn bản",
+      "example": "Any special discount must be approved in writing.",
+      "example_vi": "Mọi khoản giảm giá đặc biệt đều phải được duyệt bằng văn bản."
+    },
+    {
+      "word": "declare a gift",
+      "ipa": "/dɪˈkleə ə ɡɪft/",
+      "meaning_vi": "khai báo quà tặng nhận từ đối tác",
+      "example": "You must declare a gift from a supplier within three days.",
+      "example_vi": "Bạn phải khai báo quà tặng từ nhà cung cấp trong vòng ba ngày."
+    },
+    {
+      "word": "comply with",
+      "ipa": "/kəmˈplaɪ wɪð/",
+      "meaning_vi": "tuân thủ theo",
+      "example": "All departments must comply with the new travel rules.",
+      "example_vi": "Tất cả các phòng ban phải tuân thủ quy định công tác mới."
+    }
+  ],
+  "listening": {
+    "title": "Explaining the new finance policy to a department",
+    "lines": [
+      {
+        "speaker": "Mai (Finance Manager)",
+        "voice": "female",
+        "text": "Thank you for joining. I will explain the policy update in ten minutes."
+      },
+      {
+        "speaker": "Duc (Department Head)",
+        "voice": "male",
+        "text": "Is this the version that changes the approval levels?"
+      },
+      {
+        "speaker": "Mai (Finance Manager)",
+        "voice": "female",
+        "text": "Yes. The delegation of authority now has three levels, not four."
+      },
+      {
+        "speaker": "Duc (Department Head)",
+        "voice": "male",
+        "text": "So what is my approval limit without going to the director?"
+      },
+      {
+        "speaker": "Mai (Finance Manager)",
+        "voice": "female",
+        "text": "Fifty million dong, if the cost is already in your budget."
+      },
+      {
+        "speaker": "Duc (Department Head)",
+        "voice": "male",
+        "text": "Understood. And what if we need more for a bigger team event?"
+      },
+      {
+        "speaker": "Mai (Finance Manager)",
+        "voice": "female",
+        "text": "Then you need an exception, approved in writing before you spend."
+      },
+      {
+        "speaker": "Duc (Department Head)",
+        "voice": "male",
+        "text": "My team also asks about taxi fares almost every week."
+      },
+      {
+        "speaker": "Mai (Finance Manager)",
+        "voice": "female",
+        "text": "The expense policy is clear now: no receipt, no payment."
+      },
+      {
+        "speaker": "Duc (Department Head)",
+        "voice": "male",
+        "text": "One more question. Suppliers often send us cakes at Tet."
+      },
+      {
+        "speaker": "Mai (Finance Manager)",
+        "voice": "female",
+        "text": "You must declare a gift over one million dong within three days."
+      },
+      {
+        "speaker": "Duc (Department Head)",
+        "voice": "male",
+        "text": "I will share the slides so everyone can comply with the new rules."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How many approval levels does the new policy have?",
+        "options": [
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Duc need for a bigger team event?",
+        "options": [
+          "An exception approved in writing",
+          "A new budget for next year",
+          "A receipt from the restaurant"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What must staff do with a gift over one million dong?",
+        "options": [
+          "Return it to the supplier",
+          "Share it with the finance team",
+          "Declare it within three days"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Please read the policy update carefully before you submit any new claim.",
+    "My approval limit is fifty million dong for costs inside my budget.",
+    "The expense policy says taxi fares need a receipt from the driver.",
+    "You must ask for an exception in writing before you spend the money.",
+    "Every department must comply with the delegation of authority from October."
+  ]
+}

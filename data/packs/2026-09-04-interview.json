@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-04",
+  "track": "interview",
+  "theme": "Câu hỏi tình huống (situational)",
+  "vocab": [
+    {
+      "word": "hypothetical",
+      "ipa": "/ˌhaɪpəˈθetɪkl/",
+      "meaning_vi": "mang tính giả định, chưa xảy ra thật",
+      "example": "This is a hypothetical question, but please answer in detail.",
+      "example_vi": "Đây là câu hỏi giả định, nhưng hãy trả lời chi tiết nhé."
+    },
+    {
+      "word": "prioritise",
+      "ipa": "/praɪˈɒrətaɪz/",
+      "meaning_vi": "sắp xếp thứ tự ưu tiên",
+      "example": "I prioritise the task that blocks other people first.",
+      "example_vi": "Tôi ưu tiên việc đang chặn công việc của người khác trước."
+    },
+    {
+      "word": "clash of priorities",
+      "ipa": "/klæʃ əv praɪˈɒrətiz/",
+      "meaning_vi": "sự xung đột giữa các việc ưu tiên",
+      "example": "When there is a clash of priorities, I talk to both managers.",
+      "example_vi": "Khi có xung đột giữa các việc ưu tiên, tôi trao đổi với cả hai quản lý."
+    },
+    {
+      "word": "think it through",
+      "ipa": "/θɪŋk ɪt θruː/",
+      "meaning_vi": "suy nghĩ thấu đáo trước khi quyết định",
+      "example": "I take five minutes to think it through before I answer.",
+      "example_vi": "Tôi dành năm phút suy nghĩ thấu đáo trước khi trả lời."
+    },
+    {
+      "word": "judgement call",
+      "ipa": "/ˈdʒʌdʒmənt kɔːl/",
+      "meaning_vi": "quyết định dựa trên phán đoán cá nhân",
+      "example": "It was a judgement call, and I explained my reasons clearly.",
+      "example_vi": "Đó là quyết định theo phán đoán cá nhân, và tôi đã giải thích rõ lý do."
+    },
+    {
+      "word": "raise it early",
+      "ipa": "/reɪz ɪt ˈɜːli/",
+      "meaning_vi": "nêu vấn đề sớm, không để muộn",
+      "example": "If I see a risk, I raise it early with my manager.",
+      "example_vi": "Nếu thấy rủi ro, tôi nêu vấn đề sớm với quản lý của mình."
+    },
+    {
+      "word": "worst case",
+      "ipa": "/wɜːst keɪs/",
+      "meaning_vi": "tình huống xấu nhất",
+      "example": "In the worst case, we deliver only the main feature.",
+      "example_vi": "Trong tình huống xấu nhất, chúng tôi chỉ bàn giao tính năng chính."
+    },
+    {
+      "word": "tight deadline",
+      "ipa": "/taɪt ˈdedlaɪn/",
+      "meaning_vi": "hạn chót gấp, rất sát",
+      "example": "With a tight deadline, I speak to my manager on the same day.",
+      "example_vi": "Khi hạn chót gấp, tôi trao đổi với quản lý ngay trong ngày."
+    }
+  ],
+  "listening": {
+    "title": "Situational questions in a second interview",
+    "lines": [
+      {
+        "speaker": "Thanh (Hiring Manager)",
+        "voice": "male",
+        "text": "Let me ask a hypothetical question about a difficult week."
+      },
+      {
+        "speaker": "Linh (Candidate)",
+        "voice": "female",
+        "text": "Please go ahead. I will use a real example if I can."
+      },
+      {
+        "speaker": "Thanh (Hiring Manager)",
+        "voice": "male",
+        "text": "Two managers give you urgent work with the same tight deadline."
+      },
+      {
+        "speaker": "Linh (Candidate)",
+        "voice": "female",
+        "text": "First I check which task affects customers, then I prioritise that one."
+      },
+      {
+        "speaker": "Thanh (Hiring Manager)",
+        "voice": "male",
+        "text": "And if both tasks affect customers in the same way?"
+      },
+      {
+        "speaker": "Linh (Candidate)",
+        "voice": "female",
+        "text": "Then I raise it early and ask both managers to decide together."
+      },
+      {
+        "speaker": "Thanh (Hiring Manager)",
+        "voice": "male",
+        "text": "Good. Imagine nobody is available and you must choose alone."
+      },
+      {
+        "speaker": "Linh (Candidate)",
+        "voice": "female",
+        "text": "I think it through, make a judgement call, and write down my reasons."
+      },
+      {
+        "speaker": "Thanh (Hiring Manager)",
+        "voice": "male",
+        "text": "What is the worst case in that situation?"
+      },
+      {
+        "speaker": "Linh (Candidate)",
+        "voice": "female",
+        "text": "One manager waits an extra day, so I tell that person immediately."
+      },
+      {
+        "speaker": "Thanh (Hiring Manager)",
+        "voice": "male",
+        "text": "Last one. This clash of priorities happens every month. What then?"
+      },
+      {
+        "speaker": "Linh (Candidate)",
+        "voice": "female",
+        "text": "I would suggest one short planning meeting for both teams each Monday."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Linh check first when two tasks are urgent?",
+        "options": [
+          "Which task affects customers",
+          "Which manager asked first",
+          "Which task is easier to finish"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh do when she must decide alone?",
+        "options": [
+          "She waits until the next morning",
+          "She thinks it through and writes down her reasons",
+          "She finishes both tasks at the same time"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Linh suggest for a clash of priorities that repeats?",
+        "options": [
+          "Working longer hours",
+          "Asking for more people",
+          "A short planning meeting for both teams each Monday"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "If two tasks clash, I ask my manager which one to prioritise.",
+    "In that situation I would think it through before I answer anyone.",
+    "When there is a clash of priorities, I raise it early with my manager.",
+    "With a tight deadline, I tell the team about the risk immediately.",
+    "It was a judgement call, and I explained my reasons to the team."
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-04",
+  "track": "it",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    {
+      "word": "buddy",
+      "ipa": "/ˈbʌdi/",
+      "meaning_vi": "người kèm cặp, đồng nghiệp đi cùng nhân viên mới trong thời gian đầu",
+      "example": "Your buddy for the first month is Nam from the backend team.",
+      "example_vi": "Người kèm cặp bạn trong tháng đầu là Nam ở đội backend."
+    },
+    {
+      "word": "sit with",
+      "ipa": "/sɪt wɪð/",
+      "meaning_vi": "ngồi cùng ai đó để quan sát và học cách họ làm việc",
+      "example": "You can sit with me on support duty this Wednesday.",
+      "example_vi": "Bạn có thể ngồi cùng tôi trong ca trực hỗ trợ vào thứ Tư này."
+    },
+    {
+      "word": "workstation",
+      "ipa": "/ˈwɜːkˌsteɪʃn/",
+      "meaning_vi": "chỗ ngồi và máy tính làm việc đã cài đặt sẵn",
+      "example": "IT will prepare your workstation before your first day.",
+      "example_vi": "Bộ phận IT sẽ chuẩn bị máy làm việc cho bạn trước ngày đầu tiên."
+    },
+    {
+      "word": "read-only access",
+      "ipa": "/riːd ˈəʊnli ˈækses/",
+      "meaning_vi": "quyền chỉ được xem, không được sửa dữ liệu",
+      "example": "New members get read-only access to the customer database first.",
+      "example_vi": "Thành viên mới ban đầu chỉ được cấp quyền xem cơ sở dữ liệu khách hàng."
+    },
+    {
+      "word": "coding standard",
+      "ipa": "/ˈkəʊdɪŋ ˈstændəd/",
+      "meaning_vi": "quy chuẩn viết mã của đội",
+      "example": "Please follow our coding standard so reviews go faster.",
+      "example_vi": "Hãy tuân theo quy chuẩn viết mã của đội để việc rà soát nhanh hơn."
+    },
+    {
+      "word": "starter ticket",
+      "ipa": "/ˈstɑːtə ˈtɪkɪt/",
+      "meaning_vi": "công việc nhỏ, dễ, dành cho người mới làm quen",
+      "example": "I picked a starter ticket to fix a wrong label on the login page.",
+      "example_vi": "Tôi đã nhận một việc nhỏ cho người mới để sửa nhãn sai trên trang đăng nhập."
+    },
+    {
+      "word": "team wiki",
+      "ipa": "/tiːm ˈwɪki/",
+      "meaning_vi": "trang tài liệu nội bộ của đội",
+      "example": "The team wiki explains every step of the release process.",
+      "example_vi": "Trang tài liệu nội bộ của đội giải thích từng bước của quy trình phát hành."
+    },
+    {
+      "word": "get up to speed",
+      "ipa": "/ɡet ʌp tə spiːd/",
+      "meaning_vi": "bắt kịp, nắm được công việc",
+      "example": "Take two weeks to get up to speed before you join the on-call list.",
+      "example_vi": "Hãy dành hai tuần để nắm được công việc trước khi tham gia lịch trực."
+    }
+  ],
+  "listening": {
+    "title": "First morning for a new developer",
+    "lines": [
+      {
+        "speaker": "Hoa (Team Lead)",
+        "voice": "female",
+        "text": "Welcome to the team, Minh. How was your morning with the HR office?"
+      },
+      {
+        "speaker": "Minh (Junior Developer)",
+        "voice": "male",
+        "text": "Very smooth, thank you. My workstation was already on my desk."
+      },
+      {
+        "speaker": "Hoa (Team Lead)",
+        "voice": "female",
+        "text": "Good. Nam will be your buddy for the first month."
+      },
+      {
+        "speaker": "Minh (Junior Developer)",
+        "voice": "male",
+        "text": "That is great. Can I ask him small questions any time?"
+      },
+      {
+        "speaker": "Hoa (Team Lead)",
+        "voice": "female",
+        "text": "Of course. You can also sit with him during support duty on Wednesday."
+      },
+      {
+        "speaker": "Minh (Junior Developer)",
+        "voice": "male",
+        "text": "I opened the test database, but I cannot change anything there."
+      },
+      {
+        "speaker": "Hoa (Team Lead)",
+        "voice": "female",
+        "text": "That is normal. New members start with read-only access for two weeks."
+      },
+      {
+        "speaker": "Minh (Junior Developer)",
+        "voice": "male",
+        "text": "Understood. Where should I start reading? There is a lot of code."
+      },
+      {
+        "speaker": "Hoa (Team Lead)",
+        "voice": "female",
+        "text": "Start with the team wiki, then look at the payment module only."
+      },
+      {
+        "speaker": "Minh (Junior Developer)",
+        "voice": "male",
+        "text": "Do you want me to write any code this week?"
+      },
+      {
+        "speaker": "Hoa (Team Lead)",
+        "voice": "female",
+        "text": "One starter ticket is enough, and please follow our coding standard."
+      },
+      {
+        "speaker": "Minh (Junior Developer)",
+        "voice": "male",
+        "text": "Thank you, Hoa. I will take my time to get up to speed."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Who will be Minh's buddy for the first month?",
+        "options": [
+          "Nam",
+          "Hoa",
+          "Someone from the HR office"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Why can Minh not change anything in the test database?",
+        "options": [
+          "The database is broken",
+          "New members start with read-only access",
+          "He used the wrong password"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How much coding work does Hoa give Minh this week?",
+        "options": [
+          "The whole payment module",
+          "No work at all",
+          "One starter ticket"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Your buddy will help you get up to speed during the first two weeks.",
+    "I only have read-only access to the payment database for now.",
+    "I will sit with Nam today to learn how the team handles tickets.",
+    "The team wiki explains how to set up your workstation step by step.",
+    "Take a starter ticket first and follow our coding standard carefully."
+  ]
+}

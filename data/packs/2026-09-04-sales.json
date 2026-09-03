@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-04",
+  "track": "sales",
+  "theme": "Chốt hợp đồng",
+  "vocab": [
+    {
+      "word": "get it signed",
+      "ipa": "/ɡet ɪt saɪnd/",
+      "meaning_vi": "hoàn tất việc ký kết",
+      "example": "If we send it today, we can get it signed this week.",
+      "example_vi": "Nếu gửi hôm nay, chúng ta có thể hoàn tất việc ký trong tuần này."
+    },
+    {
+      "word": "sign off",
+      "ipa": "/saɪn ɒf/",
+      "meaning_vi": "phê duyệt lần cuối",
+      "example": "Our director still has to sign off on the discount.",
+      "example_vi": "Giám đốc của chúng tôi vẫn phải phê duyệt lần cuối mức chiết khấu."
+    },
+    {
+      "word": "clause",
+      "ipa": "/klɔːz/",
+      "meaning_vi": "điều khoản trong hợp đồng",
+      "example": "The support clause on page four is not clear enough.",
+      "example_vi": "Điều khoản hỗ trợ ở trang bốn chưa đủ rõ ràng."
+    },
+    {
+      "word": "legal team",
+      "ipa": "/ˈliːɡl tiːm/",
+      "meaning_vi": "bộ phận pháp chế",
+      "example": "Our legal team reviewed the contract yesterday afternoon.",
+      "example_vi": "Bộ phận pháp chế của chúng tôi đã rà soát hợp đồng chiều hôm qua."
+    },
+    {
+      "word": "final draft",
+      "ipa": "/ˈfaɪnl drɑːft/",
+      "meaning_vi": "bản dự thảo cuối cùng",
+      "example": "I am sending the final draft for your review today.",
+      "example_vi": "Hôm nay tôi gửi bản dự thảo cuối cùng để anh chị xem lại."
+    },
+    {
+      "word": "authorised person",
+      "ipa": "/ˈɔːθəraɪzd ˈpɜːsn/",
+      "meaning_vi": "người có thẩm quyền ký",
+      "example": "Please tell me who the authorised person for this contract is.",
+      "example_vi": "Vui lòng cho tôi biết ai là người có thẩm quyền ký hợp đồng này."
+    },
+    {
+      "word": "contract value",
+      "ipa": "/ˈkɒntrækt ˈvæljuː/",
+      "meaning_vi": "giá trị hợp đồng",
+      "example": "The contract value is printed on the first page.",
+      "example_vi": "Giá trị hợp đồng được in ở trang đầu tiên."
+    },
+    {
+      "word": "delivery schedule",
+      "ipa": "/dɪˈlɪvəri ˈʃedjuːl/",
+      "meaning_vi": "lịch bàn giao",
+      "example": "We agreed a delivery schedule of three stages this year.",
+      "example_vi": "Chúng ta đã thống nhất lịch bàn giao gồm ba giai đoạn trong năm nay."
+    }
+  ],
+  "listening": {
+    "title": "The last call before signing",
+    "lines": [
+      {
+        "speaker": "Nam (Account Executive)",
+        "voice": "male",
+        "text": "Good afternoon, Ms Hoa. I sent the final draft this morning."
+      },
+      {
+        "speaker": "Hoa (Procurement Manager)",
+        "voice": "female",
+        "text": "Yes, I read it. Our legal team has two small comments."
+      },
+      {
+        "speaker": "Nam (Account Executive)",
+        "voice": "male",
+        "text": "Please tell me. I would like to fix them today if possible."
+      },
+      {
+        "speaker": "Hoa (Procurement Manager)",
+        "voice": "female",
+        "text": "First, the support clause mentions office hours, but not weekends."
+      },
+      {
+        "speaker": "Nam (Account Executive)",
+        "voice": "male",
+        "text": "I will add one clear line about weekend support in section three."
+      },
+      {
+        "speaker": "Hoa (Procurement Manager)",
+        "voice": "female",
+        "text": "Second, the delivery schedule shows two stages, but we agreed three."
+      },
+      {
+        "speaker": "Nam (Account Executive)",
+        "voice": "male",
+        "text": "You are right. That is my mistake, and I will correct it now."
+      },
+      {
+        "speaker": "Hoa (Procurement Manager)",
+        "voice": "female",
+        "text": "Please also check the contract value on the first page."
+      },
+      {
+        "speaker": "Nam (Account Executive)",
+        "voice": "male",
+        "text": "I checked it twice this morning, and the number is correct."
+      },
+      {
+        "speaker": "Hoa (Procurement Manager)",
+        "voice": "female",
+        "text": "Good. Then my director can sign off tomorrow morning."
+      },
+      {
+        "speaker": "Nam (Account Executive)",
+        "voice": "male",
+        "text": "May I ask who the authorised person for the signature is?"
+      },
+      {
+        "speaker": "Hoa (Procurement Manager)",
+        "voice": "female",
+        "text": "Our director, Mr Long. So we can get it signed before Friday."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is missing from the support clause?",
+        "options": [
+          "A line about weekend support",
+          "The name of the legal team",
+          "The delivery address"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What mistake does Nam accept?",
+        "options": [
+          "The contract value is too high",
+          "The delivery schedule shows two stages instead of three",
+          "The final draft was sent late"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Who is the authorised person for the signature?",
+        "options": [
+          "Hoa, the procurement manager",
+          "Nam, the account executive",
+          "Mr Long, the director"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you review the final draft and send it back by Thursday?",
+    "Our legal team has already checked the support clause on page four.",
+    "Please confirm who the authorised person is before we print the contract.",
+    "Once your director signs off, we can get it signed this week.",
+    "The contract value and delivery schedule are both on the first page."
+  ]
+}
