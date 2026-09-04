@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-05",
+  "track": "it",
+  "theme": "Nói về email & follow-up",
+  "vocab": [
+    {
+      "word": "gentle reminder",
+      "ipa": "/ˈdʒentl rɪˈmaɪndə/",
+      "meaning_vi": "lời nhắc nhẹ nhàng, lịch sự",
+      "example": "I sent a gentle reminder about the payment API document this morning.",
+      "example_vi": "Sáng nay tôi đã gửi một lời nhắc nhẹ nhàng về tài liệu API thanh toán."
+    },
+    {
+      "word": "circle back",
+      "ipa": "/ˈsɜːkl bæk/",
+      "meaning_vi": "quay lại trao đổi tiếp về việc gì đó sau",
+      "example": "Let me check the server logs and circle back to you on Friday.",
+      "example_vi": "Để tôi kiểm tra nhật ký máy chủ rồi quay lại trao đổi với bạn vào thứ Sáu."
+    },
+    {
+      "word": "out-of-office reply",
+      "ipa": "/ˌaʊt əv ˈɒfɪs rɪˈplaɪ/",
+      "meaning_vi": "thư trả lời tự động khi người nhận đang vắng mặt",
+      "example": "His out-of-office reply says he is back in the office on Wednesday.",
+      "example_vi": "Thư tự động của anh ấy nói rằng anh ấy trở lại văn phòng vào thứ Tư."
+    },
+    {
+      "word": "bullet points",
+      "ipa": "/ˈbʊlɪt pɔɪnts/",
+      "meaning_vi": "các gạch đầu dòng ngắn gọn",
+      "example": "Please write the release notes in short bullet points, not long paragraphs.",
+      "example_vi": "Hãy viết ghi chú phát hành bằng các gạch đầu dòng ngắn, đừng viết đoạn văn dài."
+    },
+    {
+      "word": "short summary line",
+      "ipa": "/ʃɔːt ˈsʌməri laɪn/",
+      "meaning_vi": "dòng tóm tắt ngắn ở đầu email",
+      "example": "Start the email with a short summary line so busy people understand it fast.",
+      "example_vi": "Hãy mở đầu email bằng một dòng tóm tắt ngắn để người bận rộn hiểu nhanh."
+    },
+    {
+      "word": "flag an email",
+      "ipa": "/flæɡ ən ˈiːmeɪl/",
+      "meaning_vi": "đánh dấu email để xử lý sau",
+      "example": "I flag an email when I cannot answer it on the same day.",
+      "example_vi": "Tôi đánh dấu email khi không thể trả lời ngay trong ngày."
+    },
+    {
+      "word": "mark as unread",
+      "ipa": "/mɑːk əz ˌʌnˈred/",
+      "meaning_vi": "đánh dấu là chưa đọc để nhớ quay lại",
+      "example": "If I cannot reply now, I mark as unread and come back after lunch.",
+      "example_vi": "Nếu chưa trả lời được, tôi đánh dấu chưa đọc rồi quay lại sau giờ trưa."
+    },
+    {
+      "word": "at your earliest convenience",
+      "ipa": "/ət jɔːr ˈɜːliɪst kənˈviːniəns/",
+      "meaning_vi": "khi bạn thu xếp được sớm nhất (cách nói lịch sự)",
+      "example": "Please confirm the test data at your earliest convenience.",
+      "example_vi": "Vui lòng xác nhận dữ liệu kiểm thử khi bạn thu xếp được sớm nhất."
+    }
+  ],
+  "listening": {
+    "title": "Chasing an answer by email",
+    "lines": [
+      {
+        "speaker": "Linh (Project Manager)",
+        "voice": "female",
+        "text": "Nam, did the client answer our email about the payment API?"
+      },
+      {
+        "speaker": "Nam (Backend Developer)",
+        "voice": "male",
+        "text": "Not yet. I sent a gentle reminder this morning, but nothing has arrived."
+      },
+      {
+        "speaker": "Linh (Project Manager)",
+        "voice": "female",
+        "text": "Did you check if he is away this week?"
+      },
+      {
+        "speaker": "Nam (Backend Developer)",
+        "voice": "male",
+        "text": "Yes. His out-of-office reply says he is back on Wednesday."
+      },
+      {
+        "speaker": "Linh (Project Manager)",
+        "voice": "female",
+        "text": "Then let us write to his colleague and keep him in the same thread."
+      },
+      {
+        "speaker": "Nam (Backend Developer)",
+        "voice": "male",
+        "text": "Good idea. Should I explain the whole problem again?"
+      },
+      {
+        "speaker": "Linh (Project Manager)",
+        "voice": "female",
+        "text": "Start with a short summary line, then use bullet points for the questions."
+      },
+      {
+        "speaker": "Nam (Backend Developer)",
+        "voice": "male",
+        "text": "I will also ask them to confirm at your earliest convenience."
+      },
+      {
+        "speaker": "Linh (Project Manager)",
+        "voice": "female",
+        "text": "Perfect. Flag an email like this so it does not disappear."
+      },
+      {
+        "speaker": "Nam (Backend Developer)",
+        "voice": "male",
+        "text": "I always flag it and mark as unread until I get a real answer."
+      },
+      {
+        "speaker": "Linh (Project Manager)",
+        "voice": "female",
+        "text": "Great. Let us circle back on Thursday if nothing arrives."
+      },
+      {
+        "speaker": "Nam (Backend Developer)",
+        "voice": "male",
+        "text": "Agreed. I will add a note in the ticket so the team can follow."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why has the client not answered the email yet?",
+        "options": [
+          "He is out of the office until Wednesday",
+          "He never received the email",
+          "He does not work there any more"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh want at the top of the new email?",
+        "options": [
+          "A long paragraph about the project",
+          "A short summary line",
+          "A picture of the design"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What will the team do if there is still no answer?",
+        "options": [
+          "Cancel the project",
+          "Call the client at home",
+          "Circle back on Thursday"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I sent a gentle reminder about the payment API earlier this morning.",
+    "His out-of-office reply says he will be back in the office on Wednesday.",
+    "Please write your questions in short bullet points so the client answers quickly.",
+    "Could you confirm the test data at your earliest convenience, please?",
+    "I will flag this email and circle back to you again on Thursday."
+  ]
+}

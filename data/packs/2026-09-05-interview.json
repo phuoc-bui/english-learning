@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-05",
+  "track": "interview",
+  "theme": "Giới thiệu bản thân",
+  "vocab": [
+    {
+      "word": "background in",
+      "ipa": "/ˈbækɡraʊnd ɪn/",
+      "meaning_vi": "nền tảng, kinh nghiệm trong lĩnh vực nào đó",
+      "example": "I have a background in software testing and customer support.",
+      "example_vi": "Tôi có nền tảng về kiểm thử phần mềm và hỗ trợ khách hàng."
+    },
+    {
+      "word": "walk you through my CV",
+      "ipa": "/wɔːk ju θruː maɪ ˌsiː ˈviː/",
+      "meaning_vi": "trình bày lần lượt các mục trong CV của tôi",
+      "example": "Let me walk you through my CV from my first job until today.",
+      "example_vi": "Tôi xin trình bày lần lượt CV của mình từ công việc đầu tiên đến hiện tại."
+    },
+    {
+      "word": "specialise in",
+      "ipa": "/ˈspeʃəlaɪz ɪn/",
+      "meaning_vi": "chuyên về lĩnh vực gì",
+      "example": "I specialise in testing mobile applications for banking customers.",
+      "example_vi": "Tôi chuyên về kiểm thử ứng dụng di động cho khách hàng ngân hàng."
+    },
+    {
+      "word": "over the past three years",
+      "ipa": "/ˈəʊvə ðə pɑːst θriː jɪəz/",
+      "meaning_vi": "trong ba năm vừa qua",
+      "example": "Over the past three years I have worked mainly with international teams.",
+      "example_vi": "Trong ba năm vừa qua tôi chủ yếu làm việc với các đội quốc tế."
+    },
+    {
+      "word": "what drew me to",
+      "ipa": "/wɒt druː miː tə/",
+      "meaning_vi": "điều thu hút tôi đến với (công việc, công ty)",
+      "example": "What drew me to this role is the chance to work on a new product.",
+      "example_vi": "Điều thu hút tôi đến với vị trí này là cơ hội làm một sản phẩm mới."
+    },
+    {
+      "word": "describe myself as",
+      "ipa": "/dɪˈskraɪb maɪˈself əz/",
+      "meaning_vi": "tự mô tả bản thân là",
+      "example": "I would describe myself as calm and well organised under pressure.",
+      "example_vi": "Tôi tự mô tả mình là người bình tĩnh và ngăn nắp khi có áp lực."
+    },
+    {
+      "word": "my daily work",
+      "ipa": "/maɪ ˈdeɪli wɜːk/",
+      "meaning_vi": "công việc hằng ngày của tôi",
+      "example": "My daily work includes writing test cases and reporting bugs.",
+      "example_vi": "Công việc hằng ngày của tôi gồm viết ca kiểm thử và báo lỗi."
+    },
+    {
+      "word": "looking for a new challenge",
+      "ipa": "/ˈlʊkɪŋ fər ə njuː ˈtʃælɪndʒ/",
+      "meaning_vi": "đang tìm một thử thách mới",
+      "example": "After four years in the same role, I am looking for a new challenge.",
+      "example_vi": "Sau bốn năm ở cùng một vị trí, tôi đang tìm một thử thách mới."
+    }
+  ],
+  "listening": {
+    "title": "Tell me a little about yourself",
+    "lines": [
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "Good morning, Nam. Thank you for coming. Please tell me a little about yourself."
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Good morning. Thank you for the invitation. May I walk you through my CV briefly?"
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "Yes, please. Two or three minutes is enough."
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "I have a background in software testing and I studied information technology in Hanoi."
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "And where do you work at the moment?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Over the past three years I have worked at a fintech company in Cau Giay."
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "What does your daily work look like there?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "My daily work includes writing test cases, checking new features and reporting bugs."
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "Do you specialise in any type of testing?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Yes, I specialise in mobile testing, especially payment applications on Android."
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "How would you describe yourself as a team member?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "I describe myself as careful and calm. What drew me to this role is your new product, and I am looking for a new challenge."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How long has Nam worked at the fintech company?",
+        "options": [
+          "Over the past three years",
+          "Only two months",
+          "More than ten years"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What type of testing does Nam specialise in?",
+        "options": [
+          "Website design testing",
+          "Mobile payment testing",
+          "Hardware testing"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why is Nam interested in this job?",
+        "options": [
+          "The office is near his house",
+          "He does not like his current manager",
+          "He wants a new challenge and likes the product"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I have a background in software testing and three years of practical experience.",
+    "Let me walk you through my CV from my first job until today.",
+    "Over the past three years I have mainly tested mobile payment applications.",
+    "I would describe myself as careful, calm and easy to work with.",
+    "What drew me to this role is the chance to learn new technology."
+  ]
+}

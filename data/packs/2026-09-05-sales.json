@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-05",
+  "track": "sales",
+  "theme": "Cold call khách mới",
+  "vocab": [
+    {
+      "word": "pick up the phone",
+      "ipa": "/pɪk ʌp ðə fəʊn/",
+      "meaning_vi": "nhấc máy, bắt máy",
+      "example": "Nobody picked up the phone at that company this morning.",
+      "example_vi": "Sáng nay không ai ở công ty đó bắt máy cả."
+    },
+    {
+      "word": "leave a message",
+      "ipa": "/liːv ə ˈmesɪdʒ/",
+      "meaning_vi": "để lại lời nhắn",
+      "example": "I will leave a message with her assistant and try again tomorrow.",
+      "example_vi": "Tôi sẽ để lại lời nhắn cho trợ lý của chị ấy và gọi lại vào ngày mai."
+    },
+    {
+      "word": "qualify the lead",
+      "ipa": "/ˈkwɒlɪfaɪ ðə liːd/",
+      "meaning_vi": "sàng lọc xem khách có thực sự tiềm năng không",
+      "example": "Ask two or three questions to qualify the lead before you book a demo.",
+      "example_vi": "Hãy hỏi hai ba câu để sàng lọc khách tiềm năng trước khi hẹn demo."
+    },
+    {
+      "word": "without any commitment",
+      "ipa": "/wɪðˈaʊt ˈeni kəˈmɪtmənt/",
+      "meaning_vi": "không ràng buộc gì cả",
+      "example": "You can try the software for two weeks without any commitment.",
+      "example_vi": "Anh chị có thể dùng thử phần mềm hai tuần mà không ràng buộc gì cả."
+    },
+    {
+      "word": "the right person",
+      "ipa": "/ðə raɪt ˈpɜːsn/",
+      "meaning_vi": "đúng người phụ trách việc đó",
+      "example": "Am I speaking to the right person about software for your office?",
+      "example_vi": "Tôi đang nói chuyện với đúng người phụ trách phần mềm của văn phòng chứ ạ?"
+    },
+    {
+      "word": "not a good moment",
+      "ipa": "/nɒt ə ɡʊd ˈməʊmənt/",
+      "meaning_vi": "không phải lúc thuận tiện",
+      "example": "If this is not a good moment, I can call you back after lunch.",
+      "example_vi": "Nếu bây giờ không tiện, tôi có thể gọi lại cho anh chị sau giờ trưa."
+    },
+    {
+      "word": "quick introduction",
+      "ipa": "/kwɪk ˌɪntrəˈdʌkʃn/",
+      "meaning_vi": "phần giới thiệu ngắn gọn",
+      "example": "May I give you a quick introduction in about thirty seconds?",
+      "example_vi": "Tôi xin phép giới thiệu ngắn trong khoảng ba mươi giây được không ạ?"
+    },
+    {
+      "word": "set up a call",
+      "ipa": "/set ʌp ə kɔːl/",
+      "meaning_vi": "hẹn lịch một cuộc gọi",
+      "example": "Can we set up a call on Thursday with your technical team?",
+      "example_vi": "Chúng ta có thể hẹn một cuộc gọi vào thứ Năm với đội kỹ thuật của anh chị không?"
+    }
+  ],
+  "listening": {
+    "title": "A first call to a new company",
+    "lines": [
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "Good morning. My name is Nam from BrightSoft. Am I speaking to Ms. Hoa?"
+      },
+      {
+        "speaker": "Hoa (Office Manager)",
+        "voice": "female",
+        "text": "Yes, this is Hoa speaking. How can I help you?"
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "Thank you for picking up the phone. May I give you a quick introduction?"
+      },
+      {
+        "speaker": "Hoa (Office Manager)",
+        "voice": "female",
+        "text": "I have about two minutes before my next meeting."
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "That is enough. We help small offices manage contracts and invoices in one place."
+      },
+      {
+        "speaker": "Hoa (Office Manager)",
+        "voice": "female",
+        "text": "We already use a system for that, but it is quite slow."
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "May I ask how many people use it every day?"
+      },
+      {
+        "speaker": "Hoa (Office Manager)",
+        "voice": "female",
+        "text": "About twenty-five people in two branches."
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "Thank you. Are you the right person for software decisions, or your director?"
+      },
+      {
+        "speaker": "Hoa (Office Manager)",
+        "voice": "female",
+        "text": "I choose the tool, and my director approves the budget."
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "Then can we set up a call next Tuesday? You can test it without any commitment."
+      },
+      {
+        "speaker": "Hoa (Office Manager)",
+        "voice": "female",
+        "text": "Tuesday at ten works. If it is not a good moment, I will call you back."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How many people use Hoa's current system?",
+        "options": [
+          "About twenty-five",
+          "Only two",
+          "More than one hundred"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Who approves the budget at Hoa's company?",
+        "options": [
+          "Hoa herself",
+          "Her director",
+          "The supplier"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What do Nam and Hoa agree at the end of the call?",
+        "options": [
+          "Hoa will buy the tool today",
+          "Nam will send an invoice this week",
+          "They will set up a call next Tuesday"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Thank you for picking up the phone; may I give you a quick introduction?",
+    "Am I speaking to the right person about software for your office?",
+    "You can test the system for two weeks without any commitment at all.",
+    "If this is not a good moment, I can call you back tomorrow.",
+    "Can we set up a call next Tuesday with your technical team, please?"
+  ]
+}

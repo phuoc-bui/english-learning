@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-05",
+  "track": "office",
+  "theme": "Small talk trước giờ họp",
+  "vocab": [
+    {
+      "word": "small talk",
+      "ipa": "/smɔːl tɔːk/",
+      "meaning_vi": "chuyện phiếm xã giao",
+      "example": "A minute of small talk helps everyone relax before a long meeting.",
+      "example_vi": "Một phút chuyện phiếm giúp mọi người thoải mái hơn trước một cuộc họp dài."
+    },
+    {
+      "word": "plans for the weekend",
+      "ipa": "/plænz fə ðə ˌwiːkˈend/",
+      "meaning_vi": "dự định cuối tuần",
+      "example": "Do you have any plans for the weekend, Hoa?",
+      "example_vi": "Cuối tuần này chị có dự định gì không, chị Hoa?"
+    },
+    {
+      "word": "something in common",
+      "ipa": "/ˈsʌmθɪŋ ɪn ˈkɒmən/",
+      "meaning_vi": "điểm chung giữa hai người",
+      "example": "We found something in common: we both studied in Da Nang.",
+      "example_vi": "Chúng tôi tìm ra một điểm chung: cả hai đều học ở Đà Nẵng."
+    },
+    {
+      "word": "run into",
+      "ipa": "/rʌn ˈɪntə/",
+      "meaning_vi": "tình cờ gặp ai đó",
+      "example": "I ran into our new marketing manager at the lift this morning.",
+      "example_vi": "Sáng nay tôi tình cờ gặp trưởng phòng marketing mới ở thang máy."
+    },
+    {
+      "word": "safe topic",
+      "ipa": "/seɪf ˈtɒpɪk/",
+      "meaning_vi": "chủ đề an toàn, dễ nói với người chưa thân",
+      "example": "Sport is a safe topic when you meet a partner for the first time.",
+      "example_vi": "Thể thao là chủ đề an toàn khi bạn gặp đối tác lần đầu."
+    },
+    {
+      "word": "how have you been",
+      "ipa": "/haʊ həv ju biːn/",
+      "meaning_vi": "dạo này bạn thế nào (hỏi thăm người lâu không gặp)",
+      "example": "How have you been since your team moved to the new building?",
+      "example_vi": "Dạo này bạn thế nào từ khi đội bạn chuyển sang toà nhà mới?"
+    },
+    {
+      "word": "catch someone up",
+      "ipa": "/kætʃ ˈsʌmwʌn ʌp/",
+      "meaning_vi": "cập nhật nhanh thông tin cho ai đó",
+      "example": "Let me catch you up before the manager joins the room.",
+      "example_vi": "Để tôi cập nhật nhanh cho bạn trước khi quản lý vào phòng."
+    },
+    {
+      "word": "before we get started",
+      "ipa": "/bɪˈfɔː wi ɡet ˈstɑːtɪd/",
+      "meaning_vi": "trước khi chúng ta bắt đầu",
+      "example": "Before we get started, please help yourself to some coffee.",
+      "example_vi": "Trước khi chúng ta bắt đầu, mời mọi người tự lấy cà phê."
+    }
+  ],
+  "listening": {
+    "title": "Five minutes before the department meeting",
+    "lines": [
+      {
+        "speaker": "Minh (Office Administrator)",
+        "voice": "male",
+        "text": "Good morning, Linh. I ran into you at the lift yesterday, but you looked busy."
+      },
+      {
+        "speaker": "Linh (HR Officer)",
+        "voice": "female",
+        "text": "Sorry about that, Minh. I was late for a training session upstairs."
+      },
+      {
+        "speaker": "Minh (Office Administrator)",
+        "voice": "male",
+        "text": "No problem at all. How have you been since your team moved?"
+      },
+      {
+        "speaker": "Linh (HR Officer)",
+        "voice": "female",
+        "text": "Much better, thank you. The new floor is quiet and it is easy to focus."
+      },
+      {
+        "speaker": "Minh (Office Administrator)",
+        "voice": "male",
+        "text": "That is good news. Did you have any plans for the weekend?"
+      },
+      {
+        "speaker": "Linh (HR Officer)",
+        "voice": "female",
+        "text": "I joined a badminton club near my house on Sunday morning."
+      },
+      {
+        "speaker": "Minh (Office Administrator)",
+        "voice": "male",
+        "text": "Really? I play badminton too, so we have something in common."
+      },
+      {
+        "speaker": "Linh (HR Officer)",
+        "voice": "female",
+        "text": "We should play together one Saturday. Sport is always a safe topic here."
+      },
+      {
+        "speaker": "Minh (Office Administrator)",
+        "voice": "male",
+        "text": "It is. Let me catch you up: the budget slide changed last night."
+      },
+      {
+        "speaker": "Linh (HR Officer)",
+        "voice": "female",
+        "text": "Thank you for telling me. I will open the new version now."
+      },
+      {
+        "speaker": "Minh (Office Administrator)",
+        "voice": "male",
+        "text": "Before we get started, would you like a cup of tea?"
+      },
+      {
+        "speaker": "Linh (HR Officer)",
+        "voice": "female",
+        "text": "Yes, please. A little small talk and some tea help me relax."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Where did Minh see Linh yesterday?",
+        "options": [
+          "At the lift",
+          "In the training room",
+          "At the badminton club"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What do Minh and Linh have in common?",
+        "options": [
+          "They live on the same street",
+          "They both play badminton",
+          "They work in the same team"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What news does Minh share before the meeting?",
+        "options": [
+          "The manager is sick today",
+          "The meeting is cancelled",
+          "The budget slide has changed"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Did you have any plans for the weekend, or did you just rest?",
+    "How have you been since your team moved to the fourth floor?",
+    "Let me catch you up quickly before the manager arrives in the room.",
+    "I ran into our new colleague at the lift and we had a chat.",
+    "Before we get started, does anyone need a few more minutes for coffee?"
+  ]
+}

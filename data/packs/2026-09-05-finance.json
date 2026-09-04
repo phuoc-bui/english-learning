@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-05",
+  "track": "finance",
+  "theme": "Trình bày báo cáo tháng",
+  "vocab": [
+    {
+      "word": "variance analysis",
+      "ipa": "/ˈveəriəns əˈnæləsɪs/",
+      "meaning_vi": "phân tích chênh lệch giữa kế hoạch và thực tế",
+      "example": "The variance analysis shows why marketing spent more than planned.",
+      "example_vi": "Phân tích chênh lệch cho thấy vì sao marketing chi nhiều hơn kế hoạch."
+    },
+    {
+      "word": "budget versus actual",
+      "ipa": "/ˈbʌdʒɪt ˈvɜːsəs ˈæktʃuəl/",
+      "meaning_vi": "so sánh ngân sách với số thực tế",
+      "example": "Slide four compares budget versus actual for each department.",
+      "example_vi": "Trang bốn so sánh ngân sách với số thực tế của từng phòng ban."
+    },
+    {
+      "word": "gross margin",
+      "ipa": "/ɡrəʊs ˈmɑːdʒɪn/",
+      "meaning_vi": "lợi nhuận gộp",
+      "example": "Our gross margin improved by two points last month.",
+      "example_vi": "Lợi nhuận gộp của chúng ta tăng hai điểm trong tháng trước."
+    },
+    {
+      "word": "operating expense",
+      "ipa": "/ˈɒpəreɪtɪŋ ɪkˈspens/",
+      "meaning_vi": "chi phí vận hành",
+      "example": "Office rent is our largest operating expense this year.",
+      "example_vi": "Tiền thuê văn phòng là chi phí vận hành lớn nhất của chúng ta năm nay."
+    },
+    {
+      "word": "overspending",
+      "ipa": "/ˌəʊvəˈspendɪŋ/",
+      "meaning_vi": "việc chi vượt kế hoạch",
+      "example": "The overspending came from extra software licences in August.",
+      "example_vi": "Việc chi vượt kế hoạch đến từ các giấy phép phần mềm phát sinh trong tháng Tám."
+    },
+    {
+      "word": "recurring cost",
+      "ipa": "/rɪˈkɜːrɪŋ kɒst/",
+      "meaning_vi": "chi phí lặp lại hằng tháng",
+      "example": "Cloud hosting is a recurring cost we pay every month.",
+      "example_vi": "Chi phí máy chủ đám mây là khoản lặp lại chúng ta trả hằng tháng."
+    },
+    {
+      "word": "round the figures",
+      "ipa": "/raʊnd ðə ˈfɪɡəz/",
+      "meaning_vi": "làm tròn số liệu",
+      "example": "Please round the figures to millions so the slide is easier to read.",
+      "example_vi": "Vui lòng làm tròn số về đơn vị triệu để trang trình bày dễ đọc hơn."
+    },
+    {
+      "word": "zoom in on the details",
+      "ipa": "/zuːm ɪn ɒn ðə ˈdiːteɪlz/",
+      "meaning_vi": "đi sâu vào chi tiết",
+      "example": "We can zoom in on the details after the summary slide.",
+      "example_vi": "Chúng ta có thể đi sâu vào chi tiết sau trang tóm tắt."
+    }
+  ],
+  "listening": {
+    "title": "Monthly report meeting with the director",
+    "lines": [
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "Good afternoon. I will present the August report in about ten minutes."
+      },
+      {
+        "speaker": "Minh (Operations Director)",
+        "voice": "male",
+        "text": "Please keep the summary short and clear."
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "Of course. Revenue reached fifteen billion dong, and our gross margin improved slightly."
+      },
+      {
+        "speaker": "Minh (Operations Director)",
+        "voice": "male",
+        "text": "That sounds positive. What about our costs?"
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "Total operating expense was higher than plan, mainly because of new software licences."
+      },
+      {
+        "speaker": "Minh (Operations Director)",
+        "voice": "male",
+        "text": "So we had some overspending in the IT budget?"
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "Yes. Slide four shows budget versus actual for every department."
+      },
+      {
+        "speaker": "Minh (Operations Director)",
+        "voice": "male",
+        "text": "Can you explain the biggest difference there?"
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "The variance analysis points to two items: licences and overtime payments."
+      },
+      {
+        "speaker": "Minh (Operations Director)",
+        "voice": "male",
+        "text": "Is the licence fee a recurring cost or a single payment?"
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "It is a recurring cost, so I added it to the next quarter forecast."
+      },
+      {
+        "speaker": "Minh (Operations Director)",
+        "voice": "male",
+        "text": "Good. Round the figures on the summary slide; we can zoom in on the details later."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What happened to the gross margin in August?",
+        "options": [
+          "It improved slightly",
+          "It fell sharply",
+          "It stayed exactly the same"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Why was the operating expense higher than plan?",
+        "options": [
+          "Because the office rent increased",
+          "Because of new software licences",
+          "Because of a bank fee"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Minh ask Linh to do with the summary slide?",
+        "options": [
+          "Delete it",
+          "Send it to the client",
+          "Round the figures"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Slide four compares budget versus actual for every department last month.",
+    "Our gross margin improved slightly, but operating expense was higher than planned.",
+    "The variance analysis explains most of the overspending in the IT budget.",
+    "Please round the figures to millions so the slide is easier to read.",
+    "We can zoom in on the details after I finish the short summary."
+  ]
+}
