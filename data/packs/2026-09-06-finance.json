@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-06",
+  "track": "finance",
+  "theme": "Ngân sách & cắt giảm chi phí",
+  "vocab": [
+    {
+      "word": "trim spending",
+      "ipa": "/trɪm ˈspendɪŋ/",
+      "meaning_vi": "cắt giảm chi tiêu",
+      "example": "The board asked every department to trim spending by ten percent.",
+      "example_vi": "Ban lãnh đạo yêu cầu mọi phòng ban cắt giảm chi tiêu mười phần trăm."
+    },
+    {
+      "word": "overhead cost",
+      "ipa": "/ˈəʊvəhed kɒst/",
+      "meaning_vi": "chi phí vận hành chung của công ty",
+      "example": "Rent and electricity are our two largest overhead costs.",
+      "example_vi": "Tiền thuê và tiền điện là hai khoản chi phí vận hành lớn nhất của chúng ta."
+    },
+    {
+      "word": "budget cycle",
+      "ipa": "/ˈbʌdʒɪt ˈsaɪkl/",
+      "meaning_vi": "chu kỳ lập và duyệt ngân sách",
+      "example": "The next budget cycle starts in October, so we need the numbers in September.",
+      "example_vi": "Chu kỳ ngân sách tiếp theo bắt đầu vào tháng Mười, nên chúng ta cần số liệu trong tháng Chín."
+    },
+    {
+      "word": "approval threshold",
+      "ipa": "/əˈpruːvl ˈθreʃhəʊld/",
+      "meaning_vi": "mức chi phải xin phê duyệt",
+      "example": "Any purchase above the approval threshold needs the finance manager's signature.",
+      "example_vi": "Mọi khoản mua vượt mức phê duyệt đều cần chữ ký của trưởng phòng tài chính."
+    },
+    {
+      "word": "justify a cost",
+      "ipa": "/ˈdʒʌstɪfaɪ ə kɒst/",
+      "meaning_vi": "giải trình lý do cho một khoản chi",
+      "example": "Managers must justify a cost with real business reasons, not just habit.",
+      "example_vi": "Các quản lý phải giải trình khoản chi bằng lý do kinh doanh thật sự, không phải theo thói quen."
+    },
+    {
+      "word": "software licence fee",
+      "ipa": "/ˈsɒftweə ˈlaɪsns fiː/",
+      "meaning_vi": "phí bản quyền phần mềm",
+      "example": "Our software licence fees rose sharply after we hired fifteen new staff.",
+      "example_vi": "Phí bản quyền phần mềm của chúng ta tăng mạnh sau khi tuyển thêm mười lăm nhân viên."
+    },
+    {
+      "word": "cost per head",
+      "ipa": "/kɒst pɜː hed/",
+      "meaning_vi": "chi phí tính trên mỗi nhân viên",
+      "example": "The cost per head for office supplies fell after we changed supplier.",
+      "example_vi": "Chi phí văn phòng phẩm trên mỗi nhân viên giảm sau khi chúng ta đổi nhà cung cấp."
+    },
+    {
+      "word": "savings target",
+      "ipa": "/ˈseɪvɪŋz ˈtɑːɡɪt/",
+      "meaning_vi": "mục tiêu tiết kiệm chi phí",
+      "example": "We reached our savings target one month before the deadline.",
+      "example_vi": "Chúng tôi đạt mục tiêu tiết kiệm trước hạn một tháng."
+    }
+  ],
+  "listening": {
+    "title": "Planning a ten percent cost reduction",
+    "lines": [
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Minh, the board asked us to trim spending by ten percent this quarter." },
+      { "speaker": "Minh (Cost Accountant)", "voice": "male", "text": "That is a large cut. Which overhead costs should we look at first?" },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Start with software licence fees. We pay for many tools nobody opens." },
+      { "speaker": "Minh (Cost Accountant)", "voice": "male", "text": "I checked last month. Twenty-two licences had no activity for sixty days." },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Please remove those and calculate the new cost per head for each department." },
+      { "speaker": "Minh (Cost Accountant)", "voice": "male", "text": "Sure. Should we also lower the approval threshold for small purchases?" },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Yes. Anything above twenty million dong now needs my signature." },
+      { "speaker": "Minh (Cost Accountant)", "voice": "male", "text": "Managers will complain, but they can justify a cost in one short email." },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Exactly. I want a simple form so the budget cycle does not slow down." },
+      { "speaker": "Minh (Cost Accountant)", "voice": "male", "text": "I will draft it today and send you the savings target by Friday." }
+    ],
+    "questions": [
+      {
+        "q": "How much must the company reduce spending?",
+        "options": ["Two percent", "Ten percent", "Thirty percent"],
+        "answer": 1
+      },
+      {
+        "q": "Which cost will they cut first?",
+        "options": ["Unused software licences", "Staff training", "Office electricity"],
+        "answer": 0
+      },
+      {
+        "q": "What is the new approval threshold?",
+        "options": ["Two million dong", "Twenty million dong", "Two hundred million dong"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "We need to trim spending by ten percent before the next budget cycle.",
+    "Any purchase above twenty million dong is over our approval threshold now.",
+    "Could you justify this cost with real numbers before the meeting on Friday?",
+    "Our software licence fees went up sharply after we added fifteen new users.",
+    "The savings target for this quarter is three hundred million dong in total."
+  ]
+}

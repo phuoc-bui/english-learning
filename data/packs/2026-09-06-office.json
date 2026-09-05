@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-06",
+  "track": "office",
+  "theme": "Viết email & follow-up",
+  "vocab": [
+    {
+      "word": "draft an email",
+      "ipa": "/drɑːft ən ˈiːmeɪl/",
+      "meaning_vi": "soạn bản nháp một email",
+      "example": "I will draft an email to the supplier and send it to you first.",
+      "example_vi": "Tôi sẽ soạn bản nháp email gửi nhà cung cấp và chuyển cho anh xem trước."
+    },
+    {
+      "word": "concise wording",
+      "ipa": "/kənˈsaɪs ˈwɜːdɪŋ/",
+      "meaning_vi": "cách diễn đạt ngắn gọn, súc tích",
+      "example": "Managers prefer concise wording because they read dozens of emails every day.",
+      "example_vi": "Các quản lý thích cách diễn đạt ngắn gọn vì mỗi ngày họ đọc hàng chục email."
+    },
+    {
+      "word": "polite nudge",
+      "ipa": "/pəˈlaɪt nʌdʒ/",
+      "meaning_vi": "lời thúc giục nhẹ nhàng, lịch sự",
+      "example": "Send them a polite nudge if the report does not arrive by Thursday.",
+      "example_vi": "Hãy gửi cho họ một lời thúc nhẹ nhàng nếu báo cáo chưa tới vào thứ Năm."
+    },
+    {
+      "word": "turnaround time",
+      "ipa": "/ˈtɜːnəraʊnd taɪm/",
+      "meaning_vi": "thời gian xử lý và phản hồi một yêu cầu",
+      "example": "Our turnaround time for a purchase request is two working days.",
+      "example_vi": "Thời gian xử lý một yêu cầu mua hàng của chúng tôi là hai ngày làm việc."
+    },
+    {
+      "word": "bring someone into the thread",
+      "ipa": "/brɪŋ ˈsʌmwʌn ˈɪntə ðə θred/",
+      "meaning_vi": "đưa thêm ai đó vào chuỗi email đang trao đổi",
+      "example": "I will bring our legal officer into the thread before we sign anything.",
+      "example_vi": "Tôi sẽ đưa nhân viên pháp chế vào chuỗi email trước khi chúng ta ký gì đó."
+    },
+    {
+      "word": "awaiting your confirmation",
+      "ipa": "/əˈweɪtɪŋ jɔː ˌkɒnfəˈmeɪʃn/",
+      "meaning_vi": "đang chờ bạn xác nhận (câu kết email lịch sự)",
+      "example": "We are awaiting your confirmation of the new delivery date.",
+      "example_vi": "Chúng tôi đang chờ quý vị xác nhận ngày giao hàng mới."
+    },
+    {
+      "word": "sign off",
+      "ipa": "/saɪn ɒf/",
+      "meaning_vi": "kết thúc email bằng lời chào cuối",
+      "example": "I usually sign off with 'Best regards' and my full job title.",
+      "example_vi": "Tôi thường kết thúc email bằng 'Best regards' và chức danh đầy đủ của mình."
+    },
+    {
+      "word": "escalate an email",
+      "ipa": "/ˈeskəleɪt ən ˈiːmeɪl/",
+      "meaning_vi": "chuyển email lên cấp cao hơn để xử lý",
+      "example": "If nobody answers in three days, we escalate the email to their director.",
+      "example_vi": "Nếu ba ngày không ai trả lời, chúng ta chuyển email lên giám đốc của họ."
+    }
+  ],
+  "listening": {
+    "title": "Writing a follow-up email to a late supplier",
+    "lines": [
+      { "speaker": "Mai (Admin Officer)", "voice": "female", "text": "Khanh, could you look at my draft email to the printing supplier?" },
+      { "speaker": "Khanh (Project Coordinator)", "voice": "male", "text": "Sure. Send it over. Is it about the delayed brochures for the conference?" },
+      { "speaker": "Mai (Admin Officer)", "voice": "female", "text": "Yes. I want a polite nudge, not an angry message. We still need them." },
+      { "speaker": "Khanh (Project Coordinator)", "voice": "male", "text": "Good idea. Keep the wording concise and put the deadline in the first line." },
+      { "speaker": "Mai (Admin Officer)", "voice": "female", "text": "I wrote three long paragraphs. Maybe I should cut them to five short sentences." },
+      { "speaker": "Khanh (Project Coordinator)", "voice": "male", "text": "That works. Also ask them to confirm the new delivery date in writing." },
+      { "speaker": "Mai (Admin Officer)", "voice": "female", "text": "I will end with 'awaiting your confirmation before Friday' and sign off politely." },
+      { "speaker": "Khanh (Project Coordinator)", "voice": "male", "text": "Perfect. Please bring me into the thread so I can see their reply." },
+      { "speaker": "Mai (Admin Officer)", "voice": "female", "text": "Of course. Their normal turnaround time is two days, so I will wait until Wednesday." },
+      { "speaker": "Khanh (Project Coordinator)", "voice": "male", "text": "If they stay silent, we escalate the email to their account manager." }
+    ],
+    "questions": [
+      {
+        "q": "What is Mai's email about?",
+        "options": ["A delayed brochure order", "A new office chair", "A staff party"],
+        "answer": 0
+      },
+      {
+        "q": "What does Khanh ask Mai to do?",
+        "options": ["Delete the old messages", "Bring him into the thread", "Send it only to the director"],
+        "answer": 1
+      },
+      {
+        "q": "What will they do if the supplier does not reply?",
+        "options": ["Cancel the conference", "Escalate the email to the account manager", "Change the brochure design"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you check my draft before I send it to the client this afternoon?",
+    "I will send a polite nudge if we do not hear back by Thursday.",
+    "Our usual turnaround time for supplier questions is one working day.",
+    "Please keep the wording concise so busy managers can read it quickly.",
+    "I am bringing Khanh into the thread because he owns the budget approval."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-06",
+  "track": "it",
+  "theme": "Họp retrospective",
+  "vocab": [
+    {
+      "word": "takeaway",
+      "ipa": "/ˈteɪkəweɪ/",
+      "meaning_vi": "điều chính rút ra được sau một buổi họp",
+      "example": "My main takeaway from the retrospective is that we need clearer requirements.",
+      "example_vi": "Điều chính tôi rút ra sau buổi retrospective là chúng ta cần yêu cầu rõ ràng hơn."
+    },
+    {
+      "word": "recurring issue",
+      "ipa": "/rɪˈkɜːrɪŋ ˈɪʃuː/",
+      "meaning_vi": "vấn đề lặp đi lặp lại nhiều lần",
+      "example": "Slow test servers are a recurring issue in almost every sprint.",
+      "example_vi": "Máy chủ kiểm thử chậm là vấn đề lặp đi lặp lại ở hầu hết mọi sprint."
+    },
+    {
+      "word": "anonymous feedback",
+      "ipa": "/əˈnɒnɪməs ˈfiːdbæk/",
+      "meaning_vi": "góp ý ẩn danh, không ghi tên người gửi",
+      "example": "We collect anonymous feedback so quiet team members can share honest opinions.",
+      "example_vi": "Chúng tôi thu thập góp ý ẩn danh để các thành viên ít nói có thể chia sẻ ý kiến thật lòng."
+    },
+    {
+      "word": "dot voting",
+      "ipa": "/dɒt ˈvəʊtɪŋ/",
+      "meaning_vi": "cách bỏ phiếu bằng chấm để chọn việc ưu tiên",
+      "example": "After dot voting, the team picked two problems to fix in the next sprint.",
+      "example_vi": "Sau khi bỏ phiếu bằng chấm, cả nhóm chọn hai vấn đề để khắc phục trong sprint tới."
+    },
+    {
+      "word": "psychological safety",
+      "ipa": "/ˌsaɪkəˈlɒdʒɪkl ˈseɪfti/",
+      "meaning_vi": "sự an toàn tâm lý để nói thật trong nhóm",
+      "example": "Psychological safety means people can admit mistakes without fear of blame.",
+      "example_vi": "An toàn tâm lý nghĩa là mọi người có thể thừa nhận sai sót mà không sợ bị đổ lỗi."
+    },
+    {
+      "word": "team health check",
+      "ipa": "/tiːm helθ tʃek/",
+      "meaning_vi": "buổi đánh giá tình trạng và tinh thần của nhóm",
+      "example": "We run a team health check every quarter to see how people really feel.",
+      "example_vi": "Chúng tôi làm buổi đánh giá tình trạng nhóm mỗi quý để xem mọi người thực sự cảm thấy thế nào."
+    },
+    {
+      "word": "action tracker",
+      "ipa": "/ˈækʃn ˈtrækə/",
+      "meaning_vi": "bảng theo dõi các việc cần làm sau họp",
+      "example": "Please add that task to the action tracker so we do not forget it.",
+      "example_vi": "Hãy thêm việc đó vào bảng theo dõi công việc để chúng ta không quên."
+    },
+    {
+      "word": "follow through",
+      "ipa": "/ˈfɒləʊ θruː/",
+      "meaning_vi": "làm đến nơi đến chốn việc đã cam kết",
+      "example": "We always discuss good ideas, but we must follow through on them.",
+      "example_vi": "Chúng ta luôn bàn những ý tưởng hay, nhưng phải thực hiện chúng đến nơi đến chốn."
+    }
+  ],
+  "listening": {
+    "title": "Sprint retrospective of the payment team",
+    "lines": [
+      { "speaker": "Linh (Scrum Master)", "voice": "female", "text": "Welcome to our sprint retrospective. Remember, we discuss problems, not people." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Thanks, Linh. I added my notes to the shared board this morning." },
+      { "speaker": "Hoa (QA Engineer)", "voice": "female", "text": "Me too. My main point is a recurring issue with unclear requirements." },
+      { "speaker": "Minh (Frontend Developer)", "voice": "male", "text": "I agree. I rewrote the settings page twice because the design kept changing." },
+      { "speaker": "Linh (Scrum Master)", "voice": "female", "text": "Good. Let's group the similar notes, then do dot voting to choose two problems." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Could we also try anonymous feedback next sprint? Some new members stay very quiet." },
+      { "speaker": "Hoa (QA Engineer)", "voice": "female", "text": "That would help. Psychological safety takes time when people are new to the team." },
+      { "speaker": "Minh (Frontend Developer)", "voice": "male", "text": "The dot voting shows unclear requirements got seven votes, so that is our top problem." },
+      { "speaker": "Linh (Scrum Master)", "voice": "female", "text": "Then our action is a short review meeting with the product owner every Monday." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "I will put that in the action tracker and follow through at the next retrospective." }
+    ],
+    "questions": [
+      {
+        "q": "What is the team's top problem after the dot voting?",
+        "options": ["Unclear requirements", "Slow test servers", "Too many meetings"],
+        "answer": 0
+      },
+      {
+        "q": "What does Nam suggest trying next sprint?",
+        "options": ["A longer retrospective", "Anonymous feedback", "A new design tool"],
+        "answer": 1
+      },
+      {
+        "q": "What action does the team agree on?",
+        "options": ["Hiring one more tester", "A short weekly review with the product owner", "Cancelling the retrospective"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Let me share my screen so we can look at the action tracker together.",
+    "I think our biggest recurring issue this sprint was unclear acceptance criteria.",
+    "Could we use anonymous feedback next time so people speak more openly?",
+    "My main takeaway is that we need to test the payment flow earlier.",
+    "Let's do dot voting to pick the two problems we will fix first."
+  ]
+}

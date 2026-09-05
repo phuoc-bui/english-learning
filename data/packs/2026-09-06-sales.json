@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-06",
+  "track": "sales",
+  "theme": "Demo sản phẩm cho khách",
+  "vocab": [
+    {
+      "word": "tailor the demo",
+      "ipa": "/ˈteɪlə ðə ˈdeməʊ/",
+      "meaning_vi": "điều chỉnh buổi demo cho hợp với khách hàng",
+      "example": "I always tailor the demo to the problems the client mentioned on our first call.",
+      "example_vi": "Tôi luôn điều chỉnh buổi demo theo những vấn đề khách đã nói ở buổi gọi đầu tiên."
+    },
+    {
+      "word": "guided tour",
+      "ipa": "/ˈɡaɪdɪd tʊə/",
+      "meaning_vi": "phần giới thiệu có hướng dẫn từng phần",
+      "example": "Let me give you a short guided tour of the main dashboard first.",
+      "example_vi": "Trước tiên hãy để tôi giới thiệu nhanh có hướng dẫn về màn hình chính."
+    },
+    {
+      "word": "typical scenario",
+      "ipa": "/ˈtɪpɪkl səˈnɑːriəʊ/",
+      "meaning_vi": "tình huống điển hình hay gặp",
+      "example": "In a typical scenario, your staff receive fifty orders before lunch.",
+      "example_vi": "Trong một tình huống điển hình, nhân viên của anh nhận năm mươi đơn trước giờ trưa."
+    },
+    {
+      "word": "summary screen",
+      "ipa": "/ˈsʌməri skriːn/",
+      "meaning_vi": "màn hình tổng hợp thông tin",
+      "example": "The summary screen shows every late order in red at the top.",
+      "example_vi": "Màn hình tổng hợp hiển thị mọi đơn hàng trễ bằng màu đỏ ở phía trên."
+    },
+    {
+      "word": "step-by-step",
+      "ipa": "/ˌstep baɪ ˈstep/",
+      "meaning_vi": "từng bước một, theo trình tự",
+      "example": "I will show you step-by-step how to create and assign an order.",
+      "example_vi": "Tôi sẽ hướng dẫn anh từng bước cách tạo và giao một đơn hàng."
+    },
+    {
+      "word": "trial account",
+      "ipa": "/ˈtraɪəl əˈkaʊnt/",
+      "meaning_vi": "tài khoản dùng thử",
+      "example": "We can open a trial account for five users for two weeks.",
+      "example_vi": "Chúng tôi có thể mở tài khoản dùng thử cho năm người trong hai tuần."
+    },
+    {
+      "word": "recap the demo",
+      "ipa": "/ˈriːkæp ðə ˈdeməʊ/",
+      "meaning_vi": "tóm tắt lại buổi demo",
+      "example": "Before we finish, I will recap the demo in three short points.",
+      "example_vi": "Trước khi kết thúc, tôi sẽ tóm tắt lại buổi demo trong ba ý ngắn."
+    },
+    {
+      "word": "stakeholder question",
+      "ipa": "/ˈsteɪkhəʊldə ˈkwestʃən/",
+      "meaning_vi": "câu hỏi từ những người liên quan đến quyết định",
+      "example": "Please send me your stakeholder questions so I can prepare clear answers.",
+      "example_vi": "Anh gửi trước các câu hỏi của những người liên quan để tôi chuẩn bị câu trả lời rõ ràng."
+    }
+  ],
+  "listening": {
+    "title": "A product demo for a delivery company",
+    "lines": [
+      { "speaker": "Linh (Account Executive)", "voice": "female", "text": "Good morning, Mr. Bao. Today I will tailor the demo to your delivery problems." },
+      { "speaker": "Bao (Operations Manager)", "voice": "male", "text": "Great. Last time another vendor showed us features we will never use." },
+      { "speaker": "Linh (Account Executive)", "voice": "female", "text": "I understand. Let's start with a guided tour of the order dashboard." },
+      { "speaker": "Bao (Operations Manager)", "voice": "male", "text": "Can you show a typical scenario? We receive about two hundred orders daily." },
+      { "speaker": "Linh (Account Executive)", "voice": "female", "text": "Of course. Here I create an order, assign a driver, and track it step-by-step." },
+      { "speaker": "Bao (Operations Manager)", "voice": "male", "text": "That looks simple. What does my supervisor see at the end of the day?" },
+      { "speaker": "Linh (Account Executive)", "voice": "female", "text": "This summary screen shows late orders, finished orders, and driver performance." },
+      { "speaker": "Bao (Operations Manager)", "voice": "male", "text": "My finance colleague will ask about cost. Can she join the next session?" },
+      { "speaker": "Linh (Account Executive)", "voice": "female", "text": "Yes, please invite her. I will prepare answers for her stakeholder questions." },
+      { "speaker": "Bao (Operations Manager)", "voice": "male", "text": "Then set up a trial account for three users, and we will test it this week." }
+    ],
+    "questions": [
+      {
+        "q": "What does Linh focus the demo on?",
+        "options": ["The customer's delivery problems", "The company history", "The mobile app design"],
+        "answer": 0
+      },
+      {
+        "q": "What does the summary screen show?",
+        "options": ["Only the driver names", "Late orders, finished orders and driver performance", "The company's bank details"],
+        "answer": 1
+      },
+      {
+        "q": "What does Mr. Bao ask for at the end?",
+        "options": ["A price discount", "A trial account for three users", "A printed manual"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "I will tailor the demo to the two problems you mentioned last week.",
+    "Let me walk you through a typical scenario your warehouse team faces daily.",
+    "This summary screen shows every order and its status in one place.",
+    "I can set up a trial account for your team by tomorrow morning.",
+    "Before we finish, let me recap the demo and agree on the next step."
+  ]
+}

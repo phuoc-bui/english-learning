@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-06",
+  "track": "interview",
+  "theme": "Điểm mạnh điểm yếu",
+  "vocab": [
+    {
+      "word": "weak point",
+      "ipa": "/wiːk pɔɪnt/",
+      "meaning_vi": "điểm yếu của bản thân",
+      "example": "My biggest weak point used to be speaking in front of large groups.",
+      "example_vi": "Điểm yếu lớn nhất của tôi trước đây là nói trước đám đông."
+    },
+    {
+      "word": "learn from a mistake",
+      "ipa": "/lɜːn frəm ə mɪˈsteɪk/",
+      "meaning_vi": "rút kinh nghiệm từ một sai lầm",
+      "example": "I missed one deadline last year and I learned from that mistake quickly.",
+      "example_vi": "Năm ngoái tôi lỡ một hạn chót và tôi đã nhanh chóng rút kinh nghiệm từ sai lầm đó."
+    },
+    {
+      "word": "delegate tasks",
+      "ipa": "/ˈdelɪɡeɪt tɑːsks/",
+      "meaning_vi": "giao bớt công việc cho người khác",
+      "example": "I now delegate tasks earlier so my team can grow their own skills.",
+      "example_vi": "Bây giờ tôi giao việc sớm hơn để cả nhóm có thể phát triển kỹ năng của họ."
+    },
+    {
+      "word": "say no politely",
+      "ipa": "/seɪ nəʊ pəˈlaɪtli/",
+      "meaning_vi": "từ chối một cách lịch sự",
+      "example": "Learning to say no politely helped me protect my project deadlines.",
+      "example_vi": "Học cách từ chối lịch sự giúp tôi bảo vệ được hạn chót của dự án."
+    },
+    {
+      "word": "structured approach",
+      "ipa": "/ˈstrʌktʃəd əˈprəʊtʃ/",
+      "meaning_vi": "cách làm việc có hệ thống, có trình tự",
+      "example": "My structured approach helps the team see progress every single week.",
+      "example_vi": "Cách làm việc có hệ thống của tôi giúp cả nhóm thấy được tiến độ mỗi tuần."
+    },
+    {
+      "word": "honest criticism",
+      "ipa": "/ˈɒnɪst ˈkrɪtɪsɪzəm/",
+      "meaning_vi": "lời phê bình thẳng thắn",
+      "example": "I ask my manager for honest criticism after every big release.",
+      "example_vi": "Tôi xin quản lý những lời phê bình thẳng thắn sau mỗi lần phát hành lớn."
+    },
+    {
+      "word": "stay calm under pressure",
+      "ipa": "/steɪ kɑːm ˈʌndə ˈpreʃə/",
+      "meaning_vi": "giữ bình tĩnh khi bị áp lực",
+      "example": "During the system failure, I stayed calm under pressure and followed our checklist.",
+      "example_vi": "Trong lúc hệ thống gặp sự cố, tôi giữ bình tĩnh và làm theo danh sách kiểm tra của nhóm."
+    },
+    {
+      "word": "track record",
+      "ipa": "/træk ˈrekɔːd/",
+      "meaning_vi": "thành tích, quá trình làm việc đã qua",
+      "example": "I have a good track record of delivering releases on time.",
+      "example_vi": "Tôi có thành tích tốt về việc bàn giao các bản phát hành đúng hạn."
+    }
+  ],
+  "listening": {
+    "title": "Interview: talking about strengths and weaknesses",
+    "lines": [
+      { "speaker": "Lan (HR Manager)", "voice": "female", "text": "Nam, could you tell me about your greatest professional strength?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I would say my structured approach. I plan every sprint in small, clear tasks." },
+      { "speaker": "Lan (HR Manager)", "voice": "female", "text": "Can you give me a short example from your current job?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Last year our team missed deadlines, so I built a simple weekly tracking board." },
+      { "speaker": "Lan (HR Manager)", "voice": "female", "text": "And what happened after you introduced that board?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "We delivered the next three releases on time, and my manager reused the board." },
+      { "speaker": "Lan (HR Manager)", "voice": "female", "text": "Thank you. Now, what would you call your main weak point?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I used to take on too much work because it was hard to say no politely." },
+      { "speaker": "Lan (HR Manager)", "voice": "female", "text": "How are you working on that today?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I delegate tasks earlier and I ask for honest criticism at every retrospective." }
+    ],
+    "questions": [
+      {
+        "q": "What does Nam say is his greatest strength?",
+        "options": ["His structured approach", "His design skills", "His English"],
+        "answer": 0
+      },
+      {
+        "q": "What did Nam build to solve the missed deadlines?",
+        "options": ["A new mobile app", "A simple weekly tracking board", "A customer survey"],
+        "answer": 1
+      },
+      {
+        "q": "What is Nam's main weak point?",
+        "options": ["He often arrives late", "He took on too much work himself", "He dislikes teamwork"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "My strongest point is a structured approach to planning and tracking every project task.",
+    "One weak point is that I used to take on too much work myself.",
+    "I learned to delegate tasks and now my team finishes reports two days earlier.",
+    "When a release failed last year, I stayed calm and fixed the issue quickly.",
+    "I ask for honest criticism after every project because it helps me improve faster."
+  ]
+}
