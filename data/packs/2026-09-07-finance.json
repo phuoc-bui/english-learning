@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-07",
+  "track": "finance",
+  "theme": "Hoá đơn và thanh toán",
+  "vocab": [
+    {
+      "word": "bank charge",
+      "ipa": "/bæŋk tʃɑːdʒ/",
+      "meaning_vi": "phí ngân hàng khi chuyển tiền",
+      "example": "The supplier received less money because of the bank charge on the transfer.",
+      "example_vi": "Nhà cung cấp nhận được ít tiền hơn vì phí ngân hàng của lệnh chuyển."
+    },
+    {
+      "word": "invoice date",
+      "ipa": "/ˈɪnvɔɪs deɪt/",
+      "meaning_vi": "ngày ghi trên hoá đơn",
+      "example": "The invoice date is the second of September and the term is thirty days.",
+      "example_vi": "Ngày hoá đơn là mùng hai tháng Chín và thời hạn là ba mươi ngày."
+    },
+    {
+      "word": "accounts payable",
+      "ipa": "/əˈkaʊnts ˈpeɪəbl/",
+      "meaning_vi": "công nợ phải trả; bộ phận xử lý công nợ phải trả",
+      "example": "Please send all supplier invoices to the accounts payable team first.",
+      "example_vi": "Hãy gửi mọi hoá đơn của nhà cung cấp cho bộ phận công nợ phải trả trước."
+    },
+    {
+      "word": "approve for payment",
+      "ipa": "/əˈpruːv fə ˈpeɪmənt/",
+      "meaning_vi": "duyệt hoá đơn để chi trả",
+      "example": "The manager must approve for payment before we transfer any money.",
+      "example_vi": "Quản lý phải duyệt chi trước khi chúng tôi chuyển bất kỳ khoản tiền nào."
+    },
+    {
+      "word": "payment schedule",
+      "ipa": "/ˈpeɪmənt ˈʃedjuːl/",
+      "meaning_vi": "lịch thanh toán định kỳ",
+      "example": "Our payment schedule has two runs each month, on the tenth and the twenty-fifth.",
+      "example_vi": "Lịch thanh toán của chúng tôi có hai đợt mỗi tháng, ngày mười và ngày hai mươi lăm."
+    },
+    {
+      "word": "payment confirmation",
+      "ipa": "/ˈpeɪmənt ˌkɒnfəˈmeɪʃn/",
+      "meaning_vi": "chứng từ xác nhận đã thanh toán",
+      "example": "I will email you the payment confirmation this afternoon.",
+      "example_vi": "Chiều nay tôi sẽ gửi email xác nhận thanh toán cho anh."
+    },
+    {
+      "word": "prepayment",
+      "ipa": "/ˌpriːˈpeɪmənt/",
+      "meaning_vi": "khoản trả trước trước khi nhận hàng",
+      "example": "The vendor is asking for a thirty percent prepayment before delivery.",
+      "example_vi": "Nhà cung cấp yêu cầu trả trước ba mươi phần trăm trước khi giao hàng."
+    },
+    {
+      "word": "banking details",
+      "ipa": "/ˈbæŋkɪŋ ˈdiːteɪlz/",
+      "meaning_vi": "thông tin tài khoản ngân hàng",
+      "example": "Please check the banking details carefully before you send the transfer.",
+      "example_vi": "Hãy kiểm tra kỹ thông tin tài khoản ngân hàng trước khi chuyển tiền."
+    }
+  ],
+  "listening": {
+    "title": "Checking an unpaid supplier invoice",
+    "lines": [
+      { "speaker": "Linh (Accountant)", "voice": "female", "text": "Nam, the invoice from the printing supplier is still not paid." },
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "What is the invoice date? I thought we sent it to the bank last week." },
+      { "speaker": "Linh (Accountant)", "voice": "female", "text": "The invoice date is the second of September, and the term is thirty days." },
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "So it is not late yet. Did anyone approve for payment in the system?" },
+      { "speaker": "Hoa (Procurement Officer)", "voice": "female", "text": "I approved it on Monday and moved it to the accounts payable queue." },
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "Good. Then it will go out in the next payment schedule on the twenty-fifth." },
+      { "speaker": "Linh (Accountant)", "voice": "female", "text": "One problem: the supplier changed their banking details in an email last week." },
+      { "speaker": "Minh (Internal Auditor)", "voice": "male", "text": "Please call them to check. Never trust bank changes sent only by email." },
+      { "speaker": "Linh (Accountant)", "voice": "female", "text": "You are right. I will call their finance office and confirm before the transfer." },
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "And send them the payment confirmation once the money leaves our account." }
+    ],
+    "questions": [
+      {
+        "q": "Why is the supplier invoice not late yet?",
+        "options": ["The payment term is thirty days", "The supplier cancelled it", "Hoa has not approved it"],
+        "answer": 0
+      },
+      {
+        "q": "What will Linh do about the new banking details?",
+        "options": ["Pay immediately", "Call the supplier to confirm", "Ignore the invoice"],
+        "answer": 1
+      },
+      {
+        "q": "When will the payment go out?",
+        "options": ["On the second", "On the twenty-fifth", "Next year"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you send me the payment confirmation once the transfer leaves our account?",
+    "The invoice date is the second, so the payment is due in thirty days.",
+    "Please ask your manager to approve for payment before the deadline on Friday.",
+    "We always confirm banking details by phone before we make a large transfer.",
+    "The vendor is asking for a prepayment of thirty percent before the delivery."
+  ]
+}

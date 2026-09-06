@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-07",
+  "track": "it",
+  "theme": "Remote meeting etiquette",
+  "vocab": [
+    {
+      "word": "hard stop",
+      "ipa": "/hɑːd stɒp/",
+      "meaning_vi": "thời điểm bắt buộc phải kết thúc cuộc họp",
+      "example": "I have a hard stop at ten thirty, so let's start with the main topic.",
+      "example_vi": "Tôi bắt buộc phải dừng lúc mười giờ ba mươi, nên hãy bắt đầu với chủ đề chính."
+    },
+    {
+      "word": "drop off the call",
+      "ipa": "/drɒp ɒf ðə kɔːl/",
+      "meaning_vi": "bị rớt khỏi cuộc gọi trực tuyến",
+      "example": "Sorry, I dropped off the call for a minute because my internet was unstable.",
+      "example_vi": "Xin lỗi, tôi bị rớt khỏi cuộc gọi một phút vì mạng không ổn định."
+    },
+    {
+      "word": "poor reception",
+      "ipa": "/pɔː rɪˈsepʃn/",
+      "meaning_vi": "tín hiệu mạng hoặc sóng yếu",
+      "example": "Nam has poor reception today because he is working from a coffee shop.",
+      "example_vi": "Hôm nay Nam có tín hiệu yếu vì anh ấy làm việc từ quán cà phê."
+    },
+    {
+      "word": "meeting fatigue",
+      "ipa": "/ˈmiːtɪŋ fəˈtiːɡ/",
+      "meaning_vi": "sự mệt mỏi vì họp trực tuyến quá nhiều",
+      "example": "Five long calls in one day caused serious meeting fatigue in our team.",
+      "example_vi": "Năm cuộc gọi dài trong một ngày khiến cả nhóm mệt mỏi vì họp."
+    },
+    {
+      "word": "hybrid meeting",
+      "ipa": "/ˈhaɪbrɪd ˈmiːtɪŋ/",
+      "meaning_vi": "cuộc họp kết hợp người ở văn phòng và người từ xa",
+      "example": "In a hybrid meeting, please repeat questions so remote members can hear them.",
+      "example_vi": "Trong cuộc họp kết hợp, hãy nhắc lại câu hỏi để người họp từ xa nghe được."
+    },
+    {
+      "word": "co-host",
+      "ipa": "/ˈkəʊhəʊst/",
+      "meaning_vi": "người đồng chủ trì cuộc họp trực tuyến",
+      "example": "Please make me a co-host so I can admit people from the waiting room.",
+      "example_vi": "Hãy cho tôi làm đồng chủ trì để tôi cho mọi người vào từ phòng chờ."
+    },
+    {
+      "word": "mute by default",
+      "ipa": "/mjuːt baɪ dɪˈfɔːlt/",
+      "meaning_vi": "mặc định tắt tiếng khi vào phòng họp",
+      "example": "We keep everyone mute by default because the office side is quite noisy.",
+      "example_vi": "Chúng tôi để mặc định tắt tiếng mọi người vì phía văn phòng khá ồn."
+    },
+    {
+      "word": "share the floor",
+      "ipa": "/ʃeə ðə flɔː/",
+      "meaning_vi": "nhường lượt nói cho người khác trong cuộc họp",
+      "example": "Let's share the floor so the quieter members can also give their opinions.",
+      "example_vi": "Hãy nhường lượt nói để các thành viên ít nói cũng được nêu ý kiến."
+    }
+  ],
+  "listening": {
+    "title": "A hybrid sprint planning call",
+    "lines": [
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Good morning, everyone. I have a hard stop at ten thirty, so let's begin on time." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Morning, Linh. Sorry, I dropped off the call earlier because my internet was unstable." },
+      { "speaker": "Hoa (QA Engineer)", "voice": "female", "text": "No problem. Could you make me a co-host? I will admit people from the waiting room." },
+      { "speaker": "Minh (Frontend Developer)", "voice": "male", "text": "I am joining from the office today, so this is a hybrid meeting again." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Right. Minh, please repeat every question from the meeting room for the remote members." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Also, could we keep everyone mute by default? The office side is quite noisy." },
+      { "speaker": "Hoa (QA Engineer)", "voice": "female", "text": "Good idea. And let's share the floor today; last week only two people spoke." },
+      { "speaker": "Minh (Frontend Developer)", "voice": "male", "text": "I agree. I felt real meeting fatigue after five long calls yesterday." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Then we will finish in twenty minutes and send the notes by email." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Perfect. If I have poor reception again, please continue and I will read the notes." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Linh want to start the meeting on time?",
+        "options": ["She has a hard stop at ten thirty", "She is working from a coffee shop", "She must train a new member"],
+        "answer": 0
+      },
+      {
+        "q": "What does Hoa ask Linh to do?",
+        "options": ["Send the notes first", "Make her a co-host", "Cancel the meeting"],
+        "answer": 1
+      },
+      {
+        "q": "What will the team do if Nam has poor reception again?",
+        "options": ["Stop the meeting", "Call him by phone", "Continue, and he will read the notes"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Sorry, I have a hard stop at four, so let's cover the main points first.",
+    "Could you make me a co-host so I can admit people from the waiting room?",
+    "My connection is weak today, so I might drop off the call for a moment.",
+    "Please stay mute by default and unmute only when you want to say something.",
+    "Let's share the floor so everyone on the remote side can give their opinion."
+  ]
+}

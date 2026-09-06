@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-07",
+  "track": "sales",
+  "theme": "Xử lý khi khách từ chối",
+  "vocab": [
+    {
+      "word": "underlying reason",
+      "ipa": "/ˌʌndəˈlaɪɪŋ ˈriːzn/",
+      "meaning_vi": "lý do thật sự nằm sau lời từ chối",
+      "example": "The underlying reason was not the price but a long approval process.",
+      "example_vi": "Lý do thật sự không phải là giá mà là quy trình phê duyệt dài."
+    },
+    {
+      "word": "valid point",
+      "ipa": "/ˈvælɪd pɔɪnt/",
+      "meaning_vi": "ý kiến hợp lý, xác đáng",
+      "example": "That is a valid point, and many of our customers ask the same question.",
+      "example_vi": "Đó là một ý kiến xác đáng, và nhiều khách hàng của chúng tôi cũng hỏi vậy."
+    },
+    {
+      "word": "room in the budget",
+      "ipa": "/ruːm ɪn ðə ˈbʌdʒɪt/",
+      "meaning_vi": "phần ngân sách còn trống để chi",
+      "example": "They have no room in the budget until the new financial year starts.",
+      "example_vi": "Họ không còn ngân sách trống cho đến khi năm tài chính mới bắt đầu."
+    },
+    {
+      "word": "deal breaker",
+      "ipa": "/diːl ˈbreɪkə/",
+      "meaning_vi": "điều kiện khiến hợp đồng không thể ký được",
+      "example": "A twelve-month contract is a deal breaker for this small customer.",
+      "example_vi": "Hợp đồng mười hai tháng là điều khiến khách hàng nhỏ này không thể ký."
+    },
+    {
+      "word": "alternative option",
+      "ipa": "/ɔːlˈtɜːnətɪv ˈɒpʃn/",
+      "meaning_vi": "phương án thay thế",
+      "example": "Let me show you an alternative option with fewer users and a lower price.",
+      "example_vi": "Để tôi giới thiệu một phương án thay thế ít người dùng hơn và giá thấp hơn."
+    },
+    {
+      "word": "revisit",
+      "ipa": "/ˌriːˈvɪzɪt/",
+      "meaning_vi": "xem xét lại vào một dịp sau",
+      "example": "Can we revisit this offer when you plan next year's budget?",
+      "example_vi": "Chúng ta có thể xem xét lại đề nghị này khi anh lập ngân sách năm sau không?"
+    },
+    {
+      "word": "no pressure",
+      "ipa": "/nəʊ ˈpreʃə/",
+      "meaning_vi": "không ép buộc, cứ thoải mái quyết định",
+      "example": "No pressure at all — please take your time and discuss it with your team.",
+      "example_vi": "Hoàn toàn không ép buộc — anh cứ thong thả và bàn với nhóm của mình."
+    },
+    {
+      "word": "hear you out",
+      "ipa": "/hɪə juː aʊt/",
+      "meaning_vi": "lắng nghe hết ý của bạn trước khi trả lời",
+      "example": "Before I answer, I would like to hear you out completely.",
+      "example_vi": "Trước khi trả lời, tôi muốn nghe hết ý của anh đã."
+    }
+  ],
+  "listening": {
+    "title": "A customer says no to the software offer",
+    "lines": [
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Thank you for your email, Ms. Hoa. You said our offer is not right for now." },
+      { "speaker": "Hoa (Office Manager)", "voice": "female", "text": "Yes, I am sorry. My director thinks the price is too high this year." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "I understand, and I would like to hear you out before I say anything else." },
+      { "speaker": "Hoa (Office Manager)", "voice": "female", "text": "Honestly, we simply have no room in the budget until January." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "So the underlying reason is timing, not the product itself. Is that correct?" },
+      { "speaker": "Hoa (Office Manager)", "voice": "female", "text": "That is right. My team liked the demo, especially the reporting screen." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Then let me show you an alternative option: a smaller plan for five users only." },
+      { "speaker": "Hoa (Office Manager)", "voice": "female", "text": "That could work. But a one-year contract would be a deal breaker for us." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "We can start with six months. No pressure, please discuss it with your director." },
+      { "speaker": "Hoa (Office Manager)", "voice": "female", "text": "Thank you, Nam. Let's revisit this in early December when we plan next year." }
+    ],
+    "questions": [
+      {
+        "q": "Why did Ms. Hoa refuse the first offer?",
+        "options": ["The product has too few features", "There is no room in the budget this year", "The demo was not clear"],
+        "answer": 1
+      },
+      {
+        "q": "What does Nam offer instead?",
+        "options": ["A free product", "A smaller plan for five users", "A longer contract"],
+        "answer": 1
+      },
+      {
+        "q": "When will they talk about the offer again?",
+        "options": ["In early December", "Next week", "Never"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "That is a valid point, and many of our customers ask the same question.",
+    "May I ask what the underlying reason is, so I can help you better?",
+    "No pressure at all, please take your time and discuss it with your manager.",
+    "Let me show you an alternative option that fits a smaller budget this year.",
+    "Could we revisit this proposal in the next quarter when your budget reopens?"
+  ]
+}

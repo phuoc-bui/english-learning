@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-07",
+  "track": "interview",
+  "theme": "Kể về dự án đáng nhớ",
+  "vocab": [
+    {
+      "word": "lead a team",
+      "ipa": "/liːd ə tiːm/",
+      "meaning_vi": "dẫn dắt một nhóm làm việc",
+      "example": "It was the first time I had to lead a team of four developers.",
+      "example_vi": "Đó là lần đầu tiên tôi phải dẫn dắt một nhóm bốn lập trình viên."
+    },
+    {
+      "word": "lessons learned",
+      "ipa": "/ˈlesnz lɜːnd/",
+      "meaning_vi": "những bài học rút ra sau dự án",
+      "example": "One of the lessons learned was to plan for risk much earlier.",
+      "example_vi": "Một trong những bài học rút ra là phải tính đến rủi ro sớm hơn nhiều."
+    },
+    {
+      "word": "resource constraint",
+      "ipa": "/rɪˈzɔːs kənˈstreɪnt/",
+      "meaning_vi": "hạn chế về nguồn lực, thiếu người hoặc thiếu ngân sách",
+      "example": "We finished the project despite a serious resource constraint.",
+      "example_vi": "Chúng tôi hoàn thành dự án dù gặp hạn chế nguồn lực nghiêm trọng."
+    },
+    {
+      "word": "work closely with",
+      "ipa": "/wɜːk ˈkləʊsli wɪð/",
+      "meaning_vi": "phối hợp chặt chẽ với ai đó",
+      "example": "I worked closely with two designers for three months on that portal.",
+      "example_vi": "Tôi phối hợp chặt chẽ với hai bạn thiết kế trong ba tháng ở cổng thông tin đó."
+    },
+    {
+      "word": "deliver value",
+      "ipa": "/dɪˈlɪvə ˈvæljuː/",
+      "meaning_vi": "mang lại giá trị thực cho khách hàng hoặc công ty",
+      "example": "I always ask how my work can deliver value to real users.",
+      "example_vi": "Tôi luôn tự hỏi công việc của mình mang lại giá trị gì cho người dùng thật."
+    },
+    {
+      "word": "real-world impact",
+      "ipa": "/ˈrɪəl wɜːld ˈɪmpækt/",
+      "meaning_vi": "tác động thực tế đo được",
+      "example": "The real-world impact was thirty percent fewer support calls each month.",
+      "example_vi": "Tác động thực tế là số cuộc gọi hỗ trợ giảm ba mươi phần trăm mỗi tháng."
+    },
+    {
+      "word": "in charge of",
+      "ipa": "/ɪn tʃɑːdʒ əv/",
+      "meaning_vi": "phụ trách, chịu trách nhiệm về việc gì",
+      "example": "I was in charge of the reporting module from start to finish.",
+      "example_vi": "Tôi phụ trách phần báo cáo từ đầu đến cuối."
+    },
+    {
+      "word": "adapt quickly",
+      "ipa": "/əˈdæpt ˈkwɪkli/",
+      "meaning_vi": "thích nghi nhanh với thay đổi",
+      "example": "When the client changed the scope, our team had to adapt quickly.",
+      "example_vi": "Khi khách hàng đổi phạm vi công việc, nhóm tôi phải thích nghi rất nhanh."
+    }
+  ],
+  "listening": {
+    "title": "Interview question: tell me about a memorable project",
+    "lines": [
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "Nam, could you tell me about a project you still remember clearly?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Yes. Last year I was in charge of a customer portal for a retail company." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "What exactly was your role in that project?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I had to lead a team of four developers and work closely with two designers." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "Did you face any difficulties during the project?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "We had a real resource constraint: one developer left after the second month." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "How did you handle that situation?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "We had to adapt quickly, so I cut small features and protected the main flow." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "And what was the final result of the project?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "We launched on time, and the real-world impact was thirty percent fewer support calls." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "What are the lessons learned from that experience?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I learned to plan for risk early and to deliver value in every sprint." }
+    ],
+    "questions": [
+      {
+        "q": "What was Nam's role in the project?",
+        "options": ["He tested the portal", "He led a team of four developers", "He designed the company logo"],
+        "answer": 1
+      },
+      {
+        "q": "What difficulty did the team face?",
+        "options": ["A developer left the team", "The client cancelled the contract", "The office moved to another city"],
+        "answer": 0
+      },
+      {
+        "q": "What was the result after the launch?",
+        "options": ["Support calls dropped by thirty percent", "The project was delayed six months", "The team grew to twenty people"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "The project I remember most is a customer portal I led last year.",
+    "I was in charge of planning, and I worked closely with two designers.",
+    "We faced a resource constraint, so I cut features and protected the main flow.",
+    "As a result, support calls dropped by thirty percent in the first quarter.",
+    "The main lesson learned was to plan for risk before the project starts."
+  ]
+}

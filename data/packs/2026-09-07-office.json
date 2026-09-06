@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-07",
+  "track": "office",
+  "theme": "Xin nghỉ phép & bàn giao",
+  "vocab": [
+    {
+      "word": "unpaid leave",
+      "ipa": "/ʌnˈpeɪd liːv/",
+      "meaning_vi": "nghỉ phép không lương",
+      "example": "I asked for three days of unpaid leave after using all my annual days.",
+      "example_vi": "Tôi xin ba ngày nghỉ không lương sau khi đã dùng hết ngày phép năm."
+    },
+    {
+      "word": "sick note",
+      "ipa": "/sɪk nəʊt/",
+      "meaning_vi": "giấy xác nhận nghỉ ốm của bác sĩ",
+      "example": "HR asked me for a sick note because I was absent for four days.",
+      "example_vi": "Phòng nhân sự yêu cầu tôi nộp giấy nghỉ ốm vì tôi vắng bốn ngày."
+    },
+    {
+      "word": "back-up person",
+      "ipa": "/ˈbækʌp ˈpɜːsn/",
+      "meaning_vi": "người thay thế xử lý công việc khi bạn vắng",
+      "example": "Please tell the client who the back-up person is while you are away.",
+      "example_vi": "Hãy báo cho khách biết ai là người thay thế trong lúc bạn vắng mặt."
+    },
+    {
+      "word": "date of return",
+      "ipa": "/deɪt əv rɪˈtɜːn/",
+      "meaning_vi": "ngày quay lại làm việc",
+      "example": "My date of return is the fifteenth, so please plan the review after that.",
+      "example_vi": "Ngày tôi đi làm lại là ngày mười lăm, nên hãy xếp buổi rà soát sau đó."
+    },
+    {
+      "word": "short notice",
+      "ipa": "/ʃɔːt ˈnəʊtɪs/",
+      "meaning_vi": "báo gấp, thông báo sát ngày",
+      "example": "I am sorry for the short notice, but my son is sick this morning.",
+      "example_vi": "Tôi xin lỗi vì báo gấp, nhưng sáng nay con trai tôi bị ốm."
+    },
+    {
+      "word": "temporary cover",
+      "ipa": "/ˈtemprəri ˈkʌvə/",
+      "meaning_vi": "sự thay thế tạm thời trong thời gian vắng mặt",
+      "example": "Hoa will provide temporary cover for my weekly reports next week.",
+      "example_vi": "Hoa sẽ tạm thời thay tôi làm báo cáo tuần trong tuần tới."
+    },
+    {
+      "word": "leave policy",
+      "ipa": "/liːv ˈpɒləsi/",
+      "meaning_vi": "chính sách nghỉ phép của công ty",
+      "example": "Our leave policy says we must apply at least five working days in advance.",
+      "example_vi": "Chính sách nghỉ phép của công ty yêu cầu nộp đơn trước ít nhất năm ngày làm việc."
+    },
+    {
+      "word": "hand-off",
+      "ipa": "/ˈhændɒf/",
+      "meaning_vi": "việc bàn giao công việc cho người khác",
+      "example": "Let's have a short hand-off call before you start your holiday.",
+      "example_vi": "Hãy có một buổi bàn giao ngắn trước khi bạn bắt đầu kỳ nghỉ."
+    }
+  ],
+  "listening": {
+    "title": "Asking the manager for leave before a family trip",
+    "lines": [
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "Mr. Minh, do you have five minutes? I would like to talk about my leave." },
+      { "speaker": "Minh (Department Manager)", "voice": "male", "text": "Of course, Linh. Which dates are you planning to take off?" },
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "From the eighth to the twelfth. My date of return is the fifteenth." },
+      { "speaker": "Minh (Department Manager)", "voice": "male", "text": "That is fine. Our leave policy asks for five working days, so you are early." },
+      { "speaker": "Hoa (Marketing Assistant)", "voice": "female", "text": "I can be the back-up person. I already know the campaign reports well." },
+      { "speaker": "Minh (Department Manager)", "voice": "male", "text": "Great. Linh, please prepare a short hand-off document for Hoa before Friday." },
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "I will. I will list the pending tasks and the contact details of the agency." },
+      { "speaker": "Minh (Department Manager)", "voice": "male", "text": "Do you need any unpaid leave, or is this inside your annual balance?" },
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "It is inside my balance, thank you. I still have seven days left this year." },
+      { "speaker": "Minh (Department Manager)", "voice": "male", "text": "Good. Send the request today, and Hoa will provide temporary cover next week." }
+    ],
+    "questions": [
+      {
+        "q": "When will Linh come back to work?",
+        "options": ["On the eighth", "On the twelfth", "On the fifteenth"],
+        "answer": 2
+      },
+      {
+        "q": "Who will take care of Linh's work while she is away?",
+        "options": ["Hoa", "Mr. Minh", "The agency"],
+        "answer": 0
+      },
+      {
+        "q": "What does Mr. Minh ask Linh to prepare?",
+        "options": ["A sick note", "A short hand-off document", "An unpaid leave form"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "I would like to apply for three days of annual leave next week, please.",
+    "Sorry for the short notice, but I need to take my mother to hospital.",
+    "Hoa will be my back-up person, so please send urgent requests to her.",
+    "I have prepared a hand-off document with all pending tasks and contact details.",
+    "My date of return is Monday, so let's book the review meeting for Tuesday."
+  ]
+}
