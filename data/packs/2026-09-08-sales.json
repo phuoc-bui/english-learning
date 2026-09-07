@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-08",
+  "track": "sales",
+  "theme": "Đàm phán giá & điều khoản",
+  "vocab": [
+    {
+      "word": "price negotiation",
+      "ipa": "/praɪs nɪˌɡəʊʃiˈeɪʃn/",
+      "meaning_vi": "cuộc đàm phán về giá",
+      "example": "The price negotiation took two meetings before both sides felt comfortable.",
+      "example_vi": "Cuộc đàm phán giá mất hai buổi họp trước khi hai bên thấy thoải mái."
+    },
+    {
+      "word": "discount rate",
+      "ipa": "/ˈdɪskaʊnt reɪt/",
+      "meaning_vi": "mức chiết khấu",
+      "example": "Our standard discount rate for a two-year contract is eight percent.",
+      "example_vi": "Mức chiết khấu tiêu chuẩn cho hợp đồng hai năm của chúng tôi là tám phần trăm."
+    },
+    {
+      "word": "concession",
+      "ipa": "/kənˈseʃn/",
+      "meaning_vi": "sự nhượng bộ trong đàm phán",
+      "example": "We made one concession on delivery time, but not on the price.",
+      "example_vi": "Chúng tôi nhượng bộ một điểm về thời gian giao hàng, nhưng không nhượng bộ về giá."
+    },
+    {
+      "word": "contract term",
+      "ipa": "/ˈkɒntrækt tɜːm/",
+      "meaning_vi": "điều khoản hợp đồng",
+      "example": "Please read every contract term carefully before you sign the agreement.",
+      "example_vi": "Hãy đọc kỹ từng điều khoản hợp đồng trước khi bạn ký thoả thuận."
+    },
+    {
+      "word": "negotiable",
+      "ipa": "/nɪˈɡəʊʃiəbl/",
+      "meaning_vi": "có thể thương lượng được",
+      "example": "The training fee is negotiable, but the licence price is fixed.",
+      "example_vi": "Phí đào tạo có thể thương lượng, nhưng giá bản quyền thì cố định."
+    },
+    {
+      "word": "final offer",
+      "ipa": "/ˈfaɪnl ˈɒfə/",
+      "meaning_vi": "đề nghị cuối cùng",
+      "example": "This is our final offer, and it is valid until the end of the month.",
+      "example_vi": "Đây là đề nghị cuối cùng của chúng tôi, có hiệu lực đến cuối tháng."
+    },
+    {
+      "word": "lock in the price",
+      "ipa": "/lɒk ɪn ðə praɪs/",
+      "meaning_vi": "chốt giữ mức giá không đổi",
+      "example": "If you sign this week, we can lock in the price for two years.",
+      "example_vi": "Nếu anh ký trong tuần này, chúng tôi có thể chốt giữ mức giá trong hai năm."
+    },
+    {
+      "word": "renewal clause",
+      "ipa": "/rɪˈnjuːəl klɔːz/",
+      "meaning_vi": "điều khoản gia hạn hợp đồng",
+      "example": "The renewal clause says the contract continues automatically for another year.",
+      "example_vi": "Điều khoản gia hạn nói rằng hợp đồng tự động tiếp tục thêm một năm."
+    }
+  ],
+  "listening": {
+    "title": "Negotiating price and terms with a client",
+    "lines": [
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "Thank you for coming, Mr. Khanh. Shall we start the price negotiation?" },
+      { "speaker": "Mr. Khanh (Purchasing Manager)", "voice": "male", "text": "Yes. Honestly, your quotation is a little higher than our budget this year." },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "I understand. Our standard discount rate for a two-year contract is eight percent." },
+      { "speaker": "Mr. Khanh (Purchasing Manager)", "voice": "male", "text": "Ten percent would be much better for us. Is that number negotiable?" },
+      { "speaker": "Nam (Sales Director)", "voice": "male", "text": "We can go to nine percent, but we need payment within thirty days." },
+      { "speaker": "Mr. Khanh (Purchasing Manager)", "voice": "male", "text": "That is a fair concession. What about the contract term?" },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "The contract runs for two years, and the renewal clause is automatic." },
+      { "speaker": "Mr. Khanh (Purchasing Manager)", "voice": "male", "text": "Please make the renewal optional, not automatic. My director prefers that." },
+      { "speaker": "Nam (Sales Director)", "voice": "male", "text": "We can do that. If you sign this month, we also lock in the price." },
+      { "speaker": "Mr. Khanh (Purchasing Manager)", "voice": "male", "text": "Good. Send me the final offer in writing and I will review it tomorrow." }
+    ],
+    "questions": [
+      {
+        "q": "What discount rate does the seller finally agree to?",
+        "options": ["Eight percent", "Nine percent", "Ten percent"],
+        "answer": 1
+      },
+      {
+        "q": "What change does Mr. Khanh ask for in the contract?",
+        "options": ["A different delivery address", "An optional renewal clause", "A free training course"],
+        "answer": 1
+      },
+      {
+        "q": "What will the seller send after the meeting?",
+        "options": ["The final offer in writing", "A new product sample", "An invoice for training"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Our standard discount rate for a two-year contract is eight percent.",
+    "I am afraid that price is a little higher than our budget.",
+    "We can offer nine percent if you pay within thirty days.",
+    "Could you make the renewal clause optional instead of automatic, please?",
+    "If you sign this month, we can lock in the price."
+  ]
+}

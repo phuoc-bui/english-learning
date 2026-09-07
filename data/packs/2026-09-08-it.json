@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-08",
+  "track": "it",
+  "theme": "Daily standup meeting",
+  "vocab": [
+    {
+      "word": "roll call",
+      "ipa": "/rəʊl kɔːl/",
+      "meaning_vi": "việc điểm danh đầu buổi họp",
+      "example": "Let's do a quick roll call before we start the standup this morning.",
+      "example_vi": "Hãy điểm danh nhanh trước khi chúng ta bắt đầu buổi standup sáng nay."
+    },
+    {
+      "word": "give an update",
+      "ipa": "/ɡɪv ən ˈʌpdeɪt/",
+      "meaning_vi": "cập nhật tình hình công việc",
+      "example": "Each member has one minute to give an update on their current tasks.",
+      "example_vi": "Mỗi thành viên có một phút để cập nhật tình hình công việc hiện tại."
+    },
+    {
+      "word": "keep it short",
+      "ipa": "/kiːp ɪt ʃɔːt/",
+      "meaning_vi": "nói ngắn gọn, không dài dòng",
+      "example": "Please keep it short because we only have fifteen minutes for this standup.",
+      "example_vi": "Hãy nói ngắn gọn vì chúng ta chỉ có mười lăm phút cho buổi standup này."
+    },
+    {
+      "word": "run through",
+      "ipa": "/rʌn θruː/",
+      "meaning_vi": "rà soát nhanh một lượt",
+      "example": "This afternoon I will run through the error handling code with Hoa.",
+      "example_vi": "Chiều nay tôi sẽ rà soát nhanh phần xử lý lỗi cùng Hoa."
+    },
+    {
+      "word": "stuck on",
+      "ipa": "/stʌk ɒn/",
+      "meaning_vi": "bị mắc kẹt ở một việc gì đó",
+      "example": "I am still stuck on a strange test failure in the login flow.",
+      "example_vi": "Tôi vẫn đang mắc kẹt với một lỗi kiểm thử lạ trong luồng đăng nhập."
+    },
+    {
+      "word": "flag a risk",
+      "ipa": "/flæɡ ə rɪsk/",
+      "meaning_vi": "nêu ra một rủi ro để cả nhóm biết",
+      "example": "I want to flag a risk about the release date at today's standup.",
+      "example_vi": "Tôi muốn nêu ra một rủi ro về ngày phát hành trong buổi standup hôm nay."
+    },
+    {
+      "word": "spill over",
+      "ipa": "/spɪl ˈəʊvə/",
+      "meaning_vi": "kéo dài sang khoảng thời gian sau",
+      "example": "If we find a real bug, testing may spill over into next week.",
+      "example_vi": "Nếu chúng ta phát hiện lỗi thật, việc kiểm thử có thể kéo dài sang tuần sau."
+    },
+    {
+      "word": "quick recap",
+      "ipa": "/kwɪk ˈriːkæp/",
+      "meaning_vi": "phần tóm tắt nhanh cuối buổi",
+      "example": "Let me do a quick recap so everyone knows the plan for today.",
+      "example_vi": "Để tôi tóm tắt nhanh để mọi người nắm được kế hoạch hôm nay."
+    }
+  ],
+  "listening": {
+    "title": "The Monday morning standup",
+    "lines": [
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Good morning, team. Let's do a quick roll call and then start the standup." },
+      { "speaker": "Linh (Backend Developer)", "voice": "female", "text": "I'm here. I can give an update first if nobody minds." },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Please go ahead, Linh, but keep it short so we finish on time." },
+      { "speaker": "Linh (Backend Developer)", "voice": "female", "text": "Yesterday I finished the payment API. Today I will run through the error handling code." },
+      { "speaker": "Minh (QA Engineer)", "voice": "male", "text": "I tested the login flow, but I am still stuck on a strange test failure." },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Thanks, Minh. Do you want to flag a risk for the release on Friday?" },
+      { "speaker": "Minh (QA Engineer)", "voice": "male", "text": "Yes. If it is a real bug, testing may spill over into next week." },
+      { "speaker": "Hoa (Frontend Developer)", "voice": "female", "text": "I can help Minh this afternoon. My dashboard task is almost done." },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Perfect. Let me do a quick recap before we close this standup." },
+      { "speaker": "Nam (Scrum Master)", "voice": "male", "text": "Linh continues the API, and Minh and Hoa work on the login bug together." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Nam ask Linh to keep it short?",
+        "options": ["So the team can finish the standup on time", "So Linh can leave the office early", "So the client can join the call"],
+        "answer": 0
+      },
+      {
+        "q": "What problem does Minh have?",
+        "options": ["He cannot open the payment API", "He is stuck on a strange test failure", "He has no internet connection"],
+        "answer": 1
+      },
+      {
+        "q": "Who will help Minh this afternoon?",
+        "options": ["Nam", "Linh", "Hoa"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Let's do a quick roll call and then start our daily standup.",
+    "I finished the payment API yesterday and I will test it today.",
+    "I am still stuck on one test failure in the login flow.",
+    "I want to flag a risk about the release date this Friday.",
+    "Let me do a quick recap before we close the standup today."
+  ]
+}

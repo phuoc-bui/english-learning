@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-08",
+  "track": "interview",
+  "theme": "Xử lý xung đột trong nhóm",
+  "vocab": [
+    {
+      "word": "tension",
+      "ipa": "/ˈtenʃn/",
+      "meaning_vi": "sự căng thẳng giữa các thành viên",
+      "example": "There was some tension in the team because the deadline kept changing.",
+      "example_vi": "Có chút căng thẳng trong nhóm vì hạn chót liên tục thay đổi."
+    },
+    {
+      "word": "de-escalate",
+      "ipa": "/diːˈeskəleɪt/",
+      "meaning_vi": "làm dịu tình hình căng thẳng",
+      "example": "I asked both sides to sit down, and that helped de-escalate the argument.",
+      "example_vi": "Tôi mời hai bên ngồi lại, và điều đó giúp làm dịu cuộc tranh cãi."
+    },
+    {
+      "word": "one-on-one talk",
+      "ipa": "/ˌwʌn ɒn ˈwʌn tɔːk/",
+      "meaning_vi": "buổi nói chuyện riêng giữa hai người",
+      "example": "I had a one-on-one talk with my colleague before raising it in the meeting.",
+      "example_vi": "Tôi đã nói chuyện riêng với đồng nghiệp trước khi nêu chuyện đó trong cuộc họp."
+    },
+    {
+      "word": "listen actively",
+      "ipa": "/ˈlɪsn ˈæktɪvli/",
+      "meaning_vi": "lắng nghe một cách chủ động",
+      "example": "In a conflict, I try to listen actively before I give my opinion.",
+      "example_vi": "Khi có mâu thuẫn, tôi cố gắng lắng nghe chủ động trước khi nêu ý kiến."
+    },
+    {
+      "word": "blame",
+      "ipa": "/bleɪm/",
+      "meaning_vi": "đổ lỗi cho ai đó",
+      "example": "I never blame one person, because a problem usually has several causes.",
+      "example_vi": "Tôi không bao giờ đổ lỗi cho một người, vì một vấn đề thường có nhiều nguyên nhân."
+    },
+    {
+      "word": "middle ground",
+      "ipa": "/ˈmɪdl ɡraʊnd/",
+      "meaning_vi": "điểm dung hoà giữa hai ý kiến",
+      "example": "We found a middle ground: he wrote the tests and I fixed the code.",
+      "example_vi": "Chúng tôi tìm được điểm dung hoà: anh ấy viết kiểm thử còn tôi sửa mã nguồn."
+    },
+    {
+      "word": "respectfully",
+      "ipa": "/rɪˈspektfəli/",
+      "meaning_vi": "một cách tôn trọng",
+      "example": "I disagreed respectfully and explained my reasons with clear examples.",
+      "example_vi": "Tôi bày tỏ sự không đồng tình một cách tôn trọng và giải thích lý do bằng ví dụ rõ ràng."
+    },
+    {
+      "word": "team harmony",
+      "ipa": "/tiːm ˈhɑːməni/",
+      "meaning_vi": "sự hoà hợp trong nhóm",
+      "example": "Good communication protects team harmony when people work under pressure.",
+      "example_vi": "Giao tiếp tốt giúp giữ sự hoà hợp trong nhóm khi mọi người làm việc dưới áp lực."
+    }
+  ],
+  "listening": {
+    "title": "Interview question about team conflict",
+    "lines": [
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "Nam, can you tell me about a conflict you had inside your team?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Yes. Last year there was tension between me and a senior developer." },
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "What exactly was the disagreement about?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "He wanted to rewrite the whole module, but I thought we had no time." },
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "How did you handle that situation?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "First, I asked for a one-on-one talk instead of arguing in the meeting." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I tried to listen actively and I did not blame him for the delay." },
+      { "speaker": "Mr. Hung (Team Lead)", "voice": "male", "text": "Did you find a solution that both of you accepted?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Yes. We found a middle ground and rewrote only the slowest part." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "The release went out on time, and team harmony came back quickly." },
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "That sounds mature. What did you learn from that experience?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I learned to disagree respectfully and to talk early before problems grow." }
+    ],
+    "questions": [
+      {
+        "q": "What was the conflict about?",
+        "options": ["Rewriting a module", "Choosing a new laptop", "Taking annual leave"],
+        "answer": 0
+      },
+      {
+        "q": "What did Nam do first to de-escalate the problem?",
+        "options": ["He complained to HR", "He asked for a one-on-one talk", "He rewrote the whole module alone"],
+        "answer": 1
+      },
+      {
+        "q": "What was the result of their discussion?",
+        "options": ["The project was cancelled", "The senior developer left the company", "They rewrote only the slowest part and released on time"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Last year there was some tension between me and a senior developer.",
+    "I asked for a one-on-one talk instead of arguing in the meeting.",
+    "I tried to listen actively and never blamed him for the delay.",
+    "We found a middle ground and rewrote only the slowest part first.",
+    "From that experience I learned to disagree respectfully and speak up early."
+  ]
+}

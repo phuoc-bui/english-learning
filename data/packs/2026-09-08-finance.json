@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-08",
+  "track": "finance",
+  "theme": "Làm việc với kiểm toán",
+  "vocab": [
+    {
+      "word": "year-end audit",
+      "ipa": "/ˌjɪər end ˈɔːdɪt/",
+      "meaning_vi": "cuộc kiểm toán cuối năm",
+      "example": "Our year-end audit usually starts in the second week of January.",
+      "example_vi": "Cuộc kiểm toán cuối năm của chúng tôi thường bắt đầu vào tuần thứ hai của tháng Một."
+    },
+    {
+      "word": "sampling",
+      "ipa": "/ˈsɑːmplɪŋ/",
+      "meaning_vi": "phương pháp chọn mẫu để kiểm tra",
+      "example": "The auditors use sampling because they cannot check every single invoice.",
+      "example_vi": "Kiểm toán viên dùng phương pháp chọn mẫu vì họ không thể kiểm tra từng hoá đơn."
+    },
+    {
+      "word": "evidence",
+      "ipa": "/ˈevɪdəns/",
+      "meaning_vi": "bằng chứng, chứng từ chứng minh",
+      "example": "Please keep the delivery note as evidence for this expense.",
+      "example_vi": "Hãy giữ phiếu giao hàng làm bằng chứng cho khoản chi này."
+    },
+    {
+      "word": "walkthrough test",
+      "ipa": "/ˈwɔːkθruː test/",
+      "meaning_vi": "bài kiểm tra chạy thử toàn bộ quy trình",
+      "example": "In the walkthrough test, we follow one order from start to payment.",
+      "example_vi": "Trong bài kiểm tra chạy thử quy trình, chúng tôi theo một đơn hàng từ đầu đến khi thanh toán."
+    },
+    {
+      "word": "confirmation letter",
+      "ipa": "/ˌkɒnfəˈmeɪʃn ˈletə/",
+      "meaning_vi": "thư xác nhận số dư từ bên thứ ba",
+      "example": "The bank sent a confirmation letter with our balance at the end of December.",
+      "example_vi": "Ngân hàng đã gửi thư xác nhận kèm số dư của chúng tôi vào cuối tháng Mười Hai."
+    },
+    {
+      "word": "adjusting entry",
+      "ipa": "/əˈdʒʌstɪŋ ˈentri/",
+      "meaning_vi": "bút toán điều chỉnh",
+      "example": "We booked an adjusting entry to correct the rent expense for December.",
+      "example_vi": "Chúng tôi đã hạch toán bút toán điều chỉnh để sửa chi phí thuê văn phòng tháng Mười Hai."
+    },
+    {
+      "word": "documentation",
+      "ipa": "/ˌdɒkjumenˈteɪʃn/",
+      "meaning_vi": "bộ hồ sơ, chứng từ đầy đủ",
+      "example": "The auditors asked for full documentation of all payments above one thousand dollars.",
+      "example_vi": "Kiểm toán viên yêu cầu đầy đủ chứng từ cho mọi khoản chi trên một nghìn đô la."
+    },
+    {
+      "word": "audit opinion",
+      "ipa": "/ˈɔːdɪt əˈpɪnjən/",
+      "meaning_vi": "ý kiến kiểm toán trên báo cáo",
+      "example": "We expect a clean audit opinion if we fix these two small issues.",
+      "example_vi": "Chúng tôi kỳ vọng ý kiến kiểm toán chấp nhận toàn phần nếu sửa hai vấn đề nhỏ này."
+    }
+  ],
+  "listening": {
+    "title": "The first day of the year-end audit",
+    "lines": [
+      { "speaker": "Mr. Dung (External Auditor)", "voice": "male", "text": "Good morning, Hoa. We are here to start the year-end audit today." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Welcome. I have prepared the documentation for all accounts in this meeting room." },
+      { "speaker": "Mr. Dung (External Auditor)", "voice": "male", "text": "Thank you. We will use sampling, so we do not need every invoice." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "How many samples will you take from the purchase list?" },
+      { "speaker": "Mr. Dung (External Auditor)", "voice": "male", "text": "About forty items, plus one walkthrough test from order to payment." },
+      { "speaker": "Nam (Accountant)", "voice": "male", "text": "I can show you that process. I handle purchase orders every day." },
+      { "speaker": "Mr. Dung (External Auditor)", "voice": "male", "text": "Perfect. We also need the confirmation letter from your bank." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "It arrived last week. I will give you a copy this afternoon." },
+      { "speaker": "Mr. Dung (External Auditor)", "voice": "male", "text": "One more thing: please explain the adjusting entry for the December rent." },
+      { "speaker": "Nam (Accountant)", "voice": "male", "text": "Of course. I kept the contract and the payment slip as evidence." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "If everything is clear, can we expect a clean audit opinion this year?" },
+      { "speaker": "Mr. Dung (External Auditor)", "voice": "male", "text": "I hope so, but let us finish our checks first." }
+    ],
+    "questions": [
+      {
+        "q": "Why do the auditors use sampling?",
+        "options": ["Because they cannot check every invoice", "Because the company has no invoices", "Because the manager asked them to"],
+        "answer": 0
+      },
+      {
+        "q": "What did the bank send to the company?",
+        "options": ["An adjusting entry", "A confirmation letter", "A purchase order"],
+        "answer": 1
+      },
+      {
+        "q": "What will Nam explain to the auditor?",
+        "options": ["The adjusting entry for December rent", "The new payroll system", "The marketing budget"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I have prepared all the documentation for the year-end audit today.",
+    "We will use sampling instead of checking every invoice one by one.",
+    "Could you send us the confirmation letter from your bank, please?",
+    "I kept the contract and the payment slip as evidence for you.",
+    "Let me explain the adjusting entry we booked for December rent."
+  ]
+}

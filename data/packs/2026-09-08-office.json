@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-08",
+  "track": "office",
+  "theme": "Báo cáo với sếp",
+  "vocab": [
+    {
+      "word": "progress update",
+      "ipa": "/ˈprəʊɡres ˈʌpdeɪt/",
+      "meaning_vi": "bản cập nhật tiến độ công việc",
+      "example": "I send my manager a short progress update every Friday afternoon.",
+      "example_vi": "Tôi gửi sếp một bản cập nhật tiến độ ngắn vào chiều thứ Sáu hằng tuần."
+    },
+    {
+      "word": "key figure",
+      "ipa": "/kiː ˈfɪɡə/",
+      "meaning_vi": "con số quan trọng trong báo cáo",
+      "example": "Please put the key figures on the first slide of your report.",
+      "example_vi": "Hãy đưa các con số quan trọng lên slide đầu tiên của báo cáo."
+    },
+    {
+      "word": "shortfall",
+      "ipa": "/ˈʃɔːtfɔːl/",
+      "meaning_vi": "phần thiếu hụt so với mục tiêu",
+      "example": "We have a small shortfall of five percent against the monthly target.",
+      "example_vi": "Chúng ta thiếu hụt nhẹ năm phần trăm so với mục tiêu tháng."
+    },
+    {
+      "word": "root cause",
+      "ipa": "/ruːt kɔːz/",
+      "meaning_vi": "nguyên nhân gốc rễ",
+      "example": "The root cause of the delay was a late reply from the supplier.",
+      "example_vi": "Nguyên nhân gốc rễ của việc chậm trễ là phản hồi muộn từ nhà cung cấp."
+    },
+    {
+      "word": "action plan",
+      "ipa": "/ˈækʃn plæn/",
+      "meaning_vi": "kế hoạch hành động",
+      "example": "I prepared an action plan to bring the project back on schedule.",
+      "example_vi": "Tôi đã chuẩn bị một kế hoạch hành động để đưa dự án về đúng tiến độ."
+    },
+    {
+      "word": "supporting data",
+      "ipa": "/səˈpɔːtɪŋ ˈdeɪtə/",
+      "meaning_vi": "số liệu chứng minh cho lập luận",
+      "example": "My manager always asks for supporting data before he approves a request.",
+      "example_vi": "Sếp tôi luôn hỏi số liệu chứng minh trước khi duyệt một đề xuất."
+    },
+    {
+      "word": "raise an issue",
+      "ipa": "/reɪz ən ˈɪʃuː/",
+      "meaning_vi": "nêu một vấn đề cần được xử lý",
+      "example": "I would like to raise an issue about the new reporting template.",
+      "example_vi": "Tôi muốn nêu một vấn đề về mẫu báo cáo mới."
+    },
+    {
+      "word": "next steps",
+      "ipa": "/nekst steps/",
+      "meaning_vi": "các bước tiếp theo",
+      "example": "Let me finish with the next steps for our team this month.",
+      "example_vi": "Cho tôi kết thúc bằng các bước tiếp theo cho nhóm trong tháng này."
+    }
+  ],
+  "listening": {
+    "title": "A monthly report meeting with the manager",
+    "lines": [
+      { "speaker": "Mr. Tuan (Department Manager)", "voice": "male", "text": "Good morning, Hoa. Are you ready to give me your progress update?" },
+      { "speaker": "Hoa (Senior Officer)", "voice": "female", "text": "Yes, I am. I will start with the key figures for August." },
+      { "speaker": "Mr. Tuan (Department Manager)", "voice": "male", "text": "Please do. I only have twenty minutes before my next meeting." },
+      { "speaker": "Hoa (Senior Officer)", "voice": "female", "text": "We reached ninety-five percent of the target, so there is a small shortfall." },
+      { "speaker": "Mr. Tuan (Department Manager)", "voice": "male", "text": "What is the root cause of that gap?" },
+      { "speaker": "Hoa (Senior Officer)", "voice": "female", "text": "Two suppliers replied late, so we could not finish the paperwork in time." },
+      { "speaker": "Nam (Officer)", "voice": "male", "text": "I also want to raise an issue about the new reporting template." },
+      { "speaker": "Nam (Officer)", "voice": "male", "text": "It takes us almost two hours every week to fill in all the fields." },
+      { "speaker": "Mr. Tuan (Department Manager)", "voice": "male", "text": "Thank you, Nam. Please send me supporting data so I can discuss it upstairs." },
+      { "speaker": "Hoa (Senior Officer)", "voice": "female", "text": "I will share our action plan and the next steps by tomorrow morning." }
+    ],
+    "questions": [
+      {
+        "q": "How much of the target did the team reach in August?",
+        "options": ["Ninety-five percent", "Eighty percent", "One hundred percent"],
+        "answer": 0
+      },
+      {
+        "q": "What was the root cause of the shortfall?",
+        "options": ["A power cut in the office", "Two suppliers replied late", "Nobody worked on the project"],
+        "answer": 1
+      },
+      {
+        "q": "What does Mr. Tuan ask Nam to send him?",
+        "options": ["A new reporting template", "Supporting data", "A holiday request"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "I would like to give you a short progress update for August.",
+    "We reached ninety-five percent of the target, so there is a small shortfall.",
+    "The root cause was a late reply from two of our suppliers.",
+    "I will send you the supporting data before the end of today.",
+    "Let me finish with the action plan and the next steps."
+  ]
+}
