@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-09",
+  "track": "office",
+  "theme": "Họp phòng ban",
+  "vocab": [
+    {
+      "word": "quarterly target",
+      "ipa": "/ˈkwɔːtəli ˈtɑːɡɪt/",
+      "meaning_vi": "chỉ tiêu theo quý",
+      "example": "We are still ten percent below our quarterly target for new customers.",
+      "example_vi": "Chúng ta vẫn còn thấp hơn mười phần trăm so với chỉ tiêu quý về khách hàng mới."
+    },
+    {
+      "word": "cross-functional",
+      "ipa": "/ˌkrɒs ˈfʌŋkʃənl/",
+      "meaning_vi": "liên phòng ban, có nhiều bộ phận cùng tham gia",
+      "example": "This is a cross-functional project, so marketing and product must work together.",
+      "example_vi": "Đây là dự án liên phòng ban, nên marketing và sản phẩm phải làm việc cùng nhau."
+    },
+    {
+      "word": "time-box",
+      "ipa": "/ˈtaɪm bɒks/",
+      "meaning_vi": "giới hạn thời gian cho một phần nội dung",
+      "example": "Let us time-box this discussion to ten minutes and move on.",
+      "example_vi": "Hãy giới hạn phần thảo luận này trong mười phút rồi đi tiếp."
+    },
+    {
+      "word": "run through",
+      "ipa": "/rʌn θruː/",
+      "meaning_vi": "trình bày lướt qua, điểm qua nhanh",
+      "example": "Can you run through the main numbers from last month for us?",
+      "example_vi": "Bạn có thể điểm qua các con số chính của tháng trước cho chúng tôi không?"
+    },
+    {
+      "word": "takeaway",
+      "ipa": "/ˈteɪkəweɪ/",
+      "meaning_vi": "điều quan trọng rút ra sau buổi họp",
+      "example": "The main takeaway today is that we need clearer deadlines.",
+      "example_vi": "Điều quan trọng rút ra hôm nay là chúng ta cần deadline rõ ràng hơn."
+    },
+    {
+      "word": "initiative",
+      "ipa": "/ɪˈnɪʃətɪv/",
+      "meaning_vi": "sáng kiến, chương trình mới được đề xuất",
+      "example": "Minh proposed a new initiative to collect customer feedback every month.",
+      "example_vi": "Minh đề xuất một sáng kiến mới để thu thập phản hồi khách hàng mỗi tháng."
+    },
+    {
+      "word": "talking point",
+      "ipa": "/ˈtɔːkɪŋ pɔɪnt/",
+      "meaning_vi": "nội dung dự kiến đưa ra bàn trong họp",
+      "example": "Please add your idea as a talking point for the meeting next Monday.",
+      "example_vi": "Hãy thêm ý tưởng của bạn thành một nội dung bàn trong buổi họp thứ Hai tới."
+    },
+    {
+      "word": "department head",
+      "ipa": "/dɪˈpɑːtmənt hed/",
+      "meaning_vi": "trưởng phòng, người đứng đầu bộ phận",
+      "example": "I will ask the department head of product to join our next meeting.",
+      "example_vi": "Tôi sẽ mời trưởng phòng sản phẩm tham gia buổi họp tới của chúng ta."
+    }
+  ],
+  "listening": {
+    "title": "Monthly department meeting",
+    "lines": [
+      {
+        "speaker": "Hoa (Marketing Manager)",
+        "voice": "female",
+        "text": "Good morning everyone. Let us start our department meeting. We only have thirty minutes today."
+      },
+      {
+        "speaker": "Minh (Team Leader)",
+        "voice": "male",
+        "text": "Good morning, Hoa. Should I run through the numbers from last month first?"
+      },
+      {
+        "speaker": "Hoa (Marketing Manager)",
+        "voice": "female",
+        "text": "Yes, please. But let us time-box it to five minutes so we can cover everything."
+      },
+      {
+        "speaker": "Minh (Team Leader)",
+        "voice": "male",
+        "text": "No problem. We reached eighty percent of our quarterly target in August."
+      },
+      {
+        "speaker": "Hoa (Marketing Manager)",
+        "voice": "female",
+        "text": "That is good progress. What is stopping us from reaching one hundred percent?"
+      },
+      {
+        "speaker": "Minh (Team Leader)",
+        "voice": "male",
+        "text": "We need more support from the product team. It is really a cross-functional problem."
+      },
+      {
+        "speaker": "Hoa (Marketing Manager)",
+        "voice": "female",
+        "text": "I see. I will talk to the department head of product this week."
+      },
+      {
+        "speaker": "Minh (Team Leader)",
+        "voice": "male",
+        "text": "Thank you. I also want to share a new initiative for customer feedback."
+      },
+      {
+        "speaker": "Hoa (Marketing Manager)",
+        "voice": "female",
+        "text": "Please add it as a talking point for our meeting next Monday."
+      },
+      {
+        "speaker": "Minh (Team Leader)",
+        "voice": "male",
+        "text": "Sure. So the main takeaway today is that we need better teamwork, right?"
+      },
+      {
+        "speaker": "Hoa (Marketing Manager)",
+        "voice": "female",
+        "text": "Exactly. I will send the minutes this afternoon. Thanks everyone for joining."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How much of the quarterly target did the team reach in August?",
+        "options": [
+          "Fifty percent",
+          "Eighty percent",
+          "One hundred percent"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why does the team need help from the product team?",
+        "options": [
+          "Because the problem is cross-functional",
+          "Because they have no budget left",
+          "Because Minh is on annual leave"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What will Minh do with his new initiative?",
+        "options": [
+          "Start it immediately without approval",
+          "Add it as a talking point for next Monday",
+          "Cancel it until next quarter"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Let me run through the main numbers before we open the floor for questions.",
+    "Can we time-box this topic to five minutes so everyone gets a turn?",
+    "We reached eighty percent of our quarterly target, but we still need more support.",
+    "This is a cross-functional issue, so I will invite the product team next time.",
+    "The main takeaway is that we need clearer deadlines for every single task."
+  ]
+}

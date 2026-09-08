@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-09",
+  "track": "interview",
+  "theme": "Lý do nghỉ việc & chuyển việc",
+  "vocab": [
+    {
+      "word": "restructure",
+      "ipa": "/ˌriːˈstrʌktʃə/",
+      "meaning_vi": "tái cơ cấu tổ chức",
+      "example": "After the restructure, my role became much narrower than before.",
+      "example_vi": "Sau đợt tái cơ cấu, vai trò của tôi trở nên hẹp hơn nhiều so với trước."
+    },
+    {
+      "word": "new challenge",
+      "ipa": "/njuː ˈtʃælɪndʒ/",
+      "meaning_vi": "thử thách mới trong công việc",
+      "example": "I am looking for a new challenge where I can lead bigger projects.",
+      "example_vi": "Tôi đang tìm một thử thách mới nơi tôi có thể dẫn dắt các dự án lớn hơn."
+    },
+    {
+      "word": "transition",
+      "ipa": "/trænˈzɪʃn/",
+      "meaning_vi": "giai đoạn chuyển tiếp giữa hai công việc",
+      "example": "I want a smooth transition, so I planned my handover very carefully.",
+      "example_vi": "Tôi muốn quá trình chuyển tiếp suôn sẻ, nên tôi đã lên kế hoạch bàn giao rất kỹ."
+    },
+    {
+      "word": "long-term",
+      "ipa": "/ˌlɒŋ ˈtɜːm/",
+      "meaning_vi": "dài hạn, lâu dài",
+      "example": "My long-term plan is to stay in this field and become a team leader.",
+      "example_vi": "Kế hoạch dài hạn của tôi là ở lại lĩnh vực này và trở thành trưởng nhóm."
+    },
+    {
+      "word": "stability",
+      "ipa": "/stəˈbɪləti/",
+      "meaning_vi": "sự ổn định trong công việc",
+      "example": "I value stability, but I also need room to grow every year.",
+      "example_vi": "Tôi coi trọng sự ổn định, nhưng tôi cũng cần không gian để phát triển mỗi năm."
+    },
+    {
+      "word": "broaden",
+      "ipa": "/ˈbrɔːdn/",
+      "meaning_vi": "mở rộng (kỹ năng, kiến thức)",
+      "example": "I would like to broaden my skills instead of doing the same reports.",
+      "example_vi": "Tôi muốn mở rộng kỹ năng của mình thay vì làm mãi những báo cáo giống nhau."
+    },
+    {
+      "word": "take on",
+      "ipa": "/ˌteɪk ˈɒn/",
+      "meaning_vi": "nhận thêm (việc, trách nhiệm)",
+      "example": "In my next job I hope to take on more responsibility for the whole product.",
+      "example_vi": "Ở công việc tiếp theo, tôi hy vọng nhận thêm trách nhiệm cho cả sản phẩm."
+    },
+    {
+      "word": "mutual agreement",
+      "ipa": "/ˈmjuːtʃuəl əˈɡriːmənt/",
+      "meaning_vi": "sự thoả thuận của cả hai bên",
+      "example": "We ended my contract by mutual agreement, and I finished my handover.",
+      "example_vi": "Chúng tôi kết thúc hợp đồng theo thoả thuận hai bên, và tôi đã hoàn tất bàn giao."
+    }
+  ],
+  "listening": {
+    "title": "Interview: why are you leaving your current job?",
+    "lines": [
+      {
+        "speaker": "Hoa (HR Manager)",
+        "voice": "female",
+        "text": "Nam, I see you are leaving your current company. May I ask why?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Of course. My team was restructured last quarter, and my role became very narrow."
+      },
+      {
+        "speaker": "Hoa (HR Manager)",
+        "voice": "female",
+        "text": "So the restructure changed your daily work?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Yes. I used to lead a small team, but now I only write reports."
+      },
+      {
+        "speaker": "Hoa (HR Manager)",
+        "voice": "female",
+        "text": "I understand. What are you looking for in your next job?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "I am looking for a new challenge where I can take on bigger projects."
+      },
+      {
+        "speaker": "Hoa (HR Manager)",
+        "voice": "female",
+        "text": "Do you want to stay in this field for the long-term?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Definitely. I want to broaden my skills, not change my career completely."
+      },
+      {
+        "speaker": "Hoa (HR Manager)",
+        "voice": "female",
+        "text": "How did your manager react when you told him about your decision?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "We talked openly and left by mutual agreement. My last day is next Friday."
+      },
+      {
+        "speaker": "Hoa (HR Manager)",
+        "voice": "female",
+        "text": "Good. And what matters more to you, stability or fast growth?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Both, honestly. But a smooth transition and a clear plan matter most to me."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why is Nam leaving his current company?",
+        "options": [
+          "His team was restructured and his role became narrow",
+          "He wants to move to another city",
+          "He had a serious conflict with his manager"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Nam want in his next job?",
+        "options": [
+          "Fewer working hours and more holidays",
+          "A new challenge with bigger projects",
+          "A completely different career"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How did Nam leave his current company?",
+        "options": [
+          "He was asked to leave immediately",
+          "By mutual agreement with his manager",
+          "He left without giving any notice"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "After the restructure, my role became narrow, so I started looking for something bigger.",
+    "I am looking for a new challenge where I can take on more responsibility.",
+    "I want to broaden my skills in this field and grow for the long-term.",
+    "We ended the contract by mutual agreement, and I finished my handover carefully.",
+    "I value stability, but a smooth transition into a stronger team matters more."
+  ]
+}

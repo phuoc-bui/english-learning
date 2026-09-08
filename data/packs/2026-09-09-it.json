@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-09",
+  "track": "it",
+  "theme": "Code review & pull requests",
+  "vocab": [
+    {
+      "word": "draft PR",
+      "ipa": "/drɑːft ˌpiː ˈɑː/",
+      "meaning_vi": "pull request nháp, chưa sẵn sàng để review",
+      "example": "I opened a draft PR so you can see my direction before I finish.",
+      "example_vi": "Tôi mở một PR nháp để bạn xem hướng làm của tôi trước khi tôi hoàn thành."
+    },
+    {
+      "word": "squash",
+      "ipa": "/skwɒʃ/",
+      "meaning_vi": "gộp nhiều commit thành một commit",
+      "example": "Please squash your five small commits into one before we merge.",
+      "example_vi": "Hãy gộp năm commit nhỏ của bạn thành một trước khi chúng ta merge."
+    },
+    {
+      "word": "commit message",
+      "ipa": "/kəˈmɪt ˈmesɪdʒ/",
+      "meaning_vi": "nội dung mô tả kèm theo commit",
+      "example": "A good commit message explains what you changed and why you changed it.",
+      "example_vi": "Một commit message tốt giải thích bạn đã thay đổi gì và tại sao thay đổi."
+    },
+    {
+      "word": "naming convention",
+      "ipa": "/ˈneɪmɪŋ kənˈvenʃn/",
+      "meaning_vi": "quy ước đặt tên trong code",
+      "example": "Our naming convention says that function names should start with a verb.",
+      "example_vi": "Quy ước đặt tên của chúng ta nói rằng tên hàm nên bắt đầu bằng động từ."
+    },
+    {
+      "word": "readability",
+      "ipa": "/ˌriːdəˈbɪləti/",
+      "meaning_vi": "tính dễ đọc, dễ hiểu của code",
+      "example": "Shorter functions improve readability for everyone who joins the project later.",
+      "example_vi": "Hàm ngắn hơn giúp tăng tính dễ đọc cho mọi người tham gia dự án sau này."
+    },
+    {
+      "word": "maintainability",
+      "ipa": "/meɪnˌteɪnəˈbɪləti/",
+      "meaning_vi": "khả năng bảo trì, dễ sửa về sau",
+      "example": "We care about maintainability because this service will run for many years.",
+      "example_vi": "Chúng tôi quan tâm khả năng bảo trì vì dịch vụ này sẽ chạy trong nhiều năm."
+    },
+    {
+      "word": "dead code",
+      "ipa": "/ded kəʊd/",
+      "meaning_vi": "code không còn được dùng đến",
+      "example": "There is some dead code in this file that nobody calls any more.",
+      "example_vi": "Có một ít code chết trong file này mà không còn ai gọi tới nữa."
+    },
+    {
+      "word": "rubber stamp",
+      "ipa": "/ˈrʌbə stæmp/",
+      "meaning_vi": "duyệt cho có, duyệt mà không đọc kỹ",
+      "example": "Do not rubber stamp my pull request; I really want honest feedback.",
+      "example_vi": "Đừng duyệt cho có pull request của tôi; tôi thực sự muốn góp ý thẳng thắn."
+    }
+  ],
+  "listening": {
+    "title": "Reviewing a pull request with the tech lead",
+    "lines": [
+      {
+        "speaker": "Linh (Tech Lead)",
+        "voice": "female",
+        "text": "Hi Nam, I finished reviewing your pull request this morning. I left a few comments."
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Thanks, Linh. I saw them. Most of them are about names, right?"
+      },
+      {
+        "speaker": "Linh (Tech Lead)",
+        "voice": "female",
+        "text": "Yes. Some variable names are not clear, so please follow our naming convention."
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Understood. I will rename them and push a new commit today."
+      },
+      {
+        "speaker": "Linh (Tech Lead)",
+        "voice": "female",
+        "text": "Also, please write a better commit message. \"Fix stuff\" does not help anyone later."
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Fair point. I will describe what I changed and why I changed it."
+      },
+      {
+        "speaker": "Linh (Tech Lead)",
+        "voice": "female",
+        "text": "One more thing. There is some dead code in the service file, so please remove it."
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Right, that was from the old version. I forgot to clean it up."
+      },
+      {
+        "speaker": "Linh (Tech Lead)",
+        "voice": "female",
+        "text": "Good. Please squash your commits too, and then it is not a draft PR any more."
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Sure. I will ping you after lunch. Please do not rubber stamp it, though."
+      },
+      {
+        "speaker": "Linh (Tech Lead)",
+        "voice": "female",
+        "text": "Do not worry. I read every line, because readability and maintainability really matter here."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is the main problem Linh found in the code?",
+        "options": [
+          "Some variable names are not clear",
+          "The tests are all missing",
+          "The application is too slow"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What will Nam do with the dead code?",
+        "options": [
+          "Keep it for the next release",
+          "Remove it from the service file",
+          "Move it to another branch"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Nam ask Linh not to do?",
+        "options": [
+          "Approve the code without reading it carefully",
+          "Merge the branch on Friday evening",
+          "Write comments in Vietnamese"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I left a few comments on your pull request, so please have a look.",
+    "Could you follow our naming convention so the code is easier to read?",
+    "I will rename the variables and push a new commit before the end of today.",
+    "Please remove the dead code so we can keep this file clean and simple.",
+    "I marked it as a draft PR because I still need to fix two things."
+  ]
+}

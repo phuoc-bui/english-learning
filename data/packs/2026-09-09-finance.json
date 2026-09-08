@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-09",
+  "track": "finance",
+  "theme": "Expense claim & hoàn ứng",
+  "vocab": [
+    {
+      "word": "reimbursement",
+      "ipa": "/ˌriːɪmˈbɜːsmənt/",
+      "meaning_vi": "việc hoàn trả tiền nhân viên đã chi",
+      "example": "You will receive the reimbursement together with your salary this month.",
+      "example_vi": "Bạn sẽ nhận được tiền hoàn trả cùng với lương tháng này."
+    },
+    {
+      "word": "cost centre",
+      "ipa": "/ˈkɒst ˌsentə/",
+      "meaning_vi": "mã bộ phận/dự án để ghi nhận chi phí",
+      "example": "Please write the correct cost centre so the amount goes to your project.",
+      "example_vi": "Hãy ghi đúng mã bộ phận để khoản tiền được tính vào dự án của bạn."
+    },
+    {
+      "word": "VAT invoice",
+      "ipa": "/ˌviː eɪ ˈtiː ˈɪnvɔɪs/",
+      "meaning_vi": "hoá đơn giá trị gia tăng",
+      "example": "The hotel must send a VAT invoice, not just a payment slip.",
+      "example_vi": "Khách sạn phải gửi hoá đơn giá trị gia tăng, không chỉ là phiếu thanh toán."
+    },
+    {
+      "word": "taxi fare",
+      "ipa": "/ˈtæksi feə/",
+      "meaning_vi": "tiền cước taxi",
+      "example": "The taxi fare from the airport to the office is fully covered.",
+      "example_vi": "Tiền taxi từ sân bay về văn phòng được thanh toán đầy đủ."
+    },
+    {
+      "word": "settle",
+      "ipa": "/ˈsetl/",
+      "meaning_vi": "thanh toán dứt điểm một khoản tiền",
+      "example": "We will settle your claim as soon as the documents are complete.",
+      "example_vi": "Chúng tôi sẽ thanh toán dứt điểm đề nghị của bạn ngay khi hồ sơ đầy đủ."
+    },
+    {
+      "word": "itemise",
+      "ipa": "/ˈaɪtəmaɪz/",
+      "meaning_vi": "liệt kê chi tiết từng khoản",
+      "example": "Please itemise your meals instead of writing one number for four days.",
+      "example_vi": "Hãy liệt kê chi tiết tiền ăn thay vì ghi một con số cho bốn ngày."
+    },
+    {
+      "word": "non-reimbursable",
+      "ipa": "/ˌnɒn riːɪmˈbɜːsəbl/",
+      "meaning_vi": "không được hoàn trả theo chính sách",
+      "example": "Personal drinks are non-reimbursable, so please remove that line.",
+      "example_vi": "Đồ uống cá nhân không được hoàn trả, nên hãy bỏ dòng đó đi."
+    },
+    {
+      "word": "top up",
+      "ipa": "/ˌtɒp ˈʌp/",
+      "meaning_vi": "bổ sung thêm tiền tạm ứng",
+      "example": "Can you top up my travel advance before the trip next week?",
+      "example_vi": "Chị có thể bổ sung thêm tiền tạm ứng công tác trước chuyến đi tuần tới không?"
+    }
+  ],
+  "listening": {
+    "title": "Checking an expense claim with the accountant",
+    "lines": [
+      {
+        "speaker": "Minh (Project Engineer)",
+        "voice": "male",
+        "text": "Hi Hoa, I want to ask about my expense claim from the Da Nang trip."
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "Sure. I received your form, but some items are still missing details."
+      },
+      {
+        "speaker": "Minh (Project Engineer)",
+        "voice": "male",
+        "text": "Which ones? I attached all my receipts and the hotel bill."
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "The hotel is fine, but I need a VAT invoice, not just a payment slip."
+      },
+      {
+        "speaker": "Minh (Project Engineer)",
+        "voice": "male",
+        "text": "I understand. I will email the hotel and ask for it today."
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "Also, please itemise your meals. One big number for four days is not enough."
+      },
+      {
+        "speaker": "Minh (Project Engineer)",
+        "voice": "male",
+        "text": "Okay. What about the taxi fare from the airport to the office?"
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "That one is fine. Just write the correct cost centre for your project."
+      },
+      {
+        "speaker": "Minh (Project Engineer)",
+        "voice": "male",
+        "text": "Got it. And the coffee I bought for my friend after dinner?"
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "Sorry, personal drinks are non-reimbursable, so please remove that line."
+      },
+      {
+        "speaker": "Minh (Project Engineer)",
+        "voice": "male",
+        "text": "Fair enough. When will I get the reimbursement, and can you top up my advance?"
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "We will settle everything with your salary this month if you fix it today."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What document does Hoa still need for the hotel?",
+        "options": [
+          "A VAT invoice",
+          "A boarding pass",
+          "A signed contract"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Why must Minh remove the coffee from his claim?",
+        "options": [
+          "It was too expensive",
+          "Personal drinks are non-reimbursable",
+          "He lost the receipt"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "When will the company pay the money back?",
+        "options": [
+          "With his salary this month",
+          "At the end of next year",
+          "Only after the audit"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you send me a VAT invoice instead of this simple payment slip?",
+    "Please itemise your meals so I can check each day of the trip.",
+    "Personal drinks are non-reimbursable, so please remove that line from the form.",
+    "We will settle your reimbursement together with your salary at the end of the month.",
+    "Please write the correct cost centre so the amount goes to your project."
+  ]
+}

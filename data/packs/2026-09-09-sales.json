@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-09",
+  "track": "sales",
+  "theme": "Email follow-up sau gặp khách",
+  "vocab": [
+    {
+      "word": "pricing sheet",
+      "ipa": "/ˈpraɪsɪŋ ʃiːt/",
+      "meaning_vi": "bảng giá gửi cho khách",
+      "example": "I will send the pricing sheet today while the meeting is still fresh.",
+      "example_vi": "Tôi sẽ gửi bảng giá hôm nay khi buổi gặp vẫn còn mới trong trí nhớ khách."
+    },
+    {
+      "word": "case study",
+      "ipa": "/ˈkeɪs stʌdi/",
+      "meaning_vi": "câu chuyện khách hàng mẫu, tình huống thực tế",
+      "example": "Let me attach a case study from a company in the same industry.",
+      "example_vi": "Để tôi đính kèm một case study từ công ty trong cùng ngành."
+    },
+    {
+      "word": "procurement",
+      "ipa": "/prəˈkjʊəmənt/",
+      "meaning_vi": "bộ phận mua hàng của khách",
+      "example": "Their procurement team will join the next call to discuss the contract.",
+      "example_vi": "Bộ phận mua hàng của họ sẽ tham gia cuộc gọi tới để bàn về hợp đồng."
+    },
+    {
+      "word": "thread",
+      "ipa": "/θred/",
+      "meaning_vi": "chuỗi email cùng một chủ đề",
+      "example": "Please keep every message in the same thread so nothing gets lost.",
+      "example_vi": "Hãy giữ mọi tin nhắn trong cùng một chuỗi email để không bị thất lạc."
+    },
+    {
+      "word": "availability",
+      "ipa": "/əˌveɪləˈbɪləti/",
+      "meaning_vi": "lịch trống, thời gian có thể sắp xếp",
+      "example": "Could you share your availability for a short call next week?",
+      "example_vi": "Bạn có thể cho biết lịch trống cho một cuộc gọi ngắn tuần tới không?"
+    },
+    {
+      "word": "pilot",
+      "ipa": "/ˈpaɪlət/",
+      "meaning_vi": "triển khai thử ở quy mô nhỏ",
+      "example": "The client wants a small pilot before they sign a full contract.",
+      "example_vi": "Khách muốn triển khai thử quy mô nhỏ trước khi ký hợp đồng đầy đủ."
+    },
+    {
+      "word": "trial",
+      "ipa": "/ˈtraɪəl/",
+      "meaning_vi": "giai đoạn dùng thử",
+      "example": "We can offer a three-month trial with a clear success plan.",
+      "example_vi": "Chúng ta có thể đề xuất ba tháng dùng thử kèm kế hoạch đánh giá rõ ràng."
+    },
+    {
+      "word": "reply all",
+      "ipa": "/rɪˈplaɪ ɔːl/",
+      "meaning_vi": "trả lời tất cả người nhận trong email",
+      "example": "I will use reply all so everyone on both sides stays informed.",
+      "example_vi": "Tôi sẽ dùng trả lời tất cả để mọi người ở cả hai bên đều nắm thông tin."
+    }
+  ],
+  "listening": {
+    "title": "Planning the follow-up email after a client meeting",
+    "lines": [
+      {
+        "speaker": "Nam (Sales Manager)",
+        "voice": "male",
+        "text": "Linh, how did the meeting with the client go yesterday afternoon?"
+      },
+      {
+        "speaker": "Linh (Sales Executive)",
+        "voice": "female",
+        "text": "Quite well. They liked the demo, but they want more details about the price."
+      },
+      {
+        "speaker": "Nam (Sales Manager)",
+        "voice": "male",
+        "text": "Then send them the pricing sheet today, while the meeting is still fresh."
+      },
+      {
+        "speaker": "Linh (Sales Executive)",
+        "voice": "female",
+        "text": "I will. Should I also attach a case study from a similar company?"
+      },
+      {
+        "speaker": "Nam (Sales Manager)",
+        "voice": "male",
+        "text": "Yes, good idea. It helps them trust us and show something to their boss."
+      },
+      {
+        "speaker": "Linh (Sales Executive)",
+        "voice": "female",
+        "text": "They also asked if we can start with a small pilot before a full contract."
+      },
+      {
+        "speaker": "Nam (Sales Manager)",
+        "voice": "male",
+        "text": "That is normal. Offer them a three-month trial with a clear success plan."
+      },
+      {
+        "speaker": "Linh (Sales Executive)",
+        "voice": "female",
+        "text": "Okay. Their procurement team will join the next call, so I need their availability."
+      },
+      {
+        "speaker": "Nam (Sales Manager)",
+        "voice": "male",
+        "text": "Ask for two or three time slots in the same email thread."
+      },
+      {
+        "speaker": "Linh (Sales Executive)",
+        "voice": "female",
+        "text": "Got it. And I will use reply all so everyone stays in the loop."
+      },
+      {
+        "speaker": "Nam (Sales Manager)",
+        "voice": "male",
+        "text": "Perfect. Please send it before five so they can read it this evening."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Nam ask Linh to send to the client today?",
+        "options": [
+          "The pricing sheet",
+          "A signed contract",
+          "The final invoice"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does the client want before a full contract?",
+        "options": [
+          "A fifty percent discount",
+          "A small pilot",
+          "A free product for one year"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why will Linh use reply all?",
+        "options": [
+          "To keep everyone in the loop",
+          "To hide the price from procurement",
+          "To close the deal without a call"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I will send the pricing sheet today while the meeting is still fresh.",
+    "Let me attach a case study from a company in the same industry.",
+    "Could you share your availability for a short call next Tuesday or Wednesday?",
+    "We can start with a three-month pilot before you sign the full contract.",
+    "I will keep everything in the same thread so nobody misses an update."
+  ]
+}
