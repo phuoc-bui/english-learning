@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-10",
+  "track": "it",
+  "theme": "Báo cáo tiến độ với sếp",
+  "vocab": [
+    {
+      "word": "status update",
+      "ipa": "/ˈsteɪtəs ˌʌpdeɪt/",
+      "meaning_vi": "bản cập nhật tình hình công việc",
+      "example": "I send my manager a short status update every Friday afternoon.",
+      "example_vi": "Tôi gửi cho quản lý một bản cập nhật tình hình ngắn vào chiều thứ Sáu hằng tuần."
+    },
+    {
+      "word": "ahead of schedule",
+      "ipa": "/əˌhed əv ˈʃedjuːl/",
+      "meaning_vi": "sớm hơn so với kế hoạch",
+      "example": "The login screen is two days ahead of schedule because testing went smoothly.",
+      "example_vi": "Màn hình đăng nhập đang sớm hơn kế hoạch hai ngày vì việc kiểm thử diễn ra suôn sẻ."
+    },
+    {
+      "word": "slip",
+      "ipa": "/slɪp/",
+      "meaning_vi": "bị trễ so với lịch, trượt hạn",
+      "example": "The report feature may slip to next sprint if the API is not ready.",
+      "example_vi": "Tính năng báo cáo có thể bị trễ sang sprint sau nếu API chưa sẵn sàng."
+    },
+    {
+      "word": "velocity",
+      "ipa": "/vəˈlɒsəti/",
+      "meaning_vi": "tốc độ hoàn thành công việc của nhóm trong một sprint",
+      "example": "Our velocity dropped last sprint because two developers were on leave.",
+      "example_vi": "Tốc độ hoàn thành của nhóm giảm ở sprint trước vì hai lập trình viên nghỉ phép."
+    },
+    {
+      "word": "buffer",
+      "ipa": "/ˈbʌfə/",
+      "meaning_vi": "thời gian dự phòng trong kế hoạch",
+      "example": "I always keep a two-day buffer before the demo with the client.",
+      "example_vi": "Tôi luôn giữ hai ngày dự phòng trước buổi demo với khách hàng."
+    },
+    {
+      "word": "remaining work",
+      "ipa": "/rɪˈmeɪnɪŋ wɜːk/",
+      "meaning_vi": "phần việc còn lại chưa hoàn thành",
+      "example": "The remaining work is mostly small fixes, so we can finish this week.",
+      "example_vi": "Phần việc còn lại chủ yếu là các lỗi nhỏ, nên chúng ta có thể xong trong tuần này."
+    },
+    {
+      "word": "revised estimate",
+      "ipa": "/rɪˈvaɪzd ˈestɪmət/",
+      "meaning_vi": "ước tính thời gian đã được điều chỉnh lại",
+      "example": "Please send me a revised estimate after you check the database issue.",
+      "example_vi": "Hãy gửi cho tôi ước tính đã điều chỉnh sau khi bạn kiểm tra vấn đề cơ sở dữ liệu."
+    },
+    {
+      "word": "under control",
+      "ipa": "/ˌʌndə kənˈtrəʊl/",
+      "meaning_vi": "trong tầm kiểm soát",
+      "example": "The situation is under control, and no customer has reported the problem yet.",
+      "example_vi": "Tình hình vẫn trong tầm kiểm soát, và chưa khách hàng nào báo lỗi này."
+    }
+  ],
+  "listening": {
+    "title": "Weekly progress report with the project manager",
+    "lines": [
+      {
+        "speaker": "Linh (Project Manager)",
+        "voice": "female",
+        "text": "Morning, Nam. Can you give me a short status update on the payment module?"
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Sure. The payment screen is finished and it is two days ahead of schedule."
+      },
+      {
+        "speaker": "Linh (Project Manager)",
+        "voice": "female",
+        "text": "That is good news. What about the refund feature we discussed last week?"
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "That one may slip. The bank API is slower than we expected."
+      },
+      {
+        "speaker": "Linh (Project Manager)",
+        "voice": "female",
+        "text": "How many days do you think we will lose?"
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "About three days. I will send you a revised estimate this afternoon."
+      },
+      {
+        "speaker": "Linh (Project Manager)",
+        "voice": "female",
+        "text": "Fine. Do we still have any buffer before the client demo?"
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Yes, we kept four days of buffer, so the demo date is safe."
+      },
+      {
+        "speaker": "Linh (Project Manager)",
+        "voice": "female",
+        "text": "Our velocity also looked lower this sprint. Is the team struggling?"
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Not really. Two people were on leave, so we simply had less capacity."
+      },
+      {
+        "speaker": "Linh (Project Manager)",
+        "voice": "female",
+        "text": "Understood. How much remaining work is left for this sprint?"
+      },
+      {
+        "speaker": "Nam (Developer)",
+        "voice": "male",
+        "text": "Only small fixes and testing. Everything is under control, and I will report again Friday."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is ahead of schedule?",
+        "options": [
+          "The payment screen",
+          "The refund feature",
+          "The client demo"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Why may the refund feature slip?",
+        "options": [
+          "The designer changed the layout",
+          "The bank API is slower than expected",
+          "The client asked for new requirements"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why was the team's velocity lower this sprint?",
+        "options": [
+          "The tasks were much harder than usual",
+          "Two people were on leave",
+          "The team started a new project"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Here is a quick status update on the payment module before our meeting.",
+    "We are two days ahead of schedule, so the remaining work looks small.",
+    "The testing task may slip, but I added a buffer for next week.",
+    "Our velocity dropped a little, so I sent you a revised estimate today.",
+    "Everything is under control, and I will report again on Friday after the release."
+  ]
+}

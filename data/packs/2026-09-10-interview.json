@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-10",
+  "track": "interview",
+  "theme": "Mục tiêu nghề nghiệp 3-5 năm",
+  "vocab": [
+    {
+      "word": "aspiration",
+      "ipa": "/ˌæspəˈreɪʃn/",
+      "meaning_vi": "khát vọng, mong muốn nghề nghiệp",
+      "example": "My main aspiration is to lead a small product team within five years.",
+      "example_vi": "Khát vọng chính của tôi là dẫn dắt một nhóm sản phẩm nhỏ trong vòng năm năm."
+    },
+    {
+      "word": "senior role",
+      "ipa": "/ˈsiːniə rəʊl/",
+      "meaning_vi": "vị trí cấp cao hơn",
+      "example": "I hope to move into a senior role after two or three years here.",
+      "example_vi": "Tôi hy vọng chuyển lên vị trí cấp cao hơn sau hai hoặc ba năm ở đây."
+    },
+    {
+      "word": "leadership",
+      "ipa": "/ˈliːdəʃɪp/",
+      "meaning_vi": "khả năng lãnh đạo",
+      "example": "I am taking a leadership course at the weekend to prepare for that step.",
+      "example_vi": "Tôi đang học một khoá về lãnh đạo vào cuối tuần để chuẩn bị cho bước đó."
+    },
+    {
+      "word": "specialise",
+      "ipa": "/ˈspeʃəlaɪz/",
+      "meaning_vi": "chuyên sâu vào một mảng",
+      "example": "In the next two years I want to specialise in data reporting.",
+      "example_vi": "Trong hai năm tới tôi muốn đi sâu vào mảng báo cáo dữ liệu."
+    },
+    {
+      "word": "mentor others",
+      "ipa": "/ˈmentɔː ˈʌðəz/",
+      "meaning_vi": "hướng dẫn, kèm cặp người khác",
+      "example": "By year three, I would like to mentor others in my team.",
+      "example_vi": "Đến năm thứ ba, tôi muốn hướng dẫn, kèm cặp các bạn khác trong nhóm."
+    },
+    {
+      "word": "grow into",
+      "ipa": "/ˈɡrəʊ ˈɪntə/",
+      "meaning_vi": "dần phát triển để phù hợp với (một vai trò)",
+      "example": "I want to grow into the team leader position step by step.",
+      "example_vi": "Tôi muốn dần phát triển để đảm nhận vị trí trưởng nhóm từng bước một."
+    },
+    {
+      "word": "progression",
+      "ipa": "/prəˈɡreʃn/",
+      "meaning_vi": "lộ trình thăng tiến",
+      "example": "May I ask about the career progression for this position in your company?",
+      "example_vi": "Tôi có thể hỏi về lộ trình thăng tiến cho vị trí này ở công ty mình không?"
+    },
+    {
+      "word": "domain expertise",
+      "ipa": "/dəʊˈmeɪn ˌekspɜːˈtiːz/",
+      "meaning_vi": "kiến thức chuyên môn về một lĩnh vực",
+      "example": "Five years in banking gave me useful domain expertise for this role.",
+      "example_vi": "Năm năm trong ngành ngân hàng cho tôi kiến thức chuyên môn hữu ích cho vị trí này."
+    }
+  ],
+  "listening": {
+    "title": "Interview: where do you see yourself in five years?",
+    "lines": [
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "Nam, where do you see yourself in three to five years?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "In three years I would like to grow into a senior role in this team."
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "That is quite general. Can you be more specific about the first two years?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Yes. First I want to specialise in data reporting for retail customers."
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "Why that area in particular?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Because my domain expertise is in banking, and reporting is close to that."
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "And after those two years, what is your next aspiration?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "To mentor others. I already train two juniors in my current company."
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "Are you preparing for that in any structured way?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "I am taking a leadership course at the weekend, and it finishes in November."
+      },
+      {
+        "speaker": "Hoa (Hiring Manager)",
+        "voice": "female",
+        "text": "Good. Do you have any questions about growth here?"
+      },
+      {
+        "speaker": "Nam (Candidate)",
+        "voice": "male",
+        "text": "Yes. Could you explain the career progression for this position?"
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Nam want to do in his first two years?",
+        "options": [
+          "Specialise in data reporting",
+          "Become a department head",
+          "Move to another city"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Why is Nam interested in reporting?",
+        "options": [
+          "It pays much better",
+          "His domain expertise is in banking",
+          "It requires less overtime"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How is Nam preparing for a leadership step?",
+        "options": [
+          "He is taking a weekend leadership course",
+          "He is studying for a master's degree",
+          "He is reading books about management"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "In three years I would like to grow into a senior role here.",
+    "First I want to specialise in reporting, because my domain expertise is banking.",
+    "After two years, my aspiration is to mentor others in the team.",
+    "I am taking a leadership course at the weekend to prepare for that.",
+    "Could you explain the career progression for this position in your company?"
+  ]
+}

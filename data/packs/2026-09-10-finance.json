@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-10",
+  "track": "finance",
+  "theme": "Dự báo dòng tiền",
+  "vocab": [
+    {
+      "word": "receivable",
+      "ipa": "/rɪˈsiːvəbl/",
+      "meaning_vi": "khoản phải thu từ khách hàng",
+      "example": "Two large receivables from our biggest client are still open this month.",
+      "example_vi": "Hai khoản phải thu lớn từ khách hàng lớn nhất vẫn chưa được thanh toán trong tháng này."
+    },
+    {
+      "word": "payable",
+      "ipa": "/ˈpeɪəbl/",
+      "meaning_vi": "khoản phải trả cho nhà cung cấp",
+      "example": "Most of our payables are due in the first week of October.",
+      "example_vi": "Phần lớn các khoản phải trả của chúng ta đến hạn trong tuần đầu tháng Mười."
+    },
+    {
+      "word": "net cash",
+      "ipa": "/ˌnet ˈkæʃ/",
+      "meaning_vi": "dòng tiền ròng (thu trừ chi)",
+      "example": "Our net cash for September is positive, but only by a small amount.",
+      "example_vi": "Dòng tiền ròng tháng Chín của chúng ta dương, nhưng chỉ ở mức nhỏ."
+    },
+    {
+      "word": "collection",
+      "ipa": "/kəˈlekʃn/",
+      "meaning_vi": "việc thu hồi công nợ",
+      "example": "The sales team is helping us with collection from three late customers.",
+      "example_vi": "Đội kinh doanh đang giúp chúng tôi thu hồi công nợ từ ba khách hàng trả trễ."
+    },
+    {
+      "word": "scenario",
+      "ipa": "/səˈnɑːriəʊ/",
+      "meaning_vi": "kịch bản, tình huống giả định trong dự báo",
+      "example": "I prepared a best case and a worst case scenario for the board.",
+      "example_vi": "Tôi đã chuẩn bị kịch bản tốt nhất và xấu nhất cho ban lãnh đạo."
+    },
+    {
+      "word": "seasonality",
+      "ipa": "/ˌsiːzəˈnæləti/",
+      "meaning_vi": "tính mùa vụ của doanh thu hoặc chi phí",
+      "example": "Because of seasonality, our sales always drop right after the Tet holiday.",
+      "example_vi": "Do tính mùa vụ, doanh số của chúng ta luôn giảm ngay sau kỳ nghỉ Tết."
+    },
+    {
+      "word": "reserve",
+      "ipa": "/rɪˈzɜːv/",
+      "meaning_vi": "khoản tiền dự trữ, quỹ dự phòng",
+      "example": "We keep a cash reserve equal to two months of operating costs.",
+      "example_vi": "Chúng tôi giữ một khoản tiền dự trữ bằng hai tháng chi phí vận hành."
+    },
+    {
+      "word": "incoming payment",
+      "ipa": "/ˌɪnkʌmɪŋ ˈpeɪmənt/",
+      "meaning_vi": "khoản tiền sắp về tài khoản",
+      "example": "We expect a large incoming payment on the fifteenth of this month.",
+      "example_vi": "Chúng tôi dự kiến một khoản tiền lớn về tài khoản vào ngày mười lăm tháng này."
+    }
+  ],
+  "listening": {
+    "title": "Reviewing the cash flow forecast for next quarter",
+    "lines": [
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "Minh, I finished the cash flow forecast for the next three months."
+      },
+      {
+        "speaker": "Minh (Finance Director)",
+        "voice": "male",
+        "text": "Thank you. What does the net cash look like in October?"
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "It is positive, but small. Most payables are due in the first week."
+      },
+      {
+        "speaker": "Minh (Finance Director)",
+        "voice": "male",
+        "text": "And what about our receivables from the two big customers?"
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "One incoming payment should arrive on the fifteenth. The other is still uncertain."
+      },
+      {
+        "speaker": "Minh (Finance Director)",
+        "voice": "male",
+        "text": "Can the sales team help us with collection for that one?"
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "Yes, Nam is calling the customer this week to agree a payment date."
+      },
+      {
+        "speaker": "Minh (Finance Director)",
+        "voice": "male",
+        "text": "Good. Did you build more than one scenario in the forecast?"
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "Three: best case, base case, and a worst case with two late customers."
+      },
+      {
+        "speaker": "Minh (Finance Director)",
+        "voice": "male",
+        "text": "In the worst case, do we still have enough reserve?"
+      },
+      {
+        "speaker": "Linh (Finance Manager)",
+        "voice": "female",
+        "text": "Yes, about six weeks of operating costs, which is lower than our target."
+      },
+      {
+        "speaker": "Minh (Finance Director)",
+        "voice": "male",
+        "text": "Then add seasonality after Tet as well, and send me the file today."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why is net cash small in October?",
+        "options": [
+          "Sales dropped sharply",
+          "Most payables are due in the first week",
+          "The company paid a large bonus"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How many scenarios did Linh prepare?",
+        "options": [
+          "Two",
+          "Three",
+          "Five"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Minh ask Linh to add to the forecast?",
+        "options": [
+          "Seasonality after Tet",
+          "A new bank loan",
+          "Salary increases for the team"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I finished the cash flow forecast, and net cash in October is positive.",
+    "Most of our payables are due in the first week of next month.",
+    "We expect one large incoming payment on the fifteenth, but the other is uncertain.",
+    "In the worst case scenario, our reserve covers about six weeks of costs.",
+    "Please remember seasonality after Tet when you build the numbers for next quarter."
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-10",
+  "track": "office",
+  "theme": "Feedback cho đồng nghiệp",
+  "vocab": [
+    {
+      "word": "constructive",
+      "ipa": "/kənˈstrʌktɪv/",
+      "meaning_vi": "mang tính xây dựng",
+      "example": "Her comments were constructive, so the whole team felt comfortable talking openly.",
+      "example_vi": "Những nhận xét của cô ấy mang tính xây dựng, nên cả nhóm thấy thoải mái trao đổi cởi mở."
+    },
+    {
+      "word": "feedback",
+      "ipa": "/ˈfiːdbæk/",
+      "meaning_vi": "phản hồi, góp ý",
+      "example": "Can I give you some feedback about the slides before the meeting?",
+      "example_vi": "Tôi góp ý cho bạn một chút về phần slide trước buổi họp được không?"
+    },
+    {
+      "word": "suggestion",
+      "ipa": "/səˈdʒestʃən/",
+      "meaning_vi": "lời gợi ý, đề xuất",
+      "example": "I have one small suggestion: put the summary on the first page.",
+      "example_vi": "Tôi có một gợi ý nhỏ: đặt phần tóm tắt lên trang đầu tiên."
+    },
+    {
+      "word": "come across",
+      "ipa": "/ˌkʌm əˈkrɒs/",
+      "meaning_vi": "tạo cảm giác, được người khác nhìn nhận là",
+      "example": "In long emails you sometimes come across as too direct with clients.",
+      "example_vi": "Trong các email dài, đôi khi bạn tạo cảm giác hơi thẳng thừng với khách hàng."
+    },
+    {
+      "word": "work on",
+      "ipa": "/ˈwɜːk ɒn/",
+      "meaning_vi": "cải thiện, rèn luyện (điểm nào đó)",
+      "example": "This quarter I want to work on speaking more slowly in meetings.",
+      "example_vi": "Quý này tôi muốn cải thiện việc nói chậm lại trong các buổi họp."
+    },
+    {
+      "word": "actionable",
+      "ipa": "/ˈækʃənəbl/",
+      "meaning_vi": "cụ thể, có thể bắt tay làm ngay",
+      "example": "Good feedback is actionable, not just a general opinion about someone.",
+      "example_vi": "Góp ý tốt là góp ý cụ thể để làm được, không chỉ là ý kiến chung chung về ai đó."
+    },
+    {
+      "word": "take it personally",
+      "ipa": "/ˌteɪk ɪt ˈpɜːsənəli/",
+      "meaning_vi": "để bụng, coi đó là chuyện cá nhân",
+      "example": "Please do not take it personally; I only want the report to be clearer.",
+      "example_vi": "Bạn đừng để bụng nhé; tôi chỉ muốn bản báo cáo rõ ràng hơn thôi."
+    },
+    {
+      "word": "room for improvement",
+      "ipa": "/ˌruːm fər ɪmˈpruːvmənt/",
+      "meaning_vi": "điểm còn có thể cải thiện thêm",
+      "example": "Your writing is solid, but there is still room for improvement in the structure.",
+      "example_vi": "Cách viết của bạn khá chắc, nhưng phần bố cục vẫn còn chỗ có thể cải thiện."
+    }
+  ],
+  "listening": {
+    "title": "Giving a colleague feedback after a client presentation",
+    "lines": [
+      {
+        "speaker": "Linh (Senior Executive)",
+        "voice": "female",
+        "text": "Minh, do you have ten minutes? I would like to share some feedback."
+      },
+      {
+        "speaker": "Minh (Junior Executive)",
+        "voice": "male",
+        "text": "Of course. Is it about the presentation I gave to the client yesterday?"
+      },
+      {
+        "speaker": "Linh (Senior Executive)",
+        "voice": "female",
+        "text": "Yes. Your data was very strong and the client asked good questions."
+      },
+      {
+        "speaker": "Minh (Junior Executive)",
+        "voice": "male",
+        "text": "Thank you. I prepared those numbers for almost two days."
+      },
+      {
+        "speaker": "Linh (Senior Executive)",
+        "voice": "female",
+        "text": "It showed. There is still room for improvement in how you open the meeting."
+      },
+      {
+        "speaker": "Minh (Junior Executive)",
+        "voice": "male",
+        "text": "Really? What did I do wrong at the beginning?"
+      },
+      {
+        "speaker": "Linh (Senior Executive)",
+        "voice": "female",
+        "text": "Nothing wrong. You started with details, so you come across as a little rushed."
+      },
+      {
+        "speaker": "Minh (Junior Executive)",
+        "voice": "male",
+        "text": "I see. So I should give the big picture first?"
+      },
+      {
+        "speaker": "Linh (Senior Executive)",
+        "voice": "female",
+        "text": "Exactly. My suggestion is one slide with three key messages at the start."
+      },
+      {
+        "speaker": "Minh (Junior Executive)",
+        "voice": "male",
+        "text": "That sounds actionable. I can prepare that for the meeting next Tuesday."
+      },
+      {
+        "speaker": "Linh (Senior Executive)",
+        "voice": "female",
+        "text": "Great. Please do not take it personally; you are doing well overall."
+      },
+      {
+        "speaker": "Minh (Junior Executive)",
+        "voice": "male",
+        "text": "Not at all. Constructive comments like this help me work on my weak points."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What did Linh praise in Minh's presentation?",
+        "options": [
+          "His strong data",
+          "His opening slide",
+          "His speaking speed"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What is Linh's suggestion for the beginning of the presentation?",
+        "options": [
+          "Start with the detailed numbers",
+          "One slide with three key messages",
+          "Ask the client questions first"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How does Minh react to the feedback?",
+        "options": [
+          "He disagrees with Linh",
+          "He takes it personally and feels upset",
+          "He finds it actionable and will apply it"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Do you have ten minutes? I would like to share some feedback with you.",
+    "Your data was strong, but there is still room for improvement in the structure.",
+    "Sometimes you come across as rushed, so try the big picture first.",
+    "My suggestion is very simple, and I think it is actionable for next week.",
+    "Please do not take it personally; I only want to help you improve."
+  ]
+}

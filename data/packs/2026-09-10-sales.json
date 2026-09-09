@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-10",
+  "track": "sales",
+  "theme": "Gặp khách lần đầu",
+  "vocab": [
+    {
+      "word": "rapport",
+      "ipa": "/ræˈpɔː/",
+      "meaning_vi": "sự thân thiện, mối quan hệ tốt ban đầu",
+      "example": "I always build rapport before I talk about prices or contracts.",
+      "example_vi": "Tôi luôn tạo sự thân thiện trước khi nói về giá hay hợp đồng."
+    },
+    {
+      "word": "background",
+      "ipa": "/ˈbækɡraʊnd/",
+      "meaning_vi": "thông tin nền, quá trình của công ty hoặc cá nhân",
+      "example": "Could you tell me a little about your background in the retail market?",
+      "example_vi": "Anh/chị có thể chia sẻ đôi chút về quá trình của mình trong thị trường bán lẻ không?"
+    },
+    {
+      "word": "industry",
+      "ipa": "/ˈɪndəstri/",
+      "meaning_vi": "ngành, lĩnh vực kinh doanh",
+      "example": "We work with more than forty companies in the logistics industry.",
+      "example_vi": "Chúng tôi làm việc với hơn bốn mươi công ty trong ngành logistics."
+    },
+    {
+      "word": "warm up",
+      "ipa": "/ˌwɔːm ˈʌp/",
+      "meaning_vi": "làm không khí bớt căng, khởi động câu chuyện",
+      "example": "A short question about the office helps to warm up the conversation.",
+      "example_vi": "Một câu hỏi ngắn về văn phòng giúp khởi động câu chuyện."
+    },
+    {
+      "word": "credentials",
+      "ipa": "/krəˈdenʃlz/",
+      "meaning_vi": "hồ sơ năng lực, thành tích đã chứng minh",
+      "example": "Let me show you our credentials with two customers in your industry.",
+      "example_vi": "Để tôi cho anh/chị xem hồ sơ năng lực của chúng tôi với hai khách hàng cùng ngành."
+    },
+    {
+      "word": "expectations",
+      "ipa": "/ˌekspekˈteɪʃnz/",
+      "meaning_vi": "kỳ vọng, mong đợi",
+      "example": "Before we start, may I ask about your expectations for this meeting?",
+      "example_vi": "Trước khi bắt đầu, tôi hỏi về kỳ vọng của anh/chị cho buổi họp này được không?"
+    },
+    {
+      "word": "next step",
+      "ipa": "/ˌnekst ˈstep/",
+      "meaning_vi": "bước tiếp theo sau buổi gặp",
+      "example": "The next step is a short demo for your operations team.",
+      "example_vi": "Bước tiếp theo là một buổi demo ngắn cho đội vận hành của anh/chị."
+    },
+    {
+      "word": "get to know",
+      "ipa": "/ˌɡet tə ˈnəʊ/",
+      "meaning_vi": "tìm hiểu, làm quen",
+      "example": "Today I mainly want to get to know your team and your process.",
+      "example_vi": "Hôm nay tôi chủ yếu muốn tìm hiểu về đội ngũ và quy trình của anh/chị."
+    }
+  ],
+  "listening": {
+    "title": "First meeting with a new customer",
+    "lines": [
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "Good morning, Ms. Hoa. Thank you for making time for me today."
+      },
+      {
+        "speaker": "Hoa (Purchasing Manager)",
+        "voice": "female",
+        "text": "You are welcome. Your office is quite far from here, isn't it?"
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "About thirty minutes by taxi. Your new building looks very modern."
+      },
+      {
+        "speaker": "Hoa (Purchasing Manager)",
+        "voice": "female",
+        "text": "We moved in last month. So, what does your company do exactly?"
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "We build warehouse software. We have strong credentials in the logistics industry."
+      },
+      {
+        "speaker": "Hoa (Purchasing Manager)",
+        "voice": "female",
+        "text": "Interesting. How many customers like us are you working with?"
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "Forty-two, and six of them have a similar background to your company."
+      },
+      {
+        "speaker": "Hoa (Purchasing Manager)",
+        "voice": "female",
+        "text": "Good to hear. Today I only want general information, not a full proposal."
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "That matches my expectations too. I mainly want to get to know your process."
+      },
+      {
+        "speaker": "Hoa (Purchasing Manager)",
+        "voice": "female",
+        "text": "Then let me explain how our warehouse team works every morning."
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "Please do. After that, may I suggest a next step for both sides?"
+      },
+      {
+        "speaker": "Hoa (Purchasing Manager)",
+        "voice": "female",
+        "text": "Sure. If the fit is good, we can arrange a demo in October."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Nam's company sell?",
+        "options": [
+          "Warehouse software",
+          "Office furniture",
+          "Delivery trucks"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Hoa want from this first meeting?",
+        "options": [
+          "A signed contract",
+          "General information only",
+          "A discount on the price"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What could the next step be?",
+        "options": [
+          "A demo in October",
+          "A visit to Nam's office",
+          "A written quotation this week"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Thank you for making time today; I mainly want to get to know you.",
+    "A short question about the new office helps to warm up the conversation.",
+    "We have strong credentials with several customers in the logistics industry.",
+    "May I ask about your expectations for this meeting before we start?",
+    "If this looks useful, the next step could be a short demo."
+  ]
+}
