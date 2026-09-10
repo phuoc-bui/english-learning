@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-11",
+  "track": "interview",
+  "theme": "Deal lương khi phỏng vấn",
+  "vocab": [
+    {
+      "word": "salary range",
+      "ipa": "/ˈsæləri reɪndʒ/",
+      "meaning_vi": "khoảng lương cho vị trí",
+      "example": "Could you tell me the salary range for this position before we continue?",
+      "example_vi": "Anh/chị có thể cho tôi biết khoảng lương của vị trí này trước khi mình trao đổi tiếp không?"
+    },
+    {
+      "word": "expected salary",
+      "ipa": "/ɪkˈspektɪd ˈsæləri/",
+      "meaning_vi": "mức lương mong muốn",
+      "example": "My expected salary is based on my five years of experience in testing.",
+      "example_vi": "Mức lương mong muốn của tôi dựa trên năm năm kinh nghiệm làm kiểm thử."
+    },
+    {
+      "word": "gross salary",
+      "ipa": "/ɡrəʊs ˈsæləri/",
+      "meaning_vi": "lương gộp, trước thuế và bảo hiểm",
+      "example": "The number in the offer letter is the gross salary before tax and insurance.",
+      "example_vi": "Con số trong thư mời nhận việc là lương gộp trước thuế và bảo hiểm."
+    },
+    {
+      "word": "take-home pay",
+      "ipa": "/ˌteɪk həʊm ˈpeɪ/",
+      "meaning_vi": "lương thực nhận",
+      "example": "I would like to know my take-home pay after tax and social insurance.",
+      "example_vi": "Tôi muốn biết lương thực nhận của mình sau thuế và bảo hiểm xã hội."
+    },
+    {
+      "word": "probation salary",
+      "ipa": "/prəˈbeɪʃn ˈsæləri/",
+      "meaning_vi": "lương thử việc",
+      "example": "The probation salary is eighty-five percent of the full salary for two months.",
+      "example_vi": "Lương thử việc bằng tám mươi lăm phần trăm lương chính thức trong hai tháng."
+    },
+    {
+      "word": "performance bonus",
+      "ipa": "/pəˈfɔːməns ˈbəʊnəs/",
+      "meaning_vi": "thưởng theo hiệu quả công việc",
+      "example": "The company pays a performance bonus twice a year based on your results.",
+      "example_vi": "Công ty trả thưởng theo hiệu quả công việc hai lần một năm dựa trên kết quả của bạn."
+    },
+    {
+      "word": "sign-on bonus",
+      "ipa": "/ˈsaɪn ɒn ˈbəʊnəs/",
+      "meaning_vi": "thưởng khi nhận việc, thưởng ký hợp đồng",
+      "example": "They offered a small sign-on bonus because I must leave my current job early.",
+      "example_vi": "Họ đề nghị một khoản thưởng nhận việc nhỏ vì tôi phải nghỉ việc hiện tại sớm."
+    },
+    {
+      "word": "ballpark figure",
+      "ipa": "/ˈbɔːlpɑːk ˈfɪɡə/",
+      "meaning_vi": "con số ước chừng",
+      "example": "I cannot give an exact number today, but I can give a ballpark figure.",
+      "example_vi": "Hôm nay tôi chưa thể đưa con số chính xác, nhưng tôi có thể đưa một con số ước chừng."
+    }
+  ],
+  "listening": {
+    "title": "Talking about salary in the final interview round",
+    "lines": [
+      { "speaker": "Thu (HR Manager)", "voice": "female", "text": "Khoa, we are happy with your interview. May I ask about your expected salary?" },
+      { "speaker": "Khoa (Candidate)", "voice": "male", "text": "Thank you. Could you first share the salary range for this position?" },
+      { "speaker": "Thu (HR Manager)", "voice": "female", "text": "The range is twenty to twenty-eight million VND, depending on experience." },
+      { "speaker": "Khoa (Candidate)", "voice": "male", "text": "I see. Is that number the gross salary before tax and insurance?" },
+      { "speaker": "Thu (HR Manager)", "voice": "female", "text": "Yes, it is. Your take-home pay will be lower after tax and social insurance." },
+      { "speaker": "Khoa (Candidate)", "voice": "male", "text": "Understood. A ballpark figure for me would be around twenty-six million gross." },
+      { "speaker": "Thu (HR Manager)", "voice": "female", "text": "That is possible. Please note the probation salary is eighty-five percent for two months." },
+      { "speaker": "Khoa (Candidate)", "voice": "male", "text": "That is fine. Does the company also pay a performance bonus during the year?" },
+      { "speaker": "Thu (HR Manager)", "voice": "female", "text": "Yes, twice a year, and we can discuss a small sign-on bonus for you." },
+      { "speaker": "Khoa (Candidate)", "voice": "male", "text": "That sounds fair. Could you send the details in writing so I can review them?" }
+    ],
+    "questions": [
+      {
+        "q": "What does Khoa ask before giving his own number?",
+        "options": ["The salary range for the position", "The name of his future manager", "The address of the office"],
+        "answer": 0
+      },
+      {
+        "q": "What is the probation salary?",
+        "options": ["The full salary from the first day", "Eighty-five percent for two months", "Fifty percent for three months"],
+        "answer": 1
+      },
+      {
+        "q": "How often does the company pay a performance bonus?",
+        "options": ["Every month", "Twice a year", "Only when a project ends"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you share the salary range for this position before I give a number?",
+    "My expected salary is twenty-six million gross, based on five years of experience.",
+    "I would like to understand my take-home pay after tax and social insurance.",
+    "Could you tell me how the probation salary and the performance bonus work here?",
+    "I am flexible, but a sign-on bonus would help me leave my current job."
+  ]
+}

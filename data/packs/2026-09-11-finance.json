@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-11",
+  "track": "finance",
+  "theme": "Trao đổi với kế toán thuế",
+  "vocab": [
+    {
+      "word": "deductible expense",
+      "ipa": "/dɪˈdʌktəbl ɪkˈspens/",
+      "meaning_vi": "chi phí được trừ khi tính thuế",
+      "example": "Staff training is a deductible expense if we keep the invoice and the contract.",
+      "example_vi": "Chi phí đào tạo nhân viên là chi phí được trừ nếu chúng ta giữ hoá đơn và hợp đồng."
+    },
+    {
+      "word": "tax rate",
+      "ipa": "/tæks reɪt/",
+      "meaning_vi": "thuế suất",
+      "example": "The tax rate for this service is ten percent, not eight percent.",
+      "example_vi": "Thuế suất cho dịch vụ này là mười phần trăm, không phải tám phần trăm."
+    },
+    {
+      "word": "late payment interest",
+      "ipa": "/leɪt ˈpeɪmənt ˈɪntrəst/",
+      "meaning_vi": "tiền lãi chậm nộp",
+      "example": "If we pay after the deadline, the company must also pay late payment interest.",
+      "example_vi": "Nếu nộp sau hạn, công ty còn phải trả thêm tiền lãi chậm nộp."
+    },
+    {
+      "word": "exempt",
+      "ipa": "/ɪɡˈzempt/",
+      "meaning_vi": "được miễn thuế",
+      "example": "Some export services are exempt, so we do not charge tax on them.",
+      "example_vi": "Một số dịch vụ xuất khẩu được miễn thuế, nên chúng ta không tính thuế cho chúng."
+    },
+    {
+      "word": "tax filing deadline",
+      "ipa": "/tæks ˈfaɪlɪŋ ˈdedlaɪn/",
+      "meaning_vi": "hạn nộp hồ sơ thuế",
+      "example": "The tax filing deadline for this quarter is the thirtieth of April.",
+      "example_vi": "Hạn nộp hồ sơ thuế của quý này là ngày ba mươi tháng Tư."
+    },
+    {
+      "word": "tax consultant",
+      "ipa": "/tæks kənˈsʌltənt/",
+      "meaning_vi": "chuyên viên tư vấn thuế",
+      "example": "Our tax consultant checks the report before we send it to the tax office.",
+      "example_vi": "Chuyên viên tư vấn thuế của chúng tôi kiểm tra báo cáo trước khi gửi lên cơ quan thuế."
+    },
+    {
+      "word": "dependant deduction",
+      "ipa": "/dɪˈpendənt dɪˈdʌkʃn/",
+      "meaning_vi": "giảm trừ gia cảnh cho người phụ thuộc",
+      "example": "He can claim a dependant deduction for his two children this year.",
+      "example_vi": "Anh ấy có thể đăng ký giảm trừ gia cảnh cho hai con của mình trong năm nay."
+    },
+    {
+      "word": "refund claim",
+      "ipa": "/ˈriːfʌnd kleɪm/",
+      "meaning_vi": "hồ sơ đề nghị hoàn thuế",
+      "example": "We will prepare a refund claim because we paid more tax than required.",
+      "example_vi": "Chúng tôi sẽ chuẩn bị hồ sơ đề nghị hoàn thuế vì đã nộp nhiều hơn mức phải nộp."
+    }
+  ],
+  "listening": {
+    "title": "Checking the quarterly tax report with the tax consultant",
+    "lines": [
+      { "speaker": "Ha (Chief Accountant)", "voice": "female", "text": "Hello Long. I would like you to check our tax report before Friday." },
+      { "speaker": "Long (Tax Consultant)", "voice": "male", "text": "Of course. When exactly is the tax filing deadline for this quarter?" },
+      { "speaker": "Ha (Chief Accountant)", "voice": "female", "text": "The thirtieth of April. We want to send everything two days earlier." },
+      { "speaker": "Long (Tax Consultant)", "voice": "male", "text": "Good. If we are late, the company will pay late payment interest." },
+      { "speaker": "Ha (Chief Accountant)", "voice": "female", "text": "Exactly. I also have a question about the training course for our staff." },
+      { "speaker": "Long (Tax Consultant)", "voice": "male", "text": "Training is a deductible expense when you keep the invoice and the contract." },
+      { "speaker": "Ha (Chief Accountant)", "voice": "female", "text": "We have both. And what tax rate should we use for this service?" },
+      { "speaker": "Long (Tax Consultant)", "voice": "male", "text": "Ten percent. Some export services are exempt, but this one is not." },
+      { "speaker": "Ha (Chief Accountant)", "voice": "female", "text": "Understood. Two employees also want to register a dependant deduction for their children." },
+      { "speaker": "Long (Tax Consultant)", "voice": "male", "text": "Send me their documents. We may also prepare a refund claim for last year." }
+    ],
+    "questions": [
+      {
+        "q": "When is the tax filing deadline for this quarter?",
+        "options": ["The twentieth of April", "The thirtieth of April", "The end of May"],
+        "answer": 1
+      },
+      {
+        "q": "What must the company keep for the training cost?",
+        "options": ["The invoice and the contract", "Only the bank statement", "A photo of the classroom"],
+        "answer": 0
+      },
+      {
+        "q": "What tax rate does Long say they must use?",
+        "options": ["Eight percent", "Ten percent", "Zero percent"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Please check the report before Friday because the tax filing deadline is next week.",
+    "Training is a deductible expense when we keep the invoice and the signed contract.",
+    "If we pay late, the company must also pay late payment interest to the state.",
+    "Our tax consultant says this service is not exempt from the ten percent rate.",
+    "I will prepare the dependant deduction papers and the refund claim this afternoon."
+  ]
+}

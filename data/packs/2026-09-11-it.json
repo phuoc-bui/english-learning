@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-11",
+  "track": "it",
+  "theme": "Small talk đầu giờ & pantry chat",
+  "vocab": [
+    {
+      "word": "how's it going",
+      "ipa": "/haʊz ɪt ˈɡəʊɪŋ/",
+      "meaning_vi": "dạo này thế nào?, mọi việc ổn chứ?",
+      "example": "How's it going with the new testing tool your team started using last week?",
+      "example_vi": "Mọi việc với công cụ kiểm thử mới mà nhóm bạn bắt đầu dùng tuần trước thế nào rồi?"
+    },
+    {
+      "word": "same here",
+      "ipa": "/seɪm hɪə/",
+      "meaning_vi": "tôi cũng vậy",
+      "example": "Same here, I also spent the whole weekend fixing my old laptop at home.",
+      "example_vi": "Tôi cũng vậy, tôi cũng dành cả cuối tuần để sửa cái laptop cũ ở nhà."
+    },
+    {
+      "word": "run into",
+      "ipa": "/rʌn ˈɪntuː/",
+      "meaning_vi": "tình cờ gặp ai đó",
+      "example": "I often run into my old teammate near the coffee machine on Monday mornings.",
+      "example_vi": "Tôi hay tình cờ gặp đồng đội cũ gần máy pha cà phê vào sáng thứ Hai."
+    },
+    {
+      "word": "grab a bite",
+      "ipa": "/ɡræb ə baɪt/",
+      "meaning_vi": "ăn nhanh cái gì đó",
+      "example": "Do you want to grab a bite downstairs before the sprint planning at one?",
+      "example_vi": "Bạn có muốn xuống dưới ăn nhanh gì đó trước buổi họp lên kế hoạch sprint lúc một giờ không?"
+    },
+    {
+      "word": "canteen",
+      "ipa": "/kænˈtiːn/",
+      "meaning_vi": "căng tin, nhà ăn của công ty",
+      "example": "The canteen on the third floor is quiet before eleven, so we eat early.",
+      "example_vi": "Căng tin ở tầng ba khá vắng trước mười một giờ, nên bọn tôi ăn sớm."
+    },
+    {
+      "word": "in a rush",
+      "ipa": "/ɪn ə rʌʃ/",
+      "meaning_vi": "đang vội",
+      "example": "Sorry, I am in a rush because my code review starts in five minutes.",
+      "example_vi": "Xin lỗi, tôi đang vội vì buổi review code của tôi bắt đầu sau năm phút nữa."
+    },
+    {
+      "word": "by the way",
+      "ipa": "/baɪ ðə ˈweɪ/",
+      "meaning_vi": "nhân tiện, à mà",
+      "example": "By the way, did you see the email about the office wifi upgrade tonight?",
+      "example_vi": "Nhân tiện, bạn đã xem email về việc nâng cấp wifi văn phòng tối nay chưa?"
+    },
+    {
+      "word": "get some fresh air",
+      "ipa": "/ɡet səm freʃ eə/",
+      "meaning_vi": "ra ngoài hít thở không khí",
+      "example": "I usually get some fresh air after lunch to stay awake in the afternoon.",
+      "example_vi": "Tôi thường ra ngoài hít thở không khí sau bữa trưa để buổi chiều đỡ buồn ngủ."
+    }
+  ],
+  "listening": {
+    "title": "Morning chat in the office pantry",
+    "lines": [
+      { "speaker": "Hoa (QA Engineer)", "voice": "female", "text": "Morning, Minh. How's it going? You look a bit tired today." },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "Morning, Hoa. I am fine, just a little sleepy. The traffic was terrible." },
+      { "speaker": "Hoa (QA Engineer)", "voice": "female", "text": "Same here. I left home at seven and still arrived ten minutes late." },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "By the way, did you try the new coffee machine in the pantry?" },
+      { "speaker": "Hoa (QA Engineer)", "voice": "female", "text": "Not yet. I usually make tea, but I can try it this morning." },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "You should. I run into half of the backend team here every morning." },
+      { "speaker": "Hoa (QA Engineer)", "voice": "female", "text": "That is nice. Are you free at noon? We can grab a bite together." },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "Sure. The canteen is quiet before eleven thirty, so let us go early." },
+      { "speaker": "Hoa (QA Engineer)", "voice": "female", "text": "Good idea. After lunch I like to get some fresh air for ten minutes." },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "Me too. Sorry, I am in a rush now, my standup starts in two minutes." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Minh look tired?",
+        "options": ["He is sleepy and the traffic was terrible", "He worked all night on a production bug", "He just came back from a business trip"],
+        "answer": 0
+      },
+      {
+        "q": "What does Minh suggest trying in the pantry?",
+        "options": ["The tea from the third floor", "The new coffee machine", "The snacks in the fridge"],
+        "answer": 1
+      },
+      {
+        "q": "Why must Minh leave quickly?",
+        "options": ["He has a call with a client", "His standup starts in two minutes", "He is going to the canteen now"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Morning, how's it going? You look tired, did you sleep badly again last night?",
+    "Same here, the traffic this morning was terrible and I arrived ten minutes late.",
+    "By the way, do you want to grab a bite in the canteen at noon?",
+    "Sorry, I am in a rush because my daily standup starts in two minutes.",
+    "I often run into my teammates here when I get some fresh air outside."
+  ]
+}

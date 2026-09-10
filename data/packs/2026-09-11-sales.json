@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-11",
+  "track": "sales",
+  "theme": "Chăm sóc khách sau bán",
+  "vocab": [
+    {
+      "word": "onboarding call",
+      "ipa": "/ˈɒnbɔːdɪŋ kɔːl/",
+      "meaning_vi": "buổi gọi hướng dẫn khách sau khi ký hợp đồng",
+      "example": "We book an onboarding call in the first week so new users start quickly.",
+      "example_vi": "Chúng tôi đặt lịch một buổi gọi hướng dẫn trong tuần đầu để người dùng mới bắt đầu nhanh."
+    },
+    {
+      "word": "renewal",
+      "ipa": "/rɪˈnjuːəl/",
+      "meaning_vi": "việc gia hạn hợp đồng",
+      "example": "The contract renewal is in March, so I will contact the client in January.",
+      "example_vi": "Hợp đồng sẽ gia hạn vào tháng Ba, nên tôi sẽ liên hệ khách từ tháng Một."
+    },
+    {
+      "word": "churn",
+      "ipa": "/tʃɜːn/",
+      "meaning_vi": "tỉ lệ khách rời bỏ dịch vụ",
+      "example": "Our churn went down after we added a support line for big accounts.",
+      "example_vi": "Tỉ lệ khách rời bỏ đã giảm sau khi chúng tôi thêm đường dây hỗ trợ cho khách lớn."
+    },
+    {
+      "word": "customer satisfaction",
+      "ipa": "/ˈkʌstəmə ˌsætɪsˈfækʃn/",
+      "meaning_vi": "mức độ hài lòng của khách hàng",
+      "example": "Customer satisfaction is high this quarter, but two clients report slow answers.",
+      "example_vi": "Mức độ hài lòng của khách quý này khá cao, nhưng hai khách phản ánh phản hồi chậm."
+    },
+    {
+      "word": "dedicated support",
+      "ipa": "/ˈdedɪkeɪtɪd səˈpɔːt/",
+      "meaning_vi": "hỗ trợ riêng, có người phụ trách riêng",
+      "example": "Premium clients get dedicated support with one engineer for their account.",
+      "example_vi": "Khách hàng gói cao cấp được hỗ trợ riêng với một kỹ sư phụ trách tài khoản của họ."
+    },
+    {
+      "word": "proactive",
+      "ipa": "/prəʊˈæktɪv/",
+      "meaning_vi": "chủ động, làm trước khi vấn đề xảy ra",
+      "example": "Please be proactive and call the client before they notice the problem.",
+      "example_vi": "Hãy chủ động và gọi cho khách trước khi họ nhận ra vấn đề."
+    },
+    {
+      "word": "response time",
+      "ipa": "/rɪˈspɒns taɪm/",
+      "meaning_vi": "thời gian phản hồi khách",
+      "example": "Our average response time is now four hours instead of one working day.",
+      "example_vi": "Thời gian phản hồi trung bình của chúng tôi hiện là bốn giờ thay vì một ngày làm việc."
+    },
+    {
+      "word": "refresher training",
+      "ipa": "/rɪˈfreʃə ˈtreɪnɪŋ/",
+      "meaning_vi": "buổi đào tạo nhắc lại",
+      "example": "We offer free refresher training whenever the client hires new staff.",
+      "example_vi": "Chúng tôi tổ chức đào tạo nhắc lại miễn phí mỗi khi khách tuyển nhân sự mới."
+    }
+  ],
+  "listening": {
+    "title": "A follow-up call with a client after the first month",
+    "lines": [
+      { "speaker": "Mai (Customer Success Executive)", "voice": "female", "text": "Hello Mr. Duy. I am calling to check how your team is using the system." },
+      { "speaker": "Duy (Client, IT Manager)", "voice": "male", "text": "Hello Mai. In general it is fine, but some staff are still confused." },
+      { "speaker": "Mai (Customer Success Executive)", "voice": "female", "text": "I see. Would a refresher training session next week help your new staff?" },
+      { "speaker": "Duy (Client, IT Manager)", "voice": "male", "text": "Yes, that would be useful. We hired four people after the onboarding call." },
+      { "speaker": "Mai (Customer Success Executive)", "voice": "female", "text": "No problem. I will also send the short video guides again by email." },
+      { "speaker": "Duy (Client, IT Manager)", "voice": "male", "text": "Thank you. One more thing: our tickets sometimes wait a whole day." },
+      { "speaker": "Mai (Customer Success Executive)", "voice": "female", "text": "I am sorry about that. Your plan includes dedicated support with a four-hour response time." },
+      { "speaker": "Duy (Client, IT Manager)", "voice": "male", "text": "Good to know. Please make sure the support team is aware of that." },
+      { "speaker": "Mai (Customer Success Executive)", "voice": "female", "text": "I will. Being proactive matters to us because customer satisfaction is our main goal." },
+      { "speaker": "Duy (Client, IT Manager)", "voice": "male", "text": "I appreciate it. We will decide about the renewal at the end of the quarter." }
+    ],
+    "questions": [
+      {
+        "q": "What does Mai offer for the new staff?",
+        "options": ["A refresher training session", "A discount on the contract", "A second onboarding call"],
+        "answer": 0
+      },
+      {
+        "q": "What problem does Duy mention?",
+        "options": ["The system is often offline", "Tickets sometimes wait a whole day", "The price went up this month"],
+        "answer": 1
+      },
+      {
+        "q": "What response time does Duy's plan include?",
+        "options": ["One working day", "Four hours", "Thirty minutes"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "I am calling to check how your team is using the system this month.",
+    "Would a refresher training session next week help the new staff on your team?",
+    "Your plan includes dedicated support with a four-hour response time for urgent tickets.",
+    "We stay proactive because customer satisfaction keeps our churn low every single quarter.",
+    "Let us talk about the renewal before the contract ends at the end of March."
+  ]
+}

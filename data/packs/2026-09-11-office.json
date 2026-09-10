@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-11",
+  "track": "office",
+  "theme": "Deal deadline",
+  "vocab": [
+    {
+      "word": "tight timeline",
+      "ipa": "/taɪt ˈtaɪmlaɪn/",
+      "meaning_vi": "lịch trình gấp, thời gian eo hẹp",
+      "example": "Two weeks for the whole campaign is a very tight timeline for our team.",
+      "example_vi": "Hai tuần cho cả chiến dịch là một lịch trình rất gấp đối với nhóm chúng tôi."
+    },
+    {
+      "word": "push back the date",
+      "ipa": "/pʊʃ bæk ðə deɪt/",
+      "meaning_vi": "dời ngày lại muộn hơn",
+      "example": "Can we push back the date by three days so the design team can finish?",
+      "example_vi": "Chúng ta có thể dời hạn lại ba ngày để nhóm thiết kế kịp hoàn thành không?"
+    },
+    {
+      "word": "realistic timeline",
+      "ipa": "/ˌrɪəˈlɪstɪk ˈtaɪmlaɪn/",
+      "meaning_vi": "mốc thời gian khả thi",
+      "example": "Let us agree on a realistic timeline instead of promising something we cannot do.",
+      "example_vi": "Hãy thống nhất một mốc thời gian khả thi thay vì hứa điều chúng ta không làm được."
+    },
+    {
+      "word": "cut scope",
+      "ipa": "/kʌt skəʊp/",
+      "meaning_vi": "cắt bớt phạm vi công việc",
+      "example": "If we cannot move the date, we should cut scope and drop the video.",
+      "example_vi": "Nếu không dời được hạn, chúng ta nên cắt bớt phạm vi và bỏ phần video."
+    },
+    {
+      "word": "scope creep",
+      "ipa": "/skəʊp kriːp/",
+      "meaning_vi": "phạm vi công việc phình ra ngoài kế hoạch",
+      "example": "Scope creep is the main reason our last project finished two weeks late.",
+      "example_vi": "Việc phạm vi công việc phình ra là lý do chính khiến dự án trước trễ hai tuần."
+    },
+    {
+      "word": "deprioritize",
+      "ipa": "/ˌdiːpraɪˈɒrətaɪz/",
+      "meaning_vi": "hạ mức ưu tiên",
+      "example": "We can deprioritize the newsletter and focus on the launch page first.",
+      "example_vi": "Chúng ta có thể hạ ưu tiên bản tin và tập trung vào trang ra mắt trước."
+    },
+    {
+      "word": "drop-dead date",
+      "ipa": "/drɒp ded deɪt/",
+      "meaning_vi": "hạn chót không thể trễ",
+      "example": "The drop-dead date is Friday because the client will print the brochure that night.",
+      "example_vi": "Hạn chót không thể trễ là thứ Sáu vì khách sẽ in cuốn brochure ngay tối đó."
+    },
+    {
+      "word": "lead time",
+      "ipa": "/liːd taɪm/",
+      "meaning_vi": "thời gian cần chuẩn bị trước",
+      "example": "The printing company needs a lead time of five working days for large orders.",
+      "example_vi": "Công ty in cần thời gian chuẩn bị trước năm ngày làm việc cho các đơn hàng lớn."
+    }
+  ],
+  "listening": {
+    "title": "Negotiating a new deadline with the team leader",
+    "lines": [
+      { "speaker": "Trang (Content Lead)", "voice": "female", "text": "Nam, I need to talk about the campaign deadline. It is a very tight timeline." },
+      { "speaker": "Nam (Team Leader)", "voice": "male", "text": "I understand. How many days behind are we at the moment?" },
+      { "speaker": "Trang (Content Lead)", "voice": "female", "text": "About four days. The design team received the brief late last week." },
+      { "speaker": "Nam (Team Leader)", "voice": "male", "text": "Can we push back the date, or is Friday fixed for the client?" },
+      { "speaker": "Trang (Content Lead)", "voice": "female", "text": "Friday is the drop-dead date because the brochure goes to printing that night." },
+      { "speaker": "Nam (Team Leader)", "voice": "male", "text": "Then we cannot move it. What can we cut scope on this week?" },
+      { "speaker": "Trang (Content Lead)", "voice": "female", "text": "We can deprioritize the newsletter and deliver only the landing page and the banners." },
+      { "speaker": "Nam (Team Leader)", "voice": "male", "text": "That sounds sensible. Please remember the printer also needs a five-day lead time." },
+      { "speaker": "Trang (Content Lead)", "voice": "female", "text": "Yes. I will send a realistic timeline this afternoon and share it with everyone." },
+      { "speaker": "Nam (Team Leader)", "voice": "male", "text": "Great. And let us avoid scope creep by writing down what we agreed today." }
+    ],
+    "questions": [
+      {
+        "q": "Why can the team not move the deadline?",
+        "options": ["The client is away on holiday", "The brochure goes to printing on Friday night", "The design team is too busy next week"],
+        "answer": 1
+      },
+      {
+        "q": "What does Trang suggest deprioritizing?",
+        "options": ["The landing page", "The banners", "The newsletter"],
+        "answer": 2
+      },
+      {
+        "q": "How does Nam want to avoid scope creep?",
+        "options": ["By writing down what they agreed today", "By hiring two more designers", "By asking the client for more money"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Two weeks is a very tight timeline, so we need to cut scope somewhere.",
+    "Can we push back the date by three days and still keep the client happy?",
+    "Friday is the drop-dead date, so please plan the printing lead time carefully.",
+    "Let us deprioritize the newsletter and finish the landing page before the launch.",
+    "I will send a realistic timeline today so we can avoid scope creep later."
+  ]
+}
