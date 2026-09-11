@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-12",
+  "track": "office",
+  "theme": "Gọi điện với đối tác",
+  "vocab": [
+    {
+      "word": "extension number",
+      "ipa": "/ɪkˈstenʃn ˈnʌmbə/",
+      "meaning_vi": "số máy lẻ",
+      "example": "Could you give me her extension number so I can call the finance room?",
+      "example_vi": "Bạn cho tôi xin số máy lẻ của chị ấy để tôi gọi vào phòng tài chính nhé?"
+    },
+    {
+      "word": "speak up",
+      "ipa": "/spiːk ʌp/",
+      "meaning_vi": "nói to hơn",
+      "example": "Sorry, could you speak up a little? The office is very noisy this morning.",
+      "example_vi": "Xin lỗi, bạn nói to hơn một chút được không? Sáng nay văn phòng rất ồn."
+    },
+    {
+      "word": "get back to you",
+      "ipa": "/ɡet bæk tə juː/",
+      "meaning_vi": "phản hồi lại cho bạn sau",
+      "example": "Let me check the contract first and I will get back to you today.",
+      "example_vi": "Để tôi kiểm tra hợp đồng trước rồi tôi sẽ phản hồi lại cho bạn trong hôm nay."
+    },
+    {
+      "word": "conference call",
+      "ipa": "/ˈkɒnfərəns kɔːl/",
+      "meaning_vi": "cuộc gọi hội nghị nhiều người",
+      "example": "We set up a conference call so both offices can discuss the plan together.",
+      "example_vi": "Chúng tôi sắp xếp một cuộc gọi hội nghị để hai văn phòng cùng bàn kế hoạch."
+    },
+    {
+      "word": "hang up",
+      "ipa": "/hæŋ ʌp/",
+      "meaning_vi": "cúp máy",
+      "example": "Before you hang up, please confirm the meeting room and the starting time.",
+      "example_vi": "Trước khi cúp máy, bạn hãy xác nhận lại phòng họp và giờ bắt đầu nhé."
+    },
+    {
+      "word": "poor reception",
+      "ipa": "/pɔː rɪˈsepʃn/",
+      "meaning_vi": "sóng yếu, tín hiệu kém",
+      "example": "There is poor reception in the basement, so I will call you from upstairs.",
+      "example_vi": "Dưới tầng hầm sóng yếu lắm, nên tôi sẽ gọi cho bạn từ tầng trên."
+    },
+    {
+      "word": "return a call",
+      "ipa": "/rɪˈtɜːn ə kɔːl/",
+      "meaning_vi": "gọi lại cho ai đó",
+      "example": "Please ask Mr. Khoa to return a call when his meeting finishes at three.",
+      "example_vi": "Nhờ bạn nói anh Khoa gọi lại cho tôi khi cuộc họp của anh ấy kết thúc lúc ba giờ."
+    },
+    {
+      "word": "wrong number",
+      "ipa": "/rɒŋ ˈnʌmbə/",
+      "meaning_vi": "gọi nhầm số",
+      "example": "I am sorry, I think I dialled the wrong number. Is this the sales office?",
+      "example_vi": "Xin lỗi, tôi nghĩ tôi đã bấm nhầm số. Đây có phải phòng kinh doanh không ạ?"
+    }
+  ],
+  "listening": {
+    "title": "Calling a partner about a delivery",
+    "lines": [
+      { "speaker": "Thu (Partner Coordinator)", "voice": "female", "text": "Good afternoon, ABC Logistics. This is Thu speaking. How can I help you?" },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "Hello Thu, this is Nam from Delta Software. Could I speak to Mr. Khoa, please?" },
+      { "speaker": "Thu (Partner Coordinator)", "voice": "female", "text": "I am sorry, could you speak up? I think we have poor reception here." },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "Is this better? I am calling about the delivery schedule for next week." },
+      { "speaker": "Thu (Partner Coordinator)", "voice": "female", "text": "Much better, thank you. Mr. Khoa is in a meeting until three o'clock." },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "I see. Could you give me his extension number so I can try again later?" },
+      { "speaker": "Thu (Partner Coordinator)", "voice": "female", "text": "It is one two four. Or I can ask him to return a call." },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "That would be great. Please tell him the delivery date has changed to Friday." },
+      { "speaker": "Thu (Partner Coordinator)", "voice": "female", "text": "Noted. Should I also invite you to the conference call tomorrow morning?" },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "Yes please, and I will get back to you with the final quantity today." },
+      { "speaker": "Thu (Partner Coordinator)", "voice": "female", "text": "Perfect. Before we hang up, let me repeat your phone number for confirmation." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Thu ask Nam to speak up?",
+        "options": ["There is poor reception", "Nam speaks too fast", "The office is closed"],
+        "answer": 0
+      },
+      {
+        "q": "What is Mr. Khoa's extension number?",
+        "options": ["One two four", "Three four five", "Two one four"],
+        "answer": 0
+      },
+      {
+        "q": "What has changed in the plan?",
+        "options": ["The price", "The delivery date", "The meeting room"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Sorry, could you speak up a little? The reception here is quite poor.",
+    "May I have your extension number so I can call you back directly?",
+    "He is in a meeting right now, but I will get back to you.",
+    "Let me join the conference call and share the numbers with both teams.",
+    "Before we hang up, let me repeat the delivery date to avoid any mistake."
+  ]
+}

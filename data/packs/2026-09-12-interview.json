@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-12",
+  "track": "interview",
+  "theme": "Câu hỏi ngược cho nhà tuyển dụng",
+  "vocab": [
+    {
+      "word": "typical week",
+      "ipa": "/ˈtɪpɪkl wiːk/",
+      "meaning_vi": "một tuần làm việc điển hình",
+      "example": "Could you describe a typical week for the person who takes this role?",
+      "example_vi": "Anh/chị có thể mô tả một tuần làm việc điển hình của người đảm nhận vị trí này không?"
+    },
+    {
+      "word": "team size",
+      "ipa": "/tiːm saɪz/",
+      "meaning_vi": "quy mô đội nhóm",
+      "example": "May I ask about the team size and who I would report to daily?",
+      "example_vi": "Em có thể hỏi về quy mô đội nhóm và người em sẽ báo cáo hằng ngày không ạ?"
+    },
+    {
+      "word": "how decisions are made",
+      "ipa": "/haʊ dɪˈsɪʒnz ə meɪd/",
+      "meaning_vi": "cách các quyết định được đưa ra",
+      "example": "I would like to understand how decisions are made when the team disagrees.",
+      "example_vi": "Em muốn hiểu cách các quyết định được đưa ra khi cả nhóm không đồng ý với nhau."
+    },
+    {
+      "word": "hybrid working",
+      "ipa": "/ˈhaɪbrɪd ˈwɜːkɪŋ/",
+      "meaning_vi": "làm việc kết hợp tại văn phòng và ở nhà",
+      "example": "Is hybrid working possible in this role, or is it fully onsite?",
+      "example_vi": "Vị trí này có thể làm việc kết hợp không, hay phải làm toàn thời gian tại văn phòng ạ?"
+    },
+    {
+      "word": "learning support",
+      "ipa": "/ˈlɜːnɪŋ səˈpɔːt/",
+      "meaning_vi": "hỗ trợ học tập, đào tạo",
+      "example": "Does the company offer learning support such as courses or certification fees?",
+      "example_vi": "Công ty có hỗ trợ học tập như khoá học hay phí thi chứng chỉ không ạ?"
+    },
+    {
+      "word": "onboarding buddy",
+      "ipa": "/ˈɒnbɔːdɪŋ ˈbʌdi/",
+      "meaning_vi": "người kèm cặp nhân viên mới",
+      "example": "Every new engineer gets an onboarding buddy for the first two months here.",
+      "example_vi": "Mỗi kỹ sư mới đều có một người kèm cặp trong hai tháng đầu tiên ở đây."
+    },
+    {
+      "word": "team culture",
+      "ipa": "/tiːm ˈkʌltʃə/",
+      "meaning_vi": "văn hoá đội nhóm",
+      "example": "How would you describe the team culture to someone joining next month?",
+      "example_vi": "Anh/chị sẽ mô tả văn hoá đội nhóm thế nào với người sắp vào làm tháng sau ạ?"
+    },
+    {
+      "word": "next round",
+      "ipa": "/nekst raʊnd/",
+      "meaning_vi": "vòng phỏng vấn tiếp theo",
+      "example": "What is the next round, and when should I expect your feedback?",
+      "example_vi": "Vòng phỏng vấn tiếp theo là gì, và khi nào em có thể nhận phản hồi ạ?"
+    }
+  ],
+  "listening": {
+    "title": "The candidate asks the questions",
+    "lines": [
+      { "speaker": "Mai (Hiring Manager)", "voice": "female", "text": "Khanh, we have ten minutes left. Do you have any questions for us?" },
+      { "speaker": "Khanh (Candidate)", "voice": "male", "text": "Yes, thank you. Could you describe a typical week for this role?" },
+      { "speaker": "Mai (Hiring Manager)", "voice": "female", "text": "Sure. Two days are for planning and reviews, the rest is focused development." },
+      { "speaker": "Khanh (Candidate)", "voice": "male", "text": "That sounds balanced. May I ask about the team size and the reporting line?" },
+      { "speaker": "Mai (Hiring Manager)", "voice": "female", "text": "The team has eight people. You would report directly to the technical lead." },
+      { "speaker": "Khanh (Candidate)", "voice": "male", "text": "Good. I am also curious about how decisions are made inside the team." },
+      { "speaker": "Mai (Hiring Manager)", "voice": "female", "text": "We discuss openly in weekly meetings, and the lead makes the final call." },
+      { "speaker": "Khanh (Candidate)", "voice": "male", "text": "I like that. Is hybrid working possible, or is the role fully onsite?" },
+      { "speaker": "Mai (Hiring Manager)", "voice": "female", "text": "Three days onsite and two days at home, once you finish your onboarding." },
+      { "speaker": "Khanh (Candidate)", "voice": "male", "text": "Does the company provide learning support, for example courses or certification fees?" },
+      { "speaker": "Mai (Hiring Manager)", "voice": "female", "text": "Yes, every engineer has a yearly budget and an onboarding buddy for support." },
+      { "speaker": "Khanh (Candidate)", "voice": "male", "text": "Thank you. Finally, what is the next round and when will I hear back?" }
+    ],
+    "questions": [
+      {
+        "q": "How big is the team?",
+        "options": ["Eight people", "Three people", "Twenty people"],
+        "answer": 0
+      },
+      {
+        "q": "What is the hybrid working policy?",
+        "options": ["Fully onsite every day", "Three days onsite and two days at home", "Fully remote"],
+        "answer": 1
+      },
+      {
+        "q": "What does the company offer for learning?",
+        "options": ["A yearly budget and an onboarding buddy", "Free lunch only", "Nothing at the moment"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you tell me what a typical week looks like for this role?",
+    "I would like to understand how decisions are made inside the product team.",
+    "May I ask about the team size and who I would report to?",
+    "Does the company offer learning support such as courses or certification fees?",
+    "What are the next round and the expected timeline after today's interview?"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-12",
+  "track": "finance",
+  "theme": "Lương thưởng & phúc lợi",
+  "vocab": [
+    {
+      "word": "performance bonus",
+      "ipa": "/pəˈfɔːməns ˈbəʊnəs/",
+      "meaning_vi": "thưởng theo hiệu quả công việc",
+      "example": "The performance bonus this year depends on your review result and the team target.",
+      "example_vi": "Thưởng hiệu quả năm nay phụ thuộc vào kết quả đánh giá của bạn và chỉ tiêu của nhóm."
+    },
+    {
+      "word": "health insurance",
+      "ipa": "/helθ ɪnˈʃʊərəns/",
+      "meaning_vi": "bảo hiểm y tế",
+      "example": "Company health insurance covers you and your children after the official contract starts.",
+      "example_vi": "Bảo hiểm y tế của công ty chi trả cho bạn và con bạn sau khi hợp đồng chính thức bắt đầu."
+    },
+    {
+      "word": "probation salary",
+      "ipa": "/prəˈbeɪʃn ˈsæləri/",
+      "meaning_vi": "lương thử việc",
+      "example": "During two months the probation salary is eighty-five percent of the full amount.",
+      "example_vi": "Trong hai tháng, lương thử việc bằng tám mươi lăm phần trăm mức lương đầy đủ."
+    },
+    {
+      "word": "payday",
+      "ipa": "/ˈpeɪdeɪ/",
+      "meaning_vi": "ngày trả lương",
+      "example": "Payday is on the fifth of every month, or the working day before it.",
+      "example_vi": "Ngày trả lương là mùng năm hằng tháng, hoặc ngày làm việc liền trước đó."
+    },
+    {
+      "word": "gross-to-net",
+      "ipa": "/ɡrəʊs tə net/",
+      "meaning_vi": "cách tính từ lương gộp ra lương thực nhận",
+      "example": "I sent you a simple gross-to-net table so you can check your own numbers.",
+      "example_vi": "Tôi đã gửi bạn bảng tính gộp sang thực nhận đơn giản để bạn tự kiểm tra số liệu."
+    },
+    {
+      "word": "seniority allowance",
+      "ipa": "/ˌsiːniˈɒrəti əˈlaʊəns/",
+      "meaning_vi": "phụ cấp thâm niên",
+      "example": "Staff with more than three years here receive a small seniority allowance each month.",
+      "example_vi": "Nhân viên làm việc trên ba năm ở đây nhận một khoản phụ cấp thâm niên nhỏ mỗi tháng."
+    },
+    {
+      "word": "pay structure",
+      "ipa": "/peɪ ˈstrʌktʃə/",
+      "meaning_vi": "cơ cấu lương",
+      "example": "Our pay structure has a fixed part, an allowance part and a variable part.",
+      "example_vi": "Cơ cấu lương của chúng tôi gồm phần cố định, phần phụ cấp và phần biến động."
+    },
+    {
+      "word": "year-end bonus",
+      "ipa": "/jɪər end ˈbəʊnəs/",
+      "meaning_vi": "thưởng cuối năm",
+      "example": "The board will announce the year-end bonus during the December all-hands meeting.",
+      "example_vi": "Ban lãnh đạo sẽ công bố thưởng cuối năm trong buổi họp toàn công ty tháng Mười Hai."
+    }
+  ],
+  "listening": {
+    "title": "Asking payroll about a pay slip",
+    "lines": [
+      { "speaker": "Son (Software Engineer)", "voice": "male", "text": "Hi Ha, do you have five minutes to explain my pay slip this month?" },
+      { "speaker": "Ha (Payroll Officer)", "voice": "female", "text": "Of course, Son. Which part is not clear for you?" },
+      { "speaker": "Son (Software Engineer)", "voice": "male", "text": "The total is lower than I expected. Is that because of the probation salary?" },
+      { "speaker": "Ha (Payroll Officer)", "voice": "female", "text": "Yes. During probation you receive eighty-five percent of the full pay structure." },
+      { "speaker": "Son (Software Engineer)", "voice": "male", "text": "I see. And when does the full salary start, exactly?" },
+      { "speaker": "Ha (Payroll Officer)", "voice": "female", "text": "From the first day of next month, because your probation ends on the thirtieth." },
+      { "speaker": "Son (Software Engineer)", "voice": "male", "text": "Great. What about health insurance for my family? Is that included?" },
+      { "speaker": "Ha (Payroll Officer)", "voice": "female", "text": "Company health insurance starts with the official contract and covers your children too." },
+      { "speaker": "Son (Software Engineer)", "voice": "male", "text": "That is good news. I also have a question about the performance bonus." },
+      { "speaker": "Ha (Payroll Officer)", "voice": "female", "text": "The performance bonus is paid twice a year, after each review cycle." },
+      { "speaker": "Son (Software Engineer)", "voice": "male", "text": "And the year-end bonus? Some colleagues mentioned it during lunch yesterday." },
+      { "speaker": "Ha (Payroll Officer)", "voice": "female", "text": "We announce that in December, and payday for it is before the holiday." }
+    ],
+    "questions": [
+      {
+        "q": "Why is Son's salary lower this month?",
+        "options": ["He took unpaid leave", "He is still on probation salary", "He worked fewer hours"],
+        "answer": 1
+      },
+      {
+        "q": "When does the company health insurance start?",
+        "options": ["On the first working day", "With the official contract", "After one full year"],
+        "answer": 1
+      },
+      {
+        "q": "How often is the performance bonus paid?",
+        "options": ["Every month", "Twice a year", "Once every two years"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Payday is on the fifth, so please send your timesheet before the first.",
+    "The performance bonus depends on your review result and the company's yearly profit.",
+    "Could you explain the gross-to-net calculation on my pay slip this month?",
+    "Health insurance covers you and your children after the probation period ends.",
+    "We will announce the year-end bonus in the December all-hands meeting."
+  ]
+}

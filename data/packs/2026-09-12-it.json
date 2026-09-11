@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-12",
+  "track": "it",
+  "theme": "Họp với khách hàng",
+  "vocab": [
+    {
+      "word": "kick-off call",
+      "ipa": "/ˈkɪk ɒf kɔːl/",
+      "meaning_vi": "cuộc họp khởi động dự án",
+      "example": "We booked a kick-off call with the client to agree on the first milestone.",
+      "example_vi": "Chúng tôi đã đặt lịch họp khởi động với khách hàng để thống nhất cột mốc đầu tiên."
+    },
+    {
+      "word": "meeting minutes",
+      "ipa": "/ˈmiːtɪŋ ˈmɪnɪts/",
+      "meaning_vi": "biên bản cuộc họp",
+      "example": "Please read the meeting minutes before you start working on the new module.",
+      "example_vi": "Hãy đọc biên bản cuộc họp trước khi bạn bắt đầu làm module mới."
+    },
+    {
+      "word": "feasible",
+      "ipa": "/ˈfiːzəbl/",
+      "meaning_vi": "khả thi, có thể làm được",
+      "example": "The client asked if a mobile version is feasible before the end of this quarter.",
+      "example_vi": "Khách hàng hỏi liệu phiên bản di động có khả thi trước cuối quý này không."
+    },
+    {
+      "word": "rollout plan",
+      "ipa": "/ˈrəʊlaʊt plæn/",
+      "meaning_vi": "kế hoạch triển khai",
+      "example": "Our rollout plan starts with ten users, then we open the system to everyone.",
+      "example_vi": "Kế hoạch triển khai của chúng tôi bắt đầu với mười người dùng, sau đó mở hệ thống cho tất cả."
+    },
+    {
+      "word": "clarification",
+      "ipa": "/ˌklærɪfɪˈkeɪʃn/",
+      "meaning_vi": "sự làm rõ, câu hỏi làm rõ",
+      "example": "I need one clarification about the login rule before my team writes the code.",
+      "example_vi": "Tôi cần làm rõ một điểm về quy tắc đăng nhập trước khi nhóm tôi viết code."
+    },
+    {
+      "word": "ballpark estimate",
+      "ipa": "/ˈbɔːlpɑːk ˈestɪmət/",
+      "meaning_vi": "ước lượng sơ bộ",
+      "example": "Can you give the client a ballpark estimate today and a detailed one next week?",
+      "example_vi": "Bạn có thể đưa cho khách hàng một ước lượng sơ bộ hôm nay và bản chi tiết vào tuần sau không?"
+    },
+    {
+      "word": "nice to have",
+      "ipa": "/naɪs tə hæv/",
+      "meaning_vi": "tính năng có thì tốt, không bắt buộc",
+      "example": "Dark mode is nice to have, but the payment screen is much more important.",
+      "example_vi": "Chế độ tối có thì tốt, nhưng màn hình thanh toán quan trọng hơn nhiều."
+    },
+    {
+      "word": "from our end",
+      "ipa": "/frɒm ˈaʊə end/",
+      "meaning_vi": "về phía chúng tôi",
+      "example": "From our end, the test server is ready, so we only wait for your data.",
+      "example_vi": "Về phía chúng tôi, máy chủ kiểm thử đã sẵn sàng, chúng tôi chỉ chờ dữ liệu của bạn."
+    }
+  ],
+  "listening": {
+    "title": "Kick-off call with the client",
+    "lines": [
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "Good morning, Mr. Hung. Thank you for joining this kick-off call with our team today." },
+      { "speaker": "Hung (Client Manager)", "voice": "male", "text": "Good morning, Linh. I have about forty minutes, so let's start with the plan." },
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "Sure. I will walk you through the rollout plan, then we can discuss the timeline." },
+      { "speaker": "Hung (Client Manager)", "voice": "male", "text": "Sounds good. My main question is whether a mobile version is feasible this quarter." },
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "It is feasible, but we need a ballpark estimate from our developers first." },
+      { "speaker": "Hung (Client Manager)", "voice": "male", "text": "Understood. Some features are really necessary, and some are only nice to have." },
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "Could you mark which ones are nice to have? That helps us set the priorities." },
+      { "speaker": "Hung (Client Manager)", "voice": "male", "text": "Yes, I will send you a short list after this meeting for clarification." },
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "Perfect. From our end, the design team can start next Monday without any problem." },
+      { "speaker": "Hung (Client Manager)", "voice": "male", "text": "Great. Please share the meeting minutes so my team knows the next actions." },
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "I will send them this afternoon and copy your technical lead as well." }
+    ],
+    "questions": [
+      {
+        "q": "What is the main topic of this call?",
+        "options": ["The rollout plan and the timeline", "A salary discussion", "A customer complaint"],
+        "answer": 0
+      },
+      {
+        "q": "What will Hung send after the meeting?",
+        "options": ["A new contract", "A list of nice-to-have features", "The design files"],
+        "answer": 1
+      },
+      {
+        "q": "When will Linh send the meeting minutes?",
+        "options": ["Next Monday", "This afternoon", "Tomorrow morning"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Thanks for joining the call, let me walk you through today's agenda quickly.",
+    "Could you give us a ballpark estimate before we confirm the rollout plan?",
+    "I will send the meeting minutes and the action list by tomorrow morning.",
+    "From our end, everything is ready, so we only need your final approval.",
+    "Can I ask for one clarification about the login step you mentioned earlier?"
+  ]
+}

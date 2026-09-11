@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-12",
+  "track": "sales",
+  "theme": "Pitch ngắn (elevator pitch)",
+  "vocab": [
+    {
+      "word": "target customer",
+      "ipa": "/ˈtɑːɡɪt ˈkʌstəmə/",
+      "meaning_vi": "khách hàng mục tiêu",
+      "example": "Our target customer is a small shop owner who delivers orders every single day.",
+      "example_vi": "Khách hàng mục tiêu của chúng tôi là chủ cửa hàng nhỏ giao đơn hàng mỗi ngày."
+    },
+    {
+      "word": "key message",
+      "ipa": "/kiː ˈmesɪdʒ/",
+      "meaning_vi": "thông điệp chính",
+      "example": "Your key message should be one clear sentence that the customer can repeat easily.",
+      "example_vi": "Thông điệp chính của bạn nên là một câu rõ ràng mà khách hàng có thể nhắc lại dễ dàng."
+    },
+    {
+      "word": "tagline",
+      "ipa": "/ˈtæɡlaɪn/",
+      "meaning_vi": "câu khẩu hiệu ngắn gọn",
+      "example": "We printed our new tagline on every brochure we bring to the trade fair.",
+      "example_vi": "Chúng tôi in khẩu hiệu mới lên mọi tờ rơi mang đến hội chợ thương mại."
+    },
+    {
+      "word": "differentiator",
+      "ipa": "/ˌdɪfəˈrenʃieɪtə/",
+      "meaning_vi": "điểm khác biệt so với đối thủ",
+      "example": "Our biggest differentiator is local support, because the other suppliers only answer emails.",
+      "example_vi": "Điểm khác biệt lớn nhất của chúng tôi là hỗ trợ tại chỗ, vì các nhà cung cấp khác chỉ trả lời email."
+    },
+    {
+      "word": "attention span",
+      "ipa": "/əˈtenʃn spæn/",
+      "meaning_vi": "khoảng thời gian tập trung chú ý",
+      "example": "At a busy event, the attention span of a visitor is only a few seconds.",
+      "example_vi": "Ở một sự kiện đông người, khách chỉ tập trung chú ý được vài giây."
+    },
+    {
+      "word": "short and sweet",
+      "ipa": "/ʃɔːt ənd swiːt/",
+      "meaning_vi": "ngắn gọn, súc tích",
+      "example": "Keep the introduction short and sweet, then let the customer ask the questions.",
+      "example_vi": "Hãy giới thiệu ngắn gọn súc tích, rồi để khách hàng đặt câu hỏi."
+    },
+    {
+      "word": "spark interest",
+      "ipa": "/spɑːk ˈɪntrəst/",
+      "meaning_vi": "khơi gợi sự quan tâm",
+      "example": "A real number about saving money will spark interest faster than a long story.",
+      "example_vi": "Một con số thật về việc tiết kiệm tiền sẽ khơi gợi sự quan tâm nhanh hơn một câu chuyện dài."
+    },
+    {
+      "word": "under a minute",
+      "ipa": "/ˈʌndər ə ˈmɪnɪt/",
+      "meaning_vi": "dưới một phút",
+      "example": "A good elevator pitch is under a minute and still answers the main question.",
+      "example_vi": "Một bài pitch tốt kéo dài dưới một phút mà vẫn trả lời được câu hỏi chính."
+    }
+  ],
+  "listening": {
+    "title": "Practising an elevator pitch before an event",
+    "lines": [
+      { "speaker": "Duy (Sales Manager)", "voice": "male", "text": "Trang, you have a big event tomorrow. Can you practise your pitch with me?" },
+      { "speaker": "Trang (Sales Executive)", "voice": "female", "text": "Sure. I have about two minutes of content. Is that too long for a pitch?" },
+      { "speaker": "Duy (Sales Manager)", "voice": "male", "text": "Yes, much too long. Keep it under a minute, short and sweet." },
+      { "speaker": "Trang (Sales Executive)", "voice": "female", "text": "Okay. Should I start with our company history or with the customer problem?" },
+      { "speaker": "Duy (Sales Manager)", "voice": "male", "text": "Always start with the problem. That is how you spark interest quickly." },
+      { "speaker": "Trang (Sales Executive)", "voice": "female", "text": "Got it. So, many small shops lose money because their delivery costs are too high." },
+      { "speaker": "Duy (Sales Manager)", "voice": "male", "text": "Good opening. Now tell me your key message in one simple sentence." },
+      { "speaker": "Trang (Sales Executive)", "voice": "female", "text": "We cut delivery costs by twenty percent for small shops in three months." },
+      { "speaker": "Duy (Sales Manager)", "voice": "male", "text": "Nice. And what is your differentiator compared with the other two suppliers?" },
+      { "speaker": "Trang (Sales Executive)", "voice": "female", "text": "Local support in Vietnamese, seven days a week. Is that a strong tagline?" },
+      { "speaker": "Duy (Sales Manager)", "voice": "male", "text": "It works well. Remember, the attention span at these events is very short." },
+      { "speaker": "Trang (Sales Executive)", "voice": "female", "text": "Understood. I will practise it out loud tonight before the event opens." }
+    ],
+    "questions": [
+      {
+        "q": "How long should Trang's pitch be?",
+        "options": ["About two minutes", "Under a minute", "Exactly five minutes"],
+        "answer": 1
+      },
+      {
+        "q": "What should the pitch start with?",
+        "options": ["The company history", "The customer problem", "The price list"],
+        "answer": 1
+      },
+      {
+        "q": "What is their main differentiator?",
+        "options": ["The lowest price on the market", "Local support in Vietnamese", "Free products for one year"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Keep your pitch short and sweet so people remember your main message.",
+    "We help small shops cut their delivery cost by twenty percent every month.",
+    "Our target customer is a busy manager who has no time for paperwork.",
+    "Try to spark interest in the first ten seconds, then ask one question.",
+    "Our main differentiator is local support in Vietnamese, available seven days a week."
+  ]
+}
