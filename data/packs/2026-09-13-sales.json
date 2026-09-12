@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-13",
+  "track": "sales",
+  "theme": "Khảo sát nhu cầu khách",
+  "vocab": [
+    {
+      "word": "fact-finding",
+      "ipa": "/ˈfækt ˌfaɪndɪŋ/",
+      "meaning_vi": "việc tìm hiểu thông tin thực tế",
+      "example": "The first meeting is mainly fact-finding, so I will ask a lot of questions.",
+      "example_vi": "Buổi gặp đầu tiên chủ yếu là tìm hiểu thông tin, nên tôi sẽ hỏi khá nhiều."
+    },
+    {
+      "word": "needs analysis",
+      "ipa": "/niːdz əˈnæləsɪs/",
+      "meaning_vi": "phân tích nhu cầu khách hàng",
+      "example": "After the needs analysis, we will suggest only the modules you really use.",
+      "example_vi": "Sau khi phân tích nhu cầu, chúng tôi sẽ chỉ đề xuất những phân hệ anh/chị thực sự dùng."
+    },
+    {
+      "word": "buying criteria",
+      "ipa": "/ˈbaɪɪŋ kraɪˈtɪəriə/",
+      "meaning_vi": "tiêu chí mua hàng",
+      "example": "May I ask what your buying criteria are besides price and support?",
+      "example_vi": "Tôi hỏi tiêu chí mua hàng của anh/chị ngoài giá và hỗ trợ được không?"
+    },
+    {
+      "word": "workaround",
+      "ipa": "/ˈwɜːkəraʊnd/",
+      "meaning_vi": "cách xử lý tạm thời",
+      "example": "Your team uses a spreadsheet as a workaround, but it takes too much time.",
+      "example_vi": "Nhóm của anh/chị dùng bảng tính như một cách xử lý tạm, nhưng mất quá nhiều thời gian."
+    },
+    {
+      "word": "headcount",
+      "ipa": "/ˈhedkaʊnt/",
+      "meaning_vi": "số lượng nhân sự",
+      "example": "What is the headcount of the warehouse team that will use the app?",
+      "example_vi": "Số lượng nhân sự của nhóm kho sẽ dùng ứng dụng là bao nhiêu?"
+    },
+    {
+      "word": "legacy system",
+      "ipa": "/ˈleɡəsi ˈsɪstəm/",
+      "meaning_vi": "hệ thống cũ đang dùng",
+      "example": "Your legacy system cannot export data, so reporting is very slow.",
+      "example_vi": "Hệ thống cũ của anh/chị không xuất được dữ liệu nên việc báo cáo rất chậm."
+    },
+    {
+      "word": "manual process",
+      "ipa": "/ˈmænjuəl ˈprəʊses/",
+      "meaning_vi": "quy trình làm thủ công",
+      "example": "Checking each invoice is a manual process that costs your staff three hours daily.",
+      "example_vi": "Kiểm tra từng hoá đơn là quy trình thủ công khiến nhân viên mất ba tiếng mỗi ngày."
+    },
+    {
+      "word": "decision process",
+      "ipa": "/dɪˈsɪʒn ˈprəʊses/",
+      "meaning_vi": "quy trình ra quyết định",
+      "example": "Could you describe your decision process and who gives the final approval?",
+      "example_vi": "Anh/chị mô tả quy trình ra quyết định và ai là người duyệt cuối cùng được không?"
+    }
+  ],
+  "listening": {
+    "title": "Hoa runs a discovery meeting with a new customer",
+    "lines": [
+      { "speaker": "Hoa (Sales Executive)", "voice": "female", "text": "Thank you for your time, Mr Tuan. Today I would like to understand how your team works." },
+      { "speaker": "Tuan (Operations Manager)", "voice": "male", "text": "No problem. Our biggest issue is the report for the warehouse every morning." },
+      { "speaker": "Hoa (Sales Executive)", "voice": "female", "text": "I see. How do your staff prepare that report at the moment?" },
+      { "speaker": "Tuan (Operations Manager)", "voice": "male", "text": "They copy numbers from the legacy system into Excel. It is a manual process." },
+      { "speaker": "Hoa (Sales Executive)", "voice": "female", "text": "How long does that take, and how many people are involved?" },
+      { "speaker": "Tuan (Operations Manager)", "voice": "male", "text": "About three hours a day, and the headcount of that team is six people." },
+      { "speaker": "Hoa (Sales Executive)", "voice": "female", "text": "Thank you. Have you tried any workaround to make it faster?" },
+      { "speaker": "Tuan (Operations Manager)", "voice": "male", "text": "We built a small macro, but it breaks whenever the file format changes." },
+      { "speaker": "Hoa (Sales Executive)", "voice": "female", "text": "Understood. May I ask what your main buying criteria would be for a new tool?" },
+      { "speaker": "Tuan (Operations Manager)", "voice": "male", "text": "Easy training for staff, local support, and a clear price for three years." },
+      { "speaker": "Hoa (Sales Executive)", "voice": "female", "text": "Great. Could you also walk me through your decision process before I prepare a proposal?" },
+      { "speaker": "Tuan (Operations Manager)", "voice": "male", "text": "I recommend the tool, and our finance director signs the final contract." }
+    ],
+    "questions": [
+      {
+        "q": "How do Mr Tuan's staff prepare the morning report now?",
+        "options": ["The system sends it automatically", "They copy numbers from the legacy system into Excel", "A partner company prepares it"],
+        "answer": 1
+      },
+      {
+        "q": "How long does the report take each day?",
+        "options": ["About three hours", "About thirty minutes", "About eight hours"],
+        "answer": 0
+      },
+      {
+        "q": "Who signs the final contract?",
+        "options": ["Mr Tuan himself", "The warehouse team", "The finance director"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Before I suggest anything, I would like to understand your current process better.",
+    "How many people on your team use the system every day at the moment?",
+    "May I ask what your main buying criteria are for this kind of software?",
+    "So the biggest problem is the manual process that takes three hours each week.",
+    "Could you walk me through your decision process and who needs to approve it?"
+  ]
+}

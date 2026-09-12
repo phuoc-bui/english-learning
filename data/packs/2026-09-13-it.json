@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-13",
+  "track": "it",
+  "theme": "Deal lương & phúc lợi",
+  "vocab": [
+    {
+      "word": "pay review",
+      "ipa": "/peɪ rɪˈvjuː/",
+      "meaning_vi": "kỳ xem xét lương",
+      "example": "My pay review is in October, so I am preparing my achievements now.",
+      "example_vi": "Kỳ xem xét lương của tôi vào tháng Mười, nên giờ tôi đang chuẩn bị các thành tích."
+    },
+    {
+      "word": "gross salary",
+      "ipa": "/ɡrəʊs ˈsæləri/",
+      "meaning_vi": "lương gộp, lương trước thuế",
+      "example": "The offer letter shows a gross salary of thirty million dong per month.",
+      "example_vi": "Thư mời làm việc ghi lương gộp là ba mươi triệu đồng mỗi tháng."
+    },
+    {
+      "word": "net salary",
+      "ipa": "/net ˈsæləri/",
+      "meaning_vi": "lương thực nhận sau thuế và bảo hiểm",
+      "example": "Could you tell me the net salary after tax and social insurance?",
+      "example_vi": "Anh/chị cho tôi biết lương thực nhận sau thuế và bảo hiểm xã hội được không?"
+    },
+    {
+      "word": "pay rise",
+      "ipa": "/peɪ raɪz/",
+      "meaning_vi": "việc tăng lương",
+      "example": "After two strong releases, Nam asked his manager for a pay rise.",
+      "example_vi": "Sau hai lần phát hành thành công, Nam đã đề nghị quản lý tăng lương."
+    },
+    {
+      "word": "signing bonus",
+      "ipa": "/ˈsaɪnɪŋ ˈbəʊnəs/",
+      "meaning_vi": "thưởng khi ký hợp đồng",
+      "example": "The company offered a signing bonus because I joined the project early.",
+      "example_vi": "Công ty đề nghị một khoản thưởng ký hợp đồng vì tôi tham gia dự án sớm."
+    },
+    {
+      "word": "remuneration",
+      "ipa": "/rɪˌmjuːnəˈreɪʃn/",
+      "meaning_vi": "thù lao, tổng đãi ngộ",
+      "example": "The remuneration includes salary, insurance and a yearly performance review.",
+      "example_vi": "Đãi ngộ bao gồm lương, bảo hiểm và một kỳ đánh giá hiệu suất hằng năm."
+    },
+    {
+      "word": "notice period",
+      "ipa": "/ˈnəʊtɪs ˈpɪəriəd/",
+      "meaning_vi": "thời gian báo trước khi nghỉ việc",
+      "example": "My notice period is thirty days, so I can join your team in November.",
+      "example_vi": "Thời gian báo trước của tôi là ba mươi ngày, nên tôi có thể vào nhóm từ tháng Mười Một."
+    },
+    {
+      "word": "fringe benefit",
+      "ipa": "/frɪndʒ ˈbenɪfɪt/",
+      "meaning_vi": "phúc lợi thêm ngoài lương",
+      "example": "A laptop allowance and English classes are useful fringe benefits for developers.",
+      "example_vi": "Phụ cấp laptop và lớp tiếng Anh là những phúc lợi thêm hữu ích cho lập trình viên."
+    }
+  ],
+  "listening": {
+    "title": "Nam discusses his pay review with HR",
+    "lines": [
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "Hi Nam, thanks for coming. Today we can talk about your pay review for this year." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Thank you, Hoa. I prepared a short list of what I delivered in the last six months." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "Great. Your team lead already told me you fixed the payment service and trained two juniors." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Yes. Because of that, I would like to ask for a pay rise of about twelve percent." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "I understand. Right now the company can approve eight percent on your gross salary." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Can I ask what my net salary will be after tax and insurance?" },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "I will send you the exact number by email tomorrow morning, with the full remuneration package." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "That helps. Besides salary, are there any fringe benefits for the technical team this year?" },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "Yes, we added a health check for your family and a budget for cloud certificates." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "That sounds fair. Could we also review my level again in six months?" },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "Of course. I will note it down and we will talk again in March." }
+    ],
+    "questions": [
+      {
+        "q": "How much of a pay rise does Nam ask for?",
+        "options": ["About eight percent", "About twelve percent", "About twenty percent"],
+        "answer": 1
+      },
+      {
+        "q": "What will Hoa send Nam by email?",
+        "options": ["The exact net salary and the full package", "A new contract to sign today", "A list of open positions"],
+        "answer": 0
+      },
+      {
+        "q": "Which fringe benefit does Hoa mention?",
+        "options": ["A company car", "Free lunch every day", "A family health check and a certificate budget"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I would like to discuss my pay review before the end of this quarter.",
+    "Could you explain the difference between my gross salary and my net salary?",
+    "Based on my results this year, I think a ten percent pay rise is fair.",
+    "I am also interested in the fringe benefits, such as training and health checks.",
+    "My notice period is one month, so I can start the new role in October."
+  ]
+}

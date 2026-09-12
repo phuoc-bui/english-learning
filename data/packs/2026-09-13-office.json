@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-13",
+  "track": "office",
+  "theme": "Ghi chú & biên bản họp",
+  "vocab": [
+    {
+      "word": "minute-taking",
+      "ipa": "/ˈmɪnɪt ˌteɪkɪŋ/",
+      "meaning_vi": "việc ghi biên bản cuộc họp",
+      "example": "Linh is responsible for minute-taking in every department meeting this month.",
+      "example_vi": "Linh phụ trách ghi biên bản trong mọi cuộc họp phòng ban tháng này."
+    },
+    {
+      "word": "action log",
+      "ipa": "/ˈækʃn lɒɡ/",
+      "meaning_vi": "bảng theo dõi việc cần làm",
+      "example": "Please check the action log to see who is handling the supplier contract.",
+      "example_vi": "Hãy xem bảng theo dõi việc cần làm để biết ai đang xử lý hợp đồng nhà cung cấp."
+    },
+    {
+      "word": "chairperson",
+      "ipa": "/ˈtʃeəpɜːsn/",
+      "meaning_vi": "người chủ trì cuộc họp",
+      "example": "The chairperson opened the meeting and asked everyone to keep their comments short.",
+      "example_vi": "Người chủ trì khai mạc cuộc họp và đề nghị mọi người phát biểu ngắn gọn."
+    },
+    {
+      "word": "paraphrase",
+      "ipa": "/ˈpærəfreɪz/",
+      "meaning_vi": "diễn đạt lại bằng lời của mình",
+      "example": "I often paraphrase long ideas so the minutes stay short and clear.",
+      "example_vi": "Tôi thường diễn đạt lại các ý dài để biên bản ngắn gọn và rõ ràng."
+    },
+    {
+      "word": "note down",
+      "ipa": "/nəʊt daʊn/",
+      "meaning_vi": "ghi lại nhanh",
+      "example": "Let me note down the new deadline before we move to the next topic.",
+      "example_vi": "Để tôi ghi lại hạn chót mới trước khi chúng ta sang chủ đề tiếp theo."
+    },
+    {
+      "word": "write up",
+      "ipa": "/raɪt ʌp/",
+      "meaning_vi": "viết lại hoàn chỉnh",
+      "example": "I will write up my rough notes into proper minutes this afternoon.",
+      "example_vi": "Chiều nay tôi sẽ viết lại ghi chú nháp thành biên bản hoàn chỉnh."
+    },
+    {
+      "word": "final version",
+      "ipa": "/ˈfaɪnl ˈvɜːʃn/",
+      "meaning_vi": "bản cuối cùng",
+      "example": "The final version of the minutes was saved in the department folder.",
+      "example_vi": "Bản cuối cùng của biên bản đã được lưu trong thư mục của phòng."
+    },
+    {
+      "word": "to be confirmed",
+      "ipa": "/tə bi kənˈfɜːmd/",
+      "meaning_vi": "còn chờ xác nhận",
+      "example": "The training date is still to be confirmed, so I left it blank.",
+      "example_vi": "Ngày đào tạo vẫn còn chờ xác nhận, nên tôi để trống."
+    }
+  ],
+  "listening": {
+    "title": "Linh prepares the minutes after a department meeting",
+    "lines": [
+      { "speaker": "Minh (Team Leader)", "voice": "male", "text": "Linh, are you taking the minutes for the department meeting this morning?" },
+      { "speaker": "Linh (Admin Officer)", "voice": "female", "text": "Yes, I am. I will note down the decisions and who is responsible for each task." },
+      { "speaker": "Minh (Team Leader)", "voice": "male", "text": "Good. Please also write the name of the chairperson and the list of people who joined." },
+      { "speaker": "Linh (Admin Officer)", "voice": "female", "text": "Sure. Should I record every word, or only the main points?" },
+      { "speaker": "Minh (Team Leader)", "voice": "male", "text": "Only the main points. You can paraphrase long discussions in one or two sentences." },
+      { "speaker": "Linh (Admin Officer)", "voice": "female", "text": "Understood. I will also update the action log with the new deadlines." },
+      { "speaker": "Minh (Team Leader)", "voice": "male", "text": "Perfect. By the way, the training date for new staff is still to be confirmed." },
+      { "speaker": "Linh (Admin Officer)", "voice": "female", "text": "Then I will mark it as pending and ask HR before I write up the notes." },
+      { "speaker": "Minh (Team Leader)", "voice": "male", "text": "When can you share the draft with the team?" },
+      { "speaker": "Linh (Admin Officer)", "voice": "female", "text": "This afternoon. If nobody has corrections, I will send the final version tomorrow morning." }
+    ],
+    "questions": [
+      {
+        "q": "What does Minh ask Linh to include in the minutes?",
+        "options": ["Only the meeting jokes", "The chairperson's name and the attendees", "A full recording of the meeting"],
+        "answer": 1
+      },
+      {
+        "q": "How should Linh handle long discussions?",
+        "options": ["Paraphrase them in one or two sentences", "Write down every single word", "Skip them completely"],
+        "answer": 0
+      },
+      {
+        "q": "Why does Linh mark the training date as pending?",
+        "options": ["Because the date is still to be confirmed", "Because the training was cancelled", "Because HR already sent the schedule"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I will take the minutes today and send them to everyone before five o'clock.",
+    "Could you repeat that point slowly so I can note it down correctly?",
+    "Let me paraphrase your idea to make sure the action log is accurate.",
+    "The date for the workshop is still to be confirmed by the director.",
+    "I will write up the notes tonight and share the final version tomorrow morning."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-13",
+  "track": "interview",
+  "theme": "Phỏng vấn qua video call",
+  "vocab": [
+    {
+      "word": "video interview",
+      "ipa": "/ˈvɪdiəʊ ˈɪntəvjuː/",
+      "meaning_vi": "buổi phỏng vấn qua video",
+      "example": "I have a video interview with a company in Singapore on Friday morning.",
+      "example_vi": "Tôi có buổi phỏng vấn qua video với một công ty ở Singapore vào sáng thứ Sáu."
+    },
+    {
+      "word": "interview link",
+      "ipa": "/ˈɪntəvjuː lɪŋk/",
+      "meaning_vi": "đường dẫn vào buổi phỏng vấn",
+      "example": "Thank you for the interview link; I joined five minutes early.",
+      "example_vi": "Cảm ơn anh/chị đã gửi đường dẫn phỏng vấn; tôi đã vào sớm năm phút."
+    },
+    {
+      "word": "waiting room",
+      "ipa": "/ˈweɪtɪŋ ruːm/",
+      "meaning_vi": "phòng chờ trực tuyến",
+      "example": "I waited in the waiting room until the interviewer let me in.",
+      "example_vi": "Tôi đợi trong phòng chờ trực tuyến cho đến khi người phỏng vấn cho vào."
+    },
+    {
+      "word": "microphone",
+      "ipa": "/ˈmaɪkrəfəʊn/",
+      "meaning_vi": "micro",
+      "example": "Sorry, my microphone was off. Could you hear my last sentence?",
+      "example_vi": "Xin lỗi, micro của tôi bị tắt. Anh/chị có nghe được câu vừa rồi không?"
+    },
+    {
+      "word": "audio quality",
+      "ipa": "/ˈɔːdiəʊ ˈkwɒləti/",
+      "meaning_vi": "chất lượng âm thanh",
+      "example": "I use a headset because the audio quality is much better for interviews.",
+      "example_vi": "Tôi dùng tai nghe có mic vì chất lượng âm thanh tốt hơn nhiều khi phỏng vấn."
+    },
+    {
+      "word": "stable internet",
+      "ipa": "/ˈsteɪbl ˈɪntənet/",
+      "meaning_vi": "đường truyền internet ổn định",
+      "example": "I test my stable internet connection one hour before every online interview.",
+      "example_vi": "Tôi kiểm tra đường truyền internet ổn định một tiếng trước mỗi buổi phỏng vấn trực tuyến."
+    },
+    {
+      "word": "freeze",
+      "ipa": "/friːz/",
+      "meaning_vi": "đứng hình, treo màn hình",
+      "example": "If my screen starts to freeze, I will turn off the camera for a moment.",
+      "example_vi": "Nếu màn hình của tôi bị đứng hình, tôi sẽ tắt camera một lát."
+    },
+    {
+      "word": "body language",
+      "ipa": "/ˈbɒdi ˈlæŋɡwɪdʒ/",
+      "meaning_vi": "ngôn ngữ cơ thể",
+      "example": "Good body language on camera means sitting straight and smiling naturally.",
+      "example_vi": "Ngôn ngữ cơ thể tốt trước camera là ngồi thẳng và cười tự nhiên."
+    }
+  ],
+  "listening": {
+    "title": "An online interview for a developer position",
+    "lines": [
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "Good morning, Nam. Thank you for joining. Can you hear me clearly?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Good morning. Yes, the audio quality is very good on my side, thank you." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "Great. Sorry that you waited a few minutes in the waiting room." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "No problem at all. I opened the interview link early to test my microphone." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "That is a good habit. Could you tell me about a difficult project you handled?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Last year our payment service failed during a sale. My task was to find the cause." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "What did you do exactly?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I checked the logs, fixed the timeout setting, and wrote a short report for the team." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "And what was the result? Sorry, your screen froze for a second." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "As a result, the errors dropped by ninety percent and we kept the client." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "Thank you, that was a clear answer. Do you have any questions for me?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Yes. Could you tell me how the team works together when everyone is remote?" }
+    ],
+    "questions": [
+      {
+        "q": "Why did Nam open the interview link early?",
+        "options": ["To test his microphone", "To read the job description", "To change his password"],
+        "answer": 0
+      },
+      {
+        "q": "What did Nam do when the payment service failed?",
+        "options": ["He asked a partner company for help", "He checked the logs and fixed the timeout setting", "He waited for the next release"],
+        "answer": 1
+      },
+      {
+        "q": "What happened during the call?",
+        "options": ["The microphone stopped working", "Hoa left the meeting", "Nam's screen froze for a second"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Thank you for the interview link; I can hear and see you clearly.",
+    "Sorry, your screen froze for a second; could you repeat the last question?",
+    "In my last project, the situation was tight, so I planned the tasks carefully.",
+    "My task was to lead two developers and deliver the report in one week.",
+    "As a result, we finished on time and the client renewed the contract."
+  ]
+}

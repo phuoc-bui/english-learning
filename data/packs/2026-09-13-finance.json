@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-13",
+  "track": "finance",
+  "theme": "Đề xuất mua sắm thiết bị",
+  "vocab": [
+    {
+      "word": "capex",
+      "ipa": "/ˈkæpeks/",
+      "meaning_vi": "chi phí đầu tư tài sản",
+      "example": "New laptops are capex, so they need approval from the finance director.",
+      "example_vi": "Laptop mới là chi phí đầu tư tài sản nên cần giám đốc tài chính phê duyệt."
+    },
+    {
+      "word": "request form",
+      "ipa": "/rɪˈkwest fɔːm/",
+      "meaning_vi": "phiếu đề nghị",
+      "example": "Please fill in the request form and attach two quotations from suppliers.",
+      "example_vi": "Vui lòng điền phiếu đề nghị và đính kèm hai báo giá từ nhà cung cấp."
+    },
+    {
+      "word": "bulk discount",
+      "ipa": "/bʌlk ˈdɪskaʊnt/",
+      "meaning_vi": "chiết khấu khi mua số lượng lớn",
+      "example": "If we buy twenty units together, the supplier offers a bulk discount.",
+      "example_vi": "Nếu mua hai mươi máy cùng lúc, nhà cung cấp sẽ chiết khấu số lượng lớn."
+    },
+    {
+      "word": "upfront cost",
+      "ipa": "/ˌʌpˈfrʌnt kɒst/",
+      "meaning_vi": "chi phí phải trả ngay từ đầu",
+      "example": "The upfront cost is high, but we will use the machines for five years.",
+      "example_vi": "Chi phí ban đầu khá cao, nhưng chúng ta sẽ dùng máy trong năm năm."
+    },
+    {
+      "word": "maintenance cost",
+      "ipa": "/ˈmeɪntənəns kɒst/",
+      "meaning_vi": "chi phí bảo trì",
+      "example": "The old printers have a high maintenance cost every single month.",
+      "example_vi": "Những máy in cũ có chi phí bảo trì cao mỗi tháng."
+    },
+    {
+      "word": "delivery time",
+      "ipa": "/dɪˈlɪvəri taɪm/",
+      "meaning_vi": "thời gian giao hàng",
+      "example": "The delivery time is three weeks, so we should order before the holiday.",
+      "example_vi": "Thời gian giao hàng là ba tuần, nên chúng ta nên đặt trước kỳ nghỉ."
+    },
+    {
+      "word": "price comparison",
+      "ipa": "/praɪs kəmˈpærɪsn/",
+      "meaning_vi": "bảng so sánh giá",
+      "example": "I made a price comparison of three suppliers in one simple table.",
+      "example_vi": "Tôi đã làm bảng so sánh giá của ba nhà cung cấp trong một bảng đơn giản."
+    },
+    {
+      "word": "budget allocation",
+      "ipa": "/ˈbʌdʒɪt ˌæləˈkeɪʃn/",
+      "meaning_vi": "phần ngân sách được phân bổ",
+      "example": "This purchase must fit the budget allocation for the fourth quarter.",
+      "example_vi": "Khoản mua này phải nằm trong phần ngân sách phân bổ cho quý bốn."
+    }
+  ],
+  "listening": {
+    "title": "Linh asks finance to approve new laptops",
+    "lines": [
+      { "speaker": "Linh (IT Admin)", "voice": "female", "text": "Hi Minh, I would like to ask about buying twenty laptops for the new team." },
+      { "speaker": "Minh (Finance Officer)", "voice": "male", "text": "Sure. Have you filled in the request form and attached the quotations?" },
+      { "speaker": "Linh (IT Admin)", "voice": "female", "text": "Yes, I attached three quotations and a simple price comparison in one table." },
+      { "speaker": "Minh (Finance Officer)", "voice": "male", "text": "Very good. What is the total upfront cost for all twenty machines?" },
+      { "speaker": "Linh (IT Admin)", "voice": "female", "text": "About four hundred million dong, but the supplier gives a bulk discount of eight percent." },
+      { "speaker": "Minh (Finance Officer)", "voice": "male", "text": "That helps. Remember that laptops are capex, so the director must approve them." },
+      { "speaker": "Linh (IT Admin)", "voice": "female", "text": "I understand. Do we still have enough budget allocation this quarter?" },
+      { "speaker": "Minh (Finance Officer)", "voice": "male", "text": "Not for everything. We can approve twelve now and the rest in January." },
+      { "speaker": "Linh (IT Admin)", "voice": "female", "text": "That works, because the delivery time is three weeks anyway." },
+      { "speaker": "Minh (Finance Officer)", "voice": "male", "text": "Please also add the maintenance cost of the old machines to your proposal." },
+      { "speaker": "Linh (IT Admin)", "voice": "female", "text": "Good idea. It will show why replacing them saves money this year." }
+    ],
+    "questions": [
+      {
+        "q": "What did Linh attach to the request form?",
+        "options": ["Three quotations and a price comparison", "A photo of the old laptops", "Nothing at all"],
+        "answer": 0
+      },
+      {
+        "q": "How many laptops can finance approve now?",
+        "options": ["Twenty", "Twelve", "None"],
+        "answer": 1
+      },
+      {
+        "q": "What does Minh ask Linh to add to the proposal?",
+        "options": ["The delivery address", "The names of the users", "The maintenance cost of the old machines"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I have prepared a price comparison of three suppliers for the new laptops.",
+    "The upfront cost is high, but the maintenance cost will be much lower.",
+    "Please fill in the request form and attach the quotation before Friday afternoon.",
+    "If we order twenty units, the supplier can give us a bulk discount.",
+    "This purchase is capex, so it must come from next quarter's budget allocation."
+  ]
+}
