@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-14",
+  "track": "sales",
+  "theme": "Gửi & giải thích báo giá",
+  "vocab": [
+    {
+      "word": "formal quotation",
+      "ipa": "/ˈfɔːml kwəʊˈteɪʃn/",
+      "meaning_vi": "báo giá chính thức",
+      "example": "I will send you a formal quotation with our company stamp this afternoon.",
+      "example_vi": "Chiều nay tôi sẽ gửi anh báo giá chính thức có đóng dấu công ty."
+    },
+    {
+      "word": "price breakdown",
+      "ipa": "/praɪs ˈbreɪkdaʊn/",
+      "meaning_vi": "bảng chi tiết giá",
+      "example": "The client asked for a price breakdown so he can see each cost clearly.",
+      "example_vi": "Khách hàng yêu cầu bảng chi tiết giá để thấy rõ từng khoản chi phí."
+    },
+    {
+      "word": "itemised quote",
+      "ipa": "/ˈaɪtəmaɪzd kwəʊt/",
+      "meaning_vi": "báo giá tách từng khoản mục",
+      "example": "An itemised quote helps the customer compare us with other suppliers.",
+      "example_vi": "Báo giá tách từng khoản mục giúp khách hàng so sánh chúng ta với nhà cung cấp khác."
+    },
+    {
+      "word": "bulk order",
+      "ipa": "/bʌlk ˈɔːdə/",
+      "meaning_vi": "đơn hàng số lượng lớn",
+      "example": "For a bulk order of one hundred licences, we can offer a better rate.",
+      "example_vi": "Với đơn hàng số lượng lớn một trăm giấy phép, chúng tôi có thể đưa mức giá tốt hơn."
+    },
+    {
+      "word": "delivery fee",
+      "ipa": "/dɪˈlɪvəri fiː/",
+      "meaning_vi": "phí giao hàng",
+      "example": "The delivery fee is only charged once, even for two shipments.",
+      "example_vi": "Phí giao hàng chỉ tính một lần, kể cả khi giao thành hai đợt."
+    },
+    {
+      "word": "tax included",
+      "ipa": "/tæks ɪnˈkluːdɪd/",
+      "meaning_vi": "đã bao gồm thuế",
+      "example": "The number at the bottom is tax included, so there is no surprise later.",
+      "example_vi": "Con số ở cuối đã bao gồm thuế, nên sau này sẽ không có bất ngờ."
+    },
+    {
+      "word": "quote reference",
+      "ipa": "/kwəʊt ˈrefrəns/",
+      "meaning_vi": "mã số báo giá",
+      "example": "Please keep the same quote reference when you reply to my email.",
+      "example_vi": "Hãy giữ nguyên mã số báo giá khi anh trả lời email của tôi."
+    },
+    {
+      "word": "cost estimate",
+      "ipa": "/kɒst ˈestɪmət/",
+      "meaning_vi": "dự toán chi phí",
+      "example": "I will prepare a new cost estimate for one hundred users today.",
+      "example_vi": "Hôm nay tôi sẽ chuẩn bị dự toán chi phí mới cho một trăm người dùng."
+    }
+  ],
+  "listening": {
+    "title": "Explaining a quotation to a purchasing manager",
+    "lines": [
+      { "speaker": "Hoa (Sales Executive)", "voice": "female", "text": "Good morning, Mr Tuan. I sent you our formal quotation yesterday afternoon." },
+      { "speaker": "Mr Tuan (Purchasing Manager)", "voice": "male", "text": "Yes, I received it. Could you walk me through the price breakdown?" },
+      { "speaker": "Hoa (Sales Executive)", "voice": "female", "text": "Of course. The first line is the software licence for fifty users." },
+      { "speaker": "Mr Tuan (Purchasing Manager)", "voice": "male", "text": "And the second line? I am not sure what the setup fee covers." },
+      { "speaker": "Hoa (Sales Executive)", "voice": "female", "text": "It covers installation, data migration and two training sessions for your staff." },
+      { "speaker": "Mr Tuan (Purchasing Manager)", "voice": "male", "text": "I see. Is the price tax included, or do we add ten percent later?" },
+      { "speaker": "Hoa (Sales Executive)", "voice": "female", "text": "The total at the bottom is tax included, so there is no surprise." },
+      { "speaker": "Mr Tuan (Purchasing Manager)", "voice": "male", "text": "Good. What happens if we place a bulk order for one hundred users?" },
+      { "speaker": "Hoa (Sales Executive)", "voice": "female", "text": "Then I can offer a better rate. Let me send a revised cost estimate today." },
+      { "speaker": "Mr Tuan (Purchasing Manager)", "voice": "male", "text": "Please do. Use the same quote reference so my team can compare easily." },
+      { "speaker": "Hoa (Sales Executive)", "voice": "female", "text": "Sure. And I will keep the delivery fee the same for you." }
+    ],
+    "questions": [
+      {
+        "q": "What does Mr Tuan ask Hoa to explain?",
+        "options": ["The price breakdown", "The contract", "The delivery date"],
+        "answer": 0
+      },
+      {
+        "q": "What does the setup fee cover?",
+        "options": ["Only installation", "Installation, data migration and training", "Nothing at all"],
+        "answer": 1
+      },
+      {
+        "q": "What will Hoa send for an order of one hundred users?",
+        "options": ["A revised cost estimate", "An invoice", "A signed contract"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I have attached our formal quotation, and it is valid for thirty days.",
+    "Let me walk you through each line of the quotation right now.",
+    "The total price is tax included, so there are no hidden costs.",
+    "If you order in bulk, I can give you a better unit price.",
+    "Please keep the same quote reference when you reply to my email."
+  ]
+}

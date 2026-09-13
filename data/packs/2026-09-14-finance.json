@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-14",
+  "track": "finance",
+  "theme": "Đối chiếu số liệu",
+  "vocab": [
+    {
+      "word": "reconciliation statement",
+      "ipa": "/ˌrekənsɪliˈeɪʃn ˈsteɪtmənt/",
+      "meaning_vi": "bảng đối chiếu số liệu",
+      "example": "Linh sends the reconciliation statement to her manager at the end of each month.",
+      "example_vi": "Linh gửi bảng đối chiếu số liệu cho quản lý vào cuối mỗi tháng."
+    },
+    {
+      "word": "unreconciled item",
+      "ipa": "/ˌʌnˈrekənsaɪld ˈaɪtəm/",
+      "meaning_vi": "khoản chưa đối chiếu được",
+      "example": "There are still two unreconciled items in the bank account for August.",
+      "example_vi": "Vẫn còn hai khoản chưa đối chiếu được trong tài khoản ngân hàng tháng Tám."
+    },
+    {
+      "word": "line item",
+      "ipa": "/laɪn ˈaɪtəm/",
+      "meaning_vi": "dòng khoản mục",
+      "example": "Check every line item in the ledger before you close the month.",
+      "example_vi": "Hãy kiểm tra từng dòng khoản mục trong sổ cái trước khi khoá sổ tháng."
+    },
+    {
+      "word": "rounding difference",
+      "ipa": "/ˈraʊndɪŋ ˈdɪfrəns/",
+      "meaning_vi": "chênh lệch do làm tròn",
+      "example": "The gap is only twelve thousand dong, so it is just a rounding difference.",
+      "example_vi": "Khoảng chênh chỉ mười hai nghìn đồng, nên đó chỉ là chênh lệch do làm tròn."
+    },
+    {
+      "word": "system export",
+      "ipa": "/ˈsɪstəm ˈekspɔːt/",
+      "meaning_vi": "file dữ liệu xuất từ hệ thống",
+      "example": "I compared the system export with the bank file line by line.",
+      "example_vi": "Tôi đã so sánh file xuất từ hệ thống với file ngân hàng từng dòng một."
+    },
+    {
+      "word": "reversal entry",
+      "ipa": "/rɪˈvɜːsl ˈentri/",
+      "meaning_vi": "bút toán đảo",
+      "example": "Do not delete the wrong record; please make a reversal entry instead.",
+      "example_vi": "Đừng xoá bản ghi sai; hãy tạo một bút toán đảo thay vì xoá."
+    },
+    {
+      "word": "manual adjustment",
+      "ipa": "/ˈmænjuəl əˈdʒʌstmənt/",
+      "meaning_vi": "điều chỉnh thủ công",
+      "example": "Our policy allows a manual adjustment only with written approval.",
+      "example_vi": "Chính sách của chúng ta chỉ cho phép điều chỉnh thủ công khi có phê duyệt bằng văn bản."
+    },
+    {
+      "word": "match the figures",
+      "ipa": "/mætʃ ðə ˈfɪɡəz/",
+      "meaning_vi": "khớp các con số",
+      "example": "We cannot close the books until we match the figures with the bank.",
+      "example_vi": "Chúng ta chưa thể khoá sổ cho đến khi khớp các con số với ngân hàng."
+    }
+  ],
+  "listening": {
+    "title": "Closing the month with two unreconciled items",
+    "lines": [
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "Linh, how is the reconciliation statement for August going?" },
+      { "speaker": "Linh (Accountant)", "voice": "female", "text": "Almost done. But I still have two unreconciled items in the bank account." },
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "How big are they? Can we still close the month today?" },
+      { "speaker": "Linh (Accountant)", "voice": "female", "text": "One is small, about twelve thousand dong. It is only a rounding difference." },
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "That is fine. And what about the other one?" },
+      { "speaker": "Linh (Accountant)", "voice": "female", "text": "A payment of fifty million dong appears twice in the system export." },
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "That looks like a double posting. Can you trace it back to the invoice?" },
+      { "speaker": "Linh (Accountant)", "voice": "female", "text": "Yes. I will check the line item in the ledger and call the bank." },
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "If the mistake is ours, please make a reversal entry, not a manual adjustment." },
+      { "speaker": "Linh (Accountant)", "voice": "female", "text": "Understood. Then we can match the figures with the bank statement exactly." },
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "Great. Send me the final report before four o'clock, please." }
+    ],
+    "questions": [
+      {
+        "q": "What is the small difference of twelve thousand dong?",
+        "options": ["A rounding difference", "A missing invoice", "A tax error"],
+        "answer": 0
+      },
+      {
+        "q": "What is wrong with the fifty million dong payment?",
+        "options": ["It is missing", "It appears twice", "It is too small"],
+        "answer": 1
+      },
+      {
+        "q": "What does Nam ask Linh to do if the mistake is theirs?",
+        "options": ["Make a manual adjustment", "Make a reversal entry", "Call the auditor"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "I am checking the bank statement against our ledger for the whole month.",
+    "There is a small difference of about two hundred thousand dong here.",
+    "Could you send me the system export so I can compare the numbers?",
+    "Once the figures match, I will send you the reconciliation statement for approval.",
+    "Please do not change the old record; make a reversal entry instead."
+  ]
+}

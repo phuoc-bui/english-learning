@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-14",
+  "track": "interview",
+  "theme": "Kể chuyện theo STAR",
+  "vocab": [
+    {
+      "word": "my role was",
+      "ipa": "/maɪ rəʊl wɒz/",
+      "meaning_vi": "vai trò của tôi là",
+      "example": "My role was to lead the front-end team and report to the project manager.",
+      "example_vi": "Vai trò của tôi là dẫn dắt nhóm giao diện và báo cáo cho quản lý dự án."
+    },
+    {
+      "word": "took ownership",
+      "ipa": "/tʊk ˈəʊnəʃɪp/",
+      "meaning_vi": "chủ động nhận trách nhiệm",
+      "example": "I took ownership of the problem instead of waiting for my manager.",
+      "example_vi": "Tôi đã chủ động nhận trách nhiệm xử lý vấn đề thay vì chờ quản lý."
+    },
+    {
+      "word": "deadline pressure",
+      "ipa": "/ˈdedlaɪn ˈpreʃə/",
+      "meaning_vi": "áp lực thời hạn",
+      "example": "Tell me about a time when you worked under strong deadline pressure.",
+      "example_vi": "Hãy kể về một lần bạn làm việc dưới áp lực thời hạn rất lớn."
+    },
+    {
+      "word": "narrow down",
+      "ipa": "/ˈnærəʊ daʊn/",
+      "meaning_vi": "thu hẹp lại",
+      "example": "We had to narrow down the scope to three screens for the first release.",
+      "example_vi": "Chúng tôi phải thu hẹp phạm vi xuống ba màn hình cho bản phát hành đầu tiên."
+    },
+    {
+      "word": "as a result",
+      "ipa": "/əz ə rɪˈzʌlt/",
+      "meaning_vi": "kết quả là",
+      "example": "As a result, we launched on time and the client renewed the contract.",
+      "example_vi": "Kết quả là chúng tôi ra mắt đúng hạn và khách hàng đã gia hạn hợp đồng."
+    },
+    {
+      "word": "key takeaway",
+      "ipa": "/kiː ˈteɪkəweɪ/",
+      "meaning_vi": "bài học chính rút ra",
+      "example": "My key takeaway is that asking for help early saves a lot of time.",
+      "example_vi": "Bài học chính tôi rút ra là hỏi xin trợ giúp sớm sẽ tiết kiệm rất nhiều thời gian."
+    },
+    {
+      "word": "in hindsight",
+      "ipa": "/ɪn ˈhaɪndsaɪt/",
+      "meaning_vi": "nhìn lại thì",
+      "example": "In hindsight, I should have talked to the QA team one week earlier.",
+      "example_vi": "Nhìn lại thì tôi nên nói chuyện với nhóm kiểm thử sớm hơn một tuần."
+    },
+    {
+      "word": "real-life example",
+      "ipa": "/ˌrɪəl laɪf ɪɡˈzɑːmpl/",
+      "meaning_vi": "ví dụ thực tế",
+      "example": "Interviewers prefer a real-life example to a general answer.",
+      "example_vi": "Người phỏng vấn thích một ví dụ thực tế hơn là câu trả lời chung chung."
+    }
+  ],
+  "listening": {
+    "title": "Answering a behavioural question with the STAR structure",
+    "lines": [
+      { "speaker": "Ms Mai (Interviewer)", "voice": "female", "text": "Hoang, could you tell me about a time when you worked under deadline pressure?" },
+      { "speaker": "Hoang (Candidate)", "voice": "male", "text": "Yes. Last year my team had to launch an online payment page in three weeks." },
+      { "speaker": "Ms Mai (Interviewer)", "voice": "female", "text": "That sounds very tight. What was your role in that project?" },
+      { "speaker": "Hoang (Candidate)", "voice": "male", "text": "My role was to lead the front-end part and talk to the bank's technical team." },
+      { "speaker": "Ms Mai (Interviewer)", "voice": "female", "text": "And how did you organise the work?" },
+      { "speaker": "Hoang (Candidate)", "voice": "male", "text": "I took ownership of the planning and narrowed down the scope to three must-have screens." },
+      { "speaker": "Ms Mai (Interviewer)", "voice": "female", "text": "What happened to the other features?" },
+      { "speaker": "Hoang (Candidate)", "voice": "male", "text": "We moved them to phase two, and the client agreed after I explained the risk." },
+      { "speaker": "Ms Mai (Interviewer)", "voice": "female", "text": "So what was the final outcome?" },
+      { "speaker": "Hoang (Candidate)", "voice": "male", "text": "As a result, we launched on time and the error rate stayed under one percent." },
+      { "speaker": "Ms Mai (Interviewer)", "voice": "female", "text": "Nice. And what is your key takeaway from that project?" },
+      { "speaker": "Hoang (Candidate)", "voice": "male", "text": "In hindsight, I should have asked the QA team for help one week earlier." }
+    ],
+    "questions": [
+      {
+        "q": "How long did Hoang's team have to launch the payment page?",
+        "options": ["Three weeks", "Three months", "One year"],
+        "answer": 0
+      },
+      {
+        "q": "How did Hoang handle the tight deadline?",
+        "options": ["He asked for more money", "He narrowed the scope to three screens", "He cancelled the project"],
+        "answer": 1
+      },
+      {
+        "q": "What is Hoang's key takeaway?",
+        "options": ["He should have asked QA for help earlier", "He should have worked alone", "He should have changed jobs"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "The situation was simple: our biggest client wanted a report every Monday.",
+    "My role was to collect the data and prepare the slides for my manager.",
+    "I took ownership of the problem and asked two teammates to help me.",
+    "As a result, we cut the reporting time from six hours to two.",
+    "In hindsight, my key takeaway was to ask for feedback much earlier."
+  ]
+}

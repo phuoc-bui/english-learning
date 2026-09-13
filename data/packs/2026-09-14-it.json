@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-14",
+  "track": "it",
+  "theme": "Xin nghỉ phép & thông báo vắng mặt",
+  "vocab": [
+    {
+      "word": "leave request form",
+      "ipa": "/liːv rɪˈkwest fɔːm/",
+      "meaning_vi": "đơn xin nghỉ phép",
+      "example": "Please fill in the leave request form before you talk to your team lead.",
+      "example_vi": "Hãy điền đơn xin nghỉ phép trước khi bạn trao đổi với trưởng nhóm."
+    },
+    {
+      "word": "unpaid leave",
+      "ipa": "/ˌʌnˈpeɪd liːv/",
+      "meaning_vi": "nghỉ không lương",
+      "example": "He took two weeks of unpaid leave to finish his master's thesis.",
+      "example_vi": "Anh ấy xin nghỉ không lương hai tuần để hoàn thành luận văn thạc sĩ."
+    },
+    {
+      "word": "stand in for",
+      "ipa": "/stænd ɪn fɔː/",
+      "meaning_vi": "làm thay, trực thay ai đó",
+      "example": "Minh will stand in for me at the release meeting on Thursday.",
+      "example_vi": "Minh sẽ họp thay tôi trong buổi họp phát hành vào thứ Năm."
+    },
+    {
+      "word": "doctor's note",
+      "ipa": "/ˈdɒktəz nəʊt/",
+      "meaning_vi": "giấy khám bệnh của bác sĩ",
+      "example": "HR asked for a doctor's note because he was away for four days.",
+      "example_vi": "Phòng nhân sự yêu cầu giấy khám bệnh vì anh ấy nghỉ bốn ngày."
+    },
+    {
+      "word": "sick day",
+      "ipa": "/sɪk deɪ/",
+      "meaning_vi": "ngày nghỉ ốm",
+      "example": "I am taking a sick day today, so please move my code review.",
+      "example_vi": "Hôm nay tôi xin nghỉ ốm, nên hãy dời buổi review code của tôi."
+    },
+    {
+      "word": "emergency leave",
+      "ipa": "/ɪˈmɜːdʒənsi liːv/",
+      "meaning_vi": "nghỉ khẩn cấp",
+      "example": "She asked for emergency leave when her father went into hospital.",
+      "example_vi": "Cô ấy xin nghỉ khẩn cấp khi bố cô ấy phải nhập viện."
+    },
+    {
+      "word": "on leave",
+      "ipa": "/ɒn liːv/",
+      "meaning_vi": "đang trong kỳ nghỉ phép",
+      "example": "Nam is on leave until Monday, so Linh is handling the hotfix.",
+      "example_vi": "Nam đang nghỉ phép đến thứ Hai, nên Linh đang xử lý bản vá nóng."
+    },
+    {
+      "word": "back at work",
+      "ipa": "/bæk ət wɜːk/",
+      "meaning_vi": "đi làm trở lại",
+      "example": "I will be back at work on Monday and I will answer all emails then.",
+      "example_vi": "Tôi sẽ đi làm trở lại vào thứ Hai và sẽ trả lời hết email khi đó."
+    }
+  ],
+  "listening": {
+    "title": "Asking your team lead for three days off",
+    "lines": [
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Hi Hoa, do you have a minute? I need to talk about some time off next week." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Sure, Nam. Have you already sent the leave request form to HR?" },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Not yet. I wanted to check with you first, because it is three days in a row." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "That is fine. Which days are you planning to be on leave?" },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Wednesday to Friday. My sister is getting married in Da Nang." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Congratulations. Who can stand in for you during the release check?" },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Minh knows the payment module well. I will hand over my notes on Tuesday." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Good. Please also set an auto-reply so the client knows you are away." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "I will. And if there is an emergency, Minh can call me on my mobile." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Let's hope that is not needed. Send the form today and I will approve it this afternoon." },
+      { "speaker": "Nam (Developer)", "voice": "male", "text": "Thank you, Hoa. I will be back at work on Monday morning." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Nam want three days off?",
+        "options": ["His sister is getting married", "He is sick", "He is moving house"],
+        "answer": 0
+      },
+      {
+        "q": "Who will stand in for Nam during the release check?",
+        "options": ["Hoa", "Minh", "The client"],
+        "answer": 1
+      },
+      {
+        "q": "What does Hoa ask Nam to set up before he leaves?",
+        "options": ["An auto-reply", "A new server", "A team dinner"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I would like to take three days off next week for a family event.",
+    "Could you stand in for me while I am on leave this Friday?",
+    "I have already sent the leave request form to HR for approval.",
+    "I will hand over my notes and open tasks before I go.",
+    "Sorry, I am taking a sick day today and will reply to emails tomorrow."
+  ]
+}

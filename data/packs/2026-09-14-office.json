@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-14",
+  "track": "office",
+  "theme": "Tổ chức sự kiện nội bộ",
+  "vocab": [
+    {
+      "word": "company anniversary",
+      "ipa": "/ˈkʌmpəni ˌænɪˈvɜːsəri/",
+      "meaning_vi": "lễ kỷ niệm thành lập công ty",
+      "example": "The company anniversary party will be held at a hotel near the office.",
+      "example_vi": "Tiệc kỷ niệm thành lập công ty sẽ được tổ chức tại khách sạn gần văn phòng."
+    },
+    {
+      "word": "invitation list",
+      "ipa": "/ˌɪnvɪˈteɪʃn lɪst/",
+      "meaning_vi": "danh sách khách mời",
+      "example": "Please add the Hanoi team to the invitation list before Friday.",
+      "example_vi": "Hãy thêm nhóm Hà Nội vào danh sách khách mời trước thứ Sáu."
+    },
+    {
+      "word": "seating plan",
+      "ipa": "/ˈsiːtɪŋ plæn/",
+      "meaning_vi": "sơ đồ chỗ ngồi",
+      "example": "Linh printed the seating plan so nobody has to look for a table.",
+      "example_vi": "Linh đã in sơ đồ chỗ ngồi để không ai phải đi tìm bàn."
+    },
+    {
+      "word": "guest speaker",
+      "ipa": "/ɡest ˈspiːkə/",
+      "meaning_vi": "khách mời phát biểu",
+      "example": "Our guest speaker will talk for ten minutes about the company history.",
+      "example_vi": "Khách mời phát biểu sẽ nói trong mười phút về lịch sử công ty."
+    },
+    {
+      "word": "name tag",
+      "ipa": "/neɪm tæɡ/",
+      "meaning_vi": "bảng tên đeo",
+      "example": "Every guest gets a name tag so people from other floors can say hello.",
+      "example_vi": "Mỗi khách được phát một bảng tên để người ở tầng khác có thể chào hỏi."
+    },
+    {
+      "word": "registration desk",
+      "ipa": "/ˌredʒɪˈstreɪʃn desk/",
+      "meaning_vi": "bàn đón tiếp, bàn đăng ký",
+      "example": "Two volunteers will sit at the registration desk from five o'clock.",
+      "example_vi": "Hai tình nguyện viên sẽ ngồi ở bàn đón tiếp từ năm giờ."
+    },
+    {
+      "word": "sound check",
+      "ipa": "/saʊnd tʃek/",
+      "meaning_vi": "kiểm tra âm thanh",
+      "example": "We need a sound check one hour before the first speech.",
+      "example_vi": "Chúng ta cần kiểm tra âm thanh một tiếng trước bài phát biểu đầu tiên."
+    },
+    {
+      "word": "kick-off event",
+      "ipa": "/ˈkɪk ɒf ɪˈvent/",
+      "meaning_vi": "sự kiện khởi động",
+      "example": "The kick-off event for the new product is in the same week.",
+      "example_vi": "Sự kiện khởi động cho sản phẩm mới diễn ra trong cùng tuần đó."
+    }
+  ],
+  "listening": {
+    "title": "Planning the company anniversary party",
+    "lines": [
+      { "speaker": "Linh (HR Officer)", "voice": "female", "text": "Minh, we need to finalise the plan for the company anniversary next month." },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Right. I booked the hall already. How many people are on the invitation list?" },
+      { "speaker": "Linh (HR Officer)", "voice": "female", "text": "About one hundred and twenty, including the staff from the Hanoi office." },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Then we need a bigger seating plan. Eight people per table should work." },
+      { "speaker": "Linh (HR Officer)", "voice": "female", "text": "Good idea. I also asked our CEO to be the guest speaker for ten minutes." },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Perfect. I will book a sound check one hour before the event starts." },
+      { "speaker": "Linh (HR Officer)", "voice": "female", "text": "Thanks. Can your team prepare a name tag for every guest?" },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Of course. We will print them tonight and put them on the registration desk." },
+      { "speaker": "Linh (HR Officer)", "voice": "female", "text": "One more thing. The kick-off event for the new product is in the same week." },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Then let's keep the anniversary simple so the team is not too tired." },
+      { "speaker": "Linh (HR Officer)", "voice": "female", "text": "Agreed. I will send the final programme to everyone on Friday." }
+    ],
+    "questions": [
+      {
+        "q": "How many people are on the invitation list?",
+        "options": ["About eighty", "About one hundred and twenty", "About two hundred"],
+        "answer": 1
+      },
+      {
+        "q": "Who will be the guest speaker?",
+        "options": ["The CEO", "Minh", "A customer"],
+        "answer": 0
+      },
+      {
+        "q": "Where will the name tags be put?",
+        "options": ["On the registration desk", "In the pantry", "On the stage"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you confirm the final headcount so we can book enough tables?",
+    "I will send the invitation list to everyone before the end of today.",
+    "Please arrive thirty minutes early to help us set up the registration desk.",
+    "We should do a quick sound check before the guest speaker comes on stage.",
+    "Let me know if you have any food allergies before we order the catering."
+  ]
+}
