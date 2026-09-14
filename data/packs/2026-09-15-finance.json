@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-15",
+  "track": "finance",
+  "theme": "Trình bày số liệu với sếp",
+  "vocab": [
+    {
+      "word": "key figure",
+      "ipa": "/kiː ˈfɪɡə/",
+      "meaning_vi": "con số quan trọng, số liệu chính",
+      "example": "Let me start with three key figures before I go into the details.",
+      "example_vi": "Hãy để tôi bắt đầu với ba con số quan trọng trước khi đi vào chi tiết."
+    },
+    {
+      "word": "year on year",
+      "ipa": "/jɪər ɒn jɪə/",
+      "meaning_vi": "so với cùng kỳ năm trước",
+      "example": "Revenue grew eight percent year on year in the third quarter.",
+      "example_vi": "Doanh thu tăng tám phần trăm so với cùng kỳ năm trước trong quý ba."
+    },
+    {
+      "word": "above target",
+      "ipa": "/əˈbʌv ˈtɑːɡɪt/",
+      "meaning_vi": "vượt chỉ tiêu",
+      "example": "Sales in the north are above target, but the south is a little behind.",
+      "example_vi": "Doanh số ở miền Bắc vượt chỉ tiêu, nhưng miền Nam hơi chậm một chút."
+    },
+    {
+      "word": "in line with",
+      "ipa": "/ɪn laɪn wɪð/",
+      "meaning_vi": "phù hợp với, đúng như (kế hoạch, ngân sách)",
+      "example": "Marketing spend is in line with the budget we approved in June.",
+      "example_vi": "Chi phí marketing đúng như ngân sách chúng ta đã duyệt hồi tháng Sáu."
+    },
+    {
+      "word": "explain the gap",
+      "ipa": "/ɪkˈspleɪn ðə ɡæp/",
+      "meaning_vi": "giải thích khoảng chênh lệch",
+      "example": "On slide four I explain the gap between the forecast and the actual number.",
+      "example_vi": "Ở slide bốn tôi giải thích khoảng chênh lệch giữa dự báo và số thực tế."
+    },
+    {
+      "word": "data source",
+      "ipa": "/ˈdeɪtə sɔːs/",
+      "meaning_vi": "nguồn dữ liệu",
+      "example": "The data source is our accounting system, and I checked it with the bank report.",
+      "example_vi": "Nguồn dữ liệu là hệ thống kế toán của chúng tôi, và tôi đã đối chiếu với sao kê ngân hàng."
+    },
+    {
+      "word": "back up a claim",
+      "ipa": "/bæk ʌp ə kleɪm/",
+      "meaning_vi": "chứng minh, đưa bằng chứng cho một nhận định",
+      "example": "I need clear numbers to back up a claim in front of the board.",
+      "example_vi": "Tôi cần những con số rõ ràng để chứng minh nhận định trước hội đồng quản trị."
+    },
+    {
+      "word": "take questions",
+      "ipa": "/teɪk ˈkwestʃənz/",
+      "meaning_vi": "nhận và trả lời câu hỏi",
+      "example": "I will present for ten minutes and then take questions from the team.",
+      "example_vi": "Tôi sẽ trình bày trong mười phút rồi nhận câu hỏi từ mọi người."
+    }
+  ],
+  "listening": {
+    "title": "Presenting the monthly numbers to the finance director",
+    "lines": [
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "Hoa, I have fifteen minutes. Can you walk me through the numbers?" },
+      { "speaker": "Hoa (Finance Analyst)", "voice": "female", "text": "Yes. Let me start with three key figures, then go into the details." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "Please do. How is revenue this month?" },
+      { "speaker": "Hoa (Finance Analyst)", "voice": "female", "text": "Revenue grew eight percent year on year, so we are above target." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "That sounds good. What about our costs?" },
+      { "speaker": "Hoa (Finance Analyst)", "voice": "female", "text": "Marketing spend is in line with the budget we approved in June." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "And the forecast we sent to the board? I remember a difference there." },
+      { "speaker": "Hoa (Finance Analyst)", "voice": "female", "text": "There is a gap of two hundred million dong. I explain the gap on slide four." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "Please do, and tell me where the numbers come from." },
+      { "speaker": "Hoa (Finance Analyst)", "voice": "female", "text": "The data source is the accounting system, and I checked it with the bank report." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "Good. I need those figures to back up a claim in the board meeting." },
+      { "speaker": "Hoa (Finance Analyst)", "voice": "female", "text": "Understood. I will take questions at the end and send you the file after that." }
+    ],
+    "questions": [
+      { "q": "How much did revenue grow?", "options": ["Eight percent year on year", "Two percent month on month", "Eighteen percent year on year"], "answer": 0 },
+      { "q": "Where do the numbers come from?", "options": ["The accounting system, checked with the bank report", "A sales spreadsheet from last year", "The marketing team only"], "answer": 0 },
+      { "q": "What will Hoa do at the end of the meeting?", "options": ["Take questions and send the file", "Leave the meeting early", "Ask Minh to write the report"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Revenue grew eight percent year on year, which is above our original target.",
+    "Let me show you three key figures before I go into the details.",
+    "Our marketing spend is in line with the budget we approved in June.",
+    "I can explain the gap between the forecast and the actual number here.",
+    "I will take questions at the end, and the data source is attached."
+  ]
+}

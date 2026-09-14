@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-15",
+  "track": "it",
+  "theme": "Giải thích bug & sự cố production",
+  "vocab": [
+    {
+      "word": "memory leak",
+      "ipa": "/ˈmeməri liːk/",
+      "meaning_vi": "lỗi rò rỉ bộ nhớ (chương trình chiếm bộ nhớ mà không giải phóng)",
+      "example": "The payment service became slow because of a memory leak in the new release.",
+      "example_vi": "Dịch vụ thanh toán bị chậm vì lỗi rò rỉ bộ nhớ trong bản phát hành mới."
+    },
+    {
+      "word": "on-call engineer",
+      "ipa": "/ˌɒn kɔːl ˌendʒɪˈnɪə/",
+      "meaning_vi": "kỹ sư trực sự cố (theo ca)",
+      "example": "The on-call engineer picked up the alert two minutes after it appeared.",
+      "example_vi": "Kỹ sư trực sự cố đã tiếp nhận cảnh báo hai phút sau khi nó xuất hiện."
+    },
+    {
+      "word": "narrow down",
+      "ipa": "/ˈnærəʊ daʊn/",
+      "meaning_vi": "thu hẹp phạm vi (để tìm ra nguyên nhân)",
+      "example": "I checked the logs to narrow down the problem to one service.",
+      "example_vi": "Tôi đã kiểm tra log để thu hẹp vấn đề về một dịch vụ duy nhất."
+    },
+    {
+      "word": "temporary fix",
+      "ipa": "/ˈtemprəri fɪks/",
+      "meaning_vi": "cách xử lý tạm thời",
+      "example": "We applied a temporary fix this morning and will ship the real one tomorrow.",
+      "example_vi": "Sáng nay chúng tôi đã áp dụng cách xử lý tạm thời và sẽ triển khai bản sửa thật vào ngày mai."
+    },
+    {
+      "word": "impact assessment",
+      "ipa": "/ˈɪmpækt əˈsesmənt/",
+      "meaning_vi": "đánh giá mức độ ảnh hưởng",
+      "example": "Our first impact assessment shows that about two hundred users were affected.",
+      "example_vi": "Đánh giá ảnh hưởng đầu tiên của chúng tôi cho thấy khoảng hai trăm người dùng bị ảnh hưởng."
+    },
+    {
+      "word": "service restored",
+      "ipa": "/ˈsɜːvɪs rɪˈstɔːd/",
+      "meaning_vi": "dịch vụ đã hoạt động trở lại",
+      "example": "The service was restored at ten fifteen, and error rates are normal again.",
+      "example_vi": "Dịch vụ đã hoạt động trở lại lúc mười giờ mười lăm, và tỉ lệ lỗi đã bình thường."
+    },
+    {
+      "word": "status page",
+      "ipa": "/ˈsteɪtəs peɪdʒ/",
+      "meaning_vi": "trang thông báo tình trạng hệ thống cho khách hàng",
+      "example": "Please update the status page every thirty minutes during an incident.",
+      "example_vi": "Hãy cập nhật trang tình trạng hệ thống mỗi ba mươi phút trong lúc có sự cố."
+    },
+    {
+      "word": "misconfiguration",
+      "ipa": "/ˌmɪskənˌfɪɡjəˈreɪʃn/",
+      "meaning_vi": "việc cấu hình sai",
+      "example": "A small misconfiguration in the cache settings caused the whole problem.",
+      "example_vi": "Một lỗi cấu hình sai nhỏ trong thiết lập cache đã gây ra toàn bộ vấn đề."
+    }
+  ],
+  "listening": {
+    "title": "Explaining a production incident to the team lead",
+    "lines": [
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Nam, the support team says users cannot pay on the app. What is happening?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "We have a production incident. The payment service is slow and some requests fail." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "When did it start, and how many customers are affected?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "It started at nine ten. Our first impact assessment shows about two hundred users." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Do we know the cause yet, or are you still looking?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "We think a misconfiguration in the cache created a memory leak. I need time to narrow it down." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Please update the status page first, so customers are not left in the dark." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Already done. The on-call engineer also posted an update in the incident channel." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Good. Can we give the users a temporary fix this morning?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Yes. We restarted the service, so the service is restored, and I will send a full report by five." }
+    ],
+    "questions": [
+      { "q": "When did the incident start?", "options": ["At nine ten", "At ten fifteen", "At five in the evening"], "answer": 0 },
+      { "q": "What does Nam think caused the problem?", "options": ["A misconfiguration that created a memory leak", "A power cut at the office", "A mistake by the support team"], "answer": 0 },
+      { "q": "What does Linh ask Nam to do first?", "options": ["Update the status page", "Call every customer", "Write the full report"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "We found a memory leak on the payment service around nine this morning.",
+    "I need ten more minutes to narrow down the root of this problem.",
+    "We pushed a temporary fix, and the service was restored at ten fifteen.",
+    "Please update the status page so our customers know what is happening now.",
+    "The impact assessment shows about two hundred users could not log in today."
+  ]
+}

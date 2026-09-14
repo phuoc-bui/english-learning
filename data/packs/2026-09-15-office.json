@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-15",
+  "track": "office",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    {
+      "word": "first week",
+      "ipa": "/fɜːst wiːk/",
+      "meaning_vi": "tuần làm việc đầu tiên",
+      "example": "In your first week you only need to learn, not to deliver results.",
+      "example_vi": "Trong tuần đầu tiên bạn chỉ cần học hỏi, chưa cần tạo ra kết quả."
+    },
+    {
+      "word": "welcome pack",
+      "ipa": "/ˈwelkəm pæk/",
+      "meaning_vi": "bộ quà/tài liệu chào mừng nhân viên mới",
+      "example": "Your welcome pack has a notebook, a company mug and the staff handbook.",
+      "example_vi": "Bộ quà chào mừng của bạn có một cuốn sổ, một chiếc cốc công ty và sổ tay nhân viên."
+    },
+    {
+      "word": "office tour",
+      "ipa": "/ˈɒfɪs tʊə/",
+      "meaning_vi": "buổi đi tham quan văn phòng",
+      "example": "I will give you a short office tour so you can find the meeting rooms.",
+      "example_vi": "Tôi sẽ dẫn bạn đi tham quan văn phòng một chút để bạn biết các phòng họp ở đâu."
+    },
+    {
+      "word": "desk setup",
+      "ipa": "/desk ˈsetʌp/",
+      "meaning_vi": "chỗ ngồi và thiết bị làm việc đã chuẩn bị sẵn",
+      "example": "Your desk setup is ready: a laptop, a second screen and a headset.",
+      "example_vi": "Chỗ làm việc của bạn đã sẵn sàng: một laptop, một màn hình phụ và một tai nghe."
+    },
+    {
+      "word": "internal tool",
+      "ipa": "/ɪnˈtɜːnl tuːl/",
+      "meaning_vi": "công cụ/phần mềm nội bộ của công ty",
+      "example": "We use an internal tool to book meeting rooms and request office supplies.",
+      "example_vi": "Chúng tôi dùng một công cụ nội bộ để đặt phòng họp và yêu cầu văn phòng phẩm."
+    },
+    {
+      "word": "shadow someone",
+      "ipa": "/ˈʃædəʊ ˈsʌmwʌn/",
+      "meaning_vi": "đi theo quan sát, học việc từ một người",
+      "example": "You will shadow Linh for two days to see how she handles customer calls.",
+      "example_vi": "Bạn sẽ đi theo học việc cùng Linh trong hai ngày để xem cô ấy xử lý cuộc gọi khách hàng thế nào."
+    },
+    {
+      "word": "reporting line",
+      "ipa": "/rɪˈpɔːtɪŋ laɪn/",
+      "meaning_vi": "tuyến báo cáo (báo cáo trực tiếp cho ai)",
+      "example": "Your reporting line is to Minh, so please send him your weekly update.",
+      "example_vi": "Tuyến báo cáo của bạn là tới Minh, nên hãy gửi cập nhật hằng tuần cho anh ấy."
+    },
+    {
+      "word": "training plan",
+      "ipa": "/ˈtreɪnɪŋ plæn/",
+      "meaning_vi": "kế hoạch đào tạo",
+      "example": "Your manager will review the training plan with you at the end of the week.",
+      "example_vi": "Quản lý của bạn sẽ cùng bạn xem lại kế hoạch đào tạo vào cuối tuần."
+    }
+  ],
+  "listening": {
+    "title": "A new colleague's first day",
+    "lines": [
+      { "speaker": "Hoa (HR Executive)", "voice": "female", "text": "Good morning Khoa. Welcome to the company. How do you feel on your first day?" },
+      { "speaker": "Khoa (New Marketing Executive)", "voice": "male", "text": "A little nervous, but excited. Thank you for the welcome pack on my desk." },
+      { "speaker": "Hoa (HR Executive)", "voice": "female", "text": "Your desk setup is ready too. The laptop, the second screen and the staff card are all there." },
+      { "speaker": "Khoa (New Marketing Executive)", "voice": "male", "text": "That is great. Who should I speak to if I have a technical problem?" },
+      { "speaker": "Hoa (HR Executive)", "voice": "female", "text": "Send a message to the IT team. They also give you access to our internal tools." },
+      { "speaker": "Khoa (New Marketing Executive)", "voice": "male", "text": "Understood. And who is my line manager here?" },
+      { "speaker": "Hoa (HR Executive)", "voice": "female", "text": "Your reporting line is to Minh, the marketing lead. He will review your training plan with you." },
+      { "speaker": "Khoa (New Marketing Executive)", "voice": "male", "text": "Nice. Will I have a chance to see how the team really works?" },
+      { "speaker": "Hoa (HR Executive)", "voice": "female", "text": "Yes. In your first week you will shadow Linh for two days." },
+      { "speaker": "Khoa (New Marketing Executive)", "voice": "male", "text": "Perfect. Could we also do a short office tour before lunch?" },
+      { "speaker": "Hoa (HR Executive)", "voice": "female", "text": "Of course. I will show you the meeting rooms and the pantry at eleven." }
+    ],
+    "questions": [
+      { "q": "Who will Khoa report to?", "options": ["Minh, the marketing lead", "Hoa from the HR team", "Linh, his buddy"], "answer": 0 },
+      { "q": "What will Khoa do for two days in his first week?", "options": ["Shadow Linh", "Work from home", "Take a training exam"], "answer": 0 },
+      { "q": "When will the office tour happen?", "options": ["At eleven, before lunch", "After lunch", "On his second day"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Your welcome pack is on the desk, and your laptop is ready too.",
+    "Let me give you a quick office tour before the team meeting starts.",
+    "In your first week, please focus on learning our internal tools and processes.",
+    "You will shadow Linh for two days to see how the work happens.",
+    "Your reporting line is to Minh, and he will review your training plan."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-15",
+  "track": "interview",
+  "theme": "Tìm hiểu văn hoá công ty",
+  "vocab": [
+    {
+      "word": "working style",
+      "ipa": "/ˈwɜːkɪŋ staɪl/",
+      "meaning_vi": "phong cách làm việc",
+      "example": "Could you tell me about the working style of the team I would join?",
+      "example_vi": "Anh/chị có thể cho tôi biết về phong cách làm việc của đội mà tôi sẽ tham gia không?"
+    },
+    {
+      "word": "fast-paced",
+      "ipa": "/ˌfɑːst ˈpeɪst/",
+      "meaning_vi": "nhịp độ nhanh",
+      "example": "I enjoy a fast-paced environment because I learn something new every week.",
+      "example_vi": "Tôi thích môi trường nhịp độ nhanh vì mỗi tuần tôi đều học được điều gì đó mới."
+    },
+    {
+      "word": "decision making",
+      "ipa": "/dɪˈsɪʒn ˈmeɪkɪŋ/",
+      "meaning_vi": "việc ra quyết định",
+      "example": "May I ask how decision making works when the team has different opinions?",
+      "example_vi": "Tôi có thể hỏi việc ra quyết định diễn ra thế nào khi cả đội có ý kiến khác nhau không?"
+    },
+    {
+      "word": "autonomy",
+      "ipa": "/ɔːˈtɒnəmi/",
+      "meaning_vi": "quyền tự chủ trong công việc",
+      "example": "In my last role I had autonomy to choose how I solved each problem.",
+      "example_vi": "Ở vị trí trước tôi có quyền tự chủ chọn cách giải quyết từng vấn đề."
+    },
+    {
+      "word": "transparent",
+      "ipa": "/trænsˈpærənt/",
+      "meaning_vi": "minh bạch, rõ ràng",
+      "example": "I prefer a transparent team where people explain the reason behind a decision.",
+      "example_vi": "Tôi thích một đội minh bạch, nơi mọi người giải thích lý do đằng sau một quyết định."
+    },
+    {
+      "word": "expectations",
+      "ipa": "/ˌekspekˈteɪʃnz/",
+      "meaning_vi": "kỳ vọng, yêu cầu đặt ra",
+      "example": "What are your expectations for this role in the first three months?",
+      "example_vi": "Kỳ vọng của anh/chị với vị trí này trong ba tháng đầu là gì?"
+    },
+    {
+      "word": "flexible hours",
+      "ipa": "/ˈfleksəbl ˈaʊəz/",
+      "meaning_vi": "giờ làm việc linh hoạt",
+      "example": "We offer flexible hours, but everyone joins the team meeting at ten.",
+      "example_vi": "Chúng tôi có giờ làm việc linh hoạt, nhưng mọi người đều tham gia họp nhóm lúc mười giờ."
+    },
+    {
+      "word": "learning opportunity",
+      "ipa": "/ˈlɜːnɪŋ ˌɒpəˈtjuːnəti/",
+      "meaning_vi": "cơ hội học hỏi",
+      "example": "This position looks like a real learning opportunity for me.",
+      "example_vi": "Vị trí này trông giống như một cơ hội học hỏi thực sự với tôi."
+    }
+  ],
+  "listening": {
+    "title": "A candidate asks about company culture",
+    "lines": [
+      { "speaker": "Linh (Hiring Manager)", "voice": "female", "text": "Nam, we have a few minutes left. Do you have any questions for me?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Yes, thank you. Could you tell me about the working style of the team?" },
+      { "speaker": "Linh (Hiring Manager)", "voice": "female", "text": "We are quite fast-paced. Plans can change, but we always explain why." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "That is helpful. How is decision making handled when people disagree?" },
+      { "speaker": "Linh (Hiring Manager)", "voice": "female", "text": "The team discusses openly, then the lead decides. We try to stay transparent." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I like that. Do engineers have autonomy over how they plan their work?" },
+      { "speaker": "Linh (Hiring Manager)", "voice": "female", "text": "Yes. We agree on the goal together, and you choose how to reach it." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "And what are your expectations for the first three months?" },
+      { "speaker": "Linh (Hiring Manager)", "voice": "female", "text": "Learn the product, ship one small feature, and build good relationships with the team." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Understood. One last question: do you offer flexible hours?" },
+      { "speaker": "Linh (Hiring Manager)", "voice": "female", "text": "We do. Core hours are ten to four, and the rest is up to you." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Thank you. This really sounds like a good learning opportunity for me." }
+    ],
+    "questions": [
+      { "q": "How does Linh describe the team?", "options": ["Fast-paced but transparent", "Slow and very formal", "Quiet and fully independent"], "answer": 0 },
+      { "q": "What are the expectations for the first three months?", "options": ["Learn the product, ship a small feature and build relationships", "Lead a big project alone", "Hire two new engineers"], "answer": 0 },
+      { "q": "What are the core working hours?", "options": ["Ten to four", "Nine to six", "Eight to five"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Could you tell me more about the working style of the team I join?",
+    "I work best in a fast-paced team where people share information openly and often.",
+    "In my last role, I had autonomy to plan my own weekly schedule.",
+    "May I ask how decisions are usually made when the team has different opinions?",
+    "I am looking for a learning opportunity, so clear expectations are important to me."
+  ]
+}

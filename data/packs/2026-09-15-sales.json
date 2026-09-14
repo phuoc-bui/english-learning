@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-15",
+  "track": "sales",
+  "theme": "Networking tại hội chợ/sự kiện",
+  "vocab": [
+    {
+      "word": "exhibition",
+      "ipa": "/ˌeksɪˈbɪʃn/",
+      "meaning_vi": "hội chợ, triển lãm",
+      "example": "The exhibition opens at nine and closes at five every day this week.",
+      "example_vi": "Triển lãm mở cửa lúc chín giờ và đóng cửa lúc năm giờ mỗi ngày trong tuần này."
+    },
+    {
+      "word": "industry event",
+      "ipa": "/ˈɪndəstri ɪˈvent/",
+      "meaning_vi": "sự kiện của ngành",
+      "example": "This industry event brings together most of our customers in one place.",
+      "example_vi": "Sự kiện ngành này quy tụ phần lớn khách hàng của chúng ta ở cùng một nơi."
+    },
+    {
+      "word": "keynote speech",
+      "ipa": "/ˈkiːnəʊt spiːtʃ/",
+      "meaning_vi": "bài phát biểu chính (mở đầu sự kiện)",
+      "example": "The keynote speech starts at ten, so the hall will be full then.",
+      "example_vi": "Bài phát biểu chính bắt đầu lúc mười giờ, nên lúc đó hội trường sẽ rất đông."
+    },
+    {
+      "word": "lead capture",
+      "ipa": "/liːd ˈkæptʃə/",
+      "meaning_vi": "việc thu thập thông tin khách hàng tiềm năng",
+      "example": "We use a simple form on the tablet for lead capture at the booth.",
+      "example_vi": "Chúng tôi dùng một biểu mẫu đơn giản trên máy tính bảng để thu thập thông tin khách tiềm năng tại gian hàng."
+    },
+    {
+      "word": "networking session",
+      "ipa": "/ˈnetwɜːkɪŋ ˈseʃn/",
+      "meaning_vi": "phiên giao lưu, kết nối",
+      "example": "The networking session after lunch is the best time to meet buyers.",
+      "example_vi": "Phiên giao lưu sau bữa trưa là thời điểm tốt nhất để gặp người mua."
+    },
+    {
+      "word": "exchange contacts",
+      "ipa": "/ɪksˈtʃeɪndʒ ˈkɒntækts/",
+      "meaning_vi": "trao đổi thông tin liên hệ",
+      "example": "Let us exchange contacts, and I will send you the details tomorrow.",
+      "example_vi": "Chúng ta hãy trao đổi thông tin liên hệ, và tôi sẽ gửi bạn chi tiết vào ngày mai."
+    },
+    {
+      "word": "lanyard",
+      "ipa": "/ˈlænjəd/",
+      "meaning_vi": "dây đeo thẻ tên",
+      "example": "Please wear the company lanyard so visitors can recognise our team.",
+      "example_vi": "Hãy đeo dây thẻ tên của công ty để khách tham quan nhận ra đội của mình."
+    },
+    {
+      "word": "brand awareness",
+      "ipa": "/brænd əˈweənəs/",
+      "meaning_vi": "mức độ nhận biết thương hiệu",
+      "example": "Joining the fair is not only about sales; it also builds brand awareness.",
+      "example_vi": "Tham gia hội chợ không chỉ để bán hàng; nó còn giúp xây dựng nhận biết thương hiệu."
+    }
+  ],
+  "listening": {
+    "title": "Planning the team's day at a trade exhibition",
+    "lines": [
+      { "speaker": "Nam (Sales Manager)", "voice": "male", "text": "Linh, the exhibition opens at nine tomorrow. Are we ready for the day?" },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Almost. The booth is set up and the brochures arrived this afternoon." },
+      { "speaker": "Nam (Sales Manager)", "voice": "male", "text": "Good. This industry event is our best chance to build brand awareness this quarter." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Do you want me to stay at the booth all day for lead capture?" },
+      { "speaker": "Nam (Sales Manager)", "voice": "male", "text": "In the morning, yes. After the keynote speech, I want you in the main hall." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Because of the networking session? I heard many buyers will be there." },
+      { "speaker": "Nam (Sales Manager)", "voice": "male", "text": "Exactly. Talk to them, exchange contacts, and write a short note after each conversation." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Should I bring name cards, or do we only scan badges now?" },
+      { "speaker": "Nam (Sales Manager)", "voice": "male", "text": "Bring both. Some visitors still prefer a card, and the scanner can fail." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Fine. One more thing: do we wear the company lanyard?" },
+      { "speaker": "Nam (Sales Manager)", "voice": "male", "text": "Yes, please. It helps people find us quickly in a busy hall." }
+    ],
+    "questions": [
+      { "q": "Where should Linh go after the keynote speech?", "options": ["To the networking session in the main hall", "Back to the office", "To the hotel to rest"], "answer": 0 },
+      { "q": "Why does Nam want Linh to bring name cards?", "options": ["Some visitors prefer a card and the scanner can fail", "Cards are cheaper than badges", "The booth has no brochures"], "answer": 0 },
+      { "q": "What is one main goal of joining this event?", "options": ["To build brand awareness", "To train new sales staff", "To buy office furniture"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "The exhibition opens at nine, so let us arrive thirty minutes before that.",
+    "I will stay near the booth and handle lead capture during the morning.",
+    "After the keynote speech, there is a networking session in the main hall.",
+    "Let us exchange contacts now, and I will send you our brochure tomorrow.",
+    "This industry event is a good chance to build brand awareness for us."
+  ]
+}
