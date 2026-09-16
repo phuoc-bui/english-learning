@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-16",
+  "track": "finance",
+  "theme": "Deadline quyết toán",
+  "vocab": [
+    {
+      "word": "closing period",
+      "ipa": "/ˈkləʊzɪŋ ˈpɪəriəd/",
+      "meaning_vi": "kỳ khoá sổ",
+      "example": "During the closing period, nobody can change last month's entries.",
+      "example_vi": "Trong kỳ khoá sổ, không ai được sửa các bút toán của tháng trước."
+    },
+    {
+      "word": "chase up",
+      "ipa": "/tʃeɪs ʌp/",
+      "meaning_vi": "hối thúc, đòi cho bằng được (chứng từ, câu trả lời)",
+      "example": "I will chase up the sales team for the missing receipts today.",
+      "example_vi": "Hôm nay tôi sẽ hối thúc bộ phận kinh doanh gửi các hoá đơn còn thiếu."
+    },
+    {
+      "word": "data entry",
+      "ipa": "/ˈdeɪtə ˈentri/",
+      "meaning_vi": "việc nhập liệu",
+      "example": "The data entry for August is finished, so we can start checking.",
+      "example_vi": "Việc nhập liệu cho tháng Tám đã xong, nên chúng ta có thể bắt đầu kiểm tra."
+    },
+    {
+      "word": "approval queue",
+      "ipa": "/əˈpruːvl kjuː/",
+      "meaning_vi": "hàng chờ phê duyệt",
+      "example": "Twelve payments are still sitting in the approval queue.",
+      "example_vi": "Vẫn còn mười hai khoản thanh toán đang nằm trong hàng chờ phê duyệt."
+    },
+    {
+      "word": "stay on track",
+      "ipa": "/steɪ ɒn træk/",
+      "meaning_vi": "giữ đúng tiến độ",
+      "example": "If we finish the checks by Thursday, we stay on track for the deadline.",
+      "example_vi": "Nếu kiểm tra xong trước thứ Năm, chúng ta sẽ giữ đúng tiến độ cho hạn chót."
+    },
+    {
+      "word": "missing document",
+      "ipa": "/ˈmɪsɪŋ ˈdɒkjumənt/",
+      "meaning_vi": "chứng từ còn thiếu",
+      "example": "Every missing document delays the whole report by at least a day.",
+      "example_vi": "Mỗi chứng từ còn thiếu làm chậm cả báo cáo ít nhất một ngày."
+    },
+    {
+      "word": "internal deadline",
+      "ipa": "/ɪnˈtɜːnl ˈdedlaɪn/",
+      "meaning_vi": "hạn nội bộ (sớm hơn hạn chính thức)",
+      "example": "Our internal deadline is the eighteenth, three days before the official one.",
+      "example_vi": "Hạn nội bộ của chúng ta là ngày mười tám, sớm hơn hạn chính thức ba ngày."
+    },
+    {
+      "word": "leave it to the last minute",
+      "ipa": "/liːv ɪt tə ðə lɑːst ˈmɪnɪt/",
+      "meaning_vi": "để đến phút chót mới làm",
+      "example": "Please do not leave it to the last minute like we did in June.",
+      "example_vi": "Xin đừng để đến phút chót mới làm như hồi tháng Sáu."
+    }
+  ],
+  "listening": {
+    "title": "Planning the month-end closing deadline",
+    "lines": [
+      { "speaker": "Mai (Chief Accountant)", "voice": "female", "text": "Nam, the official deadline is the twenty-first. Where are we now?" },
+      { "speaker": "Nam (Accountant)", "voice": "male", "text": "The data entry for August is finished. I completed the last invoices yesterday evening." },
+      { "speaker": "Mai (Chief Accountant)", "voice": "female", "text": "Good. Remember our internal deadline is the eighteenth, not the twenty-first." },
+      { "speaker": "Nam (Accountant)", "voice": "male", "text": "I know. That gives us three days for corrections if something is wrong." },
+      { "speaker": "Mai (Chief Accountant)", "voice": "female", "text": "Exactly. What about the missing documents from the sales team?" },
+      { "speaker": "Nam (Accountant)", "voice": "male", "text": "Six receipts are still missing. I sent two reminders last week." },
+      { "speaker": "Mai (Chief Accountant)", "voice": "female", "text": "Please chase up their manager directly this time. Email alone is too slow." },
+      { "speaker": "Nam (Accountant)", "voice": "male", "text": "I will call him after this meeting. There is also the approval queue." },
+      { "speaker": "Mai (Chief Accountant)", "voice": "female", "text": "How many payments are waiting there?" },
+      { "speaker": "Nam (Accountant)", "voice": "male", "text": "Twelve. The director is travelling, so nothing has moved since Monday." },
+      { "speaker": "Mai (Chief Accountant)", "voice": "female", "text": "I will ask him to approve them online tonight, so we stay on track." },
+      { "speaker": "Nam (Accountant)", "voice": "male", "text": "Thank you. I really do not want to leave it to the last minute again." }
+    ],
+    "questions": [
+      { "q": "What is the team's internal deadline?", "options": ["The eighteenth", "The twenty-first", "The end of the month"], "answer": 0 },
+      { "q": "How many receipts are still missing?", "options": ["Six", "Twelve", "Two"], "answer": 0 },
+      { "q": "Why have the payments not been approved?", "options": ["The director is travelling", "The system is broken", "Nam forgot to send them"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Our internal deadline is the eighteenth, three days before the official one.",
+    "I will chase up the sales team for the missing documents this afternoon.",
+    "The data entry is finished, so we can start checking the numbers now.",
+    "Twelve payments are still waiting in the approval queue for the director.",
+    "Let us not leave it to the last minute like we did in June."
+  ]
+}

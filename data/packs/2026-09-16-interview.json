@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-16",
+  "track": "interview",
+  "theme": "Thất bại & bài học",
+  "vocab": [
+    {
+      "word": "go wrong",
+      "ipa": "/ɡəʊ rɒŋ/",
+      "meaning_vi": "xảy ra sai sót, không như mong đợi",
+      "example": "I want to tell you honestly about a project that went wrong last year.",
+      "example_vi": "Tôi muốn kể thật với anh về một dự án đã gặp sai sót năm ngoái."
+    },
+    {
+      "word": "take the blame",
+      "ipa": "/teɪk ðə bleɪm/",
+      "meaning_vi": "nhận trách nhiệm về lỗi sai",
+      "example": "As the team leader, I took the blame instead of pointing at my team.",
+      "example_vi": "Là trưởng nhóm, tôi đã nhận trách nhiệm thay vì đổ lỗi cho nhóm mình."
+    },
+    {
+      "word": "ask for help sooner",
+      "ipa": "/ɑːsk fə help ˈsuːnə/",
+      "meaning_vi": "nhờ giúp đỡ sớm hơn",
+      "example": "The main lesson was to ask for help sooner, not after the deadline.",
+      "example_vi": "Bài học chính là phải nhờ giúp đỡ sớm hơn, chứ không phải sau hạn chót."
+    },
+    {
+      "word": "realistic estimate",
+      "ipa": "/ˌrɪəˈlɪstɪk ˈestɪmət/",
+      "meaning_vi": "ước lượng thực tế (về thời gian, công sức)",
+      "example": "Now I always give a realistic estimate, even when the client wants it faster.",
+      "example_vi": "Giờ tôi luôn đưa ra ước lượng thực tế, kể cả khi khách muốn nhanh hơn."
+    },
+    {
+      "word": "self-reflection",
+      "ipa": "/ˌself rɪˈflekʃn/",
+      "meaning_vi": "sự tự nhìn lại bản thân",
+      "example": "After some self-reflection, I saw that the problem started with my planning.",
+      "example_vi": "Sau khi tự nhìn lại, tôi thấy vấn đề bắt đầu từ khâu lập kế hoạch của mình."
+    },
+    {
+      "word": "valuable lesson",
+      "ipa": "/ˈvæljuəbl ˈlesn/",
+      "meaning_vi": "bài học quý giá",
+      "example": "That failure gave me a valuable lesson about communication.",
+      "example_vi": "Thất bại đó cho tôi một bài học quý giá về giao tiếp."
+    },
+    {
+      "word": "take on too much",
+      "ipa": "/teɪk ɒn tuː mʌtʃ/",
+      "meaning_vi": "ôm đồm quá nhiều việc",
+      "example": "My mistake was simple: I took on too much work at the same time.",
+      "example_vi": "Sai lầm của tôi rất đơn giản: tôi đã ôm đồm quá nhiều việc cùng lúc."
+    },
+    {
+      "word": "improve my process",
+      "ipa": "/ɪmˈpruːv maɪ ˈprəʊses/",
+      "meaning_vi": "cải thiện cách làm việc của mình",
+      "example": "I used that experience to improve my process for planning new tasks.",
+      "example_vi": "Tôi đã dùng trải nghiệm đó để cải thiện cách lập kế hoạch cho công việc mới."
+    }
+  ],
+  "listening": {
+    "title": "Interview question: tell me about a failure",
+    "lines": [
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "Duc, can you tell me about a time when something went wrong at work?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "Yes. Last year I led a small website project, and we delivered it two weeks late." },
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "Two weeks is quite a lot. What was the situation exactly?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "We had three people and a very short timeline. I promised the client a date that was too early." },
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "So the plan was the problem, not the team?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "That is right. I took on too much and did not check the workload carefully." },
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "How did you handle it when you saw the delay coming?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "I told the client early, took the blame, and gave them a new plan with clear steps." },
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "How did the client react?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "They were not happy, but they stayed with us because I was honest about the reason." },
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "And what did you learn from that experience?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "After some self-reflection, I now give a realistic estimate and ask for help sooner. That was a valuable lesson." }
+    ],
+    "questions": [
+      { "q": "How late was the project delivered?", "options": ["Two weeks", "Two days", "Two months"], "answer": 0 },
+      { "q": "What does Duc say was the main cause?", "options": ["He promised a date that was too early", "The client changed the design", "One team member left the company"], "answer": 0 },
+      { "q": "What did the client decide to do?", "options": ["Stay with his company", "Cancel the contract", "Ask for a full refund"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Last year I led a small project, and we delivered it two weeks late.",
+    "The main cause was simple: I took on too much at the same time.",
+    "I told the client early, took the blame, and offered a clear new plan.",
+    "Since then I always give a realistic estimate and ask for help sooner.",
+    "That failure was a valuable lesson, and it helped me improve my process."
+  ]
+}

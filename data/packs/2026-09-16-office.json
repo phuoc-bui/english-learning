@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-16",
+  "track": "office",
+  "theme": "Out-of-office & bàn giao việc",
+  "vocab": [
+    {
+      "word": "handover",
+      "ipa": "/ˈhændəʊvə/",
+      "meaning_vi": "việc bàn giao công việc",
+      "example": "Let us book thirty minutes for the handover before you leave on Friday.",
+      "example_vi": "Hãy đặt ba mươi phút để bàn giao công việc trước khi bạn nghỉ vào thứ Sáu."
+    },
+    {
+      "word": "stand in for",
+      "ipa": "/stænd ɪn fɔː/",
+      "meaning_vi": "làm thay, đứng thay vị trí của ai đó",
+      "example": "Linh will stand in for me at the Tuesday meeting with the agency.",
+      "example_vi": "Linh sẽ họp thay tôi trong buổi thứ Ba với đơn vị quảng cáo."
+    },
+    {
+      "word": "day-to-day tasks",
+      "ipa": "/ˌdeɪ tə ˈdeɪ tɑːsks/",
+      "meaning_vi": "công việc hằng ngày",
+      "example": "I wrote down my day-to-day tasks so nothing is forgotten next week.",
+      "example_vi": "Tôi đã ghi lại các công việc hằng ngày của mình để tuần sau không quên gì cả."
+    },
+    {
+      "word": "priority order",
+      "ipa": "/praɪˈɒrəti ˈɔːdə/",
+      "meaning_vi": "thứ tự ưu tiên",
+      "example": "The list is in priority order, so please start from the top.",
+      "example_vi": "Danh sách được sắp theo thứ tự ưu tiên, nên hãy bắt đầu từ trên xuống."
+    },
+    {
+      "word": "flag anything urgent",
+      "ipa": "/flæɡ ˈeniθɪŋ ˈɜːdʒənt/",
+      "meaning_vi": "báo ngay những việc gấp",
+      "example": "Please flag anything urgent and send me a short message.",
+      "example_vi": "Hãy báo ngay những việc gấp và gửi cho tôi một tin nhắn ngắn."
+    },
+    {
+      "word": "on my first day back",
+      "ipa": "/ɒn maɪ fɜːst deɪ bæk/",
+      "meaning_vi": "vào ngày đầu tiên tôi đi làm lại",
+      "example": "I will review all the reports on my first day back.",
+      "example_vi": "Tôi sẽ xem lại toàn bộ báo cáo vào ngày đầu tiên tôi đi làm lại."
+    },
+    {
+      "word": "limited access to email",
+      "ipa": "/ˈlɪmɪtɪd ˈækses tu ˈiːmeɪl/",
+      "meaning_vi": "khó truy cập email (trong thời gian vắng mặt)",
+      "example": "I will have limited access to email while I am travelling.",
+      "example_vi": "Tôi sẽ khó truy cập email trong thời gian đi công tác."
+    },
+    {
+      "word": "catch up on emails",
+      "ipa": "/kætʃ ʌp ɒn ˈiːmeɪlz/",
+      "meaning_vi": "đọc và xử lý cho kịp số email tồn đọng",
+      "example": "It usually takes me a full morning to catch up on emails.",
+      "example_vi": "Tôi thường mất cả buổi sáng để xử lý hết email tồn đọng."
+    }
+  ],
+  "listening": {
+    "title": "Handing over work before a week off",
+    "lines": [
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Linh, you are off from Monday to Friday next week, right?" },
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "Yes, five working days. I have already prepared a short handover document." },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Great. Who will stand in for you on the campaign?" },
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "Hoa will. We sat together this morning and went through my day-to-day tasks." },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Does she know which task matters most? We cannot miss the launch date." },
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "The document lists everything in priority order, and the launch post is number one." },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Good. What about the agency? They email you almost every day." },
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "I told them Hoa is the contact person next week. I set my away message too." },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Will you check messages while you are away?" },
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "I will have limited access to email, so please flag anything urgent by phone." },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Understood. We will keep the small things for you." },
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "Thank you. I will catch up on emails on my first day back." }
+    ],
+    "questions": [
+      { "q": "How long will Linh be away?", "options": ["Five working days", "Two working days", "A full month"], "answer": 0 },
+      { "q": "What is number one on Linh's priority list?", "options": ["The launch post", "The agency invoice", "The monthly report"], "answer": 0 },
+      { "q": "How should the team contact Linh about urgent matters?", "options": ["By phone", "By email only", "Through the agency"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I have prepared a short handover document for everything I am working on.",
+    "Hoa will stand in for me while I am away next week.",
+    "The tasks are in priority order, so please start from the first one.",
+    "I will have limited access to email, so please call me for urgent things.",
+    "I will catch up on emails on my first day back in the office."
+  ]
+}

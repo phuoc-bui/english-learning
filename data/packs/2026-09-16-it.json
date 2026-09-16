@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-16",
+  "track": "it",
+  "theme": "Thuyết trình demo sản phẩm",
+  "vocab": [
+    {
+      "word": "zoom in",
+      "ipa": "/zuːm ɪn/",
+      "meaning_vi": "phóng to màn hình (để người xem nhìn rõ hơn)",
+      "example": "Let me zoom in so everyone can read the numbers on this chart.",
+      "example_vi": "Để tôi phóng to lên để mọi người đọc được các con số trên biểu đồ này."
+    },
+    {
+      "word": "in real time",
+      "ipa": "/ɪn rɪəl taɪm/",
+      "meaning_vi": "theo thời gian thực (ngay lập tức, không có độ trễ)",
+      "example": "The dashboard shows new orders in real time, without any delay.",
+      "example_vi": "Bảng điều khiển hiển thị đơn hàng mới theo thời gian thực, không có độ trễ."
+    },
+    {
+      "word": "typical workflow",
+      "ipa": "/ˈtɪpɪkl ˈwɜːkfləʊ/",
+      "meaning_vi": "quy trình làm việc điển hình (của người dùng)",
+      "example": "I will show you a typical workflow of a warehouse staff member.",
+      "example_vi": "Tôi sẽ cho bạn xem quy trình làm việc điển hình của một nhân viên kho."
+    },
+    {
+      "word": "handle questions",
+      "ipa": "/ˈhændl ˈkwestʃənz/",
+      "meaning_vi": "xử lý/trả lời câu hỏi từ người nghe",
+      "example": "Hoa will present the screens and I will handle questions at the end.",
+      "example_vi": "Hoa sẽ trình bày các màn hình còn tôi sẽ trả lời câu hỏi ở cuối buổi."
+    },
+    {
+      "word": "stable build",
+      "ipa": "/ˈsteɪbl bɪld/",
+      "meaning_vi": "bản dựng ổn định (ít lỗi, dùng để demo)",
+      "example": "Please use the stable build from Monday, not the latest one.",
+      "example_vi": "Hãy dùng bản dựng ổn định từ hôm thứ Hai, đừng dùng bản mới nhất."
+    },
+    {
+      "word": "wrap up the demo",
+      "ipa": "/ræp ʌp ðə ˈdeməʊ/",
+      "meaning_vi": "kết thúc buổi demo",
+      "example": "We should wrap up the demo by four so the client has time to talk.",
+      "example_vi": "Chúng ta nên kết thúc buổi demo trước bốn giờ để khách hàng có thời gian trao đổi."
+    },
+    {
+      "word": "first impression",
+      "ipa": "/fɜːst ɪmˈpreʃn/",
+      "meaning_vi": "ấn tượng ban đầu",
+      "example": "The login screen creates the first impression, so it must look clean.",
+      "example_vi": "Màn hình đăng nhập tạo ấn tượng ban đầu, nên nó phải trông gọn gàng."
+    },
+    {
+      "word": "tailor the demo",
+      "ipa": "/ˈteɪlə ðə ˈdeməʊ/",
+      "meaning_vi": "điều chỉnh buổi demo cho phù hợp (với từng khách hàng)",
+      "example": "We should tailor the demo to the problems this client mentioned last week.",
+      "example_vi": "Chúng ta nên điều chỉnh buổi demo theo các vấn đề khách hàng đã nêu tuần trước."
+    }
+  ],
+  "listening": {
+    "title": "Preparing the product demo for a client",
+    "lines": [
+      { "speaker": "Minh (Product Owner)", "voice": "male", "text": "Hoa, our demo for the client is tomorrow at three. Are the screens ready?" },
+      { "speaker": "Hoa (Frontend Developer)", "voice": "female", "text": "Almost. I am testing everything on the stable build from Monday, not the newest one." },
+      { "speaker": "Minh (Product Owner)", "voice": "male", "text": "Good choice. The newest one still has two small errors on the order page." },
+      { "speaker": "Hoa (Frontend Developer)", "voice": "female", "text": "Exactly. Which part should I show first? We only have thirty minutes." },
+      { "speaker": "Minh (Product Owner)", "voice": "male", "text": "Start with the dashboard. It updates in real time and that always looks strong." },
+      { "speaker": "Hoa (Frontend Developer)", "voice": "female", "text": "Then I can follow a typical workflow of a warehouse staff member, from order to delivery." },
+      { "speaker": "Minh (Product Owner)", "voice": "male", "text": "Perfect. Remember to zoom in on the small numbers. Last time nobody could read them." },
+      { "speaker": "Hoa (Frontend Developer)", "voice": "female", "text": "I will. Should I also show the new reports, or is that too much?" },
+      { "speaker": "Minh (Product Owner)", "voice": "male", "text": "Skip the reports. Let us tailor the demo to the delivery problems they described last week." },
+      { "speaker": "Hoa (Frontend Developer)", "voice": "female", "text": "Understood. And the questions at the end?" },
+      { "speaker": "Minh (Product Owner)", "voice": "male", "text": "I will handle questions so you can focus on the screens. We wrap up the demo at three thirty." }
+    ],
+    "questions": [
+      { "q": "Which version will Hoa use for the demo?", "options": ["The stable build from Monday", "The newest build", "A build from last month"], "answer": 0 },
+      { "q": "What does Minh ask Hoa to start with?", "options": ["The dashboard", "The new reports", "The login screen"], "answer": 0 },
+      { "q": "Who will answer the client's questions?", "options": ["Minh", "Hoa", "The warehouse staff"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Let me share my screen and walk through a typical workflow for you.",
+    "I will zoom in a little so everyone can read the small labels.",
+    "The report updates in real time, so the numbers change while we watch.",
+    "Please hold your questions until the end, and I will handle them then.",
+    "We should tailor the demo to what this client really cares about."
+  ]
+}

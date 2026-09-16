@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-16",
+  "track": "sales",
+  "theme": "Upsell & cross-sell",
+  "vocab": [
+    {
+      "word": "unlock extra features",
+      "ipa": "/ʌnˈlɒk ˈekstrə ˈfiːtʃəz/",
+      "meaning_vi": "mở khoá thêm tính năng (khi nâng gói)",
+      "example": "The business plan will unlock extra features such as advanced reports.",
+      "example_vi": "Gói doanh nghiệp sẽ mở khoá thêm các tính năng như báo cáo nâng cao."
+    },
+    {
+      "word": "step up to",
+      "ipa": "/step ʌp tuː/",
+      "meaning_vi": "nâng lên (gói cao hơn)",
+      "example": "Many customers step up to the business plan after their second year.",
+      "example_vi": "Nhiều khách hàng nâng lên gói doanh nghiệp sau năm thứ hai."
+    },
+    {
+      "word": "pair well with",
+      "ipa": "/peə wel wɪð/",
+      "meaning_vi": "đi kèm rất hợp với (sản phẩm khác)",
+      "example": "Our delivery module pairs well with the stock system you already use.",
+      "example_vi": "Mô-đun giao hàng của chúng tôi đi kèm rất hợp với hệ thống kho bạn đang dùng."
+    },
+    {
+      "word": "heavier usage",
+      "ipa": "/ˈheviə ˈjuːsɪdʒ/",
+      "meaning_vi": "mức sử dụng cao hơn",
+      "example": "Your team now has heavier usage than the current plan allows.",
+      "example_vi": "Nhóm của anh hiện có mức sử dụng cao hơn mức gói hiện tại cho phép."
+    },
+    {
+      "word": "bundle discount",
+      "ipa": "/ˈbʌndl ˈdɪskaʊnt/",
+      "meaning_vi": "chiết khấu khi mua gói kết hợp",
+      "example": "If you take both modules, we can offer a bundle discount of ten percent.",
+      "example_vi": "Nếu anh lấy cả hai mô-đun, chúng tôi có thể giảm mười phần trăm khi mua kết hợp."
+    },
+    {
+      "word": "success story",
+      "ipa": "/səkˈses ˈstɔːri/",
+      "meaning_vi": "câu chuyện thành công (của khách hàng khác)",
+      "example": "I can send you a success story from a company of a similar size.",
+      "example_vi": "Tôi có thể gửi anh câu chuyện thành công của một công ty quy mô tương tự."
+    },
+    {
+      "word": "worth considering",
+      "ipa": "/wɜːθ kənˈsɪdərɪŋ/",
+      "meaning_vi": "đáng để cân nhắc",
+      "example": "The extra storage is worth considering before your busy season starts.",
+      "example_vi": "Phần dung lượng thêm rất đáng cân nhắc trước khi mùa cao điểm bắt đầu."
+    },
+    {
+      "word": "fit your needs",
+      "ipa": "/fɪt jɔː niːdz/",
+      "meaning_vi": "phù hợp với nhu cầu của anh/chị",
+      "example": "I want to find the option that really fits your needs, not the biggest one.",
+      "example_vi": "Tôi muốn tìm phương án thực sự phù hợp với nhu cầu của anh, không phải gói lớn nhất."
+    }
+  ],
+  "listening": {
+    "title": "Suggesting a bigger plan to a happy customer",
+    "lines": [
+      { "speaker": "Hoa (Account Manager)", "voice": "female", "text": "Good morning, Mr. Khanh. Thank you for the call. How is the system working for your team?" },
+      { "speaker": "Mr. Khanh (Operations Manager)", "voice": "male", "text": "Quite well. We now have twenty people using it every day, not eight." },
+      { "speaker": "Hoa (Account Manager)", "voice": "female", "text": "That is good news. I saw the report, and your team has much heavier usage than before." },
+      { "speaker": "Mr. Khanh (Operations Manager)", "voice": "male", "text": "Yes, and sometimes the system asks us to remove old files. It is a bit annoying." },
+      { "speaker": "Hoa (Account Manager)", "voice": "female", "text": "That happens when the plan is full. If you step up to the business plan, you get more storage." },
+      { "speaker": "Mr. Khanh (Operations Manager)", "voice": "male", "text": "How much more would we pay for that?" },
+      { "speaker": "Hoa (Account Manager)", "voice": "female", "text": "About two million dong a month. It also unlocks extra features like advanced reports." },
+      { "speaker": "Mr. Khanh (Operations Manager)", "voice": "male", "text": "Reports could help. My director asks for numbers every Monday." },
+      { "speaker": "Hoa (Account Manager)", "voice": "female", "text": "Then it is worth considering. The delivery module also pairs well with what you use now." },
+      { "speaker": "Mr. Khanh (Operations Manager)", "voice": "male", "text": "Two things at once? That sounds expensive for this quarter." },
+      { "speaker": "Hoa (Account Manager)", "voice": "female", "text": "If you take both, we can offer a bundle discount. But I only want the option that fits your needs." },
+      { "speaker": "Mr. Khanh (Operations Manager)", "voice": "male", "text": "Fair enough. Send me the prices and a success story, and I will discuss it with my director." }
+    ],
+    "questions": [
+      { "q": "How many people use the system now?", "options": ["Twenty", "Eight", "Two"], "answer": 0 },
+      { "q": "Why does Hoa suggest the business plan?", "options": ["The team has heavier usage and needs more storage", "The old plan will be closed next month", "Mr. Khanh asked for the cheapest plan"], "answer": 0 },
+      { "q": "What will Mr. Khanh do next?", "options": ["Discuss the prices with his director", "Sign the contract today", "Cancel the current plan"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Your team has heavier usage now, so the current plan is often full.",
+    "If you step up to the business plan, you unlock extra features too.",
+    "This delivery module pairs well with the system your team already uses.",
+    "If you take both, we can offer you a bundle discount this quarter.",
+    "I only want to suggest the option that really fits your needs."
+  ]
+}
