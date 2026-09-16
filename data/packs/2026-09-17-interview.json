@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-17",
+  "track": "interview",
+  "theme": "Làm việc nhóm & teamwork",
+  "vocab": [
+    {
+      "word": "share the workload",
+      "ipa": "/ʃeə ðə ˈwɜːkləʊd/",
+      "meaning_vi": "chia sẻ khối lượng công việc",
+      "example": "We shared the workload fairly, so nobody had to work at the weekend.",
+      "example_vi": "Chúng tôi chia việc công bằng, nên không ai phải làm vào cuối tuần."
+    },
+    {
+      "word": "common goal",
+      "ipa": "/ˈkɒmən ɡəʊl/",
+      "meaning_vi": "mục tiêu chung",
+      "example": "Our common goal was to release the app before the summer campaign.",
+      "example_vi": "Mục tiêu chung của chúng tôi là ra mắt ứng dụng trước chiến dịch mùa hè."
+    },
+    {
+      "word": "give credit",
+      "ipa": "/ɡɪv ˈkredɪt/",
+      "meaning_vi": "ghi nhận công lao của người khác",
+      "example": "In the final report I gave credit to the two testers who found the issue.",
+      "example_vi": "Trong báo cáo cuối, tôi đã ghi nhận công của hai bạn kiểm thử đã tìm ra lỗi."
+    },
+    {
+      "word": "listen to others",
+      "ipa": "/ˈlɪsn tuː ˈʌðəz/",
+      "meaning_vi": "lắng nghe ý kiến người khác",
+      "example": "I try to listen to others before I explain my own idea.",
+      "example_vi": "Tôi cố gắng lắng nghe người khác trước khi trình bày ý của mình."
+    },
+    {
+      "word": "handle disagreement",
+      "ipa": "/ˈhændl ˌdɪsəˈɡriːmənt/",
+      "meaning_vi": "xử lý bất đồng ý kiến",
+      "example": "I handle disagreement by asking for data instead of raising my voice.",
+      "example_vi": "Tôi xử lý bất đồng bằng cách hỏi số liệu thay vì lớn tiếng."
+    },
+    {
+      "word": "take initiative",
+      "ipa": "/teɪk ɪˈnɪʃətɪv/",
+      "meaning_vi": "chủ động làm việc gì đó",
+      "example": "I took the initiative to write a short guide for the whole team.",
+      "example_vi": "Tôi đã chủ động viết một bản hướng dẫn ngắn cho cả nhóm."
+    },
+    {
+      "word": "reliable",
+      "ipa": "/rɪˈlaɪəbl/",
+      "meaning_vi": "đáng tin cậy, làm đúng cam kết",
+      "example": "My teammates say I am reliable because I always finish what I promise.",
+      "example_vi": "Đồng nghiệp nói tôi đáng tin cậy vì tôi luôn hoàn thành điều đã hứa."
+    },
+    {
+      "word": "build trust",
+      "ipa": "/bɪld trʌst/",
+      "meaning_vi": "xây dựng lòng tin",
+      "example": "Small updates every day helped me build trust with the client team.",
+      "example_vi": "Những cập nhật nhỏ mỗi ngày giúp tôi xây dựng lòng tin với nhóm khách hàng."
+    }
+  ],
+  "listening": {
+    "title": "Interview questions about working in a team",
+    "lines": [
+      { "speaker": "Huong (Hiring Manager)", "voice": "female", "text": "Duc, tell me about a team project where you played an important part." },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "Last year my team of five built a booking website in three months." },
+      { "speaker": "Huong (Hiring Manager)", "voice": "female", "text": "What was your role in that team?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "I handled the payment part, and I also helped the team share the workload each week." },
+      { "speaker": "Huong (Hiring Manager)", "voice": "female", "text": "How did you deal with different opinions inside the group?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "I handle disagreement with data. I ask people to show numbers, then we decide together." },
+      { "speaker": "Huong (Hiring Manager)", "voice": "female", "text": "Can you give me one concrete example?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "Two members wanted different payment gateways. We tested both for a week and chose the faster one." },
+      { "speaker": "Huong (Hiring Manager)", "voice": "female", "text": "Good. And what did you do when the deadline became difficult?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "I took the initiative to write a short setup guide, so new members needed less support." },
+      { "speaker": "Huong (Hiring Manager)", "voice": "female", "text": "What was the result at the end?" },
+      { "speaker": "Duc (Candidate)", "voice": "male", "text": "We reached our common goal two days early, and I gave credit to the testers in the report." }
+    ],
+    "questions": [
+      { "q": "What was Duc responsible for in the project?", "options": ["The payment part", "The design", "The marketing plan"], "answer": 0 },
+      { "q": "How does Duc handle disagreement?", "options": ["He asks for data and decides with the team", "He asks the manager to choose", "He keeps quiet"], "answer": 0 },
+      { "q": "What was the final result of the project?", "options": ["They finished two days early", "They finished two days late", "They cancelled the project"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "In my last project, our team shared the workload so nobody felt overloaded.",
+    "I always give credit to teammates who help me finish a difficult task.",
+    "When we disagreed, I listened to others first and then suggested a solution.",
+    "I took the initiative to write a short guide, and the team used it.",
+    "As a result, we reached our common goal two days before the deadline."
+  ]
+}

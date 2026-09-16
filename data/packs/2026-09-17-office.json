@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-17",
+  "track": "office",
+  "theme": "Văn hoá công sở đa quốc gia",
+  "vocab": [
+    {
+      "word": "punctual",
+      "ipa": "/ˈpʌŋktʃuəl/",
+      "meaning_vi": "đúng giờ",
+      "example": "Our Japanese partners are very punctual, so we should join the call early.",
+      "example_vi": "Đối tác Nhật của chúng ta rất đúng giờ, nên chúng ta nên vào cuộc gọi sớm."
+    },
+    {
+      "word": "open-door policy",
+      "ipa": "/ˈəʊpən dɔː ˈpɒləsi/",
+      "meaning_vi": "chính sách cởi mở, nhân viên có thể gặp sếp bất cứ lúc nào",
+      "example": "The new manager has an open-door policy, so you can ask him anything.",
+      "example_vi": "Sếp mới có chính sách cởi mở, nên bạn có thể hỏi anh ấy bất cứ điều gì."
+    },
+    {
+      "word": "work-life balance",
+      "ipa": "/wɜːk laɪf ˈbæləns/",
+      "meaning_vi": "cân bằng giữa công việc và cuộc sống",
+      "example": "In our German office, work-life balance is taken very seriously.",
+      "example_vi": "Ở văn phòng Đức của chúng ta, cân bằng công việc và cuộc sống được coi rất trọng."
+    },
+    {
+      "word": "polite request",
+      "ipa": "/pəˈlaɪt rɪˈkwest/",
+      "meaning_vi": "lời đề nghị lịch sự",
+      "example": "A polite request works better than a direct order in most of our offices.",
+      "example_vi": "Một lời đề nghị lịch sự hiệu quả hơn một mệnh lệnh trực tiếp ở hầu hết văn phòng của chúng ta."
+    },
+    {
+      "word": "idiom",
+      "ipa": "/ˈɪdiəm/",
+      "meaning_vi": "thành ngữ (khó hiểu với người nước ngoài)",
+      "example": "Avoid idioms in emails because foreign colleagues may not understand them.",
+      "example_vi": "Tránh dùng thành ngữ trong email vì đồng nghiệp nước ngoài có thể không hiểu."
+    },
+    {
+      "word": "team lunch",
+      "ipa": "/tiːm lʌntʃ/",
+      "meaning_vi": "bữa trưa chung của cả nhóm",
+      "example": "We have a team lunch every Friday so new members can meet everyone.",
+      "example_vi": "Chúng tôi có bữa trưa chung mỗi thứ Sáu để thành viên mới gặp mọi người."
+    },
+    {
+      "word": "small talk topic",
+      "ipa": "/smɔːl tɔːk ˈtɒpɪk/",
+      "meaning_vi": "chủ đề trò chuyện xã giao",
+      "example": "Food and weather are safe small talk topics with international clients.",
+      "example_vi": "Đồ ăn và thời tiết là những chủ đề trò chuyện xã giao an toàn với khách quốc tế."
+    },
+    {
+      "word": "adapt",
+      "ipa": "/əˈdæpt/",
+      "meaning_vi": "thích nghi, điều chỉnh cho phù hợp",
+      "example": "We had to adapt our meeting style when the Singapore team joined.",
+      "example_vi": "Chúng tôi đã phải điều chỉnh cách họp khi nhóm Singapore tham gia."
+    }
+  ],
+  "listening": {
+    "title": "Working with colleagues from other countries",
+    "lines": [
+      { "speaker": "Linh (HR Officer)", "voice": "female", "text": "Tuan, you start working with our Singapore office next week, right?" },
+      { "speaker": "Tuan (Account Manager)", "voice": "male", "text": "Yes, from Monday. Honestly, I am a little nervous about the differences." },
+      { "speaker": "Linh (HR Officer)", "voice": "female", "text": "Do not worry. The first rule is simple: be punctual. They start meetings on time." },
+      { "speaker": "Tuan (Account Manager)", "voice": "male", "text": "Understood. I will join every call two or three minutes early." },
+      { "speaker": "Linh (HR Officer)", "voice": "female", "text": "Second, keep your English simple. Avoid idioms because they cause confusion." },
+      { "speaker": "Tuan (Account Manager)", "voice": "male", "text": "That is good advice. What about asking people to do things? I do not want to sound rude." },
+      { "speaker": "Linh (HR Officer)", "voice": "female", "text": "Use a polite request instead of an order. Say could you please send it by Friday." },
+      { "speaker": "Tuan (Account Manager)", "voice": "male", "text": "And after office hours? Can I message them at nine in the evening?" },
+      { "speaker": "Linh (HR Officer)", "voice": "female", "text": "Please do not. They protect their work-life balance, so send it the next morning." },
+      { "speaker": "Tuan (Account Manager)", "voice": "male", "text": "Noted. Is their manager easy to talk to?" },
+      { "speaker": "Linh (HR Officer)", "voice": "female", "text": "Very. She has an open-door policy, so you can ask her directly when you are stuck." },
+      { "speaker": "Tuan (Account Manager)", "voice": "male", "text": "Great. I will adapt step by step, and maybe invite them to a team lunch online." }
+    ],
+    "questions": [
+      { "q": "What is the first rule Linh gives Tuan?", "options": ["Be punctual", "Send long emails", "Work late"], "answer": 0 },
+      { "q": "Why should Tuan avoid idioms?", "options": ["They cause confusion", "They are impolite", "They are too formal"], "answer": 0 },
+      { "q": "What should Tuan do about messages at nine in the evening?", "options": ["Send them the next morning", "Send them immediately", "Call instead"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Our partners are very punctual, so please join the call five minutes early.",
+    "Try to avoid idioms in emails, because they confuse people from other countries.",
+    "A polite request works better than a direct order in most of our offices.",
+    "We have an open-door policy, so feel free to ask me anything anytime.",
+    "The team lunch on Friday is a good chance to know each other better."
+  ]
+}

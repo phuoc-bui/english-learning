@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-17",
+  "track": "it",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    {
+      "word": "ramp-up period",
+      "ipa": "/ræmp ʌp ˈpɪəriəd/",
+      "meaning_vi": "giai đoạn làm quen, bắt nhịp công việc",
+      "example": "Your ramp-up period is two weeks, so do not worry about speed yet.",
+      "example_vi": "Giai đoạn làm quen của bạn là hai tuần, nên chưa cần lo về tốc độ."
+    },
+    {
+      "word": "onboarding checklist",
+      "ipa": "/ˈɒnbɔːdɪŋ ˈtʃeklɪst/",
+      "meaning_vi": "danh sách việc cần làm khi nhận người mới",
+      "example": "Please follow the onboarding checklist and tick each item when it is done.",
+      "example_vi": "Hãy làm theo danh sách việc cần làm khi nhận việc và đánh dấu từng mục khi xong."
+    },
+    {
+      "word": "repository access",
+      "ipa": "/rɪˈpɒzətri ˈækses/",
+      "meaning_vi": "quyền truy cập kho mã nguồn",
+      "example": "I asked the team lead for repository access so I can clone the project.",
+      "example_vi": "Tôi đã xin trưởng nhóm quyền truy cập kho mã nguồn để có thể tải dự án về."
+    },
+    {
+      "word": "development environment",
+      "ipa": "/dɪˈveləpmənt ɪnˈvaɪrənmənt/",
+      "meaning_vi": "môi trường lập trình trên máy cá nhân",
+      "example": "It usually takes half a day to set up the development environment.",
+      "example_vi": "Thường mất nửa ngày để cài đặt môi trường lập trình."
+    },
+    {
+      "word": "shadow a teammate",
+      "ipa": "/ˈʃædəʊ ə ˈtiːmmeɪt/",
+      "meaning_vi": "ngồi quan sát, học việc cùng đồng nghiệp",
+      "example": "For the first two days, you will shadow a teammate and just take notes.",
+      "example_vi": "Trong hai ngày đầu, bạn sẽ ngồi học việc cùng đồng nghiệp và chỉ ghi chép."
+    },
+    {
+      "word": "pair with",
+      "ipa": "/peə wɪð/",
+      "meaning_vi": "làm việc cặp đôi với ai đó (cùng một máy, một task)",
+      "example": "Can you pair with Trang this afternoon to fix the login bug?",
+      "example_vi": "Chiều nay bạn có thể làm cặp với Trang để sửa lỗi đăng nhập không?"
+    },
+    {
+      "word": "learning curve",
+      "ipa": "/ˈlɜːnɪŋ kɜːv/",
+      "meaning_vi": "độ khó khi học cái mới, đường cong học tập",
+      "example": "The learning curve is steep in week one, but it gets easier after that.",
+      "example_vi": "Tuần đầu học khá nặng, nhưng sau đó sẽ dễ dần."
+    },
+    {
+      "word": "welcome pack",
+      "ipa": "/ˈwelkəm pæk/",
+      "meaning_vi": "bộ tài liệu/đồ dùng chào đón nhân viên mới",
+      "example": "Your welcome pack has a laptop, a badge and a short company guide.",
+      "example_vi": "Bộ chào đón của bạn gồm laptop, thẻ nhân viên và một cuốn hướng dẫn ngắn về công ty."
+    }
+  ],
+  "listening": {
+    "title": "First morning for a new developer",
+    "lines": [
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Good morning, Trang. Welcome to the team. Did you get your welcome pack at reception?" },
+      { "speaker": "Trang (New Developer)", "voice": "female", "text": "Yes, I did. I have the laptop and the badge already. What should I do first?" },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Open the onboarding checklist in our wiki. The first item is your accounts and permissions." },
+      { "speaker": "Trang (New Developer)", "voice": "female", "text": "I still need repository access. I cannot clone the project yet." },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "I will request it now. You should have it before lunch." },
+      { "speaker": "Trang (New Developer)", "voice": "female", "text": "Thank you. After that, should I set up my development environment?" },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Yes, but do not do it alone. Hoa will pair with you for an hour." },
+      { "speaker": "Trang (New Developer)", "voice": "female", "text": "That sounds good. Our stack is new for me, so the learning curve is quite steep." },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "That is normal. Your ramp-up period is two weeks, so please do not rush." },
+      { "speaker": "Trang (New Developer)", "voice": "female", "text": "And this afternoon? Should I start a real task?" },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "This afternoon you shadow a teammate in the client call. Your first small task starts tomorrow." },
+      { "speaker": "Trang (New Developer)", "voice": "female", "text": "Perfect. I will take notes and ask you at the end of the day." }
+    ],
+    "questions": [
+      { "q": "What does Trang still need in the morning?", "options": ["Repository access", "A new laptop", "A company badge"], "answer": 0 },
+      { "q": "Who will help Trang set up her development environment?", "options": ["Hoa", "Nam", "Nobody, she works alone"], "answer": 0 },
+      { "q": "When does Trang start her first task?", "options": ["Tomorrow", "This afternoon", "After two weeks"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Please add me to the repository so I can clone the project today.",
+    "I will shadow a teammate this morning and take notes about the process.",
+    "The learning curve is steep, but the onboarding checklist keeps me on track.",
+    "Could you pair with me for an hour to review my first task?",
+    "My ramp-up period is two weeks, so please be patient with my questions."
+  ]
+}

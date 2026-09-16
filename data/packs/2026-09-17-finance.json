@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-17",
+  "track": "finance",
+  "theme": "Phần mềm kế toán & công cụ",
+  "vocab": [
+    {
+      "word": "cloud-based",
+      "ipa": "/klaʊd beɪst/",
+      "meaning_vi": "chạy trên nền tảng đám mây",
+      "example": "The new system is cloud-based, so we can check reports from any laptop.",
+      "example_vi": "Hệ thống mới chạy trên nền tảng đám mây, nên chúng ta xem báo cáo từ máy nào cũng được."
+    },
+    {
+      "word": "export to Excel",
+      "ipa": "/ɪkˈspɔːt tuː ˈeksel/",
+      "meaning_vi": "xuất dữ liệu ra file Excel",
+      "example": "Can you export to Excel so the sales team can filter the numbers?",
+      "example_vi": "Bạn xuất ra Excel được không để nhóm kinh doanh lọc số liệu?"
+    },
+    {
+      "word": "invoice template",
+      "ipa": "/ˈɪnvɔɪs ˈtempleɪt/",
+      "meaning_vi": "mẫu hoá đơn có sẵn",
+      "example": "We saved a new invoice template with the company logo and tax code.",
+      "example_vi": "Chúng tôi đã lưu một mẫu hoá đơn mới có logo công ty và mã số thuế."
+    },
+    {
+      "word": "bulk upload",
+      "ipa": "/bʌlk ˈʌpləʊd/",
+      "meaning_vi": "tải lên hàng loạt",
+      "example": "The bulk upload feature lets us import two hundred invoices in one step.",
+      "example_vi": "Tính năng tải lên hàng loạt cho phép chúng tôi nhập hai trăm hoá đơn trong một bước."
+    },
+    {
+      "word": "manual work",
+      "ipa": "/ˈmænjuəl wɜːk/",
+      "meaning_vi": "công việc làm tay, thủ công",
+      "example": "The new tool removes about six hours of manual work every month.",
+      "example_vi": "Công cụ mới giúp bỏ khoảng sáu giờ làm thủ công mỗi tháng."
+    },
+    {
+      "word": "back up the data",
+      "ipa": "/bæk ʌp ðə ˈdeɪtə/",
+      "meaning_vi": "sao lưu dữ liệu",
+      "example": "Please back up the data before we start the upgrade on Saturday.",
+      "example_vi": "Hãy sao lưu dữ liệu trước khi chúng ta bắt đầu nâng cấp vào thứ Bảy."
+    },
+    {
+      "word": "system upgrade",
+      "ipa": "/ˈsɪstəm ˈʌpɡreɪd/",
+      "meaning_vi": "việc nâng cấp hệ thống",
+      "example": "The system upgrade takes four hours, so we will do it at the weekend.",
+      "example_vi": "Việc nâng cấp hệ thống mất bốn tiếng, nên chúng tôi sẽ làm vào cuối tuần."
+    },
+    {
+      "word": "license fee",
+      "ipa": "/ˈlaɪsns fiː/",
+      "meaning_vi": "phí bản quyền phần mềm",
+      "example": "The license fee is charged per user, so we only pay for five accounts.",
+      "example_vi": "Phí bản quyền tính theo người dùng, nên chúng ta chỉ trả cho năm tài khoản."
+    }
+  ],
+  "listening": {
+    "title": "Choosing a new accounting tool",
+    "lines": [
+      { "speaker": "Son (Finance Manager)", "voice": "male", "text": "Mai, how much time do you spend on invoices every month?" },
+      { "speaker": "Mai (Accountant)", "voice": "female", "text": "Too much. Around six hours of manual work, mostly typing the same details again." },
+      { "speaker": "Son (Finance Manager)", "voice": "male", "text": "That is why I want to move to a cloud-based tool. We can open it from home too." },
+      { "speaker": "Mai (Accountant)", "voice": "female", "text": "Does it have a bulk upload? Last month I entered two hundred invoices one by one." },
+      { "speaker": "Son (Finance Manager)", "voice": "male", "text": "Yes, bulk upload is included. You prepare one file and the system reads all the lines." },
+      { "speaker": "Mai (Accountant)", "voice": "female", "text": "Good. I also need to export to Excel, because the sales team still works there." },
+      { "speaker": "Son (Finance Manager)", "voice": "male", "text": "That is standard in the new tool. You can export any report with two clicks." },
+      { "speaker": "Mai (Accountant)", "voice": "female", "text": "What about our invoice template? The tax office is strict about the format." },
+      { "speaker": "Son (Finance Manager)", "voice": "male", "text": "We can copy our current invoice template into the system before we go live." },
+      { "speaker": "Mai (Accountant)", "voice": "female", "text": "And the cost? Our budget for software this year is quite tight." },
+      { "speaker": "Son (Finance Manager)", "voice": "male", "text": "The license fee is per user, so five accounts only, not the whole department." },
+      { "speaker": "Mai (Accountant)", "voice": "female", "text": "Then let us plan the system upgrade for Saturday. I will back up the data on Friday evening." }
+    ],
+    "questions": [
+      { "q": "How much manual work does Mai do on invoices each month?", "options": ["About six hours", "About one hour", "About two days"], "answer": 0 },
+      { "q": "Why does Mai still need the export to Excel function?", "options": ["The sales team works in Excel", "The tax office asks for it", "The tool has no reports"], "answer": 0 },
+      { "q": "What will Mai do on Friday evening?", "options": ["Back up the data", "Send the invoices", "Install the software"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "Can you export to Excel so we can share the numbers with the team?",
+    "The new system is cloud-based, so we can check reports from any laptop.",
+    "Please back up the data before we start the system upgrade this weekend.",
+    "Using an invoice template saves a lot of manual work every single month.",
+    "The bulk upload feature lets us import two hundred invoices in one step."
+  ]
+}

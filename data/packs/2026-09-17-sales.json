@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-17",
+  "track": "sales",
+  "theme": "Xử lý phàn nàn của khách",
+  "vocab": [
+    {
+      "word": "apologise sincerely",
+      "ipa": "/əˈpɒlədʒaɪz sɪnˈsɪəli/",
+      "meaning_vi": "xin lỗi một cách chân thành",
+      "example": "I want to apologise sincerely for the problem with your last order.",
+      "example_vi": "Tôi muốn xin lỗi chân thành về vấn đề với đơn hàng gần nhất của anh."
+    },
+    {
+      "word": "acknowledge the problem",
+      "ipa": "/əkˈnɒlɪdʒ ðə ˈprɒbləm/",
+      "meaning_vi": "thừa nhận vấn đề (thay vì chối)",
+      "example": "The first step is to acknowledge the problem, not to explain excuses.",
+      "example_vi": "Bước đầu tiên là thừa nhận vấn đề, không phải đưa ra lý do."
+    },
+    {
+      "word": "take ownership",
+      "ipa": "/teɪk ˈəʊnəʃɪp/",
+      "meaning_vi": "nhận trách nhiệm xử lý đến cùng",
+      "example": "I will take ownership of this case and update you every afternoon.",
+      "example_vi": "Tôi sẽ nhận trách nhiệm xử lý vụ việc này và cập nhật cho anh mỗi chiều."
+    },
+    {
+      "word": "delay in delivery",
+      "ipa": "/dɪˈleɪ ɪn dɪˈlɪvəri/",
+      "meaning_vi": "sự chậm trễ khi giao hàng",
+      "example": "The delay in delivery happened because our partner changed the route.",
+      "example_vi": "Sự chậm trễ khi giao hàng xảy ra vì đối tác của chúng tôi đổi tuyến đường."
+    },
+    {
+      "word": "calm down",
+      "ipa": "/kɑːm daʊn/",
+      "meaning_vi": "bình tĩnh lại, làm dịu",
+      "example": "Listen quietly first; most customers calm down when they feel heard.",
+      "example_vi": "Hãy lắng nghe trước; phần lớn khách hàng sẽ bình tĩnh lại khi thấy được lắng nghe."
+    },
+    {
+      "word": "resolve",
+      "ipa": "/rɪˈzɒlv/",
+      "meaning_vi": "giải quyết dứt điểm",
+      "example": "We aim to resolve every complaint within two working days.",
+      "example_vi": "Chúng tôi đặt mục tiêu giải quyết mọi phàn nàn trong hai ngày làm việc."
+    },
+    {
+      "word": "service credit",
+      "ipa": "/ˈsɜːvɪs ˈkredɪt/",
+      "meaning_vi": "khoản bù trừ dịch vụ (giảm trừ vào hoá đơn sau)",
+      "example": "We will add a service credit to your next invoice as an apology.",
+      "example_vi": "Chúng tôi sẽ cộng một khoản bù trừ dịch vụ vào hoá đơn kế tiếp để xin lỗi."
+    },
+    {
+      "word": "recurrence",
+      "ipa": "/rɪˈkʌrəns/",
+      "meaning_vi": "sự lặp lại (của lỗi, sự cố)",
+      "example": "To prevent a recurrence, we changed the process with our delivery partner.",
+      "example_vi": "Để tránh lặp lại, chúng tôi đã thay đổi quy trình với đối tác giao hàng."
+    }
+  ],
+  "listening": {
+    "title": "A phone call with an unhappy customer",
+    "lines": [
+      { "speaker": "Khoa (Sales Executive)", "voice": "male", "text": "Good morning, Ms. Ngoc. Thank you for calling. How can I help you today?" },
+      { "speaker": "Ngoc (Customer)", "voice": "female", "text": "Honestly, I am not happy. My order was three days late and nobody told me." },
+      { "speaker": "Khoa (Sales Executive)", "voice": "male", "text": "I am very sorry. I apologise sincerely for the delay in delivery and for the silence." },
+      { "speaker": "Ngoc (Customer)", "voice": "female", "text": "My shop had no stock on the weekend. That is our busiest time." },
+      { "speaker": "Khoa (Sales Executive)", "voice": "male", "text": "I understand. I will not make excuses; I acknowledge the problem and I will fix it." },
+      { "speaker": "Ngoc (Customer)", "voice": "female", "text": "So what happens now? I need a clear answer, not a general promise." },
+      { "speaker": "Khoa (Sales Executive)", "voice": "male", "text": "I will take ownership of this case personally. Your name stays with me until it is closed." },
+      { "speaker": "Ngoc (Customer)", "voice": "female", "text": "All right. And when will you resolve it?" },
+      { "speaker": "Khoa (Sales Executive)", "voice": "male", "text": "Today I will confirm the new route, and you will get the goods on Thursday morning." },
+      { "speaker": "Ngoc (Customer)", "voice": "female", "text": "Thursday works. But I lost two days of sales because of this." },
+      { "speaker": "Khoa (Sales Executive)", "voice": "male", "text": "That is fair. We will add a service credit to your next invoice as an apology." },
+      { "speaker": "Ngoc (Customer)", "voice": "female", "text": "Thank you, Khoa. Please make sure there is no recurrence next month." }
+    ],
+    "questions": [
+      { "q": "Why is Ms. Ngoc unhappy?", "options": ["Her order was late and nobody informed her", "The price was too high", "The product was broken"], "answer": 0 },
+      { "q": "When will Ms. Ngoc receive the goods?", "options": ["Thursday morning", "On the weekend", "Next month"], "answer": 0 },
+      { "q": "What does Khoa offer as an apology?", "options": ["A service credit on the next invoice", "A free delivery for one year", "A new contract"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I want to apologise sincerely for the delay in delivery last week.",
+    "Let me take ownership of this case and update you by tomorrow morning.",
+    "I understand your frustration, and I will resolve this issue as fast as possible.",
+    "We will add a service credit to your next invoice as an apology.",
+    "To prevent a recurrence, we changed the process with our delivery partner."
+  ]
+}
