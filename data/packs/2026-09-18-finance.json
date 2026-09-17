@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-18",
+  "track": "finance",
+  "theme": "Chính sách tài chính công ty",
+  "vocab": [
+    {
+      "word": "finance policy",
+      "ipa": "/ˈfaɪnæns ˈpɒləsi/",
+      "meaning_vi": "chính sách tài chính của công ty",
+      "example": "The finance policy is on the intranet, and it changes twice a year.",
+      "example_vi": "Chính sách tài chính nằm trên mạng nội bộ và được sửa hai lần mỗi năm."
+    },
+    {
+      "word": "travel policy",
+      "ipa": "/ˈtrævl ˈpɒləsi/",
+      "meaning_vi": "chính sách công tác, đi lại",
+      "example": "Our travel policy sets a standard rate for hotels in each city.",
+      "example_vi": "Chính sách công tác của công ty quy định mức giá chuẩn cho khách sạn ở từng thành phố."
+    },
+    {
+      "word": "spending limit",
+      "ipa": "/ˈspendɪŋ ˈlɪmɪt/",
+      "meaning_vi": "hạn mức chi tiêu",
+      "example": "The spending limit for a team dinner is three hundred thousand dong per person.",
+      "example_vi": "Hạn mức chi cho một bữa ăn nhóm là ba trăm nghìn đồng mỗi người."
+    },
+    {
+      "word": "sign-off authority",
+      "ipa": "/ˈsaɪn ɒf ɔːˈθɒrəti/",
+      "meaning_vi": "thẩm quyền phê duyệt cuối cùng",
+      "example": "Only your director has the sign-off authority for this amount.",
+      "example_vi": "Chỉ giám đốc của bạn mới có thẩm quyền phê duyệt số tiền này."
+    },
+    {
+      "word": "reimbursement rule",
+      "ipa": "/ˌriːɪmˈbɜːsmənt ruːl/",
+      "meaning_vi": "quy định về hoàn tiền cho nhân viên",
+      "example": "The reimbursement rule says receipts must arrive within ten working days.",
+      "example_vi": "Quy định hoàn tiền nêu rõ chứng từ phải nộp trong vòng mười ngày làm việc."
+    },
+    {
+      "word": "in line with policy",
+      "ipa": "/ɪn laɪn wɪð ˈpɒləsi/",
+      "meaning_vi": "đúng theo chính sách",
+      "example": "Please check that every booking is in line with policy before you pay.",
+      "example_vi": "Hãy kiểm tra mọi đặt phòng đều đúng chính sách trước khi thanh toán."
+    },
+    {
+      "word": "non-compliant",
+      "ipa": "/ˌnɒn kəmˈplaɪənt/",
+      "meaning_vi": "không tuân thủ quy định",
+      "example": "This claim is non-compliant, so it needs a written explanation.",
+      "example_vi": "Đề nghị thanh toán này không đúng quy định nên cần có giải trình bằng văn bản."
+    },
+    {
+      "word": "policy owner",
+      "ipa": "/ˈpɒləsi ˈəʊnə/",
+      "meaning_vi": "người phụ trách, chịu trách nhiệm về chính sách",
+      "example": "I am the policy owner, so ask me before you make an exception.",
+      "example_vi": "Tôi là người phụ trách chính sách, nên hãy hỏi tôi trước khi làm ngoại lệ."
+    }
+  ],
+  "listening": {
+    "title": "Checking a hotel booking against the policy",
+    "lines": [
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Hoa, I booked a hotel for the Da Nang trip. Was that in line with policy?" },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Let me check. Our travel policy sets a standard rate of one million dong a night." },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Mine was one point three million. The cheaper hotels were all full that week." },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Then it is non-compliant on paper, but we can accept it with a short explanation." },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Good. Who should I send that explanation to?" },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "To me first, and then to your director, because he has the sign-off authority." },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Understood. Is there anything else in the finance policy I should read?" },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Yes, the reimbursement rule. You must send your receipts within ten working days." },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Ten working days. And what is the spending limit for a team dinner?" },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Three hundred thousand dong per person. I am the policy owner, so please ask me first." }
+    ],
+    "questions": [
+      {
+        "q": "Why is Nam's hotel booking a problem?",
+        "options": ["It costs more than the standard rate", "He booked a hotel in the wrong city", "He forgot to book a hotel"],
+        "answer": 0
+      },
+      {
+        "q": "Who has the sign-off authority for the explanation?",
+        "options": ["Hoa from finance", "Nam's director", "The hotel manager"],
+        "answer": 1
+      },
+      {
+        "q": "How soon must Nam send his receipts?",
+        "options": ["Within ten working days", "Within three months", "At the end of the year"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you check whether this booking is in line with our travel policy?",
+    "The standard rate is one million dong a night for a domestic business trip.",
+    "This claim is non-compliant, so please attach a short explanation for your director.",
+    "Under the reimbursement rule, you must send receipts within ten working days.",
+    "Please ask the policy owner before you go over the spending limit for dinners."
+  ]
+}

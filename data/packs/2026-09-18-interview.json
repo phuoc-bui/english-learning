@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-18",
+  "track": "interview",
+  "theme": "Câu hỏi tình huống (situational)",
+  "vocab": [
+    {
+      "word": "situational question",
+      "ipa": "/ˌsɪtʃuˈeɪʃənl ˈkwestʃən/",
+      "meaning_vi": "câu hỏi tình huống giả định trong phỏng vấn",
+      "example": "A situational question asks what you would do, not what you did.",
+      "example_vi": "Câu hỏi tình huống hỏi bạn sẽ làm gì, chứ không phải bạn đã làm gì."
+    },
+    {
+      "word": "what would you do",
+      "ipa": "/wɒt wʊd juː duː/",
+      "meaning_vi": "bạn sẽ làm gì (câu mở đầu quen thuộc của câu hỏi tình huống)",
+      "example": "What would you do if two managers gave you different instructions?",
+      "example_vi": "Bạn sẽ làm gì nếu hai quản lý đưa cho bạn hai chỉ dẫn khác nhau?"
+    },
+    {
+      "word": "clarify the scope",
+      "ipa": "/ˈklærɪfaɪ ðə skəʊp/",
+      "meaning_vi": "làm rõ phạm vi yêu cầu, công việc",
+      "example": "Before I promise a date, I always clarify the scope with the client.",
+      "example_vi": "Trước khi hứa một mốc thời gian, tôi luôn làm rõ phạm vi công việc với khách hàng."
+    },
+    {
+      "word": "reasonable assumption",
+      "ipa": "/ˈriːznəbl əˈsʌmpʃn/",
+      "meaning_vi": "giả định hợp lý khi thiếu thông tin",
+      "example": "The question is quite open, so let me make one reasonable assumption.",
+      "example_vi": "Câu hỏi khá mở, nên cho phép tôi đưa ra một giả định hợp lý."
+    },
+    {
+      "word": "step by step",
+      "ipa": "/step baɪ step/",
+      "meaning_vi": "từng bước một, có trình tự",
+      "example": "I would check the problem step by step instead of guessing the cause.",
+      "example_vi": "Tôi sẽ kiểm tra vấn đề từng bước một thay vì đoán mò nguyên nhân."
+    },
+    {
+      "word": "stay calm",
+      "ipa": "/steɪ kɑːm/",
+      "meaning_vi": "giữ bình tĩnh",
+      "example": "When a system goes down, my first job is to stay calm.",
+      "example_vi": "Khi hệ thống gặp sự cố, việc đầu tiên của tôi là giữ bình tĩnh."
+    },
+    {
+      "word": "make a judgement call",
+      "ipa": "/meɪk ə ˈdʒʌdʒmənt kɔːl/",
+      "meaning_vi": "tự đưa ra quyết định dựa trên phán đoán của mình",
+      "example": "For a small change, I can make a judgement call and report it later.",
+      "example_vi": "Với thay đổi nhỏ, tôi có thể tự quyết định và báo cáo lại sau."
+    },
+    {
+      "word": "keep stakeholders informed",
+      "ipa": "/kiːp ˈsteɪkhəʊldəz ɪnˈfɔːmd/",
+      "meaning_vi": "giữ cho các bên liên quan luôn nắm thông tin",
+      "example": "Whatever I decide, I keep stakeholders informed with a short daily update.",
+      "example_vi": "Dù quyết định thế nào, tôi vẫn cập nhật ngắn hằng ngày cho các bên liên quan."
+    }
+  ],
+  "listening": {
+    "title": "A situational question in the second interview",
+    "lines": [
+      { "speaker": "Hoa (Interviewer, HR Manager)", "voice": "female", "text": "Nam, I would like to ask you a situational question now, if that is fine." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Of course. Please go ahead." },
+      { "speaker": "Hoa (Interviewer, HR Manager)", "voice": "female", "text": "Imagine a client asks for a new feature two days before the release. What would you do?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "First, I would clarify the scope and ask exactly what the client needs and why." },
+      { "speaker": "Hoa (Interviewer, HR Manager)", "voice": "female", "text": "And if the request is really urgent for them?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I would stay calm and check the risk with my team step by step." },
+      { "speaker": "Hoa (Interviewer, HR Manager)", "voice": "female", "text": "Who would make the final decision in that situation?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "If the change is small, I could make a judgement call myself." },
+      { "speaker": "Hoa (Interviewer, HR Manager)", "voice": "female", "text": "And if it is not small at all?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Then I would escalate to my manager and keep stakeholders informed with clear options." },
+      { "speaker": "Hoa (Interviewer, HR Manager)", "voice": "female", "text": "Good. That is exactly the kind of answer I was hoping to hear." }
+    ],
+    "questions": [
+      {
+        "q": "What is the first thing Nam would do?",
+        "options": ["Say no to the client", "Clarify the scope of the request", "Start coding immediately"],
+        "answer": 1
+      },
+      {
+        "q": "When would Nam decide by himself?",
+        "options": ["When the change is small", "When the client is angry", "Only on Fridays"],
+        "answer": 0
+      },
+      {
+        "q": "What does Nam bring to his manager for a big change?",
+        "options": ["Only the problem", "Clear options and an update for stakeholders", "A resignation letter"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "In that situation, the first thing I would do is clarify the scope carefully.",
+    "I would stay calm, gather the details, and then discuss the risk with my team.",
+    "Let me make one reasonable assumption before I answer this situational question.",
+    "For a small change I would make a judgement call and inform my manager after.",
+    "If the risk is high, I would escalate and keep all stakeholders informed quickly."
+  ]
+}

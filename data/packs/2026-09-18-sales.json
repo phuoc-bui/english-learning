@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-18",
+  "track": "sales",
+  "theme": "Chốt hợp đồng",
+  "vocab": [
+    {
+      "word": "final quote",
+      "ipa": "/ˈfaɪnl kwəʊt/",
+      "meaning_vi": "báo giá cuối cùng, không thay đổi nữa",
+      "example": "Here is the final quote; the price is the same as we discussed.",
+      "example_vi": "Đây là báo giá cuối cùng, mức giá đúng như chúng ta đã trao đổi."
+    },
+    {
+      "word": "approval from procurement",
+      "ipa": "/əˈpruːvl frəm prəˈkjʊəmənt/",
+      "meaning_vi": "phê duyệt từ bộ phận mua hàng",
+      "example": "I need approval from procurement before I can sign anything.",
+      "example_vi": "Tôi cần phê duyệt của bộ phận mua hàng trước khi có thể ký bất cứ thứ gì."
+    },
+    {
+      "word": "go ahead",
+      "ipa": "/ɡəʊ əˈhed/",
+      "meaning_vi": "sự đồng ý cho tiến hành",
+      "example": "Once you give us the go ahead, we can start next Monday.",
+      "example_vi": "Ngay khi anh đồng ý cho tiến hành, chúng tôi có thể bắt đầu từ thứ Hai tới."
+    },
+    {
+      "word": "countersign",
+      "ipa": "/ˈkaʊntəsaɪn/",
+      "meaning_vi": "ký xác nhận thêm của bên còn lại",
+      "example": "Our director will countersign the contract after your side signs it.",
+      "example_vi": "Giám đốc bên tôi sẽ ký xác nhận hợp đồng sau khi bên anh ký."
+    },
+    {
+      "word": "sign the contract",
+      "ipa": "/saɪn ðə ˈkɒntrækt/",
+      "meaning_vi": "ký hợp đồng",
+      "example": "If we sign the contract this week, delivery can start in October.",
+      "example_vi": "Nếu chúng ta ký hợp đồng trong tuần này, việc triển khai có thể bắt đầu vào tháng Mười."
+    },
+    {
+      "word": "hand over to delivery",
+      "ipa": "/hænd ˈəʊvə tə dɪˈlɪvəri/",
+      "meaning_vi": "bàn giao khách cho đội triển khai",
+      "example": "After signing, I hand over to delivery and stay as your contact person.",
+      "example_vi": "Sau khi ký, tôi bàn giao cho đội triển khai và vẫn là người liên hệ của anh."
+    },
+    {
+      "word": "welcome pack",
+      "ipa": "/ˈwelkəm pæk/",
+      "meaning_vi": "bộ tài liệu chào mừng khách hàng mới",
+      "example": "Your team will receive a welcome pack with the plan and all contacts.",
+      "example_vi": "Đội của anh sẽ nhận bộ tài liệu chào mừng gồm kế hoạch và toàn bộ đầu mối liên hệ."
+    },
+    {
+      "word": "wrap up the deal",
+      "ipa": "/ræp ʌp ðə diːl/",
+      "meaning_vi": "hoàn tất, chốt xong thương vụ",
+      "example": "Let us wrap up the deal this week so both teams can plan properly.",
+      "example_vi": "Ta hãy chốt xong thương vụ trong tuần này để hai bên còn lên kế hoạch."
+    }
+  ],
+  "listening": {
+    "title": "The last step before signing",
+    "lines": [
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Minh, thank you for your patience. We have the final quote ready for you today." },
+      { "speaker": "Minh (Procurement Manager)", "voice": "male", "text": "Great. Is the price the same as the number we discussed last Tuesday?" },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Yes, exactly the same, with the two extra training days included at no cost." },
+      { "speaker": "Minh (Procurement Manager)", "voice": "male", "text": "Good. I still need approval from procurement before I can give you the go ahead." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Understood. How long does that step usually take on your side?" },
+      { "speaker": "Minh (Procurement Manager)", "voice": "male", "text": "About two days. After that, our director will countersign the document." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Perfect. Once both sides sign the contract, I will hand over to delivery immediately." },
+      { "speaker": "Minh (Procurement Manager)", "voice": "male", "text": "What happens after the handover? I do not want my team to feel lost." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Your team receives a welcome pack with the plan, the contacts and the first training date." },
+      { "speaker": "Minh (Procurement Manager)", "voice": "male", "text": "That sounds clear. Let us wrap up the deal this week, then." }
+    ],
+    "questions": [
+      {
+        "q": "What is included in the final quote?",
+        "options": ["Two extra training days at no cost", "A discount of ten percent", "Free hardware for the team"],
+        "answer": 0
+      },
+      {
+        "q": "What does Minh need before he can give the go ahead?",
+        "options": ["A lower price", "Approval from procurement", "A visit to Linh's office"],
+        "answer": 1
+      },
+      {
+        "q": "What will Minh's team receive after the handover?",
+        "options": ["A welcome pack", "A refund", "A new quote"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I have the final quote here, and the price has not changed at all.",
+    "We still need approval from procurement before we can give you the go ahead.",
+    "Once your director countersigns it, please send me a scanned copy by email.",
+    "After we sign the contract, I will hand over to delivery the same day.",
+    "Your team will get a welcome pack so nobody feels lost after the handover."
+  ]
+}

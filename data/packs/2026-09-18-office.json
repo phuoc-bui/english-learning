@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-18",
+  "track": "office",
+  "theme": "Pantry chat & networking nội bộ",
+  "vocab": [
+    {
+      "word": "new face",
+      "ipa": "/njuː feɪs/",
+      "meaning_vi": "người mới, gương mặt mới trong công ty",
+      "example": "You are a new face on this floor, so let me show you around.",
+      "example_vi": "Bạn là người mới ở tầng này, để tôi dẫn bạn đi một vòng nhé."
+    },
+    {
+      "word": "mingle",
+      "ipa": "/ˈmɪŋɡl/",
+      "meaning_vi": "giao lưu, trò chuyện với nhiều người khác nhau",
+      "example": "At the year-end party, people from all departments mingle for an hour.",
+      "example_vi": "Ở tiệc cuối năm, mọi người từ các phòng ban giao lưu với nhau khoảng một tiếng."
+    },
+    {
+      "word": "water cooler",
+      "ipa": "/ˈwɔːtə ˈkuːlə/",
+      "meaning_vi": "cây nước, nơi mọi người hay đứng tán gẫu",
+      "example": "Most of our short chats happen near the water cooler, not in meetings.",
+      "example_vi": "Phần lớn các cuộc tán gẫu ngắn diễn ra cạnh cây nước chứ không phải trong họp."
+    },
+    {
+      "word": "birthday treat",
+      "ipa": "/ˈbɜːθdeɪ triːt/",
+      "meaning_vi": "bánh, đồ ăn mang đến mời mọi người ngày sinh nhật",
+      "example": "Trang brought a birthday treat, so please take a piece of cake.",
+      "example_vi": "Trang có mang bánh sinh nhật mời mọi người, bạn lấy một miếng nhé."
+    },
+    {
+      "word": "work anniversary",
+      "ipa": "/wɜːk ˌænɪˈvɜːsəri/",
+      "meaning_vi": "kỷ niệm ngày vào làm hoặc ngày thành lập công ty",
+      "example": "Friday is the company work anniversary, and there will be a small party.",
+      "example_vi": "Thứ Sáu là ngày kỷ niệm thành lập công ty và sẽ có một buổi tiệc nhỏ."
+    },
+    {
+      "word": "make the rounds",
+      "ipa": "/meɪk ðə raʊndz/",
+      "meaning_vi": "đi một vòng chào hỏi mọi người",
+      "example": "Try to make the rounds and say hello to at least five people.",
+      "example_vi": "Hãy đi một vòng và chào hỏi ít nhất năm người nhé."
+    },
+    {
+      "word": "swap contacts",
+      "ipa": "/swɒp ˈkɒntækts/",
+      "meaning_vi": "trao đổi thông tin liên lạc với nhau",
+      "example": "We swapped contacts after the training so we can ask each other later.",
+      "example_vi": "Chúng tôi trao đổi liên lạc sau buổi đào tạo để sau này còn hỏi nhau."
+    },
+    {
+      "word": "keep in touch",
+      "ipa": "/kiːp ɪn tʌtʃ/",
+      "meaning_vi": "giữ liên lạc",
+      "example": "It was nice meeting you today; let us keep in touch on the team chat.",
+      "example_vi": "Rất vui được gặp bạn hôm nay, chúng ta giữ liên lạc qua chat của công ty nhé."
+    }
+  ],
+  "listening": {
+    "title": "A first chat in the office pantry",
+    "lines": [
+      { "speaker": "Hoa (HR Executive)", "voice": "female", "text": "Hi, you are a new face in the pantry. Are you from the marketing team?" },
+      { "speaker": "Minh (Marketing Officer)", "voice": "male", "text": "Yes, I joined two weeks ago. I am Minh, and I still get lost on this floor." },
+      { "speaker": "Hoa (HR Executive)", "voice": "female", "text": "I am Hoa from HR. Everyone gets lost in the first month, so do not worry." },
+      { "speaker": "Minh (Marketing Officer)", "voice": "male", "text": "Good to know. Why is there a cake next to the water cooler today?" },
+      { "speaker": "Hoa (HR Executive)", "voice": "female", "text": "That is Trang's birthday treat. She brings something sweet every year." },
+      { "speaker": "Minh (Marketing Officer)", "voice": "male", "text": "Nice culture. In my old company, nobody really talked outside their own team." },
+      { "speaker": "Hoa (HR Executive)", "voice": "female", "text": "Here we mingle a lot. On Friday we have a small party for the company work anniversary." },
+      { "speaker": "Minh (Marketing Officer)", "voice": "male", "text": "Should I come? I do not know many people outside marketing yet." },
+      { "speaker": "Hoa (HR Executive)", "voice": "female", "text": "Please come and make the rounds. Swap contacts with a few people and keep in touch." },
+      { "speaker": "Minh (Marketing Officer)", "voice": "male", "text": "I will do that. Thanks, Hoa. See you at the pantry again tomorrow morning." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Hoa call Minh a new face?",
+        "options": ["He joined the marketing team two weeks ago", "He is a visitor from another company", "He works in the HR team"],
+        "answer": 0
+      },
+      {
+        "q": "What is the cake in the pantry for?",
+        "options": ["A client meeting", "Trang's birthday treat", "The end of a big project"],
+        "answer": 1
+      },
+      {
+        "q": "What does Hoa suggest Minh do on Friday?",
+        "options": ["Stay at his desk and work", "Come, meet people and swap contacts", "Take the day off"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "You are a new face here, so let me introduce you to the team.",
+    "We usually mingle near the water cooler for a few minutes after lunch.",
+    "There is a birthday treat in the pantry, so please come and take some.",
+    "Try to make the rounds at the party and swap contacts with new colleagues.",
+    "It was nice talking to you; let us keep in touch after this event."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-18",
+  "track": "it",
+  "theme": "Nói về email & follow-up",
+  "vocab": [
+    {
+      "word": "reply all",
+      "ipa": "/rɪˈplaɪ ɔːl/",
+      "meaning_vi": "trả lời cho tất cả người nhận trong email",
+      "example": "Please reply all so the tester gets the same release date.",
+      "example_vi": "Hãy trả lời tất cả để bạn kiểm thử cũng nhận được ngày phát hành."
+    },
+    {
+      "word": "email thread",
+      "ipa": "/ˈiːmeɪl θred/",
+      "meaning_vi": "chuỗi email trao đổi về cùng một chủ đề",
+      "example": "The whole discussion is in one email thread, so nothing is lost.",
+      "example_vi": "Cả cuộc trao đổi nằm trong một chuỗi email nên không mất thông tin nào."
+    },
+    {
+      "word": "recap email",
+      "ipa": "/ˈriːkæp ˈiːmeɪl/",
+      "meaning_vi": "email tóm tắt lại những gì đã thống nhất",
+      "example": "After the call, I send a recap email with the decisions and next steps.",
+      "example_vi": "Sau cuộc gọi, tôi gửi email tóm tắt kèm các quyết định và bước tiếp theo."
+    },
+    {
+      "word": "forward the thread",
+      "ipa": "/ˈfɔːwəd ðə θred/",
+      "meaning_vi": "chuyển tiếp cả chuỗi email cho người khác",
+      "example": "I will forward the thread to our team lead so he knows the history.",
+      "example_vi": "Tôi sẽ chuyển tiếp cả chuỗi email cho trưởng nhóm để anh ấy nắm bối cảnh."
+    },
+    {
+      "word": "for your awareness",
+      "ipa": "/fɔː jɔːr əˈweənəs/",
+      "meaning_vi": "gửi để bạn nắm thông tin, không cần hành động",
+      "example": "I am adding you here for your awareness only; no action is needed.",
+      "example_vi": "Tôi thêm bạn vào đây chỉ để bạn nắm thông tin, không cần làm gì cả."
+    },
+    {
+      "word": "chase up",
+      "ipa": "/tʃeɪs ʌp/",
+      "meaning_vi": "nhắc khéo, hối thúc ai đó trả lời",
+      "example": "Can you chase up the client about the API keys this afternoon?",
+      "example_vi": "Chiều nay bạn nhắc khách hàng về khoá API giúp tôi được không?"
+    },
+    {
+      "word": "keep someone posted",
+      "ipa": "/kiːp ˈsʌmwʌn ˈpəʊstɪd/",
+      "meaning_vi": "cập nhật tình hình thường xuyên cho ai đó",
+      "example": "I will keep you posted as soon as their project manager answers.",
+      "example_vi": "Tôi sẽ cập nhật cho bạn ngay khi quản lý dự án của họ trả lời."
+    },
+    {
+      "word": "email signature",
+      "ipa": "/ˈiːmeɪl ˈsɪɡnətʃə/",
+      "meaning_vi": "chữ ký cuối email gồm tên, chức danh, liên hệ",
+      "example": "Your email signature still shows your old job title, so please update it.",
+      "example_vi": "Chữ ký email của bạn vẫn hiện chức danh cũ, hãy cập nhật lại nhé."
+    }
+  ],
+  "listening": {
+    "title": "Following up on a quiet client email",
+    "lines": [
+      { "speaker": "Linh (Project Coordinator)", "voice": "female", "text": "Nam, did the client ever answer our email about the release date?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Not yet. I sent it on Monday, and the email thread has been quiet since then." },
+      { "speaker": "Linh (Project Coordinator)", "voice": "female", "text": "Then I think it is time to chase up politely. Three days is long enough." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Agreed. Should I reply all, or write only to their project manager?" },
+      { "speaker": "Linh (Project Coordinator)", "voice": "female", "text": "Reply all, please. Their tester needs the same information for her test plan." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Fine. I will also forward the thread to our team lead for your awareness." },
+      { "speaker": "Linh (Project Coordinator)", "voice": "female", "text": "Good idea. Keep the message short: one clear question and one clear deadline." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "I will write a short recap email first, then ask them to confirm by Friday." },
+      { "speaker": "Linh (Project Coordinator)", "voice": "female", "text": "Perfect. And please check your email signature; it still shows your old job title." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Oh, thanks. I will fix that now and keep you posted on their reply." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Linh want Nam to write to the client again?",
+        "options": ["The client has not replied for three days", "The client refused the release date", "Nam sent the email to the wrong address"],
+        "answer": 0
+      },
+      {
+        "q": "Who else will receive the new email?",
+        "options": ["Only their project manager", "Their tester too, because Nam will reply all", "Nobody outside Nam's team"],
+        "answer": 1
+      },
+      {
+        "q": "What does Nam still need to fix?",
+        "options": ["His email signature", "His laptop", "The release date"],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I sent the email on Monday, but the thread has been quiet since then.",
+    "Let me chase up the client politely and ask them to confirm by Friday.",
+    "I will reply all so that everyone on the thread gets the same update.",
+    "I am forwarding the thread to my team lead for your awareness only.",
+    "I will send a short recap email and keep you posted on their answer."
+  ]
+}
