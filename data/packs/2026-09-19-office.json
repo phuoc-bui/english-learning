@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-19",
+  "track": "office",
+  "theme": "Small talk trước giờ họp",
+  "vocab": [
+    {
+      "word": "conversation starter",
+      "ipa": "/ˌkɒnvəˈseɪʃn ˈstɑːtə/",
+      "meaning_vi": "câu mở đầu để bắt chuyện",
+      "example": "A simple question about the weekend is a safe conversation starter at work.",
+      "example_vi": "Một câu hỏi đơn giản về cuối tuần là câu bắt chuyện an toàn ở nơi làm việc."
+    },
+    {
+      "word": "shared interest",
+      "ipa": "/ʃeəd ˈɪntrəst/",
+      "meaning_vi": "sở thích chung giữa hai người",
+      "example": "We found a shared interest in badminton while we were waiting for the meeting.",
+      "example_vi": "Chúng tôi tìm ra sở thích chung là cầu lông trong lúc chờ buổi họp."
+    },
+    {
+      "word": "in the meantime",
+      "ipa": "/ɪn ðə ˈmiːntaɪm/",
+      "meaning_vi": "trong lúc chờ đợi, trong khi đó",
+      "example": "The room is not ready yet, so in the meantime let's have a coffee.",
+      "example_vi": "Phòng họp chưa sẵn sàng, nên trong lúc chờ chúng ta uống cà phê nhé."
+    },
+    {
+      "word": "grab a seat",
+      "ipa": "/ɡræb ə siːt/",
+      "meaning_vi": "tìm chỗ ngồi, mời ngồi (cách nói thân mật)",
+      "example": "Please grab a seat near the screen, the others will join in five minutes.",
+      "example_vi": "Mời bạn ngồi gần màn hình, những người khác sẽ vào trong năm phút nữa."
+    },
+    {
+      "word": "the weather",
+      "ipa": "/ðə ˈweðə/",
+      "meaning_vi": "thời tiết (chủ đề bắt chuyện an toàn)",
+      "example": "People often talk about the weather before a meeting because it is easy.",
+      "example_vi": "Mọi người thường nói về thời tiết trước buổi họp vì chủ đề đó dễ nói."
+    },
+    {
+      "word": "hot topic",
+      "ipa": "/hɒt ˈtɒpɪk/",
+      "meaning_vi": "chủ đề đang được nhiều người quan tâm",
+      "example": "The new office layout is a hot topic in our department this week.",
+      "example_vi": "Cách bố trí văn phòng mới là chủ đề nóng ở phòng chúng tôi tuần này."
+    },
+    {
+      "word": "running late",
+      "ipa": "/ˈrʌnɪŋ leɪt/",
+      "meaning_vi": "đang bị trễ giờ",
+      "example": "Hoa is running late, so we will start with the short updates first.",
+      "example_vi": "Hoa đang đến muộn, nên chúng ta sẽ bắt đầu với các cập nhật ngắn trước."
+    },
+    {
+      "word": "catch you later",
+      "ipa": "/kætʃ juː ˈleɪtə/",
+      "meaning_vi": "hẹn gặp lại sau (cách chào thân mật)",
+      "example": "I have another call now, so catch you later at the team lunch.",
+      "example_vi": "Giờ tôi có cuộc gọi khác, hẹn gặp lại bạn ở bữa trưa của nhóm nhé."
+    }
+  ],
+  "listening": {
+    "title": "Five minutes before the department meeting",
+    "lines": [
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "Good morning, Nam. Please grab a seat, the projector is still starting up." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Thanks, Linh. It rained very hard this morning, so the traffic was terrible." },
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "Same for me. The weather is always a good conversation starter in this office." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "True. By the way, is Hoa coming? I need her numbers for my report." },
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "She is running late, but she sent the file to both of us already." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Perfect. In the meantime, did you join the badminton club last Friday?" },
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "I did. I did not know we had a shared interest in badminton." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "We should play next week. The club is a hot topic in my team now." },
+      { "speaker": "Linh (Marketing Executive)", "voice": "female", "text": "Sounds fun. Let's talk after the meeting because the manager is coming in." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Sure, catch you later. I will send you the club schedule this afternoon." }
+    ],
+    "questions": [
+      {
+        "q": "Why is Nam late to the office this morning?",
+        "options": ["Heavy rain and bad traffic", "His computer was broken", "He had a client meeting"],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh say about Hoa?",
+        "options": ["She is on holiday", "She is running late but already sent the file", "She will not join the meeting"],
+        "answer": 1
+      },
+      {
+        "q": "What shared interest do Nam and Linh discover?",
+        "options": ["Cooking", "Photography", "Badminton"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Please grab a seat, the others will be here in about five minutes.",
+    "The weather is terrible today, so half the team is running late again.",
+    "In the meantime, could you tell me how your project is going this week?",
+    "I did not know we had a shared interest in running before work.",
+    "I have another meeting now, so catch you later near the coffee machine."
+  ]
+}

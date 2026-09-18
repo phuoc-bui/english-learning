@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-19",
+  "track": "finance",
+  "theme": "Trình bày báo cáo tháng",
+  "vocab": [
+    {
+      "word": "monthly report",
+      "ipa": "/ˈmʌnθli rɪˈpɔːt/",
+      "meaning_vi": "báo cáo tài chính hằng tháng",
+      "example": "The monthly report is ready, and I will present the main numbers today.",
+      "example_vi": "Báo cáo tháng đã sẵn sàng, và hôm nay tôi sẽ trình bày các con số chính."
+    },
+    {
+      "word": "breakdown",
+      "ipa": "/ˈbreɪkdaʊn/",
+      "meaning_vi": "bảng phân tích chi tiết theo từng khoản",
+      "example": "Slide four shows a breakdown of our costs by department.",
+      "example_vi": "Trang bốn cho thấy bảng phân tích chi phí theo từng phòng ban."
+    },
+    {
+      "word": "month-on-month",
+      "ipa": "/mʌnθ ɒn mʌnθ/",
+      "meaning_vi": "so sánh tháng này với tháng trước",
+      "example": "Sales grew six percent month-on-month, mostly from the new customers.",
+      "example_vi": "Doanh thu tăng sáu phần trăm so với tháng trước, chủ yếu từ khách hàng mới."
+    },
+    {
+      "word": "top line",
+      "ipa": "/tɒp laɪn/",
+      "meaning_vi": "tổng doanh thu (dòng đầu của báo cáo)",
+      "example": "Our top line looks healthy, but we must also control our spending.",
+      "example_vi": "Doanh thu của chúng ta khá tốt, nhưng cũng phải kiểm soát chi tiêu."
+    },
+    {
+      "word": "operating cost",
+      "ipa": "/ˈɒpəreɪtɪŋ kɒst/",
+      "meaning_vi": "chi phí vận hành hằng ngày",
+      "example": "Our operating cost rose because of the new office and higher electricity prices.",
+      "example_vi": "Chi phí vận hành của chúng ta tăng vì văn phòng mới và giá điện cao hơn."
+    },
+    {
+      "word": "one-off cost",
+      "ipa": "/wʌn ɒf kɒst/",
+      "meaning_vi": "khoản chi phát sinh một lần, không lặp lại",
+      "example": "The software licence was a one-off cost, so next month will look better.",
+      "example_vi": "Phí bản quyền phần mềm là khoản chi một lần, nên tháng sau sẽ đỡ hơn."
+    },
+    {
+      "word": "summary slide",
+      "ipa": "/ˈsʌməri slaɪd/",
+      "meaning_vi": "trang tóm tắt các số liệu chính",
+      "example": "Please keep the summary slide short, with only three key numbers.",
+      "example_vi": "Hãy giữ trang tóm tắt thật ngắn, chỉ với ba con số quan trọng."
+    },
+    {
+      "word": "spike",
+      "ipa": "/spaɪk/",
+      "meaning_vi": "sự tăng vọt bất thường trong thời gian ngắn",
+      "example": "There was a spike in travel expenses because of the customer visits in August.",
+      "example_vi": "Chi phí đi lại tăng vọt vì các chuyến thăm khách hàng trong tháng Tám."
+    }
+  ],
+  "listening": {
+    "title": "Presenting the August report to the management team",
+    "lines": [
+      { "speaker": "Hoa (Finance Analyst)", "voice": "female", "text": "Good morning. I will walk you through the monthly report for August." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "Thank you, Hoa. Please start with the summary slide and keep it short." },
+      { "speaker": "Hoa (Finance Analyst)", "voice": "female", "text": "Our top line was twelve billion dong, six percent up month-on-month." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "That is good news. Which customers brought most of that growth?" },
+      { "speaker": "Hoa (Finance Analyst)", "voice": "female", "text": "Two new retail clients. The breakdown by customer is on slide five." },
+      { "speaker": "Nam (Sales Manager)", "voice": "male", "text": "What about our costs? I saw a spike in the travel numbers last month." },
+      { "speaker": "Hoa (Finance Analyst)", "voice": "female", "text": "You are right. Travel rose because your team visited four clients in Da Nang." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "And how much of that is a one-off cost rather than a normal expense?" },
+      { "speaker": "Hoa (Finance Analyst)", "voice": "female", "text": "About half. The rest is a higher operating cost from the new office." },
+      { "speaker": "Minh (Finance Director)", "voice": "male", "text": "Understood. Please send the full report today so I can prepare for the board." }
+    ],
+    "questions": [
+      {
+        "q": "How much did the top line grow month-on-month?",
+        "options": ["Six percent", "Twelve percent", "Two percent"],
+        "answer": 0
+      },
+      {
+        "q": "Why did travel expenses spike last month?",
+        "options": ["Ticket prices doubled", "The sales team visited four clients in Da Nang", "The company moved office"],
+        "answer": 1
+      },
+      {
+        "q": "What does Minh ask Hoa to do at the end?",
+        "options": ["Redo the summary slide", "Call the two new clients", "Send the full report today"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Let me walk you through the monthly report, starting with the summary slide.",
+    "Revenue grew six percent month-on-month, mainly thanks to two new retail clients.",
+    "You can see the full breakdown of costs by department on slide five.",
+    "The spike in travel expenses was a one-off cost, not a monthly problem.",
+    "I will send the full report today so you can prepare for the board."
+  ]
+}

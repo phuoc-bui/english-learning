@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-19",
+  "track": "interview",
+  "theme": "Giới thiệu bản thân",
+  "vocab": [
+    {
+      "word": "tell me about yourself",
+      "ipa": "/tel miː əˈbaʊt jɔːˈself/",
+      "meaning_vi": "hãy giới thiệu về bản thân bạn (câu hỏi mở đầu)",
+      "example": "Most interviews start with tell me about yourself, so prepare a short answer.",
+      "example_vi": "Hầu hết buổi phỏng vấn bắt đầu bằng câu hãy giới thiệu bản thân, nên hãy chuẩn bị câu trả lời ngắn."
+    },
+    {
+      "word": "professional summary",
+      "ipa": "/prəˈfeʃənl ˈsʌməri/",
+      "meaning_vi": "phần tóm tắt kinh nghiệm nghề nghiệp",
+      "example": "My professional summary is two minutes long and covers only my last two jobs.",
+      "example_vi": "Phần tóm tắt nghề nghiệp của tôi dài hai phút và chỉ nói về hai công việc gần nhất."
+    },
+    {
+      "word": "key strength",
+      "ipa": "/kiː streŋθ/",
+      "meaning_vi": "điểm mạnh nổi bật nhất",
+      "example": "My key strength is staying calm when a project has a tight deadline.",
+      "example_vi": "Điểm mạnh nổi bật của tôi là giữ bình tĩnh khi dự án có hạn chót gấp."
+    },
+    {
+      "word": "walk you through",
+      "ipa": "/wɔːk juː θruː/",
+      "meaning_vi": "trình bày lần lượt từng bước cho ai đó nghe",
+      "example": "Let me walk you through my career from university until my current job.",
+      "example_vi": "Hãy để tôi trình bày lần lượt sự nghiệp của mình từ đại học đến công việc hiện tại."
+    },
+    {
+      "word": "fresh graduate",
+      "ipa": "/freʃ ˈɡrædʒuət/",
+      "meaning_vi": "sinh viên mới tốt nghiệp",
+      "example": "I joined the company as a fresh graduate and stayed for four years.",
+      "example_vi": "Tôi vào công ty khi còn là sinh viên mới ra trường và làm việc ở đó bốn năm."
+    },
+    {
+      "word": "motivated by",
+      "ipa": "/ˈməʊtɪveɪtɪd baɪ/",
+      "meaning_vi": "có động lực nhờ điều gì đó",
+      "example": "I am motivated by solving problems that make daily work easier for users.",
+      "example_vi": "Tôi có động lực nhờ việc giải quyết các vấn đề giúp công việc hằng ngày dễ hơn."
+    },
+    {
+      "word": "stand out",
+      "ipa": "/stænd aʊt/",
+      "meaning_vi": "nổi bật hơn so với những người khác",
+      "example": "A clear example from real work will help your answer stand out.",
+      "example_vi": "Một ví dụ rõ ràng từ công việc thật sẽ giúp câu trả lời của bạn nổi bật."
+    },
+    {
+      "word": "briefly",
+      "ipa": "/ˈbriːfli/",
+      "meaning_vi": "một cách ngắn gọn",
+      "example": "Could you briefly describe the team you worked with last year?",
+      "example_vi": "Bạn có thể mô tả ngắn gọn về đội bạn từng làm việc năm ngoái không?"
+    }
+  ],
+  "listening": {
+    "title": "The first five minutes of a job interview",
+    "lines": [
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "Good morning, Nam. Thank you for coming. Please tell me about yourself." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Good morning. Let me walk you through my career in about two minutes." },
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "That sounds good. Please go ahead whenever you are ready." },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I joined VietSoft as a fresh graduate in 2021 and worked in customer support." },
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "And how did you move from support into a business analyst role?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I wrote the support reports every month, so I learned to read data carefully." },
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "Interesting. What would you say is your key strength today?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Listening. I turn unclear customer requests into clear requirements the team can build." },
+      { "speaker": "Linh (HR Manager)", "voice": "female", "text": "Could you briefly explain why you applied to our company?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I am motivated by products that thousands of people use every single day." }
+    ],
+    "questions": [
+      {
+        "q": "How does Nam start his answer?",
+        "options": ["By asking about the salary", "By offering a two-minute summary of his career", "By talking about his university marks"],
+        "answer": 1
+      },
+      {
+        "q": "What was Nam's first job at VietSoft?",
+        "options": ["Customer support", "Business analyst", "Team leader"],
+        "answer": 0
+      },
+      {
+        "q": "What does Nam say motivates him?",
+        "options": ["Working alone", "A short commute", "Products used by thousands of people daily"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Thank you for the question, let me walk you through my career briefly.",
+    "I started as a fresh graduate in customer support and moved into analysis.",
+    "My key strength is turning unclear requests into clear requirements for the team.",
+    "I am motivated by products that real people use every single day.",
+    "In my last role I led a small team of four for two years."
+  ]
+}

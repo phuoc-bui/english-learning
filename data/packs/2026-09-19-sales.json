@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-19",
+  "track": "sales",
+  "theme": "Cold call khách mới",
+  "vocab": [
+    {
+      "word": "call script",
+      "ipa": "/kɔːl skrɪpt/",
+      "meaning_vi": "kịch bản chuẩn bị sẵn cho cuộc gọi",
+      "example": "I use a short call script, but I never read it word by word.",
+      "example_vi": "Tôi dùng một kịch bản gọi ngắn, nhưng không bao giờ đọc từng chữ."
+    },
+    {
+      "word": "switchboard",
+      "ipa": "/ˈswɪtʃbɔːd/",
+      "meaning_vi": "tổng đài của công ty",
+      "example": "The switchboard asked for my company name before connecting me to the manager.",
+      "example_vi": "Tổng đài hỏi tên công ty của tôi trước khi nối máy tới người quản lý."
+    },
+    {
+      "word": "get through to",
+      "ipa": "/ɡet θruː tuː/",
+      "meaning_vi": "gọi được đến đúng người cần gặp",
+      "example": "It took three calls to get through to the person who makes the decision.",
+      "example_vi": "Phải gọi ba lần tôi mới liên hệ được với người ra quyết định."
+    },
+    {
+      "word": "spare two minutes",
+      "ipa": "/speə tuː ˈmɪnɪts/",
+      "meaning_vi": "dành ra hai phút (xin phép nói ngắn)",
+      "example": "Could you spare two minutes so I can explain why I am calling?",
+      "example_vi": "Anh có thể dành hai phút để tôi giải thích lý do tôi gọi không?"
+    },
+    {
+      "word": "not a good time",
+      "ipa": "/nɒt ə ɡʊd taɪm/",
+      "meaning_vi": "không phải lúc thuận tiện để nói chuyện",
+      "example": "If this is not a good time, I am happy to call back tomorrow morning.",
+      "example_vi": "Nếu bây giờ không tiện, tôi sẵn lòng gọi lại vào sáng mai."
+    },
+    {
+      "word": "quick chat",
+      "ipa": "/kwɪk tʃæt/",
+      "meaning_vi": "cuộc trao đổi ngắn, không trang trọng",
+      "example": "I would like a quick chat about how your team manages customer data.",
+      "example_vi": "Tôi muốn trao đổi ngắn về cách đội của anh quản lý dữ liệu khách hàng."
+    },
+    {
+      "word": "ring back",
+      "ipa": "/rɪŋ bæk/",
+      "meaning_vi": "gọi lại sau",
+      "example": "She asked me to ring back on Thursday when her schedule is lighter.",
+      "example_vi": "Chị ấy bảo tôi gọi lại vào thứ Năm khi lịch của chị ấy nhẹ hơn."
+    },
+    {
+      "word": "call log",
+      "ipa": "/kɔːl lɒɡ/",
+      "meaning_vi": "sổ ghi lại các cuộc gọi đã thực hiện",
+      "example": "I write every result in the call log right after I finish a call.",
+      "example_vi": "Tôi ghi mọi kết quả vào sổ cuộc gọi ngay sau khi kết thúc cuộc gọi."
+    }
+  ],
+  "listening": {
+    "title": "A first cold call to a new company",
+    "lines": [
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Good morning. My name is Nam from VietSoft. May I speak to your operations manager?" },
+      { "speaker": "Hoa (Receptionist)", "voice": "female", "text": "This is the switchboard. May I ask what your call is about, please?" },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Of course. It is about software that helps teams track customer requests faster." },
+      { "speaker": "Hoa (Receptionist)", "voice": "female", "text": "One moment, please. I will try to put you through to Ms Linh." },
+      { "speaker": "Linh (Operations Manager)", "voice": "female", "text": "Hello, this is Linh speaking. I only have a few minutes before my next meeting." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Thank you. Could you spare two minutes for a quick chat about your support process?" },
+      { "speaker": "Linh (Operations Manager)", "voice": "female", "text": "Go ahead, but please be brief. We already use a system for that." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "I understand. Many teams tell me their reports still take hours every week." },
+      { "speaker": "Linh (Operations Manager)", "voice": "female", "text": "That is true for us, honestly. But right now is not a good time." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "No problem. May I ring back on Thursday morning and send a short email today?" },
+      { "speaker": "Linh (Operations Manager)", "voice": "female", "text": "Yes, Thursday at ten works. Send the email to my address on the website." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Thank you, Ms Linh. I will note it in my call log and follow up." }
+    ],
+    "questions": [
+      {
+        "q": "Who answers Nam's call first?",
+        "options": ["The switchboard", "The operations manager", "The finance director"],
+        "answer": 0
+      },
+      {
+        "q": "Why does Linh stop the conversation?",
+        "options": ["She is not interested at all", "It is not a good time for her", "She does not understand him"],
+        "answer": 1
+      },
+      {
+        "q": "What does Nam agree to do next?",
+        "options": ["Visit the office tomorrow", "Send a contract today", "Ring back on Thursday and send an email"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Good morning, could you spare two minutes for a quick chat about your process?",
+    "If this is not a good time, I am happy to ring back tomorrow.",
+    "I am calling because many teams like yours spend hours on manual reports.",
+    "May I ask who makes the decision about software tools in your department?",
+    "Thank you for your time, I will send a short email this afternoon."
+  ]
+}

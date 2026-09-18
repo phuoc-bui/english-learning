@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-19",
+  "track": "it",
+  "theme": "Họp retrospective",
+  "vocab": [
+    {
+      "word": "ground rule",
+      "ipa": "/ɡraʊnd ruːl/",
+      "meaning_vi": "quy tắc cơ bản thống nhất trước khi họp",
+      "example": "Our first ground rule is that we talk about problems, not about people.",
+      "example_vi": "Quy tắc cơ bản đầu tiên của chúng ta là nói về vấn đề, không nói về con người."
+    },
+    {
+      "word": "timebox",
+      "ipa": "/ˈtaɪmbɒks/",
+      "meaning_vi": "giới hạn thời gian cố định cho một phần họp",
+      "example": "Let's timebox this discussion to ten minutes so we can finish on time.",
+      "example_vi": "Hãy giới hạn phần thảo luận này trong mười phút để chúng ta kết thúc đúng giờ."
+    },
+    {
+      "word": "retro board",
+      "ipa": "/ˈretrəʊ bɔːd/",
+      "meaning_vi": "bảng ghi ý kiến dùng trong buổi retrospective",
+      "example": "Please add your notes to the retro board before the meeting starts.",
+      "example_vi": "Hãy thêm ghi chú của bạn vào bảng retrospective trước khi buổi họp bắt đầu."
+    },
+    {
+      "word": "shout-out",
+      "ipa": "/ˈʃaʊt aʊt/",
+      "meaning_vi": "lời khen ngợi công khai dành cho ai đó",
+      "example": "A big shout-out to Hoa for testing the release over the weekend.",
+      "example_vi": "Xin gửi lời khen lớn đến Hoa vì đã kiểm thử bản phát hành vào cuối tuần."
+    },
+    {
+      "word": "kudos",
+      "ipa": "/ˈkjuːdɒs/",
+      "meaning_vi": "sự ghi nhận, lời khen cho công sức của ai đó",
+      "example": "Kudos to the team for fixing the login bug in only one day.",
+      "example_vi": "Ghi nhận cả nhóm vì đã sửa lỗi đăng nhập chỉ trong một ngày."
+    },
+    {
+      "word": "improvement item",
+      "ipa": "/ɪmˈpruːvmənt ˈaɪtəm/",
+      "meaning_vi": "việc cần cải thiện được chọn ra sau buổi họp",
+      "example": "We will take only two improvement items into the next sprint.",
+      "example_vi": "Chúng ta chỉ đưa hai việc cần cải thiện vào sprint tiếp theo."
+    },
+    {
+      "word": "candid",
+      "ipa": "/ˈkændɪd/",
+      "meaning_vi": "thẳng thắn, nói thật lòng",
+      "example": "Thank you for being candid about the problems in our testing process.",
+      "example_vi": "Cảm ơn bạn đã thẳng thắn về những vấn đề trong quy trình kiểm thử của chúng ta."
+    },
+    {
+      "word": "silver lining",
+      "ipa": "/ˌsɪlvə ˈlaɪnɪŋ/",
+      "meaning_vi": "mặt tích cực trong một tình huống khó khăn",
+      "example": "The silver lining of the delay is that our documentation is much better now.",
+      "example_vi": "Mặt tích cực của việc chậm trễ là tài liệu của chúng ta giờ tốt hơn nhiều."
+    }
+  ],
+  "listening": {
+    "title": "Retrospective of the mobile app team",
+    "lines": [
+      { "speaker": "Linh (Scrum Master)", "voice": "female", "text": "Let's start with one ground rule: everyone speaks, and nobody blames a person." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Sounds fair. I already put three notes on the retro board this morning." },
+      { "speaker": "Hoa (QA Engineer)", "voice": "female", "text": "First, a shout-out to Minh. He helped me test the new screens on Sunday." },
+      { "speaker": "Minh (Mobile Developer)", "voice": "male", "text": "Thanks, but the real kudos go to Nam. His quick fix saved the release." },
+      { "speaker": "Linh (Scrum Master)", "voice": "female", "text": "Great. Now let's timebox the problems to fifteen minutes. Who wants to start?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "To be candid, we started coding before the design was really finished again." },
+      { "speaker": "Hoa (QA Engineer)", "voice": "female", "text": "That is why testing always begins on the last two days of the sprint." },
+      { "speaker": "Minh (Mobile Developer)", "voice": "male", "text": "The silver lining is that we found the bugs before the customer did." },
+      { "speaker": "Linh (Scrum Master)", "voice": "female", "text": "So our improvement item is a design review before any coding starts. Agreed?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Agreed. I will book that review every Monday and share the link with everyone." }
+    ],
+    "questions": [
+      {
+        "q": "What ground rule does Linh set at the beginning?",
+        "options": ["Everyone speaks and nobody blames a person", "Only senior members can speak", "The meeting must finish in ten minutes"],
+        "answer": 0
+      },
+      {
+        "q": "Why does Hoa give a shout-out to Minh?",
+        "options": ["He wrote the design document", "He tested the new screens on Sunday", "He trained the new members"],
+        "answer": 1
+      },
+      {
+        "q": "What improvement item does the team agree on?",
+        "options": ["Longer sprints", "Fewer meetings", "A design review before coding starts"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Let's timebox this topic to ten minutes so everyone gets a chance to speak.",
+    "I added three notes to the retro board about our testing problems this sprint.",
+    "A big shout-out to the team for finishing the release without any overtime.",
+    "To be candid, the requirements changed twice after we had started coding.",
+    "Our improvement item is a short design review before any new feature starts."
+  ]
+}
