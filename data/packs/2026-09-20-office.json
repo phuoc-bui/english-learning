@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-20",
+  "track": "office",
+  "theme": "Viết email & follow-up",
+  "vocab": [
+    {
+      "word": "follow-up email",
+      "ipa": "/ˈfɒləʊ ʌp ˈiːmeɪl/",
+      "meaning_vi": "email nhắc lại, email theo dõi sau đó",
+      "example": "I will send a follow-up email with the meeting notes this afternoon.",
+      "example_vi": "Tôi sẽ gửi một email nhắc lại kèm biên bản họp vào chiều nay."
+    },
+    {
+      "word": "thread",
+      "ipa": "/θred/",
+      "meaning_vi": "luồng email, chuỗi trao đổi",
+      "example": "Everything about the contract is in the same email thread.",
+      "example_vi": "Mọi thứ về hợp đồng đều nằm trong cùng một luồng email."
+    },
+    {
+      "word": "sign-off",
+      "ipa": "/ˈsaɪn ɒf/",
+      "meaning_vi": "lời kết thư (phần ký tên cuối email)",
+      "example": "A short sign-off with your name and job title is enough.",
+      "example_vi": "Một lời kết thư ngắn kèm tên và chức danh của bạn là đủ."
+    },
+    {
+      "word": "kind regards",
+      "ipa": "/ˌkaɪnd rɪˈɡɑːdz/",
+      "meaning_vi": "trân trọng (lời chào cuối thư)",
+      "example": "I usually end formal emails with \"Kind regards\" and my full name.",
+      "example_vi": "Tôi thường kết thúc email trang trọng bằng \"Kind regards\" và họ tên đầy đủ."
+    },
+    {
+      "word": "formal tone",
+      "ipa": "/ˌfɔːml ˈtəʊn/",
+      "meaning_vi": "giọng văn trang trọng",
+      "example": "Please keep a formal tone when you write to the new partner.",
+      "example_vi": "Hãy giữ giọng văn trang trọng khi bạn viết cho đối tác mới."
+    },
+    {
+      "word": "nudge",
+      "ipa": "/nʌdʒ/",
+      "meaning_vi": "nhắc khéo, thúc nhẹ",
+      "example": "Could you nudge the finance team about the invoice again?",
+      "example_vi": "Bạn nhắc khéo phòng tài chính về hoá đơn một lần nữa được không?"
+    },
+    {
+      "word": "typo",
+      "ipa": "/ˈtaɪpəʊ/",
+      "meaning_vi": "lỗi đánh máy",
+      "example": "There is a typo in the client's name, so please fix it before sending.",
+      "example_vi": "Có một lỗi đánh máy ở tên khách hàng, hãy sửa trước khi gửi."
+    },
+    {
+      "word": "please advise",
+      "ipa": "/ˌpliːz ədˈvaɪz/",
+      "meaning_vi": "xin cho ý kiến / hướng dẫn thêm",
+      "example": "I have two options for the schedule; please advise which one you prefer.",
+      "example_vi": "Tôi có hai phương án lịch trình; xin anh chị cho ý kiến chọn phương án nào."
+    }
+  ],
+  "listening": {
+    "title": "Checking an email before sending it",
+    "lines": [
+      { "speaker": "Hoa (Admin Officer)", "voice": "female", "text": "Minh, could you read my email to the new supplier before I send it?" },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Sure. Send it to me, and I will check the tone and the details." },
+      { "speaker": "Hoa (Admin Officer)", "voice": "female", "text": "I kept a formal tone because this is our first email to them." },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Good choice. But there is a typo in the company name in the first line." },
+      { "speaker": "Hoa (Admin Officer)", "voice": "female", "text": "Oh, thank you. I will fix that and read the whole email once more." },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Also, end with \"Kind regards\" and your job title in the sign-off." },
+      { "speaker": "Hoa (Admin Officer)", "voice": "female", "text": "Should I ask them to confirm the delivery date in the same email?" },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Yes, and add \"please advise\" so they know we really need an answer." },
+      { "speaker": "Hoa (Admin Officer)", "voice": "female", "text": "If they stay quiet, I will send a follow-up email on Friday morning." },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Perfect. Keep everything in one thread so we can find the details later." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Hoa use a formal tone?",
+        "options": ["It is their first email to the supplier", "Her manager always writes that way", "The supplier is an old friend"],
+        "answer": 0
+      },
+      {
+        "q": "What mistake does Minh find in the email?",
+        "options": ["A wrong delivery date", "A typo in the company name", "A missing attachment"],
+        "answer": 1
+      },
+      {
+        "q": "What will Hoa do if the supplier does not reply?",
+        "options": ["Call them immediately", "Ask Minh to write instead", "Send a follow-up email on Friday"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I will send a follow-up email with the meeting notes this afternoon.",
+    "Please keep everything in one thread so we can find the details later.",
+    "Could you nudge the finance team about the invoice before the end of day?",
+    "I found a typo in the client's name, so please check it again.",
+    "We have two options for the deadline; please advise which one works better."
+  ]
+}

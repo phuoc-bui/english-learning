@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-20",
+  "track": "interview",
+  "theme": "Điểm mạnh điểm yếu",
+  "vocab": [
+    {
+      "word": "improve on",
+      "ipa": "/ɪmˈpruːv ɒn/",
+      "meaning_vi": "cải thiện (điểm nào đó)",
+      "example": "The main thing I want to improve on is speaking in large meetings.",
+      "example_vi": "Điều chính tôi muốn cải thiện là nói trong các cuộc họp đông người."
+    },
+    {
+      "word": "honest answer",
+      "ipa": "/ˈɒnɪst ˈɑːnsə/",
+      "meaning_vi": "câu trả lời thành thật",
+      "example": "The honest answer is that I sometimes take on too many tasks.",
+      "example_vi": "Câu trả lời thành thật là đôi khi tôi nhận quá nhiều việc."
+    },
+    {
+      "word": "overcommit",
+      "ipa": "/ˌəʊvəkəˈmɪt/",
+      "meaning_vi": "nhận quá nhiều việc so với khả năng",
+      "example": "I used to overcommit because I found it hard to say no.",
+      "example_vi": "Tôi từng nhận quá nhiều việc vì thấy khó nói lời từ chối."
+    },
+    {
+      "word": "adaptable",
+      "ipa": "/əˈdæptəbl/",
+      "meaning_vi": "dễ thích nghi",
+      "example": "I am adaptable, so I settled into the new team within two weeks.",
+      "example_vi": "Tôi là người dễ thích nghi, nên tôi hoà nhập với nhóm mới trong hai tuần."
+    },
+    {
+      "word": "growth area",
+      "ipa": "/ˈɡrəʊθ ˌeəriə/",
+      "meaning_vi": "điểm cần phát triển thêm",
+      "example": "My biggest growth area is writing clear technical documents in English.",
+      "example_vi": "Điểm cần phát triển nhất của tôi là viết tài liệu kỹ thuật rõ ràng bằng tiếng Anh."
+    },
+    {
+      "word": "mentor",
+      "ipa": "/ˈmentɔː/",
+      "meaning_vi": "người hướng dẫn, người dìu dắt",
+      "example": "My mentor helped me plan realistic goals for each quarter.",
+      "example_vi": "Người hướng dẫn của tôi đã giúp tôi đặt mục tiêu thực tế cho từng quý."
+    },
+    {
+      "word": "confidence",
+      "ipa": "/ˈkɒnfɪdəns/",
+      "meaning_vi": "sự tự tin",
+      "example": "Leading two small projects gave me more confidence in front of clients.",
+      "example_vi": "Việc dẫn dắt hai dự án nhỏ giúp tôi tự tin hơn khi đứng trước khách hàng."
+    },
+    {
+      "word": "self-assessment",
+      "ipa": "/ˌself əˈsesmənt/",
+      "meaning_vi": "bản tự đánh giá",
+      "example": "I write a short self-assessment every month to track my progress.",
+      "example_vi": "Tôi viết một bản tự đánh giá ngắn mỗi tháng để theo dõi tiến bộ của mình."
+    }
+  ],
+  "listening": {
+    "title": "Interview question: your strengths and weaknesses",
+    "lines": [
+      { "speaker": "Trang (HR Manager)", "voice": "female", "text": "Nam, could you tell me about your main strength at work?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I think I am adaptable. I joined a new team last year and worked well after two weeks." },
+      { "speaker": "Trang (HR Manager)", "voice": "female", "text": "Can you give me a short example of that situation?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "My company changed the whole process in March, and I helped two colleagues learn it quickly." },
+      { "speaker": "Trang (HR Manager)", "voice": "female", "text": "Thank you. And what about a weakness you are working on?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "The honest answer is that I used to overcommit and accept too many tasks." },
+      { "speaker": "Trang (HR Manager)", "voice": "female", "text": "How do you handle that problem now?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "My mentor taught me to check my workload first, so now I say no politely when I am full." },
+      { "speaker": "Trang (HR Manager)", "voice": "female", "text": "Is there anything else you want to improve on this year?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Yes. My growth area is presenting in English, so I write a short self-assessment every month." },
+      { "speaker": "Trang (HR Manager)", "voice": "female", "text": "That is a clear plan, and it also shows confidence in your own development." }
+    ],
+    "questions": [
+      {
+        "q": "What does Nam say is his main strength?",
+        "options": ["He is adaptable", "He works very fast", "He never makes mistakes"],
+        "answer": 0
+      },
+      {
+        "q": "What weakness does Nam talk about?",
+        "options": ["He often arrives late", "He used to overcommit", "He dislikes teamwork"],
+        "answer": 1
+      },
+      {
+        "q": "How does Nam follow his own progress?",
+        "options": ["He asks his manager every week", "He takes an English test", "He writes a monthly self-assessment"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "My main strength is that I adapt quickly when the team changes its process.",
+    "The honest answer is that I used to accept too many tasks at once.",
+    "My mentor taught me to check my workload before I say yes to work.",
+    "My biggest growth area is presenting technical ideas clearly in English to clients.",
+    "I write a short self-assessment every month to track my own progress."
+  ]
+}

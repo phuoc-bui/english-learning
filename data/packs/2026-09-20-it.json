@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-20",
+  "track": "it",
+  "theme": "Remote meeting etiquette",
+  "vocab": [
+    {
+      "word": "etiquette",
+      "ipa": "/ˈetɪket/",
+      "meaning_vi": "phép lịch sự, quy tắc ứng xử",
+      "example": "Our team has simple meeting etiquette: join on time and stay muted.",
+      "example_vi": "Nhóm mình có phép lịch sự khi họp rất đơn giản: vào đúng giờ và tắt mic."
+    },
+    {
+      "word": "ground rules",
+      "ipa": "/ˌɡraʊnd ˈruːlz/",
+      "meaning_vi": "quy tắc cơ bản (thống nhất từ đầu)",
+      "example": "Let's agree on some ground rules before the remote workshop starts.",
+      "example_vi": "Hãy thống nhất vài quy tắc cơ bản trước khi buổi workshop từ xa bắt đầu."
+    },
+    {
+      "word": "mute button",
+      "ipa": "/ˈmjuːt ˌbʌtn/",
+      "meaning_vi": "nút tắt tiếng",
+      "example": "Please use the mute button when you are not speaking in the call.",
+      "example_vi": "Hãy dùng nút tắt tiếng khi bạn không phát biểu trong cuộc gọi."
+    },
+    {
+      "word": "mic check",
+      "ipa": "/ˈmaɪk tʃek/",
+      "meaning_vi": "kiểm tra micro",
+      "example": "I always do a quick mic check five minutes before the sprint call.",
+      "example_vi": "Tôi luôn kiểm tra micro nhanh năm phút trước buổi họp sprint."
+    },
+    {
+      "word": "raise hand",
+      "ipa": "/ˌreɪz ˈhænd/",
+      "meaning_vi": "giơ tay (xin phát biểu)",
+      "example": "Use the raise hand feature if you want to add something to the topic.",
+      "example_vi": "Dùng tính năng giơ tay nếu bạn muốn bổ sung điều gì cho chủ đề."
+    },
+    {
+      "word": "talk over",
+      "ipa": "/ˈtɔːk ˌəʊvə/",
+      "meaning_vi": "nói chen, nói đè lên người khác",
+      "example": "Sorry, I didn't mean to talk over you; please finish your point.",
+      "example_vi": "Xin lỗi, tôi không cố ý nói chen; bạn cứ trình bày nốt ý của mình."
+    },
+    {
+      "word": "freeze",
+      "ipa": "/friːz/",
+      "meaning_vi": "đứng hình (màn hình, video)",
+      "example": "My screen tends to freeze when I share a heavy design file.",
+      "example_vi": "Màn hình của tôi hay đứng hình khi tôi chia sẻ một file thiết kế nặng."
+    },
+    {
+      "word": "reconnect",
+      "ipa": "/ˌriːkəˈnekt/",
+      "meaning_vi": "kết nối lại",
+      "example": "If you drop out, just reconnect and I will repeat the summary.",
+      "example_vi": "Nếu bạn bị rớt mạng, cứ kết nối lại và tôi sẽ nhắc lại phần tóm tắt."
+    }
+  ],
+  "listening": {
+    "title": "Ground rules for our remote sprint meeting",
+    "lines": [
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Good morning, everyone. Before we start, can you all do a quick mic check?" },
+      { "speaker": "Linh (Developer)", "voice": "female", "text": "Mine is working. Sorry, my camera is off because my internet is slow today." },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "That's fine. Let's agree on some ground rules so the call runs smoothly." },
+      { "speaker": "Linh (Developer)", "voice": "female", "text": "Good idea. Last week three people spoke at the same time and nobody understood." },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Exactly. Please keep the mute button on when you are not speaking." },
+      { "speaker": "Linh (Developer)", "voice": "female", "text": "And if we want to comment, we can use the raise hand feature." },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Yes. I will check the hand icons after each topic, so nobody has to talk over others." },
+      { "speaker": "Linh (Developer)", "voice": "female", "text": "What should we do if our screen starts to freeze during the demo?" },
+      { "speaker": "Nam (Team Lead)", "voice": "male", "text": "Just leave the call and reconnect. I will repeat the main points for you." },
+      { "speaker": "Linh (Developer)", "voice": "female", "text": "Sounds clear. This meeting etiquette should save us a lot of time every week." }
+    ],
+    "questions": [
+      {
+        "q": "Why is Linh's camera off?",
+        "options": ["Her internet is slow today", "She is in another meeting", "Her laptop is broken"],
+        "answer": 0
+      },
+      {
+        "q": "What should people do when they want to comment?",
+        "options": ["Send an email to Nam", "Use the raise hand feature", "Turn the camera on"],
+        "answer": 1
+      },
+      {
+        "q": "What does Nam say to do if the screen freezes?",
+        "options": ["Wait until the end of the call", "Call him on the phone", "Leave the call and reconnect"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Please keep the mute button on when you are not speaking in the call.",
+    "Let's do a quick mic check before the client joins our remote meeting.",
+    "Sorry, I didn't mean to talk over you; please finish your point first.",
+    "If my screen freezes, I will leave the call and reconnect in a minute.",
+    "Let's agree on a few ground rules so the remote meeting stays on time."
+  ]
+}

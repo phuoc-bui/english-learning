@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-20",
+  "track": "sales",
+  "theme": "Demo sản phẩm cho khách",
+  "vocab": [
+    {
+      "word": "walkthrough",
+      "ipa": "/ˈwɔːkθruː/",
+      "meaning_vi": "buổi hướng dẫn từng bước",
+      "example": "I will give you a short walkthrough of the reporting screen.",
+      "example_vi": "Tôi sẽ hướng dẫn anh chị từng bước một cách ngắn gọn về màn hình báo cáo."
+    },
+    {
+      "word": "demo script",
+      "ipa": "/ˈdeməʊ skrɪpt/",
+      "meaning_vi": "kịch bản demo",
+      "example": "Our demo script covers only three features in twenty minutes.",
+      "example_vi": "Kịch bản demo của chúng tôi chỉ đi qua ba tính năng trong hai mươi phút."
+    },
+    {
+      "word": "feature highlight",
+      "ipa": "/ˈfiːtʃə ˈhaɪlaɪt/",
+      "meaning_vi": "điểm nhấn tính năng",
+      "example": "The feature highlight today is the new mobile approval flow.",
+      "example_vi": "Điểm nhấn tính năng hôm nay là luồng duyệt trên điện thoại mới."
+    },
+    {
+      "word": "tailor",
+      "ipa": "/ˈteɪlə/",
+      "meaning_vi": "điều chỉnh cho phù hợp",
+      "example": "We tailor every demo to the customer's daily work.",
+      "example_vi": "Chúng tôi điều chỉnh mỗi buổi demo cho phù hợp với công việc hằng ngày của khách."
+    },
+    {
+      "word": "sandbox",
+      "ipa": "/ˈsændbɒks/",
+      "meaning_vi": "môi trường dùng thử",
+      "example": "I have prepared a sandbox with your sample data inside.",
+      "example_vi": "Tôi đã chuẩn bị một môi trường dùng thử có sẵn dữ liệu mẫu của anh chị."
+    },
+    {
+      "word": "integration",
+      "ipa": "/ˌɪntɪˈɡreɪʃn/",
+      "meaning_vi": "sự tích hợp (với hệ thống khác)",
+      "example": "The integration with your accounting system takes about two weeks.",
+      "example_vi": "Việc tích hợp với hệ thống kế toán của anh chị mất khoảng hai tuần."
+    },
+    {
+      "word": "proof of concept",
+      "ipa": "/ˌpruːf əv ˈkɒnsept/",
+      "meaning_vi": "bản chạy thử để chứng minh tính khả thi",
+      "example": "Let's run a small proof of concept before you sign anything.",
+      "example_vi": "Hãy chạy một bản thử nhỏ để chứng minh tính khả thi trước khi anh chị ký gì đó."
+    },
+    {
+      "word": "takeaway",
+      "ipa": "/ˈteɪkəweɪ/",
+      "meaning_vi": "điều đọng lại, kết luận chính",
+      "example": "The main takeaway is that your team can save two hours a day.",
+      "example_vi": "Kết luận chính là đội của anh chị có thể tiết kiệm hai tiếng mỗi ngày."
+    }
+  ],
+  "listening": {
+    "title": "A product demo for a new client",
+    "lines": [
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Thank you for your time. Today I will give you a short walkthrough of our platform." },
+      { "speaker": "Tuan (Operations Manager)", "voice": "male", "text": "Great. We mainly want to see how it handles our monthly orders." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "I tailored the demo script to that, so we will start with the order screen." },
+      { "speaker": "Tuan (Operations Manager)", "voice": "male", "text": "Is this real data? Our numbers are quite different from a normal example." },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "This is a sandbox with your sample file, so everything should look familiar to you." },
+      { "speaker": "Tuan (Operations Manager)", "voice": "male", "text": "That helps a lot. What is the feature highlight you mentioned on the phone?" },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Automatic approval. Your manager can approve an order from a phone in one click." },
+      { "speaker": "Tuan (Operations Manager)", "voice": "male", "text": "And can it work with the accounting software we already use?" },
+      { "speaker": "Linh (Sales Executive)", "voice": "female", "text": "Yes. The integration usually takes two weeks, and we can run a proof of concept first." },
+      { "speaker": "Tuan (Operations Manager)", "voice": "male", "text": "Good. So the main takeaway is much less manual work for my team." }
+    ],
+    "questions": [
+      {
+        "q": "What data does Linh use in the demo?",
+        "options": ["A public example file", "The client's sample data in a sandbox", "Last year's sales report"],
+        "answer": 1
+      },
+      {
+        "q": "What is the feature highlight of the demo?",
+        "options": ["Automatic approval on a phone", "A new colour theme", "Free staff training"],
+        "answer": 0
+      },
+      {
+        "q": "How long does the integration usually take?",
+        "options": ["Two days", "Two months", "Two weeks"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Let me give you a short walkthrough of the main screen first.",
+    "We tailor every demo to the way your team works every day.",
+    "I prepared a sandbox with your sample data so everything looks familiar.",
+    "The integration with your accounting system usually takes about two weeks.",
+    "The main takeaway is that your team can save two hours every day."
+  ]
+}

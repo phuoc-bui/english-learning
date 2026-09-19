@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-20",
+  "track": "finance",
+  "theme": "Ngân sách & cắt giảm chi phí",
+  "vocab": [
+    {
+      "word": "cost cutting",
+      "ipa": "/ˈkɒst ˌkʌtɪŋ/",
+      "meaning_vi": "việc cắt giảm chi phí",
+      "example": "The board started a cost cutting plan for the next two quarters.",
+      "example_vi": "Ban lãnh đạo đã khởi động kế hoạch cắt giảm chi phí cho hai quý tới."
+    },
+    {
+      "word": "overhead",
+      "ipa": "/ˈəʊvəhed/",
+      "meaning_vi": "chi phí vận hành chung",
+      "example": "Our office overhead went up after we rented the second floor.",
+      "example_vi": "Chi phí vận hành văn phòng của chúng ta tăng lên sau khi thuê thêm tầng hai."
+    },
+    {
+      "word": "budget cap",
+      "ipa": "/ˈbʌdʒɪt kæp/",
+      "meaning_vi": "mức trần ngân sách",
+      "example": "Each department now has a budget cap for software tools.",
+      "example_vi": "Mỗi phòng ban hiện có một mức trần ngân sách cho các công cụ phần mềm."
+    },
+    {
+      "word": "trim",
+      "ipa": "/trɪm/",
+      "meaning_vi": "cắt bớt, tỉa bớt",
+      "example": "We need to trim the travel budget by fifteen percent this year.",
+      "example_vi": "Chúng ta cần cắt bớt ngân sách công tác mười lăm phần trăm trong năm nay."
+    },
+    {
+      "word": "renegotiate",
+      "ipa": "/ˌriːnɪˈɡəʊʃieɪt/",
+      "meaning_vi": "đàm phán lại",
+      "example": "Let's renegotiate the cleaning service price before we renew it.",
+      "example_vi": "Hãy đàm phán lại giá dịch vụ vệ sinh trước khi chúng ta gia hạn."
+    },
+    {
+      "word": "vendor contract",
+      "ipa": "/ˈvendə ˈkɒntrækt/",
+      "meaning_vi": "hợp đồng với nhà cung cấp",
+      "example": "I reviewed every vendor contract to find fees we no longer need.",
+      "example_vi": "Tôi đã rà soát từng hợp đồng nhà cung cấp để tìm các khoản phí không còn cần thiết."
+    },
+    {
+      "word": "cut back",
+      "ipa": "/ˌkʌt ˈbæk/",
+      "meaning_vi": "giảm bớt (chi tiêu, số lượng)",
+      "example": "We will cut back on paid tools that only a few people use.",
+      "example_vi": "Chúng ta sẽ giảm bớt các công cụ trả phí mà chỉ vài người sử dụng."
+    },
+    {
+      "word": "streamline",
+      "ipa": "/ˈstriːmlaɪn/",
+      "meaning_vi": "tinh gọn quy trình",
+      "example": "If we streamline the approval process, we save both time and money.",
+      "example_vi": "Nếu chúng ta tinh gọn quy trình phê duyệt, chúng ta tiết kiệm cả thời gian và tiền bạc."
+    }
+  ],
+  "listening": {
+    "title": "A cost review meeting with the accounting team",
+    "lines": [
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "Thanks for joining. The board asked us to prepare a cost cutting plan this week." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "I expected that. Our overhead is about eight percent higher than last year." },
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "Where does the extra money go? Rent, software tools, or business travel?" },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Mostly software tools and travel. Both of them grew very fast in June." },
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "Then let's trim the travel budget first, maybe by fifteen percent." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Agreed. I can also renegotiate two service prices before the end of the year." },
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "Good. Please check every vendor contract for fees we no longer need." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Should we cut back on the design tools as well? Only three people use them." },
+      { "speaker": "Nam (Finance Manager)", "voice": "male", "text": "Yes, and we will set a budget cap for each department from October." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "If we also streamline the approval process, the team will spend less time on paperwork." }
+    ],
+    "questions": [
+      {
+        "q": "How much higher is the overhead than last year?",
+        "options": ["About eight percent", "About fifteen percent", "About twenty percent"],
+        "answer": 0
+      },
+      {
+        "q": "Which budget will they trim first?",
+        "options": ["The rent budget", "The travel budget", "The training budget"],
+        "answer": 1
+      },
+      {
+        "q": "When will the budget cap for each department start?",
+        "options": ["In June", "In December", "In October"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "We need to trim the travel budget by about fifteen percent this year.",
+    "Our overhead is eight percent higher than the same period last year.",
+    "Let's renegotiate the service price before we renew it in November.",
+    "Each department will have a budget cap starting from the fourth quarter.",
+    "If we streamline the approval process, we can save time and money."
+  ]
+}
