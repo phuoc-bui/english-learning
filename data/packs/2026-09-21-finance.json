@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-21",
+  "track": "finance",
+  "theme": "Hoá đơn và thanh toán",
+  "vocab": [
+    {
+      "word": "bill the client",
+      "ipa": "/bɪl ðə ˈklaɪənt/",
+      "meaning_vi": "xuất hoá đơn tính tiền khách hàng",
+      "example": "We will bill the client at the end of every month for the service.",
+      "example_vi": "Chúng ta sẽ xuất hoá đơn cho khách vào cuối mỗi tháng cho dịch vụ này."
+    },
+    {
+      "word": "partial payment",
+      "ipa": "/ˈpɑːʃl ˈpeɪmənt/",
+      "meaning_vi": "thanh toán một phần",
+      "example": "The customer made a partial payment of forty percent last Friday.",
+      "example_vi": "Khách hàng đã thanh toán một phần bốn mươi phần trăm vào thứ Sáu tuần trước."
+    },
+    {
+      "word": "chase payment",
+      "ipa": "/tʃeɪs ˈpeɪmənt/",
+      "meaning_vi": "đi đòi, nhắc khách trả tiền",
+      "example": "I have to chase payment from two customers before the month closes.",
+      "example_vi": "Tôi phải đi nhắc hai khách hàng trả tiền trước khi chốt sổ tháng."
+    },
+    {
+      "word": "settle the balance",
+      "ipa": "/ˈsetl ðə ˈbæləns/",
+      "meaning_vi": "thanh toán nốt phần còn lại",
+      "example": "They promised to settle the balance within ten working days.",
+      "example_vi": "Họ hứa sẽ thanh toán nốt phần còn lại trong vòng mười ngày làm việc."
+    },
+    {
+      "word": "payment status",
+      "ipa": "/ˈpeɪmənt ˈsteɪtəs/",
+      "meaning_vi": "tình trạng thanh toán của hoá đơn",
+      "example": "Please check the payment status of invoice number 2045 in the system.",
+      "example_vi": "Hãy kiểm tra tình trạng thanh toán của hoá đơn số 2045 trong hệ thống."
+    },
+    {
+      "word": "wire the money",
+      "ipa": "/ˈwaɪə ðə ˈmʌni/",
+      "meaning_vi": "chuyển tiền qua ngân hàng",
+      "example": "Their finance team will wire the money to us tomorrow morning.",
+      "example_vi": "Bộ phận tài chính của họ sẽ chuyển tiền cho chúng ta vào sáng mai."
+    },
+    {
+      "word": "beneficiary",
+      "ipa": "/ˌbenɪˈfɪʃəri/",
+      "meaning_vi": "người hoặc công ty nhận tiền",
+      "example": "The beneficiary name on the transfer must match our company name exactly.",
+      "example_vi": "Tên người nhận trên lệnh chuyển khoản phải khớp chính xác với tên công ty."
+    },
+    {
+      "word": "deposit",
+      "ipa": "/dɪˈpɒzɪt/",
+      "meaning_vi": "khoản tiền đặt cọc",
+      "example": "We ask for a deposit of thirty percent before the project starts.",
+      "example_vi": "Chúng tôi yêu cầu đặt cọc ba mươi phần trăm trước khi dự án bắt đầu."
+    }
+  ],
+  "listening": {
+    "title": "Checking unpaid invoices on Monday",
+    "lines": [
+      { "speaker": "Thuy (Chief Accountant)", "voice": "female", "text": "Good morning, Dung. Can we review the unpaid invoices before the weekly report?" },
+      { "speaker": "Dung (Accounts Officer)", "voice": "male", "text": "Sure. We have four invoices open, and two of them are already late." },
+      { "speaker": "Thuy (Chief Accountant)", "voice": "female", "text": "What is the payment status of invoice 2045 for the Da Nang customer?" },
+      { "speaker": "Dung (Accounts Officer)", "voice": "male", "text": "They made a partial payment of forty percent, so the rest is still open." },
+      { "speaker": "Thuy (Chief Accountant)", "voice": "female", "text": "Did they say when they will settle the balance for that invoice?" },
+      { "speaker": "Dung (Accounts Officer)", "voice": "male", "text": "Their accountant promised to wire the money before the end of this week." },
+      { "speaker": "Thuy (Chief Accountant)", "voice": "female", "text": "Good. Please chase payment on Thursday if nothing arrives in our bank account." },
+      { "speaker": "Dung (Accounts Officer)", "voice": "male", "text": "One more thing. A new customer asked why the beneficiary name looks different." },
+      { "speaker": "Thuy (Chief Accountant)", "voice": "female", "text": "Send them our bank letter. The beneficiary must be our full company name." },
+      { "speaker": "Dung (Accounts Officer)", "voice": "male", "text": "Understood. Should I bill the client for the second phase this week?" },
+      { "speaker": "Thuy (Chief Accountant)", "voice": "female", "text": "Yes, but only after their deposit appears in the account on Wednesday." }
+    ],
+    "questions": [
+      {
+        "q": "How much has the Da Nang customer paid so far?",
+        "options": ["Nothing at all", "Forty percent of the invoice", "The full amount"],
+        "answer": 1
+      },
+      {
+        "q": "What should Dung do on Thursday if no money arrives?",
+        "options": ["Chase payment", "Cancel the invoice", "Call the bank manager"],
+        "answer": 0
+      },
+      {
+        "q": "When can Dung bill the client for the second phase?",
+        "options": ["Immediately today", "Next month", "After the deposit appears on Wednesday"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you check the payment status of invoice 2045 in the system today?",
+    "The customer made a partial payment and will settle the balance next week.",
+    "Please chase payment on Thursday if the transfer has not arrived yet.",
+    "The beneficiary name must match our full company name on every transfer.",
+    "We will bill the client after their deposit appears in our bank account."
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-21",
+  "track": "sales",
+  "theme": "Xử lý khi khách từ chối",
+  "vocab": [
+    {
+      "word": "push back",
+      "ipa": "/pʊʃ bæk/",
+      "meaning_vi": "phản đối, không đồng ý với đề xuất",
+      "example": "The client may push back on the price, so prepare a clear answer.",
+      "example_vi": "Khách hàng có thể phản đối về giá, nên hãy chuẩn bị câu trả lời rõ ràng."
+    },
+    {
+      "word": "budget constraint",
+      "ipa": "/ˈbʌdʒɪt kənˈstreɪnt/",
+      "meaning_vi": "hạn chế về ngân sách",
+      "example": "They like our system but they have a real budget constraint this quarter.",
+      "example_vi": "Họ thích hệ thống của chúng ta nhưng quý này họ thực sự bị hạn chế ngân sách."
+    },
+    {
+      "word": "no hard feelings",
+      "ipa": "/nəʊ hɑːd ˈfiːlɪŋz/",
+      "meaning_vi": "không giận, không để bụng",
+      "example": "You chose another supplier, and there are no hard feelings from our side.",
+      "example_vi": "Anh đã chọn nhà cung cấp khác, và chúng tôi hoàn toàn không để bụng."
+    },
+    {
+      "word": "respect your decision",
+      "ipa": "/rɪˈspekt jɔː dɪˈsɪʒn/",
+      "meaning_vi": "tôn trọng quyết định của bạn",
+      "example": "We respect your decision and we thank you for your honest answer.",
+      "example_vi": "Chúng tôi tôn trọng quyết định của anh và cảm ơn câu trả lời thẳng thắn."
+    },
+    {
+      "word": "take it on board",
+      "ipa": "/teɪk ɪt ɒn bɔːd/",
+      "meaning_vi": "tiếp thu ý kiến, ghi nhận góp ý",
+      "example": "Your comment about our slow support is fair and we will take it on board.",
+      "example_vi": "Góp ý của anh về việc hỗ trợ chậm là hợp lý và chúng tôi sẽ tiếp thu."
+    },
+    {
+      "word": "leave the door open",
+      "ipa": "/liːv ðə dɔːr ˈəʊpən/",
+      "meaning_vi": "để ngỏ cơ hội hợp tác sau này",
+      "example": "I want to leave the door open in case your plan changes next year.",
+      "example_vi": "Tôi muốn để ngỏ cơ hội phòng khi kế hoạch của anh thay đổi năm sau."
+    },
+    {
+      "word": "stay on the radar",
+      "ipa": "/steɪ ɒn ðə ˈreɪdɑː/",
+      "meaning_vi": "giữ sự hiện diện để khách còn nhớ đến mình",
+      "example": "A short email every quarter helps us stay on the radar of big clients.",
+      "example_vi": "Một email ngắn mỗi quý giúp chúng ta được các khách lớn còn nhớ đến."
+    },
+    {
+      "word": "circle back later",
+      "ipa": "/ˈsɜːkl bæk ˈleɪtə/",
+      "meaning_vi": "quay lại trao đổi vào lúc khác",
+      "example": "May I circle back later when your new budget is approved in January?",
+      "example_vi": "Tôi có thể quay lại trao đổi khi ngân sách mới của anh được duyệt vào tháng Một chứ?"
+    }
+  ],
+  "listening": {
+    "title": "The client says no for now",
+    "lines": [
+      { "speaker": "Quang (Account Executive)", "voice": "male", "text": "Thank you for your time, Ms. Trang. Have you made a decision about our offer?" },
+      { "speaker": "Trang (Purchasing Manager)", "voice": "female", "text": "I am sorry, Quang. We have decided not to buy the system this year." },
+      { "speaker": "Quang (Account Executive)", "voice": "male", "text": "I understand, and we respect your decision. May I ask what the main reason is?" },
+      { "speaker": "Trang (Purchasing Manager)", "voice": "female", "text": "Honestly, it is a budget constraint. Our board cut all new software spending." },
+      { "speaker": "Quang (Account Executive)", "voice": "male", "text": "That is clear. Was there anything about the product itself that made you push back?" },
+      { "speaker": "Trang (Purchasing Manager)", "voice": "female", "text": "Only one thing. Two of my staff said your support replies were quite slow." },
+      { "speaker": "Quang (Account Executive)", "voice": "male", "text": "Thank you for telling me. That is useful and we will take it on board." },
+      { "speaker": "Trang (Purchasing Manager)", "voice": "female", "text": "I hope there are no hard feelings. Your team worked very hard on the demo." },
+      { "speaker": "Quang (Account Executive)", "voice": "male", "text": "None at all. I would like to leave the door open for next year." },
+      { "speaker": "Trang (Purchasing Manager)", "voice": "female", "text": "Please do. Send me a short email each quarter so you stay on the radar." },
+      { "speaker": "Quang (Account Executive)", "voice": "male", "text": "I will, and I will circle back later when your new budget is approved." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Trang say no to the offer?",
+        "options": ["The product is too complicated", "The board cut all new software spending", "She prefers a local supplier"],
+        "answer": 1
+      },
+      {
+        "q": "What feedback does Trang give about the product team?",
+        "options": ["The support replies were quite slow", "The demo was too short", "The price list was wrong"],
+        "answer": 0
+      },
+      {
+        "q": "What does Trang suggest Quang should do?",
+        "options": ["Visit her office every week", "Call the board directly", "Send a short email each quarter"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I understand your situation and we fully respect your decision this year.",
+    "May I ask if the main reason is a budget constraint or something else?",
+    "Thank you for that feedback, and we will certainly take it on board.",
+    "I would like to leave the door open in case your plans change.",
+    "Can I circle back later when your new budget is approved in January?"
+  ]
+}

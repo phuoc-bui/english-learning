@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-21",
+  "track": "interview",
+  "theme": "Kể về dự án đáng nhớ",
+  "vocab": [
+    {
+      "word": "memorable project",
+      "ipa": "/ˈmemərəbl ˈprɒdʒekt/",
+      "meaning_vi": "dự án đáng nhớ",
+      "example": "The most memorable project in my career was a mobile banking app.",
+      "example_vi": "Dự án đáng nhớ nhất trong sự nghiệp của tôi là một ứng dụng ngân hàng di động."
+    },
+    {
+      "word": "take the lead",
+      "ipa": "/teɪk ðə liːd/",
+      "meaning_vi": "đứng ra dẫn dắt, chịu trách nhiệm chính",
+      "example": "My manager asked me to take the lead on the reporting module.",
+      "example_vi": "Quản lý đã đề nghị tôi đứng ra dẫn dắt phần module báo cáo."
+    },
+    {
+      "word": "scope of the project",
+      "ipa": "/skəʊp əv ðə ˈprɒdʒekt/",
+      "meaning_vi": "phạm vi công việc của dự án",
+      "example": "The scope of the project covered three countries and two languages.",
+      "example_vi": "Phạm vi của dự án bao gồm ba quốc gia và hai ngôn ngữ."
+    },
+    {
+      "word": "hands-on",
+      "ipa": "/ˌhændz ˈɒn/",
+      "meaning_vi": "trực tiếp bắt tay vào làm",
+      "example": "I prefer a hands-on role where I can write code every day.",
+      "example_vi": "Tôi thích một vai trò trực tiếp làm việc, nơi tôi có thể viết mã mỗi ngày."
+    },
+    {
+      "word": "end-to-end",
+      "ipa": "/ˌend tu ˈend/",
+      "meaning_vi": "từ đầu đến cuối, trọn quy trình",
+      "example": "I followed the feature end-to-end, from the first design to the release.",
+      "example_vi": "Tôi theo tính năng đó từ đầu đến cuối, từ bản thiết kế đầu tiên đến lúc phát hành."
+    },
+    {
+      "word": "ownership",
+      "ipa": "/ˈəʊnəʃɪp/",
+      "meaning_vi": "tinh thần làm chủ công việc",
+      "example": "That project taught me real ownership of the results, not only the tasks.",
+      "example_vi": "Dự án đó dạy tôi tinh thần làm chủ kết quả, chứ không chỉ làm xong việc."
+    },
+    {
+      "word": "work under pressure",
+      "ipa": "/wɜːk ˈʌndə ˈpreʃə/",
+      "meaning_vi": "làm việc dưới áp lực",
+      "example": "I learned to work under pressure during the final month of that project.",
+      "example_vi": "Tôi học được cách làm việc dưới áp lực trong tháng cuối của dự án đó."
+    },
+    {
+      "word": "rewarding",
+      "ipa": "/rɪˈwɔːdɪŋ/",
+      "meaning_vi": "mang lại cảm giác xứng đáng, đáng công sức",
+      "example": "Seeing real users enjoy the app was very rewarding for the whole team.",
+      "example_vi": "Nhìn người dùng thật sự thích ứng dụng là điều rất đáng công sức với cả nhóm."
+    }
+  ],
+  "listening": {
+    "title": "Tell me about a project you are proud of",
+    "lines": [
+      { "speaker": "Ms. Ngan (Interviewer)", "voice": "female", "text": "Nam, could you tell me about a memorable project from your last company?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Yes. Last year I worked on a mobile app for a logistics customer." },
+      { "speaker": "Ms. Ngan (Interviewer)", "voice": "female", "text": "What was the scope of the project, and how large was the team?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "We were six people, and the scope covered driver tracking and delivery reports." },
+      { "speaker": "Ms. Ngan (Interviewer)", "voice": "female", "text": "What exactly was your role in that team?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I was asked to take the lead on the reporting part after two months." },
+      { "speaker": "Ms. Ngan (Interviewer)", "voice": "female", "text": "Was that a management role, or were you still writing code?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "It was hands-on. I planned the work and also built the main screens myself." },
+      { "speaker": "Ms. Ngan (Interviewer)", "voice": "female", "text": "What was the hardest part of the project for you?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "The last month. We had to work under pressure to meet a fixed launch date." },
+      { "speaker": "Ms. Ngan (Interviewer)", "voice": "female", "text": "And what did you learn from that experience?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I learned real ownership, and seeing drivers use the app was very rewarding." }
+    ],
+    "questions": [
+      {
+        "q": "What kind of project does Nam describe?",
+        "options": ["A mobile app for a logistics customer", "A website for a school", "An accounting system for a bank"],
+        "answer": 0
+      },
+      {
+        "q": "What did Nam do after two months on the project?",
+        "options": ["He moved to another team", "He took the lead on the reporting part", "He stopped writing code"],
+        "answer": 1
+      },
+      {
+        "q": "Why was the last month difficult?",
+        "options": ["Two people left the company", "The customer changed the design", "The team had to work under pressure for a fixed launch date"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "The most memorable project in my career was a delivery app for drivers.",
+    "The scope of the project covered driver tracking and monthly delivery reports.",
+    "After two months my manager asked me to take the lead on reporting.",
+    "My role was hands-on, so I planned the work and wrote the code.",
+    "I learned real ownership, and the final result was very rewarding for me."
+  ]
+}

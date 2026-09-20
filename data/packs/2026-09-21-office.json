@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-21",
+  "track": "office",
+  "theme": "Xin nghỉ phép & bàn giao",
+  "vocab": [
+    {
+      "word": "book leave",
+      "ipa": "/bʊk liːv/",
+      "meaning_vi": "đăng ký nghỉ phép trên hệ thống",
+      "example": "I would like to book leave for three days at the end of October.",
+      "example_vi": "Tôi muốn đăng ký nghỉ phép ba ngày vào cuối tháng Mười."
+    },
+    {
+      "word": "half-day leave",
+      "ipa": "/hɑːf deɪ liːv/",
+      "meaning_vi": "nghỉ nửa ngày",
+      "example": "I only need half-day leave on Friday for a medical check-up.",
+      "example_vi": "Tôi chỉ cần nghỉ nửa ngày vào thứ Sáu để đi khám sức khoẻ."
+    },
+    {
+      "word": "prior notice",
+      "ipa": "/ˈpraɪə ˈnəʊtɪs/",
+      "meaning_vi": "báo trước một khoảng thời gian",
+      "example": "Our policy asks for one week of prior notice before any planned leave.",
+      "example_vi": "Chính sách của chúng ta yêu cầu báo trước một tuần cho mọi kỳ nghỉ đã lên kế hoạch."
+    },
+    {
+      "word": "cover for me",
+      "ipa": "/ˈkʌvə fə miː/",
+      "meaning_vi": "làm thay việc cho tôi khi tôi vắng",
+      "example": "Could you cover for me at the Thursday meeting with the marketing team?",
+      "example_vi": "Bạn có thể làm thay tôi ở buổi họp thứ Năm với nhóm marketing không?"
+    },
+    {
+      "word": "cover duties",
+      "ipa": "/ˈkʌvə ˈdjuːtiz/",
+      "meaning_vi": "những nhiệm vụ làm thay trong lúc ai đó vắng mặt",
+      "example": "Please write down the cover duties so nothing is forgotten next week.",
+      "example_vi": "Hãy ghi lại các nhiệm vụ làm thay để tuần sau không quên việc gì."
+    },
+    {
+      "word": "temporary replacement",
+      "ipa": "/ˈtemprəri rɪˈpleɪsmənt/",
+      "meaning_vi": "người thay thế tạm thời",
+      "example": "Hoa will be my temporary replacement while I am away next week.",
+      "example_vi": "Hoa sẽ là người thay thế tạm thời của tôi khi tôi vắng mặt tuần sau."
+    },
+    {
+      "word": "out of office reply",
+      "ipa": "/aʊt əv ˈɒfɪs rɪˈplaɪ/",
+      "meaning_vi": "thư trả lời tự động khi vắng mặt",
+      "example": "Don't forget to set an out of office reply before you leave on Friday.",
+      "example_vi": "Đừng quên cài thư trả lời tự động trước khi bạn nghỉ vào thứ Sáu."
+    },
+    {
+      "word": "carry-over days",
+      "ipa": "/ˈkæri ˈəʊvə deɪz/",
+      "meaning_vi": "số ngày phép chuyển sang năm sau",
+      "example": "I still have four carry-over days from last year in my account.",
+      "example_vi": "Tôi vẫn còn bốn ngày phép chuyển từ năm ngoái trong tài khoản."
+    }
+  ],
+  "listening": {
+    "title": "Asking the manager for leave",
+    "lines": [
+      { "speaker": "Hanh (Marketing Officer)", "voice": "female", "text": "Good morning, Mr. Son. Do you have five minutes to talk about my holiday?" },
+      { "speaker": "Son (Department Manager)", "voice": "male", "text": "Of course, Hanh. Please sit down. When would you like to book leave?" },
+      { "speaker": "Hanh (Marketing Officer)", "voice": "female", "text": "From Monday the twelfth to Wednesday the fourteenth of October, so three days." },
+      { "speaker": "Son (Department Manager)", "voice": "male", "text": "That is fine. You gave me prior notice, and the campaign will be finished by then." },
+      { "speaker": "Hanh (Marketing Officer)", "voice": "female", "text": "I also have four carry-over days, so my balance is still comfortable." },
+      { "speaker": "Son (Department Manager)", "voice": "male", "text": "Good. Who will be your temporary replacement for the client emails?" },
+      { "speaker": "Hanh (Marketing Officer)", "voice": "female", "text": "Hoa agreed to cover for me. I will send her a list of cover duties." },
+      { "speaker": "Son (Department Manager)", "voice": "male", "text": "Please include the phone numbers of the two printing partners in that list." },
+      { "speaker": "Hanh (Marketing Officer)", "voice": "female", "text": "I will. I also plan to set an out of office reply before I go." },
+      { "speaker": "Son (Department Manager)", "voice": "male", "text": "Perfect. Submit the request today and I will approve it this afternoon." }
+    ],
+    "questions": [
+      {
+        "q": "How many days of leave does Hanh ask for?",
+        "options": ["Two days", "Three days", "A whole week"],
+        "answer": 1
+      },
+      {
+        "q": "Who will cover for Hanh while she is away?",
+        "options": ["Hoa", "Son", "The printing partner"],
+        "answer": 0
+      },
+      {
+        "q": "What does Son ask Hanh to add to the list?",
+        "options": ["Her new email address", "The campaign budget", "The phone numbers of two printing partners"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I would like to book leave for three days in the middle of October.",
+    "I gave my manager prior notice, so the team can plan the work.",
+    "Could you cover for me at the client meeting on Thursday morning?",
+    "I will write a short list of cover duties before I leave tomorrow.",
+    "Please remember to set an out of office reply before your holiday starts."
+  ]
+}

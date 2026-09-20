@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-21",
+  "track": "it",
+  "theme": "Daily standup meeting",
+  "vocab": [
+    {
+      "word": "go around the room",
+      "ipa": "/ɡəʊ əˈraʊnd ðə ruːm/",
+      "meaning_vi": "lần lượt cho từng người nói",
+      "example": "Let's go around the room so every developer can share one sentence.",
+      "example_vi": "Hãy lần lượt từng người nói để mỗi lập trình viên chia sẻ một câu."
+    },
+    {
+      "word": "sprint goal",
+      "ipa": "/sprɪnt ɡəʊl/",
+      "meaning_vi": "mục tiêu của sprint hiện tại",
+      "example": "Our sprint goal this week is to finish the new search feature.",
+      "example_vi": "Mục tiêu sprint tuần này của chúng ta là hoàn thành tính năng tìm kiếm mới."
+    },
+    {
+      "word": "no updates from me",
+      "ipa": "/nəʊ ˈʌpdeɪts frɒm miː/",
+      "meaning_vi": "tôi không có gì mới để báo cáo",
+      "example": "I was on leave yesterday, so there are no updates from me today.",
+      "example_vi": "Hôm qua tôi nghỉ phép nên hôm nay tôi không có gì mới để báo cáo."
+    },
+    {
+      "word": "raise a blocker",
+      "ipa": "/reɪz ə ˈblɒkə/",
+      "meaning_vi": "nêu lên một vấn đề đang chặn công việc",
+      "example": "I need to raise a blocker because the test server is still down.",
+      "example_vi": "Tôi cần nêu lên một vấn đề đang chặn vì máy chủ kiểm thử vẫn đang hỏng."
+    },
+    {
+      "word": "take it offline",
+      "ipa": "/teɪk ɪt ˈɒflaɪn/",
+      "meaning_vi": "bàn riêng sau buổi họp, không bàn tại đây",
+      "example": "That database question is quite deep, so let's take it offline.",
+      "example_vi": "Câu hỏi về cơ sở dữ liệu khá sâu, nên chúng ta hãy bàn riêng sau."
+    },
+    {
+      "word": "move the card",
+      "ipa": "/muːv ðə kɑːd/",
+      "meaning_vi": "chuyển thẻ công việc sang cột khác trên bảng",
+      "example": "Please move the card to the review column when your code is ready.",
+      "example_vi": "Hãy chuyển thẻ công việc sang cột review khi mã của bạn đã sẵn sàng."
+    },
+    {
+      "word": "loop in",
+      "ipa": "/luːp ɪn/",
+      "meaning_vi": "cho ai đó tham gia, cập nhật thông tin cho ai đó",
+      "example": "Please loop in the product owner before we change the sprint plan.",
+      "example_vi": "Hãy cho chủ sản phẩm tham gia trước khi chúng ta đổi kế hoạch sprint."
+    },
+    {
+      "word": "quick win",
+      "ipa": "/kwɪk wɪn/",
+      "meaning_vi": "việc nhỏ dễ làm nhưng mang lại kết quả nhanh",
+      "example": "Fixing that label is a quick win, so I will do it today.",
+      "example_vi": "Sửa cái nhãn đó là một việc nhanh có kết quả ngay, nên hôm nay tôi sẽ làm."
+    }
+  ],
+  "listening": {
+    "title": "Tuesday standup before the demo",
+    "lines": [
+      { "speaker": "Tuan (Scrum Master)", "voice": "male", "text": "Good morning, everyone. Let's go around the room and keep each update under a minute." },
+      { "speaker": "Linh (Backend Developer)", "voice": "female", "text": "Yesterday I finished the search API, so I am close to our sprint goal." },
+      { "speaker": "Tuan (Scrum Master)", "voice": "male", "text": "That sounds good, Linh. Did you move the card to the review column?" },
+      { "speaker": "Linh (Backend Developer)", "voice": "female", "text": "Not yet. I will move the card right after this standup, I promise." },
+      { "speaker": "Khoa (QA Engineer)", "voice": "male", "text": "I have to raise a blocker. The test server has been down since last night." },
+      { "speaker": "Tuan (Scrum Master)", "voice": "male", "text": "Thanks for telling us early. I will loop in the platform team this morning." },
+      { "speaker": "Mai (Frontend Developer)", "voice": "female", "text": "There are no updates from me because I was on leave yesterday." },
+      { "speaker": "Mai (Frontend Developer)", "voice": "female", "text": "Today I will fix two small labels. That is an easy quick win." },
+      { "speaker": "Khoa (QA Engineer)", "voice": "male", "text": "Tuan, can we discuss the database design for the report screen now?" },
+      { "speaker": "Tuan (Scrum Master)", "voice": "male", "text": "Let's take it offline and talk at ten so the others can start working." }
+    ],
+    "questions": [
+      {
+        "q": "What does Linh promise to do after the standup?",
+        "options": ["Move the card to the review column", "Restart the test server", "Write the demo script"],
+        "answer": 0
+      },
+      {
+        "q": "Why does Khoa raise a blocker?",
+        "options": ["His laptop is broken", "The test server has been down since last night", "He has too many tickets"],
+        "answer": 1
+      },
+      {
+        "q": "What does Tuan suggest about the database question?",
+        "options": ["Send it to the client", "Skip it completely", "Take it offline and talk at ten"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Let's go around the room quickly so everyone can share today's main task.",
+    "I finished my ticket yesterday, so there are no updates from me today.",
+    "Can we take it offline and discuss the database details after this meeting?",
+    "I want to raise a blocker about the test server being down again.",
+    "Please loop me in if the client changes the sprint goal this week."
+  ]
+}
