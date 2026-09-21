@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-22",
+  "track": "office",
+  "theme": "Báo cáo với sếp",
+  "vocab": [
+    {
+      "word": "status report",
+      "ipa": "/ˈsteɪtəs rɪˈpɔːt/",
+      "meaning_vi": "báo cáo tình hình công việc",
+      "example": "I send a short status report to my manager every Monday morning.",
+      "example_vi": "Tôi gửi một báo cáo tình hình ngắn cho quản lý vào sáng thứ Hai hàng tuần."
+    },
+    {
+      "word": "in a nutshell",
+      "ipa": "/ɪn ə ˈnʌtʃel/",
+      "meaning_vi": "nói ngắn gọn lại, tóm lại",
+      "example": "In a nutshell, the project is fine but we need one more week.",
+      "example_vi": "Tóm lại, dự án vẫn ổn nhưng chúng ta cần thêm một tuần nữa."
+    },
+    {
+      "word": "drill down",
+      "ipa": "/drɪl daʊn/",
+      "meaning_vi": "đi sâu vào chi tiết của một vấn đề",
+      "example": "Can we drill down into the cost of the two biggest tasks?",
+      "example_vi": "Chúng ta có thể đi sâu vào chi phí của hai đầu việc lớn nhất không?"
+    },
+    {
+      "word": "top priority",
+      "ipa": "/tɒp praɪˈɒrəti/",
+      "meaning_vi": "việc được ưu tiên cao nhất",
+      "example": "The customer report is our top priority until the end of this week.",
+      "example_vi": "Báo cáo cho khách hàng là việc ưu tiên cao nhất của chúng ta đến hết tuần này."
+    },
+    {
+      "word": "flag a risk",
+      "ipa": "/flæɡ ə rɪsk/",
+      "meaning_vi": "nêu ra một rủi ro để mọi người chú ý",
+      "example": "I want to flag a risk about the contract before we sign it.",
+      "example_vi": "Tôi muốn nêu ra một rủi ro về hợp đồng trước khi chúng ta ký."
+    },
+    {
+      "word": "heads-up",
+      "ipa": "/ˈhedz ʌp/",
+      "meaning_vi": "lời báo trước cho ai đó biết",
+      "example": "Thanks for the heads-up about the meeting change this afternoon.",
+      "example_vi": "Cảm ơn bạn đã báo trước về việc đổi giờ họp chiều nay."
+    },
+    {
+      "word": "reprioritise",
+      "ipa": "/ˌriːpraɪˈɒrətaɪz/",
+      "meaning_vi": "sắp xếp lại thứ tự ưu tiên công việc",
+      "example": "We should reprioritise our tasks because the client changed the deadline.",
+      "example_vi": "Chúng ta nên sắp xếp lại thứ tự ưu tiên vì khách hàng đã đổi hạn chót."
+    },
+    {
+      "word": "weekly recap",
+      "ipa": "/ˈwiːkli ˈriːkæp/",
+      "meaning_vi": "bản tóm tắt công việc hàng tuần",
+      "example": "Please add those two points to the weekly recap you send on Friday.",
+      "example_vi": "Hãy thêm hai điểm đó vào bản tóm tắt hàng tuần bạn gửi vào thứ Sáu."
+    }
+  ],
+  "listening": {
+    "title": "Monday report with the department manager",
+    "lines": [
+      { "speaker": "Long (Department Manager)", "voice": "male", "text": "Hoa, thank you for sending your status report before the meeting this morning." },
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "You are welcome. In a nutshell, two projects are fine and one is late." },
+      { "speaker": "Long (Department Manager)", "voice": "male", "text": "Which one is late? I would like to drill down into that project." },
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "The website project. The design team sent us the files five days late." },
+      { "speaker": "Long (Department Manager)", "voice": "male", "text": "I see. Do we need to reprioritise the work for next week?" },
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "Yes. I think the website should be our top priority until Friday." },
+      { "speaker": "Mai (Project Coordinator)", "voice": "female", "text": "I also want to flag a risk about the server contract." },
+      { "speaker": "Long (Department Manager)", "voice": "male", "text": "Thanks for the heads-up, Mai. When does that contract finish?" },
+      { "speaker": "Mai (Project Coordinator)", "voice": "female", "text": "At the end of October, so we should talk to the vendor soon." },
+      { "speaker": "Long (Department Manager)", "voice": "male", "text": "Good. Please add both points to the weekly recap you send on Friday." }
+    ],
+    "questions": [
+      {
+        "q": "Why is the website project late?",
+        "options": ["The design files arrived five days late", "The budget was cut", "Two staff members resigned"],
+        "answer": 0
+      },
+      {
+        "q": "What does Hoa suggest for next week?",
+        "options": ["Cancel the website project", "Make the website the top priority", "Hire a new designer"],
+        "answer": 1
+      },
+      {
+        "q": "What risk does Mai flag?",
+        "options": ["The office is moving", "The printer is broken", "The server contract is ending"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "In a nutshell, two projects are on schedule and one needs more time.",
+    "I sent you the status report this morning, before our weekly team meeting.",
+    "Thanks for the heads-up, I will tell the whole team about it today.",
+    "Can we drill down into the numbers for the last two weeks?",
+    "I want to flag a risk before we decide the final launch date."
+  ]
+}

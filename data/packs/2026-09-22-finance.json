@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-22",
+  "track": "finance",
+  "theme": "Làm việc với kiểm toán",
+  "vocab": [
+    {
+      "word": "external auditor",
+      "ipa": "/ɪkˈstɜːnl ˈɔːdɪtə/",
+      "meaning_vi": "kiểm toán viên độc lập từ bên ngoài công ty",
+      "example": "The external auditor will visit our office for two weeks in March.",
+      "example_vi": "Kiểm toán viên độc lập sẽ đến văn phòng chúng ta trong hai tuần vào tháng Ba."
+    },
+    {
+      "word": "audit period",
+      "ipa": "/ˈɔːdɪt ˈpɪəriəd/",
+      "meaning_vi": "kỳ số liệu được kiểm toán",
+      "example": "The audit period this year runs from January to December.",
+      "example_vi": "Kỳ kiểm toán năm nay kéo dài từ tháng Một đến tháng Mười hai."
+    },
+    {
+      "word": "sample selection",
+      "ipa": "/ˈsɑːmpl sɪˈlekʃn/",
+      "meaning_vi": "danh sách mẫu được chọn ra để kiểm tra",
+      "example": "They sent us the sample selection of fifty invoices this morning.",
+      "example_vi": "Họ đã gửi cho chúng ta danh sách mẫu gồm năm mươi hoá đơn sáng nay."
+    },
+    {
+      "word": "test of control",
+      "ipa": "/test əv kənˈtrəʊl/",
+      "meaning_vi": "việc kiểm tra xem chốt kiểm soát có hoạt động không",
+      "example": "The team will run a test of control on our payment approval steps.",
+      "example_vi": "Nhóm sẽ kiểm tra chốt kiểm soát trên các bước phê duyệt thanh toán của chúng ta."
+    },
+    {
+      "word": "segregation of duties",
+      "ipa": "/ˌseɡrɪˈɡeɪʃn əv ˈdjuːtiz/",
+      "meaning_vi": "phân tách nhiệm vụ giữa các người khác nhau",
+      "example": "Segregation of duties means one person approves and another person pays.",
+      "example_vi": "Phân tách nhiệm vụ nghĩa là một người phê duyệt và một người khác chi tiền."
+    },
+    {
+      "word": "misstatement",
+      "ipa": "/mɪsˈsteɪtmənt/",
+      "meaning_vi": "sai sót trong số liệu trên báo cáo tài chính",
+      "example": "The auditors found one small misstatement in the inventory figures.",
+      "example_vi": "Kiểm toán viên đã tìm thấy một sai sót nhỏ trong số liệu hàng tồn kho."
+    },
+    {
+      "word": "audit adjustment",
+      "ipa": "/ˈɔːdɪt əˈdʒʌstmənt/",
+      "meaning_vi": "bút toán điều chỉnh theo yêu cầu của kiểm toán",
+      "example": "We booked the audit adjustment before closing the accounts last Friday.",
+      "example_vi": "Chúng tôi đã hạch toán bút toán điều chỉnh trước khi khoá sổ thứ Sáu tuần trước."
+    },
+    {
+      "word": "unqualified opinion",
+      "ipa": "/ʌnˈkwɒlɪfaɪd əˈpɪnjən/",
+      "meaning_vi": "ý kiến kiểm toán chấp nhận toàn phần",
+      "example": "Our company received an unqualified opinion for the third year running.",
+      "example_vi": "Công ty chúng tôi nhận ý kiến chấp nhận toàn phần năm thứ ba liên tiếp."
+    }
+  ],
+  "listening": {
+    "title": "First meeting with the external auditors",
+    "lines": [
+      { "speaker": "Khoa (Audit Manager)", "voice": "male", "text": "Good morning, Hoa. Our team will start work at your office next Monday." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Welcome. Which audit period are you covering this time?" },
+      { "speaker": "Khoa (Audit Manager)", "voice": "male", "text": "From January to December last year, the same as the previous audit." },
+      { "speaker": "Trang (Audit Senior)", "voice": "female", "text": "I will send you our sample selection for sales invoices tomorrow morning." },
+      { "speaker": "Minh (Accountant)", "voice": "male", "text": "How many invoices will you check? Last year it was about forty." },
+      { "speaker": "Trang (Audit Senior)", "voice": "female", "text": "Around fifty this year. We will also run a test of control on payments." },
+      { "speaker": "Khoa (Audit Manager)", "voice": "male", "text": "We want to see the segregation of duties between approval and payment." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "That is clear. Two different people handle those steps in our system." },
+      { "speaker": "Minh (Accountant)", "voice": "male", "text": "If you find a misstatement, when will you tell us about it?" },
+      { "speaker": "Khoa (Audit Manager)", "voice": "male", "text": "Quickly. Then you can book the audit adjustment and still get an unqualified opinion." }
+    ],
+    "questions": [
+      {
+        "q": "What audit period will the team cover?",
+        "options": ["January to December last year", "Only the last quarter", "The first half of this year"],
+        "answer": 0
+      },
+      {
+        "q": "What will Trang send tomorrow morning?",
+        "options": ["The final audit report", "The sample selection for sales invoices", "A new payment policy"],
+        "answer": 1
+      },
+      {
+        "q": "Why will Khoa report problems quickly?",
+        "options": ["To finish the audit earlier", "To reduce the audit fee", "So the company can book adjustments in time"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "The external auditor will start work at our office early next Monday.",
+    "Could you send me the sample selection before our meeting on Friday?",
+    "We booked the audit adjustment, so the final numbers are correct now.",
+    "Two different people approve and pay, so segregation of duties is clear.",
+    "If we fix every misstatement, we should receive an unqualified opinion this year."
+  ]
+}

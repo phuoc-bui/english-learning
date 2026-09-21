@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-22",
+  "track": "interview",
+  "theme": "Xử lý xung đột trong nhóm",
+  "vocab": [
+    {
+      "word": "hear someone out",
+      "ipa": "/hɪə ˈsʌmwʌn aʊt/",
+      "meaning_vi": "lắng nghe ai đó nói hết ý của họ",
+      "example": "When my teammate is upset, I always hear them out before replying.",
+      "example_vi": "Khi đồng đội của tôi khó chịu, tôi luôn nghe họ nói hết trước khi trả lời."
+    },
+    {
+      "word": "personality clash",
+      "ipa": "/ˌpɜːsəˈnæləti klæʃ/",
+      "meaning_vi": "sự xung khắc về tính cách giữa hai người",
+      "example": "It was partly a personality clash, not a problem with the work itself.",
+      "example_vi": "Đó một phần là xung khắc tính cách, không phải vấn đề của công việc."
+    },
+    {
+      "word": "step back",
+      "ipa": "/step bæk/",
+      "meaning_vi": "lùi lại một bước để nhìn vấn đề bình tĩnh hơn",
+      "example": "I decided to step back and look at the situation more calmly.",
+      "example_vi": "Tôi quyết định lùi lại một bước và nhìn tình huống một cách bình tĩnh hơn."
+    },
+    {
+      "word": "empathy",
+      "ipa": "/ˈempəθi/",
+      "meaning_vi": "sự thấu cảm, hiểu cảm xúc của người khác",
+      "example": "Empathy helps me understand why my colleague felt worried about the change.",
+      "example_vi": "Sự thấu cảm giúp tôi hiểu vì sao đồng nghiệp lo lắng về sự thay đổi đó."
+    },
+    {
+      "word": "ground rules",
+      "ipa": "/ɡraʊnd ruːlz/",
+      "meaning_vi": "những quy tắc cơ bản đặt ra từ đầu buổi nói chuyện",
+      "example": "We agreed on simple ground rules before we started the difficult conversation.",
+      "example_vi": "Chúng tôi thống nhất vài quy tắc cơ bản trước khi bắt đầu cuộc nói chuyện khó."
+    },
+    {
+      "word": "focus on facts",
+      "ipa": "/ˈfəʊkəs ɒn fækts/",
+      "meaning_vi": "tập trung vào dữ kiện thay vì cảm tính",
+      "example": "I focus on facts and data instead of blaming any single person.",
+      "example_vi": "Tôi tập trung vào dữ kiện và số liệu thay vì đổ lỗi cho một cá nhân nào."
+    },
+    {
+      "word": "stay professional",
+      "ipa": "/steɪ prəˈfeʃənl/",
+      "meaning_vi": "giữ thái độ chuyên nghiệp dù đang bất đồng",
+      "example": "Even when I disagree strongly, I try to stay professional in meetings.",
+      "example_vi": "Ngay cả khi phản đối mạnh mẽ, tôi vẫn cố giữ thái độ chuyên nghiệp trong họp."
+    },
+    {
+      "word": "agree to disagree",
+      "ipa": "/əˈɡriː tə ˌdɪsəˈɡriː/",
+      "meaning_vi": "chấp nhận hai bên có quan điểm khác nhau",
+      "example": "On small details we agreed to disagree and moved on with the plan.",
+      "example_vi": "Ở những chi tiết nhỏ, chúng tôi chấp nhận khác quan điểm và tiếp tục kế hoạch."
+    }
+  ],
+  "listening": {
+    "title": "Interview question about team conflict",
+    "lines": [
+      { "speaker": "Lan (Hiring Manager)", "voice": "female", "text": "Nam, can you tell me about a conflict you had inside your team?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Yes. Last year a designer and I disagreed about a screen layout." },
+      { "speaker": "Lan (Hiring Manager)", "voice": "female", "text": "What was the real problem? Was it the design or something else?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Partly a personality clash, but mostly we had different information about our users." },
+      { "speaker": "Lan (Hiring Manager)", "voice": "female", "text": "How did you handle it at that moment?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I asked for a short meeting and decided to hear her out first." },
+      { "speaker": "Lan (Hiring Manager)", "voice": "female", "text": "That sounds calm. Why did you choose to listen before speaking?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Empathy helps. I wanted to step back and understand her real worry." },
+      { "speaker": "Lan (Hiring Manager)", "voice": "female", "text": "Did you set any rules for that conversation?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "Yes. We agreed on simple ground rules: focus on facts and stay professional." },
+      { "speaker": "Lan (Hiring Manager)", "voice": "female", "text": "And what was the result in the end?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "We followed the user data, and on small details we agreed to disagree." }
+    ],
+    "questions": [
+      {
+        "q": "What was the conflict about?",
+        "options": ["A screen layout", "A salary decision", "A holiday schedule"],
+        "answer": 0
+      },
+      {
+        "q": "What did Nam do first in the short meeting?",
+        "options": ["He explained his own design", "He heard the designer out", "He called the manager"],
+        "answer": 1
+      },
+      {
+        "q": "Which ground rules did they agree on?",
+        "options": ["Speak only in English", "Finish in ten minutes", "Focus on facts and stay professional"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "When a teammate disagrees, I always hear them out before giving my opinion.",
+    "We set clear ground rules, so the discussion stayed calm and very professional.",
+    "It was a personality clash, so I chose to step back and listen.",
+    "I focus on facts and user data instead of blaming any single person.",
+    "In the end we agreed to disagree, and the project still finished on time."
+  ]
+}

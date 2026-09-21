@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-22",
+  "track": "sales",
+  "theme": "Đàm phán giá & điều khoản",
+  "vocab": [
+    {
+      "word": "budget cap",
+      "ipa": "/ˈbʌdʒɪt kæp/",
+      "meaning_vi": "mức trần ngân sách khách hàng được phép chi",
+      "example": "Your quote is good, but it is above our budget cap this year.",
+      "example_vi": "Báo giá của bạn tốt, nhưng nó vượt mức trần ngân sách của chúng tôi năm nay."
+    },
+    {
+      "word": "leeway",
+      "ipa": "/ˈliːweɪ/",
+      "meaning_vi": "khoảng linh hoạt, dư địa để thương lượng",
+      "example": "I have some leeway on the price, but not on the delivery date.",
+      "example_vi": "Tôi có chút linh hoạt về giá, nhưng không linh hoạt về ngày giao hàng."
+    },
+    {
+      "word": "give and take",
+      "ipa": "/ɡɪv ənd teɪk/",
+      "meaning_vi": "sự nhân nhượng qua lại giữa hai bên",
+      "example": "A long contract always needs give and take from both companies.",
+      "example_vi": "Một hợp đồng dài hạn luôn cần sự nhân nhượng qua lại từ cả hai công ty."
+    },
+    {
+      "word": "annual commitment",
+      "ipa": "/ˈænjuəl kəˈmɪtmənt/",
+      "meaning_vi": "cam kết sử dụng dịch vụ trọn một năm",
+      "example": "We can lower the price if you make an annual commitment.",
+      "example_vi": "Chúng tôi có thể giảm giá nếu bạn cam kết sử dụng trọn một năm."
+    },
+    {
+      "word": "net 30",
+      "ipa": "/net ˈθɜːti/",
+      "meaning_vi": "thanh toán trong vòng 30 ngày kể từ ngày hoá đơn",
+      "example": "Our standard payment term is net 30 for all new customers.",
+      "example_vi": "Điều khoản thanh toán tiêu chuẩn của chúng tôi là 30 ngày cho mọi khách hàng mới."
+    },
+    {
+      "word": "early payment discount",
+      "ipa": "/ˈɜːli ˈpeɪmənt ˈdɪskaʊnt/",
+      "meaning_vi": "chiết khấu khi khách thanh toán sớm",
+      "example": "We offer an early payment discount of two percent within ten days.",
+      "example_vi": "Chúng tôi có chiết khấu hai phần trăm nếu thanh toán trong vòng mười ngày."
+    },
+    {
+      "word": "cap the cost",
+      "ipa": "/kæp ðə kɒst/",
+      "meaning_vi": "giới hạn chi phí không tăng quá một mức",
+      "example": "We can cap the cost for two years so your budget stays safe.",
+      "example_vi": "Chúng tôi có thể giới hạn chi phí trong hai năm để ngân sách của bạn an toàn."
+    },
+    {
+      "word": "shake hands on",
+      "ipa": "/ʃeɪk hændz ɒn/",
+      "meaning_vi": "thống nhất, chốt một thoả thuận",
+      "example": "I think we can shake hands on this and start the paperwork.",
+      "example_vi": "Tôi nghĩ chúng ta có thể chốt thoả thuận này và bắt đầu làm giấy tờ."
+    }
+  ],
+  "listening": {
+    "title": "Negotiating the software price with a new client",
+    "lines": [
+      { "speaker": "Hung (Procurement Manager)", "voice": "male", "text": "Linh, your quote is strong, but it sits above our budget cap this year." },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "I understand. How far above the cap are we talking about?" },
+      { "speaker": "Hung (Procurement Manager)", "voice": "male", "text": "About fifteen percent. We have very little leeway from our finance team." },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "Negotiation is always give and take. Could you sign an annual commitment?" },
+      { "speaker": "Hung (Procurement Manager)", "voice": "male", "text": "Maybe. What would we get if we signed for a full year?" },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "A ten percent lower price, and we can cap the cost for two years." },
+      { "speaker": "Hung (Procurement Manager)", "voice": "male", "text": "That helps a lot. Our payment term is net 30, is that acceptable?" },
+      { "speaker": "Linh (Account Manager)", "voice": "female", "text": "Yes, and we add an early payment discount if you pay within ten days." },
+      { "speaker": "Nam (Sales Director)", "voice": "male", "text": "We can also include two training days at no extra charge." },
+      { "speaker": "Hung (Procurement Manager)", "voice": "male", "text": "Then I believe we can shake hands on this and start the paperwork." }
+    ],
+    "questions": [
+      {
+        "q": "Why is the quote a problem for Hung?",
+        "options": ["It is above their budget cap", "The delivery date is too late", "The product has no support"],
+        "answer": 0
+      },
+      {
+        "q": "What does Linh offer for an annual commitment?",
+        "options": ["A free extra licence", "A ten percent lower price", "Six months of free service"],
+        "answer": 1
+      },
+      {
+        "q": "What does Nam add to the deal?",
+        "options": ["A longer warranty", "Free delivery", "Two free training days"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Your quote is a little above our budget cap for this quarter.",
+    "Do we have any leeway on the price if we sign today?",
+    "A good deal always needs some give and take from both sides.",
+    "We can offer an early payment discount if you pay within ten days.",
+    "If you accept an annual commitment, we can cap the cost for you."
+  ]
+}

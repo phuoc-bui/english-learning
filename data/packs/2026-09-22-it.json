@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-22",
+  "track": "it",
+  "theme": "Code review & pull requests",
+  "vocab": [
+    {
+      "word": "nit",
+      "ipa": "/nɪt/",
+      "meaning_vi": "góp ý rất nhỏ, không bắt buộc phải sửa",
+      "example": "This is only a nit, but the spacing here looks a bit strange.",
+      "example_vi": "Đây chỉ là một góp ý nhỏ thôi, nhưng khoảng cách ở đây trông hơi lạ."
+    },
+    {
+      "word": "leave a comment",
+      "ipa": "/liːv ə ˈkɒment/",
+      "meaning_vi": "để lại nhận xét trên pull request",
+      "example": "I will leave a comment on the function so you know what to change.",
+      "example_vi": "Tôi sẽ để lại nhận xét trên hàm đó để bạn biết cần sửa gì."
+    },
+    {
+      "word": "good catch",
+      "ipa": "/ɡʊd kætʃ/",
+      "meaning_vi": "phát hiện hay (khen người tìm ra lỗi)",
+      "example": "Good catch, I did not see that the list can be empty.",
+      "example_vi": "Phát hiện hay đấy, tôi đã không thấy là danh sách có thể rỗng."
+    },
+    {
+      "word": "magic number",
+      "ipa": "/ˈmædʒɪk ˈnʌmbə/",
+      "meaning_vi": "con số viết thẳng trong code mà không giải thích",
+      "example": "Please replace this magic number with a constant that has a clear name.",
+      "example_vi": "Hãy thay con số viết thẳng này bằng một hằng số có tên rõ ràng."
+    },
+    {
+      "word": "hard-code",
+      "ipa": "/ˈhɑːd kəʊd/",
+      "meaning_vi": "viết cứng một giá trị vào trong code",
+      "example": "Do not hard-code the server address; read it from the config file.",
+      "example_vi": "Đừng viết cứng địa chỉ máy chủ; hãy đọc nó từ tệp cấu hình."
+    },
+    {
+      "word": "squash the commits",
+      "ipa": "/skwɒʃ ðə kəˈmɪts/",
+      "meaning_vi": "gộp nhiều commit nhỏ thành một commit",
+      "example": "Please squash the commits before merging so the history stays easy to read.",
+      "example_vi": "Hãy gộp các commit lại trước khi hợp nhất để lịch sử dễ đọc hơn."
+    },
+    {
+      "word": "second pair of eyes",
+      "ipa": "/ˈsekənd peə əv aɪz/",
+      "meaning_vi": "người thứ hai xem lại giúp cho chắc chắn",
+      "example": "This payment logic is risky, so I want a second pair of eyes.",
+      "example_vi": "Phần xử lý thanh toán này rủi ro, nên tôi muốn có người thứ hai xem lại."
+    },
+    {
+      "word": "follow-up ticket",
+      "ipa": "/ˈfɒləʊ ʌp ˈtɪkɪt/",
+      "meaning_vi": "phiếu công việc tạo thêm để xử lý sau",
+      "example": "That improvement is too big for today, so I created a follow-up ticket.",
+      "example_vi": "Cải tiến đó quá lớn cho hôm nay, nên tôi đã tạo một phiếu công việc xử lý sau."
+    }
+  ],
+  "listening": {
+    "title": "Reviewing Linh's pull request before lunch",
+    "lines": [
+      { "speaker": "Nam (Senior Developer)", "voice": "male", "text": "Linh, I finished reviewing your pull request this morning. Overall it looks quite clean." },
+      { "speaker": "Linh (Backend Developer)", "voice": "female", "text": "Thank you, Nam. Did you leave a comment on the payment function?" },
+      { "speaker": "Nam (Senior Developer)", "voice": "male", "text": "Yes, I did. There is a magic number forty inside the retry logic." },
+      { "speaker": "Linh (Backend Developer)", "voice": "female", "text": "Good catch. I will move it into a constant with a clear name." },
+      { "speaker": "Nam (Senior Developer)", "voice": "male", "text": "I also saw a hard-code for the staging address. Please read it from config." },
+      { "speaker": "Linh (Backend Developer)", "voice": "female", "text": "You are right. I will fix both things before the end of today." },
+      { "speaker": "Hoa (Tech Lead)", "voice": "female", "text": "Can I be a second pair of eyes? This payment code is risky." },
+      { "speaker": "Nam (Senior Developer)", "voice": "male", "text": "Please do. I only left one nit about spacing, nothing serious at all." },
+      { "speaker": "Hoa (Tech Lead)", "voice": "female", "text": "Fine. Linh, please squash the commits so our history stays simple." },
+      { "speaker": "Linh (Backend Developer)", "voice": "female", "text": "Sure. The bigger clean-up can go into a follow-up ticket next sprint." }
+    ],
+    "questions": [
+      {
+        "q": "What problem did Nam find in the retry logic?",
+        "options": ["A magic number forty", "A missing test file", "A wrong variable type"],
+        "answer": 0
+      },
+      {
+        "q": "Why does Hoa want to review the code as well?",
+        "options": ["She wrote the first version", "The payment code is risky", "Nam is on leave tomorrow"],
+        "answer": 1
+      },
+      {
+        "q": "What will Linh do with the bigger clean-up?",
+        "options": ["Add it to this pull request", "Cancel it completely", "Put it in a follow-up ticket"],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you leave a comment on the pull request so I understand it better?",
+    "Good catch, I will replace that magic number with a named constant today.",
+    "Please squash the commits before you merge so our history stays clean.",
+    "I would like a second pair of eyes on this risky payment change.",
+    "That idea is too big for now, so let's open a follow-up ticket."
+  ]
+}
