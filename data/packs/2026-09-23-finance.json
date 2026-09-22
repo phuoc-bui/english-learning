@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-23",
+  "track": "finance",
+  "theme": "Expense claim & hoàn ứng",
+  "vocab": [
+    {
+      "word": "reimbursement request",
+      "ipa": "/ˌriːɪmˈbɜːsmənt rɪˈkwest/",
+      "meaning_vi": "đề nghị hoàn lại tiền đã chi",
+      "example": "Your reimbursement request is missing the hotel invoice from Tuesday night.",
+      "example_vi": "Đề nghị hoàn tiền của anh còn thiếu hoá đơn khách sạn tối thứ Ba."
+    },
+    {
+      "word": "company card",
+      "ipa": "/ˈkʌmpəni kɑːd/",
+      "meaning_vi": "thẻ thanh toán của công ty",
+      "example": "If you pay with the company card, you do not need a reimbursement request.",
+      "example_vi": "Nếu anh thanh toán bằng thẻ công ty thì không cần làm đề nghị hoàn tiền."
+    },
+    {
+      "word": "itemised list",
+      "ipa": "/ˈaɪtəmaɪzd lɪst/",
+      "meaning_vi": "danh sách liệt kê chi tiết từng khoản",
+      "example": "Please send me an itemised list of every taxi and meal on the trip.",
+      "example_vi": "Hãy gửi tôi danh sách chi tiết từng chuyến taxi và bữa ăn trong chuyến đi."
+    },
+    {
+      "word": "hotel bill",
+      "ipa": "/həʊˈtel bɪl/",
+      "meaning_vi": "hoá đơn khách sạn",
+      "example": "The hotel bill must show the company name, not only your own name.",
+      "example_vi": "Hoá đơn khách sạn phải ghi tên công ty, không chỉ tên cá nhân anh."
+    },
+    {
+      "word": "scan the invoice",
+      "ipa": "/skæn ðə ˈɪnvɔɪs/",
+      "meaning_vi": "quét hoá đơn thành file để nộp",
+      "example": "Scan the invoice with your phone and upload it to the finance system.",
+      "example_vi": "Hãy quét hoá đơn bằng điện thoại và tải lên hệ thống tài chính."
+    },
+    {
+      "word": "flag an error",
+      "ipa": "/flæɡ ən ˈerə/",
+      "meaning_vi": "chỉ ra một lỗi để người khác sửa",
+      "example": "The system will flag an error if the amount does not match the receipt.",
+      "example_vi": "Hệ thống sẽ báo lỗi nếu số tiền không khớp với biên lai."
+    },
+    {
+      "word": "within the budget",
+      "ipa": "/wɪˈðɪn ðə ˈbʌdʒɪt/",
+      "meaning_vi": "nằm trong mức ngân sách cho phép",
+      "example": "Your trip cost stayed within the budget we agreed last month.",
+      "example_vi": "Chi phí chuyến đi của anh vẫn nằm trong ngân sách đã thống nhất tháng trước."
+    },
+    {
+      "word": "clear the balance",
+      "ipa": "/klɪə ðə ˈbæləns/",
+      "meaning_vi": "thanh toán hết phần tiền còn lại",
+      "example": "We will clear the balance with your October salary payment.",
+      "example_vi": "Chúng tôi sẽ thanh toán nốt phần còn lại cùng kỳ lương tháng Mười."
+    }
+  ],
+  "listening": {
+    "title": "Sorting out a business trip expense claim",
+    "lines": [
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "Hi Duc, I am looking at your reimbursement request for the Da Nang trip."
+      },
+      {
+        "speaker": "Duc (Project Engineer)",
+        "voice": "male",
+        "text": "Yes, I sent it on Monday. Is something wrong with the amount?"
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "The system will flag an error because the total does not match your documents."
+      },
+      {
+        "speaker": "Duc (Project Engineer)",
+        "voice": "male",
+        "text": "That is strange. I added the flight, the taxis and two nights at the hotel."
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "I can see the flight, but the hotel bill is missing from the system."
+      },
+      {
+        "speaker": "Duc (Project Engineer)",
+        "voice": "male",
+        "text": "Sorry about that. The paper copy is still sitting on my desk."
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "Please scan the invoice today and check that it shows our company name."
+      },
+      {
+        "speaker": "Duc (Project Engineer)",
+        "voice": "male",
+        "text": "It does. I will also prepare an itemised list of the taxis and meals."
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "That helps a lot when the auditor asks questions about the trip next quarter."
+      },
+      {
+        "speaker": "Duc (Project Engineer)",
+        "voice": "male",
+        "text": "Thanks. By the way, I paid the flight with the company card."
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "Then I will remove it. The trip stays within the budget, so we clear the balance in October."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why does the system flag an error?",
+        "options": [
+          "The total does not match the documents",
+          "Duc travelled without approval",
+          "The hotel was too expensive"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Which document is missing from the claim?",
+        "options": [
+          "The flight ticket",
+          "The hotel bill",
+          "The taxi receipt"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why will Hoa remove the flight from Duc's claim?",
+        "options": [
+          "Because Duc paid with the company card",
+          "Because the flight was cancelled",
+          "Because the price was over the budget"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I am checking your reimbursement request for the business trip to Da Nang.",
+    "Please scan the invoice today and make sure it shows our company name.",
+    "Could you prepare an itemised list of the taxis and meals as well?",
+    "I paid the flight with the company card, so please remove it here.",
+    "If the document arrives today, we can clear the balance with October salary."
+  ]
+}

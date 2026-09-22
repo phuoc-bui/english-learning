@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-23",
+  "track": "sales",
+  "theme": "Email follow-up sau gặp khách",
+  "vocab": [
+    {
+      "word": "follow-up email",
+      "ipa": "/ˈfɒləʊ ʌp ˈiːmeɪl/",
+      "meaning_vi": "email gửi sau buổi gặp để tiếp tục câu chuyện",
+      "example": "I always send a follow-up email within one day of meeting a client.",
+      "example_vi": "Tôi luôn gửi email tiếp nối trong vòng một ngày sau khi gặp khách."
+    },
+    {
+      "word": "thank-you email",
+      "ipa": "/ˈθæŋk juː ˈiːmeɪl/",
+      "meaning_vi": "email cảm ơn khách đã dành thời gian",
+      "example": "A short thank-you email makes the customer feel respected after a long meeting.",
+      "example_vi": "Một email cảm ơn ngắn khiến khách thấy được tôn trọng sau buổi họp dài."
+    },
+    {
+      "word": "recap of our meeting",
+      "ipa": "/ˈriːkæp əv ˈaʊə ˈmiːtɪŋ/",
+      "meaning_vi": "phần tóm tắt lại nội dung cuộc gặp",
+      "example": "The first paragraph is a short recap of our meeting on Tuesday.",
+      "example_vi": "Đoạn đầu tiên là phần tóm tắt ngắn về cuộc gặp hôm thứ Ba."
+    },
+    {
+      "word": "action items from the call",
+      "ipa": "/ˈækʃn ˈaɪtəmz frəm ðə kɔːl/",
+      "meaning_vi": "các việc cần làm được chốt trong cuộc gọi",
+      "example": "I list the action items from the call so nobody forgets their part.",
+      "example_vi": "Tôi liệt kê các việc cần làm từ cuộc gọi để không ai quên phần của mình."
+    },
+    {
+      "word": "attach the deck",
+      "ipa": "/əˈtætʃ ðə dek/",
+      "meaning_vi": "đính kèm bộ slide giới thiệu",
+      "example": "Please attach the deck we showed them and the updated price list.",
+      "example_vi": "Hãy đính kèm bộ slide chúng ta đã trình bày và bảng giá mới."
+    },
+    {
+      "word": "confirm the details",
+      "ipa": "/kənˈfɜːm ðə ˈdiːteɪlz/",
+      "meaning_vi": "xác nhận lại các thông tin đã trao đổi",
+      "example": "Ask the customer to confirm the details before we prepare the contract.",
+      "example_vi": "Hãy đề nghị khách xác nhận lại thông tin trước khi chúng ta soạn hợp đồng."
+    },
+    {
+      "word": "in the meantime",
+      "ipa": "/ɪn ðə ˈmiːntaɪm/",
+      "meaning_vi": "trong lúc chờ đợi điều gì đó",
+      "example": "In the meantime, I will prepare a demo account for your team.",
+      "example_vi": "Trong lúc chờ, tôi sẽ chuẩn bị một tài khoản dùng thử cho đội của anh."
+    },
+    {
+      "word": "looking forward to hearing from you",
+      "ipa": "/ˈlʊkɪŋ ˈfɔːwəd tə ˈhɪərɪŋ frəm juː/",
+      "meaning_vi": "mong sớm nhận được phản hồi từ bạn",
+      "example": "I end the email with \"looking forward to hearing from you\" and my phone number.",
+      "example_vi": "Tôi kết thúc email bằng câu mong sớm nhận phản hồi và số điện thoại của mình."
+    }
+  ],
+  "listening": {
+    "title": "Writing the follow-up email after a client meeting",
+    "lines": [
+      { "speaker": "Hang (Sales Manager)", "voice": "female", "text": "Nam, how did the meeting with Sunrise Logistics go yesterday afternoon?" },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Quite well. They liked the reporting feature, so I am writing the follow-up email now." },
+      { "speaker": "Hang (Sales Manager)", "voice": "female", "text": "Good. Start with a short thank-you email; they gave you almost two hours." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "I have done that. Then I wrote a recap of our meeting in four lines." },
+      { "speaker": "Hang (Sales Manager)", "voice": "female", "text": "Did you also list the action items from the call?" },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Yes. They send us their driver data, and we send a price for fifty users." },
+      { "speaker": "Hang (Sales Manager)", "voice": "female", "text": "Please attach the deck as well, because their finance director was not in the room." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Good idea. Should I ask them to confirm the details about the number of users?" },
+      { "speaker": "Hang (Sales Manager)", "voice": "female", "text": "Definitely. One wrong number can delay the quotation by a whole week." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Understood. In the meantime, I will prepare a demo account for their operations team." },
+      { "speaker": "Hang (Sales Manager)", "voice": "female", "text": "Perfect. And close politely, something like looking forward to hearing from you." },
+      { "speaker": "Nam (Sales Executive)", "voice": "male", "text": "Will do. I will send it before lunch and copy you on the email." }
+    ],
+    "questions": [
+      {
+        "q": "What did the client like in the meeting?",
+        "options": ["The reporting feature", "The mobile application", "The training service"],
+        "answer": 0
+      },
+      {
+        "q": "Why does Hang want Nam to attach the deck?",
+        "options": ["Because the client lost the contract", "Because their finance director was not in the room", "Because the price changed"],
+        "answer": 1
+      },
+      {
+        "q": "What will Nam do while waiting for the client's reply?",
+        "options": ["Visit the client again", "Prepare a demo account for their operations team", "Call their finance director every day"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Thank you again for your time yesterday; here is a short recap of our meeting.",
+    "I have listed the action items from the call so nothing gets forgotten.",
+    "I attach the deck we presented, plus the updated price for fifty users.",
+    "Could you please confirm the details about the number of users this week?",
+    "In the meantime, I will prepare a demo account for your operations team."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-23",
+  "track": "it",
+  "theme": "Báo cáo tiến độ với sếp",
+  "vocab": [
+    {
+      "word": "roadblock",
+      "ipa": "/ˈrəʊdblɒk/",
+      "meaning_vi": "trở ngại lớn làm công việc không đi tiếp được",
+      "example": "We hit one roadblock this week, but the rest of the work is fine.",
+      "example_vi": "Tuần này chúng tôi gặp một trở ngại, nhưng phần việc còn lại vẫn ổn."
+    },
+    {
+      "word": "traffic light status",
+      "ipa": "/ˈtræfɪk laɪt ˈsteɪtəs/",
+      "meaning_vi": "cách báo trạng thái theo màu xanh, vàng, đỏ",
+      "example": "I use a traffic light status so my manager can see the risk quickly.",
+      "example_vi": "Tôi dùng cách báo trạng thái theo màu để sếp thấy rủi ro ngay."
+    },
+    {
+      "word": "dependency on another team",
+      "ipa": "/dɪˈpendənsi ɒn əˈnʌðə tiːm/",
+      "meaning_vi": "việc phải chờ nhóm khác mới làm tiếp được",
+      "example": "Our only risk is a dependency on another team for the payment API.",
+      "example_vi": "Rủi ro duy nhất của chúng tôi là phải chờ nhóm khác làm xong API thanh toán."
+    },
+    {
+      "word": "give you a heads-up",
+      "ipa": "/ɡɪv juː ə ˈhedz ʌp/",
+      "meaning_vi": "báo trước cho ai đó để họ không bất ngờ",
+      "example": "I want to give you a heads-up that testing may finish one day late.",
+      "example_vi": "Tôi muốn báo trước với anh rằng việc kiểm thử có thể xong trễ một ngày."
+    },
+    {
+      "word": "no surprises",
+      "ipa": "/nəʊ səˈpraɪzɪz/",
+      "meaning_vi": "không để xảy ra bất ngờ vào phút chót",
+      "example": "My manager asks for weekly updates because she wants no surprises at the end.",
+      "example_vi": "Sếp tôi yêu cầu báo cáo hằng tuần vì chị ấy không muốn bất ngờ vào phút chót."
+    },
+    {
+      "word": "pick up the pace",
+      "ipa": "/pɪk ʌp ðə peɪs/",
+      "meaning_vi": "tăng tốc độ làm việc",
+      "example": "Once the API is ready, the team can pick up the pace again.",
+      "example_vi": "Khi API sẵn sàng, cả nhóm có thể tăng tốc trở lại."
+    },
+    {
+      "word": "stretch goal",
+      "ipa": "/stretʃ ɡəʊl/",
+      "meaning_vi": "mục tiêu thêm, làm được thì tốt nhưng không bắt buộc",
+      "example": "The reporting screen is a stretch goal, not a promise for this sprint.",
+      "example_vi": "Màn hình báo cáo là mục tiêu thêm, không phải cam kết cho sprint này."
+    },
+    {
+      "word": "ramp up",
+      "ipa": "/ræmp ʌp/",
+      "meaning_vi": "dần quen việc và làm được nhiều hơn",
+      "example": "The two new testers need one week to ramp up on our project.",
+      "example_vi": "Hai bạn kiểm thử mới cần một tuần để quen việc trong dự án của chúng ta."
+    }
+  ],
+  "listening": {
+    "title": "Weekly progress update with the engineering manager",
+    "lines": [
+      { "speaker": "Hoa (Engineering Manager)", "voice": "female", "text": "Hi Minh, thanks for joining. Can you walk me through the booking module this week?" },
+      { "speaker": "Minh (Developer)", "voice": "male", "text": "Of course. Overall I would give the module a green traffic light status." },
+      { "speaker": "Hoa (Engineering Manager)", "voice": "female", "text": "Good to hear. Is there anything that could slow the team down this sprint?" },
+      { "speaker": "Minh (Developer)", "voice": "male", "text": "Yes, one roadblock. We have a dependency on another team for the payment API." },
+      { "speaker": "Hoa (Engineering Manager)", "voice": "female", "text": "How long has your team been waiting for that API?" },
+      { "speaker": "Minh (Developer)", "voice": "male", "text": "Three days now. I wanted to give you a heads-up before it touches the deadline." },
+      { "speaker": "Hoa (Engineering Manager)", "voice": "female", "text": "Thank you for telling me early. I really want no surprises at the end." },
+      { "speaker": "Minh (Developer)", "voice": "male", "text": "Agreed. If the API arrives on Monday, we can pick up the pace next week." },
+      { "speaker": "Hoa (Engineering Manager)", "voice": "female", "text": "And is the reporting screen still realistic before the demo?" },
+      { "speaker": "Minh (Developer)", "voice": "male", "text": "That one is a stretch goal. I will confirm after the two new testers ramp up." },
+      { "speaker": "Hoa (Engineering Manager)", "voice": "female", "text": "That sounds sensible. Please send me a short written summary after this call." },
+      { "speaker": "Minh (Developer)", "voice": "male", "text": "No problem. I will post the update in our team channel this afternoon." }
+    ],
+    "questions": [
+      {
+        "q": "What is the main roadblock for Minh's team?",
+        "options": ["A dependency on another team for the payment API", "A broken test server", "A missing designer"],
+        "answer": 0
+      },
+      {
+        "q": "Why does Minh report the delay early?",
+        "options": ["Because he wants a pay rise", "Because Hoa wants no surprises at the end", "Because the client asked him to"],
+        "answer": 1
+      },
+      {
+        "q": "What does Minh say about the reporting screen?",
+        "options": ["It is already finished", "It is a stretch goal, not a promise", "It has been cancelled"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "The booking module is on green, and I will send you a short summary.",
+    "We have one roadblock because we depend on another team for the payment API.",
+    "I wanted to give you a heads-up before this issue affects our sprint deadline.",
+    "If the API arrives on Monday, we can pick up the pace next week.",
+    "The reporting screen is a stretch goal, so I will confirm it on Friday."
+  ]
+}

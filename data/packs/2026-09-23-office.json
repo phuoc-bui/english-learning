@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-23",
+  "track": "office",
+  "theme": "Họp phòng ban",
+  "vocab": [
+    {
+      "word": "department meeting",
+      "ipa": "/dɪˈpɑːtmənt ˈmiːtɪŋ/",
+      "meaning_vi": "cuộc họp của cả phòng ban",
+      "example": "Our department meeting takes place every Wednesday morning at nine o'clock.",
+      "example_vi": "Cuộc họp phòng của chúng tôi diễn ra vào chín giờ sáng thứ Tư hằng tuần."
+    },
+    {
+      "word": "go around the room",
+      "ipa": "/ɡəʊ əˈraʊnd ðə ruːm/",
+      "meaning_vi": "lần lượt mời từng người phát biểu",
+      "example": "Let's go around the room so everyone can share one update.",
+      "example_vi": "Chúng ta hãy lần lượt để mỗi người chia sẻ một cập nhật."
+    },
+    {
+      "word": "cross-team update",
+      "ipa": "/krɒs tiːm ˈʌpdeɪt/",
+      "meaning_vi": "thông tin cập nhật liên quan đến nhiều nhóm",
+      "example": "Hoa will give a cross-team update about the new customer portal.",
+      "example_vi": "Hoa sẽ cập nhật thông tin liên nhóm về cổng khách hàng mới."
+    },
+    {
+      "word": "table a discussion",
+      "ipa": "/ˈteɪbl ə dɪsˈkʌʃn/",
+      "meaning_vi": "hoãn một nội dung thảo luận sang lúc khác",
+      "example": "We should table this discussion and come back to it next Monday.",
+      "example_vi": "Chúng ta nên hoãn nội dung này và quay lại vào thứ Hai tới."
+    },
+    {
+      "word": "monthly headcount",
+      "ipa": "/ˈmʌnθli ˈhedkaʊnt/",
+      "meaning_vi": "số lượng nhân sự tính theo tháng",
+      "example": "The monthly headcount will grow by two people after the new hires start.",
+      "example_vi": "Số nhân sự hằng tháng sẽ tăng thêm hai người sau khi nhân sự mới vào làm."
+    },
+    {
+      "word": "staffing plan",
+      "ipa": "/ˈstɑːfɪŋ plæn/",
+      "meaning_vi": "kế hoạch bố trí nhân sự",
+      "example": "Please review the staffing plan before we agree on the project timeline.",
+      "example_vi": "Hãy xem lại kế hoạch nhân sự trước khi chúng ta chốt tiến độ dự án."
+    },
+    {
+      "word": "recap the decisions",
+      "ipa": "/ˈriːkæp ðə dɪˈsɪʒnz/",
+      "meaning_vi": "tóm tắt lại các quyết định đã chốt",
+      "example": "Before we finish, let me recap the decisions we made today.",
+      "example_vi": "Trước khi kết thúc, để tôi tóm tắt lại các quyết định hôm nay."
+    },
+    {
+      "word": "wrap up the meeting",
+      "ipa": "/ræp ʌp ðə ˈmiːtɪŋ/",
+      "meaning_vi": "kết thúc cuộc họp",
+      "example": "We have five minutes left, so let's wrap up the meeting now.",
+      "example_vi": "Chúng ta còn năm phút, nên hãy kết thúc cuộc họp thôi."
+    }
+  ],
+  "listening": {
+    "title": "The weekly department meeting",
+    "lines": [
+      { "speaker": "Linh (Department Head)", "voice": "female", "text": "Good morning, everyone. Let's start our department meeting; we only have thirty minutes." },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Should I start with the customer portal, or do you prefer the numbers first?" },
+      { "speaker": "Linh (Department Head)", "voice": "female", "text": "Numbers first, please. Then we will go around the room for team updates." },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Our monthly headcount is twenty-two, and two new people join us in October." },
+      { "speaker": "Linh (Department Head)", "voice": "female", "text": "Does the staffing plan still work if the portal project starts earlier?" },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Mostly yes, but I would like a cross-team update from design before we promise dates." },
+      { "speaker": "Linh (Department Head)", "voice": "female", "text": "Fair point. Hoa is away today, so let's table that discussion until Friday." },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Understood. I will send her a short message with our two open questions." },
+      { "speaker": "Linh (Department Head)", "voice": "female", "text": "Thank you. Before we finish, let me recap the decisions from this morning." },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Please do, and I will add them to the notes for the whole team." },
+      { "speaker": "Linh (Department Head)", "voice": "female", "text": "We keep the current staffing plan and we ask design for dates on Friday." },
+      { "speaker": "Tuan (Team Leader)", "voice": "male", "text": "Clear. Then we can wrap up the meeting and give everybody ten minutes back." }
+    ],
+    "questions": [
+      {
+        "q": "What does Linh want to hear first?",
+        "options": ["The customer portal update", "The numbers", "The design feedback"],
+        "answer": 1
+      },
+      {
+        "q": "Why do they table the discussion about dates?",
+        "options": ["Hoa is away and they need a cross-team update", "The meeting room is booked", "The project was cancelled"],
+        "answer": 0
+      },
+      {
+        "q": "What are the two decisions Linh recaps?",
+        "options": ["Hire two managers and cancel the portal", "Keep the staffing plan and ask design on Friday", "Move the meeting and reduce the headcount"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Let's start the department meeting, because we only have thirty minutes together today.",
+    "After the numbers, we will go around the room for short team updates.",
+    "Hoa is away today, so let's table that discussion until Friday morning.",
+    "Before we finish, let me recap the decisions we have made this morning.",
+    "We can wrap up the meeting early and give everybody ten minutes back."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-23",
+  "track": "interview",
+  "theme": "Lý do nghỉ việc & chuyển việc",
+  "vocab": [
+    {
+      "word": "career move",
+      "ipa": "/kəˈrɪə muːv/",
+      "meaning_vi": "bước chuyển trong sự nghiệp",
+      "example": "I see this position as a careful career move, not a quick decision.",
+      "example_vi": "Tôi xem vị trí này là một bước chuyển nghề nghiệp có cân nhắc, không phải quyết định vội vàng."
+    },
+    {
+      "word": "a natural next step",
+      "ipa": "/ə ˈnætʃrəl nekst step/",
+      "meaning_vi": "bước tiếp theo hợp lý, tự nhiên",
+      "example": "Leading a small team felt like a natural next step for me.",
+      "example_vi": "Dẫn dắt một nhóm nhỏ là bước tiếp theo hợp lý với tôi."
+    },
+    {
+      "word": "leave on good terms",
+      "ipa": "/liːv ɒn ɡʊd tɜːmz/",
+      "meaning_vi": "nghỉ việc trong êm đẹp, giữ quan hệ tốt",
+      "example": "I finished my handover carefully because I wanted to leave on good terms.",
+      "example_vi": "Tôi bàn giao cẩn thận vì muốn nghỉ việc trong êm đẹp."
+    },
+    {
+      "word": "make the switch",
+      "ipa": "/meɪk ðə swɪtʃ/",
+      "meaning_vi": "chuyển sang công việc hoặc lĩnh vực khác",
+      "example": "I decided to make the switch after finishing the system upgrade project.",
+      "example_vi": "Tôi quyết định chuyển việc sau khi hoàn thành dự án nâng cấp hệ thống."
+    },
+    {
+      "word": "a better fit",
+      "ipa": "/ə ˈbetə fɪt/",
+      "meaning_vi": "phù hợp hơn với năng lực và mong muốn",
+      "example": "Your company looks like a better fit for my product experience.",
+      "example_vi": "Công ty của anh chị có vẻ phù hợp hơn với kinh nghiệm làm sản phẩm của tôi."
+    },
+    {
+      "word": "broaden my skills",
+      "ipa": "/ˈbrɔːdn maɪ skɪlz/",
+      "meaning_vi": "mở rộng kỹ năng của bản thân",
+      "example": "I want to broaden my skills by working with international customers.",
+      "example_vi": "Tôi muốn mở rộng kỹ năng bằng cách làm việc với khách hàng quốc tế."
+    },
+    {
+      "word": "steady growth",
+      "ipa": "/ˈstedi ɡrəʊθ/",
+      "meaning_vi": "sự phát triển đều đặn, ổn định",
+      "example": "I am looking for steady growth rather than a very fast promotion.",
+      "example_vi": "Tôi tìm kiếm sự phát triển đều đặn hơn là thăng tiến thật nhanh."
+    },
+    {
+      "word": "stay positive",
+      "ipa": "/steɪ ˈpɒzətɪv/",
+      "meaning_vi": "giữ thái độ tích cực khi nói về nơi làm cũ",
+      "example": "When I explain why I am leaving, I try to stay positive about my old team.",
+      "example_vi": "Khi giải thích lý do nghỉ việc, tôi cố giữ thái độ tích cực về đội cũ."
+    }
+  ],
+  "listening": {
+    "title": "Interview: why are you leaving your current job?",
+    "lines": [
+      { "speaker": "Thuy (Interviewer)", "voice": "female", "text": "Nam, you have been at your current company for four years. Why are you leaving now?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I have learned a lot there, and I think this is a natural next step for me." },
+      { "speaker": "Thuy (Interviewer)", "voice": "female", "text": "Can you be more specific? What is missing in your current role?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "My team only serves one local customer, so I cannot broaden my skills much." },
+      { "speaker": "Thuy (Interviewer)", "voice": "female", "text": "And what makes our company look different to you?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "You work with customers in three countries, which is a better fit for my goals." },
+      { "speaker": "Thuy (Interviewer)", "voice": "female", "text": "Some people change jobs every year. How do you see your own path?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I prefer steady growth. This would only be my second career move in six years." },
+      { "speaker": "Thuy (Interviewer)", "voice": "female", "text": "How is your current manager reacting to your decision?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "She is supportive. I want to leave on good terms, so I planned a full handover." },
+      { "speaker": "Thuy (Interviewer)", "voice": "female", "text": "That is good to hear. When could you make the switch if we move forward?" },
+      { "speaker": "Nam (Candidate)", "voice": "male", "text": "I need forty-five days, because I want to finish the payment project first." }
+    ],
+    "questions": [
+      {
+        "q": "Why does Nam want to leave his current job?",
+        "options": ["He cannot broaden his skills with only one local customer", "His salary was reduced", "He had a conflict with his manager"],
+        "answer": 0
+      },
+      {
+        "q": "What attracts Nam to the new company?",
+        "options": ["A shorter working week", "Customers in three countries", "A bigger office"],
+        "answer": 1
+      },
+      {
+        "q": "Why does Nam need forty-five days?",
+        "options": ["To take a long holiday", "To finish the payment project and hand over", "To wait for his annual bonus"],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "I have learned a lot there, and this feels like a natural next step.",
+    "My current team serves one customer, so I cannot broaden my skills enough.",
+    "Your company works with customers in three countries, which is a better fit.",
+    "I prefer steady growth, so this is only my second career move.",
+    "I want to leave on good terms, so I planned a full handover."
+  ]
+}
