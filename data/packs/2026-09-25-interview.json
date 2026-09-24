@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-25",
+  "track": "interview",
+  "theme": "Mục tiêu nghề nghiệp 3-5 năm",
+  "vocab": [
+    { "word": "in five years", "ipa": "/ɪn faɪv jɪəz/", "meaning_vi": "trong năm năm tới", "example": "In five years, I hope to lead a small product team.", "example_vi": "Trong năm năm tới, tôi hy vọng dẫn dắt một nhóm sản phẩm nhỏ." },
+    { "word": "specialize", "ipa": "/ˈspeʃəlaɪz/", "meaning_vi": "chuyên sâu về một lĩnh vực", "example": "I want to specialize in cloud security over the next few years.", "example_vi": "Tôi muốn chuyên sâu về bảo mật đám mây trong vài năm tới." },
+    { "word": "tech lead", "ipa": "/tek liːd/", "meaning_vi": "trưởng nhóm kỹ thuật", "example": "My goal is to become a tech lead who can also coach junior developers.", "example_vi": "Mục tiêu của tôi là trở thành tech lead có thể kèm cặp các bạn junior." },
+    { "word": "development plan", "ipa": "/dɪˈveləpmənt plæn/", "meaning_vi": "kế hoạch phát triển cá nhân", "example": "Does your company create a development plan for each new employee?", "example_vi": "Công ty có lập kế hoạch phát triển cho từng nhân viên mới không?" },
+    { "word": "invest in myself", "ipa": "/ɪnˈvest ɪn maɪˈself/", "meaning_vi": "đầu tư cho bản thân", "example": "I invest in myself by taking one online course every quarter.", "example_vi": "Tôi đầu tư cho bản thân bằng cách học một khoá online mỗi quý." },
+    { "word": "aspire", "ipa": "/əˈspaɪə/", "meaning_vi": "khao khát, mong muốn đạt được", "example": "I aspire to design systems that millions of people can use.", "example_vi": "Tôi khao khát thiết kế những hệ thống mà hàng triệu người có thể dùng." },
+    { "word": "industry trend", "ipa": "/ˈɪndəstri trend/", "meaning_vi": "xu hướng ngành", "example": "I follow industry trends like AI tools to keep my skills up to date.", "example_vi": "Tôi theo dõi các xu hướng ngành như công cụ AI để cập nhật kỹ năng." },
+    { "word": "broader responsibility", "ipa": "/ˈbrɔːdə rɪˌspɒnsəˈbɪləti/", "meaning_vi": "trách nhiệm rộng hơn", "example": "I am ready to take on broader responsibility, such as planning sprints.", "example_vi": "Tôi sẵn sàng nhận trách nhiệm rộng hơn, như lên kế hoạch sprint." }
+  ],
+  "listening": {
+    "title": "Where do you see yourself in five years?",
+    "lines": [
+      { "speaker": "Ms. Thu (HR Manager)", "voice": "female", "text": "Thank you for your answers so far, Duc. Where do you see yourself in five years?" },
+      { "speaker": "Duc (Candidate, Frontend Developer)", "voice": "male", "text": "Good question. In the next two years, I want to specialize in web performance." },
+      { "speaker": "Ms. Thu (HR Manager)", "voice": "female", "text": "Why web performance?" },
+      { "speaker": "Duc (Candidate, Frontend Developer)", "voice": "male", "text": "In my current job, I made our checkout page two times faster, and I really enjoyed that work." },
+      { "speaker": "Ms. Thu (HR Manager)", "voice": "female", "text": "And after that?" },
+      { "speaker": "Duc (Candidate, Frontend Developer)", "voice": "male", "text": "After that, I aspire to become a tech lead and take on broader responsibility, like mentoring junior developers." },
+      { "speaker": "Ms. Thu (HR Manager)", "voice": "female", "text": "How are you preparing for that?" },
+      { "speaker": "Duc (Candidate, Frontend Developer)", "voice": "male", "text": "I invest in myself. I read about industry trends every week and I already guide two interns." },
+      { "speaker": "Ms. Thu (HR Manager)", "voice": "female", "text": "That's good to hear. Here, every engineer has a development plan with their manager." },
+      { "speaker": "Duc (Candidate, Frontend Developer)", "voice": "male", "text": "That's great. A clear plan is one reason I applied to your company." }
+    ],
+    "questions": [
+      { "q": "What does Duc want to specialize in first?", "options": ["Web performance", "Mobile apps", "Data analysis"], "answer": 0 },
+      { "q": "What role does Duc aspire to later?", "options": ["HR manager", "Tech lead", "Sales director"], "answer": 1 },
+      { "q": "What does every engineer at the company have?", "options": ["A company car", "A free online course", "A development plan with their manager"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "In five years, I hope to become a tech lead in a product team.",
+    "In my last project, I improved page speed by fifty percent and loved it.",
+    "I want to specialize in cloud systems before taking on broader responsibility.",
+    "I invest in myself by taking an online course every quarter.",
+    "I aspire to mentor junior developers and help them grow faster."
+  ]
+}

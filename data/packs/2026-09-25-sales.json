@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-25",
+  "track": "sales",
+  "theme": "Gặp khách lần đầu",
+  "vocab": [
+    { "word": "introduce myself", "ipa": "/ˌɪntrəˈdjuːs maɪˈself/", "meaning_vi": "tự giới thiệu bản thân", "example": "Let me introduce myself: I'm Nam, the account manager for your region.", "example_vi": "Cho phép tôi tự giới thiệu: tôi là Nam, quản lý khách hàng phụ trách khu vực của anh chị." },
+    { "word": "nice to meet you", "ipa": "/naɪs tə miːt juː/", "meaning_vi": "rất vui được gặp anh/chị", "example": "Nice to meet you in person after so many emails.", "example_vi": "Rất vui được gặp trực tiếp sau rất nhiều email." },
+    { "word": "icebreaker", "ipa": "/ˈaɪsbreɪkə/", "meaning_vi": "câu mở đầu để phá băng", "example": "Talking about the traffic is a safe icebreaker with new clients.", "example_vi": "Nói chuyện kẹt xe là câu phá băng an toàn với khách mới." },
+    { "word": "company profile", "ipa": "/ˈkʌmpəni ˈprəʊfaɪl/", "meaning_vi": "hồ sơ năng lực công ty", "example": "I brought a printed company profile in case you want to share it with your team.", "example_vi": "Tôi mang theo hồ sơ năng lực bản in phòng khi anh chị muốn chia sẻ với nhóm." },
+    { "word": "reception", "ipa": "/rɪˈsepʃn/", "meaning_vi": "quầy lễ tân", "example": "Please wait at reception, and Ms. Linh will come down to meet you.", "example_vi": "Anh vui lòng chờ ở quầy lễ tân, chị Linh sẽ xuống gặp anh." },
+    { "word": "visitor badge", "ipa": "/ˈvɪzɪtə bædʒ/", "meaning_vi": "thẻ khách ra vào", "example": "The security guard gave me a visitor badge for the tenth floor.", "example_vi": "Bảo vệ đưa tôi thẻ khách để lên tầng mười." },
+    { "word": "main goal", "ipa": "/meɪn ɡəʊl/", "meaning_vi": "mục tiêu chính", "example": "What is your main goal for the new system this year?", "example_vi": "Mục tiêu chính của anh chị với hệ thống mới năm nay là gì?" },
+    { "word": "long-term partner", "ipa": "/ˌlɒŋ ˈtɜːm ˈpɑːtnə/", "meaning_vi": "đối tác lâu dài", "example": "We want to be a long-term partner, not just a one-time supplier.", "example_vi": "Chúng tôi muốn là đối tác lâu dài, không chỉ là nhà cung cấp một lần." }
+  ],
+  "listening": {
+    "title": "First meeting at the client's office",
+    "lines": [
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "Good morning. I'm Minh from BrightSoft. I have a meeting with Ms. Linh at ten." },
+      { "speaker": "Linh (Operations Manager)", "voice": "female", "text": "Hi Minh, I'm Linh. Nice to meet you. Did you find the office easily?" },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "Yes, thank you. Reception was very helpful and gave me a visitor badge quickly." },
+      { "speaker": "Linh (Operations Manager)", "voice": "female", "text": "Good. Please have a seat. Would you like some water or tea?" },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "Tea would be great, thanks. Your office has a lovely view of the river." },
+      { "speaker": "Linh (Operations Manager)", "voice": "female", "text": "Thanks, we moved here last year. So, tell me a bit about BrightSoft." },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "We build warehouse software for logistics companies. Here is our company profile." },
+      { "speaker": "Linh (Operations Manager)", "voice": "female", "text": "Interesting. We still track most of our stock in spreadsheets." },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "I see. Before I show anything, may I ask what your main goal is this year?" },
+      { "speaker": "Linh (Operations Manager)", "voice": "female", "text": "We want to reduce mistakes in delivery orders by half." },
+      { "speaker": "Minh (Sales Executive)", "voice": "male", "text": "That's clear. We'd love to help, and we hope to become a long-term partner." }
+    ],
+    "questions": [
+      { "q": "What does BrightSoft make?", "options": ["Accounting software", "Warehouse software", "Office furniture"], "answer": 1 },
+      { "q": "How does Linh's company track stock now?", "options": ["With spreadsheets", "With a mobile app", "On paper only"], "answer": 0 },
+      { "q": "What is Linh's main goal this year?", "options": ["Move to a new office", "Hire more staff", "Cut delivery mistakes by half"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Nice to meet you, I'm Minh, the sales executive from BrightSoft.",
+    "Thank you for taking the time to meet me this morning.",
+    "Here is our company profile, and I can send the digital version later.",
+    "Before I show our product, may I ask about your main goals?",
+    "We hope to become a long-term partner for your business, not just a supplier."
+  ]
+}

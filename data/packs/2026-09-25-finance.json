@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-25",
+  "track": "finance",
+  "theme": "Dự báo dòng tiền",
+  "vocab": [
+    { "word": "bank balance", "ipa": "/bæŋk ˈbæləns/", "meaning_vi": "số dư tài khoản ngân hàng", "example": "Our bank balance is lower this week because we paid the quarterly rent.", "example_vi": "Số dư ngân hàng tuần này thấp hơn vì mình vừa trả tiền thuê quý." },
+    { "word": "payment terms", "ipa": "/ˈpeɪmənt tɜːmz/", "meaning_vi": "điều khoản thanh toán", "example": "Most of our customers have payment terms of thirty days.", "example_vi": "Phần lớn khách hàng của mình có điều khoản thanh toán 30 ngày." },
+    { "word": "buffer", "ipa": "/ˈbʌfə/", "meaning_vi": "khoản dự phòng, vùng đệm", "example": "We keep a small buffer in case a big client pays late.", "example_vi": "Mình giữ một khoản dự phòng nhỏ phòng khi khách lớn trả chậm." },
+    { "word": "cash gap", "ipa": "/kæʃ ɡæp/", "meaning_vi": "khoảng thiếu hụt tiền mặt", "example": "The forecast shows a cash gap in the second week of November.", "example_vi": "Dự báo cho thấy thiếu hụt tiền mặt vào tuần thứ hai của tháng 11." },
+    { "word": "weekly projection", "ipa": "/ˈwiːkli prəˈdʒekʃn/", "meaning_vi": "dự phóng theo tuần", "example": "Please update the weekly projection every Monday morning.", "example_vi": "Vui lòng cập nhật dự phóng theo tuần vào mỗi sáng thứ Hai." },
+    { "word": "best case", "ipa": "/best keɪs/", "meaning_vi": "kịch bản tốt nhất", "example": "In the best case, the client pays the full invoice by October 20.", "example_vi": "Trong kịch bản tốt nhất, khách trả đủ hoá đơn trước ngày 20/10." },
+    { "word": "worst case", "ipa": "/wɜːst keɪs/", "meaning_vi": "kịch bản xấu nhất", "example": "In the worst case, we may need to delay some supplier payments.", "example_vi": "Trong kịch bản xấu nhất, mình có thể phải hoãn một số khoản trả nhà cung cấp." },
+    { "word": "seasonal", "ipa": "/ˈsiːzənl/", "meaning_vi": "theo mùa, mang tính thời vụ", "example": "Sales are seasonal, so December is always our strongest month.", "example_vi": "Doanh số mang tính thời vụ nên tháng 12 luôn là tháng mạnh nhất." }
+  ],
+  "listening": {
+    "title": "Reviewing the cash forecast",
+    "lines": [
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Tuan, have you finished the weekly projection for the next two months?" },
+      { "speaker": "Tuan (Finance Analyst)", "voice": "male", "text": "Yes, I sent it an hour ago. There is one thing I want to show you." },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Sure. What is it?" },
+      { "speaker": "Tuan (Finance Analyst)", "voice": "male", "text": "In the second week of November, we have a cash gap of about eight hundred million dong." },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Why? Our bank balance looks healthy right now." },
+      { "speaker": "Tuan (Finance Analyst)", "voice": "male", "text": "We pay the annual software licenses that week, but the big client payment comes later. Their payment terms are sixty days." },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "I see. What do the best case and worst case look like?" },
+      { "speaker": "Tuan (Finance Analyst)", "voice": "male", "text": "In the best case, the client pays early and there is no gap. In the worst case, the gap lasts three weeks." },
+      { "speaker": "Hoa (Finance Manager)", "voice": "female", "text": "Let's ask the vendor to split the license payment into two parts. That gives us a buffer." },
+      { "speaker": "Tuan (Finance Analyst)", "voice": "male", "text": "Good idea. I'll update the forecast and remember that December sales are seasonal and usually higher." }
+    ],
+    "questions": [
+      { "q": "When is the cash gap expected?", "options": ["End of October", "Second week of November", "Early December"], "answer": 1 },
+      { "q": "What causes the gap?", "options": ["Software license payments before a late client payment", "Lower December sales", "A bank error"], "answer": 0 },
+      { "q": "What does Hoa suggest?", "options": ["Borrow money from the bank", "Cancel the licenses", "Split the license payment into two parts"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I have updated the weekly projection with the latest customer payments.",
+    "The forecast shows a small cash gap in the middle of next month.",
+    "In the worst case, we should delay some payments to non-critical suppliers.",
+    "Could you check the payment terms for our three biggest clients?",
+    "We need to keep a buffer because our sales are quite seasonal."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-25",
+  "track": "it",
+  "theme": "Small talk đầu giờ & pantry chat",
+  "vocab": [
+    { "word": "grab a coffee", "ipa": "/ɡræb ə ˈkɒfi/", "meaning_vi": "đi lấy/uống một ly cà phê nhanh", "example": "Do you want to grab a coffee before the standup starts?", "example_vi": "Bạn có muốn đi lấy ly cà phê trước khi họp standup không?" },
+    { "word": "snack", "ipa": "/snæk/", "meaning_vi": "đồ ăn vặt", "example": "Someone left a box of snacks in the pantry for the dev team.", "example_vi": "Có người để một hộp đồ ăn vặt trong pantry cho team dev." },
+    { "word": "chill out", "ipa": "/tʃɪl aʊt/", "meaning_vi": "thư giãn, nghỉ ngơi", "example": "After the release, I just want to chill out this weekend.", "example_vi": "Sau đợt release, cuối tuần này tôi chỉ muốn thư giãn." },
+    { "word": "sleep in", "ipa": "/sliːp ɪn/", "meaning_vi": "ngủ nướng, dậy muộn", "example": "I slept in on Sunday because I fixed bugs until late on Saturday.", "example_vi": "Chủ nhật tôi ngủ nướng vì tối thứ Bảy sửa bug đến khuya." },
+    { "word": "office gossip", "ipa": "/ˈɒfɪs ˈɡɒsɪp/", "meaning_vi": "chuyện tám, tin đồn ở công ty", "example": "Let's talk about the new coffee machine, not office gossip.", "example_vi": "Mình nói chuyện máy pha cà phê mới đi, đừng tám chuyện công ty." },
+    { "word": "team lunch", "ipa": "/tiːm lʌntʃ/", "meaning_vi": "bữa trưa cả nhóm", "example": "We are having a team lunch on Friday to welcome the new tester.", "example_vi": "Thứ Sáu nhóm mình ăn trưa chung để chào đón bạn tester mới." },
+    { "word": "bubble tea", "ipa": "/ˈbʌbl tiː/", "meaning_vi": "trà sữa trân châu", "example": "The backend team ordered bubble tea to celebrate the deployment.", "example_vi": "Team backend đặt trà sữa để ăn mừng đợt deploy." },
+    { "word": "fun fact", "ipa": "/fʌn fækt/", "meaning_vi": "sự thật thú vị", "example": "Fun fact: our tech lead used to be a professional guitar player.", "example_vi": "Chuyện thú vị là: tech lead của mình từng là tay guitar chuyên nghiệp." }
+  ],
+  "listening": {
+    "title": "Morning chat in the pantry",
+    "lines": [
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Morning, Linh! Are you here to grab a coffee too?" },
+      { "speaker": "Linh (QA Engineer)", "voice": "female", "text": "Yes, I really need one. I didn't sleep well last night." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Oh no. Were you testing the new release late?" },
+      { "speaker": "Linh (QA Engineer)", "voice": "female", "text": "No, my neighbor's dog was barking until midnight. How was your weekend?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Pretty quiet. I slept in on Saturday and then just chilled out at home." },
+      { "speaker": "Linh (QA Engineer)", "voice": "female", "text": "That sounds perfect. By the way, did you see the snacks on the table?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Yes, Minh brought them from his trip to Da Lat. The dried strawberries are great." },
+      { "speaker": "Linh (QA Engineer)", "voice": "female", "text": "Nice! Fun fact: I have never been to Da Lat." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Really? You should go. Are you joining the team lunch on Friday?" },
+      { "speaker": "Linh (QA Engineer)", "voice": "female", "text": "Of course. I heard we are ordering bubble tea after lunch too." }
+    ],
+    "questions": [
+      { "q": "Why didn't Linh sleep well?", "options": ["She was testing a release", "Her neighbor's dog was barking", "She was traveling"], "answer": 1 },
+      { "q": "What did Nam do on Saturday?", "options": ["He slept in and relaxed at home", "He went to Da Lat", "He fixed bugs all day"], "answer": 0 },
+      { "q": "Who brought the snacks?", "options": ["Linh", "Nam", "Minh"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Good morning! Do you want to grab a coffee before the meeting?",
+    "How was your weekend? Did you do anything fun with your family?",
+    "I slept in on Sunday, so I feel much better today.",
+    "Someone left some snacks in the pantry, so please help yourself.",
+    "Are you free for a team lunch on Friday to welcome Hoa?"
+  ]
+}

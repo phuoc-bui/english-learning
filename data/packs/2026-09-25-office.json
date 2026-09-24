@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-25",
+  "track": "office",
+  "theme": "Feedback cho đồng nghiệp",
+  "vocab": [
+    { "word": "appreciate", "ipa": "/əˈpriːʃieɪt/", "meaning_vi": "trân trọng, cảm kích", "example": "I really appreciate the time you spent on the monthly report.", "example_vi": "Mình thật sự cảm kích thời gian bạn dành cho báo cáo tháng." },
+    { "word": "in person", "ipa": "/ɪn ˈpɜːsn/", "meaning_vi": "gặp trực tiếp", "example": "I prefer to give feedback in person rather than by email.", "example_vi": "Mình thích góp ý trực tiếp hơn là qua email." },
+    { "word": "specific", "ipa": "/spəˈsɪfɪk/", "meaning_vi": "cụ thể", "example": "Could you give me a specific example so I can understand better?", "example_vi": "Bạn có thể cho mình một ví dụ cụ thể để mình hiểu rõ hơn không?" },
+    { "word": "take it on board", "ipa": "/teɪk ɪt ɒn bɔːd/", "meaning_vi": "tiếp thu ý kiến", "example": "Thanks for the comment, I will take it on board for the next slides.", "example_vi": "Cảm ơn góp ý nhé, mình sẽ tiếp thu cho bộ slide sau." },
+    { "word": "keep up the good work", "ipa": "/kiːp ʌp ðə ɡʊd wɜːk/", "meaning_vi": "tiếp tục phát huy nhé", "example": "Your customer emails are very clear, so keep up the good work.", "example_vi": "Email gửi khách của bạn rất rõ ràng, tiếp tục phát huy nhé." },
+    { "word": "check in", "ipa": "/tʃek ɪn/", "meaning_vi": "hỏi thăm, trao đổi nhanh về tình hình", "example": "Let's check in again next week to see how the new process works.", "example_vi": "Tuần sau mình trao đổi lại để xem quy trình mới chạy thế nào nhé." },
+    { "word": "positive note", "ipa": "/ˈpɒzətɪv nəʊt/", "meaning_vi": "điểm tích cực (thường để mở đầu/kết thúc)", "example": "I always try to end a feedback talk on a positive note.", "example_vi": "Mình luôn cố kết thúc buổi góp ý bằng một điểm tích cực." },
+    { "word": "open to", "ipa": "/ˈəʊpən tuː/", "meaning_vi": "sẵn sàng tiếp nhận", "example": "I am open to any ideas that can make our meetings shorter.", "example_vi": "Mình sẵn sàng tiếp nhận mọi ý tưởng giúp các cuộc họp ngắn hơn." }
+  ],
+  "listening": {
+    "title": "Feedback on a presentation",
+    "lines": [
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "Minh, do you have ten minutes? I want to share some feedback in person." },
+      { "speaker": "Minh (Marketing Executive)", "voice": "male", "text": "Sure, Hoa. Is it about my presentation yesterday?" },
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "Yes. First, I really appreciate how well you prepared the data. The charts were very clear." },
+      { "speaker": "Minh (Marketing Executive)", "voice": "male", "text": "Thank you. I spent a lot of time on them." },
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "One thing to improve is the timing. You spoke for forty minutes, but we only had thirty." },
+      { "speaker": "Minh (Marketing Executive)", "voice": "male", "text": "Oh, I didn't notice. Can you give me a specific part that I could cut?" },
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "The history of the campaign was too long. Two slides would be enough." },
+      { "speaker": "Minh (Marketing Executive)", "voice": "male", "text": "That makes sense. I'll take it on board for the next meeting." },
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "Great. And I am open to feedback too, if you have any for me." },
+      { "speaker": "Minh (Marketing Executive)", "voice": "male", "text": "Actually, it would help to get the agenda one day earlier." },
+      { "speaker": "Hoa (Team Leader)", "voice": "female", "text": "Good point. Let's check in again next Friday. Keep up the good work!" }
+    ],
+    "questions": [
+      { "q": "What did Hoa like about Minh's presentation?", "options": ["The clear charts", "The short timing", "The campaign history"], "answer": 0 },
+      { "q": "What was the problem with the presentation?", "options": ["It had no data", "It was too long", "It started late"], "answer": 1 },
+      { "q": "What feedback does Minh give Hoa?", "options": ["Send the agenda earlier", "Use more charts", "Have fewer meetings"], "answer": 0 }
+    ]
+  },
+  "shadowing": [
+    "I really appreciate your help with the report last week.",
+    "Could you give me a specific example so I can improve?",
+    "Thanks for the feedback, I will take it on board next time.",
+    "Your emails to clients are very clear, so keep up the good work.",
+    "Can we talk in person later instead of discussing this over chat?"
+  ]
+}
