@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-26",
+  "track": "sales",
+  "theme": "Chăm sóc khách sau bán",
+  "vocab": [
+    { "word": "after-sales service", "ipa": "/ˌɑːftə ˈseɪlz ˈsɜːvɪs/", "meaning_vi": "dịch vụ hậu mãi", "example": "Our after-sales service includes free training for your staff.", "example_vi": "Dịch vụ hậu mãi của chúng tôi bao gồm đào tạo miễn phí cho nhân viên của anh chị." },
+    { "word": "warranty", "ipa": "/ˈwɒrənti/", "meaning_vi": "bảo hành", "example": "The printer comes with a two-year warranty.", "example_vi": "Máy in đi kèm bảo hành hai năm." },
+    { "word": "check-up call", "ipa": "/ˈtʃek ʌp kɔːl/", "meaning_vi": "cuộc gọi hỏi thăm định kỳ", "example": "I make a check-up call to every new customer after two weeks.", "example_vi": "Tôi gọi hỏi thăm mọi khách hàng mới sau hai tuần." },
+    { "word": "user manual", "ipa": "/ˈjuːzə ˈmænjuəl/", "meaning_vi": "sách hướng dẫn sử dụng", "example": "I will email you the user manual in Vietnamese and English.", "example_vi": "Tôi sẽ gửi email cho anh sách hướng dẫn sử dụng bằng tiếng Việt và tiếng Anh." },
+    { "word": "hotline", "ipa": "/ˈhɒtlaɪn/", "meaning_vi": "đường dây nóng", "example": "If the machine stops working, please call our 24-hour hotline.", "example_vi": "Nếu máy ngừng hoạt động, vui lòng gọi đường dây nóng 24 giờ của chúng tôi." },
+    { "word": "repeat order", "ipa": "/rɪˈpiːt ˈɔːdə/", "meaning_vi": "đơn hàng đặt lại", "example": "Good service is the best way to get a repeat order.", "example_vi": "Dịch vụ tốt là cách tốt nhất để có đơn hàng đặt lại." },
+    { "word": "testimonial", "ipa": "/ˌtestɪˈməʊniəl/", "meaning_vi": "lời chứng thực, đánh giá của khách", "example": "Would you mind giving us a short testimonial for our website?", "example_vi": "Anh có phiền viết cho chúng tôi một lời đánh giá ngắn để đăng lên website không?" },
+    { "word": "word of mouth", "ipa": "/ˌwɜːd əv ˈmaʊθ/", "meaning_vi": "truyền miệng", "example": "Most of our new clients come from word of mouth.", "example_vi": "Phần lớn khách hàng mới của chúng tôi đến từ truyền miệng." }
+  ],
+  "listening": {
+    "title": "A check-up call after one month",
+    "lines": [
+      { "speaker": "Linh (Account Executive)", "voice": "female", "text": "Hello Mr. Hung, this is Linh from SmartOffice. It's a quick check-up call about your new printers." },
+      { "speaker": "Hung (Office Manager)", "voice": "male", "text": "Hi Linh. Good timing. They work well, but one printer on the third floor is very slow." },
+      { "speaker": "Linh (Account Executive)", "voice": "female", "text": "I'm sorry to hear that. Is it slow for every document, or only for big files?" },
+      { "speaker": "Hung (Office Manager)", "voice": "male", "text": "Mostly for big PDF files. My staff are not happy." },
+      { "speaker": "Linh (Account Executive)", "voice": "female", "text": "It's still under warranty, so I'll send a technician tomorrow morning at no cost." },
+      { "speaker": "Hung (Office Manager)", "voice": "male", "text": "Great. Also, some new staff don't know how to scan to email." },
+      { "speaker": "Linh (Account Executive)", "voice": "female", "text": "I'll email you the user manual today. Our after-sales service also includes a free training session." },
+      { "speaker": "Hung (Office Manager)", "voice": "male", "text": "Perfect. We may need four more printers for our new branch next month." },
+      { "speaker": "Linh (Account Executive)", "voice": "female", "text": "Thank you, we'd be happy to handle that repeat order. I'll prepare a quote this week." },
+      { "speaker": "Hung (Office Manager)", "voice": "male", "text": "Thanks, Linh. Your team is very quick to help." }
+    ],
+    "questions": [
+      { "q": "What is the problem with the printer?", "options": ["It is slow with big PDF files", "It does not turn on", "It uses too much ink"], "answer": 0 },
+      { "q": "Why is the technician visit free?", "options": ["Mr. Hung is a VIP customer", "The printer is still under warranty", "Linh made a mistake"], "answer": 1 },
+      { "q": "What might Mr. Hung order next month?", "options": ["A new scanner", "A training course", "Four more printers"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I'm just calling to check how everything is going with the new system.",
+    "Don't worry, it's still under warranty, so the repair is free.",
+    "If you have any problem, please call our hotline any time.",
+    "I'll email you the user manual right after this call.",
+    "Would you mind writing a short testimonial about your experience with us?"
+  ]
+}

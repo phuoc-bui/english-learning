@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-26",
+  "track": "interview",
+  "theme": "Deal lương khi phỏng vấn",
+  "vocab": [
+    { "word": "net salary", "ipa": "/net ˈsæləri/", "meaning_vi": "lương thực nhận (sau thuế, bảo hiểm)", "example": "Is this figure the gross or the net salary?", "example_vi": "Con số này là lương gộp hay lương thực nhận ạ?" },
+    { "word": "current salary", "ipa": "/ˈkʌrənt ˈsæləri/", "meaning_vi": "mức lương hiện tại", "example": "My current salary is 25 million dong per month, including allowances.", "example_vi": "Mức lương hiện tại của tôi là 25 triệu đồng mỗi tháng, đã gồm phụ cấp." },
+    { "word": "room for negotiation", "ipa": "/ruːm fə nɪˌɡəʊʃiˈeɪʃn/", "meaning_vi": "khả năng thương lượng thêm", "example": "Is there any room for negotiation on the base salary?", "example_vi": "Mức lương cơ bản có thể thương lượng thêm không ạ?" },
+    { "word": "meet halfway", "ipa": "/miːt ˌhɑːfˈweɪ/", "meaning_vi": "mỗi bên nhượng bộ một nửa", "example": "Could we meet halfway at 30 million?", "example_vi": "Chúng ta có thể nhượng bộ mỗi bên một chút, ở mức 30 triệu được không ạ?" },
+    { "word": "total package", "ipa": "/ˈtəʊtl ˈpækɪdʒ/", "meaning_vi": "tổng đãi ngộ (lương, thưởng, phúc lợi)", "example": "When I compare offers, I look at the total package, not just the salary.", "example_vi": "Khi so sánh các lời mời, tôi xem tổng đãi ngộ chứ không chỉ lương." },
+    { "word": "written offer", "ipa": "/ˈrɪtn ˈɒfə/", "meaning_vi": "thư mời làm việc bằng văn bản", "example": "Could you send me a written offer so I can review the details?", "example_vi": "Anh chị có thể gửi tôi thư mời bằng văn bản để tôi xem kỹ chi tiết không ạ?" },
+    { "word": "justify", "ipa": "/ˈdʒʌstɪfaɪ/", "meaning_vi": "giải thích, chứng minh là hợp lý", "example": "I can justify this number with my five years of mobile experience.", "example_vi": "Tôi có thể chứng minh con số này hợp lý bằng năm năm kinh nghiệm làm mobile." },
+    { "word": "benchmark", "ipa": "/ˈbentʃmɑːk/", "meaning_vi": "mức tham chiếu, chuẩn so sánh", "example": "I used salary surveys as a benchmark for my expectation.", "example_vi": "Tôi dùng các khảo sát lương làm mức tham chiếu cho kỳ vọng của mình." }
+  ],
+  "listening": {
+    "title": "Talking about the offer",
+    "lines": [
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "Nam, the team liked your technical interview. Now let's talk about salary. What is your expectation?" },
+      { "speaker": "Nam (Candidate, Backend Developer)", "voice": "male", "text": "Thank you. I'm looking for 35 million dong gross per month." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "That's a bit higher than our budget. Can you tell me your current salary?" },
+      { "speaker": "Nam (Candidate, Backend Developer)", "voice": "male", "text": "It's 28 million now. I used recent salary surveys as a benchmark for senior backend roles." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "I see. Our range for this position is 28 to 32 million." },
+      { "speaker": "Nam (Candidate, Backend Developer)", "voice": "male", "text": "I understand. I can justify a higher number because I have led two cloud migration projects." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "That's true, it's valuable. Could we meet halfway at 32 million, plus a performance bonus?" },
+      { "speaker": "Nam (Candidate, Backend Developer)", "voice": "male", "text": "That sounds reasonable. Is there any room for negotiation on remote days?" },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "Yes, we can offer two remote days per week. That's part of the total package." },
+      { "speaker": "Nam (Candidate, Backend Developer)", "voice": "male", "text": "Great. Could you send me a written offer? I'll reply within two days." }
+    ],
+    "questions": [
+      { "q": "What is Nam's current salary?", "options": ["28 million", "32 million", "35 million"], "answer": 0 },
+      { "q": "How does Nam justify a higher salary?", "options": ["He has a master's degree", "He led two cloud migration projects", "He has another offer"], "answer": 1 },
+      { "q": "What does Hoa finally offer?", "options": ["35 million and no bonus", "30 million and one remote day", "32 million, a bonus and two remote days"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Based on my experience and the market, I'm expecting around 30 million gross.",
+    "Could you share the salary range for this position first, please?",
+    "I led a team of four, so I believe this number is fair.",
+    "Is there any room for negotiation, or could we meet halfway?",
+    "Thank you, could you send me a written offer so I can review the details?"
+  ]
+}

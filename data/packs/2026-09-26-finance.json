@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-26",
+  "track": "finance",
+  "theme": "Trao đổi với kế toán thuế",
+  "vocab": [
+    { "word": "tax declaration", "ipa": "/tæks ˌdekləˈreɪʃn/", "meaning_vi": "tờ khai thuế", "example": "We must submit the quarterly tax declaration before the 30th.", "example_vi": "Chúng ta phải nộp tờ khai thuế quý trước ngày 30." },
+    { "word": "input VAT", "ipa": "/ˈɪnpʊt ˌviː eɪ ˈtiː/", "meaning_vi": "thuế GTGT đầu vào", "example": "We can only claim input VAT if we have a valid invoice.", "example_vi": "Chúng ta chỉ được khấu trừ thuế GTGT đầu vào nếu có hoá đơn hợp lệ." },
+    { "word": "non-deductible", "ipa": "/ˌnɒn dɪˈdʌktəbl/", "meaning_vi": "không được trừ khi tính thuế", "example": "Costs without proper invoices are non-deductible.", "example_vi": "Các chi phí không có hoá đơn hợp lệ thì không được trừ khi tính thuế." },
+    { "word": "tax refund", "ipa": "/tæks ˈriːfʌnd/", "meaning_vi": "hoàn thuế", "example": "The tax refund usually takes about six weeks.", "example_vi": "Việc hoàn thuế thường mất khoảng sáu tuần." },
+    { "word": "tax audit", "ipa": "/tæks ˈɔːdɪt/", "meaning_vi": "thanh tra/kiểm tra thuế", "example": "Please keep all contracts ready in case of a tax audit.", "example_vi": "Vui lòng chuẩn bị sẵn mọi hợp đồng phòng khi có kiểm tra thuế." },
+    { "word": "overpaid", "ipa": "/ˌəʊvəˈpeɪd/", "meaning_vi": "nộp thừa", "example": "We overpaid tax last quarter, so we can use it this quarter.", "example_vi": "Quý trước chúng ta nộp thừa thuế, nên có thể bù trừ vào quý này." },
+    { "word": "tax period", "ipa": "/tæks ˈpɪəriəd/", "meaning_vi": "kỳ tính thuế", "example": "This invoice belongs to the September tax period.", "example_vi": "Hoá đơn này thuộc kỳ tính thuế tháng Chín." },
+    { "word": "tax portal", "ipa": "/tæks ˈpɔːtl/", "meaning_vi": "cổng thuế điện tử", "example": "I will upload the file to the tax portal this afternoon.", "example_vi": "Chiều nay tôi sẽ tải tệp lên cổng thuế điện tử." }
+  ],
+  "listening": {
+    "title": "Preparing the quarterly tax declaration",
+    "lines": [
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Hi Minh, thanks for coming. We need to finish the Q3 tax declaration this week." },
+      { "speaker": "Minh (Tax Consultant)", "voice": "male", "text": "No problem. I checked your invoices yesterday. There is one issue with input VAT." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "What kind of issue?" },
+      { "speaker": "Minh (Tax Consultant)", "voice": "male", "text": "Three invoices from a supplier have the wrong tax code. We can't claim that VAT yet." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "I see. I'll ask the supplier to issue corrected invoices today." },
+      { "speaker": "Minh (Tax Consultant)", "voice": "male", "text": "Good. Also, the team dinner last month has no invoice, so that cost is non-deductible." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Understood. What about the tax we overpaid in the second quarter?" },
+      { "speaker": "Minh (Tax Consultant)", "voice": "male", "text": "We can use it for this tax period instead of asking for a tax refund. It's faster." },
+      { "speaker": "Hoa (Chief Accountant)", "voice": "female", "text": "Great. When can you upload everything to the tax portal?" },
+      { "speaker": "Minh (Tax Consultant)", "voice": "male", "text": "If I get the new invoices by Thursday, I'll submit on Friday morning." }
+    ],
+    "questions": [
+      { "q": "What is wrong with the supplier's invoices?", "options": ["They have the wrong tax code", "They are not signed", "They are in English"], "answer": 0 },
+      { "q": "Why is the team dinner cost non-deductible?", "options": ["It was too expensive", "It was in the wrong month", "It has no invoice"], "answer": 2 },
+      { "q": "What will they do with the overpaid tax?", "options": ["Ask for a refund", "Use it for this tax period", "Pay it to the supplier"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Could you check whether these invoices are valid for input VAT?",
+    "This cost is non-deductible because we don't have a proper invoice.",
+    "We overpaid tax last quarter, so can we use it for this one?",
+    "Please keep all the contracts ready in case we have a tax audit.",
+    "I'll submit the tax declaration on the portal before Friday afternoon."
+  ]
+}

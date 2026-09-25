@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-26",
+  "track": "office",
+  "theme": "Deal deadline",
+  "vocab": [
+    { "word": "firm deadline", "ipa": "/fɜːm ˈdedlaɪn/", "meaning_vi": "hạn chót cố định, không thể dời", "example": "The board meeting is on Friday, so this is a firm deadline.", "example_vi": "Cuộc họp hội đồng quản trị vào thứ Sáu, nên đây là hạn chót không thể dời." },
+    { "word": "by close of business", "ipa": "/baɪ kləʊz əv ˈbɪznəs/", "meaning_vi": "trước khi hết giờ làm việc", "example": "Can you send me the updated list by close of business today?", "example_vi": "Bạn gửi mình danh sách cập nhật trước khi hết giờ làm hôm nay được không?" },
+    { "word": "partial delivery", "ipa": "/ˈpɑːʃl dɪˈlɪvəri/", "meaning_vi": "bàn giao một phần", "example": "We can do a partial delivery on Monday and send the rest on Wednesday.", "example_vi": "Mình có thể bàn giao một phần vào thứ Hai và gửi phần còn lại vào thứ Tư." },
+    { "word": "bring forward", "ipa": "/brɪŋ ˈfɔːwəd/", "meaning_vi": "dời lên sớm hơn", "example": "The director wants to bring forward the meeting to Thursday.", "example_vi": "Giám đốc muốn dời cuộc họp lên sớm hơn vào thứ Năm." },
+    { "word": "in stages", "ipa": "/ɪn ˈsteɪdʒɪz/", "meaning_vi": "theo từng bước, từng đợt", "example": "Let's finish the translation in stages, one chapter each week.", "example_vi": "Mình hoàn thành bản dịch theo từng đợt, mỗi tuần một chương nhé." },
+    { "word": "extra hand", "ipa": "/ˈekstrə hænd/", "meaning_vi": "thêm người hỗ trợ", "example": "If I get an extra hand, I can finish the event plan by Tuesday.", "example_vi": "Nếu có thêm người hỗ trợ, mình có thể xong kế hoạch sự kiện trước thứ Ba." },
+    { "word": "overdue", "ipa": "/ˌəʊvəˈdjuː/", "meaning_vi": "quá hạn", "example": "Sorry, I know the survey report is two days overdue.", "example_vi": "Xin lỗi, mình biết báo cáo khảo sát đã quá hạn hai ngày." },
+    { "word": "compromise", "ipa": "/ˈkɒmprəmaɪz/", "meaning_vi": "sự thoả hiệp, giải pháp dung hoà", "example": "As a compromise, I will send the summary first and the full report later.", "example_vi": "Để dung hoà, mình sẽ gửi bản tóm tắt trước và báo cáo đầy đủ sau." }
+  ],
+  "listening": {
+    "title": "Can we move the deadline?",
+    "lines": [
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "Minh, the director wants to bring forward the training plan. Can you finish it by Wednesday?" },
+      { "speaker": "Minh (HR Executive)", "voice": "male", "text": "Wednesday? I thought the deadline was next Monday." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "It was, but the budget meeting moved to Thursday. So Wednesday is a firm deadline now." },
+      { "speaker": "Minh (HR Executive)", "voice": "male", "text": "I understand. But I'm still waiting for data from three departments." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "What can you finish by Wednesday, realistically?" },
+      { "speaker": "Minh (HR Executive)", "voice": "male", "text": "I can do the schedule and the cost part. The course details need more time." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "The director mainly needs the costs for the budget meeting." },
+      { "speaker": "Minh (HR Executive)", "voice": "male", "text": "Then as a compromise, I can do a partial delivery on Wednesday and send the full plan on Friday." },
+      { "speaker": "Hoa (HR Manager)", "voice": "female", "text": "That works. Do you need an extra hand to chase the departments?" },
+      { "speaker": "Minh (HR Executive)", "voice": "male", "text": "Yes, please. If Linh can call them today, I'll get the data by close of business." }
+    ],
+    "questions": [
+      { "q": "Why did the deadline change?", "options": ["Minh asked for more time", "The budget meeting moved to Thursday", "Linh is on leave"], "answer": 1 },
+      { "q": "What will Minh deliver on Wednesday?", "options": ["The schedule and the costs", "The course details only", "The full training plan"], "answer": 0 },
+      { "q": "How will Linh help?", "options": ["She will write the course details", "She will join the budget meeting", "She will call the departments for data"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Is Wednesday a firm deadline, or do we have a little flexibility?",
+    "I can send the first part on Monday and the rest on Thursday.",
+    "To be realistic, I need two more days to check all the numbers.",
+    "If I get an extra hand, I can finish it by close of business.",
+    "Sorry, this report is overdue, but you will have it before lunch tomorrow."
+  ]
+}

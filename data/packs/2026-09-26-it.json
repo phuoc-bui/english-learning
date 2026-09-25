@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-26",
+  "track": "it",
+  "theme": "Họp với khách hàng",
+  "vocab": [
+    { "word": "out of scope", "ipa": "/aʊt əv skəʊp/", "meaning_vi": "nằm ngoài phạm vi dự án", "example": "The new report screen is out of scope for this release.", "example_vi": "Màn hình báo cáo mới nằm ngoài phạm vi của bản phát hành này." },
+    { "word": "go-live", "ipa": "/ˈɡəʊ laɪv/", "meaning_vi": "thời điểm chính thức chạy thật", "example": "Our go-live date is the first Monday of November.", "example_vi": "Ngày chính thức chạy thật của chúng ta là thứ Hai đầu tiên của tháng Mười Một." },
+    { "word": "must-have", "ipa": "/ˈmʌst hæv/", "meaning_vi": "tính năng bắt buộc phải có", "example": "Login with Google is a must-have for the client.", "example_vi": "Đăng nhập bằng Google là tính năng bắt buộc với khách hàng." },
+    { "word": "nice-to-have", "ipa": "/ˌnaɪs tə ˈhæv/", "meaning_vi": "tính năng có thì tốt, không bắt buộc", "example": "Dark mode is a nice-to-have, so we can build it later.", "example_vi": "Chế độ tối có thì tốt, nên mình có thể làm sau." },
+    { "word": "manage expectations", "ipa": "/ˈmænɪdʒ ˌekspekˈteɪʃnz/", "meaning_vi": "quản lý kỳ vọng (của khách/sếp)", "example": "We need to manage expectations and tell the client about the delay early.", "example_vi": "Mình cần quản lý kỳ vọng và báo khách về việc trễ hạn sớm." },
+    { "word": "sticking point", "ipa": "/ˈstɪkɪŋ pɔɪnt/", "meaning_vi": "điểm vướng, điểm chưa thống nhất", "example": "The main sticking point is who will pay for the extra server.", "example_vi": "Điểm vướng chính là ai sẽ trả tiền cho máy chủ bổ sung." },
+    { "word": "common ground", "ipa": "/ˈkɒmən ɡraʊnd/", "meaning_vi": "điểm chung để thống nhất", "example": "After a long discussion, we found common ground on the timeline.", "example_vi": "Sau một hồi thảo luận, hai bên đã tìm được điểm chung về tiến độ." },
+    { "word": "phased approach", "ipa": "/feɪzd əˈprəʊtʃ/", "meaning_vi": "cách làm chia theo từng giai đoạn", "example": "We suggest a phased approach, starting with the mobile app.", "example_vi": "Chúng tôi đề xuất làm theo từng giai đoạn, bắt đầu với ứng dụng di động." }
+  ],
+  "listening": {
+    "title": "Agreeing on the first release",
+    "lines": [
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "Thanks for joining, Mr. Tuan. Today we'd like to agree on the scope for the first release." },
+      { "speaker": "Tuan (Client, Retail Manager)", "voice": "male", "text": "Sure. For us, online payment and order tracking are must-haves." },
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "Understood. Both are in our plan. What about the loyalty points feature?" },
+      { "speaker": "Tuan (Client, Retail Manager)", "voice": "male", "text": "That's a nice-to-have. But my boss really wants it before Tet." },
+      { "speaker": "Nam (Tech Lead)", "voice": "male", "text": "To be honest, loyalty points need two more sprints. If we add them now, go-live moves to February." },
+      { "speaker": "Tuan (Client, Retail Manager)", "voice": "male", "text": "February is too late. That's our sticking point, I think." },
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "How about a phased approach? We launch payment and tracking in December, then loyalty points in January." },
+      { "speaker": "Tuan (Client, Retail Manager)", "voice": "male", "text": "So customers can still collect points during Tet?" },
+      { "speaker": "Nam (Tech Lead)", "voice": "male", "text": "Yes. We can save their orders in December and add the points later." },
+      { "speaker": "Tuan (Client, Retail Manager)", "voice": "male", "text": "Okay, that sounds like common ground. I'll explain it to my boss." },
+      { "speaker": "Linh (Project Manager)", "voice": "female", "text": "Great. I'll send a summary today, so we can manage expectations on both sides." }
+    ],
+    "questions": [
+      { "q": "Which features are must-haves for the client?", "options": ["Online payment and order tracking", "Loyalty points and dark mode", "Order tracking and chat"], "answer": 0 },
+      { "q": "What happens if loyalty points are added now?", "options": ["The price goes down", "Go-live moves to February", "The team needs a new designer"], "answer": 1 },
+      { "q": "What solution does Linh suggest?", "options": ["Cancel loyalty points", "Launch everything in February", "Release the features in two phases"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I'm afraid that feature is out of scope for the first release.",
+    "Could you tell us which features are must-haves and which are nice-to-haves?",
+    "If we add this now, our go-live date will move by two weeks.",
+    "How about a phased approach, so you can launch the key features first?",
+    "I'll send a short summary after the call so everyone is on the same page."
+  ]
+}
