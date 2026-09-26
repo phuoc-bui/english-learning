@@ -49,6 +49,31 @@ function render() {
   view.render(el, ctx);
 }
 
+// App đã chuyển vào Vaultly (/hoc/). Không chuyển hướng cứng: dữ liệu nằm trong
+// localStorage của origin này, người dùng cần Xuất backup trước rồi Nhập ở app mới.
+const VAULTLY_HOC = 'https://vaultly-api-p6r6kaznba-as.a.run.app/hoc/';
+function showMovedBanner() {
+  const bar = document.createElement('div');
+  bar.className = 'moved-banner';
+  bar.innerHTML = `
+    <b>App đã chuyển sang Vaultly</b>
+    <span>Bấm <b>Xuất backup</b> ở đây, rồi mở app mới → Cài đặt → <b>Nhập backup</b>.</span>
+    <div class="moved-actions">
+      <button class="pill" id="movedExport">Xuất backup</button>
+      <a class="pill" href="${VAULTLY_HOC}">Mở app mới</a>
+    </div>`;
+  document.body.prepend(bar);
+  bar.querySelector('#movedExport').onclick = () => {
+    const blob = new Blob([ctx.store.exportData()], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `office-english-backup-${ctx.today}.json`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  };
+}
+showMovedBanner();
+
 document.getElementById('tabs').addEventListener('click', (e) => {
   const btn = e.target.closest('button');
   if (btn) ctx.navigate(btn.dataset.tab);

@@ -537,3 +537,9 @@ a.pill.wide { text-decoration: none; margin-bottom: 14px; }
 .tr-actions .primary:disabled { opacity: 0.6; cursor: default; }
 .tr-actions .pill { justify-content: center; }
 .error-inline { color: var(--red); font-size: 14px; }
+
+/* ============ ĐÃ CHUYỂN SANG VAULTLY ============ */
+.moved-banner { position: sticky; top: 0; z-index: 30; display: grid; gap: 6px; padding: 12px 18px; background: #3b2a06; border-bottom: 1px solid rgba(245,166,35,0.45); color: #ffe2a8; font-size: 13.5px; line-height: 1.45; }
+.moved-banner b { color: #fff3d6; }
+.moved-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.moved-actions .pill { text-decoration: none; }
