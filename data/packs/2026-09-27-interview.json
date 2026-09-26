@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-27",
+  "track": "interview",
+  "theme": "Câu hỏi ngược cho nhà tuyển dụng",
+  "vocab": [
+    { "word": "questions for us", "ipa": "/ˈkwestʃənz fɔːr ʌs/", "meaning_vi": "câu hỏi dành cho nhà tuyển dụng (cuối buổi phỏng vấn)", "example": "At the end, the manager asked, \"Do you have any questions for us?\"", "example_vi": "Cuối buổi, quản lý hỏi: \"Bạn có câu hỏi nào cho chúng tôi không?\"" },
+    { "word": "report to", "ipa": "/rɪˈpɔːt tuː/", "meaning_vi": "báo cáo trực tiếp cho (ai)", "example": "Who would I report to if I join the team?", "example_vi": "Nếu tôi vào nhóm thì tôi sẽ báo cáo trực tiếp cho ai?" },
+    { "word": "main priorities", "ipa": "/meɪn praɪˈɒrətiz/", "meaning_vi": "các ưu tiên chính", "example": "What would my main priorities be in the first three months?", "example_vi": "Các ưu tiên chính của tôi trong ba tháng đầu sẽ là gì?" },
+    { "word": "measure success", "ipa": "/ˈmeʒə səkˈses/", "meaning_vi": "đo lường thành công", "example": "How do you measure success for this role?", "example_vi": "Công ty đo lường thành công của vị trí này như thế nào?" },
+    { "word": "ideal candidate", "ipa": "/aɪˈdiːəl ˈkændɪdət/", "meaning_vi": "ứng viên lý tưởng", "example": "Could you describe the ideal candidate for this position?", "example_vi": "Anh chị có thể mô tả ứng viên lý tưởng cho vị trí này không?" },
+    { "word": "growth opportunities", "ipa": "/ɡrəʊθ ˌɒpəˈtjuːnətiz/", "meaning_vi": "cơ hội phát triển", "example": "I'm looking for a company with clear growth opportunities.", "example_vi": "Tôi đang tìm một công ty có cơ hội phát triển rõ ràng." },
+    { "word": "promotion criteria", "ipa": "/prəˈməʊʃn kraɪˈtɪəriə/", "meaning_vi": "tiêu chí thăng chức", "example": "Are the promotion criteria for engineers written down somewhere?", "example_vi": "Tiêu chí thăng chức cho kỹ sư có được viết ra ở đâu không?" },
+    { "word": "hiring process", "ipa": "/ˈhaɪərɪŋ ˈprəʊses/", "meaning_vi": "quy trình tuyển dụng", "example": "How many more rounds are there in the hiring process?", "example_vi": "Quy trình tuyển dụng còn bao nhiêu vòng nữa ạ?" }
+  ],
+  "listening": {
+    "title": "Do you have any questions for us?",
+    "lines": [
+      { "speaker": "Phuong (Hiring Manager)", "voice": "female", "text": "That's all from my side, Long. Do you have any questions for us?" },
+      { "speaker": "Long (Candidate, QA Engineer)", "voice": "male", "text": "Yes, a few. First, who would I report to in this role?" },
+      { "speaker": "Phuong (Hiring Manager)", "voice": "female", "text": "You'd report to me directly. I manage the QA team of six people." },
+      { "speaker": "Long (Candidate, QA Engineer)", "voice": "male", "text": "Great. What would my main priorities be in the first three months?" },
+      { "speaker": "Phuong (Hiring Manager)", "voice": "female", "text": "Learn our product, then build automated tests for the checkout flow." },
+      { "speaker": "Long (Candidate, QA Engineer)", "voice": "male", "text": "And how do you measure success for this position?" },
+      { "speaker": "Phuong (Hiring Manager)", "voice": "female", "text": "Mainly fewer bugs in production. The ideal candidate can reduce our manual testing quickly." },
+      { "speaker": "Long (Candidate, QA Engineer)", "voice": "male", "text": "That's exactly what I did at my last company. What growth opportunities are there for QA engineers?" },
+      { "speaker": "Phuong (Hiring Manager)", "voice": "female", "text": "You can become a QA lead. Our promotion criteria are clear and reviewed twice a year." },
+      { "speaker": "Long (Candidate, QA Engineer)", "voice": "male", "text": "Sounds good. Finally, what are the next steps in the hiring process?" },
+      { "speaker": "Phuong (Hiring Manager)", "voice": "female", "text": "We'll give you feedback within a week. There's one more short call with our CTO." }
+    ],
+    "questions": [
+      { "q": "Who would Long report to?", "options": ["Phuong, the hiring manager", "The CTO", "A QA lead in another team"], "answer": 0 },
+      { "q": "What can the ideal candidate do, according to Phuong?", "options": ["Hire new testers", "Reduce manual testing quickly", "Design the checkout flow"], "answer": 1 },
+      { "q": "What is the next step in the hiring process?", "options": ["A written test", "A meeting with HR about salary", "A short call with the CTO"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Could you tell me what my main priorities would be in the first three months?",
+    "How do you usually measure success for someone in this position?",
+    "What growth opportunities are there for engineers who do well here?",
+    "At my last job, I cut manual testing time by half with automation scripts.",
+    "Could you share what the next steps in the hiring process look like?"
+  ]
+}

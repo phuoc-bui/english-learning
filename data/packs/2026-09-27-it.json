@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-27",
+  "track": "it",
+  "theme": "Deal lương & phúc lợi",
+  "vocab": [
+    { "word": "salary range", "ipa": "/ˈsæləri reɪndʒ/", "meaning_vi": "khung lương", "example": "The salary range for a senior developer here is 40 to 55 million VND.", "example_vi": "Khung lương cho lập trình viên cấp cao ở đây là 40 đến 55 triệu đồng." },
+    { "word": "take-home pay", "ipa": "/ˈteɪk həʊm peɪ/", "meaning_vi": "tiền lương thực lĩnh (sau thuế, bảo hiểm)", "example": "After tax and insurance, my take-home pay is about 30 million VND.", "example_vi": "Sau thuế và bảo hiểm, lương thực lĩnh của tôi khoảng 30 triệu đồng." },
+    { "word": "leave entitlement", "ipa": "/liːv ɪnˈtaɪtlmənt/", "meaning_vi": "số ngày phép được hưởng", "example": "Your annual leave entitlement increases after three years with the company.", "example_vi": "Số ngày phép năm của bạn sẽ tăng sau ba năm làm việc ở công ty." },
+    { "word": "on-call allowance", "ipa": "/ˌɒn ˈkɔːl əˈlaʊəns/", "meaning_vi": "phụ cấp trực hệ thống ngoài giờ", "example": "Engineers who join the weekend on-call rota get an on-call allowance.", "example_vi": "Kỹ sư tham gia lịch trực cuối tuần sẽ được nhận phụ cấp trực." },
+    { "word": "competing offer", "ipa": "/kəmˈpiːtɪŋ ˈɒfə/", "meaning_vi": "lời mời làm việc từ công ty khác", "example": "Nam has a competing offer, so HR wants to review his salary quickly.", "example_vi": "Nam đang có lời mời từ công ty khác, nên phòng nhân sự muốn xem lại lương anh ấy sớm." },
+    { "word": "performance appraisal", "ipa": "/pəˈfɔːməns əˈpreɪzl/", "meaning_vi": "buổi đánh giá hiệu suất", "example": "Salary changes are discussed during the performance appraisal in December.", "example_vi": "Việc thay đổi lương được bàn trong buổi đánh giá hiệu suất vào tháng Mười Hai." },
+    { "word": "work-from-home allowance", "ipa": "/ˌwɜːk frəm ˈhəʊm əˈlaʊəns/", "meaning_vi": "phụ cấp làm việc tại nhà", "example": "The company pays a work-from-home allowance for internet and electricity.", "example_vi": "Công ty trả phụ cấp làm việc tại nhà cho tiền internet và tiền điện." },
+    { "word": "annual health check", "ipa": "/ˈænjuəl helθ tʃek/", "meaning_vi": "khám sức khoẻ định kỳ hằng năm", "example": "Every employee gets a free annual health check at a private hospital.", "example_vi": "Mỗi nhân viên được khám sức khoẻ định kỳ miễn phí hằng năm tại bệnh viện tư." }
+  ],
+  "listening": {
+    "title": "Talking about next year's package",
+    "lines": [
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "Hi Hoa, thanks for making time. I'd like to talk about my salary before the performance appraisal." },
+      { "speaker": "Hoa (Engineering Manager)", "voice": "female", "text": "Of course, Minh. What's on your mind?" },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "I've led two big projects this year. I think my salary is now at the bottom of the salary range." },
+      { "speaker": "Hoa (Engineering Manager)", "voice": "female", "text": "That's fair. Your work on the payment service was excellent. What number do you have in mind?" },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "Around fifteen percent more. I also join the weekend on-call rota, but there's no on-call allowance." },
+      { "speaker": "Hoa (Engineering Manager)", "voice": "female", "text": "Fifteen percent is a lot this year. I can probably get ten, plus an on-call allowance from January." },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "Could we add something else, like a work-from-home allowance or more leave entitlement?" },
+      { "speaker": "Hoa (Engineering Manager)", "voice": "female", "text": "Two extra days of leave is possible. The allowance needs HR approval, but I'll ask." },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "That sounds reasonable. To be honest, I don't have a competing offer. I just want to stay and grow here." },
+      { "speaker": "Hoa (Engineering Manager)", "voice": "female", "text": "I appreciate that. I'll write this up and send it to HR by Friday." }
+    ],
+    "questions": [
+      { "q": "Why does Minh think he deserves a raise?", "options": ["He led two big projects this year", "He is moving to a new team", "He has a competing offer"], "answer": 0 },
+      { "q": "What does Hoa offer first?", "options": ["Fifteen percent and a free health check", "Ten percent plus an on-call allowance", "A work-from-home allowance only"], "answer": 1 },
+      { "q": "What still needs HR approval?", "options": ["The two extra days of leave", "The on-call allowance", "The work-from-home allowance"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I'd like to talk about my salary before the performance appraisal next month.",
+    "I believe my current salary is at the bottom of the salary range.",
+    "If a raise is difficult this year, could we look at other benefits?",
+    "I join the weekend on-call rota, so an on-call allowance would be fair.",
+    "Thanks for listening, and please let me know once HR has replied."
+  ]
+}

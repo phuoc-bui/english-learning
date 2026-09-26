@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-27",
+  "track": "office",
+  "theme": "Gọi điện với đối tác",
+  "vocab": [
+    { "word": "transfer the call", "ipa": "/trænsˈfɜː ðə kɔːl/", "meaning_vi": "chuyển cuộc gọi", "example": "Let me transfer the call to our purchasing department.", "example_vi": "Để tôi chuyển cuộc gọi sang phòng mua hàng." },
+    { "word": "put you on hold", "ipa": "/pʊt juː ɒn həʊld/", "meaning_vi": "cho (ai) chờ máy", "example": "Can I put you on hold for a minute while I check?", "example_vi": "Tôi cho anh chờ máy một phút để kiểm tra nhé?" },
+    { "word": "bad line", "ipa": "/bæd laɪn/", "meaning_vi": "đường truyền kém, tiếng không rõ", "example": "Sorry, it's a bad line. Could you repeat the last part?", "example_vi": "Xin lỗi, đường truyền kém quá. Anh nhắc lại đoạn cuối được không?" },
+    { "word": "on behalf of", "ipa": "/ɒn bɪˈhɑːf əv/", "meaning_vi": "thay mặt cho", "example": "I'm calling on behalf of Mr. Quang from the sales team.", "example_vi": "Tôi gọi thay mặt cho anh Quang ở phòng kinh doanh." },
+    { "word": "missed call", "ipa": "/mɪst kɔːl/", "meaning_vi": "cuộc gọi nhỡ", "example": "I saw a missed call from the supplier, so I'm calling them back.", "example_vi": "Tôi thấy có cuộc gọi nhỡ từ nhà cung cấp nên tôi đang gọi lại." },
+    { "word": "spell that", "ipa": "/spel ðæt/", "meaning_vi": "đánh vần (tên, email...)", "example": "Could you spell that for me, please? I want to get your email right.", "example_vi": "Anh đánh vần giúp tôi được không? Tôi muốn ghi đúng email của anh." },
+    { "word": "leave a voicemail", "ipa": "/liːv ə ˈvɔɪsmeɪl/", "meaning_vi": "để lại tin nhắn thoại", "example": "Nobody answered, so I left a voicemail about the delivery date.", "example_vi": "Không ai nghe máy nên tôi đã để lại tin nhắn thoại về ngày giao hàng." },
+    { "word": "direct line", "ipa": "/dəˈrekt laɪn/", "meaning_vi": "số điện thoại gọi trực tiếp", "example": "Here is my direct line, so you don't need to call reception.", "example_vi": "Đây là số gọi trực tiếp của tôi, nên anh không cần gọi qua lễ tân." }
+  ],
+  "listening": {
+    "title": "A call to a supplier",
+    "lines": [
+      { "speaker": "Thu (Office Administrator)", "voice": "female", "text": "Good morning, this is Thu from An Phat Company. I had a missed call from Mr. Duc." },
+      { "speaker": "Khoa (Receptionist)", "voice": "male", "text": "Good morning. Let me put you on hold and check if he's available." },
+      { "speaker": "Khoa (Receptionist)", "voice": "male", "text": "I'm sorry, Mr. Duc is visiting a customer. I can't transfer the call right now." },
+      { "speaker": "Thu (Office Administrator)", "voice": "female", "text": "No problem. I'm calling on behalf of our director about the new office chairs." },
+      { "speaker": "Khoa (Receptionist)", "voice": "male", "text": "Sorry, it's a bad line. Did you say office chairs?" },
+      { "speaker": "Thu (Office Administrator)", "voice": "female", "text": "Yes, office chairs. We ordered fifty, but only thirty arrived yesterday." },
+      { "speaker": "Khoa (Receptionist)", "voice": "male", "text": "I see. May I have your name again? Could you spell that?" },
+      { "speaker": "Thu (Office Administrator)", "voice": "female", "text": "It's Thu, T-H-U. Please ask him to call my direct line, 0903 456 789." },
+      { "speaker": "Khoa (Receptionist)", "voice": "male", "text": "Got it. He'll be back after lunch, so he should call you this afternoon." },
+      { "speaker": "Thu (Office Administrator)", "voice": "female", "text": "Thank you. If I don't hear from him, I'll leave a voicemail on his mobile." }
+    ],
+    "questions": [
+      { "q": "Why can't Khoa transfer the call to Mr. Duc?", "options": ["He is visiting a customer", "He is on holiday", "He is in a long meeting"], "answer": 0 },
+      { "q": "What is the problem with the order?", "options": ["The chairs are the wrong color", "Only thirty of fifty chairs arrived", "The invoice is missing"], "answer": 1 },
+      { "q": "When should Mr. Duc call Thu back?", "options": ["Tomorrow morning", "Next Monday", "This afternoon"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Good morning, I'm returning a missed call from someone in your accounts team.",
+    "I'm calling on behalf of my manager about the contract we sent last week.",
+    "Sorry, it's a bad line. Could you say that one more time?",
+    "Could you spell your email address for me, so I can write it correctly?",
+    "Please ask him to call me back on my direct line this afternoon."
+  ]
+}

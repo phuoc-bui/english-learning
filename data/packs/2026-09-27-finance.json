@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-27",
+  "track": "finance",
+  "theme": "Lương thưởng & phúc lợi",
+  "vocab": [
+    { "word": "payroll run", "ipa": "/ˈpeɪrəʊl rʌn/", "meaning_vi": "đợt chạy tính và chi lương", "example": "The monthly payroll run happens on the 25th.", "example_vi": "Đợt chạy lương hằng tháng diễn ra vào ngày 25." },
+    { "word": "commission", "ipa": "/kəˈmɪʃn/", "meaning_vi": "hoa hồng (theo doanh số)", "example": "Sales staff receive a 3 percent commission on every contract.", "example_vi": "Nhân viên kinh doanh nhận 3 phần trăm hoa hồng trên mỗi hợp đồng." },
+    { "word": "social insurance contribution", "ipa": "/ˈsəʊʃl ɪnˈʃʊərəns ˌkɒntrɪˈbjuːʃn/", "meaning_vi": "khoản đóng bảo hiểm xã hội", "example": "The company pays a larger social insurance contribution than the employee.", "example_vi": "Công ty đóng phần bảo hiểm xã hội nhiều hơn người lao động." },
+    { "word": "tax finalisation", "ipa": "/tæks ˌfaɪnəlaɪˈzeɪʃn/", "meaning_vi": "quyết toán thuế (thu nhập cá nhân)", "example": "Please send your documents for tax finalisation before the end of March.", "example_vi": "Vui lòng gửi hồ sơ quyết toán thuế trước cuối tháng Ba." },
+    { "word": "retroactive pay", "ipa": "/ˌretrəʊˈæktɪv peɪ/", "meaning_vi": "tiền lương truy lĩnh (trả bù cho kỳ trước)", "example": "Your raise started in July, so you'll get two months of retroactive pay.", "example_vi": "Mức tăng lương của bạn tính từ tháng Bảy, nên bạn sẽ được truy lĩnh hai tháng." },
+    { "word": "overtime rate", "ipa": "/ˈəʊvətaɪm reɪt/", "meaning_vi": "mức trả làm thêm giờ", "example": "The overtime rate on public holidays is 300 percent.", "example_vi": "Mức trả làm thêm giờ vào ngày lễ là 300 phần trăm." },
+    { "word": "salary advance", "ipa": "/ˈsæləri ədˈvɑːns/", "meaning_vi": "tạm ứng lương", "example": "Staff can ask for a salary advance of up to half a month's pay.", "example_vi": "Nhân viên có thể xin tạm ứng lương tối đa nửa tháng lương." },
+    { "word": "payroll cut-off", "ipa": "/ˈpeɪrəʊl ˈkʌt ɒf/", "meaning_vi": "hạn chốt dữ liệu tính lương", "example": "Any changes after the payroll cut-off will go into next month's salary.", "example_vi": "Mọi thay đổi sau hạn chốt lương sẽ được tính vào lương tháng sau." }
+  ],
+  "listening": {
+    "title": "A question about this month's salary",
+    "lines": [
+      { "speaker": "Hai (Sales Staff)", "voice": "male", "text": "Hi Ngoc, do you have a minute? I have a question about my salary this month." },
+      { "speaker": "Ngoc (Payroll Accountant)", "voice": "female", "text": "Sure, Hai. What seems to be the problem?" },
+      { "speaker": "Hai (Sales Staff)", "voice": "male", "text": "I can't see my commission for the big contract, and my overtime is missing too." },
+      { "speaker": "Ngoc (Payroll Accountant)", "voice": "female", "text": "Let me check. Both were approved on the 22nd, after the payroll cut-off on the 20th." },
+      { "speaker": "Hai (Sales Staff)", "voice": "male", "text": "Oh, so I'll get them next month?" },
+      { "speaker": "Ngoc (Payroll Accountant)", "voice": "female", "text": "Yes, in the next payroll run. The overtime will be at the holiday overtime rate, too." },
+      { "speaker": "Hai (Sales Staff)", "voice": "male", "text": "Good. Also, my raise started in August. Will I get that money back?" },
+      { "speaker": "Ngoc (Payroll Accountant)", "voice": "female", "text": "Yes, you'll get retroactive pay for August and September next month." },
+      { "speaker": "Hai (Sales Staff)", "voice": "male", "text": "Great, thanks. One more thing: is it possible to get a small salary advance?" },
+      { "speaker": "Ngoc (Payroll Accountant)", "voice": "female", "text": "Yes, up to half your salary. Just ask your manager to approve the request first." }
+    ],
+    "questions": [
+      { "q": "Why weren't Hai's commission and overtime paid this month?", "options": ["They were approved after the payroll cut-off", "His manager rejected them", "The overtime rate changed"], "answer": 0 },
+      { "q": "What will Hai receive for August and September?", "options": ["A year-end bonus", "Retroactive pay for his raise", "A tax refund"], "answer": 1 },
+      { "q": "What must Hai do before getting a salary advance?", "options": ["Fill in a tax form", "Wait until next year", "Get his manager's approval"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Hi, I have a quick question about the commission on my salary this month.",
+    "Anything approved after the payroll cut-off will be paid in next month's salary.",
+    "Your raise started in August, so you'll receive retroactive pay next month.",
+    "Please send us your documents for tax finalisation before the end of March.",
+    "A salary advance needs your manager's approval before we can process it."
+  ]
+}

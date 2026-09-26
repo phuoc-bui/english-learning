@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-27",
+  "track": "sales",
+  "theme": "Pitch ngắn (elevator pitch)",
+  "vocab": [
+    { "word": "elevator pitch", "ipa": "/ˈelɪveɪtə pɪtʃ/", "meaning_vi": "bài giới thiệu ngắn gọn (khoảng 30–60 giây)", "example": "Every salesperson should have an elevator pitch ready for events.", "example_vi": "Mỗi nhân viên kinh doanh nên chuẩn bị sẵn một bài giới thiệu ngắn cho các sự kiện." },
+    { "word": "conversation opener", "ipa": "/ˌkɒnvəˈseɪʃn ˈəʊpənə/", "meaning_vi": "câu mở đầu cuộc trò chuyện", "example": "A surprising number is a great conversation opener.", "example_vi": "Một con số gây bất ngờ là câu mở đầu trò chuyện rất tốt." },
+    { "word": "problem statement", "ipa": "/ˈprɒbləm ˈsteɪtmənt/", "meaning_vi": "phần nêu vấn đề (của khách)", "example": "Keep the problem statement short: shops lose money on lost stock.", "example_vi": "Hãy nêu vấn đề thật ngắn: các cửa hàng mất tiền vì thất thoát hàng." },
+    { "word": "customer benefit", "ipa": "/ˈkʌstəmə ˈbenɪfɪt/", "meaning_vi": "lợi ích cho khách hàng", "example": "Talk about the customer benefit, not only the technical features.", "example_vi": "Hãy nói về lợi ích cho khách hàng, không chỉ các tính năng kỹ thuật." },
+    { "word": "time-saving", "ipa": "/ˈtaɪm ˌseɪvɪŋ/", "meaning_vi": "tiết kiệm thời gian", "example": "Our time-saving app cuts stock checks from two hours to ten minutes.", "example_vi": "Ứng dụng tiết kiệm thời gian của chúng tôi rút ngắn việc kiểm kho từ hai tiếng xuống mười phút." },
+    { "word": "social proof", "ipa": "/ˈsəʊʃl pruːf/", "meaning_vi": "bằng chứng từ khách hàng khác (uy tín xã hội)", "example": "Mentioning our 500 happy customers is strong social proof.", "example_vi": "Nhắc đến 500 khách hàng hài lòng là bằng chứng uy tín rất mạnh." },
+    { "word": "plain English", "ipa": "/pleɪn ˈɪŋɡlɪʃ/", "meaning_vi": "tiếng Anh đơn giản, dễ hiểu", "example": "Explain the product in plain English, without technical words.", "example_vi": "Hãy giải thích sản phẩm bằng tiếng Anh đơn giản, không dùng từ kỹ thuật." },
+    { "word": "compelling", "ipa": "/kəmˈpelɪŋ/", "meaning_vi": "thuyết phục, hấp dẫn", "example": "A short story from a real customer makes your pitch more compelling.", "example_vi": "Một câu chuyện ngắn từ khách hàng thật khiến bài pitch thuyết phục hơn." }
+  ],
+  "listening": {
+    "title": "Practising the pitch before the event",
+    "lines": [
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "Tomorrow you'll meet many business owners at the event. Let's practise your elevator pitch, Bao." },
+      { "speaker": "Bao (Sales Executive)", "voice": "male", "text": "Okay. Hi, I'm Bao from KhoXanh. We make cloud-based inventory software with barcode APIs and..." },
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "Stop there. That's too technical. Use plain English and start with a conversation opener." },
+      { "speaker": "Bao (Sales Executive)", "voice": "male", "text": "Let me try again. Did you know most small shops lose ten percent of their stock every year?" },
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "Much better. That's a clear problem statement. Now, what's the customer benefit?" },
+      { "speaker": "Bao (Sales Executive)", "voice": "male", "text": "KhoXanh helps shops track every item on their phone, so they stop losing money." },
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "Good. Can you make it more compelling? Add some social proof." },
+      { "speaker": "Bao (Sales Executive)", "voice": "male", "text": "Over five hundred shops in Hanoi use us. It's very time-saving: stock checks take ten minutes, not two hours." },
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "Perfect. Now finish by asking for a next step." },
+      { "speaker": "Bao (Sales Executive)", "voice": "male", "text": "Can I book a free fifteen-minute demo for you next week? Here's my card." },
+      { "speaker": "Trang (Sales Manager)", "voice": "female", "text": "That's short and clear. You're ready for tomorrow." }
+    ],
+    "questions": [
+      { "q": "What was wrong with Bao's first try?", "options": ["It was too technical", "It was too short", "He forgot his name"], "answer": 0 },
+      { "q": "What social proof does Bao use?", "options": ["A free gift", "Over five hundred shops use KhoXanh", "A famous investor"], "answer": 1 },
+      { "q": "How does Bao end his pitch?", "options": ["He shows a video", "He asks for a contract today", "He offers a free fifteen-minute demo"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Did you know most small shops lose ten percent of their stock every year?",
+    "We help small businesses track their stock easily on their phones.",
+    "Over five hundred shops in Hanoi already use our app every day.",
+    "Could I book a short demo with you next week to show you how it works?",
+    "Here's my card. Feel free to call me if you have any questions."
+  ]
+}
