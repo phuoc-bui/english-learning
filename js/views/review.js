@@ -3,6 +3,7 @@ import { speak, stopSpeaking, listenOnce, sttSupported } from '../speech.js';
 import { compare } from '../diff.js';
 import { icon } from '../icons.js';
 import { TRACK_LABEL } from '../profile-options.js';
+import { esc } from '../clip.js';
 
 // Độ nhớ theo SRS: mới / đang học / thuộc
 function strength(card) {
@@ -42,7 +43,8 @@ export function render(el, ctx) {
   }
 
   function trackChips(withAll = true) {
-    const opts = [...(withAll ? [['all', 'Tất cả']] : []), ...Object.entries(TRACK_LABEL)];
+    const opts = [...(withAll ? [['all', 'Tất cả']] : []), ...Object.entries(TRACK_LABEL),
+      ...(st.seg === 'words' ? [['clip', 'Phim & nhạc']] : [])];
     return `<div class="chips">${opts.map(([v, l]) =>
       `<button class="chip ${st.track === v ? 'on' : ''}" data-track="${v}">${l}</button>`).join('')}</div>`;
   }
@@ -126,7 +128,11 @@ export function render(el, ctx) {
       ${trackChips()}
       ${st.seg === 'packs' ? drawPacks() : drawWords()}
     `;
-    el.querySelectorAll('.seg button').forEach((b) => { b.onclick = () => { st.seg = b.dataset.seg; draw(); }; });
+    el.querySelectorAll('.seg button').forEach((b) => { b.onclick = () => {
+      st.seg = b.dataset.seg;
+      if (st.seg === 'packs' && st.track === 'clip') st.track = 'all';
+      draw();
+    }; });
     el.querySelectorAll('.chip').forEach((b) => { b.onclick = () => { st.track = b.dataset.track; draw(); }; });
     if (st.seg === 'packs') {
       el.querySelectorAll('.pack-row').forEach((b) => {
@@ -169,11 +175,11 @@ export function render(el, ctx) {
     return words.map((w) => {
       const m = wordMeta[w] || {};
       return `
-      <div class="word-row expandable" data-w="${w}">
-        <button class="pill play-w" data-w="${w}">${icon.volume(14)}</button>
-        <div><b>${w}</b> <span class="sbadge s-${strength(srs[w])}">${STRENGTH_LABEL[strength(srs[w])]}</span>
-          <br><small>${m.meaning_vi || ''}</small>
-          <div class="word-detail" hidden><small>${m.ipa || ''}</small><p>${m.example || ''}</p><p class="meta">${m.example_vi || ''}</p></div>
+      <div class="word-row expandable" data-w="${esc(w)}">
+        <button class="pill play-w" data-w="${esc(w)}">${icon.volume(14)}</button>
+        <div><b>${esc(w)}</b> <span class="sbadge s-${strength(srs[w])}">${STRENGTH_LABEL[strength(srs[w])]}</span>
+          <br><small>${esc(m.meaning_vi)}</small>
+          <div class="word-detail" hidden><small>${esc(m.ipa)}</small><p>${esc(m.example)}</p><p class="meta">${esc(m.example_vi)}</p>${m.source?.title ? `<p class="meta">${esc(m.source.title)}</p>` : ''}</div>
         </div>
       </div>`;
     }).join('');

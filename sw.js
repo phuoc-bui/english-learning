@@ -1,14 +1,14 @@
-const SHELL_CACHE = 'shell-v3';
+const SHELL_CACHE = 'shell-v4';
 const DATA_CACHE = 'data-v2';
 const SHELL = [
   './', 'index.html', 'css/app.css', 'manifest.webmanifest',
   'icons/icon.svg', 'icons/icon-maskable.svg',
   'js/app.js', 'js/dates.js', 'js/srs.js', 'js/diff.js', 'js/pack.js',
   'js/store.js', 'js/data.js', 'js/speech.js', 'js/icons.js',
-  'js/plan.js', 'js/prompt.js', 'js/quiz.js', 'js/profile-options.js',
+  'js/plan.js', 'js/prompt.js', 'js/quiz.js', 'js/profile-options.js', 'js/clip.js',
   'js/views/today.js', 'js/views/vocab.js', 'js/views/practice.js',
   'js/views/review.js', 'js/views/progress.js', 'js/views/listening.js',
-  'js/views/settings.js', 'js/views/onboarding.js',
+  'js/views/settings.js', 'js/views/onboarding.js', 'js/views/clips.js',
 ];
 
 self.addEventListener('install', (e) => {
@@ -42,7 +42,8 @@ self.addEventListener('fetch', (e) => {
         .catch(() => caches.match(e.request)),
     );
   } else {
-    // shell: cache-first
-    e.respondWith(caches.match(e.request).then((hit) => hit || fetch(e.request)));
+    // shell: cache-first; mở trang có query (từ nút Chia sẻ ./?text=…) vẫn dùng index đã cache khi offline
+    const opts = e.request.mode === 'navigate' ? { ignoreSearch: true } : undefined;
+    e.respondWith(caches.match(e.request, opts).then((hit) => hit || fetch(e.request)));
   }
 });

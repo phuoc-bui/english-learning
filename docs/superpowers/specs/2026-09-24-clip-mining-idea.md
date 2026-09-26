@@ -1,7 +1,7 @@
 # Ý tưởng: Học qua phim & nhạc — "Săn câu" (bản phác thảo)
 
 **Ngày:** 2026-09-24
-**Trạng thái:** Phác thảo ý tưởng, chưa chốt để triển khai
+**Trạng thái:** MVP (giai đoạn 1) đã làm — xem mục 8
 **Bối cảnh:** Gói bài công sở soạn sẵn mỗi ngày (v2) chạy ổn về kỹ thuật nhưng không đủ hấp dẫn để duy trì thói quen. Thứ người dùng *đã* xem mỗi ngày: hoạt hình 3D Trung Quốc (donghua), video YouTube, nhạc trên YouTube Music. Ý tưởng: đưa việc học vào chính những thứ đó thay vì bắt người dùng mở một bài học riêng.
 
 ## 1. Nguyên lý
@@ -90,3 +90,17 @@ Không ghi câu/lời bài hát vào repo công khai (bản quyền + riêng tư
 - Gói bài công sở: giữ song song, hạ thành tuỳ chọn, hay tạm dừng routine?
 - Nghĩa tiếng Việt: thích tự gõ, hay luôn để AI giải nghĩa?
 - Có dùng máy tính khi xem không? (Trên desktop có thể dùng thêm extension phụ đề song ngữ như Language Reactor; Chrome Android không chạy extension.)
+
+## 8. Đã chốt & MVP (2026-09-26)
+
+- Donghua: **chỉ đọc phụ đề tiếng Anh**; gặp bản lồng tiếng Anh thì dùng cùng luồng. Web donghua có thể cần VPN — app không tải trang đó, chỉ lưu link; ưu tiên kênh chính thức trên YouTube để "Xem lại cảnh" mở đúng giây.
+- Nguồn tự do: chia sẻ link từ **bất kỳ** app/web nào (YouTube, YouTube Music, Chrome…), thêm được nhiều phim khác nhau.
+- Không xem phim trong app: web phim thường chặn nhúng; trên Android dùng chia đôi màn hình. Nhúng trình phát YouTube để giai đoạn sau.
+
+**Đã làm:**
+- `manifest.webmanifest` khai báo `share_target` (GET `./?title&text&url`); `js/app.js` nhận dữ liệu chia sẻ → mở `#clips`; `sw.js` phục vụ index đã cache cho URL có query khi offline.
+- `js/clip.js`: tách link/tiêu đề/giây từ dữ liệu chia sẻ, chuẩn hoá link YouTube (bỏ `si=`, thêm `&t=`), tách từ để chạm chọn.
+- `js/views/clips.js`: form **Bắt câu** (câu, chạm chọn từ/cụm, nghĩa, ghi chú, loại nguồn, tên phim/tập, link, phút:giây) + danh sách **Chờ giải nghĩa** / **Bộ sưu tập**.
+- `store.js`: `mined[]`; câu có nghĩa thành thẻ trong `srs`/`wordMeta` với `track: 'clip'` (không đè từ của gói bài), có trong backup.
+- Thẻ Từ vựng hiện câu gốc + nguồn, mặt sau có **Xem lại cảnh**; Sổ tay có bộ lọc "Phim & nhạc"; màn Hôm nay có thẻ **Săn câu**.
+- Chưa tính vào streak (giai đoạn 4).
