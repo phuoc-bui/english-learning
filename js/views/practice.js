@@ -1,8 +1,9 @@
 import { speak, listenOnce, sttSupported } from '../speech.js';
 import { compare } from '../diff.js';
 import { icon } from '../icons.js';
-import { buildPrompt, taskDesc, AI_APPS } from '../prompt.js';
-import { AI_KINDS, aiKindsFor } from '../plan.js';
+import { buildPrompt, AI_APPS } from '../prompt.js';
+import { AI_KINDS } from '../plan.js';
+import { esc } from '../clip.js';
 
 const ERROR_MSG = {
   'not-allowed': 'Micro bị chặn — vào Cài đặt Chrome ▸ Quyền của trang để bật micro.',
@@ -12,10 +13,12 @@ const ERROR_MSG = {
 };
 
 const AI_META = {
-  conversation: { ico: 'message', title: 'Hội thoại với AI' },
-  speaking: { ico: 'mic', title: 'Nói tự do với AI' },
-  writing: { ico: 'pencil', title: 'Viết với AI' },
+  conversation: { ico: 'message', title: 'Hội thoại với AI', desc: 'Nhập vai trò chuyện, AI lồng các từ bạn vừa bắt và sửa lỗi' },
+  speaking: { ico: 'mic', title: 'Nói tự do với AI', desc: '3 đề nói ngắn dùng từ bạn vừa bắt — dùng voice mode' },
+  writing: { ico: 'pencil', title: 'Viết với AI', desc: 'Viết đoạn ngắn dùng các từ đã bắt, AI chữa từng câu' },
 };
+const SHADOW_COUNT = 8;
+const AI_WORDS = 12;
 
 function toast(el, msg) {
   const t = document.createElement('div');
@@ -26,30 +29,36 @@ function toast(el, msg) {
 }
 
 export function render(el, ctx) {
-  const { store, pack } = ctx;
-  if (!pack) {
-    el.innerHTML = '<p class="error">Chưa tải được bài học.</p>';
+  const { store } = ctx;
+  const profile = store.state.profile || { level: 'b1', goals: [], aiApp: 'other' };
+  const app = AI_APPS[profile.aiApp] || AI_APPS.other;
+  const recent = [...store.state.mined].reverse();
+  // câu gần nhất (không trùng) để nói theo; từ gần nhất cho AI
+  const sentences = [...new Set(recent.map((m) => m.text))].slice(0, SHADOW_COUNT);
+  const words = [...new Set(recent.map((m) => m.focus))].slice(0, AI_WORDS);
+  const best = store.state.bestScores;
+  // prompt AI dựng từ các từ đã bắt (dùng lại buildPrompt vốn nhận 1 "gói")
+  const pseudoPack = { theme: 'everyday English from the videos, songs and articles I watched', vocab: words.map((w) => ({ word: w })) };
+
+  if (!sentences.length) {
+    el.innerHTML = `
+      <header class="page-head"><h1>Luyện tập</h1></header>
+      <div class="empty"><h2>🎙️ Chưa có câu để luyện</h2>
+      <p>Bắt vài câu từ video, nhạc hoặc tin tức — chúng sẽ thành bài nói theo và bài luyện với AI ở đây.</p>
+      <a class="primary" href="#clips" style="display:inline-flex;width:auto;padding:12px 20px;text-decoration:none;margin-top:14px">Đi săn câu</a></div>`;
     return;
   }
-  const profile = store.state.profile || { level: 'b1', goals: [], minutes: 15, aiApp: 'other' };
-  const app = AI_APPS[profile.aiApp] || AI_APPS.other;
-  const planned = aiKindsFor(ctx.today, profile.minutes);
-  const sentences = pack.shadowing;
-  const best = store.state.bestScores;
-
-  const maybeComplete = () => {
-    if (sentences.every((s) => best[s] != null)) store.markActivity(ctx.today, 'speaking');
-  };
 
   function draw() {
     el.innerHTML = `
       <header class="page-head"><h1>Luyện tập</h1></header>
 
-      <h2>Shadowing</h2>
+      <h2>Nói theo câu đã bắt</h2>
+      <p class="meta" style="margin-bottom:10px">${sentences.length} câu gần nhất — nghe mẫu rồi bấm Nói, app chấm từng từ.</p>
       ${sttSupported ? '' : '<p class="warn">Trình duyệt này không hỗ trợ nhận giọng nói — bạn vẫn nghe và đọc theo câu mẫu được.</p>'}
       ${sentences.map((s, i) => `
         <div class="shadow-item">
-          <p class="sentence">${s}</p>
+          <p class="sentence">${esc(s)}</p>
           <div class="row">
             <button class="pill play" data-i="${i}">${icon.play(14)} Nghe</button>
             <button class="pill play slow" data-i="${i}">${icon.turtle(14)} 0.75x</button>
@@ -60,7 +69,7 @@ export function render(el, ctx) {
         </div>`).join('')}
 
       <h2>Thực hành với AI</h2>
-      <p class="meta" style="margin-bottom:10px">Mở ${app.name} với prompt soạn sẵn theo bài hôm nay, xong quay lại đánh dấu ✓</p>
+      <p class="meta" style="margin-bottom:10px">Mở ${app.name} với prompt dùng ${words.length} từ bạn bắt gần đây: <b>${words.slice(0, 6).map(esc).join(', ')}${words.length > 6 ? '…' : ''}</b></p>
       <div class="ai-cards">
         ${AI_KINDS.map((k) => {
           const done = store.isAiDone(ctx.today, k);
@@ -69,9 +78,8 @@ export function render(el, ctx) {
             <div class="head">
               <span class="tile">${icon[AI_META[k].ico](18)}</span>
               <b>${AI_META[k].title}</b>
-              ${planned.includes(k) ? '<span class="badge">kế hoạch hôm nay</span>' : ''}
             </div>
-            <p class="desc">${taskDesc(k, pack)}</p>
+            <p class="desc">${AI_META[k].desc}</p>
             <div class="row">
               <button class="pill open-ai" data-kind="${k}">${icon.external(14)} Mở ${app.name}</button>
               <button class="pill mark-ai ${done ? 'on' : ''}" data-kind="${k}">${done ? `${icon.check(14)} Đã xong` : 'Đánh dấu xong'}</button>
@@ -103,7 +111,7 @@ export function render(el, ctx) {
           onResult: (transcript) => {
             const { words, score } = compare(sentences[i], transcript);
             document.getElementById(`res-${i}`).innerHTML = words
-              .map((w) => `<span class="${w.ok ? 'ok' : 'miss'}">${w.text}</span>`)
+              .map((w) => `<span class="${w.ok ? 'ok' : 'miss'}">${esc(w.text)}</span>`)
               .join('');
             if (score > (best[sentences[i]] ?? -1)) {
               best[sentences[i]] = score;
@@ -111,7 +119,6 @@ export function render(el, ctx) {
             }
             document.getElementById(`score-${i}`).textContent = `${score}%`;
             store.addSpeakingSeconds(ctx.today, Math.max(1, Math.round((Date.now() - startedAt) / 1000)));
-            maybeComplete();
           },
           onError: (code) => {
             document.getElementById(`res-${i}`).innerHTML = `<span class="msg">${ERROR_MSG[code] || 'Có lỗi, thử lại nhé.'}</span>`;
@@ -128,7 +135,7 @@ export function render(el, ctx) {
     el.querySelectorAll('.open-ai').forEach((b) => {
       b.onclick = async () => {
         const kind = b.dataset.kind;
-        const prompt = buildPrompt(kind, pack, profile);
+        const prompt = buildPrompt(kind, pseudoPack, profile);
         let copied = true;
         try {
           await navigator.clipboard.writeText(prompt);

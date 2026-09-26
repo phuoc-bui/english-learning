@@ -1,6 +1,7 @@
 // Form "Bắt câu" dùng chung cho màn Săn câu và màn Xem trong app.
 import { icon } from '../icons.js';
 import { KIND_LABEL, esc, parseTime, formatTime, tokenize, focusFromPicks } from '../clip.js';
+import { DAILY_GOAL } from '../store.js';
 
 const LAST_KIND = 'office-english-clip-kind';
 
@@ -109,6 +110,9 @@ export function createCaptureForm(box, ctx, { source = {}, hideUrl = false, hide
       inbox: `Đã lưu "${chosen}" — nhớ điền nghĩa trong "Chờ giải nghĩa"`,
       exists: `"${chosen}" đã có trong sổ từ vựng — câu vẫn được lưu vào bộ sưu tập`,
     }[res];
+    // tiến độ mục tiêu ngày
+    const n = ctx.store.minedCount(ctx.today);
+    msg += n === DAILY_GOAL ? ` · Đủ ${DAILY_GOAL} câu hôm nay, giữ được streak 🔥` : n < DAILY_GOAL ? ` · Hôm nay ${n}/${DAILY_GOAL} câu` : ` · Hôm nay ${n} câu`;
     // giữ nguồn để bắt tiếp câu khác cùng tập
     Object.assign(f, { text: '', picks: new Set(), meaning: '', note: '', time: '' });
     draw();

@@ -506,3 +506,16 @@ a.pill.wide { text-decoration: none; margin-bottom: 14px; }
   .news-side #cf-save { position: sticky; bottom: 0; box-shadow: 0 -12px 18px -6px var(--card); }
   .news-article { position: static; background: none; padding: 0; }
 }
+
+/* ============ MỤC TIÊU NGÀY ============ */
+.goal { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 16px; margin-bottom: 22px; display: grid; gap: 10px; }
+.goal.done { border-color: rgba(51,201,138,0.35); }
+.goal-head { display: flex; justify-content: space-between; align-items: center; }
+.goal-head b { font-size: 16px; }
+.goal-count { font-family: var(--font-display); font-weight: 800; color: var(--accent-light); }
+.goal.done .goal-count { color: var(--green); }
+.goal-steps { display: flex; gap: 8px; }
+.goal-steps i { flex: 1; height: 10px; border-radius: 999px; background: rgba(255,255,255,0.08); }
+.goal-steps i.on { background: linear-gradient(90deg, var(--accent-grad-a), var(--accent-light)); }
+.goal.done .goal-steps i.on { background: var(--green); }
+.page-head a.pill { text-decoration: none; }

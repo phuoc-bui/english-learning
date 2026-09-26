@@ -9,7 +9,7 @@ export function render(el, ctx) {
   let shared = ctx.shared ? parseShared(ctx.shared) : null;
   ctx.shared = null;
 
-  const st = { mode: shared ? 'capture' : 'list', msg: '' };
+  const st = { mode: shared || ctx.params.get('new') ? 'capture' : 'list', msg: '' };
 
   function sourceLine(src) {
     if (!src) return '';
@@ -40,16 +40,6 @@ export function render(el, ctx) {
     createCaptureForm(el.querySelector('#capture'), ctx, { source: shared || {} });
   }
 
-  // Video YouTube đã từng bắt câu -> xem tiếp trong app
-  function recentVideos() {
-    const seen = new Map();
-    for (const m of [...store.state.mined].reverse()) {
-      const id = youtubeId(m.source?.url || '');
-      if (id && !seen.has(id)) seen.set(id, { id, title: m.source.title || id, count: 0 });
-      if (id) seen.get(id).count++;
-    }
-    return [...seen.values()].slice(0, 5);
-  }
 
   function drawList() {
     const mined = [...store.state.mined].reverse();
@@ -57,8 +47,8 @@ export function render(el, ctx) {
     const done = mined.filter((m) => m.meaning_vi);
     el.innerHTML = `
       <header class="page-head">
-        <button class="pill" id="back">${icon.chevron(14)} Hôm nay</button>
         <h1>Săn câu</h1>
+        <a class="pill" href="#news">${icon.book(14)} Đọc tin</a>
       </header>
       <p class="meta">Dán link YouTube / YouTube Music để xem ngay trong app, phụ đề hoặc lời bài hát chạy bên cạnh. Link web phim khác vẫn lưu câu được (mở ở tab mới). Trên điện thoại cũng có thể bấm <b>Chia sẻ → Office English</b> từ app khác. Câu có nghĩa sẽ thành thẻ trong tab Từ vựng.</p>
       <div class="watch-open">
@@ -66,8 +56,8 @@ export function render(el, ctx) {
         <button class="pill" id="openYt">${icon.play(14)} Xem</button>
       </div>
       <p class="warn" id="ytMsg"></p>
-      ${recentVideos().map((v) => `
-        <a class="card" href="${watchHash(v.id)}">
+      ${recentVideos(store).map((v) => `
+        <a class="card" href="${watchHash(v.id, null, v.music)}">
           <span class="tile">${icon.play(17)}</span>
           <span class="body"><b>${esc(v.title)}</b><small>${v.count} câu đã bắt · xem tiếp</small></span>
           <span class="trail">${icon.chevron(18)}</span>
@@ -100,7 +90,6 @@ export function render(el, ctx) {
           ${sourceLine(m.source)}
         </div>`).join('') : '<p class="meta">Chưa có câu nào. Bắt câu đầu tiên thôi!</p>'}
     `;
-    el.querySelector('#back').onclick = () => ctx.navigate('today');
     el.querySelector('#new').onclick = () => { st.mode = 'capture'; st.msg = ''; draw(); };
     const yt = el.querySelector('#yt');
     const openYt = () => {
@@ -148,4 +137,16 @@ export function clipStats(store) {
   const mined = store.state.mined || [];
   const inbox = mined.filter((m) => !m.meaning_vi).length;
   return { total: mined.length, inbox };
+}
+
+// Video YouTube đã từng bắt câu -> xem tiếp trong app (dùng cho Săn câu + Hôm nay)
+export function recentVideos(store, limit = 5) {
+  const seen = new Map();
+  for (const m of [...store.state.mined].reverse()) {
+    const id = youtubeId(m.source?.url || '');
+    if (!id) continue;
+    if (!seen.has(id)) seen.set(id, { id, title: m.source.title || id, count: 0, music: isMusicUrl(m.source.url) || m.source.kind === 'music' });
+    seen.get(id).count++;
+  }
+  return [...seen.values()].slice(0, limit);
 }

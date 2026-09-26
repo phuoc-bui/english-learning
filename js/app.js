@@ -1,26 +1,21 @@
 import { createStore } from './store.js';
-import { loadLatestPack } from './data.js';
 import { localDateStr } from './dates.js';
 import * as today from './views/today.js';
 import * as vocab from './views/vocab.js';
 import * as practice from './views/practice.js';
-import * as review from './views/review.js';
 import * as progress from './views/progress.js';
-import * as listening from './views/listening.js';
 import * as settings from './views/settings.js';
 import * as onboarding from './views/onboarding.js';
 import * as clips from './views/clips.js';
 import * as watch from './views/watch.js';
 import * as news from './views/news.js';
 
-const views = { today, vocab, practice, review, progress, listening, settings, clips, watch, news };
+const views = { today, vocab, practice, progress, settings, clips, watch, news };
 // view ẩn (không có tab riêng) -> tab nào sáng
-const HIDDEN = { listening: 'today', settings: 'today', clips: 'today', watch: 'today', news: 'today' };
+const HIDDEN = { settings: 'today', watch: 'clips', news: 'clips' };
 
 const ctx = {
   store: createStore(localStorage),
-  pack: null,
-  packError: false,
   today: localDateStr(),
   navigate: (name) => { location.hash = name; },
   shared: null, // dữ liệu từ nút Chia sẻ của Android (Web Share Target)
@@ -66,11 +61,6 @@ window.addEventListener('hashchange', render);
     document.getElementById('tabs').hidden = true;
     onboarding.render(document.getElementById('view'), ctx);
   } else {
-    try {
-      ctx.pack = await loadLatestPack(ctx.today, ctx.store.state.profile.track);
-    } catch {
-      ctx.packError = true;
-    }
     render();
   }
   if ('serviceWorker' in navigator) {

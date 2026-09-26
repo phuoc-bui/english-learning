@@ -138,3 +138,15 @@ Người dùng hay xem trên máy tính → thêm màn **Xem & bắt câu** (`#w
   - Dự phòng: **dán bài báo** từ trang khác (khi mất mạng / bị chặn gọi trực tiếp).
 - Đọc bài (`#news?src=…&id=…`): tách câu (giữ viết tắt Mr./U.S.), bấm từ → form điền sẵn câu chứa từ + chọn sẵn từ (nguồn "Tin tức", không có phút:giây); nghe đọc từng đoạn. Máy tính: bài bên trái, form bên phải; điện thoại: form trượt lên từ đáy.
 - Nội dung bài chỉ hiển thị, không lưu; thẻ ôn giữ câu đã bắt + link bài gốc.
+
+## 11. Săn câu thành trục chính, bỏ gói bài cũ (2026-09-26)
+
+- **Streak**: một ngày hoàn thành khi bắt đủ **3 câu** (`DAILY_GOAL` trong `store.js`, đếm `mined.createdAt`). Ngày cũ đã hoàn thành theo luật gói bài vẫn giữ trong lịch sử.
+- Bỏ khỏi app: tải gói bài hằng ngày, màn Nghe hội thoại, tab Ôn tập (bài cũ + sổ tay), câu hỏi "Lĩnh vực" và "Số phút mỗi ngày" ở onboarding/cài đặt. Thẻ từ gói bài cũ không còn trong hàng ôn.
+- Thanh tab: **Hôm nay · Săn câu · Từ vựng · Luyện tập · Tiến độ**.
+  - Hôm nay: streak, thanh "x/3 câu", lối vào Video/nhạc, Đọc tin, Tự gõ câu, Xem tiếp, Ôn thẻ đến hạn, Chờ giải nghĩa.
+  - Từ vựng: chỉ thẻ `track: 'clip'`.
+  - Luyện tập: nói theo 8 câu bắt gần nhất; luyện với AI (hội thoại / nói / viết) bằng 12 từ bắt gần nhất.
+  - Tiến độ: câu đã bắt, thẻ ôn, lịch 30 ngày (đủ 3 câu / 1–2 câu); kiểm tra tuần/tháng ra đề từ câu đã bắt có nghĩa.
+- Form Bắt câu báo tiến độ ngày sau mỗi lần lưu ("Hôm nay 2/3 câu").
+- `data/packs/`, `routine/PROMPT.md`, `js/data.js`, `js/pack.js` giữ lại (script validate, test) nhưng app không dùng; routine soạn gói bài nên tắt.
