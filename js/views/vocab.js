@@ -1,4 +1,4 @@
-import { initialCard, review, isDue } from '../srs.js';
+import { review, isDue } from '../srs.js';
 import { speak } from '../speech.js';
 import { icon } from '../icons.js';
 import { esc, sceneAnchor, formatTime, KIND_LABEL } from '../clip.js';
@@ -11,20 +11,13 @@ function highlight(example, word) {
 }
 
 export function render(el, ctx) {
-  const { store, pack } = ctx;
+  const { store } = ctx;
   const { srs, wordMeta } = store.state;
 
-  if (pack) {
-    for (const v of pack.vocab) {
-      if (!srs[v.word]) {
-        srs[v.word] = initialCard();
-        wordMeta[v.word] = { ipa: v.ipa, meaning_vi: v.meaning_vi, example: v.example, example_vi: v.example_vi, track: pack.track || 'it' };
-      }
-    }
-    store.save();
-  }
-
-  const queue = Object.keys(srs).filter((w) => isDue(srs[w], ctx.today)).slice(0, 20);
+  // chỉ thẻ từ câu tự bắt (từ của gói bài cũ không còn hiện)
+  const queue = Object.keys(srs)
+    .filter((w) => wordMeta[w]?.track === 'clip' && isDue(srs[w], ctx.today))
+    .slice(0, 20);
   let i = 0;
   let flipped = false;
   let reviewed = 0;
@@ -65,10 +58,12 @@ export function render(el, ctx) {
 
   function draw() {
     if (i >= queue.length) {
-      if (reviewed > 0) store.markActivity(ctx.today, 'vocab');
-      el.innerHTML = `<div class="empty"><h2>🎉 Xong rồi!</h2><p>${
-        reviewed > 0 ? `Bạn đã ôn ${reviewed} thẻ hôm nay.` : 'Không có thẻ nào đến hạn. Quay lại ngày mai nhé.'
-      }</p></div>`;
+      const total = Object.keys(srs).filter((w) => wordMeta[w]?.track === 'clip').length;
+      el.innerHTML = `<div class="empty"><h2>${reviewed ? '🎉 Xong rồi!' : total ? '✅ Hết thẻ đến hạn' : '📭 Chưa có thẻ nào'}</h2><p>${
+        reviewed > 0 ? `Bạn đã ôn ${reviewed} thẻ hôm nay.`
+          : total ? 'Không có thẻ nào đến hạn. Quay lại ngày mai nhé.'
+            : 'Bắt câu từ video, nhạc hoặc tin tức — câu có nghĩa sẽ thành thẻ ôn ở đây.'
+      }</p>${total ? '' : '<a class="primary" href="#clips" style="display:inline-flex;width:auto;padding:12px 20px;text-decoration:none;margin-top:14px">Đi săn câu</a>'}</div>`;
       return;
     }
     word = queue[i];

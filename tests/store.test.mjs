@@ -179,3 +179,20 @@ test('importData chấp nhận mined, từ chối mined sai kiểu', () => {
   assert.equal(s.state.mined.length, 1);
   assert.throws(() => s.importData(JSON.stringify({ days: {}, mined: {} })));
 });
+
+test('streak mới: đủ 3 câu/ngày mới tính; ngày cũ theo gói bài vẫn giữ', () => {
+  const s = createStore(fakeStorage());
+  const add = (date, n) => { for (let i = 0; i < n; i++) s.addMined({ text: `Line ${date} ${i}`, focus: `w${date}${i}`, source: {}, createdAt: date }); };
+  add('2026-09-24', 3);
+  add('2026-09-25', 2);
+  assert.equal(s.minedCount('2026-09-25'), 2);
+  assert.equal(s.isDayComplete('2026-09-24'), true);
+  assert.equal(s.isDayComplete('2026-09-25'), false);
+  assert.equal(s.computeStreak('2026-09-25'), 1); // hôm nay chưa đủ không làm đứt streak
+  add('2026-09-25', 1);
+  assert.equal(s.computeStreak('2026-09-25'), 2);
+  completeDay(s, '2026-09-23'); // ngày cũ học gói bài
+  assert.equal(s.computeStreak('2026-09-25'), 3);
+  assert.equal(s.computeLongestStreak(), 3);
+  assert.deepEqual(s.studiedDates(), ['2026-09-23', '2026-09-24', '2026-09-25']);
+});

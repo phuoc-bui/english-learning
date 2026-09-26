@@ -1,27 +1,23 @@
 import { addDays } from '../dates.js';
 import { icon } from '../icons.js';
 import { dueTest, generateQuiz } from '../quiz.js';
-import { loadIndex, loadPack } from '../data.js';
+import { DAILY_GOAL } from '../store.js';
+import { esc } from '../clip.js';
 import { buildAiTestPrompt, AI_APPS } from '../prompt.js';
 import { speak } from '../speech.js';
 
 const KIND_LABEL = { week: 'tuần', month: 'tháng' };
 
-async function packsForPeriod(ctx, kind) {
-  const days = kind === 'month' ? 30 : 7;
-  const from = addDays(ctx.today, -(days - 1));
-  const studied = Object.keys(ctx.store.state.days).filter((d) => d >= from && d <= ctx.today);
-  const track = ctx.store.state.profile?.track || 'it';
-  const byDate = new Map((await loadIndex()).map((e) => [e.date, e]));
-  const packs = [];
-  for (const d of studied) {
-    const e = byDate.get(d);
-    if (!e) continue;
-    const tr = e.tracks.includes(track) ? track : e.tracks[0];
-    const p = await loadPack(e, tr).catch(() => null);
-    if (p) packs.push(p);
-  }
-  return packs;
+// Thẻ từ câu đã bắt trong kỳ -> "gói" cho generateQuiz (cần word, meaning_vi, example)
+function cardsForPeriod(ctx, kind) {
+  const from = addDays(ctx.today, -((kind === 'month' ? 30 : 7) - 1));
+  const { mined } = ctx.store.state;
+  const inPeriod = mined.filter((m) => m.meaning_vi && m.createdAt >= from && m.createdAt <= ctx.today);
+  // kỳ ít câu quá thì lấy thêm câu cũ hơn cho đủ đề
+  const pool = inPeriod.length >= 8 ? inPeriod : mined.filter((m) => m.meaning_vi);
+  const vocab = pool.map((m) => ({ word: m.focus, meaning_vi: m.meaning_vi, example: m.text }));
+  const themes = [...new Set(pool.map((m) => m.source?.title).filter(Boolean))].slice(0, 6);
+  return { packs: [{ vocab }], themes };
 }
 
 export function render(el, ctx) {
@@ -32,22 +28,21 @@ export function render(el, ctx) {
     const s = store.state;
     const streak = store.computeStreak(ctx.today);
     const longest = store.computeLongestStreak();
-    const totalWords = Object.keys(s.srs).length;
-    const speakMins = Math.round(
-      Object.values(s.days).reduce((sum, d) => sum + (d.speakingSeconds || 0), 0) / 60,
-    );
+    const totalWords = Object.keys(s.srs).filter((w) => s.wordMeta[w]?.track === 'clip').length;
+    const totalMined = s.mined.length;
 
     const cells = [];
     for (let i = 29; i >= 0; i--) {
       const d = addDays(ctx.today, -i);
-      const cls = store.isDayComplete(d) ? 'full' : s.days[d] ? 'part' : '';
+      const cls = store.isDayComplete(d) ? 'full' : store.minedCount(d) > 0 ? 'part' : '';
       cells.push(`<div class="cell ${cls}" title="${d}"></div>`);
     }
 
     const stat = (cls, ico, value, label) =>
       `<div class="stat"><div class="ic ${cls}">${ico}</div><b>${value}</b><small>${label}</small></div>`;
 
-    const due = dueTest(s, ctx.today);
+    // đến hạn kiểm tra theo số ngày có bắt câu
+    const due = dueTest({ days: Object.fromEntries(store.studiedDates().map((d) => [d, {}])), tests: s.tests }, ctx.today);
     const last8 = s.tests.slice(-8);
 
     el.innerHTML = `
@@ -57,14 +52,14 @@ export function render(el, ctx) {
       <button class="test-banner" id="startTest">
         <span class="tile">${icon.target(20)}</span>
         <span class="body"><b>Đến hạn kiểm tra ${KIND_LABEL[due]}!</b>
-        <small>${due === 'month' ? '20' : '10'} câu từ chính nội dung bạn đã học</small></span>
+        <small>${due === 'month' ? '20' : '10'} câu từ chính những câu bạn đã bắt</small></span>
         <span class="trail">${icon.chevron(20)}</span>
       </button>` : ''}
 
       <div class="stats">
         ${stat('ic-amber', icon.flame(18), streak, 'ngày streak')}
-        ${stat('ic-accent', icon.layers(18), totalWords, 'từ đã học')}
-        ${stat('ic-green', icon.clock(18), speakMins, 'phút luyện nói')}
+        ${stat('ic-accent', icon.pencil(18), totalMined, 'câu đã bắt')}
+        ${stat('ic-green', icon.layers(18), totalWords, 'thẻ ôn')}
         ${stat('ic-purple', icon.target(18), longest, 'streak dài nhất')}
       </div>
 
@@ -72,8 +67,8 @@ export function render(el, ctx) {
         <div class="head"><b>30 ngày qua</b></div>
         <div class="grid30">${cells.join('')}</div>
         <div class="legend">
-          <span><i style="background:var(--accent)"></i>Hoàn thành</span>
-          <span><i style="background:rgba(245,166,35,0.55)"></i>Dở dang</span>
+          <span><i style="background:var(--accent)"></i>Đủ ${DAILY_GOAL} câu</span>
+          <span><i style="background:rgba(245,166,35,0.55)"></i>1–${DAILY_GOAL - 1} câu</span>
           <span><i style="background:rgba(255,255,255,0.05);border:1px solid var(--line)"></i>Chưa học</span>
         </div>
       </div>
@@ -93,14 +88,14 @@ export function render(el, ctx) {
     el.querySelector('#startTest')?.addEventListener('click', async () => {
       const kind = due;
       el.querySelector('#startTest').disabled = true;
-      const packs = await packsForPeriod(ctx, kind);
+      const { packs, themes } = cardsForPeriod(ctx, kind);
       const questions = generateQuiz({ packs, kind, level: store.state.profile?.level || 'b1' });
       if (!questions.length) {
         drawStats();
-        el.insertAdjacentHTML('beforeend', '<p class="warn">Chưa đủ nội dung để tạo bài kiểm tra (cần mạng để tải lại bài đã học).</p>');
+        el.insertAdjacentHTML('beforeend', '<p class="warn">Cần ít nhất 4 câu đã có nghĩa để tạo bài kiểm tra.</p>');
         return;
       }
-      quiz = { kind, questions, i: 0, correct: 0, answered: null, packs };
+      quiz = { kind, questions, i: 0, correct: 0, answered: null, packs, themes };
       drawQuiz();
     });
   }
@@ -115,14 +110,14 @@ export function render(el, ctx) {
       </header>
       <div class="progress-track"><i style="width:${Math.round((quiz.i / quiz.questions.length) * 100)}%"></i></div>
       <div class="question">
-        <div class="q">${q.prompt}</div>
+        <div class="q">${esc(q.prompt)}</div>
         ${q.tts ? `<button class="pill" id="playTts">${icon.volume(14)} Nghe câu</button>` : ''}
         ${q.options.map((o, oi) => {
           let cls = '';
           if (answered && oi === q.answer) cls = 'right';
           else if (answered && quiz.answered === oi) cls = 'wrong';
           return `<button class="option ${cls}" data-o="${oi}" ${answered ? 'disabled' : ''}>
-            <span class="mark">${cls === 'right' ? icon.check(12) : ''}</span><span>${o}</span></button>`;
+            <span class="mark">${cls === 'right' ? icon.check(12) : ''}</span><span>${esc(o)}</span></button>`;
         }).join('')}
       </div>
       ${answered ? `<button class="primary" id="next">${quiz.i === quiz.questions.length - 1 ? 'Xem kết quả' : 'Câu tiếp theo'}</button>` : ''}
@@ -145,7 +140,7 @@ export function render(el, ctx) {
   }
 
   function finishQuiz() {
-    const { kind, questions, correct, packs } = quiz;
+    const { kind, questions, correct, packs, themes: srcThemes } = quiz;
     store.addTestResult({ date: ctx.today, kind, score: correct, total: questions.length });
     const profile = store.state.profile || { level: 'b1', aiApp: 'other' };
     const app = AI_APPS[profile.aiApp] || AI_APPS.other;
@@ -160,7 +155,7 @@ export function render(el, ctx) {
     `;
     el.querySelector('#aiTest').onclick = async () => {
       const words = [...new Set(packs.flatMap((p) => p.vocab.map((v) => v.word)))].slice(0, 20);
-      const themes = [...new Set(packs.map((p) => p.theme))];
+      const themes = srcThemes.length ? srcThemes : ['English from videos, songs and news I followed'];
       const prompt = buildAiTestPrompt(words, themes, profile);
       try { await navigator.clipboard.writeText(prompt); } catch { /* url vẫn mở được */ }
       const url = app.url(prompt);

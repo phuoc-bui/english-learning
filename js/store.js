@@ -4,6 +4,7 @@ import { initialCard } from './srs.js';
 import { cardKey } from './clip.js';
 
 const KEY = 'office-english-v1';
+export const DAILY_GOAL = 3; // số câu cần bắt mỗi ngày để giữ streak
 const ACTIVITIES = ['vocab', 'listening', 'speaking'];
 const V1_ACTIVITIES = ['vocab', 'listening', 'speaking', 'interview'];
 
@@ -111,7 +112,17 @@ export function createStore(storage) {
       d.speakingSeconds = (d.speakingSeconds || 0) + seconds;
       save();
     },
+    // số câu bắt được trong ngày
+    minedCount(date) {
+      return state.mined.filter((m) => m.createdAt === date).length;
+    },
+    // các ngày có học: có bắt câu, hoặc có tiến độ gói bài cũ
+    studiedDates() {
+      return [...new Set([...Object.keys(state.days), ...state.mined.map((m) => m.createdAt).filter(Boolean)])].sort();
+    },
     isDayComplete(date) {
+      if (store.minedCount(date) >= DAILY_GOAL) return true;
+      // ngày cũ tính theo luật gói bài trước đây, giữ nguyên lịch sử
       const d = state.days[date];
       if (!d) return false;
       if (V1_ACTIVITIES.every((a) => d[a])) return true; // ngày cũ tính theo luật v1, không tính lại
@@ -130,7 +141,7 @@ export function createStore(storage) {
       return n;
     },
     computeLongestStreak() {
-      const dates = Object.keys(state.days).filter((d) => store.isDayComplete(d)).sort();
+      const dates = store.studiedDates().filter((d) => store.isDayComplete(d));
       let best = 0;
       let run = 0;
       let prev = null;

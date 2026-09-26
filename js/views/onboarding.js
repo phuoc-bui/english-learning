@@ -1,14 +1,12 @@
 import { icon } from '../icons.js';
-import { TRACK_OPTIONS, LEVEL_OPTIONS, GOAL_OPTIONS, MINUTE_OPTIONS, AI_APP_OPTIONS } from '../profile-options.js';
+import { LEVEL_OPTIONS, GOAL_OPTIONS, AI_APP_OPTIONS } from '../profile-options.js';
 
 export function render(el, ctx) {
-  const draft = { track: 'it', level: 'b1', goals: [], minutes: 15, aiApp: 'chatgpt' };
+  const draft = { level: 'b1', goals: [], aiApp: 'chatgpt' };
   let step = 0;
   const steps = [
-    { key: 'track', type: 'single', title: 'Bạn học tiếng Anh cho lĩnh vực nào?', sub: 'Bài học hằng ngày sẽ theo lĩnh vực này (đổi được trong Cài đặt).', options: TRACK_OPTIONS },
-    { key: 'level', type: 'single', title: 'Trình độ hiện tại của bạn?', sub: 'Dùng để điều chỉnh prompt AI và độ khó bài kiểm tra.', options: LEVEL_OPTIONS },
+    { key: 'level', type: 'single', title: 'Trình độ hiện tại của bạn?', sub: 'Dùng để điều chỉnh prompt AI và độ khó bài kiểm tra. Mỗi ngày chỉ cần bắt 3 câu từ video, nhạc hoặc tin tức để giữ streak.', options: LEVEL_OPTIONS },
     { key: 'goals', type: 'multi', title: 'Mục tiêu của bạn?', sub: 'Chọn được nhiều mục — hoặc bỏ qua.', options: GOAL_OPTIONS },
-    { key: 'minutes', type: 'single', title: 'Mỗi ngày bạn dành bao nhiêu phút?', sub: 'Quyết định số hoạt động cần làm để giữ streak.', options: MINUTE_OPTIONS },
     { key: 'aiApp', type: 'single', title: 'Bạn hay dùng app AI nào?', sub: 'Phần thực hành hội thoại / nói / viết sẽ mở app này.', options: AI_APP_OPTIONS },
   ];
 
@@ -40,7 +38,7 @@ export function render(el, ctx) {
         if (s.type === 'multi') {
           draft.goals = draft.goals.includes(v) ? draft.goals.filter((g) => g !== v) : [...draft.goals, v];
         } else {
-          draft[s.key] = s.key === 'minutes' ? Number(v) : v;
+          draft[s.key] = v;
         }
         draw();
       };

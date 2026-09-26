@@ -1,11 +1,11 @@
 import { icon } from '../icons.js';
 import { getKey, setKey, REGISTER_URL } from '../news.js';
-import { TRACK_OPTIONS, LEVEL_OPTIONS, GOAL_OPTIONS, MINUTE_OPTIONS, AI_APP_OPTIONS } from '../profile-options.js';
+import { LEVEL_OPTIONS, GOAL_OPTIONS, AI_APP_OPTIONS } from '../profile-options.js';
 
 export function render(el, ctx) {
   const { store } = ctx;
   const p = store.state.profile || {};
-  const draft = { track: p.track || 'it', level: p.level || 'b1', goals: [...(p.goals || [])], minutes: p.minutes || 15, aiApp: p.aiApp || 'chatgpt' };
+  const draft = { level: p.level || 'b1', goals: [...(p.goals || [])], aiApp: p.aiApp || 'chatgpt' };
 
   const group = (title, options, key, multi = false) => `
     <div class="set-group">
@@ -24,10 +24,8 @@ export function render(el, ctx) {
         <button class="pill" id="back">${icon.chevron(14)} Quay lại</button>
         <h1>Cài đặt</h1>
       </header>
-      ${group('Lĩnh vực', TRACK_OPTIONS, 'track')}
       ${group('Trình độ', LEVEL_OPTIONS, 'level')}
       ${group('Mục tiêu', GOAL_OPTIONS, 'goals', true)}
-      ${group('Thời gian mỗi ngày', MINUTE_OPTIONS, 'minutes')}
       ${group('App AI ưa thích', AI_APP_OPTIONS, 'aiApp')}
       <button class="primary" id="saveProfile">Lưu cài đặt</button>
 
@@ -53,20 +51,14 @@ export function render(el, ctx) {
         if (b.dataset.multi === 'true') {
           draft.goals = draft.goals.includes(v) ? draft.goals.filter((g) => g !== v) : [...draft.goals, v];
         } else {
-          draft[key] = key === 'minutes' ? Number(v) : v;
+          draft[key] = v;
         }
         draw();
       };
     });
     el.querySelector('#saveProfile').onclick = () => {
-      const trackChanged = draft.track !== (store.state.profile?.track || 'it');
       store.setProfile({ ...store.state.profile, ...draft });
-      if (trackChanged) {
-        location.hash = '';
-        location.reload(); // tải lại gói theo track mới
-      } else {
-        el.querySelector('#msg').textContent = 'Đã lưu ✓';
-      }
+      el.querySelector('#msg').textContent = 'Đã lưu ✓';
     };
 
     el.querySelector('#saveKey').onclick = () => {
