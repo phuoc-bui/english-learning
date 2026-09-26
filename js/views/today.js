@@ -54,7 +54,7 @@ export function render(el, ctx) {
     <button class="card accent" id="openClips">
       <span class="tile">${icon.play(19)}</span>
       <span class="body"><b>Săn câu</b><small>${
-        clip.total ? `${clip.total} câu đã lưu${clip.inbox ? ` · ${clip.inbox} chờ giải nghĩa` : ''}` : 'Lưu câu hay từ donghua, YouTube, nhạc'
+        clip.total ? `${clip.total} câu đã lưu${clip.inbox ? ` · ${clip.inbox} chờ giải nghĩa` : ''}` : 'Xem YouTube trong app, lưu câu hay'
       }</small></span>
       <span class="trail">${icon.chevron(20)}</span>
     </button>`;

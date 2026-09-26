@@ -1,7 +1,7 @@
 import { initialCard, review, isDue } from '../srs.js';
 import { speak } from '../speech.js';
 import { icon } from '../icons.js';
-import { esc, sceneUrl, formatTime, KIND_LABEL } from '../clip.js';
+import { esc, sceneAnchor, formatTime, KIND_LABEL } from '../clip.js';
 
 function highlight(example, word) {
   if (!example) return '';
@@ -100,7 +100,7 @@ export function render(el, ctx) {
             <div class="label">Ví dụ</div>
             <div class="example">${highlight(meta.example, word)} <button class="speak-btn mini" id="sayEx">${icon.volume(15)}</button></div>
             <div class="example-vi">${esc(meta.example_vi)}</div>
-            ${src?.url ? `<a class="scene-link" id="scene" href="${esc(sceneUrl(src.url, src.t))}" target="_blank" rel="noopener">${icon.play(13)} Xem lại cảnh${src.t != null ? ` (${formatTime(src.t)})` : ''}</a>` : ''}
+            ${src ? sceneAnchor(src, `${icon.play(13)} Xem lại cảnh${src.t != null ? ` (${formatTime(src.t)})` : ''}`, 'id="scene"') : ''}
             <div class="flip-hint">Chạm để lật lại ↻</div>
           </div>
         </div>

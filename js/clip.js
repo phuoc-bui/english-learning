@@ -76,3 +76,41 @@ export function focusFromPicks(tokens, picks) {
 export function cardKey(focus) {
   return String(focus ?? '').trim().replace(/\s+/g, ' ').toLowerCase();
 }
+
+// Hash mở màn Xem trong app
+export function watchHash(id, t) {
+  return `#watch?v=${encodeURIComponent(id)}${t ? `&t=${t}` : ''}`;
+}
+
+// Link "Xem lại cảnh": video YouTube mở trong app, link khác mở tab mới.
+export function sceneLink(src) {
+  if (!src?.url) return null;
+  const id = youtubeId(src.url);
+  return id
+    ? { href: watchHash(id, src.t), external: false }
+    : { href: src.url, external: true };
+}
+
+// Link HTML "Xem lại cảnh" (đã escape); '' nếu không có link.
+export function sceneAnchor(src, label, attrs = '') {
+  const l = sceneLink(src);
+  if (!l) return '';
+  const ext = l.external ? ' target="_blank" rel="noopener"' : '';
+  return `<a class="scene-link" href="${esc(l.href)}"${ext} ${attrs}>${label}</a>`;
+}
+
+// Tách câu thành đoạn để hiển thị: từ bấm được (có chỉ số khớp tokenize) và phần xen giữa.
+export function tokenSegments(sentence) {
+  const s = String(sentence ?? '');
+  const re = /[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)*/g;
+  const out = [];
+  let last = 0;
+  let i = 0;
+  for (const m of s.matchAll(re)) {
+    if (m.index > last) out.push({ text: s.slice(last, m.index) });
+    out.push({ text: m[0], i: i++ });
+    last = m.index + m[0].length;
+  }
+  if (last < s.length) out.push({ text: s.slice(last) });
+  return out;
+}

@@ -1,14 +1,7 @@
 import { icon } from '../icons.js';
 import { speak } from '../speech.js';
-import {
-  KIND_LABEL, esc, parseShared, parseTime, formatTime, sceneUrl, tokenize, focusFromPicks,
-} from '../clip.js';
-
-const LAST_KIND = 'office-english-clip-kind';
-
-function lastKind() {
-  try { return localStorage.getItem(LAST_KIND) || 'donghua'; } catch { return 'donghua'; }
-}
+import { KIND_LABEL, esc, parseShared, formatTime, sceneAnchor, youtubeId, watchHash } from '../clip.js';
+import { createCaptureForm } from './capture-form.js';
 
 export function render(el, ctx) {
   const { store } = ctx;
@@ -16,129 +9,39 @@ export function render(el, ctx) {
   const shared = ctx.shared ? parseShared(ctx.shared) : null;
   ctx.shared = null;
 
-  const st = {
-    mode: shared ? 'capture' : 'list',
-    msg: '',
-    form: {
-      text: '', picks: new Set(), meaning: '', note: '',
-      title: shared?.title || '', url: shared?.url || '',
-      time: shared?.t != null ? formatTime(shared.t) : '',
-      kind: shared?.kind || lastKind(),
-    },
-  };
-
-  const resetForm = () => {
-    st.form = { ...st.form, text: '', picks: new Set(), meaning: '', note: '', time: '' };
-  };
+  const st = { mode: shared ? 'capture' : 'list', msg: '' };
 
   function sourceLine(src) {
     if (!src) return '';
     const bits = [KIND_LABEL[src.kind] || '', src.title ? esc(src.title) : '', src.t != null ? formatTime(src.t) : '']
       .filter(Boolean).join(' · ');
-    const link = src.url
-      ? ` <a class="scene-link" href="${esc(sceneUrl(src.url, src.t))}" target="_blank" rel="noopener">${icon.play(12)} Xem lại cảnh</a>`
-      : '';
-    return `<small class="meta">${bits}${link}</small>`;
+    const link = sceneAnchor(src, `${icon.play(12)} Xem lại cảnh`);
+    return `<small class="meta">${bits}${link ? ` ${link}` : ''}</small>`;
   }
 
   function drawCapture() {
-    const f = st.form;
-    const tokens = tokenize(f.text);
-    const focus = focusFromPicks(tokens, f.picks);
+    const id = shared?.url ? youtubeId(shared.url) : null;
     el.innerHTML = `
       <header class="page-head">
         <button class="pill" id="back">${icon.chevron(14)} Quay lại</button>
         <h1>Bắt câu</h1>
       </header>
-
-      <label class="field"><span>Câu tiếng Anh (chép từ phụ đề / lời bài hát)</span>
-        <textarea id="text" rows="3" placeholder="You're courting death!">${esc(f.text)}</textarea></label>
-
-      <div class="field"><span>Chạm chọn từ / cụm muốn học</span>
-        <div class="token-row" id="tokens">${tokens.length
-          ? tokens.map((w, i) => `<button class="chip ${f.picks.has(i) ? 'on' : ''}" data-i="${i}">${esc(w)}</button>`).join('')
-          : '<small class="meta">Gõ câu ở trên trước nhé.</small>'}</div>
-        ${focus ? `<div class="focus-preview">Sẽ học: <b>${esc(focus)}</b></div>` : ''}
-      </div>
-
-      <label class="field"><span>Nghĩa tiếng Việt <small class="meta">(để trống nếu chưa biết — lưu vào "Chờ giải nghĩa")</small></span>
-        <input id="meaning" value="${esc(f.meaning)}" placeholder="muốn chết à"></label>
-
-      <label class="field"><span>Ghi chú <small class="meta">(tuỳ chọn: dịch cả câu, ngữ cảnh…)</small></span>
-        <input id="note" value="${esc(f.note)}"></label>
-
-      <div class="field"><span>Nguồn</span>
-        <div class="chips">${Object.entries(KIND_LABEL).map(([k, l]) =>
-          `<button class="chip kchip ${f.kind === k ? 'on' : ''}" data-k="${k}">${l}</button>`).join('')}</div>
-      </div>
-      <label class="field"><span>Tên phim / tập / bài hát</span>
-        <input id="title" value="${esc(f.title)}" placeholder="Đấu Phá Thương Khung tập 12"></label>
-      <div class="field-row">
-        <label class="field"><span>Link</span><input id="url" value="${esc(f.url)}" placeholder="https://youtu.be/…" inputmode="url"></label>
-        <label class="field time"><span>Phút:giây</span><input id="time" value="${esc(f.time)}" placeholder="12:34" inputmode="numeric"></label>
-      </div>
-
-      <p class="warn" id="msg">${esc(st.msg)}</p>
-      <button class="primary" id="save">${icon.check(18)} Lưu câu</button>
+      ${id ? `<a class="pill wide" href="${watchHash(id, shared.t)}">${icon.play(14)} Xem video này trong app</a>` : ''}
+      <div id="capture"></div>
     `;
-
-    const bindInput = (id, key, redraw = false) => {
-      const inp = el.querySelector(`#${id}`);
-      inp.oninput = () => {
-        f[key] = inp.value;
-        if (redraw) { f.picks = new Set(); drawTokens(); }
-      };
-    };
-    const drawTokens = () => {
-      // vẽ lại riêng hàng từ để không mất focus ô đang gõ
-      const toks = tokenize(f.text);
-      el.querySelector('#tokens').innerHTML = toks.length
-        ? toks.map((w, i) => `<button class="chip ${f.picks.has(i) ? 'on' : ''}" data-i="${i}">${esc(w)}</button>`).join('')
-        : '<small class="meta">Gõ câu ở trên trước nhé.</small>';
-      el.querySelector('.focus-preview')?.remove();
-    };
-    bindInput('text', 'text', true);
-    bindInput('meaning', 'meaning');
-    bindInput('note', 'note');
-    bindInput('title', 'title');
-    bindInput('url', 'url');
-    bindInput('time', 'time');
-
-    el.querySelector('#tokens').onclick = (e) => {
-      const b = e.target.closest('button[data-i]');
-      if (!b) return;
-      const i = +b.dataset.i;
-      if (f.picks.has(i)) f.picks.delete(i); else f.picks.add(i);
-      st.msg = '';
-      drawCapture();
-    };
-    el.querySelectorAll('.kchip').forEach((b) => {
-      b.onclick = () => {
-        f.kind = b.dataset.k;
-        try { localStorage.setItem(LAST_KIND, f.kind); } catch { /* bỏ qua */ }
-        drawCapture();
-      };
-    });
     el.querySelector('#back').onclick = () => { st.mode = 'list'; st.msg = ''; draw(); };
-    el.querySelector('#save').onclick = () => {
-      const toks = tokenize(f.text);
-      const chosen = focusFromPicks(toks, f.picks);
-      const t = parseTime(f.time);
-      if (!f.text.trim()) { st.msg = 'Nhập câu tiếng Anh trước nhé.'; return drawCapture(); }
-      if (!chosen) { st.msg = 'Chạm chọn ít nhất 1 từ muốn học.'; return drawCapture(); }
-      if (f.time.trim() && t == null) { st.msg = 'Thời điểm dạng 12:34 nhé.'; return drawCapture(); }
-      const res = store.addMined({
-        text: f.text, focus: chosen, meaning_vi: f.meaning, note: f.note, createdAt: ctx.today,
-        source: { kind: f.kind, title: f.title.trim(), url: f.url.trim(), t },
-      });
-      st.msg = {
-        card: `Đã lưu "${chosen}" thành thẻ ôn ✓`,
-        inbox: `Đã lưu "${chosen}" — nhớ điền nghĩa trong "Chờ giải nghĩa"`,
-        exists: `"${chosen}" đã có trong sổ từ vựng — câu vẫn được lưu vào bộ sưu tập`,
-      }[res];
-      resetForm(); // giữ nguồn để bắt tiếp câu khác cùng tập
-      drawCapture();
-    };
+    createCaptureForm(el.querySelector('#capture'), ctx, { source: shared || {} });
+  }
+
+  // Video YouTube đã từng bắt câu -> xem tiếp trong app
+  function recentVideos() {
+    const seen = new Map();
+    for (const m of [...store.state.mined].reverse()) {
+      const id = youtubeId(m.source?.url || '');
+      if (id && !seen.has(id)) seen.set(id, { id, title: m.source.title || id, count: 0 });
+      if (id) seen.get(id).count++;
+    }
+    return [...seen.values()].slice(0, 5);
   }
 
   function drawList() {
@@ -150,8 +53,19 @@ export function render(el, ctx) {
         <button class="pill" id="back">${icon.chevron(14)} Hôm nay</button>
         <h1>Săn câu</h1>
       </header>
-      <p class="meta">Xem donghua, YouTube, nghe nhạc như bình thường. Gặp câu hay → bấm <b>Chia sẻ → Office English</b> (hoặc nút dưới) để lưu. Câu có nghĩa sẽ thành thẻ trong tab Từ vựng.</p>
-      <button class="primary" id="new">${icon.pencil(18)} Bắt câu mới</button>
+      <p class="meta">Dán link YouTube để xem ngay trong app và bắt câu khi đang xem. Trên điện thoại cũng có thể bấm <b>Chia sẻ → Office English</b> từ app khác. Câu có nghĩa sẽ thành thẻ trong tab Từ vựng.</p>
+      <div class="watch-open">
+        <input class="inline-input" id="yt" placeholder="Dán link YouTube để xem trong app…" inputmode="url">
+        <button class="pill" id="openYt">${icon.play(14)} Xem</button>
+      </div>
+      <p class="warn" id="ytMsg"></p>
+      ${recentVideos().map((v) => `
+        <a class="card" href="${watchHash(v.id)}">
+          <span class="tile">${icon.play(17)}</span>
+          <span class="body"><b>${esc(v.title)}</b><small>${v.count} câu đã bắt · xem tiếp</small></span>
+          <span class="trail">${icon.chevron(18)}</span>
+        </a>`).join('')}
+      <button class="primary" id="new">${icon.pencil(18)} Bắt câu (không xem trong app)</button>
       ${st.msg ? `<p class="warn">${esc(st.msg)}</p>` : ''}
 
       <h2>Chờ giải nghĩa (${inbox.length})</h2>
@@ -181,6 +95,14 @@ export function render(el, ctx) {
     `;
     el.querySelector('#back').onclick = () => ctx.navigate('today');
     el.querySelector('#new').onclick = () => { st.mode = 'capture'; st.msg = ''; draw(); };
+    const yt = el.querySelector('#yt');
+    const openYt = () => {
+      const id = youtubeId(yt.value.trim());
+      if (!id) { el.querySelector('#ytMsg').textContent = 'Link chưa đúng — cần link youtube.com hoặc youtu.be'; return; }
+      ctx.navigate(watchHash(id).slice(1));
+    };
+    el.querySelector('#openYt').onclick = openYt;
+    yt.onkeydown = (e) => { if (e.key === 'Enter') openYt(); };
     el.querySelectorAll('.clip-item').forEach((item) => {
       const id = item.dataset.id;
       item.querySelector('.save-meaning')?.addEventListener('click', () => {
