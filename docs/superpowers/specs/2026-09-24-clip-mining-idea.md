@@ -115,3 +115,10 @@ Người dùng hay xem trên máy tính → thêm màn **Xem & bắt câu** (`#w
 - Danh sách câu đã bắt trong video, bấm mốc giờ để tua lại (lùi 2s).
 - Video chủ kênh chặn nhúng → báo lỗi + link "Mở trên YouTube", vẫn bắt câu được với giờ tự gõ.
 - Form Bắt câu tách thành `js/views/capture-form.js` dùng chung.
+
+### 9.1 Khung phụ đề bên cạnh video
+
+- YouTube không cho web khác tải phụ đề (CORS + token), nên phụ đề lấy từ: **dán bản chép lời** (YouTube máy tính → …thêm → Hiện bản chép lời → bôi đen → copy) hoặc **file .srt/.vtt**. `js/subs.js` đọc cả hai dạng (bỏ dòng "5 seconds" của trình đọc màn hình, bỏ cue trùng của VTT tự sinh).
+- Lưu theo video ở `localStorage['office-english-subs']` (tối đa 30 video gần nhất), không nằm trong backup, không đồng bộ giữa máy.
+- Màn Xem: bên phải có tab **Phụ đề | Bắt câu**. Dòng đang chạy được tô sáng và tự cuộn; bấm mốc giờ để tua; bấm **từ** → form điền sẵn câu + chọn sẵn từ đó + giờ đầu dòng. Phím `B` khi có phụ đề lấy luôn câu đang chạy. **Lặp câu** (`L`) lặp dòng hiện tại để đọc kỹ.
+- Service worker bỏ qua request khác origin (YouTube, Google Fonts) để trình duyệt tự xử lý.

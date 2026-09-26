@@ -124,6 +124,15 @@ export function createCaptureForm(box, ctx, { source = {}, hideUrl = false, onSa
       msg = '';
       draw();
     },
+    // Điền câu từ phụ đề (bấm vào dòng/từ trong khung phụ đề); pick = chỉ số từ chọn sẵn
+    setDraft({ text, pick = null, t = null, title }) {
+      f.text = text;
+      f.picks = new Set(pick != null ? [pick] : []);
+      if (t != null) f.time = formatTime(t);
+      if (title && !f.title) f.title = title;
+      msg = '';
+      draw();
+    },
     focus() { box.querySelector('#cf-text')?.focus({ preventScroll: true }); },
   };
 }

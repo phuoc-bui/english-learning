@@ -1,7 +1,8 @@
 import { icon } from '../icons.js';
 import { speak } from '../speech.js';
-import { esc, parseTime, formatTime, sceneUrl, youtubeId } from '../clip.js';
+import { esc, parseTime, formatTime, sceneUrl, youtubeId, tokenSegments } from '../clip.js';
 import { loadYouTubeApi, playerErrorText } from '../youtube.js';
+import { parseSubs, cueIndexAt, loadSubs, saveSubs, removeSubs } from '../subs.js';
 import { createCaptureForm } from './capture-form.js';
 
 const SPEEDS = [0.5, 0.75, 1];
@@ -17,6 +18,12 @@ export function render(el, ctx) {
   let ready = false;
   let title = '';
   let autoResume = true;
+  let cues = loadSubs(id);
+  let cur = -1; // dòng phụ đề đang chạy
+  let autoScroll = true;
+  let loopIdx = -1; // dòng đang lặp, -1 = không lặp
+  let tab = 'subs';
+  let timer = null;
 
   el.innerHTML = `
     <header class="page-head">
@@ -32,14 +39,18 @@ export function render(el, ctx) {
           ${SPEEDS.map((s) => `<button class="chip speed ${s === 1 ? 'on' : ''}" data-s="${s}">${s}x</button>`).join('')}
           <button class="primary grab" id="grab">${icon.pencil(16)} Bắt câu <kbd>B</kbd></button>
         </div>
-        <p class="meta kbd-hint">Phím tắt (khi không gõ chữ): <kbd>B</kbd> bắt câu · <kbd>K</kbd> dừng/phát · <kbd>←</kbd> lùi 5s. Bấm ra ngoài video trước khi dùng phím.</p>
+        <p class="meta kbd-hint">Phím tắt (khi không gõ chữ): <kbd>B</kbd> bắt câu đang chạy · <kbd>K</kbd> dừng/phát · <kbd>←</kbd> lùi 5s · <kbd>L</kbd> lặp câu. Bấm ra ngoài video trước khi dùng phím.</p>
       </section>
       <aside class="watch-side" id="side">
-        <div class="side-head">
-          <h2>Bắt câu</h2>
-          <label class="toggle"><input type="checkbox" id="resume" checked> Phát tiếp sau khi lưu</label>
+        <div class="seg side-tabs">
+          <button data-tab="subs">Phụ đề</button>
+          <button data-tab="capture">Bắt câu</button>
         </div>
-        <div id="capture"></div>
+        <div id="subPane"></div>
+        <div id="capPane" hidden>
+          <label class="toggle resume"><input type="checkbox" id="resume" checked> Phát tiếp sau khi lưu</label>
+          <div id="capture"></div>
+        </div>
       </aside>
       <section class="watch-list" id="list"></section>
     </div>
@@ -50,9 +61,133 @@ export function render(el, ctx) {
     onSaved: () => {
       drawList();
       if (autoResume && ready) player.playVideo();
+      if (cues) setTab('subs');
     },
   });
 
+  // ---------- tab bên phải ----------
+  function setTab(t) {
+    tab = t;
+    el.querySelectorAll('.side-tabs button').forEach((b) => b.classList.toggle('on', b.dataset.tab === t));
+    el.querySelector('#subPane').hidden = t !== 'subs';
+    el.querySelector('#capPane').hidden = t !== 'capture';
+  }
+  el.querySelectorAll('.side-tabs button').forEach((b) => { b.onclick = () => setTab(b.dataset.tab); });
+
+  // ---------- khung phụ đề ----------
+  function drawSubs() {
+    const pane = el.querySelector('#subPane');
+    if (!cues) {
+      pane.innerHTML = `
+        <div class="sub-empty">
+          <p><b>Chưa có phụ đề cho video này.</b> YouTube không cho app tự tải phụ đề, nên dán vào một lần:</p>
+          <ol>
+            <li>Mở video trên <a class="scene-link" href="${esc(url)}" target="_blank" rel="noopener">YouTube ${icon.external(12)}</a> (máy tính).</li>
+            <li>Dưới video bấm <b>…thêm</b> → <b>Hiện bản chép lời</b> (Show transcript), chọn ngôn ngữ <b>English</b>.</li>
+            <li>Bôi đen toàn bộ bản chép lời → <kbd>Ctrl</kbd>+<kbd>C</kbd> → dán vào ô dưới.</li>
+          </ol>
+          <textarea id="subText" rows="6" placeholder="0:05&#10;Who dares to enter the Tang Sect?&#10;0:08&#10;…"></textarea>
+          <div class="row">
+            <button class="primary" id="useSubs" style="width:auto;margin:0">${icon.check(16)} Dùng phụ đề này</button>
+            <button class="pill" id="pickFile">${icon.upload(14)} Chọn file .srt / .vtt</button>
+            <input type="file" id="subFile" accept=".srt,.vtt,.txt,text/vtt" hidden>
+          </div>
+          <p class="warn" id="subMsg"></p>
+        </div>`;
+      const apply = (text) => {
+        const parsed = parseSubs(text);
+        if (!parsed.length) {
+          pane.querySelector('#subMsg').textContent = 'Không đọc được phụ đề — cần có mốc giờ (0:05) hoặc file .srt/.vtt.';
+          return;
+        }
+        cues = parsed;
+        if (!saveSubs(id, cues)) pane.querySelector('#subMsg').textContent = 'Bộ nhớ đầy, phụ đề chỉ dùng tạm lần này.';
+        cur = -1;
+        drawSubs();
+      };
+      pane.querySelector('#useSubs').onclick = () => apply(pane.querySelector('#subText').value);
+      const file = pane.querySelector('#subFile');
+      pane.querySelector('#pickFile').onclick = () => file.click();
+      file.onchange = async () => { if (file.files[0]) apply(await file.files[0].text()); };
+      return;
+    }
+    pane.innerHTML = `
+      <div class="row sub-tools">
+        <label class="toggle"><input type="checkbox" id="autoScroll" ${autoScroll ? 'checked' : ''}> Tự cuộn</label>
+        <button class="chip" id="loop">${icon.refresh(12)} Lặp câu <kbd>L</kbd></button>
+        <button class="chip" id="clearSubs" style="margin-left:auto">Đổi phụ đề</button>
+      </div>
+      <p class="meta sub-tip">Bấm vào <b>từ</b> để bắt câu với từ đó · bấm <b>mốc giờ</b> để tua tới.</p>
+      <div class="sub-list" id="subList">${cues.map((c, i) => `
+        <div class="cue" data-i="${i}">
+          <button class="cue-t" data-i="${i}">${formatTime(Math.floor(c.start))}</button>
+          <span class="cue-text">${tokenSegments(c.text).map((s) => (s.i != null
+            ? `<span class="w" data-w="${s.i}">${esc(s.text)}</span>`
+            : esc(s.text))).join('')}</span>
+        </div>`).join('')}</div>`;
+    pane.querySelector('#autoScroll').onchange = (e) => { autoScroll = e.target.checked; };
+    pane.querySelector('#loop').onclick = toggleLoop;
+    pane.querySelector('#clearSubs').onclick = () => {
+      if (!confirm('Xoá phụ đề đã dán cho video này để dán lại?')) return;
+      removeSubs(id);
+      cues = null;
+      loopIdx = -1;
+      drawSubs();
+    };
+    pane.querySelector('#subList').onclick = (e) => {
+      const t = e.target.closest('.cue-t');
+      if (t) { seekCue(+t.dataset.i); return; }
+      const w = e.target.closest('.w');
+      if (w) {
+        const i = +w.closest('.cue').dataset.i;
+        captureCue(i, +w.dataset.w);
+      }
+    };
+    highlight(true);
+  }
+
+  function seekCue(i) {
+    if (!ready || !cues[i]) return;
+    player.seekTo(cues[i].start, true);
+    player.playVideo();
+    if (loopIdx >= 0) loopIdx = i;
+  }
+
+  function captureCue(i, pick = null) {
+    if (ready) player.pauseVideo();
+    form.setDraft({ text: cues[i].text, pick, t: Math.floor(cues[i].start), title });
+    setTab('capture');
+    focusForm();
+  }
+
+  function toggleLoop() {
+    loopIdx = loopIdx >= 0 ? -1 : Math.max(cur, 0);
+    el.querySelector('#loop')?.classList.toggle('on', loopIdx >= 0);
+  }
+
+  // Tô dòng đang chạy + tự cuộn trong khung (không cuộn cả trang)
+  function highlight(force = false) {
+    if (!cues || !ready) return;
+    const t = player.getCurrentTime();
+    if (loopIdx >= 0 && cues[loopIdx] && (t >= cues[loopIdx].end || t < cues[loopIdx].start - 0.5)) {
+      player.seekTo(cues[loopIdx].start, true);
+      return;
+    }
+    const i = cueIndexAt(cues, t);
+    if (i === cur && !force) return;
+    const list = el.querySelector('#subList');
+    if (!list) return;
+    list.querySelector('.cue.now')?.classList.remove('now');
+    cur = i;
+    const row = list.querySelector(`.cue[data-i="${i}"]`);
+    if (!row) return;
+    row.classList.add('now');
+    if (autoScroll && tab === 'subs') {
+      list.scrollTop = row.offsetTop - list.offsetTop - list.clientHeight / 3;
+    }
+  }
+
+  // ---------- câu đã bắt ----------
   function drawList() {
     const mine = store.state.mined
       .filter((m) => youtubeId(m.source?.url || '') === id)
@@ -80,14 +215,8 @@ export function render(el, ctx) {
     el.querySelectorAll('.say').forEach((b) => { b.onclick = () => speak(b.dataset.say); });
   }
 
-  function grab() {
-    let t = null;
-    if (ready) {
-      player.pauseVideo();
-      // lùi 1 giây: lúc bấm thường đã qua đầu câu
-      t = Math.max(0, Math.floor(player.getCurrentTime()) - 1);
-    }
-    form.setSource({ t, title });
+  // ---------- điều khiển ----------
+  function focusForm() {
     form.focus();
     if (window.matchMedia('(max-width: 899px)').matches) {
       // cuộn tới form nhưng chừa chỗ cho trình phát đang dính trên cùng
@@ -95,6 +224,23 @@ export function render(el, ctx) {
       const top = el.querySelector('#side').getBoundingClientRect().top + window.scrollY - playerH - 8;
       window.scrollTo({ top, behavior: 'smooth' });
     }
+  }
+
+  function grab() {
+    // có phụ đề: lấy luôn câu đang chạy
+    if (cues && ready) {
+      const i = cueIndexAt(cues, player.getCurrentTime());
+      if (i >= 0) { captureCue(i); return; }
+    }
+    let t = null;
+    if (ready) {
+      player.pauseVideo();
+      // lùi 1 giây: lúc bấm thường đã qua đầu câu
+      t = Math.max(0, Math.floor(player.getCurrentTime()) - 1);
+    }
+    form.setSource({ t, title });
+    setTab('capture');
+    focusForm();
   }
   const rewind = () => { if (ready) player.seekTo(Math.max(0, player.getCurrentTime() - 5), true); };
   const toggle = () => {
@@ -117,13 +263,16 @@ export function render(el, ctx) {
   const onKey = (e) => {
     const tag = e.target.tagName;
     if (tag === 'INPUT' || tag === 'TEXTAREA' || e.target.isContentEditable || e.ctrlKey || e.metaKey || e.altKey) return;
-    if (e.key === 'b' || e.key === 'B') { e.preventDefault(); grab(); }
-    else if (e.key === 'k' || e.key === 'K') { e.preventDefault(); toggle(); }
+    const k = e.key.toLowerCase();
+    if (k === 'b') { e.preventDefault(); grab(); }
+    else if (k === 'k') { e.preventDefault(); toggle(); }
+    else if (k === 'l' && cues) { e.preventDefault(); toggleLoop(); }
     else if (e.key === 'ArrowLeft') { e.preventDefault(); rewind(); }
   };
   document.addEventListener('keydown', onKey);
   ctx.cleanup = () => {
     document.removeEventListener('keydown', onKey);
+    clearInterval(timer);
     try { player?.destroy(); } catch { /* bỏ qua */ }
   };
 
@@ -133,6 +282,8 @@ export function render(el, ctx) {
     err.innerHTML = `${esc(text)} <a class="scene-link" href="${esc(sceneUrl(url, start || null))}" target="_blank" rel="noopener">${icon.external(13)} Mở trên YouTube</a> — vẫn bắt câu được, tự gõ phút:giây.`;
   };
 
+  setTab(tab);
+  drawSubs();
   drawList();
   loadYouTubeApi().then((YT) => {
     if (!document.getElementById('player')) return; // đã rời màn
@@ -144,6 +295,7 @@ export function render(el, ctx) {
           ready = true;
           title = player.getVideoData?.().title || '';
           if (title) form.setSource({ title });
+          timer = setInterval(() => highlight(), 250);
         },
         onError: (e) => showError(playerErrorText(e.data)),
       },

@@ -1,11 +1,11 @@
-const SHELL_CACHE = 'shell-v5';
+const SHELL_CACHE = 'shell-v6';
 const DATA_CACHE = 'data-v2';
 const SHELL = [
   './', 'index.html', 'css/app.css', 'manifest.webmanifest',
   'icons/icon.svg', 'icons/icon-maskable.svg',
   'js/app.js', 'js/dates.js', 'js/srs.js', 'js/diff.js', 'js/pack.js',
   'js/store.js', 'js/data.js', 'js/speech.js', 'js/icons.js',
-  'js/plan.js', 'js/prompt.js', 'js/quiz.js', 'js/profile-options.js', 'js/clip.js', 'js/youtube.js',
+  'js/plan.js', 'js/prompt.js', 'js/quiz.js', 'js/profile-options.js', 'js/clip.js', 'js/youtube.js', 'js/subs.js',
   'js/views/today.js', 'js/views/vocab.js', 'js/views/practice.js',
   'js/views/review.js', 'js/views/progress.js', 'js/views/listening.js',
   'js/views/settings.js', 'js/views/onboarding.js', 'js/views/clips.js',
@@ -31,6 +31,8 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
   const url = new URL(e.request.url);
+  // YouTube, Google Fonts…: để trình duyệt tự xử lý
+  if (url.origin !== self.location.origin) return;
   if (url.pathname.includes('/data/')) {
     // data: network-first, cache lại để offline vẫn học được gói đã mở
     e.respondWith(

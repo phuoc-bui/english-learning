@@ -98,3 +98,19 @@ export function sceneAnchor(src, label, attrs = '') {
   const ext = l.external ? ' target="_blank" rel="noopener"' : '';
   return `<a class="scene-link" href="${esc(l.href)}"${ext} ${attrs}>${label}</a>`;
 }
+
+// Tách câu thành đoạn để hiển thị: từ bấm được (có chỉ số khớp tokenize) và phần xen giữa.
+export function tokenSegments(sentence) {
+  const s = String(sentence ?? '');
+  const re = /[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)*/g;
+  const out = [];
+  let last = 0;
+  let i = 0;
+  for (const m of s.matchAll(re)) {
+    if (m.index > last) out.push({ text: s.slice(last, m.index) });
+    out.push({ text: m[0], i: i++ });
+    last = m.index + m[0].length;
+  }
+  if (last < s.length) out.push({ text: s.slice(last) });
+  return out;
+}

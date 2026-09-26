@@ -434,9 +434,22 @@ body.wide #view { max-width: 1280px; }
 kbd { font-family: ui-monospace, monospace; font-size: 11px; padding: 1px 6px; border-radius: 6px; border: 1px solid var(--line-strong); background: var(--surface2); color: var(--muted); }
 .grab kbd { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.3); color: #fff; }
 .kbd-hint { font-size: 12px; }
-.side-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
-.side-head h2 { margin: 6px 0 12px; }
+.side-tabs { margin: 8px 0 12px; }
+.resume { margin-bottom: 12px; }
 .toggle { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--muted); cursor: pointer; }
+.sub-empty { font-size: 13.5px; color: var(--muted); line-height: 1.55; }
+.sub-empty ol { padding-left: 18px; margin: 8px 0 12px; display: grid; gap: 4px; }
+.sub-empty textarea { width: 100%; background: var(--surface2); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--radius-sm); padding: 10px; font-family: inherit; font-size: 13px; resize: vertical; }
+.sub-tools { margin: 0 0 6px; }
+.sub-tools .chip.on { border-color: var(--accent); color: var(--accent-light); background: var(--accent-soft); }
+.sub-tip { font-size: 12px; margin-bottom: 8px; }
+.sub-list { max-height: 42vh; overflow-y: auto; position: relative; display: grid; gap: 2px; padding-right: 4px; }
+.cue { display: flex; gap: 8px; align-items: baseline; padding: 7px 8px; border-radius: 10px; line-height: 1.5; font-size: 15px; color: var(--muted); transition: background .15s, color .15s; }
+.cue.now { background: var(--accent-soft); color: var(--text); }
+.cue-t { flex: none; background: none; border: none; font-family: ui-monospace, monospace; font-size: 11.5px; color: var(--faint); cursor: pointer; padding: 2px 0; min-width: 38px; text-align: left; }
+.cue-t:hover { color: var(--accent-light); }
+.cue .w { cursor: pointer; border-radius: 4px; }
+.cue .w:hover { background: rgba(91,124,250,0.28); color: #fff; }
 .watch-open { display: flex; gap: 8px; margin-bottom: 4px; }
 a.card { text-decoration: none; color: inherit; margin-bottom: 10px; }
 a.pill.wide { text-decoration: none; margin-bottom: 14px; }
@@ -449,6 +462,7 @@ a.pill.wide { text-decoration: none; margin-bottom: 14px; }
 }
 /* Máy tính: trình phát + danh sách bên trái, form bên phải */
 @media (min-width: 900px) {
-  .watch-grid { grid-template-columns: minmax(0, 1fr) 380px; grid-template-areas: "player side" "list side"; gap: 20px 24px; align-items: start; }
+  .watch-grid { grid-template-columns: minmax(0, 1fr) 420px; grid-template-areas: "player side" "list side"; gap: 20px 24px; align-items: start; }
+  .sub-list { max-height: calc(100dvh - 190px); }
   .watch-side { position: sticky; top: 16px; max-height: calc(100dvh - 32px); overflow-y: auto; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 6px 16px 16px; }
 }
