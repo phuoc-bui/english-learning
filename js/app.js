@@ -51,13 +51,15 @@ function render() {
 
 // App đã chuyển vào Vaultly (/hoc/). Không chuyển hướng cứng: dữ liệu nằm trong
 // localStorage của origin này, người dùng cần Xuất backup trước rồi Nhập ở app mới.
-const VAULTLY_HOC = 'https://vaultly-api-p6r6kaznba-as.a.run.app/hoc/';
+// Trỏ thẳng màn có nút Nhập backup: trong Vaultly, tab "Cài đặt" là cài đặt tài
+// chính, Nhập backup nằm ở Học → Cài đặt học.
+const VAULTLY_HOC = 'https://vaultly-api-p6r6kaznba-as.a.run.app/hoc/cai-dat';
 function showMovedBanner() {
   const bar = document.createElement('div');
   bar.className = 'moved-banner';
   bar.innerHTML = `
     <b>App đã chuyển sang Vaultly</b>
-    <span>Bấm <b>Xuất backup</b> ở đây, rồi mở app mới → Cài đặt → <b>Nhập backup</b>.</span>
+    <span>Bấm <b>Xuất backup</b> ở đây, rồi mở app mới (tab Học → Cài đặt học) → <b>Nhập backup</b>.</span>
     <div class="moved-actions">
       <button class="pill" id="movedExport">Xuất backup</button>
       <a class="pill" href="${VAULTLY_HOC}">Mở app mới</a>
