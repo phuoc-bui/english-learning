@@ -1,10 +1,12 @@
 import { initialCard, review, isDue } from '../srs.js';
 import { speak } from '../speech.js';
 import { icon } from '../icons.js';
+import { esc, sceneUrl, formatTime, KIND_LABEL } from '../clip.js';
 
 function highlight(example, word) {
   if (!example) return '';
-  const safe = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  example = esc(example);
+  const safe = esc(word).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   return example.replace(new RegExp(`\\b${safe}\\w*`, 'gi'), (m) => `<span class="hl">${m}</span>`);
 }
 
@@ -72,6 +74,8 @@ export function render(el, ctx) {
     word = queue[i];
     meta = wordMeta[word] || {};
     const pct = Math.round((i / queue.length) * 100);
+    const src = meta.track === 'clip' ? meta.source || {} : null;
+    const tag = src ? `${KIND_LABEL[src.kind] || 'Phim & nhạc'}${src.title ? ` · ${esc(src.title)}` : ''}` : 'Từ mới';
     el.innerHTML = `
       <header class="page-head">
         <h1>Từ vựng</h1>
@@ -82,19 +86,21 @@ export function render(el, ctx) {
       <div class="flip" id="flip-card">
         <div class="flip-inner">
           <div class="face front">
-            <span class="tag">Từ mới</span>
-            <div class="word">${word}</div>
+            <span class="tag">${tag}</span>
+            <div class="word">${esc(word)}</div>
+            ${src ? `<div class="example" style="margin-top:12px">${highlight(meta.example, word)}</div>` : ''}
             <div class="ipa">${meta.ipa || ''}</div>
             <button class="speak-btn" id="say">${icon.volume(18)}Nghe phát âm</button>
             <div class="flip-hint">Chạm để lật ↻</div>
           </div>
           <div class="face back">
             <div class="label">Nghĩa</div>
-            <div class="meaning">${meta.meaning_vi || ''}</div>
+            <div class="meaning">${esc(meta.meaning_vi)}</div>
             <div class="divider"></div>
             <div class="label">Ví dụ</div>
             <div class="example">${highlight(meta.example, word)} <button class="speak-btn mini" id="sayEx">${icon.volume(15)}</button></div>
-            <div class="example-vi">${meta.example_vi || ''}</div>
+            <div class="example-vi">${esc(meta.example_vi)}</div>
+            ${src?.url ? `<a class="scene-link" id="scene" href="${esc(sceneUrl(src.url, src.t))}" target="_blank" rel="noopener">${icon.play(13)} Xem lại cảnh${src.t != null ? ` (${formatTime(src.t)})` : ''}</a>` : ''}
             <div class="flip-hint">Chạm để lật lại ↻</div>
           </div>
         </div>
@@ -104,6 +110,7 @@ export function render(el, ctx) {
 
     el.querySelector('#say').onclick = (e) => { e.stopPropagation(); speak(word); };
     el.querySelector('#sayEx').onclick = (e) => { e.stopPropagation(); speak(meta.example); };
+    el.querySelector('#scene')?.addEventListener('click', (e) => e.stopPropagation());
     el.querySelector('#flip-card').addEventListener('click', doFlip);
     bindBottom();
   }

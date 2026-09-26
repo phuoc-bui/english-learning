@@ -2,6 +2,7 @@ import { icon } from '../icons.js';
 import { addDays } from '../dates.js';
 import { requiredActivities } from '../plan.js';
 import { TRACK_LABEL } from '../profile-options.js';
+import { clipStats } from './clips.js';
 
 // Thẻ hoạt động: 3 cốt lõi + AI theo kế hoạch ngày
 const CARD_META = {
@@ -47,6 +48,16 @@ export function render(el, ctx) {
   const activities = requiredActivities(ctx.today, profile.minutes ?? 15);
   const isDone = (a) => (a.startsWith('ai_') ? store.isAiDone(ctx.today, a.slice(3)) : !!done[a]);
   const doneCount = activities.filter(isDone).length;
+  const clip = clipStats(store);
+  const clipCard = `
+    <div class="section-head" style="margin-top:22px"><b>Phim & nhạc</b></div>
+    <button class="card accent" id="openClips">
+      <span class="tile">${icon.play(19)}</span>
+      <span class="body"><b>Săn câu</b><small>${
+        clip.total ? `${clip.total} câu đã lưu${clip.inbox ? ` · ${clip.inbox} chờ giải nghĩa` : ''}` : 'Lưu câu hay từ donghua, YouTube, nhạc'
+      }</small></span>
+      <span class="trail">${icon.chevron(20)}</span>
+    </button>`;
 
   el.innerHTML = `
     <div class="greet">
@@ -96,10 +107,12 @@ export function render(el, ctx) {
           </button>`;
         }).join('')}
       </div>`}
+    ${clipCard}
   `;
 
   el.querySelectorAll('.card').forEach((b) => {
     b.addEventListener('click', () => ctx.navigate(b.dataset.tab));
   });
   el.querySelector('#openSettings').onclick = () => ctx.navigate('settings');
+  el.querySelector('#openClips').onclick = () => ctx.navigate('clips');
 }

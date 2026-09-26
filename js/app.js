@@ -9,10 +9,11 @@ import * as progress from './views/progress.js';
 import * as listening from './views/listening.js';
 import * as settings from './views/settings.js';
 import * as onboarding from './views/onboarding.js';
+import * as clips from './views/clips.js';
 
-const views = { today, vocab, practice, review, progress, listening, settings };
+const views = { today, vocab, practice, review, progress, listening, settings, clips };
 // view ẩn (không có tab riêng) -> tab nào sáng
-const HIDDEN = { listening: 'today', settings: 'today' };
+const HIDDEN = { listening: 'today', settings: 'today', clips: 'today' };
 
 const ctx = {
   store: createStore(localStorage),
@@ -20,7 +21,17 @@ const ctx = {
   packError: false,
   today: localDateStr(),
   navigate: (name) => { location.hash = name; },
+  shared: null, // dữ liệu từ nút Chia sẻ của Android (Web Share Target)
 };
+
+// Mở app qua Chia sẻ: ./?title=…&text=…&url=… -> form Bắt câu
+{
+  const q = new URLSearchParams(location.search);
+  if (q.has('title') || q.has('text') || q.has('url')) {
+    ctx.shared = { title: q.get('title') || '', text: q.get('text') || '', url: q.get('url') || '' };
+    history.replaceState(null, '', `${location.pathname}#clips`);
+  }
+}
 
 function render() {
   const name = location.hash.slice(1) || 'today';

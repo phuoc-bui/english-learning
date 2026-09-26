@@ -1,5 +1,7 @@
 import { addDays } from './dates.js';
 import { requiredActivities } from './plan.js';
+import { initialCard } from './srs.js';
+import { cardKey } from './clip.js';
 
 const KEY = 'office-english-v1';
 const ACTIVITIES = ['vocab', 'listening', 'speaking'];
@@ -14,6 +16,7 @@ const emptyState = () => ({
   profile: null,
   aiDone: {},
   tests: [],
+  mined: [], // câu săn được từ phim/nhạc: { id, text, focus, meaning_vi, note, source, createdAt }
 });
 
 export function createStore(storage) {
@@ -31,6 +34,19 @@ export function createStore(storage) {
     } catch (e) {
       console.warn('Không lưu được tiến độ:', e);
     }
+  };
+
+  // Câu săn được -> thẻ trong srs/wordMeta (dùng chung màn Từ vựng & Sổ tay). Không đè từ của gói bài.
+  const promote = (e) => {
+    const key = cardKey(e.focus);
+    const meta = state.wordMeta[key];
+    if (state.srs[key] && meta && meta.track !== 'clip') return 'exists';
+    if (!state.srs[key]) state.srs[key] = initialCard();
+    state.wordMeta[key] = {
+      ipa: '', meaning_vi: e.meaning_vi, example: e.text, example_vi: e.note,
+      track: 'clip', source: e.source, minedId: e.id,
+    };
+    return 'card';
   };
 
   const store = {
@@ -59,6 +75,36 @@ export function createStore(storage) {
     markTestAiDone(date, kind) {
       const t = state.tests.find((x) => x.date === date && x.kind === kind);
       if (t) { t.ai = true; save(); }
+    },
+    // Lưu câu săn được; có nghĩa thì thành thẻ SRS ngay. Trả về 'card' | 'inbox' | 'exists'.
+    addMined({ text, focus, meaning_vi = '', note = '', source = {}, createdAt }) {
+      const entry = {
+        id: `m${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`,
+        text: text.trim(), focus: focus.trim(), meaning_vi: meaning_vi.trim(), note: note.trim(), source, createdAt,
+      };
+      state.mined.push(entry);
+      const res = entry.meaning_vi ? promote(entry) : 'inbox';
+      save();
+      return res;
+    },
+    setMinedMeaning(id, meaning_vi) {
+      const e = state.mined.find((x) => x.id === id);
+      if (!e || !meaning_vi.trim()) return null;
+      e.meaning_vi = meaning_vi.trim();
+      const res = promote(e);
+      save();
+      return res;
+    },
+    removeMined(id) {
+      const e = state.mined.find((x) => x.id === id);
+      if (!e) return;
+      state.mined = state.mined.filter((x) => x.id !== id);
+      const key = cardKey(e.focus);
+      if (state.wordMeta[key]?.minedId === id) {
+        delete state.srs[key];
+        delete state.wordMeta[key];
+      }
+      save();
     },
     addSpeakingSeconds(date, seconds) {
       const d = (state.days[date] = { ...state.days[date] });
@@ -107,7 +153,8 @@ export function createStore(storage) {
         && (parsed.interviewLog === undefined || Array.isArray(parsed.interviewLog))
         && (parsed.profile === undefined || parsed.profile === null || isPlainObj(parsed.profile))
         && (parsed.aiDone === undefined || isPlainObj(parsed.aiDone))
-        && (parsed.tests === undefined || Array.isArray(parsed.tests));
+        && (parsed.tests === undefined || Array.isArray(parsed.tests))
+        && (parsed.mined === undefined || Array.isArray(parsed.mined));
       if (!valid) {
         throw new Error('File backup không hợp lệ');
       }

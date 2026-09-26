@@ -141,3 +141,41 @@ test('import từ chối profile/aiDone/tests sai kiểu', () => {
   assert.throws(() => s.importData('{"days":{},"profile":"x"}'));
   assert.throws(() => s.importData('{"days":{},"tests":{}}'));
 });
+
+test('addMined: có nghĩa -> thành thẻ SRS kèm nguồn; chưa có nghĩa -> chờ', () => {
+  const s = createStore(fakeStorage());
+  const src = { kind: 'donghua', title: 'BTTH', url: 'https://youtu.be/a', t: 60 };
+  assert.equal(s.addMined({ text: "You're courting death!", focus: 'courting death', meaning_vi: 'muốn chết à', source: src, createdAt: '2026-09-26' }), 'card');
+  assert.ok(s.state.srs['courting death']);
+  assert.equal(s.state.wordMeta['courting death'].track, 'clip');
+  assert.equal(s.state.wordMeta['courting death'].example, "You're courting death!");
+  assert.deepEqual(s.state.wordMeta['courting death'].source, src);
+
+  assert.equal(s.addMined({ text: 'Hold back!', focus: 'hold back', source: {}, createdAt: '2026-09-26' }), 'inbox');
+  assert.equal(s.state.srs['hold back'], undefined);
+  const id = s.state.mined[1].id;
+  assert.equal(s.setMinedMeaning(id, 'kìm lại'), 'card');
+  assert.equal(s.state.wordMeta['hold back'].meaning_vi, 'kìm lại');
+});
+
+test('addMined không đè từ của gói bài; removeMined xoá thẻ do nó tạo', () => {
+  const s = createStore(fakeStorage());
+  s.state.srs.deadline = { reps: 3, interval: 7, ease: 2.5, due: '2026-10-01' };
+  s.state.wordMeta.deadline = { meaning_vi: 'hạn chót', track: 'it' };
+  assert.equal(s.addMined({ text: 'The deadline is near.', focus: 'Deadline', meaning_vi: 'x', source: {} }), 'exists');
+  assert.equal(s.state.wordMeta.deadline.track, 'it');
+  assert.equal(s.state.srs.deadline.reps, 3);
+
+  s.addMined({ text: 'Stay calm.', focus: 'stay calm', meaning_vi: 'bình tĩnh', source: {} });
+  const id = s.state.mined.find((m) => m.focus === 'stay calm').id;
+  s.removeMined(id);
+  assert.equal(s.state.srs['stay calm'], undefined);
+  assert.equal(s.state.mined.some((m) => m.id === id), false);
+});
+
+test('importData chấp nhận mined, từ chối mined sai kiểu', () => {
+  const s = createStore(fakeStorage());
+  s.importData(JSON.stringify({ days: {}, mined: [{ id: 'm1', text: 'a', focus: 'a' }] }));
+  assert.equal(s.state.mined.length, 1);
+  assert.throws(() => s.importData(JSON.stringify({ days: {}, mined: {} })));
+});
