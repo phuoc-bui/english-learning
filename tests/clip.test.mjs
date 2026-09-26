@@ -73,3 +73,12 @@ test('youtubePlayerErrorText', async () => {
   assert.match(playerErrorText(150), /không cho phát/);
   assert.match(playerErrorText(100), /không tồn tại/);
 });
+
+test('watchHash/sceneLink đánh dấu video YouTube Music', async () => {
+  const { watchHash, sceneLink, isMusicUrl } = await import('../js/clip.js');
+  assert.equal(watchHash('abc', 5, true), '#watch?v=abc&t=5&m=1');
+  assert.equal(isMusicUrl('https://music.youtube.com/watch?v=abc'), true);
+  assert.equal(isMusicUrl('https://www.youtube.com/watch?v=abc'), false);
+  assert.equal(sceneLink({ url: 'https://music.youtube.com/watch?v=abc', t: 30 }).href, '#watch?v=abc&t=30&m=1');
+  assert.equal(sceneLink({ url: 'https://youtu.be/abc', kind: 'music' }).href, '#watch?v=abc&m=1');
+});

@@ -3,6 +3,7 @@ import { speak } from '../speech.js';
 import { esc, parseTime, formatTime, sceneUrl, youtubeId, tokenSegments } from '../clip.js';
 import { loadYouTubeApi, playerErrorText } from '../youtube.js';
 import { parseSubs, cueIndexAt, loadSubs, saveSubs, removeSubs } from '../subs.js';
+import { cleanTitle, findLyrics } from '../lyrics.js';
 import { createCaptureForm } from './capture-form.js';
 
 const SPEEDS = [0.5, 0.75, 1];
@@ -12,7 +13,8 @@ export function render(el, ctx) {
   const id = ctx.params.get('v');
   const start = parseTime(ctx.params.get('t')) || 0;
   if (!id) { ctx.navigate('clips'); return; }
-  const url = `https://www.youtube.com/watch?v=${id}`;
+  const music = ctx.params.get('m') === '1';
+  const url = music ? `https://music.youtube.com/watch?v=${id}` : `https://www.youtube.com/watch?v=${id}`;
 
   let player = null;
   let ready = false;
@@ -57,7 +59,7 @@ export function render(el, ctx) {
   `;
 
   const form = createCaptureForm(el.querySelector('#capture'), ctx, {
-    source: { url, t: start || null }, hideUrl: true,
+    source: { url, t: start || null, kind: music ? 'music' : undefined }, hideUrl: true,
     onSaved: () => {
       drawList();
       if (autoResume && ready) player.playVideo();
@@ -78,9 +80,19 @@ export function render(el, ctx) {
   function drawSubs() {
     const pane = el.querySelector('#subPane');
     if (!cues) {
+      const lyricsBox = `
+        <div class="lyrics-find">
+          <p><b>${icon.headphones(14)} Bài hát?</b> Tự tìm lời chạy theo nhạc (nguồn LRCLIB):</p>
+          <div class="watch-open">
+            <input class="inline-input" id="lq" value="${esc(cleanTitle(title))}" placeholder="Ca sĩ - Tên bài">
+            <button class="pill" id="findLyrics">${icon.search(14)} Tìm lời</button>
+          </div>
+          <p class="warn" id="lyMsg"></p>
+        </div>`;
       pane.innerHTML = `
+        ${music ? lyricsBox : ''}
         <div class="sub-empty">
-          <p><b>Chưa có phụ đề cho video này.</b> YouTube không cho app tự tải phụ đề, nên dán vào một lần:</p>
+          <p><b>${music ? 'Hoặc dán phụ đề/lời' : 'Chưa có phụ đề cho video này.'}</b> YouTube không cho app tự tải phụ đề, nên dán vào một lần:</p>
           <ol>
             <li>Mở video trên <a class="scene-link" href="${esc(url)}" target="_blank" rel="noopener">YouTube ${icon.external(12)}</a> (máy tính).</li>
             <li>Dưới video bấm <b>…thêm</b> → <b>Hiện bản chép lời</b> (Show transcript), chọn ngôn ngữ <b>English</b>.</li>
@@ -93,7 +105,8 @@ export function render(el, ctx) {
             <input type="file" id="subFile" accept=".srt,.vtt,.txt,text/vtt" hidden>
           </div>
           <p class="warn" id="subMsg"></p>
-        </div>`;
+        </div>
+        ${music ? '' : lyricsBox}`;
       const apply = (text) => {
         const parsed = parseSubs(text);
         if (!parsed.length) {
@@ -106,6 +119,8 @@ export function render(el, ctx) {
         drawSubs();
       };
       pane.querySelector('#useSubs').onclick = () => apply(pane.querySelector('#subText').value);
+      pane.querySelector('#findLyrics').onclick = searchLyrics;
+      pane.querySelector('#lq').onkeydown = (e) => { if (e.key === 'Enter') searchLyrics(); };
       const file = pane.querySelector('#subFile');
       pane.querySelector('#pickFile').onclick = () => file.click();
       file.onchange = async () => { if (file.files[0]) apply(await file.files[0].text()); };
@@ -144,6 +159,31 @@ export function render(el, ctx) {
       }
     };
     highlight(true);
+  }
+
+  async function searchLyrics() {
+    const inp = el.querySelector('#lq');
+    const out = el.querySelector('#lyMsg');
+    const q = inp?.value.trim();
+    if (!q) { if (out) out.textContent = 'Nhập "Ca sĩ - Tên bài" để tìm.'; return; }
+    out.textContent = 'Đang tìm lời…';
+    const r = await findLyrics(q, ready ? player.getDuration() : 0);
+    if (cues) return; // đã có phụ đề trong lúc chờ
+    if (!r.cues) {
+      const text = {
+        none: 'Không tìm thấy lời có mốc giờ khớp độ dài bài — thử sửa lại tên (Ca sĩ - Tên bài).',
+        plain: 'Bài này chỉ có lời không kèm mốc giờ nên chưa chạy theo nhạc được.',
+        network: 'Không kết nối được LRCLIB — kiểm tra mạng rồi thử lại.',
+      }[r.reason];
+      if (el.querySelector('#lyMsg')) el.querySelector('#lyMsg').textContent = text;
+      return;
+    }
+    cues = r.cues;
+    saveSubs(id, cues);
+    cur = -1;
+    drawSubs();
+    const tip = el.querySelector('.sub-tip');
+    if (tip) tip.insertAdjacentHTML('beforebegin', `<p class="meta sub-tip">Lời: <b>${esc(r.label)}</b> · nguồn LRCLIB</p>`);
   }
 
   function seekCue(i) {
@@ -295,6 +335,9 @@ export function render(el, ctx) {
           ready = true;
           title = player.getVideoData?.().title || '';
           if (title) form.setSource({ title });
+          const lq = el.querySelector('#lq');
+          if (lq && !lq.value) lq.value = cleanTitle(title);
+          if (music && !cues && lq?.value) searchLyrics(); // YouTube Music: tự tìm lời
           timer = setInterval(() => highlight(), 250);
         },
         onError: (e) => showError(playerErrorText(e.data)),

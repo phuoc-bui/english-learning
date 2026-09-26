@@ -463,6 +463,16 @@ a.pill.wide { text-decoration: none; margin-bottom: 14px; }
 /* Máy tính: trình phát + danh sách bên trái, form bên phải */
 @media (min-width: 900px) {
   .watch-grid { grid-template-columns: minmax(0, 1fr) 420px; grid-template-areas: "player side" "list side"; gap: 20px 24px; align-items: start; }
-  .sub-list { max-height: calc(100dvh - 190px); }
-  .watch-side { position: sticky; top: 16px; max-height: calc(100dvh - 32px); overflow-y: auto; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 6px 16px 16px; }
+  .sub-list { max-height: calc(100dvh - 250px); }
+  body.wide #tabs { display: none; }
+  body.wide #view { padding-bottom: 24px; }
+  .watch-side #cf-save { position: sticky; bottom: 0; box-shadow: 0 -12px 18px -6px var(--card); }
+  .watch-side { position: sticky; top: 16px; max-height: calc(100dvh - 96px); overflow-y: auto; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 6px 16px 16px; }
 }
+.lyrics-find { font-size: 13.5px; color: var(--muted); margin-bottom: 14px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+.sub-empty + .lyrics-find { border-bottom: none; border-top: 1px solid var(--line); padding-top: 12px; margin-top: 12px; }
+.lyrics-find p { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+.lyrics-find .warn { margin: 6px 0 0; }
+.ext-note { background: var(--card); border: 1px solid rgba(245,166,35,0.3); border-radius: var(--radius); padding: 14px; margin-bottom: 14px; font-size: 13.5px; line-height: 1.55; color: var(--muted); display: grid; gap: 8px; }
+.ext-note b { color: var(--text); }
+.ext-note .pill { justify-self: start; text-decoration: none; }
