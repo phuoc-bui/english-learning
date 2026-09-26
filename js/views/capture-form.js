@@ -130,9 +130,11 @@ export function createCaptureForm(box, ctx, { source = {}, hideUrl = false, hide
       draw();
     },
     // Điền câu từ phụ đề (bấm vào dòng/từ trong khung phụ đề); pick = chỉ số từ chọn sẵn
-    setDraft({ text, pick = null, t = null, title }) {
+    setDraft({ text, pick = null, t = null, title, meaning, note }) {
       f.text = text;
       f.picks = new Set(pick != null ? [pick] : []);
+      if (meaning != null) f.meaning = meaning;
+      if (note != null) f.note = note;
       if (t != null) f.time = formatTime(t);
       if (title && !f.title) f.title = title;
       msg = '';

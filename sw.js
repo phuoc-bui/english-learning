@@ -1,11 +1,11 @@
-const SHELL_CACHE = 'shell-v9';
+const SHELL_CACHE = 'shell-v10';
 const DATA_CACHE = 'data-v2';
 const SHELL = [
   './', 'index.html', 'css/app.css', 'manifest.webmanifest',
   'icons/icon.svg', 'icons/icon-maskable.svg',
   'js/app.js', 'js/dates.js', 'js/srs.js', 'js/diff.js',
   'js/store.js', 'js/speech.js', 'js/icons.js',
-  'js/plan.js', 'js/prompt.js', 'js/quiz.js', 'js/profile-options.js', 'js/clip.js', 'js/youtube.js', 'js/subs.js', 'js/lyrics.js', 'js/news.js',
+  'js/plan.js', 'js/prompt.js', 'js/quiz.js', 'js/profile-options.js', 'js/clip.js', 'js/youtube.js', 'js/subs.js', 'js/lyrics.js', 'js/news.js', 'js/translate.js',
   'js/views/today.js', 'js/views/vocab.js', 'js/views/practice.js',
   'js/views/progress.js',
   'js/views/settings.js', 'js/views/onboarding.js', 'js/views/clips.js',

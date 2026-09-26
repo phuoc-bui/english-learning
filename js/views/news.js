@@ -6,6 +6,8 @@ import {
   listNews, getArticle, listDev, getDevArticle, splitSentences,
 } from '../news.js';
 import { createCaptureForm } from './capture-form.js';
+import { translate, ENGINE_LABEL, TR_ERR } from '../translate.js';
+import { DAILY_GOAL } from '../store.js';
 
 const PREF = 'office-english-news';
 const SOURCES = { guardian: 'The Guardian', dev: 'Blog công nghệ (DEV)' };
@@ -159,7 +161,7 @@ function renderReader(el, ctx, src, id) {
   el.innerHTML = `
     <header class="page-head">
       <button class="pill" id="back">${icon.chevron(14)} Đọc tin</button>
-      <h1>Đọc & bắt câu</h1>
+      <h1>Đọc & dịch</h1>
     </header>
     <div id="reader"><p class="meta">Đang tải bài…</p></div>`;
   el.querySelector('#back').onclick = () => ctx.navigate('news');
@@ -175,7 +177,7 @@ function renderReader(el, ctx, src, id) {
       ${mine.length ? mine.map((m) => `
         <div class="clip-item"><p class="sentence">${esc(m.text)}</p>
         <div><b>${esc(m.focus)}</b>${m.meaning_vi ? ` — ${esc(m.meaning_vi)}` : ' <small class="meta">(chờ giải nghĩa)</small>'}</div></div>`).join('')
-        : '<p class="meta">Chưa có câu nào — bấm vào từ lạ trong bài để bắt câu.</p>'}`;
+        : '<p class="meta">Chưa có câu nào — bấm vào từ lạ, xem nghĩa rồi bấm Lưu câu.</p>'}`;
   }
 
   function drawArticle() {
@@ -187,41 +189,138 @@ function renderReader(el, ctx, src, id) {
           <h2 class="news-title">${esc(art.title)}</h2>
           <p class="meta">${[esc(art.byline), art.date, srcLabel].filter(Boolean).join(' · ')}
             ${art.url ? ` · <a class="scene-link" href="${esc(art.url)}" target="_blank" rel="noopener">Bài gốc ${icon.external(12)}</a>` : ''}</p>
-          <p class="meta sub-tip">Bấm vào <b>từ</b> để bắt cả câu · ${icon.volume(12)} nghe đọc đoạn văn.</p>
+          <p class="meta sub-tip">Bấm vào <b>từ</b> để xem nghĩa + dịch cả câu · <b>Dịch</b> cạnh mỗi đoạn để dịch cả đoạn · ${icon.volume(12)} nghe đọc.</p>
           ${sentences.map((ss, p) => `
             <div class="para">
-              <button class="pill say-p" data-p="${p}" aria-label="Nghe đoạn này">${icon.volume(13)}</button>
+              <div class="para-tools">
+                <button class="pill say-p" data-p="${p}" aria-label="Nghe đoạn này">${icon.volume(13)}</button>
+                <button class="pill tr-p" data-p="${p}" aria-label="Dịch đoạn này">Dịch</button>
+              </div>
               <p>${ss.map((s, i) => `<span class="sent" data-p="${p}" data-s="${i}">${tokenSegments(s).map((g) => (g.i != null
                 ? `<span class="w" data-w="${g.i}">${esc(g.text)}</span>` : esc(g.text))).join('')}</span>`).join(' ')}</p>
             </div>`).join('')}
           ${srcLabel ? `<p class="meta">Nguồn: ${srcLabel}. Nội dung chỉ hiển thị để đọc, không lưu lại.</p>` : ''}
         </article>
         <aside class="watch-side news-side" id="side">
-          <div class="sheet-head"><h2>Bắt câu</h2><button class="pill sheet-close" id="closeSheet" aria-label="Đóng">${icon.x(14)}</button></div>
-          <p class="meta sheet-hint">Bấm vào từ trong bài — câu chứa từ đó sẽ được điền sẵn.</p>
-          <div id="capture"></div>
+          <div class="sheet-head"><h2 id="sideTitle">Dịch</h2><button class="pill sheet-close" id="closeSheet" aria-label="Đóng">${icon.x(14)}</button></div>
+          <div id="trPane"><p class="meta sheet-hint">Bấm vào một từ trong bài để xem nghĩa của từ và bản dịch cả câu.</p></div>
+          <div id="capPane" hidden>
+            <button class="pill" id="backTr" style="margin-bottom:10px">${icon.chevron(12)} Quay lại bản dịch</button>
+            <div id="capture"></div>
+          </div>
         </aside>
         <section class="watch-list" id="mineList"></section>
       </div>`;
 
     form = createCaptureForm(el.querySelector('#capture'), ctx, {
       source: { url: art.url, title: art.title, kind: 'news' }, hideUrl: true, hideTime: true,
-      onSaved: () => { drawList(); if (isMobile()) el.querySelector('#side').classList.remove('open'); },
+      onSaved: () => { drawList(); showPane('tr'); if (isMobile()) el.querySelector('#side').classList.remove('open'); },
     });
     drawList();
+
+    let current = null; // { sentence, word, pick, wordVi, sentVi }
+    let reqId = 0;
+
+    function showPane(which) {
+      el.querySelector('#trPane').hidden = which !== 'tr';
+      el.querySelector('#capPane').hidden = which !== 'cap';
+      el.querySelector('#sideTitle').textContent = which === 'tr' ? 'Dịch' : 'Sửa trước khi lưu';
+    }
+
+    function drawTr(state) {
+      const pane = el.querySelector('#trPane');
+      if (state.paragraph != null) {
+        pane.innerHTML = `
+          <p class="tr-en">${esc(art.paragraphs[state.paragraph])}</p>
+          <p class="tr-vi">${state.error ? `<span class="error-inline">${esc(state.error)}</span>` : state.paraVi ? esc(state.paraVi) : '<span class="meta">Đang dịch…</span>'}</p>
+          ${state.engine ? `<p class="meta tr-engine">Dịch bởi ${ENGINE_LABEL[state.engine]}</p>` : ''}`;
+        return;
+      }
+      const segs = tokenSegments(state.sentence).map((g) => (g.i === state.pick ? `<mark>${esc(g.text)}</mark>` : esc(g.text))).join('');
+      const saved = store.state.mined.some((m) => m.text === state.sentence && m.focus.toLowerCase() === state.word.toLowerCase());
+      const n = store.minedCount(ctx.today);
+      pane.innerHTML = `
+        <div class="tr-word">
+          <button class="pill say-w" aria-label="Nghe từ">${icon.volume(14)}</button>
+          <div><b>${esc(state.word)}</b><div class="tr-word-vi">${state.wordVi ? esc(state.wordVi) : state.error ? '' : '<span class="meta">Đang dịch…</span>'}</div></div>
+        </div>
+        <div class="tr-block">
+          <p class="tr-en">${segs} <button class="pill mini say-s" aria-label="Nghe câu">${icon.volume(12)}</button></p>
+          <p class="tr-vi">${state.error ? `<span class="error-inline">${esc(state.error)}</span>` : state.sentVi ? esc(state.sentVi) : '<span class="meta">Đang dịch…</span>'}</p>
+        </div>
+        ${state.engine ? `<p class="meta tr-engine">Dịch bởi ${ENGINE_LABEL[state.engine]} — máy dịch, có thể chưa sát nghĩa.</p>` : ''}
+        <div class="tr-actions">
+          <button class="primary" id="quickSave" ${saved || !state.wordVi ? 'disabled' : ''}>${saved ? `${icon.check(16)} Đã lưu câu này` : `${icon.check(16)} Lưu câu (${Math.min(n, DAILY_GOAL)}/${DAILY_GOAL} hôm nay)`}</button>
+          <button class="pill" id="editSave">${icon.pencil(14)} Sửa rồi lưu</button>
+        </div>
+        <p class="warn" id="trMsg"></p>`;
+      pane.querySelector('.say-w').onclick = () => speak(state.word);
+      pane.querySelector('.say-s').onclick = () => speak(state.sentence, { rate: 0.95 });
+      pane.querySelector('#quickSave').onclick = () => {
+        const res = store.addMined({
+          text: state.sentence, focus: state.word, meaning_vi: state.wordVi, note: state.sentVi || '', createdAt: ctx.today,
+          source: { kind: 'news', title: art.title, url: art.url, t: null },
+        });
+        drawList();
+        drawTr(state);
+        const cnt = store.minedCount(ctx.today);
+        el.querySelector('#trMsg').textContent = (res === 'exists' ? `"${state.word}" đã có trong sổ — câu vẫn được lưu.` : `Đã lưu "${state.word}" thành thẻ ôn ✓`)
+          + (cnt === DAILY_GOAL ? ` · Đủ ${DAILY_GOAL} câu hôm nay 🔥` : cnt < DAILY_GOAL ? ` · Hôm nay ${cnt}/${DAILY_GOAL}` : '');
+      };
+      pane.querySelector('#editSave').onclick = () => {
+        form.setDraft({ text: state.sentence, pick: state.pick, title: art.title, meaning: state.wordVi || '', note: state.sentVi || '' });
+        showPane('cap');
+        form.focus();
+      };
+    }
+
+    async function translateWord(sentence, pick, word) {
+      const my = ++reqId;
+      current = { sentence, pick, word };
+      showPane('tr');
+      drawTr(current);
+      try {
+        const [w, s] = await Promise.all([translate(word), translate(sentence)]);
+        if (my !== reqId) return; // đã bấm từ khác
+        current = { ...current, wordVi: w.text, sentVi: s.text, engine: s.engine };
+      } catch (e) {
+        if (my !== reqId) return;
+        current = { ...current, error: TR_ERR[e.code] || TR_ERR.server };
+      }
+      drawTr(current);
+    }
+
+    async function translatePara(p) {
+      const my = ++reqId;
+      showPane('tr');
+      drawTr({ paragraph: p });
+      try {
+        const r = await translate(art.paragraphs[p]);
+        if (my === reqId) drawTr({ paragraph: p, paraVi: r.text, engine: r.engine });
+      } catch (e) {
+        if (my === reqId) drawTr({ paragraph: p, error: TR_ERR[e.code] || TR_ERR.server });
+      }
+    }
 
     el.querySelector('.news-article').onclick = (e) => {
       const say = e.target.closest('.say-p');
       if (say) { stopSpeaking(); speak(art.paragraphs[+say.dataset.p], { rate: 0.95 }); return; }
+      const trp = e.target.closest('.tr-p');
+      if (trp) {
+        el.querySelectorAll('.sent.picked').forEach((x) => x.classList.remove('picked'));
+        translatePara(+trp.dataset.p);
+        if (isMobile()) el.querySelector('#side').classList.add('open');
+        return;
+      }
       const w = e.target.closest('.w');
       if (!w) return;
       const sent = w.closest('.sent');
       el.querySelectorAll('.sent.picked').forEach((x) => x.classList.remove('picked'));
       sent.classList.add('picked');
-      form.setDraft({ text: sentences[+sent.dataset.p][+sent.dataset.s], pick: +w.dataset.w, title: art.title });
+      translateWord(sentences[+sent.dataset.p][+sent.dataset.s], +w.dataset.w, w.textContent);
       if (isMobile()) el.querySelector('#side').classList.add('open');
-      form.focus();
     };
+    el.querySelector('#backTr').onclick = () => showPane('tr');
     el.querySelector('#closeSheet').onclick = () => el.querySelector('#side').classList.remove('open');
   }
 

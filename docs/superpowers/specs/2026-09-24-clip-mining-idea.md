@@ -150,3 +150,9 @@ Người dùng hay xem trên máy tính → thêm màn **Xem & bắt câu** (`#w
   - Tiến độ: câu đã bắt, thẻ ôn, lịch 30 ngày (đủ 3 câu / 1–2 câu); kiểm tra tuần/tháng ra đề từ câu đã bắt có nghĩa.
 - Form Bắt câu báo tiến độ ngày sau mỗi lần lưu ("Hôm nay 2/3 câu").
 - `data/packs/`, `routine/PROMPT.md`, `js/data.js`, `js/pack.js` giữ lại (script validate, test) nhưng app không dùng; routine soạn gói bài nên tắt.
+
+## 12. Đọc tin: khung Dịch thay khung Bắt câu (2026-09-26)
+
+- `js/translate.js`: Anh → Việt, ưu tiên **Translator API có sẵn trong Chrome** (chạy trên máy, miễn phí; gói ngôn ngữ chưa có thì tải ngầm), dự phòng **MyMemory** (miễn phí, không key, ~5.000 ký tự/ngày, cắt đoạn ≤ 450 byte). Có cache trong phiên.
+- Đọc bài: bấm từ → khung **Dịch** hiện nghĩa từ + bản dịch câu (tô từ đang chọn), nghe từ/câu; nút **Dịch** cạnh mỗi đoạn để dịch cả đoạn.
+- Vẫn tính streak: **Lưu câu** một chạm (nghĩa = bản dịch từ, ghi chú = bản dịch câu) hoặc **Sửa rồi lưu** (mở form Bắt câu điền sẵn).
