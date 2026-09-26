@@ -421,3 +421,34 @@ details.acc .acc-body ul { padding-left: 18px; display: grid; gap: 6px; }
 .inline-input { flex: 1; min-width: 0; padding: 8px 10px; font-size: 14px; }
 .scene-link { display: inline-flex; align-items: center; gap: 4px; color: var(--accent-light); font-weight: 600; text-decoration: none; margin-top: 10px; }
 .clip-item .scene-link { margin: 0 0 0 6px; }
+
+/* ============ XEM & BẮT CÂU ============ */
+body.wide #view { max-width: 1280px; }
+.watch-grid { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr); grid-template-areas: "player" "side" "list"; }
+.watch-player { grid-area: player; min-width: 0; }
+.watch-side { grid-area: side; min-width: 0; }
+.watch-list { grid-area: list; min-width: 0; }
+.player-wrap { position: relative; aspect-ratio: 16 / 9; background: #000; border-radius: var(--radius); overflow: hidden; }
+.player-wrap iframe, .player-wrap #player { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.player-ctrls .grab { width: auto; margin: 0 0 0 auto; padding: 10px 16px; }
+kbd { font-family: ui-monospace, monospace; font-size: 11px; padding: 1px 6px; border-radius: 6px; border: 1px solid var(--line-strong); background: var(--surface2); color: var(--muted); }
+.grab kbd { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.3); color: #fff; }
+.kbd-hint { font-size: 12px; }
+.side-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.side-head h2 { margin: 6px 0 12px; }
+.toggle { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--muted); cursor: pointer; }
+.watch-open { display: flex; gap: 8px; margin-bottom: 4px; }
+a.card { text-decoration: none; color: inherit; margin-bottom: 10px; }
+a.pill.wide { text-decoration: none; margin-bottom: 14px; }
+
+/* Điện thoại: trình phát dính trên cùng để vừa xem vừa gõ */
+@media (max-width: 899px) {
+  .kbd-hint, .grab kbd { display: none; }
+  .watch-player { position: sticky; top: 0; z-index: 5; background: var(--bg); padding-bottom: 4px; }
+  .player-ctrls { margin: 8px 0 0; }
+}
+/* Máy tính: trình phát + danh sách bên trái, form bên phải */
+@media (min-width: 900px) {
+  .watch-grid { grid-template-columns: minmax(0, 1fr) 380px; grid-template-areas: "player side" "list side"; gap: 20px 24px; align-items: start; }
+  .watch-side { position: sticky; top: 16px; max-height: calc(100dvh - 32px); overflow-y: auto; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 6px 16px 16px; }
+}

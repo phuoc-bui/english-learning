@@ -55,3 +55,21 @@ test('tokenize + focusFromPicks giữ thứ tự câu', () => {
 test('esc chặn HTML', () => {
   assert.equal(esc('<b>"x"</b>'), '&lt;b&gt;&quot;x&quot;&lt;/b&gt;');
 });
+
+test('sceneLink: YouTube mở trong app, link khác mở tab mới', async () => {
+  const { sceneLink, sceneAnchor, watchHash } = await import('../js/clip.js');
+  assert.equal(watchHash('abc', 90), '#watch?v=abc&t=90');
+  assert.equal(watchHash('abc', null), '#watch?v=abc');
+  assert.deepEqual(sceneLink({ url: 'https://youtu.be/abc?si=x', t: 90 }), { href: '#watch?v=abc&t=90', external: false });
+  assert.deepEqual(sceneLink({ url: 'https://example.com/tap-5', t: 90 }), { href: 'https://example.com/tap-5', external: true });
+  assert.equal(sceneLink({}), null);
+  assert.equal(sceneAnchor({}, 'x'), '');
+  assert.match(sceneAnchor({ url: 'https://example.com/a?b=1&c=2' }, 'Xem'), /href="https:\/\/example.com\/a\?b=1&amp;c=2" target="_blank"/);
+  assert.doesNotMatch(sceneAnchor({ url: 'https://youtu.be/abc' }, 'Xem'), /target=/);
+});
+
+test('youtubePlayerErrorText', async () => {
+  const { playerErrorText } = await import('../js/youtube.js');
+  assert.match(playerErrorText(150), /không cho phát/);
+  assert.match(playerErrorText(100), /không tồn tại/);
+});

@@ -104,3 +104,14 @@ Không ghi câu/lời bài hát vào repo công khai (bản quyền + riêng tư
 - `store.js`: `mined[]`; câu có nghĩa thành thẻ trong `srs`/`wordMeta` với `track: 'clip'` (không đè từ của gói bài), có trong backup.
 - Thẻ Từ vựng hiện câu gốc + nguồn, mặt sau có **Xem lại cảnh**; Sổ tay có bộ lọc "Phim & nhạc"; màn Hôm nay có thẻ **Săn câu**.
 - Chưa tính vào streak (giai đoạn 4).
+
+## 9. Xem YouTube trong app (2026-09-26)
+
+Người dùng hay xem trên máy tính → thêm màn **Xem & bắt câu** (`#watch?v=<id>&t=<giây>`):
+- Mở từ: ô "Dán link YouTube" ở màn Săn câu, danh sách "xem tiếp" các video đã bắt câu, nút "Xem lại cảnh" của thẻ (video YouTube giờ mở trong app thay vì tab mới), nút "Xem video này trong app" khi chia sẻ link YouTube.
+- Trình phát YouTube IFrame API (`js/youtube.js`), bật phụ đề mặc định (ưu tiên tiếng Anh). Nút lùi 5s, tốc độ 0.5x/0.75x/1x.
+- **Bắt câu** (nút hoặc phím `B`): dừng video, điền sẵn phút:giây (lùi 1s) và tên video; lưu xong tự phát tiếp (tắt được). Phím `K` dừng/phát, `←` lùi 5s.
+- Máy tính: trình phát + danh sách câu đã bắt bên trái, form dính bên phải. Điện thoại: trình phát dính trên cùng, form bên dưới.
+- Danh sách câu đã bắt trong video, bấm mốc giờ để tua lại (lùi 2s).
+- Video chủ kênh chặn nhúng → báo lỗi + link "Mở trên YouTube", vẫn bắt câu được với giờ tự gõ.
+- Form Bắt câu tách thành `js/views/capture-form.js` dùng chung.

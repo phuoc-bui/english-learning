@@ -76,3 +76,25 @@ export function focusFromPicks(tokens, picks) {
 export function cardKey(focus) {
   return String(focus ?? '').trim().replace(/\s+/g, ' ').toLowerCase();
 }
+
+// Hash mở màn Xem trong app
+export function watchHash(id, t) {
+  return `#watch?v=${encodeURIComponent(id)}${t ? `&t=${t}` : ''}`;
+}
+
+// Link "Xem lại cảnh": video YouTube mở trong app, link khác mở tab mới.
+export function sceneLink(src) {
+  if (!src?.url) return null;
+  const id = youtubeId(src.url);
+  return id
+    ? { href: watchHash(id, src.t), external: false }
+    : { href: src.url, external: true };
+}
+
+// Link HTML "Xem lại cảnh" (đã escape); '' nếu không có link.
+export function sceneAnchor(src, label, attrs = '') {
+  const l = sceneLink(src);
+  if (!l) return '';
+  const ext = l.external ? ' target="_blank" rel="noopener"' : '';
+  return `<a class="scene-link" href="${esc(l.href)}"${ext} ${attrs}>${label}</a>`;
+}

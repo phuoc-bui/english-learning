@@ -10,10 +10,11 @@ import * as listening from './views/listening.js';
 import * as settings from './views/settings.js';
 import * as onboarding from './views/onboarding.js';
 import * as clips from './views/clips.js';
+import * as watch from './views/watch.js';
 
-const views = { today, vocab, practice, review, progress, listening, settings, clips };
+const views = { today, vocab, practice, review, progress, listening, settings, clips, watch };
 // view ẩn (không có tab riêng) -> tab nào sáng
-const HIDDEN = { listening: 'today', settings: 'today', clips: 'today' };
+const HIDDEN = { listening: 'today', settings: 'today', clips: 'today', watch: 'today' };
 
 const ctx = {
   store: createStore(localStorage),
@@ -22,6 +23,8 @@ const ctx = {
   today: localDateStr(),
   navigate: (name) => { location.hash = name; },
   shared: null, // dữ liệu từ nút Chia sẻ của Android (Web Share Target)
+  params: new URLSearchParams(), // tham số sau dấu ? trong hash, vd #watch?v=…&t=…
+  cleanup: null, // view dọn dẹp (listener, player) trước khi chuyển màn
 };
 
 // Mở app qua Chia sẻ: ./?title=…&text=…&url=… -> form Bắt câu
@@ -34,7 +37,12 @@ const ctx = {
 }
 
 function render() {
-  const name = location.hash.slice(1) || 'today';
+  const [hashName, query = ''] = location.hash.slice(1).split('?');
+  const name = hashName || 'today';
+  ctx.params = new URLSearchParams(query);
+  ctx.cleanup?.();
+  ctx.cleanup = null;
+  document.body.classList.toggle('wide', name === 'watch');
   const view = views[name] || views.today;
   const tabName = HIDDEN[name] || (views[name] ? name : 'today');
   document.querySelectorAll('#tabs button').forEach((b) => {
