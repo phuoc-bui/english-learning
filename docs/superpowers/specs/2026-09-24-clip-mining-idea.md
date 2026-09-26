@@ -122,3 +122,19 @@ Người dùng hay xem trên máy tính → thêm màn **Xem & bắt câu** (`#w
 - Lưu theo video ở `localStorage['office-english-subs']` (tối đa 30 video gần nhất), không nằm trong backup, không đồng bộ giữa máy.
 - Màn Xem: bên phải có tab **Phụ đề | Bắt câu**. Dòng đang chạy được tô sáng và tự cuộn; bấm mốc giờ để tua; bấm **từ** → form điền sẵn câu + chọn sẵn từ đó + giờ đầu dòng. Phím `B` khi có phụ đề lấy luôn câu đang chạy. **Lặp câu** (`L`) lặp dòng hiện tại để đọc kỹ.
 - Service worker bỏ qua request khác origin (YouTube, Google Fonts) để trình duyệt tự xử lý.
+
+### 9.2 YouTube Music + lời bài hát, link web phim khác (2026-09-26)
+
+- Link `music.youtube.com` mở màn Xem với cờ `&m=1`: tự tìm **lời bài hát có mốc giờ** từ LRCLIB (`js/lyrics.js`: làm sạch tiêu đề → `/api/search?q=` → chọn bản `syncedLyrics` lệch độ dài ≤ 15s → parse LRC). Video thường cũng có nút "Tìm lời". Lời lấy trực tiếp từ trình duyệt, chỉ lưu localStorage như phụ đề.
+- Link web phim khác (vd hoathinh3d) dán vào ô link hoặc chia sẻ vào app: mở form Bắt câu có sẵn link + ghi chú "không phát được trong app, mở tab mới". Các web này thường chỉ có **Vietsub in sẵn vào hình** → không có câu tiếng Anh; bộ *Trảm Thần: Phàm Trần Thần Vực* (Slay the Gods) có bản phụ đề tiếng Anh chính thức trên WeTV.
+- Máy tính: màn Xem ẩn thanh tab, nút Lưu câu dính đáy khung.
+
+## 10. Đọc tin tiếng Anh (2026-09-26)
+
+- Google News / X không dùng được (không cho web khác gọi; API X trả phí).
+- Màn **Đọc tin** (`#news`, `js/views/news.js`, `js/news.js`), hai nguồn:
+  - **The Guardian** Open Platform: key miễn phí người dùng tự đăng ký, lưu `localStorage['office-english-guardian-key']` (không vào backup). Chủ đề theo section (Công nghệ, Kinh doanh, Phim, Âm nhạc…) hoặc tìm từ khoá. Bài lấy `fields.body`, chỉ giữ chữ trong `<p>` (không chèn HTML nguồn).
+  - **DEV.to** (blog công nghệ): không cần key, theo tag; bỏ khối code, giữ tiêu đề mục và gạch đầu dòng.
+  - Dự phòng: **dán bài báo** từ trang khác (khi mất mạng / bị chặn gọi trực tiếp).
+- Đọc bài (`#news?src=…&id=…`): tách câu (giữ viết tắt Mr./U.S.), bấm từ → form điền sẵn câu chứa từ + chọn sẵn từ (nguồn "Tin tức", không có phút:giây); nghe đọc từng đoạn. Máy tính: bài bên trái, form bên phải; điện thoại: form trượt lên từ đáy.
+- Nội dung bài chỉ hiển thị, không lưu; thẻ ôn giữ câu đã bắt + link bài gốc.

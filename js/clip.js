@@ -1,6 +1,6 @@
 // "Săn câu": xử lý link chia sẻ từ YouTube / YouTube Music / trình duyệt và dựng thẻ từ câu phụ đề.
 
-export const KIND_LABEL = { donghua: 'Donghua', video: 'Video', music: 'Nhạc' };
+export const KIND_LABEL = { donghua: 'Donghua', video: 'Video', music: 'Nhạc', news: 'Tin tức' };
 
 export function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -78,16 +78,19 @@ export function cardKey(focus) {
 }
 
 // Hash mở màn Xem trong app
-export function watchHash(id, t) {
-  return `#watch?v=${encodeURIComponent(id)}${t ? `&t=${t}` : ''}`;
+// m=1: video từ YouTube Music -> màn Xem tự tìm lời bài hát
+export function watchHash(id, t, music = false) {
+  return `#watch?v=${encodeURIComponent(id)}${t ? `&t=${t}` : ''}${music ? '&m=1' : ''}`;
 }
+
+export const isMusicUrl = (url) => /(^|\/\/)music\.youtube\.com\//.test(String(url ?? ''));
 
 // Link "Xem lại cảnh": video YouTube mở trong app, link khác mở tab mới.
 export function sceneLink(src) {
   if (!src?.url) return null;
   const id = youtubeId(src.url);
   return id
-    ? { href: watchHash(id, src.t), external: false }
+    ? { href: watchHash(id, src.t, isMusicUrl(src.url) || src.kind === 'music'), external: false }
     : { href: src.url, external: true };
 }
 

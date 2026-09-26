@@ -1,12 +1,12 @@
 import { icon } from '../icons.js';
 import { speak } from '../speech.js';
-import { KIND_LABEL, esc, parseShared, formatTime, sceneAnchor, youtubeId, watchHash } from '../clip.js';
+import { KIND_LABEL, esc, parseShared, formatTime, sceneAnchor, youtubeId, watchHash, isMusicUrl } from '../clip.js';
 import { createCaptureForm } from './capture-form.js';
 
 export function render(el, ctx) {
   const { store } = ctx;
   // Dữ liệu chia sẻ (nếu mở app từ nút Chia sẻ) chỉ dùng 1 lần
-  const shared = ctx.shared ? parseShared(ctx.shared) : null;
+  let shared = ctx.shared ? parseShared(ctx.shared) : null;
   ctx.shared = null;
 
   const st = { mode: shared ? 'capture' : 'list', msg: '' };
@@ -26,7 +26,14 @@ export function render(el, ctx) {
         <button class="pill" id="back">${icon.chevron(14)} Quay lại</button>
         <h1>Bắt câu</h1>
       </header>
-      ${id ? `<a class="pill wide" href="${watchHash(id, shared.t)}">${icon.play(14)} Xem video này trong app</a>` : ''}
+      ${id ? `<a class="pill wide" href="${watchHash(id, shared.t, isMusicUrl(shared.url))}">${icon.play(14)} Xem video này trong app</a>` : ''}
+      ${!id && shared?.url ? `
+        <div class="ext-note">
+          <p><b>Trang này không phát được trong app</b> — web phim thường chặn nhúng vào app khác (và có thể cần VPN).</p>
+          <p>Mở phim ở tab mới, gặp câu tiếng Anh hay thì quay lại đây điền — link đã lưu sẵn, phút:giây tự gõ.</p>
+          <p class="meta">Lưu ý: nhiều web donghua chỉ có <b>Vietsub in sẵn vào hình</b> nên không có câu tiếng Anh. Tìm bản <b>English sub</b> chính thức (WeTV, iQIYI, kênh YouTube chính thức) để có phụ đề tiếng Anh.</p>
+          <a class="pill" href="${esc(shared.url)}" target="_blank" rel="noopener">${icon.external(14)} Mở trang phim</a>
+        </div>` : ''}
       <div id="capture"></div>
     `;
     el.querySelector('#back').onclick = () => { st.mode = 'list'; st.msg = ''; draw(); };
@@ -53,9 +60,9 @@ export function render(el, ctx) {
         <button class="pill" id="back">${icon.chevron(14)} Hôm nay</button>
         <h1>Săn câu</h1>
       </header>
-      <p class="meta">Dán link YouTube để xem ngay trong app và bắt câu khi đang xem. Trên điện thoại cũng có thể bấm <b>Chia sẻ → Office English</b> từ app khác. Câu có nghĩa sẽ thành thẻ trong tab Từ vựng.</p>
+      <p class="meta">Dán link YouTube / YouTube Music để xem ngay trong app, phụ đề hoặc lời bài hát chạy bên cạnh. Link web phim khác vẫn lưu câu được (mở ở tab mới). Trên điện thoại cũng có thể bấm <b>Chia sẻ → Office English</b> từ app khác. Câu có nghĩa sẽ thành thẻ trong tab Từ vựng.</p>
       <div class="watch-open">
-        <input class="inline-input" id="yt" placeholder="Dán link YouTube để xem trong app…" inputmode="url">
+        <input class="inline-input" id="yt" placeholder="Dán link YouTube, YouTube Music hoặc web phim…" inputmode="url">
         <button class="pill" id="openYt">${icon.play(14)} Xem</button>
       </div>
       <p class="warn" id="ytMsg"></p>
@@ -97,9 +104,14 @@ export function render(el, ctx) {
     el.querySelector('#new').onclick = () => { st.mode = 'capture'; st.msg = ''; draw(); };
     const yt = el.querySelector('#yt');
     const openYt = () => {
-      const id = youtubeId(yt.value.trim());
-      if (!id) { el.querySelector('#ytMsg').textContent = 'Link chưa đúng — cần link youtube.com hoặc youtu.be'; return; }
-      ctx.navigate(watchHash(id).slice(1));
+      const v = yt.value.trim();
+      const id = youtubeId(v);
+      if (id) { ctx.navigate(watchHash(id, null, isMusicUrl(v)).slice(1)); return; }
+      if (!/^https?:\/\/\S+\.\S+/.test(v)) { el.querySelector('#ytMsg').textContent = 'Dán link đầy đủ, bắt đầu bằng https://'; return; }
+      // link web phim khác: không nhúng được -> form Bắt câu có sẵn link
+      shared = { url: v, title: '', t: null, kind: null };
+      st.mode = 'capture';
+      draw();
     };
     el.querySelector('#openYt').onclick = openYt;
     yt.onkeydown = (e) => { if (e.key === 'Enter') openYt(); };
