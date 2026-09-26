@@ -1,6 +1,6 @@
 // "Săn câu": xử lý link chia sẻ từ YouTube / YouTube Music / trình duyệt và dựng thẻ từ câu phụ đề.
 
-export const KIND_LABEL = { donghua: 'Donghua', video: 'Video', music: 'Nhạc' };
+export const KIND_LABEL = { donghua: 'Donghua', video: 'Video', music: 'Nhạc', news: 'Tin tức' };
 
 export function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

@@ -9,8 +9,9 @@ function lastKind() {
 }
 
 // box: phần tử chứa form. source: { title, url, t, kind }.
-// hideUrl: ẩn ô link (màn Xem đã biết video). onSaved(result) gọi sau mỗi lần lưu.
-export function createCaptureForm(box, ctx, { source = {}, hideUrl = false, onSaved } = {}) {
+// hideUrl: ẩn ô link (màn Xem đã biết video). hideTime: ẩn phút:giây (bài báo).
+// onSaved(result) gọi sau mỗi lần lưu.
+export function createCaptureForm(box, ctx, { source = {}, hideUrl = false, hideTime = false, onSaved } = {}) {
   const f = {
     text: '', picks: new Set(), meaning: '', note: '',
     title: source.title || '', url: source.url || '',
@@ -51,7 +52,7 @@ export function createCaptureForm(box, ctx, { source = {}, hideUrl = false, onSa
         <input id="cf-title" value="${esc(f.title)}" placeholder="Đấu Phá Thương Khung tập 12"></label>
       <div class="field-row">
         ${hideUrl ? '' : `<label class="field"><span>Link</span><input id="cf-url" value="${esc(f.url)}" placeholder="https://youtu.be/…" inputmode="url"></label>`}
-        <label class="field time"><span>Phút:giây</span><input id="cf-time" value="${esc(f.time)}" placeholder="12:34" inputmode="numeric"></label>
+        ${hideTime ? '' : `<label class="field time"><span>Phút:giây</span><input id="cf-time" value="${esc(f.time)}" placeholder="12:34" inputmode="numeric"></label>`}
       </div>
 
       <p class="warn" id="cf-msg">${esc(msg)}</p>

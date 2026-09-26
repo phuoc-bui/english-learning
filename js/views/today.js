@@ -50,12 +50,17 @@ export function render(el, ctx) {
   const doneCount = activities.filter(isDone).length;
   const clip = clipStats(store);
   const clipCard = `
-    <div class="section-head" style="margin-top:22px"><b>Phim & nhạc</b></div>
+    <div class="section-head" style="margin-top:22px"><b>Phim, nhạc & tin tức</b></div>
     <button class="card accent" id="openClips">
       <span class="tile">${icon.play(19)}</span>
       <span class="body"><b>Săn câu</b><small>${
         clip.total ? `${clip.total} câu đã lưu${clip.inbox ? ` · ${clip.inbox} chờ giải nghĩa` : ''}` : 'Xem YouTube trong app, lưu câu hay'
       }</small></span>
+      <span class="trail">${icon.chevron(20)}</span>
+    </button>
+    <button class="card accent" id="openNews" style="margin-top:10px">
+      <span class="tile">${icon.book(19)}</span>
+      <span class="body"><b>Đọc tin tiếng Anh</b><small>The Guardian · blog công nghệ DEV — bấm từ để bắt câu</small></span>
       <span class="trail">${icon.chevron(20)}</span>
     </button>`;
 
@@ -115,4 +120,5 @@ export function render(el, ctx) {
   });
   el.querySelector('#openSettings').onclick = () => ctx.navigate('settings');
   el.querySelector('#openClips').onclick = () => ctx.navigate('clips');
+  el.querySelector('#openNews').onclick = () => ctx.navigate('news');
 }

@@ -11,10 +11,11 @@ import * as settings from './views/settings.js';
 import * as onboarding from './views/onboarding.js';
 import * as clips from './views/clips.js';
 import * as watch from './views/watch.js';
+import * as news from './views/news.js';
 
-const views = { today, vocab, practice, review, progress, listening, settings, clips, watch };
+const views = { today, vocab, practice, review, progress, listening, settings, clips, watch, news };
 // view ẩn (không có tab riêng) -> tab nào sáng
-const HIDDEN = { listening: 'today', settings: 'today', clips: 'today', watch: 'today' };
+const HIDDEN = { listening: 'today', settings: 'today', clips: 'today', watch: 'today', news: 'today' };
 
 const ctx = {
   store: createStore(localStorage),
