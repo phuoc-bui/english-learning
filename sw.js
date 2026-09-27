@@ -1,4 +1,4 @@
-const SHELL_CACHE = 'shell-v10';
+const SHELL_CACHE = 'shell-v11';
 const DATA_CACHE = 'data-v2';
 const SHELL = [
   './', 'index.html', 'css/app.css', 'manifest.webmanifest',

@@ -1,5 +1,7 @@
 # Office English
 
+> **Đã chuyển sang Vaultly** (`/hoc/`, repo `phuoc-bui/vaultly`, ADR-015). Repo này dừng phát triển; bản GitHub Pages chỉ còn để Xuất backup dữ liệu cũ rồi Nhập ở app mới (Học → Cài đặt học → Nhập backup).
+
 PWA học tiếng Anh bằng cách **săn câu** từ video YouTube, nhạc (YouTube Music) và tin tức — chạy trên Chrome (điện thoại và máy tính). Mỗi ngày bắt đủ 3 câu để giữ streak; câu có nghĩa thành thẻ ôn.
 
 - **App:** https://phuoc-bui.github.io/english-learning/
