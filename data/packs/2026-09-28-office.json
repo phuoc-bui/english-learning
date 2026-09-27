@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-28",
+  "track": "office",
+  "theme": "Ghi chú & biên bản họp",
+  "vocab": [
+    { "word": "minute-taker", "ipa": "/ˈmɪnɪt ˌteɪkə/", "meaning_vi": "người ghi biên bản cuộc họp", "example": "Linh is the minute-taker for this month's department meeting.", "example_vi": "Linh là người ghi biên bản cho cuộc họp phòng ban tháng này." },
+    { "word": "attendance", "ipa": "/əˈtendəns/", "meaning_vi": "sự có mặt, danh sách người tham dự", "example": "Please write down the attendance at the top of the notes.", "example_vi": "Vui lòng ghi danh sách người tham dự ở đầu biên bản." },
+    { "word": "matters arising", "ipa": "/ˈmætəz əˈraɪzɪŋ/", "meaning_vi": "các vấn đề phát sinh từ cuộc họp trước", "example": "We'll start with matters arising from last week's meeting.", "example_vi": "Chúng ta sẽ bắt đầu với các vấn đề phát sinh từ cuộc họp tuần trước." },
+    { "word": "discussion point", "ipa": "/dɪˈskʌʃn pɔɪnt/", "meaning_vi": "điểm thảo luận, nội dung được bàn", "example": "Each discussion point should have a short summary and a decision.", "example_vi": "Mỗi nội dung thảo luận nên có một phần tóm tắt ngắn và một quyết định." },
+    { "word": "outcome", "ipa": "/ˈaʊtkʌm/", "meaning_vi": "kết quả, kết luận", "example": "Don't write every word; just note the outcome of each discussion.", "example_vi": "Đừng ghi từng chữ, chỉ cần ghi lại kết luận của mỗi phần thảo luận." },
+    { "word": "carried over", "ipa": "/ˈkærid ˈəʊvə/", "meaning_vi": "được chuyển sang cuộc họp sau", "example": "The office move topic was carried over to next Monday's meeting.", "example_vi": "Chủ đề chuyển văn phòng đã được chuyển sang cuộc họp thứ Hai tuần sau." },
+    { "word": "deferred", "ipa": "/dɪˈfɜːd/", "meaning_vi": "bị hoãn lại", "example": "The decision on the new printer was deferred until we get more quotes.", "example_vi": "Quyết định về máy in mới bị hoãn lại cho đến khi có thêm báo giá." },
+    { "word": "meeting recording", "ipa": "/ˈmiːtɪŋ rɪˈkɔːdɪŋ/", "meaning_vi": "bản ghi âm/ghi hình cuộc họp", "example": "I'll check the meeting recording to make sure the numbers are correct.", "example_vi": "Tôi sẽ xem lại bản ghi hình cuộc họp để chắc chắn các con số là chính xác." }
+  ],
+  "listening": {
+    "title": "Checking the minutes after the department meeting",
+    "lines": [
+      { "speaker": "Linh (HR Executive)", "voice": "female", "text": "Hi Minh, I've finished the draft minutes from this morning's meeting. Could you check them before I send them out?" },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Sure. Did you include the attendance? Tuấn joined late, and Hoa sent her apologies." },
+      { "speaker": "Linh (HR Executive)", "voice": "female", "text": "Yes, both are at the top. Then I listed the matters arising from last week." },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Good. For the year-end party, did you write the outcome clearly?" },
+      { "speaker": "Linh (HR Executive)", "voice": "female", "text": "I wrote that we agreed on the date, the twentieth of December, and the budget is still under discussion." },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Actually, the budget decision was deferred. We'll decide after finance replies." },
+      { "speaker": "Linh (HR Executive)", "voice": "female", "text": "Oh, thanks. I'll change it. And the parking topic was carried over to next week, right?" },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Right. Also, please add an owner and a deadline for every action item." },
+      { "speaker": "Linh (HR Executive)", "voice": "female", "text": "Okay. I wasn't sure who agreed to book the venue, so I'll check the meeting recording." },
+      { "speaker": "Minh (Office Manager)", "voice": "male", "text": "Good idea. Send the final version to everyone by five o'clock today, please." }
+    ],
+    "questions": [
+      { "q": "What happened to the budget for the year-end party?", "options": ["It was approved", "The decision was deferred", "It was cancelled"], "answer": 1 },
+      { "q": "What does Minh want Linh to add to each action item?", "options": ["An owner and a deadline", "A budget", "A photo"], "answer": 0 },
+      { "q": "Why will Linh check the meeting recording?", "options": ["To count the attendees", "To find the party date", "To see who agreed to book the venue"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Could you be the minute-taker today? I'm leading the meeting and can't take notes.",
+    "I've shared the draft minutes; please let me know if anything is missing.",
+    "Let's note the outcome and move on, because we're running out of time.",
+    "This topic will be carried over to next week's meeting when Hoa is back.",
+    "Please check that every action item has an owner and a clear deadline."
+  ]
+}

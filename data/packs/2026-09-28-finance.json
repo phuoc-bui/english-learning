@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-28",
+  "track": "finance",
+  "theme": "Đề xuất mua sắm thiết bị",
+  "vocab": [
+    { "word": "business case", "ipa": "/ˈbɪznəs keɪs/", "meaning_vi": "bản phân tích lý do và lợi ích để xin phê duyệt khoản đầu tư", "example": "Please prepare a short business case before we approve the new servers.", "example_vi": "Vui lòng chuẩn bị một bản phân tích lợi ích ngắn trước khi chúng tôi duyệt mua máy chủ mới." },
+    { "word": "three quotes", "ipa": "/θriː kwəʊts/", "meaning_vi": "ba báo giá (quy định lấy báo giá từ ba nhà cung cấp)", "example": "Company policy says we need three quotes for any purchase over 50 million VND.", "example_vi": "Chính sách công ty yêu cầu ba báo giá cho mọi khoản mua trên 50 triệu đồng." },
+    { "word": "spec sheet", "ipa": "/ˈspek ʃiːt/", "meaning_vi": "bảng thông số kỹ thuật", "example": "Attach the spec sheet so the IT team can check the laptop model.", "example_vi": "Hãy đính kèm bảng thông số kỹ thuật để đội IT kiểm tra mẫu laptop." },
+    { "word": "replacement cycle", "ipa": "/rɪˈpleɪsmənt ˈsaɪkl/", "meaning_vi": "chu kỳ thay mới thiết bị", "example": "Our replacement cycle for laptops is every four years.", "example_vi": "Chu kỳ thay mới laptop của chúng ta là bốn năm một lần." },
+    { "word": "unit price", "ipa": "/ˈjuːnɪt praɪs/", "meaning_vi": "đơn giá", "example": "The unit price drops by ten percent if we order more than twenty monitors.", "example_vi": "Đơn giá giảm mười phần trăm nếu chúng ta đặt hơn hai mươi màn hình." },
+    { "word": "after-sales support", "ipa": "/ˌɑːftə ˈseɪlz səˈpɔːt/", "meaning_vi": "dịch vụ hỗ trợ sau bán hàng", "example": "Supplier B is more expensive, but their after-sales support is much better.", "example_vi": "Nhà cung cấp B đắt hơn, nhưng dịch vụ hỗ trợ sau bán hàng của họ tốt hơn nhiều." },
+    { "word": "lease", "ipa": "/liːs/", "meaning_vi": "thuê dài hạn (thiết bị, tài sản)", "example": "It may be cheaper to lease the printers than to buy them.", "example_vi": "Thuê dài hạn máy in có thể rẻ hơn là mua đứt." },
+    { "word": "asset tag", "ipa": "/ˈæset tæɡ/", "meaning_vi": "nhãn mã tài sản", "example": "Every new laptop must have an asset tag before it goes to a staff member.", "example_vi": "Mỗi laptop mới phải được dán nhãn mã tài sản trước khi giao cho nhân viên." }
+  ],
+  "listening": {
+    "title": "Reviewing a request for new laptops",
+    "lines": [
+      { "speaker": "Minh (IT Manager)", "voice": "male", "text": "Hi Lan, I sent you a request for fifteen new laptops yesterday. Have you had a chance to look at it?" },
+      { "speaker": "Lan (Finance Manager)", "voice": "female", "text": "Yes, I have. It's a big amount, about three hundred million VND. Why do we need them now?" },
+      { "speaker": "Minh (IT Manager)", "voice": "male", "text": "These laptops are five years old. Our replacement cycle is four years, and they break down almost every week." },
+      { "speaker": "Lan (Finance Manager)", "voice": "female", "text": "I understand. But for this amount, policy says we need three quotes. I only see two." },
+      { "speaker": "Minh (IT Manager)", "voice": "male", "text": "Sorry, the third supplier sent their quote this morning. I'll add it today." },
+      { "speaker": "Lan (Finance Manager)", "voice": "female", "text": "Thanks. Which supplier do you recommend?" },
+      { "speaker": "Minh (IT Manager)", "voice": "male", "text": "Supplier B. Their unit price is a little higher, but they offer three years of after-sales support." },
+      { "speaker": "Lan (Finance Manager)", "voice": "female", "text": "Have you thought about leasing instead? It would spread the cost over several years." },
+      { "speaker": "Minh (IT Manager)", "voice": "male", "text": "Not yet. I can ask the suppliers for a lease option and compare the total cost." },
+      { "speaker": "Lan (Finance Manager)", "voice": "female", "text": "Please do. Put everything in a one-page business case, and I'll take it to the director on Friday." }
+    ],
+    "questions": [
+      { "q": "Why does Minh want new laptops?", "options": ["The staff want faster computers", "The old laptops are past the replacement cycle and break often", "The company is hiring fifteen people"], "answer": 1 },
+      { "q": "What is missing from Minh's request?", "options": ["The third quote", "The spec sheet", "The director's signature"], "answer": 0 },
+      { "q": "What does Lan suggest Minh should consider?", "options": ["Buying cheaper laptops", "Repairing the old laptops", "Leasing the laptops"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I've attached three quotes and the spec sheet for the new monitors to this request.",
+    "The unit price is higher, but the warranty and support are much better.",
+    "Could you explain why we need to replace this equipment before the end of the year?",
+    "Leasing would spread the cost over three years and protect our cash flow.",
+    "Please send me a one-page business case by Thursday so I can review it."
+  ]
+}

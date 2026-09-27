@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-28",
+  "track": "it",
+  "theme": "Xin nghỉ phép & thông báo vắng mặt",
+  "vocab": [
+    { "word": "time off", "ipa": "/ˌtaɪm ˈɒf/", "meaning_vi": "thời gian nghỉ (không làm việc)", "example": "I'd like to take some time off in the second week of October.", "example_vi": "Tôi muốn nghỉ một thời gian vào tuần thứ hai của tháng Mười." },
+    { "word": "family emergency", "ipa": "/ˈfæməli ɪˈmɜːdʒənsi/", "meaning_vi": "việc gia đình khẩn cấp", "example": "Minh left early today because of a family emergency.", "example_vi": "Hôm nay Minh về sớm vì có việc gia đình khẩn cấp." },
+    { "word": "paternity leave", "ipa": "/pəˈtɜːnəti liːv/", "meaning_vi": "nghỉ phép dành cho người cha khi vợ sinh con", "example": "Nam will be on paternity leave for five days next month.", "example_vi": "Nam sẽ nghỉ phép chăm vợ sinh năm ngày vào tháng sau." },
+    { "word": "backup person", "ipa": "/ˈbækʌp ˈpɜːsn/", "meaning_vi": "người thay thế, người hỗ trợ khi mình vắng mặt", "example": "Hoa is my backup person for the payment service while I'm away.", "example_vi": "Hoa là người thay tôi phụ trách dịch vụ thanh toán trong lúc tôi vắng mặt." },
+    { "word": "code freeze", "ipa": "/ˈkəʊd friːz/", "meaning_vi": "giai đoạn đóng băng code (không merge thay đổi mới trước khi phát hành)", "example": "Please don't plan leave during the code freeze before the big release.", "example_vi": "Vui lòng đừng xin nghỉ trong giai đoạn đóng băng code trước đợt phát hành lớn." },
+    { "word": "limited access", "ipa": "/ˈlɪmɪtɪd ˈækses/", "meaning_vi": "khả năng truy cập hạn chế (email, mạng...)", "example": "I'll have limited access to email while I'm travelling in the mountains.", "example_vi": "Tôi sẽ ít khi truy cập được email trong lúc đi du lịch trên núi." },
+    { "word": "reachable", "ipa": "/ˈriːtʃəbl/", "meaning_vi": "có thể liên lạc được", "example": "I'm reachable by phone if there is a serious production issue.", "example_vi": "Nếu có sự cố production nghiêm trọng thì vẫn có thể gọi điện cho tôi." },
+    { "word": "leave calendar", "ipa": "/liːv ˈkælɪndə/", "meaning_vi": "lịch nghỉ phép chung của nhóm", "example": "Check the leave calendar before you book your flight, so we don't all go at once.", "example_vi": "Hãy xem lịch nghỉ phép của nhóm trước khi đặt vé máy bay để mọi người không nghỉ cùng lúc." }
+  ],
+  "listening": {
+    "title": "Asking the team lead for paternity leave",
+    "lines": [
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Hi Linh, do you have a minute? I'd like to talk about some time off next month." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Sure, Nam. Is everything okay?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Yes, good news actually. My wife is due in mid-October, so I'd like to take paternity leave." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Congratulations! Of course. Which dates are you thinking about?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "From the fourteenth to the eighteenth. But the baby might come early, so the dates could change a little." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "That's fine. The only problem is the code freeze starts on the sixteenth. Who can cover the payment service?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "I've already asked Hoa to be my backup person. I'll write a short handover document for her this week." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Great. Please add your dates to the leave calendar and submit the request in the HR system." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "I will. I'll have limited access to Slack, but I'm reachable by phone for real emergencies." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Thanks, but I hope we won't need to call you. Enjoy the time with your family." }
+    ],
+    "questions": [
+      { "q": "Why does Nam want to take leave?", "options": ["He is going on holiday", "His wife is going to have a baby", "He has a family emergency"], "answer": 1 },
+      { "q": "What is Linh worried about?", "options": ["The code freeze during Nam's leave", "Nam's performance review", "The HR system is down"], "answer": 0 },
+      { "q": "Who will cover the payment service?", "options": ["Linh", "Minh", "Hoa"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I'd like to take three days off next week for a family matter.",
+    "I've added my leave dates to the team calendar and sent the request to HR.",
+    "While I'm away, please contact Hoa about anything related to the payment service.",
+    "I'll have limited access to email, but you can call me for urgent issues.",
+    "Sorry for the short notice, I need to leave early because of a family emergency."
+  ]
+}

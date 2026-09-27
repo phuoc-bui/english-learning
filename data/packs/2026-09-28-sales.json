@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-28",
+  "track": "sales",
+  "theme": "Khảo sát nhu cầu khách",
+  "vocab": [
+    { "word": "qualify", "ipa": "/ˈkwɒlɪfaɪ/", "meaning_vi": "đánh giá xem khách có phải khách hàng tiềm năng thật sự không", "example": "We need to qualify this lead before we spend time on a full demo.", "example_vi": "Chúng ta cần đánh giá khách tiềm năng này trước khi dành thời gian cho một buổi demo đầy đủ." },
+    { "word": "probing question", "ipa": "/ˈprəʊbɪŋ ˈkwestʃən/", "meaning_vi": "câu hỏi đào sâu, thăm dò", "example": "Ask a probing question like 'What happens when that report is late?'", "example_vi": "Hãy đặt câu hỏi đào sâu như 'Điều gì xảy ra khi báo cáo đó bị trễ?'" },
+    { "word": "underlying need", "ipa": "/ˌʌndəˈlaɪɪŋ niːd/", "meaning_vi": "nhu cầu thực sự ẩn bên dưới", "example": "The client asked for a cheaper tool, but their underlying need was saving time.", "example_vi": "Khách hỏi một công cụ rẻ hơn, nhưng nhu cầu thực sự của họ là tiết kiệm thời gian." },
+    { "word": "success criteria", "ipa": "/səkˈses kraɪˈtɪəriə/", "meaning_vi": "tiêu chí để đánh giá thành công", "example": "What are your success criteria for this project in the first six months?", "example_vi": "Tiêu chí thành công của anh chị cho dự án này trong sáu tháng đầu là gì?" },
+    { "word": "walk me through", "ipa": "/wɔːk miː θruː/", "meaning_vi": "giải thích từng bước cho tôi", "example": "Could you walk me through how your team handles orders today?", "example_vi": "Anh có thể giải thích từng bước cách đội của anh xử lý đơn hàng hiện nay không?" },
+    { "word": "existing vendor", "ipa": "/ɪɡˈzɪstɪŋ ˈvendə/", "meaning_vi": "nhà cung cấp hiện tại", "example": "Their contract with the existing vendor ends in March.", "example_vi": "Hợp đồng của họ với nhà cung cấp hiện tại hết hạn vào tháng Ba." },
+    { "word": "go-live date", "ipa": "/ˌɡəʊ ˈlaɪv deɪt/", "meaning_vi": "ngày chính thức đưa hệ thống vào sử dụng", "example": "Do you have a target go-live date for the new system?", "example_vi": "Anh chị có ngày dự kiến đưa hệ thống mới vào sử dụng chưa?" },
+    { "word": "rough budget", "ipa": "/rʌf ˈbʌdʒɪt/", "meaning_vi": "ngân sách ước tính sơ bộ", "example": "Even a rough budget helps me suggest the right package for you.", "example_vi": "Chỉ cần ngân sách sơ bộ thôi cũng giúp tôi đề xuất gói phù hợp cho anh chị." }
+  ],
+  "listening": {
+    "title": "A discovery meeting with a logistics company",
+    "lines": [
+      { "speaker": "Hoa (Account Executive)", "voice": "female", "text": "Thank you for your time, Mr. Tuấn. Before I show you anything, I'd like to understand your business better." },
+      { "speaker": "Tuấn (Operations Director)", "voice": "male", "text": "Sure. We're a logistics company with about two hundred drivers in the south." },
+      { "speaker": "Hoa (Account Executive)", "voice": "female", "text": "Could you walk me through how you plan delivery routes today?" },
+      { "speaker": "Tuấn (Operations Director)", "voice": "male", "text": "Our planners use spreadsheets every morning. It takes them about three hours." },
+      { "speaker": "Hoa (Account Executive)", "voice": "female", "text": "I see. And what happens when a route plan is late?" },
+      { "speaker": "Tuấn (Operations Director)", "voice": "male", "text": "Drivers wait at the warehouse, and customers complain about late deliveries. That's the real problem." },
+      { "speaker": "Hoa (Account Executive)", "voice": "female", "text": "That's very helpful. Are you working with an existing vendor for any of this?" },
+      { "speaker": "Tuấn (Operations Director)", "voice": "male", "text": "We use a GPS tracking tool, but the contract ends in January." },
+      { "speaker": "Hoa (Account Executive)", "voice": "female", "text": "So would a go-live date in January make sense? And do you have a rough budget in mind?" },
+      { "speaker": "Tuấn (Operations Director)", "voice": "male", "text": "January would be ideal. For budget, I need to talk to our finance director first." },
+      { "speaker": "Hoa (Account Executive)", "voice": "female", "text": "Of course. Last question: what would success look like for you in six months?" },
+      { "speaker": "Tuấn (Operations Director)", "voice": "male", "text": "Route planning in under thirty minutes and fewer customer complaints." }
+    ],
+    "questions": [
+      { "q": "How do Tuấn's planners plan routes today?", "options": ["With a GPS tool", "With spreadsheets", "With a mobile app"], "answer": 1 },
+      { "q": "What is Tuấn's underlying problem?", "options": ["Drivers wait and deliveries are late", "The GPS tool is too expensive", "They don't have enough drivers"], "answer": 0 },
+      { "q": "Why can't Tuấn give a budget yet?", "options": ["He doesn't want to buy anything", "The contract is not finished", "He needs to talk to the finance director"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Before I show you our product, could I ask a few questions about your team?",
+    "Could you walk me through what happens after a customer places an order?",
+    "What is the biggest challenge your team faces with the current process?",
+    "If this project goes well, what would success look like in six months?",
+    "Just to confirm, your main goal is to reduce the time spent on manual reports."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-28",
+  "track": "interview",
+  "theme": "Phỏng vấn qua video call",
+  "vocab": [
+    { "word": "test call", "ipa": "/test kɔːl/", "meaning_vi": "cuộc gọi thử để kiểm tra thiết bị", "example": "I did a test call with a friend the night before the interview.", "example_vi": "Tôi đã gọi thử với một người bạn vào tối hôm trước buổi phỏng vấn." },
+    { "word": "audio check", "ipa": "/ˈɔːdiəʊ tʃek/", "meaning_vi": "kiểm tra âm thanh", "example": "Before we begin, let's do a quick audio check. Can you hear me clearly?", "example_vi": "Trước khi bắt đầu, chúng ta kiểm tra âm thanh nhanh nhé. Bạn nghe rõ tôi không?" },
+    { "word": "neutral background", "ipa": "/ˈnjuːtrəl ˈbækɡraʊnd/", "meaning_vi": "phông nền đơn giản, không gây rối mắt", "example": "I sat in front of a white wall to have a neutral background.", "example_vi": "Tôi ngồi trước một bức tường trắng để có phông nền đơn giản." },
+    { "word": "meeting link", "ipa": "/ˈmiːtɪŋ lɪŋk/", "meaning_vi": "đường link tham gia cuộc họp", "example": "The recruiter will send you the meeting link one day before the interview.", "example_vi": "Nhà tuyển dụng sẽ gửi cho bạn link tham gia một ngày trước buổi phỏng vấn." },
+    { "word": "poor signal", "ipa": "/pɔː ˈsɪɡnəl/", "meaning_vi": "tín hiệu mạng yếu", "example": "Sorry, I have a poor signal here. Could you repeat the question?", "example_vi": "Xin lỗi, tín hiệu mạng chỗ tôi yếu. Anh có thể nhắc lại câu hỏi không?" },
+    { "word": "frozen", "ipa": "/ˈfrəʊzn/", "meaning_vi": "bị đứng hình", "example": "Your screen was frozen for a few seconds, but now I can see you again.", "example_vi": "Màn hình của bạn bị đứng hình vài giây, nhưng giờ tôi thấy bạn lại rồi." },
+    { "word": "panel interview", "ipa": "/ˈpænl ˈɪntəvjuː/", "meaning_vi": "phỏng vấn với hội đồng nhiều người", "example": "The second round is a panel interview with the CTO and two team leads.", "example_vi": "Vòng hai là phỏng vấn hội đồng với CTO và hai trưởng nhóm." },
+    { "word": "first impression", "ipa": "/fɜːst ɪmˈpreʃn/", "meaning_vi": "ấn tượng đầu tiên", "example": "Joining on time with a clear camera makes a good first impression.", "example_vi": "Vào đúng giờ với camera rõ nét sẽ tạo ấn tượng đầu tiên tốt." }
+  ],
+  "listening": {
+    "title": "A video interview for a QA engineer position",
+    "lines": [
+      { "speaker": "Linh (HR Recruiter)", "voice": "female", "text": "Good morning, Đức. Before we start, let's do a quick audio check. Can you hear me clearly?" },
+      { "speaker": "Đức (Candidate)", "voice": "male", "text": "Good morning, Linh. Yes, I can hear you very well. Can you hear me?" },
+      { "speaker": "Linh (HR Recruiter)", "voice": "female", "text": "Yes, perfectly. Today is a panel interview, so Mr. Nam from the QA team is also joining." },
+      { "speaker": "Nam (QA Lead)", "voice": "male", "text": "Hello Đức, nice to meet you. Could you start by telling us about your testing experience?" },
+      { "speaker": "Đức (Candidate)", "voice": "male", "text": "Sure. I have three years of experience in manual and automation testing for mobile banking apps." },
+      { "speaker": "Linh (HR Recruiter)", "voice": "female", "text": "Sorry Đức, your video was frozen for a moment. Could you repeat the last part?" },
+      { "speaker": "Đức (Candidate)", "voice": "male", "text": "Of course. I have three years of experience in testing mobile banking apps. If the connection drops again, I can switch to my phone's hotspot." },
+      { "speaker": "Nam (QA Lead)", "voice": "male", "text": "Thanks, that's good preparation. It's clear now." },
+      { "speaker": "Linh (HR Recruiter)", "voice": "female", "text": "I noticed you joined five minutes early. We appreciate that." },
+      { "speaker": "Đức (Candidate)", "voice": "male", "text": "Thank you. I did a test call last night to check my camera and microphone, so I felt more confident today." }
+    ],
+    "questions": [
+      { "q": "What type of interview is this?", "options": ["A panel interview", "A phone interview", "A group discussion"], "answer": 0 },
+      { "q": "What problem happened during the interview?", "options": ["Đức couldn't hear Linh", "Đức's video froze for a moment", "Nam joined late"], "answer": 1 },
+      { "q": "How did Đức prepare for the interview?", "options": ["He bought a new camera", "He read the company website", "He did a test call the night before"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Sorry, the connection is a little weak. Could you please repeat the question?",
+    "Before the interview, I tested my camera, microphone, and internet with a friend.",
+    "I joined five minutes early to make sure the meeting link worked properly.",
+    "If my video freezes, I can quickly switch to my phone and continue the call.",
+    "Thank you for your time today; I really enjoyed talking with the team."
+  ]
+}
