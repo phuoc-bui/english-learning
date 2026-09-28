@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-29",
+  "track": "sales",
+  "theme": "Gửi & giải thích báo giá",
+  "vocab": [
+    { "word": "itemized", "ipa": "/ˈaɪtəmaɪzd/", "meaning_vi": "được liệt kê chi tiết từng khoản", "example": "I've attached an itemized quote so you can see the cost of each module.", "example_vi": "Tôi đã đính kèm báo giá chi tiết từng khoản để anh xem chi phí của mỗi module." },
+    { "word": "setup fee", "ipa": "/ˈsetʌp fiː/", "meaning_vi": "phí cài đặt, phí khởi tạo", "example": "The setup fee covers installation and training for your staff.", "example_vi": "Phí khởi tạo bao gồm cài đặt và đào tạo cho nhân viên của anh chị." },
+    { "word": "one-off fee", "ipa": "/ˌwʌn ˈɒf fiː/", "meaning_vi": "phí trả một lần", "example": "Data migration is a one-off fee, so you only pay it once.", "example_vi": "Chuyển đổi dữ liệu là phí trả một lần, nên anh chỉ phải trả một lần thôi." },
+    { "word": "subscription fee", "ipa": "/səbˈskrɪpʃn fiː/", "meaning_vi": "phí thuê bao định kỳ", "example": "The monthly subscription fee includes updates and customer support.", "example_vi": "Phí thuê bao hàng tháng bao gồm cập nhật và hỗ trợ khách hàng." },
+    { "word": "per user", "ipa": "/pə ˈjuːzə/", "meaning_vi": "tính theo mỗi người dùng", "example": "Our price is eight dollars per user per month.", "example_vi": "Giá của chúng tôi là tám đô la cho mỗi người dùng mỗi tháng." },
+    { "word": "pricing tier", "ipa": "/ˈpraɪsɪŋ tɪə/", "meaning_vi": "gói giá, bậc giá", "example": "With fifty users, you move to the next pricing tier and pay less per user.", "example_vi": "Với năm mươi người dùng, anh chuyển lên bậc giá tiếp theo và trả ít hơn cho mỗi người." },
+    { "word": "billing cycle", "ipa": "/ˈbɪlɪŋ ˈsaɪkl/", "meaning_vi": "chu kỳ thanh toán", "example": "You can choose a monthly or yearly billing cycle.", "example_vi": "Anh chị có thể chọn chu kỳ thanh toán theo tháng hoặc theo năm." },
+    { "word": "total cost of ownership", "ipa": "/ˈtəʊtl kɒst əv ˈəʊnəʃɪp/", "meaning_vi": "tổng chi phí sở hữu (gồm mọi chi phí trong suốt thời gian sử dụng)", "example": "When you compare the total cost of ownership, our cloud plan is cheaper than buying servers.", "example_vi": "Khi so sánh tổng chi phí sở hữu, gói cloud của chúng tôi rẻ hơn mua máy chủ." }
+  ],
+  "listening": {
+    "title": "Walking a client through the quote",
+    "lines": [
+      { "speaker": "Trang (Sales Executive)", "voice": "female", "text": "Good morning, Mr. Hùng. Did you receive the quote I sent yesterday?" },
+      { "speaker": "Hùng (Operations Manager)", "voice": "male", "text": "Yes, thank you. But I have some questions. The total looks higher than I expected." },
+      { "speaker": "Trang (Sales Executive)", "voice": "female", "text": "I understand. Let me explain the itemized list. The first part is a setup fee of two thousand dollars." },
+      { "speaker": "Hùng (Operations Manager)", "voice": "male", "text": "Do we pay that every year?" },
+      { "speaker": "Trang (Sales Executive)", "voice": "female", "text": "No, it's a one-off fee. It covers installation and two training sessions for your team." },
+      { "speaker": "Hùng (Operations Manager)", "voice": "male", "text": "I see. And the subscription fee is ten dollars per user, right?" },
+      { "speaker": "Trang (Sales Executive)", "voice": "female", "text": "That's right for up to forty users. If you add ten more users, you move to a lower pricing tier." },
+      { "speaker": "Hùng (Operations Manager)", "voice": "male", "text": "Interesting. We plan to hire more staff next year. Can we pay yearly instead of monthly?" },
+      { "speaker": "Trang (Sales Executive)", "voice": "female", "text": "Yes. With a yearly billing cycle, you get two months free. I can send an updated quote this afternoon." },
+      { "speaker": "Hùng (Operations Manager)", "voice": "male", "text": "Please do. I need to show it to our director on Thursday." }
+    ],
+    "questions": [
+      { "q": "What is the setup fee?", "options": ["A monthly fee", "A one-off fee for installation and training", "A fee for extra users"], "answer": 1 },
+      { "q": "What happens if Mr. Hùng adds ten more users?", "options": ["He moves to a lower pricing tier", "He pays a new setup fee", "He loses the training sessions"], "answer": 0 },
+      { "q": "What does Mr. Hùng get with a yearly billing cycle?", "options": ["Free installation", "An extra training session", "Two months free"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I've attached an itemized quote, so you can see exactly what you are paying for.",
+    "The setup fee is a one-off payment, and it includes training for your team.",
+    "Our subscription fee is ten dollars per user per month for up to forty users.",
+    "If you choose a yearly billing cycle, you will get two months for free.",
+    "This quote is valid for thirty days, so please let me know if you have questions."
+  ]
+}

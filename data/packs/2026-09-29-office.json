@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-29",
+  "track": "office",
+  "theme": "Tổ chức sự kiện nội bộ",
+  "vocab": [
+    { "word": "year-end party", "ipa": "/ˌjɪər ˈend ˈpɑːti/", "meaning_vi": "tiệc tất niên", "example": "The year-end party will be held on the last Friday of December.", "example_vi": "Tiệc tất niên sẽ được tổ chức vào thứ Sáu cuối cùng của tháng Mười Hai." },
+    { "word": "book a venue", "ipa": "/bʊk ə ˈvenjuː/", "meaning_vi": "đặt địa điểm tổ chức", "example": "We need to book a venue at least one month before the event.", "example_vi": "Chúng ta cần đặt địa điểm ít nhất một tháng trước sự kiện." },
+    { "word": "get-together", "ipa": "/ˈɡet təˌɡeðə/", "meaning_vi": "buổi gặp mặt, tụ họp thân mật", "example": "Let's have a small get-together to welcome the new members.", "example_vi": "Mình tổ chức một buổi gặp mặt nhỏ để chào đón thành viên mới nhé." },
+    { "word": "coordinate", "ipa": "/kəʊˈɔːdɪneɪt/", "meaning_vi": "điều phối, phối hợp", "example": "Linh will coordinate with the hotel about the room and the food.", "example_vi": "Linh sẽ phối hợp với khách sạn về phòng và đồ ăn." },
+    { "word": "theme", "ipa": "/θiːm/", "meaning_vi": "chủ đề (của buổi tiệc, sự kiện)", "example": "This year's party has a retro theme, so please dress like the 1990s.", "example_vi": "Tiệc năm nay có chủ đề hoài cổ, nên mọi người hãy ăn mặc kiểu thập niên 90." },
+    { "word": "dietary requirements", "ipa": "/ˈdaɪətəri rɪˈkwaɪəmənts/", "meaning_vi": "yêu cầu đặc biệt về ăn uống (ăn chay, dị ứng...)", "example": "Please tell us about any dietary requirements before Friday.", "example_vi": "Vui lòng báo cho chúng tôi các yêu cầu ăn uống đặc biệt trước thứ Sáu." },
+    { "word": "shuttle bus", "ipa": "/ˈʃʌtl bʌs/", "meaning_vi": "xe đưa đón", "example": "A shuttle bus will leave the office at five thirty.", "example_vi": "Xe đưa đón sẽ rời văn phòng lúc năm giờ ba mươi." },
+    { "word": "itinerary", "ipa": "/aɪˈtɪnərəri/", "meaning_vi": "lịch trình chi tiết", "example": "I'll send the itinerary for the company trip by email tomorrow.", "example_vi": "Tôi sẽ gửi lịch trình chi tiết chuyến du lịch công ty qua email vào ngày mai." }
+  ],
+  "listening": {
+    "title": "Planning the company year-end party",
+    "lines": [
+      { "speaker": "Linh (HR Executive)", "voice": "female", "text": "Hi Nam, do you have a few minutes? I'd like to talk about the year-end party." },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "Sure, Linh. Have we decided on a date yet?" },
+      { "speaker": "Linh (HR Executive)", "voice": "female", "text": "The director chose December nineteenth. We need to book a venue for about one hundred and twenty people." },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "I know a restaurant near the river. It's big enough, but it's a bit far from the office." },
+      { "speaker": "Linh (HR Executive)", "voice": "female", "text": "That's okay. We can arrange a shuttle bus from the office at five thirty." },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "Good idea. What about the food? Some people are vegetarian." },
+      { "speaker": "Linh (HR Executive)", "voice": "female", "text": "I'll send a form to ask about dietary requirements. Can you coordinate with the restaurant?" },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "No problem. Do we have a theme this year?" },
+      { "speaker": "Linh (HR Executive)", "voice": "female", "text": "The team voted for a retro theme. I'll share the full itinerary next week." },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "Great. I'll call the restaurant this afternoon and let you know the price." }
+    ],
+    "questions": [
+      { "q": "How many people will come to the party?", "options": ["About fifty", "About one hundred and twenty", "About two hundred"], "answer": 1 },
+      { "q": "Why do they need a shuttle bus?", "options": ["The restaurant is far from the office", "The office has no parking", "It is raining in December"], "answer": 0 },
+      { "q": "What will Nam do this afternoon?", "options": ["Send the itinerary", "Send the food form", "Call the restaurant"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Could you fill in this form if you have any dietary requirements?",
+    "We need to book a venue soon because December is a busy month.",
+    "The shuttle bus will leave from the front gate at five thirty sharp.",
+    "I'll coordinate with the restaurant and confirm the final number of guests.",
+    "Please check the itinerary in your email and let me know if anything changes."
+  ]
+}

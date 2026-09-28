@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-29",
+  "track": "interview",
+  "theme": "Kể chuyện theo STAR",
+  "vocab": [
+    { "word": "action", "ipa": "/ˈækʃn/", "meaning_vi": "hành động (phần A trong STAR: bạn đã làm gì)", "example": "In the action part, focus on what you did, not what the team did.", "example_vi": "Ở phần hành động, hãy tập trung vào việc bạn làm, không phải việc cả nhóm làm." },
+    { "word": "approach", "ipa": "/əˈprəʊtʃ/", "meaning_vi": "cách tiếp cận", "example": "My approach was to talk to each user group before changing the design.", "example_vi": "Cách tiếp cận của tôi là nói chuyện với từng nhóm người dùng trước khi thay đổi thiết kế." },
+    { "word": "break down", "ipa": "/breɪk daʊn/", "meaning_vi": "chia nhỏ (công việc, vấn đề)", "example": "I broke down the big task into small steps for each team member.", "example_vi": "Tôi chia nhỏ nhiệm vụ lớn thành các bước nhỏ cho từng thành viên." },
+    { "word": "initiative", "ipa": "/ɪˈnɪʃətɪv/", "meaning_vi": "sự chủ động, sáng kiến", "example": "I took the initiative to write a guide for new team members.", "example_vi": "Tôi đã chủ động viết một tài liệu hướng dẫn cho thành viên mới." },
+    { "word": "proactive", "ipa": "/prəʊˈæktɪv/", "meaning_vi": "chủ động (hành động trước khi có vấn đề)", "example": "I was proactive and warned the client about the delay two weeks early.", "example_vi": "Tôi đã chủ động báo trước cho khách về việc chậm trễ từ hai tuần trước." },
+    { "word": "contribution", "ipa": "/ˌkɒntrɪˈbjuːʃn/", "meaning_vi": "sự đóng góp", "example": "My main contribution was building the reporting feature.", "example_vi": "Đóng góp chính của tôi là xây dựng tính năng báo cáo." },
+    { "word": "concrete", "ipa": "/ˈkɒŋkriːt/", "meaning_vi": "cụ thể, rõ ràng", "example": "Can you give me a concrete example of how you handled pressure?", "example_vi": "Bạn có thể cho tôi một ví dụ cụ thể về cách bạn xử lý áp lực không?" },
+    { "word": "improvement", "ipa": "/ɪmˈpruːvmənt/", "meaning_vi": "sự cải thiện", "example": "After the change, we saw a thirty percent improvement in response time.", "example_vi": "Sau thay đổi, thời gian phản hồi cải thiện được ba mươi phần trăm." }
+  ],
+  "listening": {
+    "title": "Answering a behavioral question with STAR",
+    "lines": [
+      { "speaker": "Hạnh (Hiring Manager)", "voice": "female", "text": "Thanks, Khoa. Now, can you tell me about a time you improved a process at work?" },
+      { "speaker": "Khoa (Candidate)", "voice": "male", "text": "Sure. At my last company, our support team answered customer tickets very slowly. The average time was two days." },
+      { "speaker": "Hạnh (Hiring Manager)", "voice": "female", "text": "What was your role in that situation?" },
+      { "speaker": "Khoa (Candidate)", "voice": "male", "text": "I was a team lead. My manager asked me to reduce the response time to under one day within three months." },
+      { "speaker": "Hạnh (Hiring Manager)", "voice": "female", "text": "And what did you do? Please be as concrete as possible." },
+      { "speaker": "Khoa (Candidate)", "voice": "male", "text": "First, I broke down the tickets by type. I found that forty percent were the same five questions." },
+      { "speaker": "Hạnh (Hiring Manager)", "voice": "female", "text": "Interesting. So what was your approach?" },
+      { "speaker": "Khoa (Candidate)", "voice": "male", "text": "I took the initiative to write ready-made answers for those questions and trained the team to use them." },
+      { "speaker": "Hạnh (Hiring Manager)", "voice": "female", "text": "What was the result?" },
+      { "speaker": "Khoa (Candidate)", "voice": "male", "text": "After two months, the average response time was six hours. That was a big improvement, and customer ratings went up too." }
+    ],
+    "questions": [
+      { "q": "What was the problem at Khoa's last company?", "options": ["Customers complained about prices", "The support team answered tickets slowly", "The team did not have a leader"], "answer": 1 },
+      { "q": "What did Khoa find when he broke down the tickets?", "options": ["Forty percent were the same five questions", "Most tickets were about bugs", "Half the tickets were spam"], "answer": 0 },
+      { "q": "What was the average response time after two months?", "options": ["Two days", "One day", "Six hours"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "The situation was that our team answered customer tickets very slowly, about two days.",
+    "My task was to cut the response time to under one day within three months.",
+    "I broke down the tickets by type and wrote ready-made answers for common questions.",
+    "As a result, our average response time dropped to six hours in two months.",
+    "My main contribution was finding the pattern and training the team to use it."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-29",
+  "track": "finance",
+  "theme": "Đối chiếu số liệu",
+  "vocab": [
+    { "word": "general ledger", "ipa": "/ˈdʒenrəl ˈledʒə/", "meaning_vi": "sổ cái tổng hợp", "example": "The cash balance in the general ledger does not match the bank.", "example_vi": "Số dư tiền mặt trong sổ cái không khớp với ngân hàng." },
+    { "word": "trial balance", "ipa": "/ˈtraɪəl ˈbæləns/", "meaning_vi": "bảng cân đối số phát sinh", "example": "Please run the trial balance again after you post the adjustments.", "example_vi": "Vui lòng chạy lại bảng cân đối số phát sinh sau khi hạch toán các điều chỉnh." },
+    { "word": "tie out", "ipa": "/taɪ aʊt/", "meaning_vi": "khớp số, đối chiếu cho trùng khớp", "example": "The revenue in the report doesn't tie out to the sales system yet.", "example_vi": "Doanh thu trong báo cáo vẫn chưa khớp với hệ thống bán hàng." },
+    { "word": "timing difference", "ipa": "/ˈtaɪmɪŋ ˈdɪfrəns/", "meaning_vi": "chênh lệch do thời điểm ghi nhận", "example": "The gap is only a timing difference, because the payment arrived on July first.", "example_vi": "Khoản chênh chỉ là do thời điểm ghi nhận, vì tiền về vào ngày một tháng Bảy." },
+    { "word": "deposit in transit", "ipa": "/dɪˈpɒzɪt ɪn ˈtrænzɪt/", "meaning_vi": "khoản tiền đã nộp nhưng ngân hàng chưa ghi nhận", "example": "We recorded the deposit on the thirtieth, but the bank shows it as a deposit in transit.", "example_vi": "Chúng ta ghi nhận khoản nộp ngày 30, nhưng ngân hàng vẫn coi đó là tiền đang chuyển." },
+    { "word": "bank charges", "ipa": "/bæŋk ˈtʃɑːdʒɪz/", "meaning_vi": "phí ngân hàng", "example": "The small difference comes from bank charges that we haven't recorded.", "example_vi": "Khoản chênh nhỏ đến từ phí ngân hàng mà mình chưa ghi nhận." },
+    { "word": "transposition error", "ipa": "/ˌtrænspəˈzɪʃn ˈerə/", "meaning_vi": "lỗi đảo số khi nhập liệu (ví dụ 54 thành 45)", "example": "The amount was 5,400 but someone typed 4,500, which is a transposition error.", "example_vi": "Số tiền là 5.400 nhưng ai đó gõ thành 4.500, đó là lỗi đảo số." },
+    { "word": "intercompany", "ipa": "/ˌɪntəˈkʌmpəni/", "meaning_vi": "giữa các công ty trong cùng tập đoàn", "example": "We need to confirm the intercompany balance with the Singapore office.", "example_vi": "Chúng ta cần xác nhận số dư nội bộ tập đoàn với văn phòng Singapore." }
+  ],
+  "listening": {
+    "title": "Finding the gap in the bank reconciliation",
+    "lines": [
+      { "speaker": "Mai (Chief Accountant)", "voice": "female", "text": "Tuấn, the cash in the general ledger is still different from the bank statement. How big is the gap?" },
+      { "speaker": "Tuấn (Accountant)", "voice": "male", "text": "It's about fifty-two million dong. I've found most of the reasons already." },
+      { "speaker": "Mai (Chief Accountant)", "voice": "female", "text": "Good. Can you walk me through them?" },
+      { "speaker": "Tuấn (Accountant)", "voice": "male", "text": "First, there's a deposit in transit of forty-five million. We recorded it on June thirtieth, but the bank received it on July first." },
+      { "speaker": "Mai (Chief Accountant)", "voice": "female", "text": "So that's just a timing difference. What about the rest?" },
+      { "speaker": "Tuấn (Accountant)", "voice": "male", "text": "About three hundred thousand is bank charges. We haven't recorded them yet." },
+      { "speaker": "Mai (Chief Accountant)", "voice": "female", "text": "And the last part?" },
+      { "speaker": "Tuấn (Accountant)", "voice": "male", "text": "I think it's a transposition error. One invoice was six point nine million, but we entered nine point six." },
+      { "speaker": "Mai (Chief Accountant)", "voice": "female", "text": "Please fix it and run the trial balance again. Everything should tie out before Friday." },
+      { "speaker": "Tuấn (Accountant)", "voice": "male", "text": "Okay. I'll also check the intercompany balance with the Hà Nội branch today." }
+    ],
+    "questions": [
+      { "q": "Why is the deposit of forty-five million a timing difference?", "options": ["The bank lost the money", "The bank received it one day later", "It was paid in cash"], "answer": 1 },
+      { "q": "What caused the last part of the gap?", "options": ["A transposition error", "Bank charges", "A missing invoice"], "answer": 0 },
+      { "q": "What should Tuấn do after fixing the error?", "options": ["Call the bank", "Send the invoice again", "Run the trial balance again"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "The cash balance in our ledger doesn't match the bank statement for June.",
+    "Most of the gap is a timing difference, so we don't need to adjust it.",
+    "I think it's a transposition error, because the numbers look almost the same.",
+    "Could you send me the bank charges for June so I can record them today?",
+    "I'll run the trial balance again and make sure everything ties out before Friday."
+  ]
+}

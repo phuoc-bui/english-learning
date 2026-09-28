@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-29",
+  "track": "it",
+  "theme": "Giải thích bug & sự cố production",
+  "vocab": [
+    { "word": "incident channel", "ipa": "/ˈɪnsɪdənt ˈtʃænl/", "meaning_vi": "kênh chat riêng để xử lý sự cố", "example": "Please post all updates in the incident channel so everyone sees the same information.", "example_vi": "Vui lòng cập nhật mọi thông tin trong kênh sự cố để mọi người cùng nắm được." },
+    { "word": "regression", "ipa": "/rɪˈɡreʃn/", "meaning_vi": "lỗi hồi quy (tính năng cũ bị hỏng sau khi sửa code)", "example": "The new release caused a regression in the login page.", "example_vi": "Bản phát hành mới gây ra lỗi hồi quy ở trang đăng nhập." },
+    { "word": "timeout", "ipa": "/ˈtaɪmaʊt/", "meaning_vi": "hết thời gian chờ (request không phản hồi kịp)", "example": "Users see a timeout error when the payment service takes more than 30 seconds.", "example_vi": "Người dùng thấy lỗi hết thời gian chờ khi dịch vụ thanh toán mất hơn 30 giây." },
+    { "word": "on-call", "ipa": "/ˈɒn kɔːl/", "meaning_vi": "trực sự cố (sẵn sàng xử lý ngoài giờ)", "example": "Minh is on-call this week, so he will get the alert first.", "example_vi": "Tuần này Minh trực sự cố nên anh ấy sẽ nhận cảnh báo đầu tiên." },
+    { "word": "log file", "ipa": "/lɒɡ faɪl/", "meaning_vi": "file nhật ký hệ thống", "example": "I found the error message in the log file of the order service.", "example_vi": "Tôi tìm thấy thông báo lỗi trong file log của dịch vụ đặt hàng." },
+    { "word": "intermittent", "ipa": "/ˌɪntəˈmɪtənt/", "meaning_vi": "lúc có lúc không, không liên tục", "example": "The bug is intermittent, so it is hard to reproduce on my machine.", "example_vi": "Lỗi này lúc có lúc không nên khó tái hiện trên máy tôi." },
+    { "word": "spike", "ipa": "/spaɪk/", "meaning_vi": "sự tăng vọt đột ngột", "example": "We saw a spike in CPU usage right after the deployment.", "example_vi": "Chúng tôi thấy CPU tăng vọt ngay sau khi triển khai." },
+    { "word": "fallback", "ipa": "/ˈfɔːlbæk/", "meaning_vi": "phương án dự phòng khi hệ thống chính lỗi", "example": "If the cache is down, the app uses the database as a fallback.", "example_vi": "Nếu cache bị sập, ứng dụng dùng cơ sở dữ liệu làm phương án dự phòng." }
+  ],
+  "listening": {
+    "title": "Explaining a checkout timeout to the team lead",
+    "lines": [
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Minh, I got an alert about checkout errors. You're on-call, right? What's happening?" },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "Yes, I'm on it. Some users get a timeout when they pay. It started around nine o'clock." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Is it happening for everyone, or only some users?" },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "It's intermittent. About ten percent of payments fail, and the rest go through normally." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Do you know the cause yet?" },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "I checked the log file. There's a spike in database connections after yesterday's release. I think it's a regression." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Okay. Can we reduce the impact while you investigate?" },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "Yes. I'll turn on the fallback payment flow. It's slower, but it's stable." },
+      { "speaker": "Hoa (Team Lead)", "voice": "female", "text": "Good. Please open an incident channel and update the customer support team every thirty minutes." },
+      { "speaker": "Minh (Backend Developer)", "voice": "male", "text": "Sure. I'll post the first update in five minutes." }
+    ],
+    "questions": [
+      { "q": "What problem do some users have?", "options": ["They cannot log in", "They get a timeout when paying", "They see the wrong prices"], "answer": 1 },
+      { "q": "What did Minh find in the log file?", "options": ["A spike in database connections", "A missing configuration file", "A problem with the network"], "answer": 0 },
+      { "q": "What will Minh do to reduce the impact?", "options": ["Roll back all servers", "Stop all payments", "Turn on the fallback payment flow"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "The issue is intermittent, so about ten percent of requests are failing right now.",
+    "I checked the log file and found a lot of timeout errors after nine.",
+    "It looks like a regression from yesterday's release, but I still need to confirm.",
+    "I've turned on the fallback flow, so users can still complete their payments.",
+    "I'll post an update in the incident channel every thirty minutes until it's fixed."
+  ]
+}
