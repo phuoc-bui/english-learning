@@ -1,0 +1,154 @@
+{
+  "date": "2026-09-30",
+  "track": "finance",
+  "theme": "Trình bày số liệu với sếp",
+  "vocab": [
+    {
+      "word": "chart",
+      "ipa": "/tʃɑːt/",
+      "meaning_vi": "biểu đồ",
+      "example": "This chart shows our monthly costs for the last six months.",
+      "example_vi": "Biểu đồ này cho thấy chi phí hàng tháng của chúng ta trong sáu tháng qua."
+    },
+    {
+      "word": "margin",
+      "ipa": "/ˈmɑːdʒɪn/",
+      "meaning_vi": "biên lợi nhuận",
+      "example": "Our margin fell because the price of materials went up.",
+      "example_vi": "Biên lợi nhuận giảm vì giá nguyên vật liệu tăng."
+    },
+    {
+      "word": "on target",
+      "ipa": "/ɒn ˈtɑːɡɪt/",
+      "meaning_vi": "đạt mục tiêu, đúng kế hoạch",
+      "example": "Sales are on target, but costs are a little higher than planned.",
+      "example_vi": "Doanh số đạt mục tiêu, nhưng chi phí cao hơn kế hoạch một chút."
+    },
+    {
+      "word": "decline",
+      "ipa": "/dɪˈklaɪn/",
+      "meaning_vi": "sự sụt giảm; giảm",
+      "example": "There was a small decline in online sales in August.",
+      "example_vi": "Doanh số bán online giảm nhẹ trong tháng Tám."
+    },
+    {
+      "word": "percentage",
+      "ipa": "/pəˈsentɪdʒ/",
+      "meaning_vi": "tỷ lệ phần trăm",
+      "example": "What percentage of our budget goes to marketing?",
+      "example_vi": "Bao nhiêu phần trăm ngân sách của chúng ta dành cho marketing?"
+    },
+    {
+      "word": "overview",
+      "ipa": "/ˈəʊvəvjuː/",
+      "meaning_vi": "tổng quan",
+      "example": "Let me start with a quick overview of the numbers.",
+      "example_vi": "Để tôi bắt đầu bằng phần tổng quan nhanh về các con số."
+    },
+    {
+      "word": "steady",
+      "ipa": "/ˈstedi/",
+      "meaning_vi": "ổn định, đều đặn",
+      "example": "Our cash position stayed steady during the third quarter.",
+      "example_vi": "Tình hình tiền mặt của chúng ta ổn định trong quý ba."
+    },
+    {
+      "word": "net profit",
+      "ipa": "/net ˈprɒfɪt/",
+      "meaning_vi": "lợi nhuận ròng",
+      "example": "Net profit for September was about two billion dong.",
+      "example_vi": "Lợi nhuận ròng tháng Chín khoảng hai tỷ đồng."
+    }
+  ],
+  "listening": {
+    "title": "Presenting September numbers to the director",
+    "lines": [
+      {
+        "speaker": "Phương (Finance Analyst)",
+        "voice": "female",
+        "text": "Good morning, Mr. Hải. Let me start with a quick overview of September."
+      },
+      {
+        "speaker": "Hải (Finance Director)",
+        "voice": "male",
+        "text": "Sure. Keep it short, I have another meeting at ten."
+      },
+      {
+        "speaker": "Phương (Finance Analyst)",
+        "voice": "female",
+        "text": "Of course. Total sales were on target, at forty-five billion dong."
+      },
+      {
+        "speaker": "Hải (Finance Director)",
+        "voice": "male",
+        "text": "Good. What about net profit?"
+      },
+      {
+        "speaker": "Phương (Finance Analyst)",
+        "voice": "female",
+        "text": "Net profit was three billion. That is a small decline compared to August."
+      },
+      {
+        "speaker": "Hải (Finance Director)",
+        "voice": "male",
+        "text": "Why did it go down?"
+      },
+      {
+        "speaker": "Phương (Finance Analyst)",
+        "voice": "female",
+        "text": "As this chart shows, shipping costs went up by twelve percent, so our margin was lower."
+      },
+      {
+        "speaker": "Hải (Finance Director)",
+        "voice": "male",
+        "text": "I see. Is that a one-time problem?"
+      },
+      {
+        "speaker": "Phương (Finance Analyst)",
+        "voice": "female",
+        "text": "We think so. Fuel prices are now steady, so October should be better."
+      },
+      {
+        "speaker": "Hải (Finance Director)",
+        "voice": "male",
+        "text": "Okay. Please send me the slides and one page with the key numbers."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How were total sales in September?",
+        "options": [
+          "Below target",
+          "On target",
+          "Much higher than target"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why was the margin lower?",
+        "options": [
+          "Shipping costs went up by twelve percent",
+          "Sales fell sharply",
+          "The team hired more staff"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Mr. Hải ask for at the end?",
+        "options": [
+          "Another meeting at ten",
+          "A new budget plan",
+          "The slides and one page of key numbers"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Let me give you a quick overview of the numbers for this month.",
+    "As you can see on this chart, our costs went up in August.",
+    "The main reason for the decline is higher shipping costs this quarter.",
+    "We are still on target for the year, so there is no big risk.",
+    "I can send you the detailed report after this meeting if you like."
+  ]
+}

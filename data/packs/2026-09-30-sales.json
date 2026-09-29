@@ -1,0 +1,154 @@
+{
+  "date": "2026-09-30",
+  "track": "sales",
+  "theme": "Networking tại hội chợ/sự kiện",
+  "vocab": [
+    {
+      "word": "trade show",
+      "ipa": "/treɪd ʃəʊ/",
+      "meaning_vi": "hội chợ thương mại",
+      "example": "We met three new partners at the trade show in Singapore.",
+      "example_vi": "Chúng tôi đã gặp ba đối tác mới tại hội chợ thương mại ở Singapore."
+    },
+    {
+      "word": "visitor",
+      "ipa": "/ˈvɪzɪtə/",
+      "meaning_vi": "khách tham quan",
+      "example": "Our stand had more than two hundred visitors on the first day.",
+      "example_vi": "Gian hàng của chúng tôi có hơn hai trăm khách tham quan trong ngày đầu."
+    },
+    {
+      "word": "connect",
+      "ipa": "/kəˈnekt/",
+      "meaning_vi": "kết nối, liên lạc",
+      "example": "Let us connect on LinkedIn after the event.",
+      "example_vi": "Hãy kết nối trên LinkedIn sau sự kiện nhé."
+    },
+    {
+      "word": "approach",
+      "ipa": "/əˈprəʊtʃ/",
+      "meaning_vi": "tiếp cận, bắt chuyện",
+      "example": "Smile and approach visitors who stop to look at the screen.",
+      "example_vi": "Hãy mỉm cười và bắt chuyện với khách dừng lại xem màn hình."
+    },
+    {
+      "word": "exchange",
+      "ipa": "/ɪksˈtʃeɪndʒ/",
+      "meaning_vi": "trao đổi",
+      "example": "We exchanged contact details and agreed to talk next week.",
+      "example_vi": "Chúng tôi đã trao đổi thông tin liên lạc và hẹn nói chuyện tuần sau."
+    },
+    {
+      "word": "free sample",
+      "ipa": "/friː ˈsɑːmpl/",
+      "meaning_vi": "hàng mẫu miễn phí",
+      "example": "We give a free sample to every visitor who fills in the form.",
+      "example_vi": "Chúng tôi tặng hàng mẫu miễn phí cho mỗi khách điền phiếu."
+    },
+    {
+      "word": "foot traffic",
+      "ipa": "/fʊt ˈtræfɪk/",
+      "meaning_vi": "lượng khách đi qua",
+      "example": "Our stand is near the entrance, so the foot traffic is high.",
+      "example_vi": "Gian hàng của chúng ta gần lối vào nên lượng khách đi qua rất đông."
+    },
+    {
+      "word": "contact list",
+      "ipa": "/ˈkɒntækt lɪst/",
+      "meaning_vi": "danh sách liên hệ",
+      "example": "Please add everyone we met today to the contact list.",
+      "example_vi": "Vui lòng thêm tất cả những người ta gặp hôm nay vào danh sách liên hệ."
+    }
+  ],
+  "listening": {
+    "title": "Meeting a buyer at a trade show",
+    "lines": [
+      {
+        "speaker": "Vy (Sales Executive)",
+        "voice": "female",
+        "text": "Hello! Welcome to our stand. Are you enjoying the trade show?"
+      },
+      {
+        "speaker": "Đức (Buyer)",
+        "voice": "male",
+        "text": "Yes, it is busy but interesting. What does your company do?"
+      },
+      {
+        "speaker": "Vy (Sales Executive)",
+        "voice": "female",
+        "text": "We make smart packaging for food companies. It keeps products fresh longer."
+      },
+      {
+        "speaker": "Đức (Buyer)",
+        "voice": "male",
+        "text": "That sounds useful. I work for a coffee brand in Đà Nẵng."
+      },
+      {
+        "speaker": "Vy (Sales Executive)",
+        "voice": "female",
+        "text": "Great! Many coffee brands use our bags. Would you like a free sample?"
+      },
+      {
+        "speaker": "Đức (Buyer)",
+        "voice": "male",
+        "text": "Sure, thank you. I can show it to my purchasing team."
+      },
+      {
+        "speaker": "Vy (Sales Executive)",
+        "voice": "female",
+        "text": "Perfect. Could we exchange business details? I would like to send you our price list."
+      },
+      {
+        "speaker": "Đức (Buyer)",
+        "voice": "male",
+        "text": "Of course. Here is my card. You can also connect with me on LinkedIn."
+      },
+      {
+        "speaker": "Vy (Sales Executive)",
+        "voice": "female",
+        "text": "Thank you. I will email you on Monday, after the event."
+      },
+      {
+        "speaker": "Đức (Buyer)",
+        "voice": "male",
+        "text": "Sounds good. Nice to meet you, Vy."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Vy's company make?",
+        "options": [
+          "Coffee machines",
+          "Smart packaging for food companies",
+          "Software for trade shows"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Vy give Đức?",
+        "options": [
+          "A free sample",
+          "A discount code",
+          "A price list"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "When will Vy email Đức?",
+        "options": [
+          "Tonight",
+          "Next month",
+          "On Monday, after the event"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Hi, thanks for stopping by our stand, can I tell you about our product?",
+    "What brings you to the trade show this year, are you looking for suppliers?",
+    "Here is my card, it has my email and phone number on it.",
+    "It was great talking to you, I will send you more details next week.",
+    "Would you like to try a free sample before you leave the stand?"
+  ]
+}

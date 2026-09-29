@@ -1,0 +1,154 @@
+{
+  "date": "2026-09-30",
+  "track": "it",
+  "theme": "Thuyết trình demo sản phẩm",
+  "vocab": [
+    {
+      "word": "live demo",
+      "ipa": "/laɪv ˈdeməʊ/",
+      "meaning_vi": "bản demo trực tiếp",
+      "example": "We will do a live demo of the new search feature on Friday.",
+      "example_vi": "Chúng ta sẽ demo trực tiếp tính năng tìm kiếm mới vào thứ Sáu."
+    },
+    {
+      "word": "dashboard",
+      "ipa": "/ˈdæʃbɔːd/",
+      "meaning_vi": "bảng điều khiển, màn hình tổng quan",
+      "example": "The dashboard shows all active users and orders in real time.",
+      "example_vi": "Bảng điều khiển hiển thị tất cả người dùng và đơn hàng theo thời gian thực."
+    },
+    {
+      "word": "showcase",
+      "ipa": "/ˈʃəʊkeɪs/",
+      "meaning_vi": "trình diễn, giới thiệu nổi bật",
+      "example": "This sprint demo will showcase the new payment flow.",
+      "example_vi": "Buổi demo sprint này sẽ giới thiệu luồng thanh toán mới."
+    },
+    {
+      "word": "sandbox",
+      "ipa": "/ˈsændbɒks/",
+      "meaning_vi": "môi trường thử nghiệm tách biệt",
+      "example": "Please use the sandbox, not production, for the demo.",
+      "example_vi": "Hãy dùng môi trường sandbox, không phải production, cho buổi demo."
+    },
+    {
+      "word": "user journey",
+      "ipa": "/ˈjuːzə ˈdʒɜːni/",
+      "meaning_vi": "hành trình người dùng",
+      "example": "Let me walk you through the user journey from sign-up to checkout.",
+      "example_vi": "Để tôi dẫn các bạn qua hành trình người dùng từ lúc đăng ký đến thanh toán."
+    },
+    {
+      "word": "rehearse",
+      "ipa": "/rɪˈhɜːs/",
+      "meaning_vi": "tập dượt trước",
+      "example": "Let us rehearse the demo once before the client joins.",
+      "example_vi": "Chúng ta tập dượt buổi demo một lần trước khi khách hàng vào."
+    },
+    {
+      "word": "backup plan",
+      "ipa": "/ˈbækʌp plæn/",
+      "meaning_vi": "kế hoạch dự phòng",
+      "example": "If the server is slow, our backup plan is a recorded video.",
+      "example_vi": "Nếu server chậm, kế hoạch dự phòng của chúng ta là một video quay sẵn."
+    },
+    {
+      "word": "load time",
+      "ipa": "/ləʊd taɪm/",
+      "meaning_vi": "thời gian tải trang",
+      "example": "We reduced the load time of the home page to one second.",
+      "example_vi": "Chúng tôi đã giảm thời gian tải trang chủ xuống còn một giây."
+    }
+  ],
+  "listening": {
+    "title": "Preparing for a sprint demo",
+    "lines": [
+      {
+        "speaker": "Thảo (Product Owner)",
+        "voice": "female",
+        "text": "Hi Quân. Are you ready for the live demo with the client at three?"
+      },
+      {
+        "speaker": "Quân (Developer)",
+        "voice": "male",
+        "text": "Almost. I want to rehearse it once more. The new dashboard still feels a bit slow."
+      },
+      {
+        "speaker": "Thảo (Product Owner)",
+        "voice": "female",
+        "text": "How slow? The client really cares about load time."
+      },
+      {
+        "speaker": "Quân (Developer)",
+        "voice": "male",
+        "text": "About three seconds on the first open. After that, it is under one second."
+      },
+      {
+        "speaker": "Thảo (Product Owner)",
+        "voice": "female",
+        "text": "Okay. Can you open it once before the meeting so it is already fast?"
+      },
+      {
+        "speaker": "Quân (Developer)",
+        "voice": "male",
+        "text": "Good idea. I will also run everything in the sandbox, so we do not touch real data."
+      },
+      {
+        "speaker": "Thảo (Product Owner)",
+        "voice": "female",
+        "text": "Great. What will you showcase first?"
+      },
+      {
+        "speaker": "Quân (Developer)",
+        "voice": "male",
+        "text": "I will follow the user journey: login, create an order, then check it on the dashboard."
+      },
+      {
+        "speaker": "Thảo (Product Owner)",
+        "voice": "female",
+        "text": "Perfect. And if the connection fails?"
+      },
+      {
+        "speaker": "Quân (Developer)",
+        "voice": "male",
+        "text": "Our backup plan is a short recorded video. I saved it on my desktop."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is Quân worried about?",
+        "options": [
+          "The dashboard is a bit slow on the first open",
+          "The client cancelled the meeting",
+          "The sandbox has no data"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Why will Quân use the sandbox?",
+        "options": [
+          "It is faster than production",
+          "To avoid touching real data",
+          "The client asked for it"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is the backup plan?",
+        "options": [
+          "Moving the demo to tomorrow",
+          "Showing slides only",
+          "Playing a short recorded video"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Let me share my screen and walk you through the new feature.",
+    "If you have any questions, feel free to stop me at any time.",
+    "Here you can see the dashboard with all the orders from today.",
+    "Sorry, the page is loading a bit slowly, give me one second.",
+    "That is the end of the demo, so now let us take your questions."
+  ]
+}

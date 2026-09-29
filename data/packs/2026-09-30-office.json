@@ -1,0 +1,154 @@
+{
+  "date": "2026-09-30",
+  "track": "office",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    {
+      "word": "buddy",
+      "ipa": "/ˈbʌdi/",
+      "meaning_vi": "người kèm cặp, bạn đồng hành cho nhân viên mới",
+      "example": "Hoa will be your buddy for the first month.",
+      "example_vi": "Hoa sẽ là người kèm cặp bạn trong tháng đầu tiên."
+    },
+    {
+      "word": "badge",
+      "ipa": "/bædʒ/",
+      "meaning_vi": "thẻ ra vào, thẻ nhân viên",
+      "example": "You need your badge to open the doors on every floor.",
+      "example_vi": "Bạn cần thẻ nhân viên để mở cửa ở mọi tầng."
+    },
+    {
+      "word": "handbook",
+      "ipa": "/ˈhændbʊk/",
+      "meaning_vi": "sổ tay nhân viên",
+      "example": "All the office rules are in the employee handbook.",
+      "example_vi": "Tất cả quy định văn phòng đều có trong sổ tay nhân viên."
+    },
+    {
+      "word": "floor plan",
+      "ipa": "/flɔː plæn/",
+      "meaning_vi": "sơ đồ tầng",
+      "example": "Here is the floor plan, so you can find the meeting rooms.",
+      "example_vi": "Đây là sơ đồ tầng để bạn tìm các phòng họp."
+    },
+    {
+      "word": "tour",
+      "ipa": "/tʊə/",
+      "meaning_vi": "chuyến tham quan, dẫn đi xem",
+      "example": "Let me give you a quick tour of the office.",
+      "example_vi": "Để tôi dẫn bạn đi tham quan văn phòng một vòng."
+    },
+    {
+      "word": "login",
+      "ipa": "/ˈlɒɡɪn/",
+      "meaning_vi": "thông tin đăng nhập",
+      "example": "IT will send you your email login this afternoon.",
+      "example_vi": "Bộ phận IT sẽ gửi thông tin đăng nhập email cho bạn chiều nay."
+    },
+    {
+      "word": "policy",
+      "ipa": "/ˈpɒləsi/",
+      "meaning_vi": "chính sách, quy định",
+      "example": "Please read our policy on working from home.",
+      "example_vi": "Vui lòng đọc chính sách làm việc tại nhà của công ty."
+    },
+    {
+      "word": "locker",
+      "ipa": "/ˈlɒkə/",
+      "meaning_vi": "tủ đồ cá nhân có khoá",
+      "example": "You can keep your bag in a locker near the pantry.",
+      "example_vi": "Bạn có thể cất túi trong tủ đồ gần khu pantry."
+    }
+  ],
+  "listening": {
+    "title": "First morning at the office",
+    "lines": [
+      {
+        "speaker": "Hoa (HR Executive)",
+        "voice": "female",
+        "text": "Good morning, Tuấn! Welcome to the team. How are you feeling?"
+      },
+      {
+        "speaker": "Tuấn (New Staff)",
+        "voice": "male",
+        "text": "A little nervous, but excited. Thank you for meeting me."
+      },
+      {
+        "speaker": "Hoa (HR Executive)",
+        "voice": "female",
+        "text": "No problem. First, here is your badge. You need it for the doors and the lift."
+      },
+      {
+        "speaker": "Tuấn (New Staff)",
+        "voice": "male",
+        "text": "Great. Where should I keep my bag?"
+      },
+      {
+        "speaker": "Hoa (HR Executive)",
+        "voice": "female",
+        "text": "There is a locker for you near the pantry. The key is in this envelope."
+      },
+      {
+        "speaker": "Tuấn (New Staff)",
+        "voice": "male",
+        "text": "Thanks. When will I get my computer login?"
+      },
+      {
+        "speaker": "Hoa (HR Executive)",
+        "voice": "female",
+        "text": "IT will set it up before lunch. Meanwhile, please read the handbook, especially the leave policy."
+      },
+      {
+        "speaker": "Tuấn (New Staff)",
+        "voice": "male",
+        "text": "Sure. Is there someone I can ask if I have small questions?"
+      },
+      {
+        "speaker": "Hoa (HR Executive)",
+        "voice": "female",
+        "text": "Yes, Long from your team is your buddy. He will give you a tour after this."
+      },
+      {
+        "speaker": "Tuấn (New Staff)",
+        "voice": "male",
+        "text": "That sounds really helpful. I feel much better now."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Tuấn need the badge for?",
+        "options": [
+          "To pay for lunch",
+          "To open the doors and use the lift",
+          "To log in to his computer"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What should Tuấn read before lunch?",
+        "options": [
+          "The handbook",
+          "The floor plan",
+          "A client email"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Who will give Tuấn a tour?",
+        "options": [
+          "Hoa",
+          "Someone from IT",
+          "Long, his buddy"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Welcome to the team, let me show you around the office first.",
+    "This is your desk, and the meeting rooms are at the end of the hall.",
+    "If you have any questions, just ask me or your buddy anytime.",
+    "Could you tell me where I can find the printer on this floor?",
+    "I am still learning the process, so thank you for your patience."
+  ]
+}

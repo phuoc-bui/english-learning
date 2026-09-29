@@ -1,0 +1,154 @@
+{
+  "date": "2026-09-30",
+  "track": "interview",
+  "theme": "Tìm hiểu văn hoá công ty",
+  "vocab": [
+    {
+      "word": "core value",
+      "ipa": "/kɔː ˈvæljuː/",
+      "meaning_vi": "giá trị cốt lõi",
+      "example": "One of our core values is putting the customer first.",
+      "example_vi": "Một trong những giá trị cốt lõi của chúng tôi là đặt khách hàng lên hàng đầu."
+    },
+    {
+      "word": "flexible",
+      "ipa": "/ˈfleksəbl/",
+      "meaning_vi": "linh hoạt",
+      "example": "Our working hours are flexible, as long as you join the core meetings.",
+      "example_vi": "Giờ làm việc của chúng tôi linh hoạt, miễn là bạn tham gia các cuộc họp chính."
+    },
+    {
+      "word": "mission",
+      "ipa": "/ˈmɪʃn/",
+      "meaning_vi": "sứ mệnh",
+      "example": "Our mission is to make online payment easy for small shops.",
+      "example_vi": "Sứ mệnh của chúng tôi là giúp các cửa hàng nhỏ thanh toán online dễ dàng."
+    },
+    {
+      "word": "hierarchy",
+      "ipa": "/ˈhaɪərɑːki/",
+      "meaning_vi": "hệ thống cấp bậc, thứ bậc",
+      "example": "We have a flat hierarchy, so anyone can talk to the CEO.",
+      "example_vi": "Chúng tôi có cấp bậc phẳng, nên ai cũng có thể nói chuyện với CEO."
+    },
+    {
+      "word": "atmosphere",
+      "ipa": "/ˈætməsfɪə/",
+      "meaning_vi": "bầu không khí",
+      "example": "The atmosphere in the office is friendly and relaxed.",
+      "example_vi": "Bầu không khí trong văn phòng thân thiện và thoải mái."
+    },
+    {
+      "word": "team building",
+      "ipa": "/tiːm ˈbɪldɪŋ/",
+      "meaning_vi": "hoạt động gắn kết đội nhóm",
+      "example": "We have a team building trip to Phú Quốc every year.",
+      "example_vi": "Chúng tôi có chuyến team building đi Phú Quốc mỗi năm."
+    },
+    {
+      "word": "turnover",
+      "ipa": "/ˈtɜːnəʊvə/",
+      "meaning_vi": "tỷ lệ nghỉ việc, biến động nhân sự",
+      "example": "Could you tell me about the staff turnover in this team?",
+      "example_vi": "Anh/chị có thể cho tôi biết về tỷ lệ nghỉ việc trong nhóm này không?"
+    },
+    {
+      "word": "diversity",
+      "ipa": "/daɪˈvɜːsəti/",
+      "meaning_vi": "sự đa dạng",
+      "example": "We value diversity, and our team has people from five countries.",
+      "example_vi": "Chúng tôi coi trọng sự đa dạng, và nhóm có người đến từ năm quốc gia."
+    }
+  ],
+  "listening": {
+    "title": "Asking about company culture",
+    "lines": [
+      {
+        "speaker": "Ngọc (HR Manager)",
+        "voice": "female",
+        "text": "Minh, we have a few minutes left. Do you have any questions for us?"
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "Yes, thank you. Could you tell me more about the company culture?"
+      },
+      {
+        "speaker": "Ngọc (HR Manager)",
+        "voice": "female",
+        "text": "Sure. Our mission is to help small businesses grow with simple software."
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "That sounds meaningful. What are the core values of the company?"
+      },
+      {
+        "speaker": "Ngọc (HR Manager)",
+        "voice": "female",
+        "text": "Honesty, learning, and customer focus. We also have a flat hierarchy, so people share ideas openly."
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "I like that. Are the working hours flexible?"
+      },
+      {
+        "speaker": "Ngọc (HR Manager)",
+        "voice": "female",
+        "text": "Yes. You can start between eight and ten, and work from home two days a week."
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "Great. And how is the atmosphere in the team?"
+      },
+      {
+        "speaker": "Ngọc (HR Manager)",
+        "voice": "female",
+        "text": "Very friendly. Turnover is low, and we have team building events every quarter."
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "Thank you. That helps me understand the company much better."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is the company's mission?",
+        "options": [
+          "To help small businesses grow with simple software",
+          "To become the biggest bank in Vietnam",
+          "To sell hardware to schools"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How flexible are the working hours?",
+        "options": [
+          "Everyone starts at eight",
+          "Staff can start between eight and ten",
+          "Staff work from home every day"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Ngọc say about turnover?",
+        "options": [
+          "It is very high",
+          "She does not know",
+          "It is low"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you tell me more about the culture of the team I would join?",
+    "I read about your core values on the website, and they match mine.",
+    "In my last job, a friendly atmosphere helped me do my best work.",
+    "How does the team usually celebrate success or support people after a mistake?",
+    "I prefer a flat hierarchy, because I like to share ideas openly with managers."
+  ]
+}
