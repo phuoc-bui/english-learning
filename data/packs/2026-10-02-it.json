@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-02",
+  "track": "it",
+  "theme": "Onboarding người mới",
+  "vocab": [
+    {
+      "word": "permission",
+      "ipa": "/pəˈmɪʃn/",
+      "meaning_vi": "quyền truy cập, sự cho phép",
+      "example": "I asked the admin for permission to read the production logs.",
+      "example_vi": "Tôi đã xin admin quyền đọc log trên production."
+    },
+    {
+      "word": "get familiar with",
+      "ipa": "/ɡet fəˈmɪliə wɪð/",
+      "meaning_vi": "làm quen với",
+      "example": "Please take this week to get familiar with our main services.",
+      "example_vi": "Hãy dành tuần này để làm quen với các service chính của chúng ta."
+    },
+    {
+      "word": "knowledge base",
+      "ipa": "/ˈnɒlɪdʒ beɪs/",
+      "meaning_vi": "kho tài liệu, cơ sở tri thức",
+      "example": "You can find most answers in our knowledge base on Confluence.",
+      "example_vi": "Bạn có thể tìm hầu hết câu trả lời trong kho tài liệu trên Confluence."
+    },
+    {
+      "word": "tech stack",
+      "ipa": "/tek stæk/",
+      "meaning_vi": "bộ công nghệ sử dụng",
+      "example": "Our tech stack includes React, Node.js and PostgreSQL.",
+      "example_vi": "Bộ công nghệ của chúng ta gồm React, Node.js và PostgreSQL."
+    },
+    {
+      "word": "local environment",
+      "ipa": "/ˈləʊkl ɪnˈvaɪrənmənt/",
+      "meaning_vi": "môi trường chạy trên máy cá nhân",
+      "example": "It took me half a day to run the project in my local environment.",
+      "example_vi": "Tôi mất nửa ngày để chạy được dự án trên môi trường máy cá nhân."
+    },
+    {
+      "word": "handbook",
+      "ipa": "/ˈhændbʊk/",
+      "meaning_vi": "sổ tay hướng dẫn",
+      "example": "The developer handbook explains how we name branches.",
+      "example_vi": "Sổ tay lập trình viên giải thích cách chúng ta đặt tên nhánh."
+    },
+    {
+      "word": "VPN",
+      "ipa": "/ˌviː piː ˈen/",
+      "meaning_vi": "mạng riêng ảo",
+      "example": "You need to connect to the VPN before you open the test server.",
+      "example_vi": "Bạn cần kết nối VPN trước khi mở server test."
+    },
+    {
+      "word": "first week",
+      "ipa": "/fɜːst wiːk/",
+      "meaning_vi": "tuần làm việc đầu tiên",
+      "example": "In your first week, you will fix one small bug with your mentor.",
+      "example_vi": "Trong tuần đầu tiên, bạn sẽ sửa một bug nhỏ cùng mentor."
+    }
+  ],
+  "listening": {
+    "title": "Huy's first morning on the team",
+    "lines": [
+      {
+        "speaker": "Trang (Tech Lead)",
+        "voice": "female",
+        "text": "Good morning, Huy! Welcome to the team. How is your first week going so far?"
+      },
+      {
+        "speaker": "Huy (New Developer)",
+        "voice": "male",
+        "text": "Good morning, Trang. It's going well, but there is a lot to learn."
+      },
+      {
+        "speaker": "Trang (Tech Lead)",
+        "voice": "female",
+        "text": "That's normal. First, let's check your laptop. Can you connect to the VPN?"
+      },
+      {
+        "speaker": "Huy (New Developer)",
+        "voice": "male",
+        "text": "Yes, it works. But I don't have permission to open the Git repository yet."
+      },
+      {
+        "speaker": "Trang (Tech Lead)",
+        "voice": "female",
+        "text": "I'll ask the admin to add you today. Meanwhile, please read the developer handbook."
+      },
+      {
+        "speaker": "Huy (New Developer)",
+        "voice": "male",
+        "text": "Sure. Is there a guide to run the project in my local environment?"
+      },
+      {
+        "speaker": "Trang (Tech Lead)",
+        "voice": "female",
+        "text": "Yes, it's in our knowledge base. Follow the setup page step by step."
+      },
+      {
+        "speaker": "Huy (New Developer)",
+        "voice": "male",
+        "text": "Great. Could you also tell me a bit about the tech stack?"
+      },
+      {
+        "speaker": "Trang (Tech Lead)",
+        "voice": "female",
+        "text": "We use React for the front end and Node.js with PostgreSQL for the back end."
+      },
+      {
+        "speaker": "Huy (New Developer)",
+        "voice": "male",
+        "text": "Thanks. I will get familiar with the code and ask you if I get stuck."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What problem does Huy have?",
+        "options": [
+          "He cannot connect to the VPN",
+          "He has no permission to open the Git repository",
+          "His laptop is broken"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Where can Huy find the guide to set up his local environment?",
+        "options": [
+          "In the knowledge base",
+          "In an email from HR",
+          "On the office notice board"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does the team use for the back end?",
+        "options": [
+          "React",
+          "Java and MySQL",
+          "Node.js with PostgreSQL"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you share the link to the setup guide for the local environment?",
+    "I still don't have permission to the repository, so who should I ask?",
+    "I spent this morning reading the handbook and getting familiar with our tech stack.",
+    "Is there a page in the knowledge base about how we deploy to staging?",
+    "During my first week, I'd like to pair with someone on a small ticket."
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-02",
+  "track": "finance",
+  "theme": "Deadline quyết toán",
+  "vocab": [
+    {
+      "word": "settlement",
+      "ipa": "/ˈsetlmənt/",
+      "meaning_vi": "quyết toán, thanh toán dứt điểm",
+      "example": "The tax settlement for this year must be submitted by March 31st.",
+      "example_vi": "Hồ sơ quyết toán thuế năm nay phải nộp trước ngày 31 tháng 3."
+    },
+    {
+      "word": "submission",
+      "ipa": "/səbˈmɪʃn/",
+      "meaning_vi": "việc nộp hồ sơ",
+      "example": "Please check every number before the submission to the tax office.",
+      "example_vi": "Hãy kiểm tra mọi con số trước khi nộp cho cơ quan thuế."
+    },
+    {
+      "word": "overtime",
+      "ipa": "/ˈəʊvətaɪm/",
+      "meaning_vi": "làm thêm giờ",
+      "example": "The team worked overtime last weekend to close the books.",
+      "example_vi": "Nhóm đã làm thêm giờ cuối tuần trước để khoá sổ."
+    },
+    {
+      "word": "carry forward",
+      "ipa": "/ˈkæri ˈfɔːwəd/",
+      "meaning_vi": "chuyển sang kỳ sau",
+      "example": "The unused budget will be carried forward to next year.",
+      "example_vi": "Ngân sách chưa dùng sẽ được chuyển sang năm sau."
+    },
+    {
+      "word": "provision",
+      "ipa": "/prəˈvɪʒn/",
+      "meaning_vi": "khoản dự phòng",
+      "example": "We made a provision for customers who may not pay.",
+      "example_vi": "Chúng tôi đã lập khoản dự phòng cho những khách hàng có thể không trả tiền."
+    },
+    {
+      "word": "balance sheet",
+      "ipa": "/ˈbæləns ʃiːt/",
+      "meaning_vi": "bảng cân đối kế toán",
+      "example": "The balance sheet must be ready before the auditors arrive.",
+      "example_vi": "Bảng cân đối kế toán phải sẵn sàng trước khi kiểm toán viên đến."
+    },
+    {
+      "word": "outstanding",
+      "ipa": "/aʊtˈstændɪŋ/",
+      "meaning_vi": "còn tồn đọng, chưa thanh toán",
+      "example": "We still have five outstanding invoices from last quarter.",
+      "example_vi": "Chúng ta vẫn còn năm hoá đơn chưa thanh toán từ quý trước."
+    },
+    {
+      "word": "last-minute",
+      "ipa": "/ˌlɑːst ˈmɪnɪt/",
+      "meaning_vi": "vào phút chót",
+      "example": "Let's finish early so we don't have last-minute problems.",
+      "example_vi": "Hãy làm xong sớm để không gặp sự cố vào phút chót."
+    }
+  ],
+  "listening": {
+    "title": "Planning for the settlement deadline",
+    "lines": [
+      {
+        "speaker": "Quang (Chief Accountant)",
+        "voice": "male",
+        "text": "Vy, the settlement deadline is in ten days. Where are we now?"
+      },
+      {
+        "speaker": "Vy (Accountant)",
+        "voice": "female",
+        "text": "The balance sheet draft is ready, but there are still some outstanding items."
+      },
+      {
+        "speaker": "Quang (Chief Accountant)",
+        "voice": "male",
+        "text": "What kind of items?"
+      },
+      {
+        "speaker": "Vy (Accountant)",
+        "voice": "female",
+        "text": "Mostly supplier invoices. Seven invoices are still missing from the purchasing team."
+      },
+      {
+        "speaker": "Quang (Chief Accountant)",
+        "voice": "male",
+        "text": "Please send them a reminder today. We need everything by Friday."
+      },
+      {
+        "speaker": "Vy (Accountant)",
+        "voice": "female",
+        "text": "Okay. Also, should we make a provision for the customer who hasn't paid since June?"
+      },
+      {
+        "speaker": "Quang (Chief Accountant)",
+        "voice": "male",
+        "text": "Yes, let's do that. And the unused training budget will be carried forward."
+      },
+      {
+        "speaker": "Vy (Accountant)",
+        "voice": "female",
+        "text": "Got it. I think we may need some overtime next week."
+      },
+      {
+        "speaker": "Quang (Chief Accountant)",
+        "voice": "male",
+        "text": "That's fine, but let's plan it well. I don't want any last-minute changes before submission."
+      },
+      {
+        "speaker": "Vy (Accountant)",
+        "voice": "female",
+        "text": "Agreed. I'll share a checklist with the team this afternoon."
+      }
+    ],
+    "questions": [
+      {
+        "q": "When is the settlement deadline?",
+        "options": [
+          "Tomorrow",
+          "In ten days",
+          "At the end of next month"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Which team still needs to send invoices?",
+        "options": [
+          "The purchasing team",
+          "The HR team",
+          "The IT team"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What will happen to the unused training budget?",
+        "options": [
+          "It will be returned to the director",
+          "It will be spent this month",
+          "It will be carried forward"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "The settlement deadline is next Friday, so please send me your numbers by Tuesday.",
+    "We still have a few outstanding invoices that need to be checked today.",
+    "I'd like to finish the balance sheet early to avoid last-minute surprises.",
+    "Should we make a provision for this customer, since they haven't paid for months?",
+    "I can work overtime this weekend if it helps us meet the submission date."
+  ]
+}

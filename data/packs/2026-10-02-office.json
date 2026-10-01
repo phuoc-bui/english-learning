@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-02",
+  "track": "office",
+  "theme": "Out-of-office & bàn giao việc",
+  "vocab": [
+    {
+      "word": "backup",
+      "ipa": "/ˈbækʌp/",
+      "meaning_vi": "người thay thế, người hỗ trợ dự phòng",
+      "example": "Lan will be my backup while I am on leave next week.",
+      "example_vi": "Lan sẽ là người thay thế tôi khi tôi nghỉ phép tuần sau."
+    },
+    {
+      "word": "pending",
+      "ipa": "/ˈpendɪŋ/",
+      "meaning_vi": "đang chờ xử lý",
+      "example": "There are three pending requests from the sales team.",
+      "example_vi": "Có ba yêu cầu đang chờ xử lý từ nhóm sales."
+    },
+    {
+      "word": "in charge of",
+      "ipa": "/ɪn tʃɑːdʒ əv/",
+      "meaning_vi": "phụ trách",
+      "example": "Who is in charge of the supplier contracts while you are away?",
+      "example_vi": "Ai phụ trách hợp đồng nhà cung cấp khi chị vắng mặt?"
+    },
+    {
+      "word": "cover for",
+      "ipa": "/ˈkʌvə fɔː/",
+      "meaning_vi": "làm thay, đỡ việc cho ai",
+      "example": "Can you cover for me at the Monday meeting?",
+      "example_vi": "Bạn có thể làm thay tôi ở cuộc họp thứ Hai không?"
+    },
+    {
+      "word": "hand off",
+      "ipa": "/hænd ɒf/",
+      "meaning_vi": "chuyển giao công việc",
+      "example": "I will hand off the training plan to Tuấn before Friday.",
+      "example_vi": "Tôi sẽ chuyển giao kế hoạch đào tạo cho Tuấn trước thứ Sáu."
+    },
+    {
+      "word": "contact details",
+      "ipa": "/ˈkɒntækt ˈdiːteɪlz/",
+      "meaning_vi": "thông tin liên lạc",
+      "example": "I added the supplier's contact details to the handover file.",
+      "example_vi": "Tôi đã thêm thông tin liên lạc của nhà cung cấp vào file bàn giao."
+    },
+    {
+      "word": "keep in the loop",
+      "ipa": "/kiːp ɪn ðə luːp/",
+      "meaning_vi": "cập nhật thông tin cho ai",
+      "example": "Please keep me in the loop if the client changes the date.",
+      "example_vi": "Hãy cập nhật cho tôi nếu khách hàng đổi ngày."
+    },
+    {
+      "word": "inform",
+      "ipa": "/ɪnˈfɔːm/",
+      "meaning_vi": "thông báo",
+      "example": "I have informed the whole team about my leave.",
+      "example_vi": "Tôi đã thông báo cho cả nhóm về kỳ nghỉ của mình."
+    }
+  ],
+  "listening": {
+    "title": "Handing over work before a holiday",
+    "lines": [
+      {
+        "speaker": "Mai (HR Executive)",
+        "voice": "female",
+        "text": "Phong, I'm off from Monday to Friday next week. Can you cover for me?"
+      },
+      {
+        "speaker": "Phong (HR Officer)",
+        "voice": "male",
+        "text": "Of course. What do I need to know?"
+      },
+      {
+        "speaker": "Mai (HR Executive)",
+        "voice": "female",
+        "text": "I'm in charge of the new staff contracts. Two of them are still pending."
+      },
+      {
+        "speaker": "Phong (HR Officer)",
+        "voice": "male",
+        "text": "Okay. When do they need to be signed?"
+      },
+      {
+        "speaker": "Mai (HR Executive)",
+        "voice": "female",
+        "text": "By Wednesday. I'll hand off the files to you this afternoon."
+      },
+      {
+        "speaker": "Phong (HR Officer)",
+        "voice": "male",
+        "text": "Good. Should I contact the new staff directly?"
+      },
+      {
+        "speaker": "Mai (HR Executive)",
+        "voice": "female",
+        "text": "Yes. Their contact details are in the handover document on the team drive."
+      },
+      {
+        "speaker": "Phong (HR Officer)",
+        "voice": "male",
+        "text": "And who should I talk to if there is a problem?"
+      },
+      {
+        "speaker": "Mai (HR Executive)",
+        "voice": "female",
+        "text": "Ask Ms. Hạnh. I've already informed her that you are my backup."
+      },
+      {
+        "speaker": "Phong (HR Officer)",
+        "voice": "male",
+        "text": "Perfect. Enjoy your holiday, and I'll keep you in the loop by email."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How long will Mai be away?",
+        "options": [
+          "One day",
+          "From Monday to Friday",
+          "Two weeks"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How many contracts are still pending?",
+        "options": [
+          "Two",
+          "Three",
+          "Five"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Where are the contact details of the new staff?",
+        "options": [
+          "In Mai's email",
+          "On Ms. Hạnh's desk",
+          "In the handover document on the team drive"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I'll be out of the office next week, and Phong will be my backup.",
+    "Could you cover for me at the client call on Thursday afternoon?",
+    "I've listed all pending tasks and contact details in the handover document.",
+    "Please keep me in the loop, but only call me if it's really urgent.",
+    "Before I leave, I'll hand off the report to Lan and inform the manager."
+  ]
+}

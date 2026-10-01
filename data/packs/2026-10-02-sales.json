@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-02",
+  "track": "sales",
+  "theme": "Upsell & cross-sell",
+  "vocab": [
+    {
+      "word": "upgrade",
+      "ipa": "/ˈʌpɡreɪd/",
+      "meaning_vi": "nâng cấp",
+      "example": "If you upgrade to the Business plan, you get daily backups.",
+      "example_vi": "Nếu anh nâng cấp lên gói Business, anh sẽ có sao lưu hằng ngày."
+    },
+    {
+      "word": "premium",
+      "ipa": "/ˈpriːmiəm/",
+      "meaning_vi": "cao cấp",
+      "example": "The premium version includes 24/7 phone support.",
+      "example_vi": "Phiên bản cao cấp có hỗ trợ qua điện thoại 24/7."
+    },
+    {
+      "word": "package",
+      "ipa": "/ˈpækɪdʒ/",
+      "meaning_vi": "gói sản phẩm, gói dịch vụ",
+      "example": "This package is popular with companies of about fifty staff.",
+      "example_vi": "Gói này được các công ty khoảng năm mươi nhân viên ưa chuộng."
+    },
+    {
+      "word": "usage",
+      "ipa": "/ˈjuːsɪdʒ/",
+      "meaning_vi": "mức sử dụng",
+      "example": "Your usage has doubled since March, so you may need more space.",
+      "example_vi": "Mức sử dụng của anh đã tăng gấp đôi từ tháng Ba, nên có thể anh cần thêm dung lượng."
+    },
+    {
+      "word": "license",
+      "ipa": "/ˈlaɪsns/",
+      "meaning_vi": "giấy phép sử dụng phần mềm",
+      "example": "Each license is for one user and costs ten dollars per month.",
+      "example_vi": "Mỗi giấy phép dành cho một người dùng và giá mười đô mỗi tháng."
+    },
+    {
+      "word": "storage",
+      "ipa": "/ˈstɔːrɪdʒ/",
+      "meaning_vi": "dung lượng lưu trữ",
+      "example": "You are using ninety percent of your storage right now.",
+      "example_vi": "Hiện tại anh đang dùng chín mươi phần trăm dung lượng lưu trữ."
+    },
+    {
+      "word": "feature set",
+      "ipa": "/ˈfiːtʃə set/",
+      "meaning_vi": "bộ tính năng",
+      "example": "The new feature set helps managers track sales in real time.",
+      "example_vi": "Bộ tính năng mới giúp quản lý theo dõi doanh số theo thời gian thực."
+    },
+    {
+      "word": "seat",
+      "ipa": "/siːt/",
+      "meaning_vi": "suất người dùng (trong gói thuê bao)",
+      "example": "You can add five more seats when new staff join.",
+      "example_vi": "Anh có thể thêm năm suất người dùng khi có nhân viên mới."
+    }
+  ],
+  "listening": {
+    "title": "Suggesting an upgrade to a happy customer",
+    "lines": [
+      {
+        "speaker": "Thảo (Account Manager)",
+        "voice": "female",
+        "text": "Hi Mr. Đức, thank you for joining this quick call. How is the software working for you?"
+      },
+      {
+        "speaker": "Mr. Đức (Office Manager)",
+        "voice": "male",
+        "text": "Very well, thanks. My team uses it every day now."
+      },
+      {
+        "speaker": "Thảo (Account Manager)",
+        "voice": "female",
+        "text": "I can see that. Your usage has grown a lot, and you are using ninety percent of your storage."
+      },
+      {
+        "speaker": "Mr. Đức (Office Manager)",
+        "voice": "male",
+        "text": "Really? I didn't know that. What happens if we reach the limit?"
+      },
+      {
+        "speaker": "Thảo (Account Manager)",
+        "voice": "female",
+        "text": "You can't upload new files. But if you upgrade to the premium package, you get five times more storage."
+      },
+      {
+        "speaker": "Mr. Đức (Office Manager)",
+        "voice": "male",
+        "text": "How much more would that cost us?"
+      },
+      {
+        "speaker": "Thảo (Account Manager)",
+        "voice": "female",
+        "text": "It's three dollars more per license each month. You also get the reporting feature set."
+      },
+      {
+        "speaker": "Mr. Đức (Office Manager)",
+        "voice": "male",
+        "text": "That sounds useful. We're also hiring four new people next month."
+      },
+      {
+        "speaker": "Thảo (Account Manager)",
+        "voice": "female",
+        "text": "Then I suggest adding four seats now. I can include them at the same price for the first three months."
+      },
+      {
+        "speaker": "Mr. Đức (Office Manager)",
+        "voice": "male",
+        "text": "Okay, please send me a quote and I'll discuss it with my director."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why does Thảo suggest an upgrade?",
+        "options": [
+          "The customer complained about bugs",
+          "The customer is using ninety percent of their storage",
+          "The price will go up next year"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How much more does the premium package cost?",
+        "options": [
+          "Three dollars more per license each month",
+          "Ten dollars per month in total",
+          "It is free for three months"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What will Mr. Đức do next?",
+        "options": [
+          "Sign the contract today",
+          "Cancel the service",
+          "Discuss the quote with his director"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I noticed your team's usage has grown a lot over the last three months.",
+    "If you upgrade to the premium package, you also get priority support.",
+    "Many customers like you add our reporting tool to save time every month.",
+    "Would you like me to add more seats before your new staff start?",
+    "Let me send you a quote so you can compare the two packages easily."
+  ]
+}

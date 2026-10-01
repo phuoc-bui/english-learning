@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-02",
+  "track": "interview",
+  "theme": "Thất bại & bài học",
+  "vocab": [
+    {
+      "word": "mistake",
+      "ipa": "/mɪˈsteɪk/",
+      "meaning_vi": "lỗi, sai lầm",
+      "example": "I made a mistake in the report, but I fixed it before the meeting.",
+      "example_vi": "Tôi mắc lỗi trong báo cáo, nhưng đã sửa trước cuộc họp."
+    },
+    {
+      "word": "reflect",
+      "ipa": "/rɪˈflekt/",
+      "meaning_vi": "suy ngẫm, nhìn lại",
+      "example": "After the project, I took time to reflect on what went wrong.",
+      "example_vi": "Sau dự án, tôi dành thời gian nhìn lại những gì đã sai."
+    },
+    {
+      "word": "recover",
+      "ipa": "/rɪˈkʌvə/",
+      "meaning_vi": "khắc phục, phục hồi",
+      "example": "We recovered quickly and delivered the product only two days late.",
+      "example_vi": "Chúng tôi khắc phục nhanh và giao sản phẩm chỉ trễ hai ngày."
+    },
+    {
+      "word": "admit",
+      "ipa": "/ədˈmɪt/",
+      "meaning_vi": "thừa nhận",
+      "example": "I admitted my mistake to my manager right away.",
+      "example_vi": "Tôi đã thừa nhận lỗi với quản lý ngay lập tức."
+    },
+    {
+      "word": "grow from",
+      "ipa": "/ɡrəʊ frəm/",
+      "meaning_vi": "trưởng thành từ",
+      "example": "I believe we can grow from every difficult experience.",
+      "example_vi": "Tôi tin rằng chúng ta có thể trưởng thành từ mọi trải nghiệm khó khăn."
+    },
+    {
+      "word": "failure",
+      "ipa": "/ˈfeɪljə/",
+      "meaning_vi": "thất bại",
+      "example": "Can you tell me about a failure and what you did next?",
+      "example_vi": "Bạn có thể kể về một thất bại và bạn đã làm gì sau đó không?"
+    },
+    {
+      "word": "learn from",
+      "ipa": "/lɜːn frəm/",
+      "meaning_vi": "rút kinh nghiệm từ",
+      "example": "I learned from that project to ask more questions at the start.",
+      "example_vi": "Tôi rút kinh nghiệm từ dự án đó là phải hỏi nhiều hơn ngay từ đầu."
+    },
+    {
+      "word": "prevent",
+      "ipa": "/prɪˈvent/",
+      "meaning_vi": "ngăn chặn, phòng tránh",
+      "example": "I created a checklist to prevent the same problem in the future.",
+      "example_vi": "Tôi tạo một checklist để ngăn vấn đề tương tự trong tương lai."
+    }
+  ],
+  "listening": {
+    "title": "Talking about a failure in an interview",
+    "lines": [
+      {
+        "speaker": "Hằng (Hiring Manager)",
+        "voice": "female",
+        "text": "Tùng, can you tell me about a failure in your career?"
+      },
+      {
+        "speaker": "Tùng (Candidate)",
+        "voice": "male",
+        "text": "Sure. Two years ago, I led the launch of a mobile app, and it crashed on the first day."
+      },
+      {
+        "speaker": "Hằng (Hiring Manager)",
+        "voice": "female",
+        "text": "That sounds stressful. What caused the problem?"
+      },
+      {
+        "speaker": "Tùng (Candidate)",
+        "voice": "male",
+        "text": "I didn't plan enough load testing. I thought our usual tests were enough."
+      },
+      {
+        "speaker": "Hằng (Hiring Manager)",
+        "voice": "female",
+        "text": "What did you do after that?"
+      },
+      {
+        "speaker": "Tùng (Candidate)",
+        "voice": "male",
+        "text": "First, I admitted the mistake to my manager. Then the team worked all night, and we recovered in about twelve hours."
+      },
+      {
+        "speaker": "Hằng (Hiring Manager)",
+        "voice": "female",
+        "text": "And what did you learn from it?"
+      },
+      {
+        "speaker": "Tùng (Candidate)",
+        "voice": "male",
+        "text": "I learned to test with real user numbers before every launch. I also wrote a release checklist to prevent this."
+      },
+      {
+        "speaker": "Hằng (Hiring Manager)",
+        "voice": "female",
+        "text": "Did the team use the checklist later?"
+      },
+      {
+        "speaker": "Tùng (Candidate)",
+        "voice": "male",
+        "text": "Yes. We used it for the next five releases without any big problems. I really grew from that experience."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What happened on the first day of the app launch?",
+        "options": [
+          "The app crashed",
+          "No users downloaded it",
+          "The client cancelled the project"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How long did it take the team to recover?",
+        "options": [
+          "Two days",
+          "About twelve hours",
+          "One week"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What did Tùng create to prevent the problem?",
+        "options": [
+          "A new mobile app",
+          "A training video",
+          "A release checklist"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "In my last project, I missed a deadline because I didn't ask for help early.",
+    "I admitted my mistake to the client and offered a clear plan to fix it.",
+    "We recovered quickly, and the client was happy with the final result.",
+    "Since then, I reflect on every project and write down what I can improve.",
+    "That failure taught me to check details carefully and to prevent the same problem."
+  ]
+}
