@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-03",
+  "track": "office",
+  "theme": "Văn hoá công sở đa quốc gia",
+  "vocab": [
+    {
+      "word": "time zone",
+      "ipa": "/ˈtaɪm zəʊn/",
+      "meaning_vi": "múi giờ",
+      "example": "Our Paris office is in a different time zone, so we meet at 3 p.m. our time.",
+      "example_vi": "Văn phòng Paris ở múi giờ khác, nên chúng tôi họp lúc 3 giờ chiều giờ mình."
+    },
+    {
+      "word": "cultural awareness",
+      "ipa": "/ˈkʌltʃərəl əˈweənəs/",
+      "meaning_vi": "hiểu biết về văn hoá",
+      "example": "The company runs a cultural awareness workshop for every new expat.",
+      "example_vi": "Công ty tổ chức buổi workshop về hiểu biết văn hoá cho mỗi nhân viên nước ngoài mới."
+    },
+    {
+      "word": "direct",
+      "ipa": "/dəˈrekt/",
+      "meaning_vi": "thẳng thắn, trực tiếp",
+      "example": "My German manager is very direct, but she is always fair.",
+      "example_vi": "Quản lý người Đức của tôi rất thẳng thắn, nhưng chị ấy luôn công bằng."
+    },
+    {
+      "word": "indirect",
+      "ipa": "/ˌɪndəˈrekt/",
+      "meaning_vi": "gián tiếp, vòng vo",
+      "example": "In Vietnam, people are often indirect when they want to say no.",
+      "example_vi": "Ở Việt Nam, mọi người thường nói vòng khi muốn từ chối."
+    },
+    {
+      "word": "saving face",
+      "ipa": "/ˈseɪvɪŋ feɪs/",
+      "meaning_vi": "giữ thể diện",
+      "example": "I gave him feedback in private, because saving face is important in our culture.",
+      "example_vi": "Tôi góp ý riêng với anh ấy vì giữ thể diện rất quan trọng trong văn hoá của chúng ta."
+    },
+    {
+      "word": "working hours overlap",
+      "ipa": "/ˈwɜːkɪŋ ˈaʊəz ˈəʊvəlæp/",
+      "meaning_vi": "khung giờ làm việc trùng nhau",
+      "example": "Our working hours overlap with the London team only from 2 to 5 p.m.",
+      "example_vi": "Giờ làm việc của chúng tôi chỉ trùng với nhóm London từ 2 đến 5 giờ chiều."
+    },
+    {
+      "word": "personal space",
+      "ipa": "/ˈpɜːsənl speɪs/",
+      "meaning_vi": "khoảng cách cá nhân",
+      "example": "Some colleagues need more personal space, so do not stand too close.",
+      "example_vi": "Một số đồng nghiệp cần nhiều khoảng cách cá nhân hơn, nên đừng đứng quá gần."
+    },
+    {
+      "word": "respectful",
+      "ipa": "/rɪˈspektfl/",
+      "meaning_vi": "tôn trọng, lịch sự",
+      "example": "It is respectful to ask before you share a photo of a colleague online.",
+      "example_vi": "Hỏi trước khi chia sẻ ảnh đồng nghiệp lên mạng là cách cư xử tôn trọng."
+    }
+  ],
+  "listening": {
+    "title": "Working with the new office in Australia",
+    "lines": [
+      {
+        "speaker": "Hoa (HR Executive)",
+        "voice": "female",
+        "text": "Minh, how is your first month working with the Sydney team?"
+      },
+      {
+        "speaker": "Minh (Project Coordinator)",
+        "voice": "male",
+        "text": "It's good, but the time zone is tricky. They are four hours ahead of us."
+      },
+      {
+        "speaker": "Hoa (HR Executive)",
+        "voice": "female",
+        "text": "So you have meetings early in the morning?"
+      },
+      {
+        "speaker": "Minh (Project Coordinator)",
+        "voice": "male",
+        "text": "Yes, at seven thirty. Also, everyone is on a first name basis. I called the director \"Mr. Jack\" and people smiled."
+      },
+      {
+        "speaker": "Hoa (HR Executive)",
+        "voice": "female",
+        "text": "That's a common cultural difference. Just call him Jack. It's not rude there."
+      },
+      {
+        "speaker": "Minh (Project Coordinator)",
+        "voice": "male",
+        "text": "I see. They are also very direct in meetings. At first I thought they were angry."
+      },
+      {
+        "speaker": "Hoa (HR Executive)",
+        "voice": "female",
+        "text": "They aren't angry. Being direct helps them save time. You can ask questions directly too."
+      },
+      {
+        "speaker": "Minh (Project Coordinator)",
+        "voice": "male",
+        "text": "Good to know. I also send a summary after each call, because our working hours overlap only a little."
+      },
+      {
+        "speaker": "Hoa (HR Executive)",
+        "voice": "female",
+        "text": "Smart. And remember to check their public holidays when you plan deadlines."
+      },
+      {
+        "speaker": "Minh (Project Coordinator)",
+        "voice": "male",
+        "text": "Thanks, Hoa. I will add them to the shared calendar today."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why are Minh’s meetings early in the morning?",
+        "options": [
+          "Sydney is four hours ahead",
+          "The director is busy in the afternoon",
+          "Minh prefers early meetings"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How should Minh address the director?",
+        "options": [
+          "Mr. Jack",
+          "Director",
+          "Jack"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What does Minh do after each call?",
+        "options": [
+          "He calls Hoa",
+          "He sends a summary",
+          "He updates the budget"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "Sorry, could you say that again a bit more slowly, please?",
+    "Let me check the time zone before I send the meeting invite.",
+    "Just to avoid any misunderstanding, I'll send a short summary after this call.",
+    "Is next Monday a public holiday in your country, or are you working?",
+    "Please call me Linh. We're all on a first name basis here."
+  ]
+}

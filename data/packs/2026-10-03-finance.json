@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-03",
+  "track": "finance",
+  "theme": "Phần mềm kế toán & công cụ",
+  "vocab": [
+    {
+      "word": "ERP system",
+      "ipa": "/ˌiː ɑː ˈpiː ˈsɪstəm/",
+      "meaning_vi": "hệ thống ERP (quản trị nguồn lực doanh nghiệp)",
+      "example": "All purchase orders must be entered into the ERP system.",
+      "example_vi": "Tất cả đơn mua hàng phải được nhập vào hệ thống ERP."
+    },
+    {
+      "word": "role-based access",
+      "ipa": "/rəʊl beɪst ˈækses/",
+      "meaning_vi": "phân quyền theo vai trò",
+      "example": "With role-based access, junior staff can view payments but cannot approve them.",
+      "example_vi": "Với phân quyền theo vai trò, nhân viên mới có thể xem khoản chi nhưng không thể duyệt."
+    },
+    {
+      "word": "mandatory field",
+      "ipa": "/ˈmændətəri fiːld/",
+      "meaning_vi": "trường bắt buộc",
+      "example": "You cannot save the invoice because the tax code is a mandatory field.",
+      "example_vi": "Bạn không thể lưu hoá đơn vì mã số thuế là trường bắt buộc."
+    },
+    {
+      "word": "keying error",
+      "ipa": "/ˈkiːɪŋ ˈerə/",
+      "meaning_vi": "lỗi gõ nhập",
+      "example": "Most mistakes in the report come from keying errors, not from the system.",
+      "example_vi": "Hầu hết sai sót trong báo cáo đến từ lỗi gõ nhập, không phải do hệ thống."
+    },
+    {
+      "word": "approval workflow",
+      "ipa": "/əˈpruːvl ˈwɜːkfləʊ/",
+      "meaning_vi": "quy trình phê duyệt",
+      "example": "In the new approval workflow, payments over 50 million need two approvers.",
+      "example_vi": "Trong quy trình phê duyệt mới, khoản chi trên 50 triệu cần hai người duyệt."
+    },
+    {
+      "word": "change log",
+      "ipa": "/ˈtʃeɪndʒ lɒɡ/",
+      "meaning_vi": "nhật ký thay đổi",
+      "example": "The change log shows who edited the invoice and when.",
+      "example_vi": "Nhật ký thay đổi cho thấy ai đã sửa hoá đơn và vào lúc nào."
+    },
+    {
+      "word": "real-time",
+      "ipa": "/ˌrɪəl ˈtaɪm/",
+      "meaning_vi": "theo thời gian thực",
+      "example": "With the new tool, we can see real-time bank balances on one screen.",
+      "example_vi": "Với công cụ mới, chúng ta có thể xem số dư ngân hàng theo thời gian thực trên một màn hình."
+    },
+    {
+      "word": "user guide",
+      "ipa": "/ˈjuːzə ɡaɪd/",
+      "meaning_vi": "tài liệu hướng dẫn sử dụng",
+      "example": "I wrote a short user guide for the new expense module.",
+      "example_vi": "Tôi đã viết một tài liệu hướng dẫn ngắn cho module chi phí mới."
+    }
+  ],
+  "listening": {
+    "title": "Moving to a new ERP system",
+    "lines": [
+      {
+        "speaker": "Hoa (Finance Manager)",
+        "voice": "female",
+        "text": "Quang, how is the testing of the new ERP system going?"
+      },
+      {
+        "speaker": "Quang (Senior Accountant)",
+        "voice": "male",
+        "text": "Mostly good. The bank data syncs every night, so we don't need to upload files anymore."
+      },
+      {
+        "speaker": "Hoa (Finance Manager)",
+        "voice": "female",
+        "text": "Great. That should cut a lot of manual work and keying errors."
+      },
+      {
+        "speaker": "Quang (Senior Accountant)",
+        "voice": "male",
+        "text": "Yes, about two days a month. But there is one problem with the approval workflow."
+      },
+      {
+        "speaker": "Hoa (Finance Manager)",
+        "voice": "female",
+        "text": "What is the problem?"
+      },
+      {
+        "speaker": "Quang (Senior Accountant)",
+        "voice": "male",
+        "text": "Payments over fifty million only go to one approver. Our policy says two."
+      },
+      {
+        "speaker": "Hoa (Finance Manager)",
+        "voice": "female",
+        "text": "That's important. Please log a ticket with the vendor today."
+      },
+      {
+        "speaker": "Quang (Senior Accountant)",
+        "voice": "male",
+        "text": "I will. Also, Mai still has no access to the payment module. We need role-based access set up."
+      },
+      {
+        "speaker": "Hoa (Finance Manager)",
+        "voice": "female",
+        "text": "I'll ask IT this afternoon. Can you also prepare a short user guide for the team?"
+      },
+      {
+        "speaker": "Quang (Senior Accountant)",
+        "voice": "male",
+        "text": "Sure. I will finish it before the training next Tuesday."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is the main benefit of the bank sync?",
+        "options": [
+          "Less manual work",
+          "Faster approvals",
+          "Lower bank fees"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What is wrong with the approval workflow?",
+        "options": [
+          "It needs three approvers",
+          "Large payments go to only one approver",
+          "It does not work at night"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "When is the team training?",
+        "options": [
+          "This afternoon",
+          "Tomorrow",
+          "Next Tuesday"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Could you give me access to the payment module in the new system, please?",
+    "The bank data syncs every night, so the balance is updated each morning.",
+    "We can automate this report and save about two days every month.",
+    "Please check the change log to see who edited this invoice last week.",
+    "The training for the new accounting software is next Tuesday at two."
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-03",
+  "track": "it",
+  "theme": "Nói về email & follow-up",
+  "vocab": [
+    {
+      "word": "quick nudge",
+      "ipa": "/kwɪk nʌdʒ/",
+      "meaning_vi": "lời nhắc nhanh, khéo",
+      "example": "I sent the client a quick nudge because they have not replied since Monday.",
+      "example_vi": "Tôi gửi khách hàng một lời nhắc nhanh vì họ chưa trả lời từ thứ Hai."
+    },
+    {
+      "word": "email tone",
+      "ipa": "/ˈiːmeɪl təʊn/",
+      "meaning_vi": "giọng văn email",
+      "example": "Keep the email tone friendly, even when the client is late.",
+      "example_vi": "Giữ giọng văn email thân thiện, kể cả khi khách hàng chậm trễ."
+    },
+    {
+      "word": "reply by",
+      "ipa": "/rɪˈplaɪ baɪ/",
+      "meaning_vi": "trả lời trước (thời hạn)",
+      "example": "Could you reply by Friday so we can book the test environment?",
+      "example_vi": "Anh có thể trả lời trước thứ Sáu để chúng tôi đặt môi trường test không?"
+    },
+    {
+      "word": "mailing list",
+      "ipa": "/ˈmeɪlɪŋ lɪst/",
+      "meaning_vi": "danh sách nhận thư",
+      "example": "Please add the new tester to the project mailing list.",
+      "example_vi": "Hãy thêm tester mới vào danh sách nhận thư của dự án."
+    },
+    {
+      "word": "as discussed",
+      "ipa": "/æz dɪˈskʌst/",
+      "meaning_vi": "như đã trao đổi",
+      "example": "As discussed in the standup, I will update the API docs this week.",
+      "example_vi": "Như đã trao đổi trong buổi standup, tôi sẽ cập nhật tài liệu API trong tuần này."
+    },
+    {
+      "word": "schedule send",
+      "ipa": "/ˈʃedjuːl send/",
+      "meaning_vi": "hẹn giờ gửi email",
+      "example": "I use schedule send so my emails arrive during the client’s working hours.",
+      "example_vi": "Tôi dùng chức năng hẹn giờ gửi để email đến trong giờ làm việc của khách hàng."
+    },
+    {
+      "word": "bullet point",
+      "ipa": "/ˈbʊlɪt pɔɪnt/",
+      "meaning_vi": "gạch đầu dòng",
+      "example": "Keep the update short and use bullet points for the main changes.",
+      "example_vi": "Giữ bản cập nhật ngắn gọn và dùng gạch đầu dòng cho các thay đổi chính."
+    },
+    {
+      "word": "response time",
+      "ipa": "/rɪˈspɒns taɪm/",
+      "meaning_vi": "thời gian phản hồi",
+      "example": "Our response time for client emails should be under one working day.",
+      "example_vi": "Thời gian phản hồi email khách hàng của chúng ta nên dưới một ngày làm việc."
+    }
+  ],
+  "listening": {
+    "title": "Following up on a client email",
+    "lines": [
+      {
+        "speaker": "Nam (Tech Lead)",
+        "voice": "male",
+        "text": "Linh, did the client reply to our email about the login bug?"
+      },
+      {
+        "speaker": "Linh (Developer)",
+        "voice": "female",
+        "text": "Not yet. I sent it on Monday with the error log as an attachment."
+      },
+      {
+        "speaker": "Nam (Tech Lead)",
+        "voice": "male",
+        "text": "It's Thursday now. I think we should send a follow-up today."
+      },
+      {
+        "speaker": "Linh (Developer)",
+        "voice": "female",
+        "text": "Okay. Should I reply in the same thread or start a new email?"
+      },
+      {
+        "speaker": "Nam (Tech Lead)",
+        "voice": "male",
+        "text": "Reply in the same thread, so they can see the history. And cc Hoa from the account team."
+      },
+      {
+        "speaker": "Linh (Developer)",
+        "voice": "female",
+        "text": "Sure. I'll send a quick nudge and ask them to reply by Friday with the test date."
+      },
+      {
+        "speaker": "Nam (Tech Lead)",
+        "voice": "male",
+        "text": "Good. Use bullet points for the two questions. Clients read short emails faster."
+      },
+      {
+        "speaker": "Linh (Developer)",
+        "voice": "female",
+        "text": "Should I change the subject line too? It still says “Quick question”."
+      },
+      {
+        "speaker": "Nam (Tech Lead)",
+        "voice": "male",
+        "text": "Yes, add the ticket number. Then everyone can search for it easily."
+      },
+      {
+        "speaker": "Linh (Developer)",
+        "voice": "female",
+        "text": "Got it. I'll write a draft now and show you before lunch."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why does Nam want to send a follow-up?",
+        "options": [
+          "The client has not replied since Monday",
+          "The bug is already fixed",
+          "The client asked for a meeting"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Who will Linh cc on the email?",
+        "options": [
+          "Nam",
+          "Hoa from the account team",
+          "The client manager"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What will Linh add to the subject line?",
+        "options": [
+          "The test date",
+          "The word \"urgent\"",
+          "The ticket number"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Just a quick follow-up on my email from Monday about the login bug.",
+    "I've attached the error log, so please have a look when you have time.",
+    "Could you reply by Friday with the test date so we can plan the release?",
+    "I'll reply in the same thread so everyone can see the full history.",
+    "Let me write a short draft first, and I'll share it with you before lunch."
+  ]
+}

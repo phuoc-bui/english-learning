@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-03",
+  "track": "interview",
+  "theme": "Làm việc nhóm & teamwork",
+  "vocab": [
+    {
+      "word": "on the same page",
+      "ipa": "/ɒn ðə seɪm peɪdʒ/",
+      "meaning_vi": "cùng hiểu một vấn đề, thống nhất",
+      "example": "We had a short call every morning to make sure everyone was on the same page.",
+      "example_vi": "Chúng tôi có cuộc gọi ngắn mỗi sáng để đảm bảo mọi người đều thống nhất."
+    },
+    {
+      "word": "team-oriented",
+      "ipa": "/ˈtiːm ˌɔːrientɪd/",
+      "meaning_vi": "đề cao làm việc nhóm",
+      "example": "I am a team-oriented person, and I enjoy solving problems together.",
+      "example_vi": "Tôi là người đề cao làm việc nhóm và thích cùng nhau giải quyết vấn đề."
+    },
+    {
+      "word": "knowledge sharing",
+      "ipa": "/ˈnɒlɪdʒ ˈʃeərɪŋ/",
+      "meaning_vi": "chia sẻ kiến thức",
+      "example": "I started a weekly knowledge sharing session for the junior developers.",
+      "example_vi": "Tôi bắt đầu buổi chia sẻ kiến thức hằng tuần cho các lập trình viên junior."
+    },
+    {
+      "word": "lend a hand",
+      "ipa": "/lend ə hænd/",
+      "meaning_vi": "giúp một tay",
+      "example": "When the QA team was busy, I lent a hand with the regression tests.",
+      "example_vi": "Khi đội QA bận, tôi đã giúp một tay chạy kiểm thử hồi quy."
+    },
+    {
+      "word": "accountable",
+      "ipa": "/əˈkaʊntəbl/",
+      "meaning_vi": "chịu trách nhiệm",
+      "example": "Everyone in the team was accountable for their own tasks.",
+      "example_vi": "Mọi người trong nhóm đều chịu trách nhiệm cho phần việc của mình."
+    },
+    {
+      "word": "pair up",
+      "ipa": "/peər ʌp/",
+      "meaning_vi": "ghép cặp làm việc",
+      "example": "Our tester was sick, so we paired up and tested each other’s code.",
+      "example_vi": "Tester bị ốm nên chúng tôi ghép cặp và kiểm thử code của nhau."
+    },
+    {
+      "word": "morale",
+      "ipa": "/məˈrɑːl/",
+      "meaning_vi": "tinh thần (của tập thể)",
+      "example": "Small wins every sprint helped us keep team morale high.",
+      "example_vi": "Những thành công nhỏ mỗi sprint giúp chúng tôi giữ tinh thần nhóm ở mức cao."
+    },
+    {
+      "word": "remote team",
+      "ipa": "/rɪˈməʊt tiːm/",
+      "meaning_vi": "nhóm làm việc từ xa",
+      "example": "I have two years of experience working in a remote team across three countries.",
+      "example_vi": "Tôi có hai năm kinh nghiệm làm việc trong nhóm từ xa ở ba quốc gia."
+    }
+  ],
+  "listening": {
+    "title": "Interview question: a time you worked in a team",
+    "lines": [
+      {
+        "speaker": "Ms. Lan (Interviewer)",
+        "voice": "female",
+        "text": "Minh, can you tell me about a time you worked well in a team?"
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "Sure. Last year I worked in a cross-functional team to launch a new mobile payment feature."
+      },
+      {
+        "speaker": "Ms. Lan (Interviewer)",
+        "voice": "female",
+        "text": "Who was in the team?"
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "Two developers, one designer, one tester and a product owner. Half of us worked remotely."
+      },
+      {
+        "speaker": "Ms. Lan (Interviewer)",
+        "voice": "female",
+        "text": "What was the biggest challenge?"
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "The deadline was only six weeks, and the tester got sick in week four."
+      },
+      {
+        "speaker": "Ms. Lan (Interviewer)",
+        "voice": "female",
+        "text": "So what did you do?"
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "I suggested that each developer test the other’s code. We supported each other and kept a shared checklist."
+      },
+      {
+        "speaker": "Ms. Lan (Interviewer)",
+        "voice": "female",
+        "text": "And the result?"
+      },
+      {
+        "speaker": "Minh (Candidate)",
+        "voice": "male",
+        "text": "We launched on time with no major bugs. I learned that a team works best when everyone feels accountable."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What did Minh’s team launch?",
+        "options": [
+          "A mobile payment feature",
+          "A new website",
+          "A testing tool"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What problem happened in week four?",
+        "options": [
+          "The designer left",
+          "The deadline moved",
+          "The tester got sick"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What did Minh suggest?",
+        "options": [
+          "Hiring a new tester",
+          "Developers testing each other’s code",
+          "Delaying the launch"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "I enjoy working in a team because we can learn from each other every day.",
+    "In my last project, I collaborated with designers, testers and the product owner.",
+    "When our tester was sick, we tested each other’s code to meet the deadline.",
+    "As a result, we launched on time and the client was very happy.",
+    "I believe a strong team needs clear roles and people who feel accountable."
+  ]
+}

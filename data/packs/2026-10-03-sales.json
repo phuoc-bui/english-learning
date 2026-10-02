@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-03",
+  "track": "sales",
+  "theme": "Xử lý phàn nàn của khách",
+  "vocab": [
+    {
+      "word": "disappointed",
+      "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+      "meaning_vi": "thất vọng",
+      "example": "The client was disappointed because the report export failed three times.",
+      "example_vi": "Khách hàng thất vọng vì chức năng xuất báo cáo bị lỗi ba lần."
+    },
+    {
+      "word": "downtime",
+      "ipa": "/ˈdaʊntaɪm/",
+      "meaning_vi": "thời gian hệ thống ngừng hoạt động",
+      "example": "Two hours of downtime on a Monday morning cost the client a lot of sales.",
+      "example_vi": "Hai giờ hệ thống ngừng hoạt động vào sáng thứ Hai khiến khách hàng mất nhiều doanh số."
+    },
+    {
+      "word": "apology",
+      "ipa": "/əˈpɒlədʒi/",
+      "meaning_vi": "lời xin lỗi",
+      "example": "Please accept our apology for the trouble this has caused your team.",
+      "example_vi": "Mong anh chị nhận lời xin lỗi của chúng tôi vì sự phiền toái đã gây ra cho đội của anh chị."
+    },
+    {
+      "word": "incident report",
+      "ipa": "/ˈɪnsɪdənt rɪˈpɔːt/",
+      "meaning_vi": "báo cáo sự cố",
+      "example": "We will send you a full incident report by tomorrow afternoon.",
+      "example_vi": "Chúng tôi sẽ gửi anh chị báo cáo sự cố đầy đủ trước chiều mai."
+    },
+    {
+      "word": "hotfix",
+      "ipa": "/ˈhɒtfɪks/",
+      "meaning_vi": "bản vá khẩn cấp",
+      "example": "Our engineers released a hotfix, and the booking page is working again.",
+      "example_vi": "Kỹ sư của chúng tôi đã phát hành bản vá khẩn cấp và trang đặt chỗ đã hoạt động lại."
+    },
+    {
+      "word": "priority support",
+      "ipa": "/praɪˈɒrəti səˈpɔːt/",
+      "meaning_vi": "hỗ trợ ưu tiên",
+      "example": "For the next three months, your tickets will get priority support.",
+      "example_vi": "Trong ba tháng tới, các yêu cầu của anh chị sẽ được hỗ trợ ưu tiên."
+    },
+    {
+      "word": "turnaround time",
+      "ipa": "/ˈtɜːnəraʊnd taɪm/",
+      "meaning_vi": "thời gian xử lý",
+      "example": "Our turnaround time for urgent tickets is now under two hours.",
+      "example_vi": "Thời gian xử lý các yêu cầu khẩn cấp của chúng tôi giờ dưới hai giờ."
+    },
+    {
+      "word": "regain trust",
+      "ipa": "/rɪˈɡeɪn trʌst/",
+      "meaning_vi": "lấy lại niềm tin",
+      "example": "Fast and honest updates helped us regain trust with the client.",
+      "example_vi": "Cập nhật nhanh và trung thực giúp chúng tôi lấy lại niềm tin của khách hàng."
+    }
+  ],
+  "listening": {
+    "title": "An angry call from a customer",
+    "lines": [
+      {
+        "speaker": "Mr. Tuan (Customer)",
+        "voice": "male",
+        "text": "Hello, Linh. I am very frustrated. Your booking system stopped working again this morning."
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "I'm really sorry, Mr. Tuan. Can you tell me what time it happened?"
+      },
+      {
+        "speaker": "Mr. Tuan (Customer)",
+        "voice": "male",
+        "text": "Around eight. Our customers could not book for two hours. That is a lot of lost sales."
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "I understand. I will escalate this to our technical manager right now."
+      },
+      {
+        "speaker": "Mr. Tuan (Customer)",
+        "voice": "male",
+        "text": "This is the second time this month. I want to know the root cause."
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "Of course. Our team will send you a full incident report by tomorrow afternoon."
+      },
+      {
+        "speaker": "Mr. Tuan (Customer)",
+        "voice": "male",
+        "text": "And what about the lost sales? I expect some compensation."
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "I will discuss it with my director. As a goodwill gesture, we can give you one month free."
+      },
+      {
+        "speaker": "Mr. Tuan (Customer)",
+        "voice": "male",
+        "text": "Okay, that helps. But please make sure it does not happen again."
+      },
+      {
+        "speaker": "Linh (Account Manager)",
+        "voice": "female",
+        "text": "I promise. I will call you every day this week with an update."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How long could customers not make bookings?",
+        "options": [
+          "Two hours",
+          "Eight hours",
+          "One day"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "When will Mr. Tuan receive the full report?",
+        "options": [
+          "This afternoon",
+          "Tomorrow afternoon",
+          "Next week"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Linh offer as a goodwill gesture?",
+        "options": [
+          "A full refund",
+          "A new booking system",
+          "One month free"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I'm really sorry about this. I understand why you are so frustrated.",
+    "Let me escalate this to our technical team and call you back within an hour.",
+    "We have released a hotfix, and the booking page is working again now.",
+    "As a goodwill gesture, we would like to offer you one month of free service.",
+    "I'll send you a short update every day until the problem is fully solved."
+  ]
+}
