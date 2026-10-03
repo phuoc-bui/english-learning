@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-04",
+  "track": "finance",
+  "theme": "Chính sách tài chính công ty",
+  "vocab": [
+    {
+      "word": "effective",
+      "ipa": "/ɪˈfektɪv/",
+      "meaning_vi": "có hiệu lực",
+      "example": "The new travel policy is effective from the first of November.",
+      "example_vi": "Chính sách công tác mới có hiệu lực từ ngày 1 tháng 11."
+    },
+    {
+      "word": "authorize",
+      "ipa": "/ˈɔːθəraɪz/",
+      "meaning_vi": "uỷ quyền, cho phép",
+      "example": "Only the CFO can authorize payments above one billion dong.",
+      "example_vi": "Chỉ giám đốc tài chính được phép duyệt khoản chi trên một tỷ đồng."
+    },
+    {
+      "word": "reimbursable",
+      "ipa": "/ˌriːɪmˈbɜːsəbl/",
+      "meaning_vi": "được hoàn ứng",
+      "example": "Taxi fares to the airport are reimbursable.",
+      "example_vi": "Tiền taxi ra sân bay được hoàn ứng."
+    },
+    {
+      "word": "travel allowance",
+      "ipa": "/ˈtrævl əˈlaʊəns/",
+      "meaning_vi": "phụ cấp công tác",
+      "example": "The daily travel allowance in Da Nang is six hundred thousand dong.",
+      "example_vi": "Phụ cấp công tác mỗi ngày ở Đà Nẵng là sáu trăm nghìn đồng."
+    },
+    {
+      "word": "pre-approval",
+      "ipa": "/ˌpriː əˈpruːvl/",
+      "meaning_vi": "phê duyệt trước",
+      "example": "Overseas trips need pre-approval from your director.",
+      "example_vi": "Các chuyến công tác nước ngoài cần được giám đốc phê duyệt trước."
+    },
+    {
+      "word": "cap",
+      "ipa": "/kæp/",
+      "meaning_vi": "mức trần, giới hạn tối đa",
+      "example": "There is a cap of one point five million per night for hotels.",
+      "example_vi": "Có mức trần một triệu rưỡi mỗi đêm cho khách sạn."
+    },
+    {
+      "word": "entertainment expense",
+      "ipa": "/ˌentəˈteɪnmənt ɪkˈspens/",
+      "meaning_vi": "chi phí tiếp khách",
+      "example": "Entertainment expenses for clients must be approved in advance.",
+      "example_vi": "Chi phí tiếp khách phải được duyệt trước."
+    },
+    {
+      "word": "procedure",
+      "ipa": "/prəˈsiːdʒə/",
+      "meaning_vi": "quy trình, thủ tục",
+      "example": "Please follow the new procedure when you submit a payment request.",
+      "example_vi": "Vui lòng làm theo quy trình mới khi gửi đề nghị thanh toán."
+    }
+  ],
+  "listening": {
+    "title": "Explaining the New Travel Policy",
+    "lines": [
+      {
+        "speaker": "Thu (Finance Manager)",
+        "voice": "female",
+        "text": "Hi Đức, have you read the email about the new travel policy?"
+      },
+      {
+        "speaker": "Đức (Sales Manager)",
+        "voice": "male",
+        "text": "I saw it, but I haven't read it carefully. When is it effective?"
+      },
+      {
+        "speaker": "Thu (Finance Manager)",
+        "voice": "female",
+        "text": "From the first of November. The main change is the travel allowance."
+      },
+      {
+        "speaker": "Đức (Sales Manager)",
+        "voice": "male",
+        "text": "Is it higher or lower than before?"
+      },
+      {
+        "speaker": "Thu (Finance Manager)",
+        "voice": "female",
+        "text": "A bit higher, six hundred thousand a day. Taxi fares are also reimbursable now."
+      },
+      {
+        "speaker": "Đức (Sales Manager)",
+        "voice": "male",
+        "text": "Okay. What about hotels? My team often travels to Da Nang."
+      },
+      {
+        "speaker": "Thu (Finance Manager)",
+        "voice": "female",
+        "text": "There is a cap of one point five million per night."
+      },
+      {
+        "speaker": "Đức (Sales Manager)",
+        "voice": "male",
+        "text": "And if we take a client to dinner? Is that an entertainment expense?"
+      },
+      {
+        "speaker": "Thu (Finance Manager)",
+        "voice": "female",
+        "text": "Yes. It needs pre-approval, and your director must authorize it before the dinner."
+      },
+      {
+        "speaker": "Đức (Sales Manager)",
+        "voice": "male",
+        "text": "Got it. I'll share the new procedure with my team this afternoon."
+      }
+    ],
+    "questions": [
+      {
+        "q": "When does the new policy start?",
+        "options": [
+          "October first",
+          "November first",
+          "December first"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is the hotel cap per night?",
+        "options": [
+          "Six hundred thousand",
+          "One million",
+          "One point five million"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What does a client dinner need?",
+        "options": [
+          "Pre-approval",
+          "Nothing special",
+          "Only a receipt"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Please check the new expense policy before you book your next business trip.",
+    "All purchases over ten million dong need approval from the finance manager.",
+    "Remember to keep the original receipt, or we cannot reimburse you.",
+    "The new policy is effective from next month, so please share it with your team.",
+    "If you need an exception, send a short email explaining the reason."
+  ]
+}

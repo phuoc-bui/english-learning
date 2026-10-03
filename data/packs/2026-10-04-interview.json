@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-04",
+  "track": "interview",
+  "theme": "Câu hỏi tình huống (situational)",
+  "vocab": [
+    {
+      "word": "scenario",
+      "ipa": "/səˈnɑːriəʊ/",
+      "meaning_vi": "tình huống, kịch bản",
+      "example": "Let me give you a scenario: a client is angry about a delay.",
+      "example_vi": "Để tôi đưa ra một tình huống: khách hàng tức giận vì bị chậm trễ."
+    },
+    {
+      "word": "prioritize",
+      "ipa": "/praɪˈɒrətaɪz/",
+      "meaning_vi": "sắp xếp ưu tiên",
+      "example": "If I had two urgent tasks, I would prioritize the one that affects customers.",
+      "example_vi": "Nếu có hai việc gấp, tôi sẽ ưu tiên việc ảnh hưởng đến khách hàng."
+    },
+    {
+      "word": "gather information",
+      "ipa": "/ˈɡæðər ˌɪnfəˈmeɪʃn/",
+      "meaning_vi": "thu thập thông tin",
+      "example": "Before making a decision, I would gather information from the team.",
+      "example_vi": "Trước khi quyết định, tôi sẽ thu thập thông tin từ nhóm."
+    },
+    {
+      "word": "judgment",
+      "ipa": "/ˈdʒʌdʒmənt/",
+      "meaning_vi": "khả năng phán đoán",
+      "example": "This kind of question tests your judgment under pressure.",
+      "example_vi": "Loại câu hỏi này kiểm tra khả năng phán đoán của bạn khi bị áp lực."
+    },
+    {
+      "word": "in that case",
+      "ipa": "/ɪn ðæt keɪs/",
+      "meaning_vi": "trong trường hợp đó",
+      "example": "In that case, I would ask my team lead for advice.",
+      "example_vi": "Trong trường hợp đó, tôi sẽ xin ý kiến trưởng nhóm."
+    },
+    {
+      "word": "think on my feet",
+      "ipa": "/θɪŋk ɒn maɪ fiːt/",
+      "meaning_vi": "phản ứng nhanh, ứng biến",
+      "example": "Working with live customers taught me to think on my feet.",
+      "example_vi": "Làm việc trực tiếp với khách hàng đã dạy tôi cách ứng biến nhanh."
+    },
+    {
+      "word": "weigh up",
+      "ipa": "/weɪ ʌp/",
+      "meaning_vi": "cân nhắc",
+      "example": "I would weigh up the risks before choosing an option.",
+      "example_vi": "Tôi sẽ cân nhắc các rủi ro trước khi chọn phương án."
+    },
+    {
+      "word": "workaround",
+      "ipa": "/ˈwɜːkəraʊnd/",
+      "meaning_vi": "giải pháp tạm thời",
+      "example": "We found a workaround so customers could still pay while we fixed the bug.",
+      "example_vi": "Chúng tôi tìm ra giải pháp tạm để khách vẫn thanh toán được trong lúc sửa lỗi."
+    }
+  ],
+  "listening": {
+    "title": "Answering a Situational Question",
+    "lines": [
+      {
+        "speaker": "Mai (HR Manager)",
+        "voice": "female",
+        "text": "Let me give you a scenario. The release is tomorrow, but you find a serious bug tonight. What would you do?"
+      },
+      {
+        "speaker": "Khang (Candidate)",
+        "voice": "male",
+        "text": "First, I would stay focused and gather information. I need to know how serious the bug is."
+      },
+      {
+        "speaker": "Mai (HR Manager)",
+        "voice": "female",
+        "text": "Okay. Let's say it affects the payment page."
+      },
+      {
+        "speaker": "Khang (Candidate)",
+        "voice": "male",
+        "text": "In that case, I would inform my team lead and the product owner right away."
+      },
+      {
+        "speaker": "Mai (HR Manager)",
+        "voice": "female",
+        "text": "Would you try to fix it yourself overnight?"
+      },
+      {
+        "speaker": "Khang (Candidate)",
+        "voice": "male",
+        "text": "I would look for a quick workaround first. Then I'd weigh up the options: delay the release, or release without the payment change."
+      },
+      {
+        "speaker": "Mai (HR Manager)",
+        "voice": "female",
+        "text": "And who makes the final decision?"
+      },
+      {
+        "speaker": "Khang (Candidate)",
+        "voice": "male",
+        "text": "The product owner should decide. My job is to give clear facts so they can use good judgment."
+      },
+      {
+        "speaker": "Mai (HR Manager)",
+        "voice": "female",
+        "text": "That's a thoughtful answer. You seem able to think on your feet."
+      },
+      {
+        "speaker": "Khang (Candidate)",
+        "voice": "male",
+        "text": "Thank you. Last year we delayed a release by one day, and customers were happy because nothing broke."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Khang do first in the scenario?",
+        "options": [
+          "Fix the bug alone",
+          "Gather information",
+          "Cancel the release"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What would Khang look for before deciding?",
+        "options": [
+          "A quick workaround",
+          "A new job",
+          "A bigger team"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Who should make the final decision, according to Khang?",
+        "options": [
+          "The product owner",
+          "The HR manager",
+          "Khang himself"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "First, I would gather all the information before making any decision.",
+    "In that case, I would inform my manager and the client as soon as possible.",
+    "I would prioritize the task that has the biggest impact on our customers.",
+    "I would explain the trade-off clearly so my manager could make a good decision.",
+    "Last year a similar thing happened, and we delayed the release by one day."
+  ]
+}

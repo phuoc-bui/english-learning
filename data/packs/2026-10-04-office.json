@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-04",
+  "track": "office",
+  "theme": "Pantry chat & networking nội bộ",
+  "vocab": [
+    {
+      "word": "small world",
+      "ipa": "/smɔːl wɜːld/",
+      "meaning_vi": "trái đất tròn (thật trùng hợp)",
+      "example": "You went to my university too? It's a small world!",
+      "example_vi": "Bạn cũng học trường đại học của tôi à? Trái đất tròn thật!"
+    },
+    {
+      "word": "lunch buddy",
+      "ipa": "/lʌntʃ ˈbʌdi/",
+      "meaning_vi": "bạn ăn trưa",
+      "example": "Linh became my lunch buddy after my first week.",
+      "example_vi": "Linh trở thành bạn ăn trưa của tôi sau tuần đầu tiên."
+    },
+    {
+      "word": "refill",
+      "ipa": "/ˌriːˈfɪl/",
+      "meaning_vi": "rót thêm, làm đầy lại",
+      "example": "I'm just going to refill my water bottle.",
+      "example_vi": "Tôi chỉ đi lấy thêm nước vào bình thôi."
+    },
+    {
+      "word": "connect",
+      "ipa": "/kəˈnekt/",
+      "meaning_vi": "kết nối",
+      "example": "You should connect with Minh; he knows a lot about marketing.",
+      "example_vi": "Bạn nên kết nối với Minh; anh ấy biết nhiều về marketing."
+    },
+    {
+      "word": "in common",
+      "ipa": "/ɪn ˈkɒmən/",
+      "meaning_vi": "điểm chung",
+      "example": "We have a lot in common because we both love running.",
+      "example_vi": "Chúng tôi có nhiều điểm chung vì cả hai đều thích chạy bộ."
+    },
+    {
+      "word": "mutual friend",
+      "ipa": "/ˈmjuːtʃuəl frend/",
+      "meaning_vi": "bạn chung",
+      "example": "Lan and I met through a mutual friend in the IT team.",
+      "example_vi": "Tôi và Lan quen nhau qua một người bạn chung ở nhóm IT."
+    },
+    {
+      "word": "group chat",
+      "ipa": "/ɡruːp tʃæt/",
+      "meaning_vi": "nhóm chat",
+      "example": "I'll add you to the badminton club group chat.",
+      "example_vi": "Tôi sẽ thêm bạn vào nhóm chat của câu lạc bộ cầu lông."
+    },
+    {
+      "word": "newcomer",
+      "ipa": "/ˈnjuːkʌmə/",
+      "meaning_vi": "người mới đến",
+      "example": "As a newcomer, I try to talk to someone new every day.",
+      "example_vi": "Là người mới, tôi cố gắng nói chuyện với một người mới mỗi ngày."
+    }
+  ],
+  "listening": {
+    "title": "Meeting Someone New in the Pantry",
+    "lines": [
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "Good morning! Are you waiting for the coffee machine?"
+      },
+      {
+        "speaker": "Tuấn (Marketing Executive)",
+        "voice": "male",
+        "text": "Yes, but go ahead. I just need to refill my water bottle."
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "Thanks. I don't think we've met. I'm Hoa from the finance department."
+      },
+      {
+        "speaker": "Tuấn (Marketing Executive)",
+        "voice": "male",
+        "text": "Nice to meet you, Hoa. I'm Tuấn. I joined the marketing team last month."
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "Welcome! How are you finding the company so far?"
+      },
+      {
+        "speaker": "Tuấn (Marketing Executive)",
+        "voice": "male",
+        "text": "I like it, but I still want to get to know more people outside my team."
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "You should join our badminton club on Thursdays. Many colleagues go there."
+      },
+      {
+        "speaker": "Tuấn (Marketing Executive)",
+        "voice": "male",
+        "text": "Really? I play badminton every weekend. It looks like we have something in common."
+      },
+      {
+        "speaker": "Hoa (Accountant)",
+        "voice": "female",
+        "text": "Great! I'll add you to the club group chat. We're always happy to meet a newcomer."
+      },
+      {
+        "speaker": "Tuấn (Marketing Executive)",
+        "voice": "male",
+        "text": "Perfect. Thanks, Hoa. See you on Thursday!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "Which department does Hoa work in?",
+        "options": [
+          "Marketing",
+          "Finance",
+          "HR"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "When did Tuấn join the company?",
+        "options": [
+          "Last week",
+          "Last month",
+          "Last year"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What do Hoa and Tuấn have in common?",
+        "options": [
+          "They both play badminton",
+          "They studied at the same school",
+          "They both drink tea"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Hi, I don't think we've met yet. Which department are you in?",
+    "I'm just grabbing a coffee before my ten o'clock meeting starts.",
+    "How are you finding the new office so far? Is it far from home?",
+    "You should come to our team lunch on Friday and meet everyone.",
+    "It was nice chatting with you. Let's grab lunch together sometime next week."
+  ]
+}

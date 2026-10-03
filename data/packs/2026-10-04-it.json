@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-04",
+  "track": "it",
+  "theme": "Họp retrospective",
+  "vocab": [
+    {
+      "word": "lesson learned",
+      "ipa": "/ˈlesn lɜːnd/",
+      "meaning_vi": "bài học rút ra",
+      "example": "The biggest lesson learned this sprint is to test the API earlier.",
+      "example_vi": "Bài học lớn nhất sprint này là phải kiểm thử API sớm hơn."
+    },
+    {
+      "word": "experiment",
+      "ipa": "/ɪkˈsperɪmənt/",
+      "meaning_vi": "thử nghiệm",
+      "example": "Let's experiment with shorter standups for two weeks.",
+      "example_vi": "Hãy thử nghiệm họp standup ngắn hơn trong hai tuần."
+    },
+    {
+      "word": "build time",
+      "ipa": "/bɪld taɪm/",
+      "meaning_vi": "thời gian build",
+      "example": "Our build time is now twenty minutes, which is too long.",
+      "example_vi": "Thời gian build của chúng ta giờ là hai mươi phút, quá lâu."
+    },
+    {
+      "word": "take ownership",
+      "ipa": "/teɪk ˈəʊnəʃɪp/",
+      "meaning_vi": "nhận trách nhiệm, chủ động phụ trách",
+      "example": "Minh will take ownership of improving the build pipeline.",
+      "example_vi": "Minh sẽ nhận trách nhiệm cải thiện pipeline build."
+    },
+    {
+      "word": "keep doing",
+      "ipa": "/kiːp ˈduːɪŋ/",
+      "meaning_vi": "tiếp tục làm (điều tốt)",
+      "example": "We should keep doing code reviews in pairs because they work well.",
+      "example_vi": "Chúng ta nên tiếp tục review code theo cặp vì nó hiệu quả."
+    },
+    {
+      "word": "overloaded",
+      "ipa": "/ˌəʊvəˈləʊdɪd/",
+      "meaning_vi": "quá tải",
+      "example": "Hoa was overloaded with testing at the end of the sprint.",
+      "example_vi": "Hoa bị quá tải việc kiểm thử vào cuối sprint."
+    },
+    {
+      "word": "tooling",
+      "ipa": "/ˈtuːlɪŋ/",
+      "meaning_vi": "công cụ hỗ trợ phát triển",
+      "example": "Better tooling could save each developer an hour a day.",
+      "example_vi": "Công cụ tốt hơn có thể giúp mỗi lập trình viên tiết kiệm một giờ mỗi ngày."
+    },
+    {
+      "word": "underestimate",
+      "ipa": "/ˌʌndərˈestɪmeɪt/",
+      "meaning_vi": "đánh giá thấp, ước lượng thiếu",
+      "example": "We underestimated the work for the payment feature.",
+      "example_vi": "Chúng ta đã ước lượng thiếu khối lượng việc cho tính năng thanh toán."
+    }
+  ],
+  "listening": {
+    "title": "Sprint 18 Retrospective",
+    "lines": [
+      {
+        "speaker": "Linh (Scrum Master)",
+        "voice": "female",
+        "text": "Okay everyone, let's start the retro. First, what should we keep doing from sprint eighteen?"
+      },
+      {
+        "speaker": "Nam (Backend Dev)",
+        "voice": "male",
+        "text": "Pair code reviews. They helped us release the payment feature on time."
+      },
+      {
+        "speaker": "Linh (Scrum Master)",
+        "voice": "female",
+        "text": "Agreed. Anything that didn't go so well?"
+      },
+      {
+        "speaker": "Hoa (QA Engineer)",
+        "voice": "female",
+        "text": "I was overloaded at the end. Most tickets reached testing on the last two days."
+      },
+      {
+        "speaker": "Minh (Frontend Dev)",
+        "voice": "male",
+        "text": "That's partly because of our build time. It took twenty minutes each time."
+      },
+      {
+        "speaker": "Linh (Scrum Master)",
+        "voice": "female",
+        "text": "So the tooling slowed everyone down. Did we also underestimate the work?"
+      },
+      {
+        "speaker": "Nam (Backend Dev)",
+        "voice": "male",
+        "text": "Yes. The payment feature was bigger than we thought, so two tickets moved to the next sprint."
+      },
+      {
+        "speaker": "Hoa (QA Engineer)",
+        "voice": "female",
+        "text": "Maybe we can experiment with caching in the build pipeline?"
+      },
+      {
+        "speaker": "Minh (Frontend Dev)",
+        "voice": "male",
+        "text": "Good idea. I'll take ownership of that and try it next sprint."
+      },
+      {
+        "speaker": "Linh (Scrum Master)",
+        "voice": "female",
+        "text": "Great. So the lesson learned is to fix tooling problems early. Let's check the result next retro."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What should the team keep doing?",
+        "options": [
+          "Pair code reviews",
+          "Long standups",
+          "Testing on the last day"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Why was Hoa overloaded?",
+        "options": [
+          "She was on leave",
+          "Most tickets reached testing at the end",
+          "She had no test cases"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Who will take ownership of the caching experiment?",
+        "options": [
+          "Minh",
+          "Nam",
+          "Linh"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I want to give a quick shout-out to Hoa for her great help.",
+    "The slow build time was the biggest pain point for me this sprint.",
+    "We had to carry over two tickets because the API was not ready.",
+    "Can we experiment with a shorter standup for the next two weeks?",
+    "Let's choose one owner for each action so nothing gets forgotten."
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-04",
+  "track": "sales",
+  "theme": "Chốt hợp đồng",
+  "vocab": [
+    {
+      "word": "go-ahead",
+      "ipa": "/ˈɡəʊ əhed/",
+      "meaning_vi": "sự đồng ý tiến hành",
+      "example": "We got the go-ahead from the customer this morning.",
+      "example_vi": "Sáng nay chúng tôi đã nhận được sự đồng ý tiến hành từ khách hàng."
+    },
+    {
+      "word": "start date",
+      "ipa": "/stɑːt deɪt/",
+      "meaning_vi": "ngày bắt đầu",
+      "example": "Can we agree on a start date of November first?",
+      "example_vi": "Chúng ta có thể thống nhất ngày bắt đầu là mùng 1 tháng 11 không?"
+    },
+    {
+      "word": "closing date",
+      "ipa": "/ˈkləʊzɪŋ deɪt/",
+      "meaning_vi": "ngày chốt (thương vụ)",
+      "example": "Our target closing date for this deal is October twentieth.",
+      "example_vi": "Ngày chốt mục tiêu cho thương vụ này là 20 tháng 10."
+    },
+    {
+      "word": "final terms",
+      "ipa": "/ˈfaɪnl tɜːmz/",
+      "meaning_vi": "điều khoản cuối cùng",
+      "example": "Both sides agreed on the final terms after two meetings.",
+      "example_vi": "Hai bên đã thống nhất điều khoản cuối cùng sau hai buổi họp."
+    },
+    {
+      "word": "kick-off",
+      "ipa": "/ˈkɪk ɒf/",
+      "meaning_vi": "buổi khởi động dự án",
+      "example": "We will schedule a kick-off meeting right after you sign.",
+      "example_vi": "Chúng tôi sẽ lên lịch họp khởi động ngay sau khi anh ký."
+    },
+    {
+      "word": "binding",
+      "ipa": "/ˈbaɪndɪŋ/",
+      "meaning_vi": "có tính ràng buộc pháp lý",
+      "example": "The quote is not binding until both sides sign the contract.",
+      "example_vi": "Báo giá chưa có tính ràng buộc cho đến khi hai bên ký hợp đồng."
+    },
+    {
+      "word": "last hurdle",
+      "ipa": "/lɑːst ˈhɜːdl/",
+      "meaning_vi": "trở ngại cuối cùng",
+      "example": "The legal review is the last hurdle before we can sign.",
+      "example_vi": "Rà soát pháp lý là trở ngại cuối cùng trước khi chúng ta ký."
+    },
+    {
+      "word": "redline",
+      "ipa": "/ˈredlaɪn/",
+      "meaning_vi": "bản sửa đổi có đánh dấu",
+      "example": "Their lawyer sent back a redline with three small changes.",
+      "example_vi": "Luật sư bên họ gửi lại bản sửa đổi có đánh dấu với ba thay đổi nhỏ."
+    }
+  ],
+  "listening": {
+    "title": "Final Call Before Signing",
+    "lines": [
+      {
+        "speaker": "Minh (Account Manager)",
+        "voice": "male",
+        "text": "Hi Ms. Lan, thanks for your time. Did your lawyer finish the redline?"
+      },
+      {
+        "speaker": "Lan (Operations Director)",
+        "voice": "female",
+        "text": "Yes, there were only two small changes. I think we agree on the final terms now."
+      },
+      {
+        "speaker": "Minh (Account Manager)",
+        "voice": "male",
+        "text": "That's great news. Is there anything else about the start date?"
+      },
+      {
+        "speaker": "Lan (Operations Director)",
+        "voice": "female",
+        "text": "We'd prefer November fifteenth, not the first. Our team is busy with an audit until then."
+      },
+      {
+        "speaker": "Minh (Account Manager)",
+        "voice": "male",
+        "text": "No problem. I'll update the contract today."
+      },
+      {
+        "speaker": "Lan (Operations Director)",
+        "voice": "female",
+        "text": "Good. Our CEO still needs to give the go-ahead. That's the last hurdle."
+      },
+      {
+        "speaker": "Minh (Account Manager)",
+        "voice": "male",
+        "text": "I understand. Our target closing date is October twentieth. Does that still work?"
+      },
+      {
+        "speaker": "Lan (Operations Director)",
+        "voice": "female",
+        "text": "I think so. He comes back from his business trip on the eighteenth."
+      },
+      {
+        "speaker": "Minh (Account Manager)",
+        "voice": "male",
+        "text": "Perfect. Once the contract is signed and binding, we'll book a kick-off meeting with your team."
+      },
+      {
+        "speaker": "Lan (Operations Director)",
+        "voice": "female",
+        "text": "Sounds good. Please send the updated version, and I'll forward it to him tonight."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What start date does Lan want?",
+        "options": [
+          "November first",
+          "November fifteenth",
+          "October twentieth"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is the last hurdle?",
+        "options": [
+          "The lawyer's redline",
+          "The CEO's go-ahead",
+          "The price"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What will happen after the contract is signed?",
+        "options": [
+          "A kick-off meeting",
+          "A new audit",
+          "A price discussion"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "I'll send you the final draft of the contract by the end of today.",
+    "Is there anything else stopping us from signing this week?",
+    "Who else needs to sign off before we can move forward?",
+    "Can we agree on a start date of the first of next month?",
+    "Thank you for your trust. We're excited to start working with your team."
+  ]
+}
