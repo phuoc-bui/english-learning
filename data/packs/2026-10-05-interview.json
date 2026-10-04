@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-05",
+  "track": "interview",
+  "theme": "Giới thiệu bản thân",
+  "vocab": [
+    {
+      "word": "passionate about",
+      "ipa": "/ˈpæʃənət əˈbaʊt/",
+      "meaning_vi": "đam mê, rất yêu thích",
+      "example": "I am passionate about building products that make people's work easier.",
+      "example_vi": "Tôi đam mê xây dựng những sản phẩm giúp công việc của mọi người dễ dàng hơn."
+    },
+    {
+      "word": "currently working as",
+      "ipa": "/ˈkʌrəntli ˈwɜːkɪŋ æz/",
+      "meaning_vi": "hiện đang làm (vị trí)",
+      "example": "I am currently working as a QA engineer at a fintech company.",
+      "example_vi": "Tôi hiện đang làm kỹ sư kiểm thử tại một công ty fintech."
+    },
+    {
+      "word": "major in",
+      "ipa": "/ˈmeɪdʒə ɪn/",
+      "meaning_vi": "học chuyên ngành",
+      "example": "I majored in information systems at the University of Economics.",
+      "example_vi": "Tôi học chuyên ngành hệ thống thông tin tại Đại học Kinh tế."
+    },
+    {
+      "word": "work history",
+      "ipa": "/wɜːk ˈhɪstri/",
+      "meaning_vi": "quá trình làm việc",
+      "example": "My work history includes two years in outsourcing and one year in a startup.",
+      "example_vi": "Quá trình làm việc của tôi gồm hai năm ở công ty outsourcing và một năm ở startup."
+    },
+    {
+      "word": "quick learner",
+      "ipa": "/kwɪk ˈlɜːnə/",
+      "meaning_vi": "người học nhanh",
+      "example": "I am a quick learner; I learned React in one month for my last project.",
+      "example_vi": "Tôi là người học nhanh; tôi đã học React trong một tháng cho dự án trước."
+    },
+    {
+      "word": "self-starter",
+      "ipa": "/ˌself ˈstɑːtə/",
+      "meaning_vi": "người chủ động, tự giác",
+      "example": "As a self-starter, I do not wait for tasks; I look for problems to solve.",
+      "example_vi": "Là người chủ động, tôi không chờ được giao việc; tôi tự tìm vấn đề để giải quyết."
+    },
+    {
+      "word": "results-driven",
+      "ipa": "/rɪˈzʌlts ˌdrɪvn/",
+      "meaning_vi": "định hướng kết quả",
+      "example": "I am results-driven, so I always set clear goals for each sprint.",
+      "example_vi": "Tôi là người định hướng kết quả nên luôn đặt mục tiêu rõ ràng cho mỗi sprint."
+    },
+    {
+      "word": "bring to the table",
+      "ipa": "/brɪŋ tə ðə ˈteɪbl/",
+      "meaning_vi": "đóng góp (kỹ năng, kinh nghiệm)",
+      "example": "I think I can bring strong testing skills to the table.",
+      "example_vi": "Tôi nghĩ tôi có thể đóng góp kỹ năng kiểm thử tốt cho đội."
+    }
+  ],
+  "listening": {
+    "title": "The opening question of a QA interview",
+    "lines": [
+      {
+        "speaker": "Ms. Ngoc (Interviewer)",
+        "voice": "female",
+        "text": "Thank you for coming today, Khoa. To start, could you tell us a little about yourself?"
+      },
+      {
+        "speaker": "Khoa (Candidate)",
+        "voice": "male",
+        "text": "Of course. My name is Khoa, and I majored in information systems at the University of Economics."
+      },
+      {
+        "speaker": "Ms. Ngoc (Interviewer)",
+        "voice": "female",
+        "text": "And what are you doing at the moment?"
+      },
+      {
+        "speaker": "Khoa (Candidate)",
+        "voice": "male",
+        "text": "I am currently working as a QA engineer at a fintech company. I have been there for about three years."
+      },
+      {
+        "speaker": "Ms. Ngoc (Interviewer)",
+        "voice": "female",
+        "text": "What kind of work do you do there?"
+      },
+      {
+        "speaker": "Khoa (Candidate)",
+        "voice": "male",
+        "text": "I test our mobile banking app. Last year I built an automation test suite that cut our regression time from two days to four hours."
+      },
+      {
+        "speaker": "Ms. Ngoc (Interviewer)",
+        "voice": "female",
+        "text": "That is impressive. Why are you interested in this position?"
+      },
+      {
+        "speaker": "Khoa (Candidate)",
+        "voice": "male",
+        "text": "I am passionate about test automation, and your team is building a large e-commerce platform. I want to work at that scale."
+      },
+      {
+        "speaker": "Ms. Ngoc (Interviewer)",
+        "voice": "female",
+        "text": "In one sentence, what would you bring to the table?"
+      },
+      {
+        "speaker": "Khoa (Candidate)",
+        "voice": "male",
+        "text": "I would bring strong automation skills and a habit of finding problems early, before users see them."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What did Khoa study at university?",
+        "options": [
+          "Computer science",
+          "Information systems",
+          "Business administration"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What result did Khoa achieve with his automation test suite?",
+        "options": [
+          "Regression time went from two days to four hours",
+          "The team hired two more testers",
+          "The app got more downloads"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Why is Khoa interested in this position?",
+        "options": [
+          "The salary is higher",
+          "The office is closer to home",
+          "He wants to work on a large-scale platform"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "I have three years of experience as a QA engineer in the fintech industry.",
+    "In my current role, I am responsible for testing our mobile banking app.",
+    "Last year, I automated our tests and saved the team many hours each sprint.",
+    "I am a quick learner, and I enjoy picking up new tools and technologies.",
+    "I believe my skills match this role, and I am excited to grow with your team."
+  ]
+}

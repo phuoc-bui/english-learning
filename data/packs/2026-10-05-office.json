@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-05",
+  "track": "office",
+  "theme": "Small talk trước giờ họp",
+  "vocab": [
+    {
+      "word": "rainy season",
+      "ipa": "/ˈreɪni ˈsiːzn/",
+      "meaning_vi": "mùa mưa",
+      "example": "The rainy season has started, so I always keep an umbrella at my desk.",
+      "example_vi": "Mùa mưa đã bắt đầu nên tôi luôn để một chiếc ô ở bàn làm việc."
+    },
+    {
+      "word": "stuck in traffic",
+      "ipa": "/stʌk ɪn ˈtræfɪk/",
+      "meaning_vi": "bị kẹt xe",
+      "example": "Sorry I am late, I was stuck in traffic on the bridge.",
+      "example_vi": "Xin lỗi tôi đến muộn, tôi bị kẹt xe trên cầu."
+    },
+    {
+      "word": "rush hour",
+      "ipa": "/rʌʃ ˈaʊə/",
+      "meaning_vi": "giờ cao điểm",
+      "example": "I leave home at seven to avoid the rush hour.",
+      "example_vi": "Tôi ra khỏi nhà lúc 7 giờ để tránh giờ cao điểm."
+    },
+    {
+      "word": "Monday blues",
+      "ipa": "/ˈmʌndeɪ bluːz/",
+      "meaning_vi": "cảm giác uể oải ngày thứ Hai",
+      "example": "A strong coffee always helps me with the Monday blues.",
+      "example_vi": "Một ly cà phê đậm luôn giúp tôi vượt qua sự uể oải ngày thứ Hai."
+    },
+    {
+      "word": "jet lag",
+      "ipa": "/ˈdʒet læɡ/",
+      "meaning_vi": "mệt mỏi do lệch múi giờ",
+      "example": "Hoa just came back from Germany and she still has jet lag.",
+      "example_vi": "Hoa vừa từ Đức về và cô ấy vẫn còn bị lệch múi giờ."
+    },
+    {
+      "word": "cold snap",
+      "ipa": "/kəʊld snæp/",
+      "meaning_vi": "đợt rét ngắn",
+      "example": "There is a cold snap in Hanoi this week, so wear a jacket.",
+      "example_vi": "Tuần này Hà Nội có một đợt rét nên hãy mặc áo khoác."
+    },
+    {
+      "word": "feeling under the weather",
+      "ipa": "/ˈfiːlɪŋ ˈʌndə ðə ˈweðə/",
+      "meaning_vi": "hơi mệt, không khoẻ",
+      "example": "I am feeling under the weather, so I might leave a bit early today.",
+      "example_vi": "Tôi thấy hơi mệt nên hôm nay có thể về sớm một chút."
+    },
+    {
+      "word": "hang in there",
+      "ipa": "/hæŋ ɪn ðeə/",
+      "meaning_vi": "cố lên, gắng lên",
+      "example": "It is a busy week for your team, but hang in there!",
+      "example_vi": "Tuần này nhóm bạn bận rộn quá, nhưng cố lên nhé!"
+    }
+  ],
+  "listening": {
+    "title": "Waiting for the weekly meeting to start",
+    "lines": [
+      {
+        "speaker": "Lan (HR Executive)",
+        "voice": "female",
+        "text": "Morning, Tuan! You look a bit tired today. Is everything okay?"
+      },
+      {
+        "speaker": "Tuan (Admin Officer)",
+        "voice": "male",
+        "text": "Morning, Lan. I was stuck in traffic for almost an hour. The rain made everything slow."
+      },
+      {
+        "speaker": "Lan (HR Executive)",
+        "voice": "female",
+        "text": "Oh no. The rainy season is always hard for people who ride motorbikes."
+      },
+      {
+        "speaker": "Tuan (Admin Officer)",
+        "voice": "male",
+        "text": "Exactly. Next week I will leave earlier to avoid the rush hour."
+      },
+      {
+        "speaker": "Lan (HR Executive)",
+        "voice": "female",
+        "text": "Good idea. By the way, have you seen Hoa? I heard she came back from Germany."
+      },
+      {
+        "speaker": "Tuan (Admin Officer)",
+        "voice": "male",
+        "text": "Yes, she arrived last night. She said she has terrible jet lag, so she is working from home today."
+      },
+      {
+        "speaker": "Lan (HR Executive)",
+        "voice": "female",
+        "text": "That makes sense. I hope she gets some rest before the training on Thursday."
+      },
+      {
+        "speaker": "Tuan (Admin Officer)",
+        "voice": "male",
+        "text": "Me too. Anyway, how was your weekend?"
+      },
+      {
+        "speaker": "Lan (HR Executive)",
+        "voice": "female",
+        "text": "Quiet, actually. I was feeling under the weather, so I stayed home and watched films."
+      },
+      {
+        "speaker": "Tuan (Admin Officer)",
+        "voice": "male",
+        "text": "I am sorry to hear that. Oh, the manager is here. Let us grab our seats."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why was Tuan late?",
+        "options": [
+          "He woke up late",
+          "He was stuck in traffic",
+          "His motorbike broke down"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Why is Hoa working from home today?",
+        "options": [
+          "She has jet lag",
+          "She is on leave",
+          "She has a training"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What did Lan do at the weekend?",
+        "options": [
+          "She went to Germany",
+          "She stayed home because she felt unwell",
+          "She went shopping with friends"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "shadowing": [
+    "The traffic was terrible this morning because of the heavy rain.",
+    "Did you do anything fun at the weekend, or just relax at home?",
+    "It is getting colder these days, so do not forget your jacket.",
+    "We still have five minutes before the meeting, so let me grab a coffee.",
+    "I heard you just came back from your trip. How was it?"
+  ]
+}

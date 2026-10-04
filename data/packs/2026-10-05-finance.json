@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-05",
+  "track": "finance",
+  "theme": "Trình bày báo cáo tháng",
+  "vocab": [
+    {
+      "word": "actual vs budget",
+      "ipa": "/ˈæktʃuəl vɜːsəs ˈbʌdʒɪt/",
+      "meaning_vi": "thực tế so với ngân sách",
+      "example": "This table shows actual vs budget for each department in September.",
+      "example_vi": "Bảng này thể hiện số thực tế so với ngân sách của từng phòng ban trong tháng Chín."
+    },
+    {
+      "word": "favourable variance",
+      "ipa": "/ˈfeɪvərəbl ˈveəriəns/",
+      "meaning_vi": "chênh lệch có lợi",
+      "example": "We had a favourable variance in travel costs because many trips were cancelled.",
+      "example_vi": "Chúng ta có chênh lệch có lợi ở chi phí đi lại vì nhiều chuyến công tác bị huỷ."
+    },
+    {
+      "word": "unfavourable variance",
+      "ipa": "/ʌnˈfeɪvərəbl ˈveəriəns/",
+      "meaning_vi": "chênh lệch bất lợi",
+      "example": "The unfavourable variance in marketing came from the new campaign.",
+      "example_vi": "Chênh lệch bất lợi ở mảng marketing đến từ chiến dịch mới."
+    },
+    {
+      "word": "key driver",
+      "ipa": "/kiː ˈdraɪvə/",
+      "meaning_vi": "yếu tố tác động chính",
+      "example": "The key driver of higher revenue was the new client in Singapore.",
+      "example_vi": "Yếu tố chính khiến doanh thu tăng là khách hàng mới ở Singapore."
+    },
+    {
+      "word": "headcount cost",
+      "ipa": "/ˈhedkaʊnt kɒst/",
+      "meaning_vi": "chi phí nhân sự (theo số lượng nhân viên)",
+      "example": "Headcount cost went up because we hired five new developers.",
+      "example_vi": "Chi phí nhân sự tăng vì chúng ta tuyển thêm năm lập trình viên."
+    },
+    {
+      "word": "quarter-to-date",
+      "ipa": "/ˈkwɔːtə tə deɪt/",
+      "meaning_vi": "luỹ kế từ đầu quý đến nay",
+      "example": "Quarter-to-date, we are about three percent above our sales target.",
+      "example_vi": "Luỹ kế từ đầu quý, chúng ta đang vượt mục tiêu doanh số khoảng ba phần trăm."
+    },
+    {
+      "word": "outlook",
+      "ipa": "/ˈaʊtlʊk/",
+      "meaning_vi": "triển vọng, dự đoán",
+      "example": "The outlook for the fourth quarter is positive, but we should watch costs.",
+      "example_vi": "Triển vọng quý bốn khả quan, nhưng chúng ta nên theo dõi chi phí."
+    },
+    {
+      "word": "reforecast",
+      "ipa": "/ˌriːˈfɔːkɑːst/",
+      "meaning_vi": "dự báo lại",
+      "example": "We will reforecast the year-end numbers after the October results.",
+      "example_vi": "Chúng ta sẽ dự báo lại số liệu cuối năm sau khi có kết quả tháng Mười."
+    }
+  ],
+  "listening": {
+    "title": "September results meeting",
+    "lines": [
+      {
+        "speaker": "Mai (Finance Analyst)",
+        "voice": "female",
+        "text": "Good afternoon, everyone. Today I will walk you through the September results."
+      },
+      {
+        "speaker": "Duc (Finance Manager)",
+        "voice": "male",
+        "text": "Thanks, Mai. Let us start with the big picture, please."
+      },
+      {
+        "speaker": "Mai (Finance Analyst)",
+        "voice": "female",
+        "text": "Sure. Revenue was 4.2 billion dong, which is five percent above budget."
+      },
+      {
+        "speaker": "Duc (Finance Manager)",
+        "voice": "male",
+        "text": "That is good news. What was the key driver?"
+      },
+      {
+        "speaker": "Mai (Finance Analyst)",
+        "voice": "female",
+        "text": "Mainly the new client in Singapore. They paid for two projects earlier than planned."
+      },
+      {
+        "speaker": "Duc (Finance Manager)",
+        "voice": "male",
+        "text": "And on the cost side? I see an unfavourable variance in this column."
+      },
+      {
+        "speaker": "Mai (Finance Analyst)",
+        "voice": "female",
+        "text": "Yes, headcount cost was higher because we hired five developers in August."
+      },
+      {
+        "speaker": "Duc (Finance Manager)",
+        "voice": "male",
+        "text": "I see. Was that hiring in the original budget?"
+      },
+      {
+        "speaker": "Mai (Finance Analyst)",
+        "voice": "female",
+        "text": "Only three of them. The other two were approved later, so we need to reforecast."
+      },
+      {
+        "speaker": "Duc (Finance Manager)",
+        "voice": "male",
+        "text": "Okay. Please prepare a new year-end forecast and send it to me by Friday."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How did September revenue compare with the budget?",
+        "options": [
+          "Five percent below budget",
+          "Exactly on budget",
+          "Five percent above budget"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Why was headcount cost higher?",
+        "options": [
+          "Salaries increased for everyone",
+          "Five developers were hired in August",
+          "Bonuses were paid early"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does Duc ask Mai to do by Friday?",
+        "options": [
+          "Prepare a new year-end forecast",
+          "Cancel the new hires",
+          "Call the Singapore client"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "shadowing": [
+    "Overall, revenue this month was slightly higher than we expected.",
+    "The main reason for this increase is the new contract with our Singapore client.",
+    "As you can see on this slide, costs are still under control.",
+    "We had some extra expenses in marketing because of the new campaign.",
+    "I will send the full report with all the details after this meeting."
+  ]
+}

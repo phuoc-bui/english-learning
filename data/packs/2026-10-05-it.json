@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-05",
+  "track": "it",
+  "theme": "Remote meeting etiquette",
+  "vocab": [
+    {
+      "word": "gallery view",
+      "ipa": "/ˈɡæləri vjuː/",
+      "meaning_vi": "chế độ xem lưới (thấy tất cả mọi người)",
+      "example": "Please switch to gallery view so we can see the whole team.",
+      "example_vi": "Hãy chuyển sang chế độ xem lưới để chúng ta thấy cả nhóm."
+    },
+    {
+      "word": "camera shy",
+      "ipa": "/ˈkæmərə ʃaɪ/",
+      "meaning_vi": "ngại bật camera",
+      "example": "It is okay to be camera shy, but please turn it on for the sprint demo.",
+      "example_vi": "Ngại bật camera cũng không sao, nhưng hãy bật lên trong buổi demo sprint nhé."
+    },
+    {
+      "word": "eye contact",
+      "ipa": "/aɪ ˈkɒntækt/",
+      "meaning_vi": "giao tiếp bằng mắt",
+      "example": "Look at the camera, not the screen, to make eye contact with the client.",
+      "example_vi": "Hãy nhìn vào camera, không phải màn hình, để giao tiếp bằng mắt với khách hàng."
+    },
+    {
+      "word": "stable connection",
+      "ipa": "/ˈsteɪbl kəˈnekʃn/",
+      "meaning_vi": "kết nối ổn định",
+      "example": "I moved closer to the router to get a stable connection before the call.",
+      "example_vi": "Tôi ngồi gần router hơn để có kết nối ổn định trước cuộc gọi."
+    },
+    {
+      "word": "bandwidth",
+      "ipa": "/ˈbændwɪdθ/",
+      "meaning_vi": "băng thông (đường truyền mạng)",
+      "example": "My home bandwidth is low, so I will keep my camera off during the screen share.",
+      "example_vi": "Băng thông ở nhà tôi thấp nên tôi sẽ tắt camera khi chia sẻ màn hình."
+    },
+    {
+      "word": "noise-cancelling",
+      "ipa": "/ˈnɔɪz ˌkænsəlɪŋ/",
+      "meaning_vi": "chống ồn",
+      "example": "I bought noise-cancelling headphones because my street is very loud.",
+      "example_vi": "Tôi mua tai nghe chống ồn vì con phố nhà tôi rất ồn."
+    },
+    {
+      "word": "recording consent",
+      "ipa": "/rɪˈkɔːdɪŋ kənˈsent/",
+      "meaning_vi": "sự đồng ý cho ghi hình/ghi âm",
+      "example": "We always ask for recording consent before we record a client meeting.",
+      "example_vi": "Chúng tôi luôn xin sự đồng ý trước khi ghi lại buổi họp với khách hàng."
+    },
+    {
+      "word": "drop off",
+      "ipa": "/drɒp ɒf/",
+      "meaning_vi": "rời khỏi cuộc họp (giữa chừng)",
+      "example": "Sorry, I have to drop off at ten for another meeting.",
+      "example_vi": "Xin lỗi, tôi phải rời cuộc họp lúc 10 giờ để vào một cuộc họp khác."
+    }
+  ],
+  "listening": {
+    "title": "Ground rules for the new remote sync",
+    "lines": [
+      {
+        "speaker": "Minh (Scrum Master)",
+        "voice": "male",
+        "text": "Good morning, everyone. Before we start, I want to agree on a few rules for our remote meetings."
+      },
+      {
+        "speaker": "Linh (Frontend Developer)",
+        "voice": "female",
+        "text": "Sure. Can we start with cameras? Some people are a bit camera shy."
+      },
+      {
+        "speaker": "Minh (Scrum Master)",
+        "voice": "male",
+        "text": "I understand. Cameras are optional for daily sync, but please turn them on for demos with the client."
+      },
+      {
+        "speaker": "Thao (Backend Developer)",
+        "voice": "female",
+        "text": "That sounds fair. My bandwidth at home is not great, so sometimes my video freezes."
+      },
+      {
+        "speaker": "Minh (Scrum Master)",
+        "voice": "male",
+        "text": "No problem, Thao. If your connection is not stable, just switch off video and keep your audio on."
+      },
+      {
+        "speaker": "Linh (Frontend Developer)",
+        "voice": "female",
+        "text": "What about recording? Last week the client asked why we recorded the call."
+      },
+      {
+        "speaker": "Minh (Scrum Master)",
+        "voice": "male",
+        "text": "Good point. From now on, the host will ask for recording consent at the start of every client meeting."
+      },
+      {
+        "speaker": "Thao (Backend Developer)",
+        "voice": "female",
+        "text": "And if someone needs to drop off early, should they say it in the chat?"
+      },
+      {
+        "speaker": "Minh (Scrum Master)",
+        "voice": "male",
+        "text": "Yes, a short message in the chat is enough. You do not need to interrupt the speaker."
+      },
+      {
+        "speaker": "Linh (Frontend Developer)",
+        "voice": "female",
+        "text": "Great. I will write these rules on our team wiki page today."
+      }
+    ],
+    "questions": [
+      {
+        "q": "When must team members turn on their cameras?",
+        "options": [
+          "In every daily sync",
+          "In demos with the client",
+          "Only on Fridays"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What should Thao do if his connection is not stable?",
+        "options": [
+          "Leave the meeting",
+          "Switch off video and keep audio on",
+          "Call Minh on his phone"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How should someone tell the team they need to leave early?",
+        "options": [
+          "Interrupt the speaker",
+          "Send an email after the meeting",
+          "Write a short message in the chat"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Sorry, you are on mute. Could you unmute and say that again?",
+    "My connection is a bit unstable today, so I will turn off my camera.",
+    "Can everyone see my screen, or should I share it again?",
+    "I need to drop off at three, so please message me any updates.",
+    "Before we start recording today, is everyone in the meeting okay with that?"
+  ]
+}

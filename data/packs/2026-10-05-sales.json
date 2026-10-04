@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-05",
+  "track": "sales",
+  "theme": "Cold call khách mới",
+  "vocab": [
+    {
+      "word": "cold calling",
+      "ipa": "/kəʊld ˈkɔːlɪŋ/",
+      "meaning_vi": "gọi điện chào hàng cho khách chưa quen",
+      "example": "Cold calling is hard at first, but it gets easier with practice.",
+      "example_vi": "Gọi điện chào hàng lúc đầu khó, nhưng sẽ dễ hơn khi luyện tập."
+    },
+    {
+      "word": "outbound call",
+      "ipa": "/ˈaʊtbaʊnd kɔːl/",
+      "meaning_vi": "cuộc gọi đi (chủ động gọi khách)",
+      "example": "Our team makes about fifty outbound calls every morning.",
+      "example_vi": "Đội chúng tôi thực hiện khoảng năm mươi cuộc gọi đi mỗi sáng."
+    },
+    {
+      "word": "target account",
+      "ipa": "/ˈtɑːɡɪt əˈkaʊnt/",
+      "meaning_vi": "khách hàng mục tiêu",
+      "example": "This logistics company is one of our target accounts for this quarter.",
+      "example_vi": "Công ty logistics này là một trong những khách hàng mục tiêu của chúng ta quý này."
+    },
+    {
+      "word": "qualified lead",
+      "ipa": "/ˈkwɒlɪfaɪd liːd/",
+      "meaning_vi": "khách tiềm năng đã được sàng lọc",
+      "example": "After the call, Nam marked the IT manager as a qualified lead.",
+      "example_vi": "Sau cuộc gọi, Nam đánh dấu quản lý IT là khách tiềm năng đã sàng lọc."
+    },
+    {
+      "word": "talking points",
+      "ipa": "/ˈtɔːkɪŋ pɔɪnts/",
+      "meaning_vi": "các ý chính cần nói",
+      "example": "I wrote three talking points on a sticky note before I picked up the phone.",
+      "example_vi": "Tôi ghi ba ý chính lên giấy nhớ trước khi nhấc máy."
+    },
+    {
+      "word": "calendar slot",
+      "ipa": "/ˈkælɪndə slɒt/",
+      "meaning_vi": "khung giờ trống trên lịch",
+      "example": "Do you have a free calendar slot on Thursday afternoon for a short demo?",
+      "example_vi": "Anh có khung giờ trống nào chiều thứ Năm cho một buổi demo ngắn không?"
+    },
+    {
+      "word": "opt out",
+      "ipa": "/ɒpt aʊt/",
+      "meaning_vi": "từ chối nhận (liên lạc, thông tin)",
+      "example": "If you prefer to opt out, I will remove your number from our list.",
+      "example_vi": "Nếu anh muốn từ chối nhận cuộc gọi, tôi sẽ xoá số của anh khỏi danh sách."
+    },
+    {
+      "word": "do-not-call list",
+      "ipa": "/duː nɒt kɔːl lɪst/",
+      "meaning_vi": "danh sách không được gọi",
+      "example": "Please check the do-not-call list before you start your calls.",
+      "example_vi": "Vui lòng kiểm tra danh sách không được gọi trước khi bắt đầu gọi."
+    }
+  ],
+  "listening": {
+    "title": "A first call to a logistics company",
+    "lines": [
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "Good morning. This is Nam from TechViet Software. Am I speaking with Ms. Thu, the operations manager?"
+      },
+      {
+        "speaker": "Thu (Operations Manager)",
+        "voice": "female",
+        "text": "Yes, this is Thu. What is this about?"
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "Thank you for taking my call. We help logistics companies track their trucks in real time. I will be brief."
+      },
+      {
+        "speaker": "Thu (Operations Manager)",
+        "voice": "female",
+        "text": "Okay, but I only have a couple of minutes."
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "Of course. May I ask how your team tracks deliveries at the moment?"
+      },
+      {
+        "speaker": "Thu (Operations Manager)",
+        "voice": "female",
+        "text": "Mostly by phone and Excel. To be honest, it takes a lot of time."
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "Many of our clients had the same problem. Our tool cut their tracking time by half."
+      },
+      {
+        "speaker": "Thu (Operations Manager)",
+        "voice": "female",
+        "text": "That sounds interesting, but I need to see it before I decide anything."
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "That is fair. Do you have a free calendar slot on Thursday afternoon for a twenty-minute online demo?"
+      },
+      {
+        "speaker": "Thu (Operations Manager)",
+        "voice": "female",
+        "text": "Thursday at three works for me. Please send the invitation to my email."
+      },
+      {
+        "speaker": "Nam (Sales Executive)",
+        "voice": "male",
+        "text": "Great, I will send it right after this call. Thank you, Ms. Thu, and have a nice day."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How does Thu's team track deliveries now?",
+        "options": [
+          "With a mobile app",
+          "By phone and Excel",
+          "With GPS from another vendor"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What result does Nam mention from other clients?",
+        "options": [
+          "Tracking time was cut by half",
+          "Costs went down by ten percent",
+          "Drivers became faster"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What did they agree on at the end?",
+        "options": [
+          "A visit to the office",
+          "A contract signing",
+          "An online demo on Thursday"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "shadowing": [
+    "Hi, this is Nam from TechViet. Do you have two minutes to talk?",
+    "I am calling because we help companies like yours save time on reporting.",
+    "May I ask how your team handles this process right now?",
+    "I understand you are busy. When would be a better time to call back?",
+    "Would you be open to a short demo next week?"
+  ]
+}
