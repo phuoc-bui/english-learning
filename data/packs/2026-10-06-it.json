@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-06",
+  "track": "it",
+  "theme": "Daily standup meeting",
+  "vocab": [
+    { "word": "stand-up update", "ipa": "/ˈstænd ʌp ˈʌpdeɪt/", "meaning_vi": "phần cập nhật trong buổi họp đứng", "example": "Please keep your stand-up update under two minutes.", "example_vi": "Hãy giữ phần cập nhật trong buổi họp đứng dưới hai phút." },
+    { "word": "sync up", "ipa": "/sɪŋk ʌp/", "meaning_vi": "trao đổi để thống nhất thông tin", "example": "Let's sync up after the meeting about the API changes.", "example_vi": "Mình trao đổi sau buổi họp về các thay đổi API nhé." },
+    { "word": "take offline", "ipa": "/teɪk ˌɒfˈlaɪn/", "meaning_vi": "bàn riêng sau, không bàn trong cuộc họp chung", "example": "This topic is too detailed, so let's take it offline.", "example_vi": "Chủ đề này quá chi tiết, nên mình bàn riêng sau nhé." },
+    { "word": "unblock", "ipa": "/ʌnˈblɒk/", "meaning_vi": "gỡ vướng mắc cho ai đó", "example": "Can you unblock me by sharing the test account today?", "example_vi": "Anh có thể gỡ vướng cho em bằng cách chia sẻ tài khoản test hôm nay không?" },
+    { "word": "in review", "ipa": "/ɪn rɪˈvjuː/", "meaning_vi": "đang được review", "example": "My login fix is in review and should be merged today.", "example_vi": "Bản sửa lỗi đăng nhập của tôi đang được review và chắc sẽ được merge hôm nay." },
+    { "word": "flaky test", "ipa": "/ˈfleɪki test/", "meaning_vi": "bài test lúc pass lúc fail không ổn định", "example": "I spent the morning fixing a flaky test in the payment module.", "example_vi": "Tôi mất cả buổi sáng để sửa một bài test chập chờn trong module thanh toán." },
+    { "word": "rollout", "ipa": "/ˈrəʊlaʊt/", "meaning_vi": "việc triển khai dần tính năng", "example": "The rollout to all users will start on Thursday.", "example_vi": "Việc triển khai cho tất cả người dùng sẽ bắt đầu vào thứ Năm." },
+    { "word": "carry-over", "ipa": "/ˈkæri ˌəʊvə/", "meaning_vi": "việc còn tồn từ hôm trước/sprint trước", "example": "The search task is a carry-over from yesterday.", "example_vi": "Task tìm kiếm là việc còn tồn từ hôm qua." }
+  ],
+  "listening": {
+    "title": "Monday morning standup",
+    "lines": [
+      { "speaker": "Hoa (Scrum Master)", "voice": "female", "text": "Good morning, everyone. Let's start the standup. Nam, can you go first?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Sure. Yesterday I finished the export API. It is in review now, and Linh is checking it." },
+      { "speaker": "Hoa (Scrum Master)", "voice": "female", "text": "Great. What are you working on today?" },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "Today I will fix a flaky test in the payment module. It failed three times last week." },
+      { "speaker": "Linh (Frontend Developer)", "voice": "female", "text": "My turn. The search page is a carry-over from Friday. I need the new API before I can finish it." },
+      { "speaker": "Minh (Tech Lead)", "voice": "male", "text": "Nam, can you unblock Linh first? The search page is more urgent than the flaky test." },
+      { "speaker": "Nam (Backend Developer)", "voice": "male", "text": "No problem. Linh, let's sync up right after this meeting." },
+      { "speaker": "Linh (Frontend Developer)", "voice": "female", "text": "Thanks. Also, I have a question about the rollout plan for Thursday." },
+      { "speaker": "Hoa (Scrum Master)", "voice": "female", "text": "Good question, but it may take a while. Can we take it offline with Minh?" },
+      { "speaker": "Minh (Tech Lead)", "voice": "male", "text": "Sure, I will book fifteen minutes this afternoon. That's all from me today." }
+    ],
+    "questions": [
+      { "q": "What is the status of Nam's export API?", "options": ["It is in review.", "It is already released.", "He has not started it."], "answer": 0 },
+      { "q": "Why can't Linh finish the search page?", "options": ["She is on leave.", "She needs the new API from Nam.", "The design is not ready."], "answer": 1 },
+      { "q": "What will they do with the rollout question?", "options": ["Discuss it in the standup.", "Ignore it until Thursday.", "Discuss it later with Minh."], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Yesterday I finished the login fix, and today I will start the search feature.",
+    "I am blocked by the missing API, so I need some help from the backend team.",
+    "My pull request is in review now, and I hope to merge it before lunch.",
+    "This topic needs more time, so let's take it offline after the standup.",
+    "No blockers from my side today, everything is going according to the plan."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-06",
+  "track": "interview",
+  "theme": "Điểm mạnh điểm yếu",
+  "vocab": [
+    { "word": "constructive", "ipa": "/kənˈstrʌktɪv/", "meaning_vi": "mang tính xây dựng", "example": "I always welcome constructive feedback from my manager.", "example_vi": "Tôi luôn đón nhận góp ý mang tính xây dựng từ quản lý." },
+    { "word": "step out of my comfort zone", "ipa": "/step aʊt əv maɪ ˈkʌmfət zəʊn/", "meaning_vi": "bước ra khỏi vùng an toàn", "example": "Leading the workshop helped me step out of my comfort zone.", "example_vi": "Dẫn dắt buổi workshop đã giúp tôi bước ra khỏi vùng an toàn." },
+    { "word": "organised", "ipa": "/ˈɔːɡənaɪzd/", "meaning_vi": "ngăn nắp, có tổ chức", "example": "I am very organised, so I rarely miss a deadline.", "example_vi": "Tôi rất có tổ chức nên hiếm khi trễ hạn." },
+    { "word": "fast learner", "ipa": "/fɑːst ˈlɜːnə/", "meaning_vi": "người học nhanh", "example": "I am a fast learner and picked up the new tool in a week.", "example_vi": "Tôi học nhanh và đã thành thạo công cụ mới trong một tuần." },
+    { "word": "problem-solver", "ipa": "/ˈprɒbləm ˌsɒlvə/", "meaning_vi": "người giỏi giải quyết vấn đề", "example": "My team sees me as a problem-solver when things go wrong.", "example_vi": "Đồng đội coi tôi là người giải quyết vấn đề khi có sự cố." },
+    { "word": "calm under pressure", "ipa": "/kɑːm ˈʌndə ˈpreʃə/", "meaning_vi": "bình tĩnh khi chịu áp lực", "example": "I stay calm under pressure, even when the client changes the deadline.", "example_vi": "Tôi giữ bình tĩnh khi chịu áp lực, kể cả khi khách đổi deadline." },
+    { "word": "struggle with", "ipa": "/ˈstrʌɡl wɪð/", "meaning_vi": "gặp khó khăn với", "example": "I used to struggle with speaking in big meetings.", "example_vi": "Tôi từng gặp khó khăn khi phát biểu trong các cuộc họp lớn." },
+    { "word": "multitask", "ipa": "/ˈmʌltitɑːsk/", "meaning_vi": "làm nhiều việc cùng lúc", "example": "In my last job, I had to multitask between three projects.", "example_vi": "Ở công việc trước, tôi phải làm song song ba dự án." }
+  ],
+  "listening": {
+    "title": "Talking about strengths and weaknesses",
+    "lines": [
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "Thank you for coming, Quân. Let's start. What would you say is your greatest strength?" },
+      { "speaker": "Quân (Candidate)", "voice": "male", "text": "I think I am a problem-solver. When something goes wrong, I stay calm under pressure and look for the root cause." },
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "Can you give me an example?" },
+      { "speaker": "Quân (Candidate)", "voice": "male", "text": "Last year, our order system stopped on a sale day. I found the issue in thirty minutes and the team fixed it quickly." },
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "Impressive. And what about your weaknesses?" },
+      { "speaker": "Quân (Candidate)", "voice": "male", "text": "I used to struggle with public presentations. I felt nervous in front of big groups." },
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "What have you done about it?" },
+      { "speaker": "Quân (Candidate)", "voice": "male", "text": "I decided to step out of my comfort zone. I now give a short demo to my team every month." },
+      { "speaker": "Ms. Trang (HR Manager)", "voice": "female", "text": "That's a good approach. How do you react to feedback?" },
+      { "speaker": "Quân (Candidate)", "voice": "male", "text": "I welcome constructive feedback. My manager's comments helped me improve my demos a lot." }
+    ],
+    "questions": [
+      { "q": "What does Quân say is his greatest strength?", "options": ["Solving problems calmly.", "Speaking in public.", "Working long hours."], "answer": 0 },
+      { "q": "What was Quân's weakness?", "options": ["He was often late.", "He was nervous in public presentations.", "He did not like teamwork."], "answer": 1 },
+      { "q": "What does Quân do now to improve?", "options": ["He takes an online course.", "He avoids big meetings.", "He gives a monthly demo to his team."], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "My greatest strength is that I stay calm and focused when there is pressure.",
+    "In my last project, I found the root cause of a serious bug in one hour.",
+    "I used to struggle with public speaking, so I started presenting every month.",
+    "I am a fast learner, and I picked up React in about two weeks.",
+    "I welcome constructive feedback because it helps me grow faster in my job."
+  ]
+}

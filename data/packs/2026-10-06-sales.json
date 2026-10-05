@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-06",
+  "track": "sales",
+  "theme": "Demo sản phẩm cho khách",
+  "vocab": [
+    { "word": "run through", "ipa": "/rʌn θruː/", "meaning_vi": "trình bày lướt qua, chạy thử một lượt", "example": "Let me run through the main screens in about ten minutes.", "example_vi": "Để tôi trình bày lướt qua các màn hình chính trong khoảng mười phút." },
+    { "word": "customizable", "ipa": "/ˈkʌstəmaɪzəbl/", "meaning_vi": "có thể tùy chỉnh", "example": "The report layout is fully customizable for each department.", "example_vi": "Bố cục báo cáo có thể tùy chỉnh hoàn toàn cho từng phòng ban." },
+    { "word": "out of the box", "ipa": "/aʊt əv ðə bɒks/", "meaning_vi": "dùng được ngay không cần cấu hình thêm", "example": "The HR module works out of the box, so you can start on day one.", "example_vi": "Module nhân sự dùng được ngay, nên anh chị có thể bắt đầu từ ngày đầu tiên." },
+    { "word": "admin panel", "ipa": "/ˈædmɪn ˈpænl/", "meaning_vi": "trang quản trị", "example": "In the admin panel, you can add users and set their roles.", "example_vi": "Trong trang quản trị, anh chị có thể thêm người dùng và phân quyền." },
+    { "word": "learning curve", "ipa": "/ˈlɜːnɪŋ kɜːv/", "meaning_vi": "mức độ khó khi làm quen (thời gian học dùng)", "example": "The learning curve is short, most staff learn it in one day.", "example_vi": "Thời gian làm quen ngắn, đa số nhân viên học được trong một ngày." },
+    { "word": "intuitive", "ipa": "/ɪnˈtjuːɪtɪv/", "meaning_vi": "trực quan, dễ hiểu", "example": "Customers often say our mobile app is very intuitive.", "example_vi": "Khách hàng thường nói ứng dụng di động của chúng tôi rất trực quan." },
+    { "word": "custom field", "ipa": "/ˈkʌstəm fiːld/", "meaning_vi": "trường dữ liệu tự tạo", "example": "You can add a custom field for the customer's tax code.", "example_vi": "Anh chị có thể thêm trường dữ liệu riêng cho mã số thuế của khách." },
+    { "word": "demo account", "ipa": "/ˈdeməʊ əˈkaʊnt/", "meaning_vi": "tài khoản dùng thử để demo", "example": "I will send you a demo account so your team can try it this week.", "example_vi": "Tôi sẽ gửi anh chị một tài khoản dùng thử để đội anh chị trải nghiệm trong tuần này." }
+  ],
+  "listening": {
+    "title": "Demo for a retail company",
+    "lines": [
+      { "speaker": "Khánh (Sales Executive)", "voice": "male", "text": "Thank you for joining, Ms. Vy. Today I will run through our inventory software in twenty minutes." },
+      { "speaker": "Vy (Operations Manager)", "voice": "female", "text": "Great. Our main problem is that our staff waste time counting stock by hand." },
+      { "speaker": "Khánh (Sales Executive)", "voice": "male", "text": "I understand. Here is the dashboard. Each store sees its stock level as soon as it logs in." },
+      { "speaker": "Vy (Operations Manager)", "voice": "female", "text": "It looks clean. But many of our store staff are not good with technology." },
+      { "speaker": "Khánh (Sales Executive)", "voice": "male", "text": "The design is very intuitive, so the learning curve is short. Most users learn it in one day." },
+      { "speaker": "Vy (Operations Manager)", "voice": "female", "text": "Can we track special information, like the expiry date of each product?" },
+      { "speaker": "Khánh (Sales Executive)", "voice": "male", "text": "Yes. In the admin panel, you can create a custom field for the expiry date. Let me show you." },
+      { "speaker": "Vy (Operations Manager)", "voice": "female", "text": "Nice. Do we need to pay extra for setup?" },
+      { "speaker": "Khánh (Sales Executive)", "voice": "male", "text": "No. The basic features work out of the box. I can also send you a demo account today." },
+      { "speaker": "Vy (Operations Manager)", "voice": "female", "text": "Please do. I will ask two store managers to try it this week." }
+    ],
+    "questions": [
+      { "q": "What is the customer's main problem?", "options": ["Staff count stock by hand.", "The software is too expensive.", "They have too many stores."], "answer": 0 },
+      { "q": "How will Vy track the expiry date?", "options": ["With a separate Excel file.", "With a custom field in the admin panel.", "By calling each store."], "answer": 1 },
+      { "q": "What will happen next?", "options": ["Vy will sign the contract today.", "Khánh will visit the stores.", "Store managers will try a demo account."], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Let me share my screen and run through the main features with you.",
+    "Please stop me at any time if you have a question about this screen.",
+    "This report is fully customizable, so each team can see what they need.",
+    "Most of our customers start using the basic features on the very first day.",
+    "I will send you a demo account so your team can try it this week."
+  ]
+}

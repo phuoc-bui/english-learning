@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-06",
+  "track": "office",
+  "theme": "Viết email & follow-up",
+  "vocab": [
+    { "word": "signature", "ipa": "/ˈsɪɡnətʃə/", "meaning_vi": "chữ ký cuối email", "example": "Please add your phone number to your email signature.", "example_vi": "Hãy thêm số điện thoại vào chữ ký email của bạn." },
+    { "word": "concise", "ipa": "/kənˈsaɪs/", "meaning_vi": "ngắn gọn, súc tích", "example": "Try to keep your emails concise, so people can read them quickly.", "example_vi": "Hãy cố viết email ngắn gọn để mọi người đọc nhanh." },
+    { "word": "inbox", "ipa": "/ˈɪnbɒks/", "meaning_vi": "hộp thư đến", "example": "I had more than fifty emails in my inbox this morning.", "example_vi": "Sáng nay tôi có hơn năm mươi email trong hộp thư đến." },
+    { "word": "flag", "ipa": "/flæɡ/", "meaning_vi": "đánh dấu (email) để xử lý sau", "example": "I always flag important emails so I don't forget to reply.", "example_vi": "Tôi luôn đánh dấu các email quan trọng để không quên trả lời." },
+    { "word": "regarding", "ipa": "/rɪˈɡɑːdɪŋ/", "meaning_vi": "liên quan đến, về việc", "example": "I am writing regarding the meeting room booking for Friday.", "example_vi": "Tôi viết email này về việc đặt phòng họp cho thứ Sáu." },
+    { "word": "distribution list", "ipa": "/ˌdɪstrɪˈbjuːʃn lɪst/", "meaning_vi": "danh sách nhận thư chung", "example": "Please add the new staff to the HR distribution list.", "example_vi": "Hãy thêm nhân viên mới vào danh sách nhận thư của phòng nhân sự." },
+    { "word": "for your reference", "ipa": "/fə jɔː ˈrefrəns/", "meaning_vi": "để bạn tham khảo", "example": "I have attached last month's report for your reference.", "example_vi": "Tôi đã đính kèm báo cáo tháng trước để bạn tham khảo." },
+    { "word": "hold off", "ipa": "/həʊld ɒf/", "meaning_vi": "tạm hoãn, chờ chưa làm", "example": "Please hold off on sending the email until the manager approves it.", "example_vi": "Hãy tạm chưa gửi email cho đến khi quản lý duyệt." }
+  ],
+  "listening": {
+    "title": "Fixing an important email",
+    "lines": [
+      { "speaker": "Thảo (Admin Officer)", "voice": "female", "text": "Hi Tuấn, do you have a minute? Can you check my email to the training partner?" },
+      { "speaker": "Tuấn (Office Manager)", "voice": "male", "text": "Sure. Hmm, it is quite long. Try to make it more concise, maybe five or six lines." },
+      { "speaker": "Thảo (Admin Officer)", "voice": "female", "text": "OK. How should I start it? I wrote 'I want to ask about the training'." },
+      { "speaker": "Tuấn (Office Manager)", "voice": "male", "text": "Better to write 'I am writing regarding the English training in November'." },
+      { "speaker": "Thảo (Admin Officer)", "voice": "female", "text": "Got it. I also want to attach the staff list. What should I say?" },
+      { "speaker": "Tuấn (Office Manager)", "voice": "male", "text": "Just say 'I have attached the staff list for your reference'. Simple and polite." },
+      { "speaker": "Thảo (Admin Officer)", "voice": "female", "text": "Should I send it to the whole office distribution list?" },
+      { "speaker": "Tuấn (Office Manager)", "voice": "male", "text": "No, only to the partner and me. And please hold off until Ms. Hà confirms the budget." },
+      { "speaker": "Thảo (Admin Officer)", "voice": "female", "text": "Understood. I will flag it and send it after she replies." },
+      { "speaker": "Tuấn (Office Manager)", "voice": "male", "text": "Perfect. Oh, and update your signature. Your old title is still there." }
+    ],
+    "questions": [
+      { "q": "What is Tuấn's first advice about the email?", "options": ["Make it shorter.", "Write it in Vietnamese.", "Add more details."], "answer": 0 },
+      { "q": "Why should Thảo wait before sending the email?", "options": ["The partner is on holiday.", "Ms. Hà must confirm the budget.", "The staff list is not ready."], "answer": 1 },
+      { "q": "What is wrong with Thảo's signature?", "options": ["It has no phone number.", "It is too long.", "It shows her old job title."], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I am writing regarding the invoice you sent us last Friday afternoon.",
+    "Please find the meeting notes attached, and let me know if anything is missing.",
+    "Just a quick follow-up on my email from Monday about the training schedule.",
+    "Could you reply by Thursday so we can confirm the booking with the hotel?",
+    "Thank you for your quick response, I really appreciate your help with this."
+  ]
+}

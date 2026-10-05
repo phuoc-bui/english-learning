@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-06",
+  "track": "finance",
+  "theme": "Ngân sách & cắt giảm chi phí",
+  "vocab": [
+    { "word": "cost-cutting", "ipa": "/ˈkɒst ˌkʌtɪŋ/", "meaning_vi": "cắt giảm chi phí", "example": "The board asked every department to prepare a cost-cutting plan.", "example_vi": "Hội đồng quản trị yêu cầu mọi phòng ban chuẩn bị kế hoạch cắt giảm chi phí." },
+    { "word": "headcount", "ipa": "/ˈhedkaʊnt/", "meaning_vi": "số lượng nhân sự", "example": "Our headcount will stay the same until the end of the year.", "example_vi": "Số lượng nhân sự của chúng ta sẽ giữ nguyên đến cuối năm." },
+    { "word": "hiring freeze", "ipa": "/ˈhaɪərɪŋ friːz/", "meaning_vi": "tạm dừng tuyển dụng", "example": "Because of the hiring freeze, we cannot replace Lan this quarter.", "example_vi": "Vì tạm dừng tuyển dụng, chúng ta không thể tuyển người thay Lan trong quý này." },
+    { "word": "over budget", "ipa": "/ˈəʊvə ˈbʌdʒɪt/", "meaning_vi": "vượt ngân sách", "example": "The marketing team is ten percent over budget this month.", "example_vi": "Đội marketing đang vượt ngân sách mười phần trăm trong tháng này." },
+    { "word": "reallocate", "ipa": "/riːˈæləkeɪt/", "meaning_vi": "phân bổ lại", "example": "We can reallocate the travel budget to staff training.", "example_vi": "Chúng ta có thể phân bổ lại ngân sách công tác sang đào tạo nhân viên." },
+    { "word": "contingency", "ipa": "/kənˈtɪndʒənsi/", "meaning_vi": "khoản dự phòng", "example": "Please keep five percent of the budget as a contingency.", "example_vi": "Hãy giữ năm phần trăm ngân sách làm khoản dự phòng." },
+    { "word": "phase out", "ipa": "/feɪz aʊt/", "meaning_vi": "loại bỏ dần", "example": "We plan to phase out printed reports by next March.", "example_vi": "Chúng tôi dự định loại bỏ dần báo cáo in giấy trước tháng Ba năm sau." },
+    { "word": "savings", "ipa": "/ˈseɪvɪŋz/", "meaning_vi": "khoản tiết kiệm được", "example": "Switching to a new internet provider brought savings of 20 million a year.", "example_vi": "Đổi sang nhà cung cấp internet mới giúp tiết kiệm 20 triệu mỗi năm." }
+  ],
+  "listening": {
+    "title": "Planning next quarter's budget",
+    "lines": [
+      { "speaker": "Phương (Finance Manager)", "voice": "female", "text": "Thanks for coming, Đức. As you know, the company wants a cost-cutting plan for next quarter." },
+      { "speaker": "Đức (Admin Manager)", "voice": "male", "text": "Yes, I saw the email. How much do we need to cut?" },
+      { "speaker": "Phương (Finance Manager)", "voice": "female", "text": "About eight percent. Your department was over budget last quarter, mainly because of printing." },
+      { "speaker": "Đức (Admin Manager)", "voice": "male", "text": "That's true. We could phase out printed reports and use shared folders instead." },
+      { "speaker": "Phương (Finance Manager)", "voice": "female", "text": "Good idea. How much savings do you expect from that?" },
+      { "speaker": "Đức (Admin Manager)", "voice": "male", "text": "Maybe fifteen million per quarter. What about headcount? I wanted to hire one more assistant." },
+      { "speaker": "Phương (Finance Manager)", "voice": "female", "text": "Sorry, there is a hiring freeze until January. But we can reallocate some money to overtime if needed." },
+      { "speaker": "Đức (Admin Manager)", "voice": "male", "text": "OK, that helps. Should I keep any money for emergencies?" },
+      { "speaker": "Phương (Finance Manager)", "voice": "female", "text": "Yes, keep a small contingency, around three percent. Please send me your plan by Friday." },
+      { "speaker": "Đức (Admin Manager)", "voice": "male", "text": "No problem. I will send it on Thursday afternoon." }
+    ],
+    "questions": [
+      { "q": "Why was Đức's department over budget?", "options": ["Mainly because of printing.", "Because of travel costs.", "Because of new staff."], "answer": 0 },
+      { "q": "Why can't Đức hire a new assistant?", "options": ["The candidate said no.", "There is a hiring freeze.", "The office is too small."], "answer": 1 },
+      { "q": "How much should Đức keep as a contingency?", "options": ["Eight percent.", "Fifteen million.", "Around three percent."], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "We need to cut our operating costs by eight percent next quarter.",
+    "Our department was slightly over budget last month because of extra printing.",
+    "Can we reallocate part of the travel budget to the training program?",
+    "Because of the hiring freeze, we will not add any new staff this year.",
+    "Please keep a small contingency in case we have unexpected costs."
+  ]
+}
