@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-07",
+  "track": "sales",
+  "theme": "Xử lý khi khách từ chối",
+  "vocab": [
+    { "word": "hesitant", "ipa": "/ˈhezɪtənt/", "meaning_vi": "do dự, ngần ngại", "example": "The client seemed hesitant because they had a bad experience with another vendor.", "example_vi": "Khách hàng có vẻ do dự vì họ từng có trải nghiệm không tốt với nhà cung cấp khác." },
+    { "word": "trial period", "ipa": "/ˈtraɪəl ˈpɪəriəd/", "meaning_vi": "thời gian dùng thử", "example": "We offer a 30-day trial period, so you can test the software first.", "example_vi": "Chúng tôi có 30 ngày dùng thử để anh chị trải nghiệm phần mềm trước." },
+    { "word": "address", "ipa": "/əˈdres/", "meaning_vi": "giải quyết, xử lý (một mối lo ngại)", "example": "Let me address your concern about data security first.", "example_vi": "Để tôi giải đáp mối lo của anh về bảo mật dữ liệu trước." },
+    { "word": "switch", "ipa": "/swɪtʃ/", "meaning_vi": "chuyển đổi (sang nhà cung cấp khác)", "example": "Many customers switch to us because our support team is faster.", "example_vi": "Nhiều khách hàng chuyển sang chúng tôi vì đội hỗ trợ của chúng tôi nhanh hơn." },
+    { "word": "lock in", "ipa": "/lɒk ɪn/", "meaning_vi": "chốt, giữ cố định (giá, điều khoản)", "example": "If you sign this month, you can lock in the current price for two years.", "example_vi": "Nếu ký trong tháng này, anh chị có thể chốt mức giá hiện tại trong hai năm." },
+    { "word": "hidden cost", "ipa": "/ˈhɪdn kɒst/", "meaning_vi": "chi phí ẩn", "example": "Our price includes training, so there are no hidden costs.", "example_vi": "Giá của chúng tôi đã bao gồm đào tạo nên không có chi phí ẩn." },
+    { "word": "risk-free", "ipa": "/ˌrɪsk ˈfriː/", "meaning_vi": "không rủi ro", "example": "You can cancel anytime in the first month, so it's completely risk-free.", "example_vi": "Anh chị có thể huỷ bất cứ lúc nào trong tháng đầu nên hoàn toàn không rủi ro." },
+    { "word": "track record", "ipa": "/ˈtræk ˌrekɔːd/", "meaning_vi": "thành tích, lịch sử hoạt động đã được chứng minh", "example": "We have a strong track record with logistics companies in Vietnam.", "example_vi": "Chúng tôi có thành tích tốt với các công ty logistics tại Việt Nam." }
+  ],
+  "listening": {
+    "title": "Handling a customer who says no",
+    "lines": [
+      { "speaker": "Phương (Account Executive)", "voice": "female", "text": "Mr. Hải, thank you for the meeting last week. Have you had time to think about our proposal?" },
+      { "speaker": "Hải (Operations Director)", "voice": "male", "text": "Yes, but honestly, we're not ready to change. Our current system is old, but it works." },
+      { "speaker": "Phương (Account Executive)", "voice": "female", "text": "I understand. Changing systems is a big decision. May I ask what worries you the most?" },
+      { "speaker": "Hải (Operations Director)", "voice": "male", "text": "Two things. The price, and the time my team needs to learn something new." },
+      { "speaker": "Phương (Account Executive)", "voice": "female", "text": "Let me address the training first. We provide two free training sessions, so there are no hidden costs." },
+      { "speaker": "Hải (Operations Director)", "voice": "male", "text": "That helps. But the monthly fee is still higher than what we pay now." },
+      { "speaker": "Phương (Account Executive)", "voice": "female", "text": "That's fair. Our other clients saved about ten hours a week after they switched. That time has real value." },
+      { "speaker": "Hải (Operations Director)", "voice": "male", "text": "Maybe. I'm still a bit hesitant, though." },
+      { "speaker": "Phương (Account Executive)", "voice": "female", "text": "Then how about a 30-day trial period? If it doesn't work for your team, you can cancel. It's risk-free." },
+      { "speaker": "Hải (Operations Director)", "voice": "male", "text": "OK, a trial sounds reasonable. Please send me the details by email." }
+    ],
+    "questions": [
+      { "q": "What are Mr. Hải's two main concerns?", "options": ["The price and the training time", "Data security and support", "The contract length and the payment method"], "answer": 0 },
+      { "q": "How does Phương respond to the price concern?", "options": ["She offers a big discount", "She explains how much time other clients saved", "She says the price will go down next year"], "answer": 1 },
+      { "q": "What does Mr. Hải agree to at the end?", "options": ["Sign a two-year contract", "Meet the CEO next week", "Try the product for 30 days"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I understand your concern; may I ask what worries you the most about changing?",
+    "Let me address the price first, because there are no hidden costs in our offer.",
+    "Many of our clients were hesitant at first, but they saved time after switching.",
+    "How about a free trial period, so your team can test it without any risk?",
+    "If you sign before the end of the month, you can lock in this price."
+  ]
+}

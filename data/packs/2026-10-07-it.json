@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-07",
+  "track": "it",
+  "theme": "Code review & pull requests",
+  "vocab": [
+    { "word": "suggestion", "ipa": "/səˈdʒestʃən/", "meaning_vi": "gợi ý, đề xuất", "example": "I left a small suggestion on line 40 of your pull request.", "example_vi": "Mình để lại một gợi ý nhỏ ở dòng 40 trong pull request của bạn." },
+    { "word": "naming", "ipa": "/ˈneɪmɪŋ/", "meaning_vi": "cách đặt tên (biến, hàm)", "example": "The logic is fine, but the naming could be clearer.", "example_vi": "Logic ổn rồi, nhưng cách đặt tên có thể rõ ràng hơn." },
+    { "word": "hardcode", "ipa": "/ˈhɑːdkəʊd/", "meaning_vi": "gán cứng giá trị trong code", "example": "Please don't hardcode the API URL; put it in the config file.", "example_vi": "Đừng gán cứng URL của API nhé, hãy đưa nó vào file cấu hình." },
+    { "word": "nested", "ipa": "/ˈnestɪd/", "meaning_vi": "lồng nhau", "example": "This function has four nested if statements, so it is hard to read.", "example_vi": "Hàm này có bốn câu lệnh if lồng nhau nên rất khó đọc." },
+    { "word": "best practice", "ipa": "/best ˈpræktɪs/", "meaning_vi": "cách làm tốt nhất, thông lệ chuẩn", "example": "It is best practice to write a short description for every pull request.", "example_vi": "Viết mô tả ngắn cho mỗi pull request là thông lệ chuẩn." },
+    { "word": "self-explanatory", "ipa": "/ˌself ɪkˈsplænətri/", "meaning_vi": "tự giải thích được, dễ hiểu không cần chú thích", "example": "Good function names make the code self-explanatory.", "example_vi": "Tên hàm tốt giúp code tự giải thích được." },
+    { "word": "nice catch", "ipa": "/naɪs kætʃ/", "meaning_vi": "phát hiện hay đấy (khen ai tìm ra lỗi)", "example": "Nice catch! I didn't notice that the list could be empty.", "example_vi": "Phát hiện hay đấy! Mình không để ý là danh sách có thể rỗng." },
+    { "word": "redundant", "ipa": "/rɪˈdʌndənt/", "meaning_vi": "thừa, không cần thiết", "example": "This null check is redundant because the value is validated earlier.", "example_vi": "Đoạn kiểm tra null này thừa vì giá trị đã được kiểm tra trước đó." }
+  ],
+  "listening": {
+    "title": "Reviewing a pull request together",
+    "lines": [
+      { "speaker": "Khoa (Senior Developer)", "voice": "male", "text": "Hi Thảo, do you have ten minutes? I want to go through my comments on your pull request." },
+      { "speaker": "Thảo (Developer)", "voice": "female", "text": "Sure, Khoa. I saw you left quite a few comments. Is it that bad?" },
+      { "speaker": "Khoa (Senior Developer)", "voice": "male", "text": "Not at all. The feature works well. Most comments are small suggestions about naming and structure." },
+      { "speaker": "Thảo (Developer)", "voice": "female", "text": "OK. What is the most important one?" },
+      { "speaker": "Khoa (Senior Developer)", "voice": "male", "text": "You hardcoded the timeout value. It should come from the config file, so we can change it without a new release." },
+      { "speaker": "Thảo (Developer)", "voice": "female", "text": "Good point. I'll move it to the config. What about the payment function?" },
+      { "speaker": "Khoa (Senior Developer)", "voice": "male", "text": "It has too many nested conditions. Could you use early returns? It will be much easier to read." },
+      { "speaker": "Thảo (Developer)", "voice": "female", "text": "Yes, I can do that. By the way, I think the second null check in your comment is actually needed." },
+      { "speaker": "Khoa (Senior Developer)", "voice": "male", "text": "Oh, you're right. The value can be empty when the user logs out. Nice catch, I'll remove that comment." },
+      { "speaker": "Thảo (Developer)", "voice": "female", "text": "Thanks. I'll push the changes this afternoon and ask you to review again." }
+    ],
+    "questions": [
+      { "q": "What does Khoa think about the feature overall?", "options": ["It works well and needs only small changes", "It must be rewritten from the beginning", "It is not ready to be reviewed"], "answer": 0 },
+      { "q": "Why should the timeout value go into the config file?", "options": ["To make the code run faster", "So the team can change it without a new release", "Because the client asked for it"], "answer": 1 },
+      { "q": "What did Thảo point out to Khoa?", "options": ["His naming was confusing", "The deadline was too short", "One of his comments about the null check was wrong"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Thanks for the review, I'll fix the naming and push again this afternoon.",
+    "Could you take a look at my pull request when you have a minute?",
+    "This part looks good to me, but I left a few small suggestions.",
+    "I think we can simplify this function by using an early return here.",
+    "Let's not hardcode this value; it should come from the environment config."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-07",
+  "track": "office",
+  "theme": "Xin nghỉ phép & bàn giao",
+  "vocab": [
+    { "word": "personal leave", "ipa": "/ˈpɜːsənl liːv/", "meaning_vi": "nghỉ phép việc riêng", "example": "I'd like to take two days of personal leave next week.", "example_vi": "Tôi muốn xin nghỉ hai ngày phép việc riêng vào tuần sau." },
+    { "word": "out sick", "ipa": "/aʊt sɪk/", "meaning_vi": "nghỉ ốm", "example": "Lan is out sick today, so the meeting has moved to Friday.", "example_vi": "Hôm nay Lan nghỉ ốm nên cuộc họp đã dời sang thứ Sáu." },
+    { "word": "brief", "ipa": "/briːf/", "meaning_vi": "tóm tắt, dặn dò ngắn gọn cho ai đó", "example": "Before I leave, I'll brief Quân on the open tasks.", "example_vi": "Trước khi nghỉ, tôi sẽ dặn dò Quân về các việc đang dở." },
+    { "word": "key contact", "ipa": "/kiː ˈkɒntækt/", "meaning_vi": "người liên hệ chính", "example": "Mr. Bình is the key contact at the supplier, so please email him directly.", "example_vi": "Anh Bình là người liên hệ chính bên nhà cung cấp, hãy email trực tiếp cho anh ấy." },
+    { "word": "handle", "ipa": "/ˈhændl/", "meaning_vi": "xử lý, phụ trách", "example": "Can you handle the weekly report while I'm away?", "example_vi": "Bạn có thể phụ trách báo cáo tuần trong lúc tôi vắng mặt không?" },
+    { "word": "unreachable", "ipa": "/ʌnˈriːtʃəbl/", "meaning_vi": "không liên lạc được", "example": "I'll be unreachable on Thursday because I'm flying to Da Nang.", "example_vi": "Thứ Năm tôi sẽ không liên lạc được vì phải bay ra Đà Nẵng." },
+    { "word": "step in", "ipa": "/step ɪn/", "meaning_vi": "đứng ra hỗ trợ, thay thế", "example": "If the client calls, Hương can step in and answer their questions.", "example_vi": "Nếu khách gọi, Hương có thể đứng ra trả lời câu hỏi của họ." },
+    { "word": "family matter", "ipa": "/ˈfæməli ˈmætə/", "meaning_vi": "việc gia đình", "example": "I need to leave early today because of a family matter.", "example_vi": "Hôm nay tôi cần về sớm vì có việc gia đình." }
+  ],
+  "listening": {
+    "title": "Asking for leave and handing over work",
+    "lines": [
+      { "speaker": "Ngọc (Admin Executive)", "voice": "female", "text": "Hi Mr. Tuấn, do you have a moment? I'd like to ask about taking some leave." },
+      { "speaker": "Tuấn (Office Manager)", "voice": "male", "text": "Of course, Ngọc. What dates are you thinking of?" },
+      { "speaker": "Ngọc (Admin Executive)", "voice": "female", "text": "Next Thursday and Friday. I have a family matter in my hometown, so I need two days of personal leave." },
+      { "speaker": "Tuấn (Office Manager)", "voice": "male", "text": "That should be fine. But the office supply order is due on Friday. Who will handle it?" },
+      { "speaker": "Ngọc (Admin Executive)", "voice": "female", "text": "I've asked Duy to step in. I'll brief him on Wednesday and share the supplier list with him." },
+      { "speaker": "Tuấn (Office Manager)", "voice": "male", "text": "Good. Does he know who the key contact at the supplier is?" },
+      { "speaker": "Ngọc (Admin Executive)", "voice": "female", "text": "Not yet. I'll write it in my handover document, together with the phone number." },
+      { "speaker": "Tuấn (Office Manager)", "voice": "male", "text": "Great. Will you be able to check email while you're away?" },
+      { "speaker": "Ngọc (Admin Executive)", "voice": "female", "text": "I'll be unreachable on Thursday, but I can check messages on Friday evening if something is urgent." },
+      { "speaker": "Tuấn (Office Manager)", "voice": "male", "text": "No problem. Please submit the request in the HR system today, and I'll approve it." }
+    ],
+    "questions": [
+      { "q": "Why does Ngọc need to take leave?", "options": ["She is out sick", "She has a family matter in her hometown", "She is going on a business trip"], "answer": 1 },
+      { "q": "Who will handle the office supply order?", "options": ["Duy", "Mr. Tuấn", "The supplier"], "answer": 0 },
+      { "q": "What does Mr. Tuấn ask Ngọc to do today?", "options": ["Call the supplier", "Finish the supply order early", "Submit the leave request in the HR system"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I'd like to take two days of personal leave next Thursday and Friday.",
+    "I'll brief Duy on Wednesday so he can handle things while I'm away.",
+    "All the details and key contacts are in my handover document on the drive.",
+    "I'll be unreachable on Thursday, but I'll check messages on Friday evening.",
+    "If anything urgent comes up, please contact Duy first, then send me a message."
+  ]
+}

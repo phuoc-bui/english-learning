@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-07",
+  "track": "finance",
+  "theme": "Hoá đơn và thanh toán",
+  "vocab": [
+    { "word": "reminder email", "ipa": "/rɪˈmaɪndər ˈiːmeɪl/", "meaning_vi": "email nhắc nhở", "example": "I'll send a polite reminder email to the client about the unpaid invoice.", "example_vi": "Tôi sẽ gửi email nhắc nhở lịch sự cho khách về hoá đơn chưa thanh toán." },
+    { "word": "accounts receivable", "ipa": "/əˈkaʊnts rɪˈsiːvəbl/", "meaning_vi": "khoản phải thu", "example": "Our accounts receivable went up this month because two clients paid late.", "example_vi": "Khoản phải thu tháng này tăng vì hai khách hàng trả chậm." },
+    { "word": "unpaid", "ipa": "/ʌnˈpeɪd/", "meaning_vi": "chưa thanh toán", "example": "There are still three unpaid invoices from August.", "example_vi": "Vẫn còn ba hoá đơn tháng Tám chưa thanh toán." },
+    { "word": "chase", "ipa": "/tʃeɪs/", "meaning_vi": "đôn đốc, nhắc (thanh toán)", "example": "Can you chase ABC Company for the payment this week?", "example_vi": "Tuần này bạn có thể đôn đốc công ty ABC thanh toán không?" },
+    { "word": "billing cycle", "ipa": "/ˈbɪlɪŋ ˈsaɪkl/", "meaning_vi": "chu kỳ xuất hoá đơn", "example": "Our billing cycle starts on the first day of every month.", "example_vi": "Chu kỳ xuất hoá đơn của chúng tôi bắt đầu vào ngày đầu tiên mỗi tháng." },
+    { "word": "payee", "ipa": "/peɪˈiː/", "meaning_vi": "người/đơn vị thụ hưởng", "example": "Please check that the payee name matches the bank account.", "example_vi": "Vui lòng kiểm tra tên người thụ hưởng khớp với tài khoản ngân hàng." },
+    { "word": "pay in full", "ipa": "/peɪ ɪn fʊl/", "meaning_vi": "thanh toán toàn bộ", "example": "The client agreed to pay in full by the end of October.", "example_vi": "Khách hàng đồng ý thanh toán toàn bộ trước cuối tháng Mười." },
+    { "word": "statement of account", "ipa": "/ˈsteɪtmənt əv əˈkaʊnt/", "meaning_vi": "bảng sao kê công nợ", "example": "I've attached a statement of account showing all open invoices.", "example_vi": "Tôi đã đính kèm bảng sao kê công nợ thể hiện tất cả hoá đơn còn mở." }
+  ],
+  "listening": {
+    "title": "Following up on unpaid invoices",
+    "lines": [
+      { "speaker": "Vy (Finance Manager)", "voice": "female", "text": "Đức, I'm reviewing accounts receivable. Why is the number so high this month?" },
+      { "speaker": "Đức (Accountant)", "voice": "male", "text": "Mainly because of Sao Mai Trading. They have two unpaid invoices, one from August and one from September." },
+      { "speaker": "Vy (Finance Manager)", "voice": "female", "text": "August? That's more than thirty days late. Have we chased them?" },
+      { "speaker": "Đức (Accountant)", "voice": "male", "text": "I sent a reminder email last week, but nobody replied." },
+      { "speaker": "Vy (Finance Manager)", "voice": "female", "text": "Then please call their accounting team today. Emails are easy to ignore." },
+      { "speaker": "Đức (Accountant)", "voice": "male", "text": "OK. Should I send them a statement of account as well?" },
+      { "speaker": "Vy (Finance Manager)", "voice": "female", "text": "Yes, good idea. It shows all open invoices in one page, so there is no confusion." },
+      { "speaker": "Đức (Accountant)", "voice": "male", "text": "Also, one of their staff said the payee name on our invoice was wrong last time." },
+      { "speaker": "Vy (Finance Manager)", "voice": "female", "text": "Please double-check that. If our details are wrong, their bank may reject the transfer." },
+      { "speaker": "Đức (Accountant)", "voice": "male", "text": "I'll check it now and ask them to pay in full before the end of our billing cycle." }
+    ],
+    "questions": [
+      { "q": "Why are accounts receivable high this month?", "options": ["A client has two unpaid invoices", "The company bought new equipment", "The bank made a mistake"], "answer": 0 },
+      { "q": "What does Vy ask Đức to do today?", "options": ["Send another email", "Call the client's accounting team", "Cancel the September invoice"], "answer": 1 },
+      { "q": "Why should Đức check the payee name?", "options": ["The client wants a discount", "The invoice was sent to the wrong company", "A wrong name may cause the bank to reject the payment"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I'm calling about two unpaid invoices from August and September on your account.",
+    "I've attached a statement of account that shows all your open invoices.",
+    "Could you confirm when your team will be able to pay in full?",
+    "Please make sure the payee name matches the bank account on our invoice.",
+    "I sent a reminder email last week, but I haven't received a reply yet."
+  ]
+}

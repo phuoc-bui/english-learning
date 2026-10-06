@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-07",
+  "track": "interview",
+  "theme": "Kể về dự án đáng nhớ",
+  "vocab": [
+    { "word": "launch", "ipa": "/lɔːntʃ/", "meaning_vi": "ra mắt, triển khai (sản phẩm)", "example": "We launched the new mobile app two weeks before the deadline.", "example_vi": "Chúng tôi ra mắt ứng dụng di động mới sớm hai tuần so với hạn." },
+    { "word": "end user", "ipa": "/end ˈjuːzə/", "meaning_vi": "người dùng cuối", "example": "I always talk to end users before I design a new feature.", "example_vi": "Tôi luôn trao đổi với người dùng cuối trước khi thiết kế tính năng mới." },
+    { "word": "migrate", "ipa": "/maɪˈɡreɪt/", "meaning_vi": "chuyển đổi, di chuyển (dữ liệu, hệ thống)", "example": "My team migrated two million customer records to the cloud.", "example_vi": "Nhóm tôi đã chuyển hai triệu bản ghi khách hàng lên cloud." },
+    { "word": "legacy system", "ipa": "/ˈleɡəsi ˈsɪstəm/", "meaning_vi": "hệ thống cũ (đang được thay thế)", "example": "The legacy system was slow and very difficult to maintain.", "example_vi": "Hệ thống cũ chạy chậm và rất khó bảo trì." },
+    { "word": "bottleneck", "ipa": "/ˈbɒtlnek/", "meaning_vi": "điểm nghẽn", "example": "I found that the database was the main bottleneck in the process.", "example_vi": "Tôi phát hiện cơ sở dữ liệu là điểm nghẽn chính trong quy trình." },
+    { "word": "streamline", "ipa": "/ˈstriːmlaɪn/", "meaning_vi": "tinh gọn, tối ưu hoá (quy trình)", "example": "We streamlined the approval process from five steps to two.", "example_vi": "Chúng tôi tinh gọn quy trình phê duyệt từ năm bước còn hai bước." },
+    { "word": "result in", "ipa": "/rɪˈzʌlt ɪn/", "meaning_vi": "dẫn đến, mang lại (kết quả)", "example": "The change resulted in a 40 percent drop in loading time.", "example_vi": "Thay đổi đó giúp thời gian tải giảm 40 phần trăm." },
+    { "word": "spearhead", "ipa": "/ˈspɪəhed/", "meaning_vi": "dẫn dắt, đi đầu (một dự án)", "example": "I spearheaded the project to automate our monthly reports.", "example_vi": "Tôi dẫn dắt dự án tự động hoá báo cáo hàng tháng." }
+  ],
+  "listening": {
+    "title": "Talking about a memorable project",
+    "lines": [
+      { "speaker": "Ms. Hạnh (Interviewer)", "voice": "female", "text": "Can you tell me about a project you're really proud of?" },
+      { "speaker": "Long (Candidate)", "voice": "male", "text": "Sure. Last year, I spearheaded a project to replace our legacy system for managing orders." },
+      { "speaker": "Ms. Hạnh (Interviewer)", "voice": "female", "text": "What was the problem with the old system?" },
+      { "speaker": "Long (Candidate)", "voice": "male", "text": "It was very slow. During sales events, it could take one minute to confirm an order, and customers complained a lot." },
+      { "speaker": "Ms. Hạnh (Interviewer)", "voice": "female", "text": "So what did you do?" },
+      { "speaker": "Long (Candidate)", "voice": "male", "text": "First, I found the bottleneck. It was the way we saved data. Then my team of four built a new service and migrated all the data step by step." },
+      { "speaker": "Ms. Hạnh (Interviewer)", "voice": "female", "text": "Moving data can be risky. How did you avoid problems?" },
+      { "speaker": "Long (Candidate)", "voice": "male", "text": "We ran both systems at the same time for two weeks and compared the results every day. We also asked end users to test it early." },
+      { "speaker": "Ms. Hạnh (Interviewer)", "voice": "female", "text": "And what was the result?" },
+      { "speaker": "Long (Candidate)", "voice": "male", "text": "We launched on time, and it resulted in orders being confirmed in under three seconds. Complaints dropped by about seventy percent." }
+    ],
+    "questions": [
+      { "q": "What was the main problem with the old system?", "options": ["It was too slow to confirm orders", "It was too expensive", "Nobody knew how to use it"], "answer": 0 },
+      { "q": "How did Long's team reduce the risk of moving data?", "options": ["They hired an outside company", "They ran both systems together and compared results", "They moved all the data in one night"], "answer": 1 },
+      { "q": "What happened after the launch?", "options": ["The project was delayed", "Sales events were cancelled", "Complaints dropped by about seventy percent"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Last year, I spearheaded a project to replace our slow legacy order system.",
+    "The situation was difficult because customers waited one minute to confirm each order.",
+    "My task was to find the bottleneck and fix it without stopping daily sales.",
+    "We migrated the data step by step and tested it with real end users.",
+    "As a result, we launched on time and complaints dropped by seventy percent."
+  ]
+}
