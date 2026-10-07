@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-08",
+  "track": "sales",
+  "theme": "Đàm phán giá & điều khoản",
+  "vocab": [
+    { "word": "counteroffer", "ipa": "/ˈkaʊntərˌɒfə/", "meaning_vi": "đề nghị ngược lại, giá đối ứng", "example": "The client made a counteroffer of eight hundred dollars per month.", "example_vi": "Khách hàng đưa ra giá đối ứng là 800 đô mỗi tháng." },
+    { "word": "walk-away price", "ipa": "/ˈwɔːk əweɪ praɪs/", "meaning_vi": "mức giá tối thiểu (dưới mức này sẽ không bán)", "example": "Before the meeting, agree on our walk-away price with the sales director.", "example_vi": "Trước buổi họp, hãy thống nhất giá tối thiểu với giám đốc kinh doanh." },
+    { "word": "price increase", "ipa": "/praɪs ˈɪŋkriːs/", "meaning_vi": "việc tăng giá", "example": "There will be a five percent price increase from January next year.", "example_vi": "Từ tháng Một năm sau sẽ tăng giá 5%." },
+    { "word": "multi-year deal", "ipa": "/ˌmʌlti ˈjɪə diːl/", "meaning_vi": "hợp đồng nhiều năm", "example": "If you sign a multi-year deal, we can keep the current price.", "example_vi": "Nếu anh ký hợp đồng nhiều năm, chúng tôi có thể giữ giá hiện tại." },
+    { "word": "volume pricing", "ipa": "/ˈvɒljuːm ˈpraɪsɪŋ/", "meaning_vi": "giá theo số lượng", "example": "With volume pricing, the price per user drops after one hundred users.", "example_vi": "Với giá theo số lượng, giá mỗi người dùng giảm sau 100 người dùng." },
+    { "word": "middle ground", "ipa": "/ˌmɪdl ˈɡraʊnd/", "meaning_vi": "điểm trung gian, giải pháp dung hoà", "example": "Let's find a middle ground between your budget and our list price.", "example_vi": "Hãy tìm điểm trung gian giữa ngân sách của anh và giá niêm yết của chúng tôi." },
+    { "word": "procurement team", "ipa": "/prəˈkjʊəmənt tiːm/", "meaning_vi": "bộ phận mua hàng", "example": "Their procurement team needs three quotes before they can sign.", "example_vi": "Bộ phận mua hàng của họ cần ba báo giá trước khi ký." },
+    { "word": "price freeze", "ipa": "/praɪs friːz/", "meaning_vi": "giữ nguyên giá (không tăng)", "example": "We can offer a two-year price freeze if you pay annually.", "example_vi": "Chúng tôi có thể giữ nguyên giá hai năm nếu anh thanh toán theo năm." }
+  ],
+  "listening": {
+    "title": "Negotiating a renewal with a logistics client",
+    "lines": [
+      { "speaker": "Ông Hùng (Client, Operations Director)", "voice": "male", "text": "Hoa, your new quote is ten percent higher than last year. That's hard for us to accept." },
+      { "speaker": "Hoa (Account Manager)", "voice": "female", "text": "I understand. Part of it is our yearly price increase, and part is the twenty new users you added." },
+      { "speaker": "Ông Hùng (Client, Operations Director)", "voice": "male", "text": "Our budget is fixed. Our counteroffer is to keep last year's total price." },
+      { "speaker": "Hoa (Account Manager)", "voice": "female", "text": "Let's find a middle ground. With volume pricing, the extra users would cost less each." },
+      { "speaker": "Ông Hùng (Client, Operations Director)", "voice": "male", "text": "How much less are we talking about?" },
+      { "speaker": "Hoa (Account Manager)", "voice": "female", "text": "About fifteen percent per user. And if you sign a multi-year deal, I can add a price freeze for two years." },
+      { "speaker": "Ông Hùng (Client, Operations Director)", "voice": "male", "text": "Two years without changes is attractive. But I need to check with our procurement team." },
+      { "speaker": "Hoa (Account Manager)", "voice": "female", "text": "Of course. I'll send a revised quote with both options today." },
+      { "speaker": "Ông Hùng (Client, Operations Director)", "voice": "male", "text": "Thank you. Please make the difference between the two options very clear." },
+      { "speaker": "Hoa (Account Manager)", "voice": "female", "text": "Sure, I'll put them side by side in one table so it's easy to compare." }
+    ],
+    "questions": [
+      { "q": "What is the client's counteroffer?", "options": ["Keep last year's total price", "Remove twenty users", "Pay monthly instead of yearly"], "answer": 0 },
+      { "q": "What does Hoa offer with a multi-year deal?", "options": ["A free training session", "A two-year price freeze", "Ten extra users"], "answer": 1 },
+      { "q": "Who must the client check with before deciding?", "options": ["The finance director", "The IT team", "The procurement team"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "I understand your budget is fixed, so let's try to find a middle ground.",
+    "With volume pricing, each extra user would cost you about fifteen percent less.",
+    "If you sign a multi-year deal, we can freeze the price for two years.",
+    "I'll send a revised quote with both options before the end of today.",
+    "Please take your time and check the details with your procurement team first."
+  ]
+}

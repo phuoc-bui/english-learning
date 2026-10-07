@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-08",
+  "track": "office",
+  "theme": "Báo cáo với sếp",
+  "vocab": [
+    { "word": "deliverable", "ipa": "/dɪˈlɪvərəbl/", "meaning_vi": "sản phẩm/kết quả cần bàn giao", "example": "The main deliverable this month is the new training handbook.", "example_vi": "Kết quả chính cần bàn giao tháng này là cuốn sổ tay đào tạo mới." },
+    { "word": "target date", "ipa": "/ˈtɑːɡɪt deɪt/", "meaning_vi": "ngày mục tiêu, hạn dự kiến", "example": "Our target date for the office move is the fifteenth of November.", "example_vi": "Ngày mục tiêu cho việc chuyển văn phòng là ngày 15 tháng 11." },
+    { "word": "on schedule", "ipa": "/ɒn ˈʃedjuːl/", "meaning_vi": "đúng tiến độ", "example": "The supplier contract is on schedule, so we can sign it next week.", "example_vi": "Hợp đồng nhà cung cấp đang đúng tiến độ nên tuần sau có thể ký." },
+    { "word": "snapshot", "ipa": "/ˈsnæpʃɒt/", "meaning_vi": "bức tranh tổng quan nhanh", "example": "This slide gives you a quick snapshot of where each project is.", "example_vi": "Slide này cho chị bức tranh tổng quan nhanh về tình hình từng dự án." },
+    { "word": "main achievement", "ipa": "/meɪn əˈtʃiːvmənt/", "meaning_vi": "thành tích chính", "example": "Our main achievement this quarter was cutting printing costs by twenty percent.", "example_vi": "Thành tích chính quý này là cắt giảm chi phí in ấn 20%." },
+    { "word": "follow through", "ipa": "/ˌfɒləʊ ˈθruː/", "meaning_vi": "làm đến nơi đến chốn", "example": "I promised to update the contact list, and I will follow through by Friday.", "example_vi": "Tôi đã hứa cập nhật danh bạ và sẽ làm xong trước thứ Sáu." },
+    { "word": "support needed", "ipa": "/səˈpɔːt ˈniːdɪd/", "meaning_vi": "hỗ trợ cần thiết (mục trong báo cáo)", "example": "Under 'support needed', I wrote that we need one more person from HR.", "example_vi": "Ở mục 'hỗ trợ cần thiết', tôi ghi là cần thêm một người từ phòng nhân sự." },
+    { "word": "briefing", "ipa": "/ˈbriːfɪŋ/", "meaning_vi": "buổi tóm tắt, báo cáo ngắn", "example": "I'll give the director a short briefing before the board meeting.", "example_vi": "Tôi sẽ báo cáo ngắn với giám đốc trước cuộc họp hội đồng." }
+  ],
+  "listening": {
+    "title": "Monthly report to the admin manager",
+    "lines": [
+      { "speaker": "Chị Mai (Admin Manager)", "voice": "female", "text": "Morning, Nam. Do you have ten minutes to go through your monthly report?" },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "Yes, of course. Let me start with a quick snapshot of the three projects." },
+      { "speaker": "Chị Mai (Admin Manager)", "voice": "female", "text": "Great. How is the office move going?" },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "It's on schedule. The target date is still the fifteenth of November." },
+      { "speaker": "Chị Mai (Admin Manager)", "voice": "female", "text": "Good to hear. And the new training handbook?" },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "That deliverable is a bit late. The HR team hasn't sent me the leave policy section yet." },
+      { "speaker": "Chị Mai (Admin Manager)", "voice": "female", "text": "I see. Do you need me to talk to them?" },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "Yes, please. I put it under 'support needed'. A short message from you would really help." },
+      { "speaker": "Chị Mai (Admin Manager)", "voice": "female", "text": "No problem. What was your main achievement this month?" },
+      { "speaker": "Nam (Admin Officer)", "voice": "male", "text": "We cut printing costs by twenty percent. I'll add the numbers to your briefing for the director." }
+    ],
+    "questions": [
+      { "q": "What is the target date for the office move?", "options": ["The fifteenth of November", "The end of October", "The first of December"], "answer": 0 },
+      { "q": "Why is the training handbook late?", "options": ["Nam was on leave", "The printer was broken", "HR hasn't sent one section yet"], "answer": 2 },
+      { "q": "What was Nam's main achievement?", "options": ["Hiring two new staff", "Cutting printing costs by twenty percent", "Finishing the office move early"], "answer": 1 }
+    ]
+  },
+  "shadowing": [
+    "Let me start with a quick snapshot of where each project is right now.",
+    "The office move is on schedule, and the target date has not changed.",
+    "This deliverable is a bit late because I am still waiting for HR.",
+    "Could you send them a short message? It would really help us move faster.",
+    "I'll add these numbers to your briefing before you meet the director tomorrow."
+  ]
+}

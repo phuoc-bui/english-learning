@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-08",
+  "track": "it",
+  "theme": "Báo cáo tiến độ với sếp",
+  "vocab": [
+    { "word": "burndown chart", "ipa": "/ˈbɜːndaʊn tʃɑːt/", "meaning_vi": "biểu đồ burndown (lượng việc còn lại theo thời gian)", "example": "Our burndown chart shows we still have about twenty story points left.", "example_vi": "Biểu đồ burndown cho thấy chúng ta vẫn còn khoảng hai mươi story point." },
+    { "word": "demo-ready", "ipa": "/ˈdeməʊ ˌredi/", "meaning_vi": "sẵn sàng để demo", "example": "The login flow will be demo-ready by Thursday afternoon.", "example_vi": "Luồng đăng nhập sẽ sẵn sàng để demo vào chiều thứ Năm." },
+    { "word": "weekly check-in", "ipa": "/ˈwiːkli ˈtʃek ɪn/", "meaning_vi": "buổi cập nhật hàng tuần", "example": "Let's talk about the API delay in our weekly check-in on Monday.", "example_vi": "Hãy nói về việc chậm API trong buổi cập nhật hàng tuần vào thứ Hai nhé." },
+    { "word": "at risk", "ipa": "/ət rɪsk/", "meaning_vi": "có nguy cơ (trễ, thất bại)", "example": "The payment feature is at risk because the bank sandbox is still down.", "example_vi": "Tính năng thanh toán có nguy cơ trễ vì sandbox của ngân hàng vẫn đang lỗi." },
+    { "word": "green light", "ipa": "/ˌɡriːn ˈlaɪt/", "meaning_vi": "sự cho phép, bật đèn xanh", "example": "We need your green light before we start the database migration.", "example_vi": "Chúng em cần anh bật đèn xanh trước khi bắt đầu chuyển đổi database." },
+    { "word": "overrun", "ipa": "/ˈəʊvərʌn/", "meaning_vi": "sự vượt quá (thời gian, chi phí)", "example": "We expect a two-day overrun on the reporting module.", "example_vi": "Chúng em dự kiến module báo cáo sẽ vượt hai ngày so với kế hoạch." },
+    { "word": "realistic estimate", "ipa": "/ˌrɪəˈlɪstɪk ˈestɪmət/", "meaning_vi": "ước lượng thực tế", "example": "A realistic estimate for the search feature is two sprints, not one.", "example_vi": "Ước lượng thực tế cho tính năng tìm kiếm là hai sprint, không phải một." },
+    { "word": "mitigation", "ipa": "/ˌmɪtɪˈɡeɪʃn/", "meaning_vi": "biện pháp giảm thiểu rủi ro", "example": "As a mitigation, Hoa will write mock data so the front end can continue.", "example_vi": "Để giảm thiểu rủi ro, Hoa sẽ viết dữ liệu giả để front end tiếp tục làm." }
+  ],
+  "listening": {
+    "title": "Weekly progress update with the engineering manager",
+    "lines": [
+      { "speaker": "Anh Tuấn (Engineering Manager)", "voice": "male", "text": "Hi Linh, thanks for joining. Can you give me a quick update on the mobile app release?" },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Sure. Overall we are about seventy percent done. The burndown chart looks fine for most tasks." },
+      { "speaker": "Anh Tuấn (Engineering Manager)", "voice": "male", "text": "Good. Is anything at risk for the release on the twentieth?" },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Yes, the payment feature. The bank's test environment has been down since Monday, so we can't test it." },
+      { "speaker": "Anh Tuấn (Engineering Manager)", "voice": "male", "text": "I see. What is your mitigation plan?" },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Hoa is writing mock data, so the front end can keep going. But I think we will have a two-day overrun." },
+      { "speaker": "Anh Tuấn (Engineering Manager)", "voice": "male", "text": "Two days is okay if you tell the product team early. What about the new dashboard?" },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "The dashboard will be demo-ready on Thursday. Could we show it to the client on Friday?" },
+      { "speaker": "Anh Tuấn (Engineering Manager)", "voice": "male", "text": "Yes, you have my green light. Just send me the demo link the day before." },
+      { "speaker": "Linh (Team Lead)", "voice": "female", "text": "Will do. I'll also share a realistic estimate for the payment work in our weekly check-in." }
+    ],
+    "questions": [
+      { "q": "Why is the payment feature at risk?", "options": ["The developer is on leave", "The bank's test environment is down", "The client changed the requirements"], "answer": 1 },
+      { "q": "What is the mitigation plan?", "options": ["Hoa will write mock data", "They will remove the feature", "They will hire a new tester"], "answer": 0 },
+      { "q": "When can the dashboard be shown to the client?", "options": ["On Thursday", "On Monday", "On Friday"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Overall we are on schedule, but one feature is at risk this week.",
+    "The bank sandbox is still down, so we cannot test the payment flow.",
+    "As a mitigation, we will use mock data and keep the front end moving.",
+    "I want to give you a heads-up early, not on the day before release.",
+    "Could I get your green light to start the migration on Wednesday night?"
+  ]
+}

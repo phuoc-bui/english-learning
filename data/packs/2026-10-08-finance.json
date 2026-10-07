@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-08",
+  "track": "finance",
+  "theme": "Làm việc với kiểm toán",
+  "vocab": [
+    { "word": "year-end close", "ipa": "/ˌjɪər end ˈkləʊz/", "meaning_vi": "khoá sổ cuối năm", "example": "We need to finish the year-end close before the auditors arrive in January.", "example_vi": "Chúng ta cần hoàn tất khoá sổ cuối năm trước khi kiểm toán đến vào tháng Một." },
+    { "word": "audit fieldwork", "ipa": "/ˈɔːdɪt ˈfiːldwɜːk/", "meaning_vi": "giai đoạn kiểm toán tại công ty", "example": "The audit fieldwork will take two weeks at our head office.", "example_vi": "Giai đoạn kiểm toán tại chỗ sẽ kéo dài hai tuần ở trụ sở chính." },
+    { "word": "fixed asset register", "ipa": "/ˌfɪkst ˈæset ˈredʒɪstə/", "meaning_vi": "sổ theo dõi tài sản cố định", "example": "Please update the fixed asset register with the new laptops we bought.", "example_vi": "Hãy cập nhật sổ tài sản cố định với số laptop mới mua." },
+    { "word": "request list", "ipa": "/rɪˈkwest lɪst/", "meaning_vi": "danh sách tài liệu kiểm toán yêu cầu", "example": "The auditors sent a request list with forty documents they need.", "example_vi": "Kiểm toán gửi danh sách yêu cầu gồm 40 tài liệu họ cần." },
+    { "word": "cut-off test", "ipa": "/ˈkʌt ɒf test/", "meaning_vi": "kiểm tra tính đúng kỳ", "example": "For the cut-off test, they will check invoices from the last week of December.", "example_vi": "Để kiểm tra tính đúng kỳ, họ sẽ xem hoá đơn của tuần cuối tháng 12." },
+    { "word": "bank confirmation", "ipa": "/bæŋk ˌkɒnfəˈmeɪʃn/", "meaning_vi": "thư xác nhận số dư ngân hàng", "example": "We are still waiting for the bank confirmation from one of our banks.", "example_vi": "Chúng ta vẫn đang chờ thư xác nhận số dư từ một ngân hàng." },
+    { "word": "physical count", "ipa": "/ˈfɪzɪkl kaʊnt/", "meaning_vi": "kiểm kê thực tế", "example": "The auditors will join our physical count at the warehouse on the thirty-first.", "example_vi": "Kiểm toán sẽ tham gia kiểm kê thực tế tại kho vào ngày 31." },
+    { "word": "going concern", "ipa": "/ˌɡəʊɪŋ kənˈsɜːn/", "meaning_vi": "giả định hoạt động liên tục", "example": "With strong cash flow, there is no going concern issue this year.", "example_vi": "Với dòng tiền tốt, năm nay không có vấn đề về giả định hoạt động liên tục." }
+  ],
+  "listening": {
+    "title": "Planning meeting with the external auditor",
+    "lines": [
+      { "speaker": "Chị Thu (Audit Senior)", "voice": "female", "text": "Hi Minh, thanks for meeting us. We'd like to agree on the plan for this year's audit." },
+      { "speaker": "Minh (Chief Accountant)", "voice": "male", "text": "Sure. Our year-end close should be done by the tenth of January." },
+      { "speaker": "Chị Thu (Audit Senior)", "voice": "female", "text": "Great. Then we can start the audit fieldwork on the fifteenth. I'll send our request list next week." },
+      { "speaker": "Minh (Chief Accountant)", "voice": "male", "text": "Please do. Last year the list came late, and my team was very busy." },
+      { "speaker": "Chị Thu (Audit Senior)", "voice": "female", "text": "Understood. We'd also like to join your physical count at the warehouse on December thirty-first." },
+      { "speaker": "Minh (Chief Accountant)", "voice": "male", "text": "No problem. The count starts at eight a.m. I'll send you the address." },
+      { "speaker": "Chị Thu (Audit Senior)", "voice": "female", "text": "Thank you. For the cut-off test, please keep all delivery notes from late December in one folder." },
+      { "speaker": "Minh (Chief Accountant)", "voice": "male", "text": "Okay. And should we send the bank confirmation requests, or will you?" },
+      { "speaker": "Chị Thu (Audit Senior)", "voice": "female", "text": "We'll send them, but please sign the authorization letters for each bank by Friday." },
+      { "speaker": "Minh (Chief Accountant)", "voice": "male", "text": "Will do. I'll also make sure the fixed asset register is updated before you arrive." }
+    ],
+    "questions": [
+      { "q": "When will the audit fieldwork start?", "options": ["On January tenth", "On January fifteenth", "On December thirty-first"], "answer": 1 },
+      { "q": "What does the auditor ask Minh to keep in one folder?", "options": ["Delivery notes from late December", "All bank statements", "The fixed asset register"], "answer": 0 },
+      { "q": "What must Minh sign by Friday?", "options": ["The audit contract", "The request list", "Authorization letters for each bank"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Our year-end close should be finished by the tenth of January at the latest.",
+    "Could you send the request list early so my team can prepare in time?",
+    "The physical count at the warehouse starts at eight on December thirty-first.",
+    "Please keep all late December delivery notes in one folder for the cut-off test.",
+    "I'll sign the bank authorization letters and send them back to you by Friday."
+  ]
+}

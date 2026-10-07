@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-08",
+  "track": "interview",
+  "theme": "Xử lý xung đột trong nhóm",
+  "vocab": [
+    { "word": "perspective", "ipa": "/pəˈspektɪv/", "meaning_vi": "góc nhìn, quan điểm", "example": "I asked both colleagues to explain their perspective before we decided anything.", "example_vi": "Tôi đề nghị cả hai đồng nghiệp giải thích quan điểm của họ trước khi quyết định." },
+    { "word": "defuse", "ipa": "/diːˈfjuːz/", "meaning_vi": "xoa dịu, làm giảm căng thẳng", "example": "I suggested a short break to defuse the situation.", "example_vi": "Tôi đề nghị nghỉ ngắn để làm dịu tình hình." },
+    { "word": "miscommunication", "ipa": "/ˌmɪskəˌmjuːnɪˈkeɪʃn/", "meaning_vi": "sự hiểu lầm trong giao tiếp", "example": "The conflict started with a simple miscommunication about the deadline.", "example_vi": "Mâu thuẫn bắt đầu từ một hiểu lầm đơn giản về deadline." },
+    { "word": "one-on-one chat", "ipa": "/ˌwʌn ɒn ˈwʌn tʃæt/", "meaning_vi": "cuộc nói chuyện riêng hai người", "example": "I had a one-on-one chat with him to understand why he was upset.", "example_vi": "Tôi nói chuyện riêng với anh ấy để hiểu vì sao anh ấy không vui." },
+    { "word": "escalate to the manager", "ipa": "/ˈeskəleɪt tə ðə ˈmænɪdʒə/", "meaning_vi": "báo lên quản lý", "example": "I only escalate to the manager when we cannot solve it ourselves.", "example_vi": "Tôi chỉ báo lên quản lý khi chúng tôi không tự giải quyết được." },
+    { "word": "neutral", "ipa": "/ˈnjuːtrəl/", "meaning_vi": "trung lập", "example": "As the team lead, I tried to stay neutral and not take sides.", "example_vi": "Là trưởng nhóm, tôi cố giữ trung lập và không đứng về phía ai." },
+    { "word": "heated", "ipa": "/ˈhiːtɪd/", "meaning_vi": "căng thẳng, nảy lửa", "example": "The discussion became heated when we talked about who caused the delay.", "example_vi": "Cuộc thảo luận trở nên căng thẳng khi nói về việc ai gây ra chậm trễ." },
+    { "word": "win-win", "ipa": "/ˌwɪn ˈwɪn/", "meaning_vi": "đôi bên cùng có lợi", "example": "In the end, we found a win-win solution for both teams.", "example_vi": "Cuối cùng chúng tôi tìm được giải pháp đôi bên cùng có lợi cho cả hai nhóm." }
+  ],
+  "listening": {
+    "title": "Interview question: Tell me about a conflict in your team",
+    "lines": [
+      { "speaker": "Ms. Lan (HR Manager)", "voice": "female", "text": "Quang, can you tell me about a time you handled a conflict in your team?" },
+      { "speaker": "Quang (Candidate)", "voice": "male", "text": "Sure. Last year, two developers on my team had a heated argument during a sprint meeting." },
+      { "speaker": "Ms. Lan (HR Manager)", "voice": "female", "text": "What was the argument about?" },
+      { "speaker": "Quang (Candidate)", "voice": "male", "text": "One thought the other was delaying his work. In fact, it was a miscommunication about the API deadline." },
+      { "speaker": "Ms. Lan (HR Manager)", "voice": "female", "text": "How did you handle it?" },
+      { "speaker": "Quang (Candidate)", "voice": "male", "text": "First, I suggested a short break to defuse the situation. Then I had a one-on-one chat with each of them." },
+      { "speaker": "Ms. Lan (HR Manager)", "voice": "female", "text": "Did you take one person's side?" },
+      { "speaker": "Quang (Candidate)", "voice": "male", "text": "No, I stayed neutral. I listened to each perspective, then we met together and agreed on one shared deadline board." },
+      { "speaker": "Ms. Lan (HR Manager)", "voice": "female", "text": "Did you need to escalate to the manager?" },
+      { "speaker": "Quang (Candidate)", "voice": "male", "text": "No. It was a win-win. They now work well together, and we had no missed deadlines after that." }
+    ],
+    "questions": [
+      { "q": "What was the real cause of the conflict?", "options": ["A miscommunication about a deadline", "A bad code review", "A salary problem"], "answer": 0 },
+      { "q": "What did Quang do first?", "options": ["He told the manager", "He suggested a short break", "He moved one developer to another team"], "answer": 1 },
+      { "q": "What was the final result?", "options": ["One developer left the company", "The manager made the decision", "They agreed on a shared deadline board"], "answer": 2 }
+    ]
+  },
+  "shadowing": [
+    "Two teammates had a heated argument because of a miscommunication about the deadline.",
+    "First, I suggested a short break so everyone could calm down a little.",
+    "Then I had a one-on-one chat with each person to hear their perspective.",
+    "I stayed neutral and helped them agree on one shared deadline board.",
+    "As a result, we found a win-win solution and missed no deadlines after that."
+  ]
+}
